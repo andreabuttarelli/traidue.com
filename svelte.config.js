@@ -5,10 +5,9 @@ import { mdsvex } from 'mdsvex';
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
 	extensions: ['.md'],
-	// TODO: uncomment when WikiLayout.svelte is created (Task 3/4)
-	// layout: {
-	// 	wiki: 'src/lib/components/wiki/WikiLayout.svelte'
-	// }
+	layout: {
+		_: 'src/lib/components/wiki/WikiLayout.svelte'
+	}
 };
 
 /** @type {import('@sveltejs/kit').Config} */
