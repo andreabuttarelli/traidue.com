@@ -37,7 +37,7 @@
 <StructuredData schema={websiteSchema} />
 
 <!-- Hero -->
-<section class="border-b border-border">
+<section>
 	<div class="w-full px-6 lg:px-12 py-24 lg:py-32">
 		<h1 class="text-5xl lg:text-7xl font-heading font-bold text-primary mb-6 tracking-tight max-w-3xl">
 			Tra i Due
@@ -48,13 +48,13 @@
 		<div class="flex gap-4">
 			<a
 				href="/wiki"
-				class="px-6 py-3 bg-primary text-white text-sm font-medium hover:bg-primary/80 transition"
+				class="px-6 py-3 bg-primary text-bg text-sm font-medium hover:bg-primary/80 transition"
 			>
 				Esplora la Wiki
 			</a>
 			<a
 				href="/quiz"
-				class="px-6 py-3 border border-primary text-sm font-medium text-primary hover:bg-primary hover:text-white transition"
+				class="px-6 py-3 border border-primary text-sm font-medium text-primary hover:bg-primary hover:text-bg transition"
 			>
 				Fai un Quiz
 			</a>
@@ -63,14 +63,14 @@
 </section>
 
 <!-- Categorie -->
-<section class="border-b border-border">
+<section>
 	<div class="w-full px-6 lg:px-12 py-16">
 		<h2 class="text-2xl font-heading font-bold text-primary mb-8">Esplora per categoria</h2>
 		<div class="grid gap-0 sm:grid-cols-2 lg:grid-cols-4">
 			{#each categories as cat}
 				<a
 					href={cat.href}
-					class="block py-4 pr-8 border-b sm:border-b-0 sm:border-r border-border last:border-0 hover:pl-2 transition-all"
+					class="block py-4 pr-8 hover:pl-2 transition-all"
 				>
 					<h3 class="font-heading font-semibold text-primary mb-1">{cat.name}</h3>
 					<p class="text-sm text-muted">{cat.description}</p>
@@ -82,7 +82,7 @@
 
 <!-- Articoli in evidenza -->
 {#if data.featuredArticles.length > 0}
-	<section class="border-b border-border">
+	<section>
 		<div class="w-full px-6 lg:px-12 py-16">
 			<div class="flex items-center justify-between mb-4">
 				<h2 class="text-2xl font-heading font-bold text-primary">Articoli in evidenza</h2>
@@ -99,7 +99,7 @@
 
 <!-- Quiz -->
 {#if data.featuredQuizzes.length > 0}
-	<section class="border-b border-border">
+	<section>
 		<div class="w-full px-6 lg:px-12 py-16">
 			<div class="flex items-center justify-between mb-4">
 				<h2 class="text-2xl font-heading font-bold text-primary">Mettiti alla prova</h2>
@@ -124,7 +124,7 @@
 		</p>
 		<a
 			href="/wiki"
-			class="px-6 py-3 bg-primary text-white text-sm font-medium hover:bg-primary/80 transition"
+			class="px-6 py-3 bg-primary text-bg text-sm font-medium hover:bg-primary/80 transition"
 		>
 			Vai alla Wiki
 		</a>

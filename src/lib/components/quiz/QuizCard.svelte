@@ -6,7 +6,7 @@
 
 <a
 	href="/quiz/{quiz.slug}"
-	class="block py-5 border-b border-border hover:pl-2 transition-all"
+	class="block py-5 hover:pl-2 transition-all"
 >
 	<div class="flex items-center gap-3 mb-1.5">
 		<span class="text-xs text-muted uppercase tracking-wide">

@@ -21,7 +21,6 @@
 			text: h.textContent || '',
 			level: parseInt(h.tagName[1])
 		}));
-		// Set IDs on headings that don't have them
 		headings.forEach((h, i) => {
 			if (!h.id && items[i]) {
 				h.id = items[i].id;
@@ -34,14 +33,14 @@
 	<!-- Mobile: collapsible -->
 	<div class="lg:hidden mb-8">
 		<button
-			class="flex items-center gap-2 text-sm font-medium text-primary"
+			class="flex items-center gap-2 text-sm text-muted"
 			onclick={() => (isOpen = !isOpen)}
 		>
 			<span>Indice</span>
 			<span class="text-xs">{isOpen ? '▲' : '▼'}</span>
 		</button>
 		{#if isOpen}
-			<nav class="mt-3 pl-2 border-l-2 border-border">
+			<nav class="mt-3 pl-3">
 				{#each items as item}
 					<a
 						href="#{item.id}"
@@ -56,10 +55,10 @@
 		{/if}
 	</div>
 
-	<!-- Desktop: sticky sidebar -->
-	<nav class="hidden lg:block sticky top-24 self-start w-56 shrink-0">
-		<p class="text-sm font-semibold text-primary mb-3">Indice</p>
-		<div class="border-l-2 border-border pl-3">
+	<!-- Desktop: sticky sidebar on the left -->
+	<nav class="hidden lg:block sticky top-20 self-start w-52 shrink-0">
+		<p class="text-xs uppercase tracking-wider text-muted mb-3">Indice</p>
+		<div class="pl-3">
 			{#each items as item}
 				<a
 					href="#{item.id}"
