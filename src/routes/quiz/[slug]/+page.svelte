@@ -31,7 +31,7 @@
 
 <StructuredData schema={quizSchema} />
 
-<div class="max-w-4xl mx-auto px-4 py-10">
+<div class="w-full px-6 lg:px-12 py-12">
 	<Breadcrumb
 		items={[
 			{ label: 'Home', href: '/' },

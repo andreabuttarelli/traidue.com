@@ -6,14 +6,14 @@
 
 <a
 	href="/quiz/{quiz.slug}"
-	class="block bg-card rounded-xl border border-border p-6 hover:shadow-md transition"
+	class="block py-5 border-b border-border hover:pl-2 transition-all"
 >
-	<div class="flex items-center gap-2 mb-3">
-		<span class="text-xs bg-accent/20 text-primary px-2.5 py-0.5 rounded-full capitalize">
+	<div class="flex items-center gap-3 mb-1.5">
+		<span class="text-xs text-muted uppercase tracking-wide">
 			{quiz.category}
 		</span>
-		<span class="text-sm text-muted">{quiz.questions.length} domande</span>
+		<span class="text-xs text-muted">{quiz.questions.length} domande</span>
 	</div>
-	<h2 class="text-lg font-heading font-semibold text-primary mb-2">{quiz.title}</h2>
+	<h2 class="text-lg font-heading font-semibold text-primary mb-1">{quiz.title}</h2>
 	<p class="text-muted text-sm line-clamp-2">{quiz.description}</p>
 </a>

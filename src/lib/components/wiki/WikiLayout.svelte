@@ -12,11 +12,11 @@
 	} = $props();
 </script>
 
-<article class="max-w-prose mx-auto px-4 py-12">
+<article class="max-w-prose">
 	<header class="mb-8">
 		<div class="flex items-center gap-2 text-sm text-muted mb-3">
-			<a href="/wiki" class="hover:text-primary">Wiki</a>
-			<span>›</span>
+			<a href="/wiki" class="hover:text-primary transition">Wiki</a>
+			<span>/</span>
 			<span class="capitalize">{category}</span>
 		</div>
 		<h1 class="text-4xl font-heading font-bold text-primary mb-3">{title}</h1>
@@ -27,9 +27,9 @@
 			{/if}
 		</p>
 		{#if tags.length > 0}
-			<div class="flex flex-wrap gap-2 mt-3">
+			<div class="flex flex-wrap gap-3 mt-3">
 				{#each tags as tag}
-					<span class="text-xs bg-primary/5 text-primary px-2 py-0.5 rounded-full">{tag}</span>
+					<span class="text-xs text-muted uppercase tracking-wide">{tag}</span>
 				{/each}
 			</div>
 		{/if}
@@ -45,7 +45,7 @@
 			<ul class="space-y-2">
 				{#each sources as source}
 					<li>
-						<a href={source.url} target="_blank" rel="noopener noreferrer" class="text-info hover:underline">
+						<a href={source.url} target="_blank" rel="noopener noreferrer" class="text-primary underline hover:no-underline">
 							{source.title}
 						</a>
 						{#if source.year}

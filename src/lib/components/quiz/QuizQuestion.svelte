@@ -21,17 +21,17 @@
 	}
 
 	function getOptionClass(index: number): string {
-		const base = 'w-full text-left px-4 py-3 rounded-lg border-2 transition-all duration-200';
+		const base = 'w-full text-left px-4 py-3 border-b border-border transition-all duration-200';
 		if (!answered) {
-			return `${base} border-border hover:border-accent hover:bg-accent/5 cursor-pointer`;
+			return `${base} hover:pl-6 cursor-pointer`;
 		}
 		if (index === question.correct) {
-			return `${base} border-success bg-success/5`;
+			return `${base} font-medium`;
 		}
 		if (index === selectedAnswer && index !== question.correct) {
-			return `${base} border-error bg-error/5`;
+			return `${base} line-through text-muted`;
 		}
-		return `${base} border-border opacity-50`;
+		return `${base} text-muted`;
 	}
 
 	function next() {
@@ -45,7 +45,7 @@
 	<p class="text-sm text-muted mb-2">Domanda {questionNumber}</p>
 	<h2 class="text-xl font-heading font-semibold text-primary mb-6">{question.text}</h2>
 
-	<div class="space-y-3">
+	<div>
 		{#each question.options as option, i}
 			<button
 				class={getOptionClass(i)}
@@ -58,18 +58,18 @@
 	</div>
 
 	{#if answered}
-		<div class="mt-6 p-4 rounded-lg bg-card border border-border">
-			<p class="text-sm font-medium mb-1 {selectedAnswer === question.correct ? 'text-success' : 'text-error'}">
-				{selectedAnswer === question.correct ? 'Corretto!' : 'Sbagliato!'}
+		<div class="mt-6 border-l-2 border-primary pl-4">
+			<p class="text-sm font-medium mb-1">
+				{selectedAnswer === question.correct ? 'Corretto.' : 'Sbagliato.'}
 			</p>
 			<p class="text-sm text-muted">{question.explanation}</p>
 		</div>
 
 		<button
-			class="mt-6 px-6 py-2.5 bg-primary text-white rounded-lg font-medium hover:bg-primary/90 transition"
+			class="mt-6 px-6 py-2.5 bg-primary text-white text-sm font-medium hover:bg-primary/80 transition"
 			onclick={next}
 		>
-			Prossima domanda →
+			Prossima domanda
 		</button>
 	{/if}
 </div>

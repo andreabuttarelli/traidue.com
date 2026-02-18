@@ -44,12 +44,12 @@
 
 <div class="max-w-2xl mx-auto">
 	{#if phase === 'intro'}
-		<div class="text-center py-12">
+		<div class="py-16">
 			<h1 class="text-3xl font-heading font-bold text-primary mb-3">{quiz.title}</h1>
 			<p class="text-muted mb-2">{quiz.description}</p>
 			<p class="text-sm text-muted mb-8">{quiz.questions.length} domande</p>
 			<button
-				class="px-8 py-3 bg-primary text-white rounded-lg font-medium text-lg hover:bg-primary/90 transition"
+				class="px-8 py-3 bg-primary text-white text-sm font-medium hover:bg-primary/80 transition"
 				onclick={start}
 			>
 				Inizia il quiz

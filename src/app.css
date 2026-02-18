@@ -1,18 +1,42 @@
 @import "tailwindcss";
 
 @theme {
-	--color-primary: #1a1a2e;
-	--color-accent: #f4a4b8;
-	--color-bg: #fafaf8;
-	--color-text: #2d2d2d;
-	--color-border: #e5e5e3;
-	--color-muted: #6b6b6b;
+	--color-primary: #111111;
+	--color-bg: #ffffff;
+	--color-text: #111111;
+	--color-border: #e5e5e5;
+	--color-muted: #777777;
 	--color-card: #ffffff;
-	--color-success: #22c55e;
-	--color-error: #ef4444;
-	--color-info: #3b82f6;
-	--color-warning: #f59e0b;
+	--color-success: #111111;
+	--color-error: #111111;
+	--color-info: #111111;
+	--color-warning: #111111;
 
 	--font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-	--font-heading: 'Space Grotesk', var(--font-sans);
+	--font-heading: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+}
+
+/* Dark mode */
+.dark {
+	--color-primary: #f0f0f0;
+	--color-bg: #0a0a0a;
+	--color-text: #e5e5e5;
+	--color-border: #2a2a2a;
+	--color-muted: #888888;
+	--color-card: #0a0a0a;
+	--color-success: #f0f0f0;
+	--color-error: #f0f0f0;
+	--color-info: #f0f0f0;
+	--color-warning: #f0f0f0;
+}
+
+/* Base text size increase */
+html {
+	font-size: 17px;
+}
+
+@media (min-width: 1024px) {
+	html {
+		font-size: 18px;
+	}
 }

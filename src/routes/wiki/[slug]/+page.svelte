@@ -32,8 +32,8 @@
 
 <StructuredData schema={articleSchema} />
 
-<div class="max-w-5xl mx-auto px-4 py-12 flex gap-12">
-	<div class="flex-1 min-w-0">
+<div class="w-full px-6 lg:px-12 py-12 flex gap-16">
+	<div class="flex-1 min-w-0 max-w-prose">
 		<data.Content />
 	</div>
 	<TOC />
