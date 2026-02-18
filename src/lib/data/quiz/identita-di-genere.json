@@ -1,0 +1,68 @@
+{
+	"slug": "identita-di-genere",
+	"title": "Quanto ne sai di identità di genere?",
+	"description": "Metti alla prova le tue conoscenze sull'identità di genere con questo quiz.",
+	"category": "terminologia",
+	"questions": [
+		{
+			"text": "Qual è la differenza tra sesso biologico e genere?",
+			"options": [
+				"Sono sinonimi",
+				"Il sesso è biologico, il genere riguarda l'identità personale e sociale",
+				"Il genere è determinato dai cromosomi",
+				"Il sesso è una scelta, il genere no"
+			],
+			"correct": 1,
+			"explanation": "Il sesso biologico si riferisce a caratteristiche fisiche (cromosomi, ormoni, anatomia), mentre il genere riguarda l'identità personale e il ruolo sociale."
+		},
+		{
+			"text": "L'identità di genere è determinata da:",
+			"options": [
+				"Solo i cromosomi",
+				"Solo l'educazione ricevuta",
+				"Una combinazione di fattori biologici e psicosociali",
+				"La scelta personale"
+			],
+			"correct": 2,
+			"explanation": "Le ricerche mostrano che l'identità di genere emerge dall'interazione di fattori biologici (neurologici, genetici, ormonali) e psicosociali."
+		},
+		{
+			"text": "Cosa significa 'non-binary'?",
+			"options": [
+				"Non identificarsi né come uomo né come donna, o identificarsi con entrambi",
+				"Non avere un genere",
+				"Cambiare genere frequentemente",
+				"Rifiutare il concetto di genere"
+			],
+			"correct": 0,
+			"explanation": "Non-binary (o non binario) indica chi non si riconosce esclusivamente nel binarismo uomo/donna. Include varie esperienze di genere."
+		},
+		{
+			"text": "Quale organizzazione ha rimosso la transessualità dalla lista delle malattie mentali?",
+			"options": [
+				"ONU",
+				"FDA",
+				"OMS (WHO)",
+				"APA"
+			],
+			"correct": 2,
+			"explanation": "L'OMS (Organizzazione Mondiale della Sanità) nell'ICD-11 (2019) ha riclassificato la condizione come 'incongruenza di genere', rimuovendola dal capitolo sui disturbi mentali."
+		},
+		{
+			"text": "La disforia di genere è:",
+			"options": [
+				"Una malattia mentale",
+				"Il disagio che può derivare dall'incongruenza tra identità di genere e sesso assegnato alla nascita",
+				"Sinonimo di essere transgender",
+				"Una scelta consapevole"
+			],
+			"correct": 1,
+			"explanation": "La disforia di genere è il disagio clinicamente significativo che alcune persone trans possono provare. Non tutte le persone trans sperimentano disforia."
+		}
+	],
+	"levels": [
+		{ "min": 0, "max": 30, "label": "Principiante", "message": "Hai ancora tanto da scoprire! Dai un'occhiata ai nostri articoli nella sezione Wiki." },
+		{ "min": 31, "max": 70, "label": "Informato/a", "message": "Buona base di conoscenze! Approfondisci con i nostri articoli scientifici." },
+		{ "min": 71, "max": 100, "label": "Esperto/a", "message": "Ottima conoscenza! Continua ad aggiornarti con noi." }
+	]
+}
