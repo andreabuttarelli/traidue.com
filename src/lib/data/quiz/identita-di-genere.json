@@ -58,6 +58,61 @@
 			],
 			"correct": 1,
 			"explanation": "La disforia di genere è il disagio clinicamente significativo che alcune persone trans possono provare. Non tutte le persone trans sperimentano disforia."
+		},
+		{
+			"text": "Negli studi sui gemelli, è più probabile che entrambi siano trans se sono:",
+			"options": [
+				"Dizigoti (fraterni)",
+				"Monozigoti (identici)",
+				"Non c'è differenza",
+				"Non esistono studi in merito"
+			],
+			"correct": 1,
+			"explanation": "I gemelli monozigoti mostrano una concordanza significativamente maggiore per l'identità transgender, indicando una forte componente genetica e biologica."
+		},
+		{
+			"text": "Cosa succede ai livelli di emoglobina durante la terapia ormonale per le donne trans?",
+			"options": [
+				"Aumentano",
+				"Restano invariati",
+				"Scendono ai livelli tipici femminili",
+				"Dipende dall'età"
+			],
+			"correct": 2,
+			"explanation": "Gli estrogeni riducono la produzione di globuli rossi. I livelli di emoglobina delle donne trans in terapia si avvicinano a quelli tipici delle donne cisgender."
+		},
+		{
+			"text": "Quale di questi aspetti NON viene modificato dalla terapia ormonale?",
+			"options": [
+				"La distribuzione del grasso corporeo",
+				"Il cariotipo (cromosomi)",
+				"Il profilo ormonale",
+				"La massa muscolare"
+			],
+			"correct": 1,
+			"explanation": "I cromosomi (es. XX, XY) non vengono modificati dalla terapia ormonale. Tuttavia, la maggior parte degli altri aspetti biologici cambia in modo significativo."
+		},
+		{
+			"text": "La varianza di genere nella storia umana è:",
+			"options": [
+				"Un fenomeno esclusivamente occidentale e recente",
+				"Documentata in numerose culture e in ogni epoca storica",
+				"Comparsa solo dopo il XX secolo",
+				"Presente solo nelle società industrializzate"
+			],
+			"correct": 1,
+			"explanation": "La varianza di genere è stata documentata in culture diverse in ogni continente: le hijra in India, le two-spirit nelle culture native americane, le fa'afafine in Samoa, tra molte altre."
+		},
+		{
+			"text": "Nell'ICD-11, l'OMS ha riclassificato l'incongruenza di genere:",
+			"options": [
+				"Come disturbo della personalità",
+				"Come condizione relativa alla salute sessuale, non un disturbo mentale",
+				"Come disturbo dello sviluppo neurologico",
+				"Non è presente nell'ICD-11"
+			],
+			"correct": 1,
+			"explanation": "L'ICD-11 (2022) ha spostato l'incongruenza di genere dal capitolo sui disturbi mentali a quello sulle condizioni relative alla salute sessuale, riconoscendo che non si tratta di una patologia mentale."
 		}
 	],
 	"levels": [

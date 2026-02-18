@@ -1,6 +1,5 @@
 <script lang="ts">
 	import SEO from '$lib/components/seo/SEO.svelte';
-	import Breadcrumb from '$lib/components/ui/Breadcrumb.svelte';
 	import QuizCard from '$lib/components/quiz/QuizCard.svelte';
 
 	let { data } = $props();
@@ -12,17 +11,17 @@
 	url="https://traidue.com/quiz"
 />
 
-<div class="w-full px-6 lg:px-12 py-12">
-	<Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Quiz' }]} />
-
-	<h1 class="text-4xl font-heading font-bold text-primary mb-3">Quiz</h1>
-	<p class="text-muted mb-10 max-w-lg">
-		Metti alla prova le tue conoscenze sulle tematiche trans. Ogni quiz ti darà un punteggio e
-		suggerimenti per approfondire.
-	</p>
+<div class="w-full px-4 sm:px-6 lg:px-12">
+	<div class="py-10 sm:py-16 lg:py-20 text-center flex flex-col items-center">
+		<h1 class="text-3xl sm:text-4xl lg:text-5xl font-heading font-semibold tracking-tight text-primary mb-3">Quiz</h1>
+		<p class="text-muted mb-0 max-w-md">
+			Metti alla prova le tue conoscenze sulle tematiche trans. Ogni quiz ti darà un punteggio e
+			suggerimenti per approfondire.
+		</p>
+	</div>
 
 	{#if data.quizzes.length > 0}
-		<div class="grid lg:grid-cols-2 gap-x-12">
+		<div class="grid sm:grid-cols-2 gap-3 sm:gap-4">
 			{#each data.quizzes as quiz}
 				<QuizCard {quiz} />
 			{/each}

@@ -6,6 +6,7 @@
 	}
 
 	let items = $state<TOCItem[]>([]);
+	let activeId = $state('');
 	let isOpen = $state(false);
 
 	$effect(() => {
@@ -26,6 +27,21 @@
 				h.id = items[i].id;
 			}
 		});
+
+		const observer = new IntersectionObserver(
+			(entries) => {
+				for (const entry of entries) {
+					if (entry.isIntersecting) {
+						activeId = entry.target.id;
+					}
+				}
+			},
+			{ rootMargin: '-80px 0px -70% 0px' }
+		);
+
+		headings.forEach((h) => observer.observe(h));
+
+		return () => observer.disconnect();
 	});
 </script>
 
@@ -44,10 +60,9 @@
 				{#each items as item}
 					<a
 						href="#{item.id}"
-						class="block text-sm py-1 text-muted hover:text-primary transition {item.level === 3
-							? 'pl-4'
-							: ''}"
+						class="flex items-center gap-2 text-sm py-1 transition {item.level === 3 ? 'pl-4' : ''} {activeId === item.id ? 'text-primary' : 'text-muted hover:text-primary'}"
 					>
+						<span class="w-1.5 h-1.5 shrink-0 rounded-full bg-primary transition-opacity {activeId === item.id ? 'opacity-100' : 'opacity-0'}"></span>
 						{item.text}
 					</a>
 				{/each}
@@ -62,10 +77,9 @@
 			{#each items as item}
 				<a
 					href="#{item.id}"
-					class="block text-sm py-1 text-muted hover:text-primary transition {item.level === 3
-						? 'pl-3'
-						: ''}"
+					class="flex items-center gap-2 text-sm py-1 transition {item.level === 3 ? 'pl-3' : ''} {activeId === item.id ? 'text-primary' : 'text-muted hover:text-primary'}"
 				>
+					<span class="w-1.5 h-1.5 shrink-0 rounded-full bg-primary transition-opacity {activeId === item.id ? 'opacity-100' : 'opacity-0'}"></span>
 					{item.text}
 				</a>
 			{/each}

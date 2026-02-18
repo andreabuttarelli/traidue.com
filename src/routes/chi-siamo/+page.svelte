@@ -23,18 +23,18 @@
 
 <StructuredData schema={organizationSchema} />
 
-<div class="w-full px-6 lg:px-12 py-12">
+<div class="w-full px-4 sm:px-6 lg:px-12 py-8 sm:py-12">
 	<Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Chi Siamo' }]} />
 
-	<header class="mb-16">
-		<h1 class="text-4xl font-heading font-bold text-primary mb-4">Chi Siamo</h1>
+	<header class="mb-10 sm:mb-16">
+		<h1 class="text-2xl sm:text-3xl lg:text-4xl font-heading font-semibold tracking-tight text-primary mb-4">Chi Siamo</h1>
 		<p class="text-lg text-muted leading-relaxed max-w-xl">
 			<strong class="text-primary">Tra i Due</strong> nasce con l'obiettivo di offrire informazione chiara, accessibile e
 			scientificamente rigorosa sulle tematiche trans.
 		</p>
 	</header>
 
-	<div class="max-w-prose space-y-16">
+	<div class="max-w-prose space-y-10 sm:space-y-16">
 		<section>
 			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">Missione</h2>
 			<div class="space-y-4 text-text leading-relaxed">

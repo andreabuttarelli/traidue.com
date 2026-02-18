@@ -42,3 +42,16 @@ export function getArticleBySlug(slug: string): WikiEntry | null {
 
 	return null;
 }
+
+export function getRawArticleBySlug(slug: string): string | null {
+	const modules = import.meta.glob<string>('/src/content/wiki/**/*.md', { eager: true, query: '?raw', import: 'default' });
+
+	for (const [path, content] of Object.entries(modules)) {
+		const fileSlug = path.split('/').pop()?.replace('.md', '') ?? '';
+		if (fileSlug === slug) {
+			return content;
+		}
+	}
+
+	return null;
+}

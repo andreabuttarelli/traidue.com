@@ -6,7 +6,7 @@
 
 <a
 	href="/wiki/{article.slug}"
-	class="block py-5 hover:pl-2 transition-all"
+	class="block p-5 rounded-xl border border-border hover:border-primary/30 transition-all"
 >
 	<div class="flex items-center gap-3 mb-1.5">
 		<span class="text-xs text-muted uppercase tracking-wide">

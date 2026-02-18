@@ -1,8 +1,12 @@
-<footer class="border-t border-border">
-	<div class="w-full px-6 lg:px-12 py-12">
+<script lang="ts">
+	import Logo from './Logo.svelte';
+</script>
+
+<footer>
+	<div class="w-full px-4 sm:px-6 lg:px-12 py-8 sm:py-12">
 		<div class="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-12">
 			<div>
-				<p class="font-heading text-lg font-bold text-primary mb-2">Tra i Due</p>
+				<p class="text-lg text-primary mb-2"><Logo /></p>
 				<p class="text-sm text-muted leading-relaxed">
 					Informazione accessibile e verificata sulle tematiche trans.
 				</p>

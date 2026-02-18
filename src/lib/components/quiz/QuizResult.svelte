@@ -18,14 +18,14 @@
 
 <div class="text-center max-w-md mx-auto">
 	<div class="mb-8">
-		<div class="text-6xl font-heading font-bold text-primary mb-2">{score}%</div>
-		<div class="text-xl font-heading font-semibold text-primary mb-2">{level.label}</div>
+		<div class="text-4xl sm:text-6xl font-heading font-semibold tracking-tight text-primary mb-2">{score}%</div>
+		<div class="text-lg sm:text-xl font-heading font-semibold text-primary mb-2">{level.label}</div>
 		<p class="text-muted">{level.message}</p>
 	</div>
 
 	<div class="border-t border-b border-border py-6 mb-8">
 		<div class="text-sm text-muted mb-1">Risposte corrette</div>
-		<div class="text-3xl font-heading font-bold text-primary">
+		<div class="text-2xl sm:text-3xl font-heading font-semibold tracking-tight text-primary">
 			{correctAnswers} / {totalQuestions}
 		</div>
 	</div>

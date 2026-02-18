@@ -45,7 +45,7 @@
 <div class="max-w-2xl mx-auto">
 	{#if phase === 'intro'}
 		<div class="py-16">
-			<h1 class="text-3xl font-heading font-bold text-primary mb-3">{quiz.title}</h1>
+			<h1 class="text-3xl font-heading font-semibold tracking-tight text-primary mb-3">{quiz.title}</h1>
 			<p class="text-muted mb-2">{quiz.description}</p>
 			<p class="text-sm text-muted mb-8">{quiz.questions.length} domande</p>
 			<button
