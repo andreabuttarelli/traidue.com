@@ -6,6 +6,7 @@ category: "percorsi"
 tags: ["privacy", "GDPR", "deadnaming", "documenti", "tutele"]
 date: "2026-02-18"
 updated: "2026-02-18"
+image: "/images/wiki/privacy-identita-di-genere.png"
 sources:
   - title: "Agenda Digitale - Privacy e identità di genere: come gestire i dati sensibili in linea col GDPR"
     url: "https://www.agendadigitale.eu/sicurezza/privacy/privacy-e-identita-di-genere-come-gestire-i-dati-sensibili-in-linea-col-gdpr/"

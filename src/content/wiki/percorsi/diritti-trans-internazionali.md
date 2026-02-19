@@ -6,6 +6,7 @@ category: "percorsi"
 tags: ["diritti", "legislazione", "internazionale", "riconoscimento giuridico"]
 date: "2026-02-18"
 updated: "2026-02-18"
+image: "/images/wiki/diritti-trans-internazionali.png"
 sources:
   - title: "ILGA World - Trans Legal Mapping Report"
     url: "https://ilga.org/trans-legal-mapping-report/"

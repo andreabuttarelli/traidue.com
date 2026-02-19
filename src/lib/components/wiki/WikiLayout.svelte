@@ -7,10 +7,35 @@
 		tags = [],
 		date,
 		updated,
+		image,
 		sources = [],
 		related = [],
 		children
 	} = $props();
+
+	let proseEl: HTMLDivElement;
+
+	$effect(() => {
+		if (!proseEl) return;
+		const headings = proseEl.querySelectorAll('h2, h3');
+		for (const h of headings) {
+			if (h.querySelector('.heading-link')) continue;
+			const id = h.id;
+			if (!id) continue;
+			const btn = document.createElement('a');
+			btn.href = `#${id}`;
+			btn.className = 'heading-link';
+			btn.title = 'Copia link alla sezione';
+			btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>';
+			btn.onclick = (e) => {
+				e.preventDefault();
+				const url = `${window.location.origin}${window.location.pathname}#${id}`;
+				navigator.clipboard.writeText(url);
+				window.location.hash = id;
+			};
+			h.appendChild(btn);
+		}
+	});
 
 	function relativeDate(dateStr: string): string {
 		const now = new Date();
@@ -56,13 +81,19 @@
 			</div>
 		</div>
 		<h1 class="text-2xl sm:text-3xl lg:text-4xl font-heading font-semibold tracking-tight text-primary mb-3">{title}</h1>
-		<p class="text-muted text-sm">
-			{#if updated && updated !== date}
-				Aggiornato {relativeDate(updated)}
-			{:else}
-				Pubblicato {relativeDate(date)}
+		<div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted mt-1">
+			<span>
+				{#if updated && updated !== date}
+					Aggiornato {relativeDate(updated)}
+				{:else}
+					Pubblicato {relativeDate(date)}
+				{/if}
+			</span>
+			{#if sources.length > 0}
+				<span>&middot;</span>
+				<span>{sources.length} fonti citate</span>
 			{/if}
-		</p>
+		</div>
 		{#if tags.length > 0}
 			<div class="flex flex-wrap gap-2 mt-3">
 				{#each tags as tag}
@@ -72,7 +103,17 @@
 		{/if}
 	</header>
 
-	<div class="prose prose-lg max-w-none">
+	{#if image}
+		<div class="rounded-xl overflow-hidden mb-8 sm:mb-10">
+			<img
+				src={image}
+				alt=""
+				class="w-full aspect-[16/9] object-cover"
+			/>
+		</div>
+	{/if}
+
+	<div class="prose prose-lg max-w-none" bind:this={proseEl}>
 		{@render children()}
 	</div>
 

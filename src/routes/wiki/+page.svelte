@@ -73,7 +73,7 @@
 		</div>
 	</div>
 
-	<div class="grid sm:grid-cols-2 gap-3 sm:gap-4">
+	<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-14 sm:gap-x-8 sm:gap-y-16">
 		{#each filteredArticles as article}
 			<ArticleCard {article} />
 		{:else}

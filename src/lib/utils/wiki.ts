@@ -6,6 +6,7 @@ export interface WikiArticle {
 	tags: string[];
 	date: string;
 	updated: string;
+	image?: string;
 	sources: { title: string; url: string; year: number }[];
 	related: string[];
 }

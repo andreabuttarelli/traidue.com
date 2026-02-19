@@ -6,6 +6,7 @@ category: "cultura"
 tags: ["storia", "movimento", "Stonewall", "attivismo", "diritti"]
 date: "2026-02-18"
 updated: "2026-02-18"
+image: "/images/wiki/storia-movimento-trans.png"
 sources:
   - title: "The Forgotten History of the World's First Trans Clinic - Scientific American"
     url: "https://www.scientificamerican.com/article/the-forgotten-history-of-the-worlds-first-trans-clinic/"

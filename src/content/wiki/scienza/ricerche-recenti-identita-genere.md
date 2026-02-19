@@ -6,6 +6,7 @@ category: "scienza"
 tags: ["ricerca", "neuroscienze", "studi recenti", "identità di genere"]
 date: "2026-02-18"
 updated: "2026-02-18"
+image: "/images/wiki/ricerche-recenti-identita-genere.png"
 sources:
   - title: "ENIGMA Transgender Persons Working Group — Mega-Analytic Findings"
     url: "https://pubmed.ncbi.nlm.nih.gov/34030966/"

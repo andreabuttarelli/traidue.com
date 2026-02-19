@@ -6,6 +6,7 @@ category: "scienza"
 tags: ["transizione", "terapia ormonale", "endocrinologia", "corpo", "HRT"]
 date: "2026-02-18"
 updated: "2026-02-18"
+image: "/images/wiki/transizione-medica-cosa-cambia.png"
 sources:
   - title: "Endocrine Treatment of Gender-Dysphoric/Gender-Incongruent Persons: An Endocrine Society Clinical Practice Guideline"
     url: "https://academic.oup.com/jcem/article/102/11/3869/4157558"

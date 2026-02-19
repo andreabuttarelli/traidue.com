@@ -147,6 +147,33 @@ article .prose blockquote {
 	font-style: italic;
 }
 
+/* Heading anchor links */
+article .prose h2,
+article .prose h3 {
+	position: relative;
+}
+
+article .prose .heading-link {
+	display: inline-flex;
+	align-items: center;
+	margin-left: 0.4em;
+	color: var(--color-muted);
+	opacity: 0;
+	transition: opacity 0.15s;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+article .prose .heading-link:hover {
+	color: var(--color-primary);
+	text-decoration: none;
+}
+
+article .prose h2:hover .heading-link,
+article .prose h3:hover .heading-link {
+	opacity: 1;
+}
+
 /* General body text */
 body {
 	font-weight: 400;
