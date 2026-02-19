@@ -8,7 +8,7 @@
 <SEO
 	title="Quiz"
 	description="Metti alla prova le tue conoscenze sulle tematiche trans con i nostri quiz interattivi."
-	url="https://traidue.com/quiz"
+	url="https://www.traidue.com/quiz"
 />
 
 <div class="w-full px-4 sm:px-6 lg:px-12">

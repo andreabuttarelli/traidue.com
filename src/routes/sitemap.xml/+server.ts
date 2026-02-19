@@ -11,7 +11,9 @@ export async function GET() {
 		{ url: '', priority: '1.0', changefreq: 'weekly' },
 		{ url: '/wiki', priority: '0.9', changefreq: 'weekly' },
 		{ url: '/quiz', priority: '0.8', changefreq: 'monthly' },
-		{ url: '/chi-siamo', priority: '0.5', changefreq: 'monthly' }
+		{ url: '/chi-siamo', priority: '0.5', changefreq: 'monthly' },
+		{ url: '/privacy', priority: '0.3', changefreq: 'yearly' },
+		{ url: '/termini', priority: '0.3', changefreq: 'yearly' }
 	];
 
 	const articleUrls = articles.map((a) => ({
@@ -34,7 +36,7 @@ export async function GET() {
 ${allUrls
 	.map(
 		(u) => `  <url>
-    <loc>https://traidue.com${u.url}</loc>
+    <loc>https://www.traidue.com${u.url}</loc>
     <priority>${u.priority}</priority>
     <changefreq>${u.changefreq}</changefreq>${'lastmod' in u ? `\n    <lastmod>${u.lastmod}</lastmod>` : ''}
   </url>`
@@ -44,7 +46,7 @@ ${allUrls
 
 	return new Response(sitemap, {
 		headers: {
-			'Content-Type': 'application/xml'
+			'Content-Type': 'application/xml; charset=utf-8'
 		}
 	});
 }

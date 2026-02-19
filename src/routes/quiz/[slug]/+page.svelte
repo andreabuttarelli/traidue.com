@@ -26,7 +26,7 @@
 <SEO
 	title={data.quiz.title}
 	description={data.quiz.description}
-	url="https://traidue.com/quiz/{data.quiz.slug}"
+	url="https://www.traidue.com/quiz/{data.quiz.slug}"
 />
 
 <StructuredData schema={quizSchema} />

@@ -20,7 +20,7 @@
 <SEO
 	title={data.metadata.title}
 	description={data.metadata.description}
-	url="https://traidue.com/wiki/{data.metadata.slug}"
+	url="https://www.traidue.com/wiki/{data.metadata.slug}"
 	type="article"
 	article={{
 		publishedTime: data.metadata.date,

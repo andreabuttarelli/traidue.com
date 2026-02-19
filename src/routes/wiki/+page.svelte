@@ -38,7 +38,7 @@
 <SEO
 	title="Wiki"
 	description="Esplora la nostra wiki: articoli su identità di genere, scienza, percorsi e cultura trans."
-	url="https://traidue.com/wiki"
+	url="https://www.traidue.com/wiki"
 />
 
 <div class="w-full px-4 sm:px-6 lg:px-12">

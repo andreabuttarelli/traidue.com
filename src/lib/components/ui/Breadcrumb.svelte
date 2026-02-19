@@ -10,7 +10,7 @@
 			'@type': 'ListItem',
 			position: i + 1,
 			name: item.label,
-			...(item.href ? { item: `https://traidue.com${item.href}` } : {})
+			...(item.href ? { item: `https://www.traidue.com${item.href}` } : {})
 		}))
 	};
 </script>

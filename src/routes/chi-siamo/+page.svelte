@@ -7,18 +7,18 @@
 		'@context': 'https://schema.org',
 		'@type': 'Organization',
 		name: 'Tra i Due',
-		url: 'https://traidue.com',
+		url: 'https://www.traidue.com',
 		description:
 			'Informazione evidence-based sulle tematiche trans: identità di genere, scienza, percorsi e cultura.',
 		email: 'info@traidue.com',
-		sameAs: []
+		sameAs: ['https://github.com/andreabuttarelli/traidue.com']
 	};
 </script>
 
 <SEO
 	title="Chi Siamo"
 	description="Scopri la missione di Tra i Due: informare sulle tematiche trans con rigore scientifico, combattere la disinformazione e offrire una risorsa accessibile a tutti."
-	url="https://traidue.com/chi-siamo"
+	url="https://www.traidue.com/chi-siamo"
 />
 
 <StructuredData schema={organizationSchema} />
@@ -80,6 +80,31 @@
 				<p>
 					Questo approccio ci consente di offrire contenuti affidabili e di contribuire a una
 					discussione pubblica informata e basata sui fatti.
+				</p>
+			</div>
+		</section>
+
+		<section>
+			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">Open Source</h2>
+			<div class="space-y-4 text-text leading-relaxed">
+				<p>
+					Tra i Due è un progetto <strong>open source</strong>. Il codice sorgente, gli articoli e
+					tutti i contenuti sono pubblici e consultabili su GitHub.
+				</p>
+				<p>
+					Chiunque può contribuire: segnalare errori, proporre miglioramenti, aggiungere fonti o
+					scrivere nuovi articoli. La trasparenza non riguarda solo le fonti che citiamo, ma il
+					progetto stesso.
+				</p>
+				<p>
+					<a
+						href="https://github.com/andreabuttarelli/traidue.com"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="text-primary underline hover:no-underline"
+					>
+						github.com/andreabuttarelli/traidue.com
+					</a>
 				</p>
 			</div>
 		</section>

@@ -15,13 +15,13 @@ export function GET() {
 		'## Articoli Wiki',
 		'',
 		...articles.map(
-			(a) => `- [${a.title}](https://traidue.com/wiki/${a.slug}): ${a.description} [Markdown](https://traidue.com/wiki/${a.slug}/raw)`
+			(a) => `- [${a.title}](https://www.traidue.com/wiki/${a.slug}): ${a.description} [Markdown](https://www.traidue.com/wiki/${a.slug}/raw)`
 		),
 		'',
 		'## Quiz',
 		'',
 		...quizzes.map(
-			(q) => `- [${q.title}](https://traidue.com/quiz/${q.slug}): ${q.description}`
+			(q) => `- [${q.title}](https://www.traidue.com/quiz/${q.slug}): ${q.description}`
 		),
 		''
 	];

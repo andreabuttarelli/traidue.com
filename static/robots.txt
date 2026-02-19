@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://traidue.com/sitemap.xml
+Sitemap: https://www.traidue.com/sitemap.xml

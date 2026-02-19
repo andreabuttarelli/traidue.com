@@ -3,7 +3,7 @@
 		title,
 		description,
 		url,
-		image = 'https://traidue.com/og-image.png',
+		image = 'https://www.traidue.com/og-image.png',
 		type = 'website',
 		article
 	}: {

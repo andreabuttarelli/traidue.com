@@ -64,7 +64,7 @@
 			</div>
 			<div class="flex items-center gap-2">
 				<button
-					onclick={() => { navigator.clipboard.writeText(`https://traidue.com/wiki/${slug}`); }}
+					onclick={() => { navigator.clipboard.writeText(`https://www.traidue.com/wiki/${slug}`); }}
 					class="text-muted hover:text-primary transition p-1.5 sm:p-2 rounded-full border border-border"
 					title="Copia link articolo"
 				>

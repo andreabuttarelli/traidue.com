@@ -20,12 +20,12 @@
 		'@context': 'https://schema.org',
 		'@type': 'WebSite',
 		name: 'Tra i Due',
-		url: 'https://traidue.com',
+		url: 'https://www.traidue.com',
 		description: 'Informazione sulle tematiche trans: terminologia, scienza, percorsi e cultura.',
 		inLanguage: 'it',
 		potentialAction: {
 			'@type': 'SearchAction',
-			target: 'https://traidue.com/wiki?q={search_term_string}',
+			target: 'https://www.traidue.com/wiki?q={search_term_string}',
 			'query-input': 'required name=search_term_string'
 		}
 	};
@@ -47,7 +47,7 @@
 <SEO
 	title="Quello che non ti dicono sulle tematiche trans"
 	description="Tra i Due è una risorsa informativa sulle tematiche trans: terminologia, basi scientifiche, percorsi legali e cultura. {data.stats.articles} articoli, {data.stats.sources} fonti peer-reviewed."
-	url="https://traidue.com"
+	url="https://www.traidue.com"
 />
 
 <StructuredData schema={websiteSchema} />
