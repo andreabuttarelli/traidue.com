@@ -79,21 +79,38 @@
 	</div>
 </section>
 
-<!-- Miti e realtà -->
+<!-- Miti e Quiz -->
 <section>
 	<div class="w-full px-4 sm:px-6 lg:px-12 py-10 sm:py-16">
 		<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-2">Ecco cosa dicono. Ecco cosa dice la scienza.</h2>
 		<p class="text-muted text-sm mb-6 sm:mb-8">I miti più diffusi, smontati con le evidenze.</p>
-		<div class="grid gap-3 sm:gap-4 lg:grid-cols-3">
-			{#each myths as myth}
-				<div class="p-5 rounded-xl border border-border">
-					<p class="text-sm font-medium text-muted line-through mb-3">&laquo;{myth.claim}&raquo;</p>
-					<p class="text-sm text-primary leading-relaxed">{myth.truth}</p>
+		<div class="grid gap-6 lg:grid-cols-2">
+			<!-- Colonna miti -->
+			<div class="grid gap-3 sm:gap-4 content-start">
+				{#each myths as myth}
+					<div class="p-5 rounded-xl border border-border">
+						<p class="text-sm font-medium text-muted line-through mb-3">&laquo;{myth.claim}&raquo;</p>
+						<p class="text-sm text-primary leading-relaxed">{myth.truth}</p>
+					</div>
+				{/each}
+				<a href="/wiki/miti-comuni-persone-trans" class="text-sm text-muted hover:text-primary transition mt-1">Leggi tutti i falsi miti smontati &rarr;</a>
+			</div>
+			<!-- Colonna quiz -->
+			{#if data.featuredQuizzes.length > 0}
+				<div class="flex flex-col justify-center p-6 sm:p-8 rounded-xl border border-border">
+					<p class="text-sm text-muted uppercase tracking-wide mb-2">Mettiti alla prova</p>
+					<h3 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-3">E tu quanto ne sai?</h3>
+					<p class="text-muted text-sm mb-6">
+						{data.featuredQuizzes[0].questions.length} domande, risposte basate sulla ricerca scientifica. Scopri se sai distinguere i fatti dai miti.
+					</p>
+					<a
+						href="/quiz/{data.featuredQuizzes[0].slug}"
+						class="inline-block px-6 py-2.5 rounded-full bg-primary text-bg text-sm font-medium hover:bg-primary/80 transition self-start"
+					>
+						Inizia il quiz &rarr;
+					</a>
 				</div>
-			{/each}
-		</div>
-		<div class="mt-4 sm:mt-6">
-			<a href="/wiki/miti-comuni-persone-trans" class="text-sm text-muted hover:text-primary transition">Leggi tutti i falsi miti smontati &rarr;</a>
+			{/if}
 		</div>
 	</div>
 </section>
@@ -127,33 +144,6 @@
 			<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-14 sm:gap-x-8 sm:gap-y-16">
 				{#each data.featuredArticles as article}
 					<ArticleCard {article} />
-				{/each}
-			</div>
-		</div>
-	</section>
-{/if}
-
-<!-- Quiz -->
-{#if data.featuredQuizzes.length > 0}
-	<section>
-		<div class="w-full px-4 sm:px-6 lg:px-12 py-10 sm:py-16">
-			<div class="flex items-center justify-between mb-4 sm:mb-6">
-				<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary">Quanto ne sai davvero?</h2>
-				<a href="/quiz" class="text-sm text-muted hover:text-primary transition">Tutti i quiz &rarr;</a>
-			</div>
-			<div class="grid sm:grid-cols-2 gap-3 sm:gap-4">
-				{#each data.featuredQuizzes as quiz}
-					<a
-						href="/quiz/{quiz.slug}"
-						class="block p-5 rounded-xl border border-border hover:border-primary/30 transition-all"
-					>
-						<div class="flex items-center gap-3 mb-1.5">
-							<span class="text-xs text-muted uppercase tracking-wide">{quiz.category}</span>
-							<span class="text-xs text-muted">{quiz.questions.length} domande</span>
-						</div>
-						<h3 class="text-lg font-heading font-semibold tracking-tight text-primary mb-1">{quiz.title}</h3>
-						<p class="text-muted text-sm line-clamp-2">{quiz.description}</p>
-					</a>
 				{/each}
 			</div>
 		</div>

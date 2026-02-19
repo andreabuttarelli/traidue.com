@@ -38,6 +38,7 @@
 	title={data.metadata.title}
 	description={data.metadata.description}
 	url="https://www.traidue.com/wiki/{data.metadata.slug}"
+	image="https://www.traidue.com/og/{data.metadata.slug}.png"
 	type="article"
 	article={{
 		publishedTime: data.metadata.date,

@@ -66,7 +66,7 @@
 		</div>
 
 		<button
-			class="mt-6 px-6 py-2.5 bg-primary text-white text-sm font-medium hover:bg-primary/80 transition"
+			class="mt-6 px-6 py-2.5 rounded-full bg-primary text-bg text-sm font-medium hover:bg-primary/80 transition"
 			onclick={next}
 		>
 			Prossima domanda

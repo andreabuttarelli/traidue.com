@@ -49,7 +49,7 @@
 			<p class="text-muted mb-2">{quiz.description}</p>
 			<p class="text-sm text-muted mb-8">{quiz.questions.length} domande</p>
 			<button
-				class="px-8 py-3 bg-primary text-white text-sm font-medium hover:bg-primary/80 transition"
+				class="px-8 py-3 rounded-full bg-primary text-bg text-sm font-medium hover:bg-primary/80 transition"
 				onclick={start}
 			>
 				Inizia il quiz
@@ -76,6 +76,8 @@
 				totalQuestions={quiz.questions.length}
 				{correctAnswers}
 				onRetry={retry}
+				quizTitle={quiz.title}
+				quizSlug={quiz.slug}
 			/>
 		</div>
 	{/if}

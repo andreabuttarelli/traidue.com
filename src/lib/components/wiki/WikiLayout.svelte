@@ -1,4 +1,6 @@
 <script lang="ts">
+	import ShareButtons from '$lib/components/ui/ShareButtons.svelte';
+
 	let {
 		title,
 		slug,
@@ -63,13 +65,7 @@
 				<span class="capitalize">{category}</span>
 			</div>
 			<div class="flex items-center gap-2">
-				<button
-					onclick={() => { navigator.clipboard.writeText(`https://www.traidue.com/wiki/${slug}`); }}
-					class="text-muted hover:text-primary transition p-1.5 sm:p-2 rounded-full border border-border"
-					title="Copia link articolo"
-				>
-					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sm:w-[18px] sm:h-[18px]"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
-				</button>
+				<ShareButtons url="https://www.traidue.com/wiki/{slug}" text={title} />
 				<a
 					href="/wiki/{slug}/raw"
 					target="_blank"
@@ -134,4 +130,16 @@
 			</ul>
 		</footer>
 	{/if}
+
+	<!-- Email CTA -->
+	<div class="mt-12 pt-8 border-t border-border">
+		<p class="text-sm font-medium text-primary mb-1">Ti è stato utile?</p>
+		<p class="text-sm text-muted mb-4">Nuovi articoli e aggiornamenti. Niente spam, solo fatti.</p>
+		<a
+			href="/newsletter"
+			class="inline-block px-4 py-2 rounded-full text-sm font-medium bg-primary text-bg hover:bg-primary/80 transition"
+		>
+			Resta aggiornato
+		</a>
+	</div>
 </article>

@@ -122,5 +122,19 @@
 				</p>
 			</div>
 		</section>
+
+		<section class="border-t border-border pt-10 sm:pt-16">
+			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">Per associazioni e professionisti</h2>
+			<div class="space-y-4 text-text leading-relaxed">
+				<p>
+					Sei un'<strong>associazione</strong>, un'<strong>organizzazione</strong> o un <strong>professionista</strong> che lavora con persone trans?
+					Ci piacerebbe collaborare: segnalaci risorse, proponi contenuti o aiutaci a raggiungere chi ha bisogno di informazione verificata.
+				</p>
+				<p>
+					Scrivici a
+					<a href="mailto:info@traidue.com" class="text-primary underline hover:no-underline">info@traidue.com</a>
+				</p>
+			</div>
+		</section>
 	</div>
 </div>

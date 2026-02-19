@@ -4,8 +4,8 @@
 
 <footer>
 	<div class="w-full px-4 sm:px-6 lg:px-12 py-8 sm:py-12">
-		<div class="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-12">
-			<div>
+		<div class="grid grid-cols-1 sm:grid-cols-[1fr_auto_auto] gap-8 sm:gap-12">
+			<div class="max-w-sm">
 				<p class="text-lg text-primary mb-2"><Logo /></p>
 				<p class="text-sm text-muted leading-relaxed">
 					Informazione accessibile e verificata sulle tematiche trans.
@@ -18,7 +18,7 @@
 					<a href="/wiki" class="text-sm text-muted hover:text-primary transition-colors">Wiki</a>
 					<a href="/quiz" class="text-sm text-muted hover:text-primary transition-colors">Quiz</a>
 					<a href="/glossario" class="text-sm text-muted hover:text-primary transition-colors">Glossario</a>
-				<a href="/chi-siamo" class="text-sm text-muted hover:text-primary transition-colors">Chi Siamo</a>
+					<a href="/chi-siamo" class="text-sm text-muted hover:text-primary transition-colors">Chi Siamo</a>
 					<a href="https://github.com/andreabuttarelli/traidue.com" target="_blank" rel="noopener noreferrer" class="text-sm text-muted hover:text-primary transition-colors">GitHub</a>
 				</nav>
 			</div>
@@ -39,6 +39,19 @@
 					</a>
 				</div>
 			</div>
+		</div>
+		<!-- Newsletter CTA -->
+		<div class="border-t border-border mt-8 sm:mt-12 pt-8 sm:pt-12 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+			<div>
+				<p class="text-sm font-medium text-primary mb-1">Resta aggiornato</p>
+				<p class="text-sm text-muted">Nuovi articoli e aggiornamenti. Niente spam, solo fatti.</p>
+			</div>
+			<a
+				href="/newsletter"
+				class="inline-block px-5 py-2.5 rounded-full text-sm font-medium bg-primary text-bg hover:bg-primary/80 transition self-start sm:self-center"
+			>
+				Iscriviti &rarr;
+			</a>
 		</div>
 	</div>
 </footer>
