@@ -163,7 +163,7 @@ Le politiche delle federazioni si collocano lungo uno spettro che va dalla piena
 
 ## Il dibattito attuale
 
-Il dibattito sulla partecipazione delle persone trans nello sport coinvolge questioni di equità sportiva, diritti umani, inclusione sociale e politica del corpo. Le posizioni principali possono essere sintetizzate come segue.
+Il dibattito sulla partecipazione delle persone trans nello sport coinvolge questioni di equità sportiva, [diritti umani](/wiki/diritti-trans-internazionali), inclusione sociale e politica del corpo. Le posizioni principali possono essere sintetizzate come segue.
 
 ### L'argomento dell'equità competitiva
 

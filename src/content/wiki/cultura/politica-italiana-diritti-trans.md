@@ -62,7 +62,7 @@ sources:
   - title: "Alleanza Verdi e Sinistra – Programma: diritti civili"
     url: "https://verdisinistra.it/programma-alleanza-verdi-e-sinistra/"
     year: 2022
-related: ["legge-164-italia", "situazione-trans-italia"]
+related: ["legge-164-italia", "situazione-trans-italia", "diritti-trans-internazionali"]
 ---
 
 Ecco la verità nuda: il 64,5% degli italiani nel 2024 è favorevole al matrimonio egualitario. Il 53,5% riconosce che esistono identità oltre il binarismo maschile-femminile. Eppure l'Italia segna il **24% sulla Rainbow Map di ILGA-Europe** (2025), in calo rispetto all'anno precedente. Un Paese dove l'opinione pubblica corre avanti e la classe politica frena, temporeggia o — quando può — tira il freno a mano. Questa è la storia di come ciò è accaduto, con nomi, date e numeri di voto. Nessuno escluso.

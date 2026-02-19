@@ -62,7 +62,7 @@ sources:
   - title: "California Senate Bill 107 – Wikipedia"
     url: "https://en.wikipedia.org/wiki/California_Senate_Bill_107"
     year: 2022
-related: ["diritti-trans-internazionali"]
+related: ["diritti-trans-internazionali", "diritti-trans-nel-mondo", "regno-unito-diritti-trans"]
 ---
 
 Negli Stati Uniti, i diritti delle persone transgender sono diventati il terreno di uno scontro legislativo senza precedenti. Dal 2021 a oggi, i parlamenti statali hanno prodotto oltre 3.000 proposte di legge che limitano i diritti delle persone trans in ambiti che vanno dalla sanità allo sport, dai bagni pubblici ai documenti di identità. Ecco i numeri, le sentenze e la mappa di una trasformazione giuridica in corso.
