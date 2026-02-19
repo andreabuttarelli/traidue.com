@@ -66,7 +66,7 @@ Queste differenze emergono alla pubertà e sono stabili nel tempo: uno studio pu
 
 ### Effetti della terapia ormonale sulla performance
 
-La **terapia ormonale femminilizzante** (estrogeni e anti-androgeni) produce cambiamenti significativi nel corpo delle donne trans, ma la letteratura scientifica mostra che non tutti i parametri rilevanti per la prestazione sportiva si modificano nella stessa misura e con la stessa velocità.
+La **[terapia ormonale](/wiki/transizione-medica-cosa-cambia) femminilizzante** (estrogeni e anti-androgeni) produce cambiamenti significativi nel corpo delle donne trans, ma la letteratura scientifica mostra che non tutti i parametri rilevanti per la prestazione sportiva si modificano nella stessa misura e con la stessa velocità.
 
 Una revisione sistematica condotta da Harper e colleghi (2021), pubblicata sul British Journal of Sports Medicine, ha evidenziato che:
 
@@ -141,7 +141,7 @@ Per le atlete con **differenze dello sviluppo sessuale** (DSD), come il caso di 
 
 Nel giugno 2022, la federazione internazionale del nuoto (allora FINA, oggi **World Aquatics**) ha approvato una politica che consente alle donne trans di gareggiare nella categoria femminile solo se possono dimostrare di non aver attraversato alcuna fase della pubertà maschile oltre lo stadio 2 di Tanner, o prima dei 12 anni di età. In pratica, solo le atlete che hanno iniziato la soppressione della pubertà prima dell'inizio della pubertà maschile possono competere nella categoria femminile.
 
-La politica, approvata con il 71,5% dei voti dei membri, ha previsto anche la creazione di una **categoria open**, aperta a tutti indipendentemente dal sesso, dal genere legale o dall'identità di genere. Nel 2023, World Aquatics ha lanciato la categoria open in occasione della Swimming World Cup.
+La politica, approvata con il 71,5% dei voti dei membri, ha previsto anche la creazione di una **categoria open**, aperta a tutti indipendentemente dal sesso, dal genere legale o dall'[identità di genere](/wiki/identita-di-genere). Nel 2023, World Aquatics ha lanciato la categoria open in occasione della Swimming World Cup.
 
 ### World Rugby (rugby)
 
