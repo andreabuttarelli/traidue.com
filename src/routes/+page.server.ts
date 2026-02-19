@@ -6,7 +6,7 @@ export function load() {
 	const quizzes = getAllQuizzes();
 	const totalSources = articles.reduce((sum, a) => sum + (a.sources?.length ?? 0), 0);
 	return {
-		featuredArticles: articles.slice(0, 4),
+		featuredArticles: articles.slice(0, 6),
 		featuredQuizzes: quizzes.slice(0, 2),
 		stats: {
 			articles: articles.length,
