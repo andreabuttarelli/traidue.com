@@ -8,7 +8,7 @@
 			<div class="max-w-sm">
 				<p class="text-lg text-primary mb-2"><Logo /></p>
 				<p class="text-sm text-muted leading-relaxed">
-					Informazione accessibile e verificata sulle tematiche trans.
+					Informazione accessibile sulle tematiche trans.
 				</p>
 			</div>
 

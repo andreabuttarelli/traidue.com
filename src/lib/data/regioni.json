@@ -1,0 +1,22 @@
+[
+	{ "nome": "Abruzzo", "slug": "abruzzo" },
+	{ "nome": "Basilicata", "slug": "basilicata" },
+	{ "nome": "Calabria", "slug": "calabria" },
+	{ "nome": "Campania", "slug": "campania" },
+	{ "nome": "Emilia Romagna", "slug": "emilia-romagna" },
+	{ "nome": "Friuli Venezia Giulia", "slug": "friuli-venezia-giulia" },
+	{ "nome": "Lazio", "slug": "lazio" },
+	{ "nome": "Liguria", "slug": "liguria" },
+	{ "nome": "Lombardia", "slug": "lombardia" },
+	{ "nome": "Marche", "slug": "marche" },
+	{ "nome": "Molise", "slug": "molise" },
+	{ "nome": "Piemonte", "slug": "piemonte" },
+	{ "nome": "Puglia", "slug": "puglia" },
+	{ "nome": "Sardegna", "slug": "sardegna" },
+	{ "nome": "Sicilia", "slug": "sicilia" },
+	{ "nome": "Toscana", "slug": "toscana" },
+	{ "nome": "Trentino Alto Adige", "slug": "trentino-alto-adige" },
+	{ "nome": "Umbria", "slug": "umbria" },
+	{ "nome": "Valle d'Aosta", "slug": "valle-d-aosta" },
+	{ "nome": "Veneto", "slug": "veneto" }
+]

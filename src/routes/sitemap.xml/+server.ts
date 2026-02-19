@@ -1,5 +1,7 @@
 import { getAllArticles } from '$lib/utils/wiki';
 import { getAllQuizzes } from '$lib/utils/quiz';
+import comuni from '$lib/data/comuni.json';
+import regioni from '$lib/data/regioni.json';
 
 export const prerender = true;
 
@@ -10,6 +12,7 @@ export async function GET() {
 	const pages = [
 		{ url: '', priority: '1.0', changefreq: 'weekly' },
 		{ url: '/wiki', priority: '0.9', changefreq: 'weekly' },
+		{ url: '/giovani', priority: '0.8', changefreq: 'monthly' },
 		{ url: '/quiz', priority: '0.8', changefreq: 'monthly' },
 		{ url: '/glossario', priority: '0.7', changefreq: 'monthly' },
 		{ url: '/chi-siamo', priority: '0.5', changefreq: 'monthly' },
@@ -30,7 +33,19 @@ export async function GET() {
 		changefreq: 'monthly' as const
 	}));
 
-	const allUrls = [...pages, ...articleUrls, ...quizUrls];
+	const comuniUrls = comuni.map((c) => ({
+		url: `/citta/${c.slug}`,
+		priority: '0.3',
+		changefreq: 'monthly' as const
+	}));
+
+	const regioniUrls = regioni.map((r) => ({
+		url: `/regione/${r.slug}`,
+		priority: '0.4',
+		changefreq: 'monthly' as const
+	}));
+
+	const allUrls = [...pages, ...articleUrls, ...quizUrls, ...regioniUrls, ...comuniUrls];
 
 	const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

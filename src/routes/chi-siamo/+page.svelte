@@ -128,7 +128,7 @@
 			<div class="space-y-4 text-text leading-relaxed">
 				<p>
 					Sei un'<strong>associazione</strong>, un'<strong>organizzazione</strong> o un <strong>professionista</strong> che lavora con persone trans?
-					Ci piacerebbe collaborare: segnalaci risorse, proponi contenuti o aiutaci a raggiungere chi ha bisogno di informazione verificata.
+					Ci piacerebbe collaborare: segnalaci risorse, proponi contenuti o aiutaci a raggiungere chi ha bisogno di informazione accessibile.
 				</p>
 				<p>
 					Scrivici a

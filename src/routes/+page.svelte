@@ -42,6 +42,19 @@
 		{ claim: 'I bambini sono troppo piccoli per sapere chi sono', truth: 'L\'identità di genere si consolida tra i 3 e i 5 anni. Nessun protocollo medico prevede interventi prima della pubertà.' },
 		{ claim: 'Le persone trans se ne pentono', truth: 'Il tasso di rimpianto post-transizione è inferiore al 2% secondo le meta-analisi più recenti.' }
 	];
+
+	const homeFaqSchema = {
+		'@context': 'https://schema.org',
+		'@type': 'FAQPage',
+		mainEntity: myths.map((m) => ({
+			'@type': 'Question',
+			name: `È vero che ${m.claim.toLowerCase()}?`,
+			acceptedAnswer: {
+				'@type': 'Answer',
+				text: m.truth
+			}
+		}))
+	};
 </script>
 
 <SEO
@@ -51,12 +64,13 @@
 />
 
 <StructuredData schema={websiteSchema} />
+<StructuredData schema={homeFaqSchema} />
 
 <!-- Hero -->
 <section>
 	<div class="w-full px-4 sm:px-6 lg:px-12 py-16 sm:py-24 lg:py-32 text-center flex flex-col items-center">
 		<h1 class="text-3xl sm:text-5xl lg:text-7xl text-primary mb-4 sm:mb-6">
-			<Logo />
+			<Logo animated />
 		</h1>
 		<p class="text-base sm:text-lg lg:text-xl text-primary/80 mb-3 max-w-2xl leading-relaxed font-medium">
 			La disinformazione sulle persone trans si combatte con i fatti.
