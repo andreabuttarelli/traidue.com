@@ -3,11 +3,7 @@ import { getAllArticles } from '$lib/utils/wiki';
 import { getAllQuizzes } from '$lib/utils/quiz';
 import comuni from '$lib/data/comuni.json';
 
-export const prerender = true;
-
-export function entries() {
-	return comuni.map((c) => ({ slug: c.slug }));
-}
+export const prerender = false;
 
 export function load({ params }) {
 	const comune = comuni.find((c) => c.slug === params.slug);
