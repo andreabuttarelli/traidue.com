@@ -25,6 +25,8 @@
 	<title>{title} | Tra i Due</title>
 	<meta name="description" content={description} />
 	<link rel="canonical" href={url} />
+	<link rel="alternate" hreflang="it" href={url} />
+	<link rel="alternate" hreflang="x-default" href={url} />
 
 	<!-- Open Graph -->
 	<meta property="og:title" content={title} />

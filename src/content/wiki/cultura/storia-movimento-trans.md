@@ -56,7 +56,7 @@ sources:
 related: ["situazione-trans-italia", "diritti-trans-internazionali"]
 ---
 
-La storia delle persone trans non inizia con le rivolte di Stonewall, e nemmeno con i pionieri della sessuologia del Novecento. Le persone con identità di genere non conforme ai canoni binari sono esistite in ogni epoca e in ogni cultura. Tuttavia, è nel XX secolo che si struttura un vero e proprio **movimento trans** organizzato, capace di rivendicare diritti, visibilità e dignità. Questa voce ripercorre le tappe fondamentali di quella storia, dall'Istituto di Sessuologia di Berlino fino alle sfide contemporanee.
+La storia delle persone trans non inizia con le rivolte di Stonewall, e nemmeno con i pionieri della sessuologia del Novecento. Le persone con [identità di genere](/wiki/identita-di-genere) non conforme ai canoni binari sono esistite in ogni epoca e in ogni cultura. Tuttavia, è nel XX secolo che si struttura un vero e proprio **movimento trans** organizzato, capace di rivendicare diritti, visibilità e dignità. Questa voce ripercorre le tappe fondamentali di quella storia, dall'Istituto di Sessuologia di Berlino fino alle sfide contemporanee.
 
 ## Prima di Stonewall: Magnus Hirschfeld e il primo istituto
 
@@ -64,7 +64,7 @@ La storia delle persone trans non inizia con le rivolte di Stonewall, e nemmeno 
 
 Il punto di partenza convenzionale della storia medica e politica delle persone trans è Berlino, nella Repubblica di Weimar. Il 6 luglio 1919 il medico e sessuologo tedesco **Magnus Hirschfeld** inaugurò l'**Institut für Sexualwissenschaft** (Istituto per la Scienza della Sessualità), la prima istituzione al mondo dedicata allo studio scientifico della sessualità umana e, in particolare, alla comprensione e all'assistenza delle persone transgender.
 
-Hirschfeld aveva coniato nel 1910 il termine **transvestit** (travestito), utilizzato all'epoca per descrivere ciò che oggi definiremmo identità transgender. L'Istituto non si limitava alla ricerca: offriva servizi medici, consulenze psicologiche, educazione sessuale e, elemento rivoluzionario per l'epoca, rifugio e lavoro alle persone trans che altrimenti sarebbero rimaste emarginate. Hirschfeld era convinto che le persone trans agissero in accordo con la propria vera natura e che la scienza dovesse fornire i mezzi per la transizione medica.
+Hirschfeld aveva coniato nel 1910 il termine **transvestit** (travestito), utilizzato all'epoca per descrivere ciò che oggi definiremmo identità transgender. L'Istituto non si limitava alla ricerca: offriva servizi medici, consulenze psicologiche, educazione sessuale e, elemento rivoluzionario per l'epoca, rifugio e lavoro alle persone trans che altrimenti sarebbero rimaste emarginate. Hirschfeld era convinto che le persone trans agissero in accordo con la propria vera natura e che la scienza dovesse fornire i mezzi per la [transizione medica](/wiki/transizione-medica-cosa-cambia).
 
 Tra le pazienti dell'Istituto si annovera **Lili Elbe** (1882-1931), pittrice danese considerata una delle prime persone a sottoporsi a interventi di affermazione di genere, operata dal ginecologo Kurt Warnekros a Dresda nel 1930. Elbe morì per complicazioni post-operatorie l'anno successivo, ma la sua storia è diventata simbolo di quel primo capitolo di storia trans.
 
@@ -104,7 +104,7 @@ Nel 1972, la **Svezia** divenne il primo Paese al mondo a consentire alle person
 
 ### L'Italia e la legge 164 del 1982
 
-L'Italia fu tra i primi Paesi europei a dotarsi di una legislazione specifica. La **legge 164** fu promulgata il 14 aprile 1982, firmata dal presidente Sandro Pertini e pubblicata in Gazzetta Ufficiale il 19 dello stesso mese. Recante "Norme in materia di rettificazione di attribuzione di sesso", la legge riconobbe alle persone trans una dignità a lungo negata e pose fine a una situazione di limbo giuridico in cui mancava qualsiasi strumento legale per il cambio dei documenti.
+L'Italia fu tra i primi Paesi europei a dotarsi di una legislazione specifica. La **[legge 164](/wiki/legge-164-italia)** fu promulgata il 14 aprile 1982, firmata dal presidente Sandro Pertini e pubblicata in Gazzetta Ufficiale il 19 dello stesso mese. Recante "Norme in materia di rettificazione di attribuzione di sesso", la legge riconobbe alle persone trans una dignità a lungo negata e pose fine a una situazione di limbo giuridico in cui mancava qualsiasi strumento legale per il cambio dei documenti.
 
 L'iniziativa legislativa era nata nell'ottobre del 1979, quando i militanti del **FUORI** (Fronte Unitario Omosessuale Rivoluzionario Italiano) Enzo Cucco ed Enzo Francone redassero un primo progetto di legge a seguito di una sentenza della Corte Costituzionale del 12 luglio di quell'anno. L'intervento decisivo per sbloccare l'iter parlamentare venne però dal nascente movimento trans organizzato.
 
@@ -168,7 +168,7 @@ In Italia, il dibattito resta aperto. La legge 164 del 1982, pur aggiornata dall
 
 I social media hanno trasformato radicalmente le dinamiche dell'attivismo trans. Piattaforme come Instagram, TikTok e YouTube hanno permesso a una nuova generazione di persone trans di raccontare le proprie esperienze in prima persona, raggiungendo un pubblico vastissimo e aggirando i filtri dei media tradizionali. Questo ha contribuito a una maggiore visibilità e a una normalizzazione delle identità trans, specialmente tra le fasce più giovani della popolazione.
 
-Al contempo, la stessa visibilità ha alimentato un fenomeno di **backlash** (reazione avversa): campagne coordinate di disinformazione, molestie online mirate e una polarizzazione del dibattito pubblico che tende a ridurre la complessità delle questioni trans a slogan contrapposti. La sfida per il movimento contemporaneo consiste nel navigare questo doppio effetto della visibilità digitale, sfruttandone il potenziale di sensibilizzazione senza soccombere alle dinamiche tossiche dei social media.
+Al contempo, la stessa visibilità ha alimentato un fenomeno di **backlash** (reazione avversa): campagne coordinate di [disinformazione](/wiki/miti-comuni-persone-trans), molestie online mirate e una polarizzazione del dibattito pubblico che tende a ridurre la complessità delle questioni trans a slogan contrapposti. La sfida per il movimento contemporaneo consiste nel navigare questo doppio effetto della visibilità digitale, sfruttandone il potenziale di sensibilizzazione senza soccombere alle dinamiche tossiche dei social media.
 
 ### Le sfide attuali
 

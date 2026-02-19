@@ -50,6 +50,17 @@ sources:
   - title: "How gender dysphoria and incongruence became medical diagnoses – a historical review"
     url: "https://www.tandfonline.com/doi/full/10.1080/19585969.2022.2042166"
     year: 2022
+faq:
+  - question: "Cos'è l'identità di genere?"
+    answer: "L'identità di genere è il senso intimo e profondo che ogni persona ha del proprio genere. Può corrispondere o meno al sesso assegnato alla nascita ed è un'esperienza soggettiva, definita dall'American Psychological Association come il senso interiore del proprio genere."
+  - question: "Qual è la differenza tra sesso biologico e genere?"
+    answer: "Il sesso biologico si riferisce a caratteristiche fisiche come cromosomi, ormoni e anatomia, mentre il genere è un costrutto più ampio che comprende identità di genere, espressione di genere e ruoli di genere, risultato dell'interazione tra fattori biologici, psicologici e culturali."
+  - question: "L'identità di genere è innata o una scelta?"
+    answer: "La ricerca indica che l'identità di genere ha una componente biologica significativa: studi su gemelli mostrano un indice di ereditabilità tra 0,30 e 0,57 e studi di neuroimaging evidenziano basi neurologiche. Non è il risultato di una scelta consapevole."
+  - question: "Cosa significa non binario?"
+    answer: "Le persone non binarie hanno un'identità di genere che non si colloca esclusivamente nella categoria di uomo o di donna. Circa l'1-2% della popolazione adulta si identifica come non binario, con percentuali più elevate tra i giovani."
+  - question: "Cos'è la disforia di genere?"
+    answer: "La disforia di genere, secondo il DSM-5, è un disagio clinicamente significativo causato dall'incongruenza tra il genere esperito e il sesso assegnato alla nascita. Non è l'identità transgender in sé a essere un disturbo, ma il disagio che può accompagnarla."
 related: ["basi-biologiche-identita-di-genere", "ricerche-recenti-identita-genere"]
 ---
 

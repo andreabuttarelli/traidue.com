@@ -17,7 +17,8 @@
 				<nav class="flex flex-col gap-2">
 					<a href="/wiki" class="text-sm text-muted hover:text-primary transition-colors">Wiki</a>
 					<a href="/quiz" class="text-sm text-muted hover:text-primary transition-colors">Quiz</a>
-					<a href="/chi-siamo" class="text-sm text-muted hover:text-primary transition-colors">Chi Siamo</a>
+					<a href="/glossario" class="text-sm text-muted hover:text-primary transition-colors">Glossario</a>
+				<a href="/chi-siamo" class="text-sm text-muted hover:text-primary transition-colors">Chi Siamo</a>
 					<a href="https://github.com/andreabuttarelli/traidue.com" target="_blank" rel="noopener noreferrer" class="text-sm text-muted hover:text-primary transition-colors">GitHub</a>
 				</nav>
 			</div>

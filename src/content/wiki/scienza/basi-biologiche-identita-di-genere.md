@@ -53,7 +53,7 @@ sources:
 related: ["identita-di-genere"]
 ---
 
-L'identità di genere -- il senso interiore di appartenenza a un genere -- è oggetto di indagine scientifica da oltre mezzo secolo. La ricerca biologica non si propone di "spiegare" o giustificare l'esperienza delle persone transgender, ma di comprendere i meccanismi che contribuiscono allo sviluppo dell'identità di genere in ogni essere umano. Questo articolo presenta lo stato attuale delle conoscenze in genetica, endocrinologia, neuroscienze ed epigenetica, evidenziando sia le scoperte più solide sia i limiti metodologici ancora aperti.
+L'[identità di genere](/wiki/identita-di-genere) -- il senso interiore di appartenenza a un genere -- è oggetto di indagine scientifica da oltre mezzo secolo. La ricerca biologica non si propone di "spiegare" o giustificare l'esperienza delle persone transgender, ma di comprendere i meccanismi che contribuiscono allo sviluppo dell'identità di genere in ogni essere umano. Questo articolo presenta lo stato attuale delle conoscenze in genetica, endocrinologia, neuroscienze ed epigenetica, evidenziando sia le scoperte più solide sia i limiti metodologici ancora aperti.
 
 ## Introduzione
 
@@ -67,7 +67,7 @@ Il modello scolastico che associa il sesso biologico a due sole configurazioni c
 
 ### Variazioni cromosomiche
 
-Le **differenze dello sviluppo sessuale** (DSD, dall'inglese *Differences of Sex Development*), comunemente indicate anche con il termine **intersex**, comprendono un'ampia gamma di condizioni. La sindrome di Klinefelter (47,XXY) interessa circa 1 persona su 600 assegnata maschio alla nascita e comporta una configurazione con un cromosoma X aggiuntivo. La sindrome di Turner (45,X), in cui manca uno dei due cromosomi sessuali, riguarda circa 1 su 2.500 persone assegnate femmina alla nascita. Esistono poi mosaicismi (45,X/46,XY), chimere (46,XX/46,XY) e altre combinazioni meno frequenti.
+Le **differenze dello sviluppo sessuale** (DSD, dall'inglese *Differences of Sex Development*), comunemente indicate anche con il termine **[intersex](/wiki/sesso-biologico-oltre-il-binarismo)**, comprendono un'ampia gamma di condizioni. La sindrome di Klinefelter (47,XXY) interessa circa 1 persona su 600 assegnata maschio alla nascita e comporta una configurazione con un cromosoma X aggiuntivo. La sindrome di Turner (45,X), in cui manca uno dei due cromosomi sessuali, riguarda circa 1 su 2.500 persone assegnate femmina alla nascita. Esistono poi mosaicismi (45,X/46,XY), chimere (46,XX/46,XY) e altre combinazioni meno frequenti.
 
 Secondo le stime più citate nella letteratura scientifica, circa l'1,7% della popolazione nasce con caratteristiche che non rientrano nelle definizioni convenzionali di "maschio" o "femmina", anche se molte di queste variazioni non sono visibili alla nascita e vengono scoperte solo in seguito.
 
@@ -171,7 +171,7 @@ L'**American Psychological Association** (APA), nel suo rapporto della Task Forc
 
 ### Organizzazione Mondiale della Sanità
 
-L'**Organizzazione Mondiale della Sanità** (OMS) ha compiuto un passo significativo con l'adozione dell'**ICD-11** nel 2019, riclassificando l'**incongruenza di genere** dal capitolo dei disturbi mentali a un nuovo capitolo dedicato alle "condizioni relative alla salute sessuale". Questa riclassificazione riflette il consenso scientifico secondo cui l'identità transgender non è un disturbo mentale: nella definizione ICD-11, a differenza del DSM-5, né la sofferenza psicologica né la disfunzione sono requisiti necessari per la diagnosi.
+L'**Organizzazione Mondiale della Sanità** (OMS) ha compiuto un passo significativo con l'adozione dell'**ICD-11** nel 2019, riclassificando l'**incongruenza di genere** dal capitolo dei disturbi mentali a un nuovo capitolo dedicato alle "condizioni relative alla salute sessuale". Questo ha avuto anche implicazioni per i [diritti delle persone trans a livello internazionale](/wiki/diritti-trans-internazionali). Questa riclassificazione riflette il consenso scientifico secondo cui l'identità transgender non è un disturbo mentale: nella definizione ICD-11, a differenza del DSM-5, né la sofferenza psicologica né la disfunzione sono requisiti necessari per la diagnosi.
 
 ### Un quadro in evoluzione
 

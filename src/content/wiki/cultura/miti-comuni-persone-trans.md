@@ -38,6 +38,15 @@ sources:
   - title: "Transgender and Gender-Diverse Individuals' Experiences with Desistance and Detransition: A Narrative Review"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8213007/"
     year: 2021
+faq:
+  - question: "Essere trans è contro natura?"
+    answer: "No. L'identità di genere ha basi biologiche documentate da studi di genetica, neuroscienze ed endocrinologia, e la varianza di genere è stata osservata in culture diverse in ogni continente e in ogni epoca storica."
+  - question: "Le persone trans se ne pentono?"
+    answer: "Il tasso di detransizione è basso secondo le revisioni sistematiche disponibili, e quando avviene è spesso motivato da pressioni sociali esterne piuttosto che da un cambiamento dell'identità di genere."
+  - question: "L'identità di genere è un disturbo mentale?"
+    answer: "No. L'OMS ha rimosso l'identità transgender dalla classificazione dei disturbi mentali nell'ICD-11 (in vigore dal 2022), riconoscendo esplicitamente che non si tratta di un disturbo mentale."
+  - question: "I bambini sono troppo piccoli per sapere il proprio genere?"
+    answer: "La ricerca mostra che la maggior parte dei bambini sviluppa una consapevolezza del proprio genere tra i 2 e i 4 anni, e studi di follow-up mostrano che gli adolescenti con disforia di genere persistente mantengono la propria identità in età adulta."
 related: ["identita-di-genere", "basi-biologiche-identita-di-genere", "situazione-trans-italia"]
 ---
 
@@ -47,7 +56,7 @@ La disinformazione sulle persone transgender è diffusa e spesso si basa su semp
 
 Questa affermazione presuppone che la varianza di genere sia un fenomeno recente o esclusivamente culturale. Le evidenze indicano il contrario.
 
-L'identità di genere ha basi biologiche documentate in studi di genetica, neuroscienze ed endocrinologia. Ricerche sui gemelli mostrano una concordanza significativamente maggiore per l'identità transgender nei gemelli monozigoti rispetto ai dizigoti, indicando una componente ereditaria sostanziale. Studi di neuroimaging hanno identificato pattern cerebrali nelle persone trans che presentano caratteristiche tipiche del genere esperito piuttosto che del sesso assegnato alla nascita.
+L'[identità di genere](/wiki/identita-di-genere) ha [basi biologiche](/wiki/basi-biologiche-identita-di-genere) documentate in studi di genetica, neuroscienze ed endocrinologia. Ricerche sui gemelli mostrano una concordanza significativamente maggiore per l'identità transgender nei gemelli monozigoti rispetto ai dizigoti, indicando una componente ereditaria sostanziale. Studi di neuroimaging hanno identificato pattern cerebrali nelle persone trans che presentano caratteristiche tipiche del genere esperito piuttosto che del sesso assegnato alla nascita.
 
 Dal punto di vista storico e antropologico, la varianza di genere è stata documentata in culture diverse in ogni continente e in ogni epoca storica: le hijra nel subcontinente indiano, le two-spirit nelle culture native americane, le fa'afafine in Samoa, le muxe nella cultura zapoteca messicana. Si tratta di una costante della diversità umana, non di un'anomalia recente.
 
@@ -63,7 +72,7 @@ L'aumento delle diagnosi di disforia di genere negli ultimi anni riflette in gra
 
 ## "La biologia è semplice: o maschio o femmina"
 
-L'idea che il sesso biologico sia un sistema strettamente binario è una semplificazione che non trova riscontro nella complessità della biologia reale.
+L'idea che il [sesso biologico](/wiki/sesso-biologico-oltre-il-binarismo) sia un sistema strettamente binario è una semplificazione che non trova riscontro nella complessità della biologia reale.
 
 Come documentato in un influente articolo su Nature del 2015, il sesso biologico è un insieme di caratteristiche -- cromosomiche, gonadiche, ormonali, anatomiche e neurologiche -- che nella maggior parte delle persone sono allineate, ma che possono presentare variazioni significative. Le condizioni intersex (variazioni delle caratteristiche sessuali, o DSD) riguardano circa l'1-2% della popolazione, una prevalenza comparabile a quella dei capelli rossi.
 
@@ -75,7 +84,7 @@ Questo non significa che il sesso biologico non sia una categoria utile: nella g
 
 L'Organizzazione Mondiale della Sanità ha rimosso la "transessualità" dalla classificazione dei disturbi mentali nell'ICD-11, entrato in vigore nel 2022. La condizione è stata riclassificata come "incongruenza di genere" e spostata nel capitolo sulle condizioni relative alla salute sessuale, riconoscendo esplicitamente che non si tratta di un disturbo mentale.
 
-Questa decisione è basata su evidenze scientifiche accumulate in decenni: l'identità transgender di per sé non è associata a compromissione del funzionamento cognitivo o psicologico. La sofferenza psicologica che alcune persone trans sperimentano -- la disforia di genere -- è legata alla discrepanza tra identità e corpo, e si riduce significativamente con l'accesso a trattamenti appropriati come documentato da numerosi studi.
+Questa decisione è basata su evidenze scientifiche accumulate in decenni: l'identità transgender di per sé non è associata a compromissione del funzionamento cognitivo o psicologico. La sofferenza psicologica che alcune persone trans sperimentano -- la disforia di genere -- è legata alla discrepanza tra identità e corpo, e si riduce significativamente con l'accesso a [trattamenti appropriati](/wiki/transizione-medica-cosa-cambia) come documentato da numerosi studi.
 
 I tassi elevati di depressione e ansia nella popolazione transgender sono in larga misura attribuibili allo stigma sociale, alla discriminazione e alla mancanza di accesso alle cure, non all'identità di genere in sé. Questo è noto in letteratura come "minority stress model" ed è stato documentato in modo robusto.
 

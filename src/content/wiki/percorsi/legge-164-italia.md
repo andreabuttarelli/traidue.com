@@ -59,7 +59,7 @@ Un punto di svolta giunse nel 1979, quando la **Corte costituzionale**, con una 
 
 ### Il percorso parlamentare
 
-La proposta di legge nacque su iniziativa di attivisti del **FUORI** (Fronte Unitario Omosessuale Rivoluzionario Italiano), in particolare Enzo Cucco e Enzo Francone, che nell'ottobre 1979 redassero un testo normativo. Il **Movimento Italiano Transessuali** (MIT) e il **Partito Radicale** furono determinanti nel portare avanti la battaglia parlamentare.
+La proposta di legge nacque su iniziativa di attivisti del **FUORI** (Fronte Unitario Omosessuale Rivoluzionario Italiano), in particolare Enzo Cucco e Enzo Francone, che nell'ottobre 1979 redassero un testo normativo. Il **Movimento Italiano Transessuali** (MIT) e il **Partito Radicale** furono determinanti nel portare avanti la [battaglia parlamentare](/wiki/storia-movimento-trans).
 
 Il percorso legislativo fu strategicamente condotto nelle commissioni parlamentari piuttosto che nelle aule assembleari, al fine di evitare un dibattito pubblico che avrebbe potuto ostacolare l'approvazione. Il disegno di legge fu approvato in prima lettura il 2 ottobre 1981. Successivamente, al Senato, il testo fu riunificato con una proposta presentata da senatori della Democrazia Cristiana -- tra cui Rosi, Di Lembo, Bausi, De Giuseppe, Fracassi e Fimognari -- e strutturato in sette articoli. La Commissione Giustizia del Senato approvò il testo in sede deliberante il 16 febbraio 1982. L'approvazione definitiva avvenne alla Camera il 1 aprile 1982 nella competente Commissione, con voto unanime di ventiquattro favorevoli su ventiquattro presenti.
 
@@ -89,7 +89,7 @@ Nella prassi applicativa consolidatasi nei decenni successivi all'entrata in vig
 
 La sentenza n. 221 del 5 novembre 2015 della Corte costituzionale ha segnato una svolta fondamentale nell'interpretazione della legge 164/1982. Già nel 2015, la **Corte di Cassazione** con la sentenza n. 15138 aveva affermato che l'intervento chirurgico non costituisse un presupposto necessario per la rettificazione anagrafica. La Corte costituzionale ha confermato e rafforzato questo orientamento, fornendo una pronuncia di rango costituzionale.
 
-La Corte ha riconosciuto che l'ordinamento italiano tutela il **diritto all'identità di genere** come elemento costitutivo del diritto all'identità personale, rientrante a pieno titolo tra i diritti fondamentali della persona garantiti dall'articolo 2 della Costituzione e dall'articolo 8 della Convenzione europea dei diritti dell'uomo.
+La Corte ha riconosciuto che l'ordinamento italiano tutela il **diritto all'[identità di genere](/wiki/identita-di-genere)** come elemento costitutivo del diritto all'identità personale, rientrante a pieno titolo tra i diritti fondamentali della persona garantiti dall'articolo 2 della Costituzione e dall'articolo 8 della Convenzione europea dei diritti dell'uomo.
 
 ### Il principio affermato
 
@@ -111,7 +111,7 @@ Allo stato attuale, il percorso di rettificazione anagrafica del genere in Itali
 
 **1. Percorso psicologico e diagnostico.** La persona si rivolge a uno psicologo o psicoterapeuta specializzato, spesso presso i centri afferenti all'**ONIG** (Osservatorio Nazionale sull'Identità di Genere) o strutture pubbliche territoriali. Viene redatta una **relazione psicodiagnostica** che attesta la condizione di **disforia di genere** o **incongruenza di genere** (secondo la classificazione ICD-11 dell'Organizzazione Mondiale della Sanità) e documenta l'identificazione stabile e duratura della persona con il genere vissuto.
 
-**2. Eventuale terapia ormonale.** La persona, se lo desidera, intraprende una **terapia ormonale sostitutiva** sotto supervisione endocrinologica. La terapia ormonale non è un requisito obbligatorio, ma nella prassi la documentazione relativa al percorso ormonale viene generalmente presentata al tribunale come elemento a supporto della domanda.
+**2. Eventuale terapia ormonale.** La persona, se lo desidera, intraprende una **[terapia ormonale sostitutiva](/wiki/transizione-medica-cosa-cambia)** sotto supervisione endocrinologica. La terapia ormonale non è un requisito obbligatorio, ma nella prassi la documentazione relativa al percorso ormonale viene generalmente presentata al tribunale come elemento a supporto della domanda.
 
 **3. Deposito del ricorso in tribunale.** La persona, assistita da un avvocato, presenta un **ricorso** al tribunale ordinario del luogo di residenza. Il ricorso deve essere accompagnato dalla documentazione medica e psicologica, dallo stato civile e dalla richiesta di rettificazione dell'attribuzione di sesso e del nome. Il procedimento, a seguito della riforma introdotta dal decreto legislativo 150/2011, segue il rito sommario di cognizione.
 

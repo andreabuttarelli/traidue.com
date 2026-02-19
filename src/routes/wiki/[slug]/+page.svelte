@@ -15,6 +15,23 @@
 		author: { '@type': 'Organization', name: 'Tra i Due' },
 		publisher: { '@type': 'Organization', name: 'Tra i Due' }
 	});
+
+	let faqSchema = $derived(
+		data.metadata.faq?.length
+			? {
+					'@context': 'https://schema.org',
+					'@type': 'FAQPage',
+					mainEntity: data.metadata.faq.map((item: { question: string; answer: string }) => ({
+						'@type': 'Question',
+						name: item.question,
+						acceptedAnswer: {
+							'@type': 'Answer',
+							text: item.answer
+						}
+					}))
+				}
+			: null
+	);
 </script>
 
 <SEO
@@ -31,6 +48,10 @@
 />
 
 <StructuredData schema={articleSchema} />
+
+{#if faqSchema}
+	<StructuredData schema={faqSchema} />
+{/if}
 
 <div class="w-full px-4 sm:px-6 lg:px-12 py-8 sm:py-12 flex flex-col lg:flex-row lg:gap-16 xl:gap-24">
 	<TOC />

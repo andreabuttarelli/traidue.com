@@ -53,6 +53,15 @@ sources:
   - title: "Study Bolsters Evidence that Effects of Puberty Blockers Are Reversible — American Physiological Society"
     url: "https://www.physiology.org/detail/news/2024/04/05/study-bolsters-evidence-that-effects-of-puberty-blockers-are-reversible"
     year: 2024
+faq:
+  - question: "Come capire se sono trans?"
+    answer: "Non esiste un modo unico per saperlo. L'esplorazione dell'identità di genere è un processo personale che può richiedere tempo. Un professionista esperto in identità di genere può aiutarti a esplorare quello che senti senza giudizio, e le linee guida APA raccomandano di supportare l'esplorazione senza indirizzarla."
+  - question: "Esplorare l'identità di genere è normale?"
+    answer: "Sì. Uno studio longitudinale del 2024 su Archives of Sexual Behavior ha documentato che una parte significativa di adolescenti attraversa fasi di esplorazione e domande sul proprio genere, come parte del normale sviluppo."
+  - question: "A che età si capisce la propria identità di genere?"
+    answer: "La maggior parte dei bambini sviluppa una consapevolezza del proprio genere tra i 2 e i 4 anni. Il TransYouth Project ha mostrato che il 97,5% dei giovani che avevano fatto una transizione sociale continuava a identificarsi come transgender dopo cinque anni."
+  - question: "Dove trovare supporto per giovani trans in Italia?"
+    answer: "In Italia sono disponibili il Gay Help Line (800 713 713, gratuito e anonimo), il portale InfoTrans dell'Istituto Superiore di Sanità, associazioni come AGEDO, GenderLens, MIT e Azione Trans, e i centri specializzati collegati all'ONIG."
 related: ["identita-di-genere", "famiglie-e-persone-trans", "miti-comuni-persone-trans"]
 ---
 

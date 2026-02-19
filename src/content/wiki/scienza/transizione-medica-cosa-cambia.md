@@ -41,7 +41,7 @@ sources:
 related: ["basi-biologiche-identita-di-genere", "ricerche-recenti-identita-genere"]
 ---
 
-La terapia ormonale sostitutiva (HRT) è uno degli strumenti principali della transizione medica. Attraverso la somministrazione di estrogeni o testosterone, il corpo subisce cambiamenti profondi che riguardano la composizione corporea, il metabolismo, il profilo ematologico e numerose altre funzioni. Questo articolo esamina, sulla base della letteratura peer-reviewed, cosa cambia realmente e cosa invece resta invariato.
+La terapia ormonale sostitutiva (HRT) è uno degli strumenti principali della transizione medica. Attraverso la somministrazione di estrogeni o testosterone, il corpo subisce cambiamenti profondi che riguardano la composizione corporea, il metabolismo, il profilo ematologico e numerose altre funzioni. Questi cambiamenti hanno implicazioni anche nel dibattito sulla [partecipazione sportiva](/wiki/sport-e-persone-trans). Questo articolo esamina, sulla base della letteratura peer-reviewed, cosa cambia realmente e cosa invece resta invariato.
 
 ## Premessa importante
 
@@ -89,7 +89,7 @@ Lo scheletro adulto, incluse l'altezza, la larghezza delle spalle e del bacino, 
 
 ### Capacità riproduttiva endogena
 
-La terapia ormonale riduce fortemente la fertilità, ma non la elimina sempre in modo definitivo. La produzione di gameti (spermatozoi o ovuli) viene compromessa, spesso in modo irreversibile dopo un trattamento prolungato. Per questo motivo, le linee guida raccomandano di discutere le opzioni di preservazione della fertilità prima di iniziare la terapia.
+La terapia ormonale riduce fortemente la fertilità, ma non la elimina sempre in modo definitivo. La produzione di gameti (spermatozoi o ovuli) viene compromessa, spesso in modo irreversibile dopo un trattamento prolungato. Per questo motivo, le linee guida raccomandano di discutere le opzioni di preservazione della fertilità prima di iniziare la terapia. Chi affronta queste decisioni insieme ai propri cari può trovare utile la [guida per le famiglie](/wiki/famiglie-e-persone-trans).
 
 ### Organi interni
 
@@ -97,6 +97,6 @@ Senza interventi chirurgici, gli organi riproduttivi interni restano invariati. 
 
 ## Una prospettiva d'insieme
 
-La terapia ormonale non trasforma il corpo in modo totale, ma i cambiamenti sono profondi e sistemici. Il sangue, il metabolismo, la composizione corporea, la pelle e i caratteri sessuali secondari si modificano in modo sostanziale. Alcuni aspetti strutturali (ossa, cromosomi) restano invariati. Questa complessità riflette il fatto che il sesso biologico non è un singolo parametro, ma un insieme di caratteristiche che possono essere allineate in diversi modi.
+La terapia ormonale non trasforma il corpo in modo totale, ma i cambiamenti sono profondi e sistemici. Il sangue, il metabolismo, la composizione corporea, la pelle e i caratteri sessuali secondari si modificano in modo sostanziale. Alcuni aspetti strutturali (ossa, cromosomi) restano invariati. Questa complessità riflette il fatto che il [sesso biologico](/wiki/sesso-biologico-oltre-il-binarismo) non è un singolo parametro, ma un insieme di caratteristiche che possono essere allineate in diversi modi.
 
 La ricerca continua a documentare gli effetti a lungo termine della terapia ormonale, confermando il suo profilo di sicurezza quando somministrata sotto controllo medico e seguendo le linee guida internazionali.

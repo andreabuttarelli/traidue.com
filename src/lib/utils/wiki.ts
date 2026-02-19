@@ -8,6 +8,7 @@ export interface WikiArticle {
 	updated: string;
 	image?: string;
 	sources: { title: string; url: string; year: number }[];
+	faq?: { question: string; answer: string }[];
 	related: string[];
 }
 

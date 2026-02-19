@@ -53,6 +53,17 @@ sources:
   - title: "Mental Health of Transgender Youth Following Gender Identity Milestones by Level of Family Support"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11250281/"
     year: 2024
+faq:
+  - question: "Mio figlio dice di essere trans, cosa faccio?"
+    answer: "La ricerca scientifica indica che la reazione della famiglia è il fattore più determinante per la salute mentale di un giovane transgender. Il primo passo è ascoltare, informarsi e cercare supporto professionale, ad esempio tramite AGEDO o i centri ONIG."
+  - question: "L'accettazione familiare influisce sulla salute mentale dei giovani trans?"
+    answer: "Sì, in modo significativo. Secondo il Family Acceptance Project, i giovani LGBT con elevato rifiuto familiare sono 8,4 volte più a rischio di tentativo di suicidio, mentre quelli con famiglie accettanti mostrano livelli più alti di autostima e protezione contro depressione e ideazione suicidaria."
+  - question: "Cosa sono i bloccanti della pubertà?"
+    answer: "Sono farmaci (agonisti del GnRH) che sospendono temporaneamente lo sviluppo puberale per dare tempo al giovane di maturare sotto supervisione medica. Sono usati da oltre 40 anni in endocrinologia pediatrica e i loro effetti sono reversibili alla sospensione del trattamento."
+  - question: "Esistono interventi chirurgici sui minori trans?"
+    answer: "No. Gli interventi chirurgici di affermazione di genere non vengono eseguiti su minori secondo le principali linee guida internazionali (Endocrine Society e WPATH). Per i bambini pre-puberi non è previsto alcun intervento medico."
+  - question: "L'identità transgender è causata dall'educazione dei genitori?"
+    answer: "No. Le evidenze scientifiche indicano che l'identità di genere ha basi biologiche e non è determinata dallo stile genitoriale, dall'ambiente familiare o da esperienze specifiche durante l'infanzia."
 related: ["identita-di-genere", "miti-comuni-persone-trans", "transizione-medica-cosa-cambia"]
 ---
 

@@ -68,7 +68,7 @@ A livello europeo, l'ILGA-Europe Rainbow Map classifica annualmente 49 paesi sul
 
 ## Paesi con pieno riconoscimento giuridico
 
-Un numero crescente di stati ha introdotto procedure che consentono alle persone trans di ottenere il riconoscimento legale della propria identità di genere. Questi modelli variano per requisiti: alcuni richiedono diagnosi mediche e interventi chirurgici, altri si basano esclusivamente sulla dichiarazione della persona interessata.
+Un numero crescente di stati ha introdotto procedure che consentono alle persone trans di ottenere il riconoscimento legale della propria [identità di genere](/wiki/identita-di-genere). Questi modelli variano per requisiti: alcuni richiedono diagnosi mediche e interventi chirurgici, altri si basano esclusivamente sulla dichiarazione della persona interessata.
 
 ### L'autodeterminazione di genere
 
@@ -90,7 +90,7 @@ Molti altri paesi consentono il riconoscimento legale del genere, ma lo subordin
 
 ### Stati Uniti: un mosaico legislativo
 
-La situazione negli **Stati Uniti** rappresenta forse il caso più emblematico di polarizzazione interna. In assenza di una legge federale uniforme, ogni stato può adottare normative proprie in materia di identità di genere. Secondo il Trans Legislation Tracker, nel 2025 sono stati presentati oltre 1.000 disegni di legge che avrebbero un impatto negativo sulle persone trans e di genere non conforme. Di questi, al luglio 2025, 54 sono stati approvati.
+La situazione negli **[Stati Uniti](/wiki/stati-uniti-diritti-trans)** rappresenta forse il caso più emblematico di polarizzazione interna. In assenza di una legge federale uniforme, ogni stato può adottare normative proprie in materia di identità di genere. Secondo il Trans Legislation Tracker, nel 2025 sono stati presentati oltre 1.000 disegni di legge che avrebbero un impatto negativo sulle persone trans e di genere non conforme. Di questi, al luglio 2025, 54 sono stati approvati.
 
 Le restrizioni riguardano principalmente quattro ambiti. L'accesso alle **cure sanitarie di affermazione di genere** per i minori è stato vietato o limitato in 27 stati, coinvolgendo circa il 40% dei giovani trans tra i 13 e i 17 anni. L'uso dei bagni corrispondenti alla propria identità di genere negli edifici pubblici è vietato in 19 stati. La partecipazione alle attività sportive scolastiche in base alla propria identità di genere è oggetto di restrizioni in numerosi stati. In sei stati, fornire cure di affermazione di genere ai minori costituisce un reato penale.
 
@@ -98,7 +98,7 @@ Il Williams Institute della UCLA ha stimato che, nel 2025, più della metà (53%
 
 ### Regno Unito: il dibattito post-Cass
 
-Nel **Regno Unito**, il dibattito sui diritti delle persone trans si è intensificato a seguito della pubblicazione della **Cass Review** nell'aprile 2024. Questa revisione sistematica, commissionata dal National Health Service e guidata dalla pediatra Hilary Cass, ha esaminato i servizi di identità di genere per bambini e giovani, raccomandando che la soppressione della pubertà con agonisti del GnRH fosse disponibile per gli adolescenti trans solo nell'ambito di studi clinici. Il governo britannico ha successivamente vietato la prescrizione di bloccanti della pubertà ai minori al di fuori di contesti di ricerca.
+Nel **[Regno Unito](/wiki/regno-unito-diritti-trans)**, il dibattito sui diritti delle persone trans si è intensificato a seguito della pubblicazione della **Cass Review** nell'aprile 2024. Questa revisione sistematica, commissionata dal National Health Service e guidata dalla pediatra Hilary Cass, ha esaminato i servizi di identità di genere per bambini e giovani, raccomandando che la soppressione della pubertà con agonisti del GnRH fosse disponibile per gli adolescenti trans solo nell'ambito di studi clinici. Il governo britannico ha successivamente vietato la prescrizione di bloccanti della pubertà ai minori al di fuori di contesti di ricerca.
 
 La Cass Review ha generato un ampio dibattito. All'interno del Regno Unito, le sue conclusioni sono state adottate dal NHS e sostenute dai principali partiti politici. A livello internazionale, tuttavia, la revisione ha ricevuto critiche da organizzazioni professionali e nella letteratura peer-reviewed per problemi metodologici e per la presunta esclusione di evidenze a favore delle cure affermative. Nel 2025, le società scientifiche mediche di Germania, Austria e Svizzera hanno pubblicato nuove linee guida sulla sanità transgender che criticano la metodologia della Cass Review.
 

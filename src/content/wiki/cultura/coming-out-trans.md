@@ -59,9 +59,9 @@ Il coming out come persona transgender non funziona come te lo raccontano. Non �
 
 Quando si parla di coming out, il riferimento culturale più diffuso è quello legato all'orientamento sessuale: rivelare di essere gay, lesbica o bisessuale. Il coming out transgender condivide alcuni aspetti di questa esperienza, ma ha caratteristiche proprie che la ricerca ha iniziato a distinguere in modo più preciso.
 
-La differenza fondamentale è nel tipo di informazione rivelata. Il coming out LGB riguarda l'attrazione -- chi ti piace. Il coming out trans riguarda l'identità -- chi sei. Questo ha implicazioni pratiche enormi: il coming out trans spesso implica cambiamenti visibili (nome, pronomi, aspetto, documenti) e non può restare "privato" allo stesso modo. Il modello a stadi sviluppato da Bockting e Coleman descrive il processo specifico dell'identità transgender attraverso cinque fasi -- dal pre-coming out all'integrazione dell'identità -- riconoscendo che il percorso è diverso da quello dell'orientamento sessuale.
+La differenza fondamentale è nel tipo di informazione rivelata. Il coming out LGB riguarda l'attrazione -- chi ti piace. Il coming out trans riguarda l'[identità di genere](/wiki/identita-di-genere) -- chi sei. Questo ha implicazioni pratiche enormi: il coming out trans spesso implica cambiamenti visibili (nome, pronomi, aspetto, documenti) e non può restare "privato" allo stesso modo. Il modello a stadi sviluppato da Bockting e Coleman descrive il processo specifico dell'identità transgender attraverso cinque fasi -- dal pre-coming out all'integrazione dell'identità -- riconoscendo che il percorso è diverso da quello dell'orientamento sessuale.
 
-C'è un'altra differenza che la letteratura evidenzia: il coming out trans è spesso un processo continuo. A differenza dell'orientamento sessuale, che può rimanere non visibile, le persone transgender che intraprendono una transizione sociale o medica si trovano ripetutamente nella condizione di dover decidere se rivelare la propria storia di genere -- con ogni nuovo medico, ogni nuovo collega, ogni nuova relazione. Uno studio qualitativo del 2017 su adulti transgender ha documentato come questa disclosure ricorrente rappresenti una fonte di stress unica, distinta dall'atto iniziale di coming out.
+C'è un'altra differenza che la letteratura evidenzia: il coming out trans è spesso un processo continuo. A differenza dell'orientamento sessuale, che può rimanere non visibile, le persone transgender che intraprendono una transizione sociale o [medica](/wiki/transizione-medica-cosa-cambia) si trovano ripetutamente nella condizione di dover decidere se rivelare la propria storia di genere -- con ogni nuovo medico, ogni nuovo collega, ogni nuova relazione. Uno studio qualitativo del 2017 su adulti transgender ha documentato come questa disclosure ricorrente rappresenti una fonte di stress unica, distinta dall'atto iniziale di coming out.
 
 ## Cosa dice la ricerca: salute mentale, nascondersi e rivelarsi
 
@@ -161,7 +161,7 @@ Non fare coming out in un contesto non sicuro non è un fallimento. È una scelt
 
 In Italia, il quadro normativo per le persone transgender si articola su diversi livelli, nessuno dei quali completo.
 
-La **Legge 164 del 1982** consente la rettificazione dell'attribuzione di sesso nei documenti ufficiali. La sentenza della Corte Costituzionale n. 221 del 2015 ha stabilito che l'intervento chirurgico non è un requisito obbligatorio per la rettifica anagrafica, aprendo la strada a percorsi meno invasivi. Il procedimento richiede comunque un ricorso al tribunale con la partecipazione del pubblico ministero.
+La **[Legge 164 del 1982](/wiki/legge-164-italia)** consente la rettificazione dell'attribuzione di sesso nei documenti ufficiali. La sentenza della Corte Costituzionale n. 221 del 2015 ha stabilito che l'intervento chirurgico non è un requisito obbligatorio per la rettifica anagrafica, aprendo la strada a percorsi meno invasivi. Il procedimento richiede comunque un ricorso al tribunale con la partecipazione del pubblico ministero.
 
 Sul fronte della **privacy**, il Garante per la Protezione dei Dati Personali ha riconosciuto l'identità di genere come dato sensibile meritevole di tutela rafforzata. Lo strumento dell'identità alias, diffuso in ambito universitario e scolastico, consente l'utilizzo del nome di elezione nei documenti interni, proteggendo la persona dalla disclosure involontaria dei dati anagrafici.
 
@@ -181,7 +181,7 @@ Per chi sta considerando il coming out o lo ha appena fatto, e per chi ha ricevu
 
 ### Per le famiglie
 
-- **AGEDO** (Associazione Genitori di Omosessuali) -- Offre gruppi di supporto per genitori e familiari di persone LGBT, incluse le persone transgender.
+- **AGEDO** (Associazione Genitori di Omosessuali) -- Offre gruppi di supporto per genitori e familiari di persone LGBT, incluse le persone transgender. Vedi anche la nostra [guida per le famiglie](/wiki/famiglie-e-persone-trans).
 - **GenderLens** -- Risorse informative in italiano per famiglie che affrontano tematiche legate all'identità di genere.
 
 ### Per la scuola e il lavoro
