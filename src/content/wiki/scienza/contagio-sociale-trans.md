@@ -61,13 +61,13 @@ related:
   - basi-biologiche-identita-di-genere
 ---
 
-"I giovani diventano trans perché lo vedono sui social media." "E' una moda diffusa tra amici." "Prima non c'erano tutti questi transgender." Queste affermazioni circolano regolarmente nei dibattiti pubblici, nei media e persino in alcune proposte legislative. Alla base c'e' un'idea apparentemente intuitiva: l'identità di genere si possa "contagiare", come un virus, attraverso l'esposizione a contenuti online o il contatto con coetanei transgender.
+"I giovani diventano trans perché lo vedono sui social media." "È una moda diffusa tra amici." "Prima non c'erano tutti questi transgender." Queste affermazioni circolano regolarmente nei dibattiti pubblici, nei media e persino in alcune proposte legislative. Alla base c'è un'idea apparentemente intuitiva: l'identità di genere si possa "contagiare", come un virus, attraverso l'esposizione a contenuti online o il contatto con coetanei transgender.
 
 Questa idea ha un nome scientifico: la teoria del contagio sociale trans. Ha anche una sigla clinica -- ROGD, Rapid Onset Gender Dysphoria -- coniata in uno studio del 2018 che ha generato un'enorme controversia. Ma cosa dice davvero la ricerca? Questa ipotesi ha superato il vaglio scientifico? E perché le principali organizzazioni mediche del mondo la rifiutano?
 
-## Cos'e' la ROGD: l'ipotesi e lo studio di Littman
+## Cos'è la ROGD: l'ipotesi e lo studio di Littman
 
-Il termine "Rapid Onset Gender Dysphoria" (disforia di genere a insorgenza rapida) e' stato introdotto da Lisa Littman in uno studio pubblicato su PLOS ONE nel 2018. L'ipotesi sosteneva che alcuni adolescenti -- in particolare quelli assegnati femmina alla nascita -- sviluppassero la disforia di genere in modo improvviso durante o dopo la pubertà, influenzati da coetanei transgender e dall'esposizione a contenuti sui social media.
+Il termine "Rapid Onset Gender Dysphoria" (disforia di genere a insorgenza rapida) è stato introdotto da Lisa Littman in uno studio pubblicato su PLOS ONE nel 2018. L'ipotesi sosteneva che alcuni adolescenti -- in particolare quelli assegnati femmina alla nascita -- sviluppassero la disforia di genere in modo improvviso durante o dopo la pubertà, influenzati da coetanei transgender e dall'esposizione a contenuti sui social media.
 
 Lo studio si basava su un sondaggio online rivolto a 256 genitori. Littman chiedeva ai genitori di descrivere il momento in cui i loro figli avevano manifestato segni di disforia di genere, le loro amicizie e il loro uso dei social media. I genitori riportavano che la disforia sembrava comparire "all'improvviso", spesso in concomitanza con una maggiore esposizione a contenuti trans online e in gruppi di amici dove anche altri giovani si identificavano come transgender.
 
@@ -89,11 +89,11 @@ Restar sottolinea un altro problema significativo: il modulo di consenso informa
 
 Lo studio non includeva alcun dato proveniente dagli adolescenti stessi, né dai clinici che li avevano in cura. Le conclusioni sulla disforia di genere dei giovani si basavano interamente sulle percezioni dei genitori -- genitori che, nella maggioranza dei casi, non accettavano l'identità di genere dei propri figli. Come osserva Restar, i genitori non sono qualificati per formulare diagnosi cliniche, e la percezione di un'insorgenza "rapida" dal punto di vista genitoriale non corrisponde necessariamente alla realtà dell'esperienza del giovane.
 
-Molte persone trans riferiscono di aver sperimentato incongruenza di genere per anni prima di comunicarla ai propri genitori. Cio' che appare "rapido" dall'esterno puo' essere il risultato di un lungo processo interno di elaborazione e, finalmente, di rivelazione.
+Molte persone trans riferiscono di aver sperimentato incongruenza di genere per anni prima di comunicarla ai propri genitori. Ciò che appare "rapido" dall'esterno può essere il risultato di un lungo processo interno di elaborazione e, finalmente, di rivelazione.
 
 ### La correzione di PLOS ONE
 
-Le critiche sono state cosi' significative che PLOS ONE ha avviato una revisione post-pubblicazione. Nel marzo 2019, la rivista ha pubblicato una correzione formale dello studio, con l'editore Joerg Heber che si è scusato "con la comunità trans e gender variant" per la precedente revisione e pubblicazione. La nota editoriale chiariva che "lo studio, compresi i suoi obiettivi, la metodologia e le conclusioni, non erano adeguatamente inquadrati nella versione pubblicata". La stessa correzione ribadiva che la ROGD "non è una diagnosi formale di salute mentale" e che lo studio "non valida il fenomeno".
+Le critiche sono state così significative che PLOS ONE ha avviato una revisione post-pubblicazione. Nel marzo 2019, la rivista ha pubblicato una correzione formale dello studio, con l'editore Joerg Heber che si è scusato "con la comunità trans e gender variant" per la precedente revisione e pubblicazione. La nota editoriale chiariva che "lo studio, compresi i suoi obiettivi, la metodologia e le conclusioni, non erano adeguatamente inquadrati nella versione pubblicata". La stessa correzione ribadiva che la ROGD "non è una diagnosi formale di salute mentale" e che lo studio "non valida il fenomeno".
 
 ## Le evidenze contro il contagio sociale
 
@@ -101,7 +101,7 @@ Se l'ipotesi del contagio sociale fosse corretta, dovremmo osservare alcuni patt
 
 ### Lo studio di Turban et al. (2022)
 
-Lo studio piu' ampio e rigoroso sull'ipotesi del contagio sociale e' stato pubblicato su Pediatrics da Turban, Dolotina, King e Keuroghlian nel 2022. I ricercatori hanno analizzato i dati del Youth Risk Behavior Survey dei Centers for Disease Control and Prevention (CDC) -- un campione di circa 100.000 studenti delle scuole superiori per anno, raccolto in 16 stati americani nel 2017 e nel 2019.
+Lo studio più ampio e rigoroso sull'ipotesi del contagio sociale è stato pubblicato su Pediatrics da Turban, Dolotina, King e Keuroghlian nel 2022. I ricercatori hanno analizzato i dati del Youth Risk Behavior Survey dei Centers for Disease Control and Prevention (CDC) -- un campione di circa 100.000 studenti delle scuole superiori per anno, raccolto in 16 stati americani nel 2017 e nel 2019.
 
 I risultati contraddicono direttamente le previsioni della teoria del contagio sociale:
 
@@ -119,15 +119,15 @@ Un altro studio fondamentale è stato pubblicato su The Journal of Pediatrics da
 
 Lo studio ha testato una serie di associazioni che sarebbero coerenti con l'ipotesi della ROGD: se questa fosse un fenomeno reale e distinto, ci si aspetterebbe di trovare due gruppi riconoscibili di pazienti con tempistiche diverse di sviluppo dell'identità di genere. I risultati: **nessuna delle associazioni previste dall'ipotesi ROGD è stata confermata dai dati clinici**. Come ha osservato Bauer, "se la ROGD fosse reale, ci aspetteremmo di vedere due correnti distinguibili di pazienti con tempistiche diverse dell'identità di genere -- ma non le abbiamo trovate".
 
-Inoltre, il 98,3% dei giovani che cercavano cure di affermazione di genere aveva realizzato di poter essere transgender piu' di un anno prima. Questo dato è incompatibile con un'insorgenza "rapida" causata da influenze esterne recenti.
+Inoltre, il 98,3% dei giovani che cercavano cure di affermazione di genere aveva realizzato di poter essere transgender più di un anno prima. Questo dato è incompatibile con un'insorgenza "rapida" causata da influenze esterne recenti.
 
-## Perché ci sono "piu' persone trans" oggi
+## Perché ci sono "più persone trans" oggi
 
 L'aumento della visibilità delle persone transgender è reale. Ma l'interpretazione -- che questo aumento sia causato dal contagio sociale -- non è l'unica possibile, e non è quella supportata dalle evidenze. La spiegazione scientificamente più solida è un'altra: **l'aumento è legato alla riduzione dello stigma e al miglioramento dell'accesso ai servizi**.
 
 ### Il precedente storico: le persone mancine
 
-Il parallelo piu' illuminante viene dalla storia del mancinismo. All'inizio del Novecento, la percentuale di persone mancine nella popolazione era intorno al 3-4%. Nel corso del secolo, questa percentuale è salita fino a stabilizzarsi intorno al 12%.
+Il parallelo più illuminante viene dalla storia del mancinismo. All'inizio del Novecento, la percentuale di persone mancine nella popolazione era intorno al 3-4%. Nel corso del secolo, questa percentuale è salita fino a stabilizzarsi intorno al 12%.
 
 Cosa era successo? Le persone erano improvvisamente "diventate" mancine? No. Per secoli, i mancini erano stati costretti a usare la mano destra -- con punizioni, stigma sociale e persino interventi "correttivi". Quando queste pressioni sono cessate, le persone hanno semplicemente potuto esprimere una caratteristica che avevano sempre avuto. Il numero reale di mancini non è cambiato: è cambiato il numero di mancini **visibili**.
 
@@ -139,8 +139,8 @@ L'Endocrine Society, nella sua dichiarazione di posizione del 2020 sulla salute 
 
 - **Maggiore consapevolezza**: le persone hanno accesso a informazioni e linguaggio per descrivere esperienze che in passato non avevano nome.
 - **Riduzione dello stigma**: in molti contesti, identificarsi come transgender comporta meno rischi rispetto al passato, sebbene i rischi rimangano significativi.
-- **Miglioramento dell'accesso alle cure**: piu' professionisti sanitari sono formati sull'identità di genere, rendendo piu' facile cercare supporto.
-- **Cambiamento dei criteri diagnostici**: le revisioni del DSM e dell'ICD hanno ampliato e aggiornato le definizioni, riflettendo una comprensione piu' accurata della diversità di genere.
+- **Miglioramento dell'accesso alle cure**: più professionisti sanitari sono formati sull'identità di genere, rendendo più facile cercare supporto.
+- **Cambiamento dei criteri diagnostici**: le revisioni del DSM e dell'ICD hanno ampliato e aggiornato le definizioni, riflettendo una comprensione più accurata della diversità di genere.
 
 ## Cosa dicono le principali organizzazioni mediche
 
@@ -222,6 +222,6 @@ La posta in gioco non è accademica. Dietro le statistiche ci sono persone reali
 
 La teoria del contagio sociale trans e la ROGD non hanno superato il vaglio scientifico. Lo studio originale era basato su un campione distorto, non includeva dati dai diretti interessati, e le sue conclusioni sono state corrette dalla stessa rivista che le ha pubblicate. Gli studi successivi, condotti su campioni ampi e con dati clinici diretti, non hanno trovato evidenze di contagio sociale. Le principali organizzazioni mediche e psicologiche del mondo rifiutano il concetto.
 
-L'aumento della visibilità delle persone trans non è il segno di un'epidemia. E' il segno di una società che, lentamente e in modo diseguale, sta imparando a riconoscere la diversità che è sempre esistita. Come per i mancini, come per le persone gay e lesbiche, la domanda non è "perché ce ne sono di piu'?" ma "perché prima non potevano essere visibili?"
+L'aumento della visibilità delle persone trans non è il segno di un'epidemia. È il segno di una società che, lentamente e in modo diseguale, sta imparando a riconoscere la diversità che è sempre esistita. Come per i mancini, come per le persone gay e lesbiche, la domanda non è "perché ce ne sono di più?" ma "perché prima non potevano essere visibili?"
 
 La scienza non ha tutte le risposte. Ma sulle domande fondamentali -- l'identità di genere si può contagiare? la ROGD è un fenomeno clinico reale? -- la risposta delle evidenze è chiara. No.

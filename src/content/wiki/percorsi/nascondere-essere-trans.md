@@ -61,7 +61,7 @@ related:
   - coming-out-trans
 ---
 
-La domanda "nascondere di essere trans è reato?" è una delle piu cercate online dalle persone transgender italiane. Dietro questa ricerca c'è un'ansia concreta: la paura che la propria identità possa essere usata contro di sé, che esista un obbligo nascosto nel codice penale, che il silenzio sulla propria storia possa avere conseguenze legali. La risposta, fondata sul diritto italiano ed europeo, è chiara: **no, non esiste alcun obbligo legale di rivelare di essere transgender**. Questo articolo analizza nel dettaglio perché, esaminando la normativa sulla privacy, le tutele nei rapporti personali e lavorativi, la riservatezza medica e il confronto internazionale.
+La domanda "nascondere di essere trans è reato?" è una delle più cercate online dalle persone transgender italiane. Dietro questa ricerca c'è un'ansia concreta: la paura che la propria identità possa essere usata contro di sé, che esista un obbligo nascosto nel codice penale, che il silenzio sulla propria storia possa avere conseguenze legali. La risposta, fondata sul diritto italiano ed europeo, è chiara: **no, non esiste alcun obbligo legale di rivelare di essere transgender**. Questo articolo analizza nel dettaglio perché, esaminando la normativa sulla privacy, le tutele nei rapporti personali e lavorativi, la riservatezza medica e il confronto internazionale.
 
 ## Il principio fondamentale: la privacy come diritto
 

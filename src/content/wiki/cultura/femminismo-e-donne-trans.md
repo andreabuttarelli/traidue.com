@@ -148,72 +148,72 @@ Le donne trans subiscono sessismo, molestie, violenza di genere, discriminazione
 
 Come ha osservato **Angela Davis** durante il festival Women of the World alla Royal Albert Hall di Londra, le donne trans "devono lottare per essere incluse nella categoria in cui già vivono" e subiscono forme specifiche di violenza, soprattutto all'interno del sistema carcerario, dove vengono spesso collocate in strutture maschili e private delle cure mediche necessarie. Davis ha affermato senza ambiguità: "Le donne trans sono donne."
 
-Il patriarcato non chiede i documenti prima di opprimere. Una donna trans che cammina per strada e soggetta allo sguardo maschile, alla molestia, alla violenza esattamente come una donna cisgender. Spesso di piu, perche alla misoginia si somma la transfobia. Escludere le donne trans dalla lotta femminista significa indebolire il fronte contro un nemico comune.
+Il patriarcato non chiede i documenti prima di opprimere. Una donna trans che cammina per strada è soggetta allo sguardo maschile, alla molestia, alla violenza esattamente come una donna cisgender. Spesso di più, perché alla misoginia si somma la transfobia. Escludere le donne trans dalla lotta femminista significa indebolire il fronte contro un nemico comune.
 
 ## Le voci femministe a favore dell'inclusione
 
-### bell hooks: il femminismo e per tutte
+### bell hooks: il femminismo è per tutte
 
-**bell hooks** (1952-2021), una delle pensatrici femministe piu influenti del Novecento, ha lavorato instancabilmente per costruire un femminismo inclusivo di tutte le identita marginalizzate. Nel suo libro **Feminism is for Everybody** (2000), hooks definisce il femminismo come un movimento contro ogni forma di dominazione sessista -- una definizione che non esclude nessuna donna.
+**bell hooks** (1952-2021), una delle pensatrici femministe più influenti del Novecento, ha lavorato instancabilmente per costruire un femminismo inclusivo di tutte le identità marginalizzate. Nel suo libro **Feminism is for Everybody** (2000), hooks definisce il femminismo come un movimento contro ogni forma di dominazione sessista -- una definizione che non esclude nessuna donna.
 
-Nel 2014, hooks partecipo a un dialogo pubblico con l'attrice e attivista trans Laverne Cox alla New School di New York. In quell'occasione, hooks parlo della necessita di "coltivare insieme comunita che permettano il rischio di conoscere qualcuno al di fuori dei propri confini, il rischio che e l'amore". La sua visione di un femminismo radicale e inclusivo ha influenzato generazioni di attiviste trans che si riconoscono nella sua filosofia.
+Nel 2014, hooks partecipò a un dialogo pubblico con l'attrice e attivista trans Laverne Cox alla New School di New York. In quell'occasione, hooks parlò della necessità di "coltivare insieme comunità che permettano il rischio di conoscere qualcuno al di fuori dei propri confini, il rischio che è l'amore". La sua visione di un femminismo radicale e inclusivo ha influenzato generazioni di attiviste trans che si riconoscono nella sua filosofia.
 
 ### Angela Davis: abolizionismo e diritti trans
 
-**Angela Davis** ha collegato esplicitamente la lotta per i diritti delle donne trans al femminismo abolizionista. Ha sottolineato come le comunita trans e non binarie abbiano contribuito al femminismo dimostrando che "e possibile immaginare mondi piu socialmente giusti che sfidano cio che e totalmente accettato come normale". Per Davis, il riconoscimento delle donne trans non e un'aggiunta al femminismo: ne e una componente essenziale.
+**Angela Davis** ha collegato esplicitamente la lotta per i diritti delle donne trans al femminismo abolizionista. Ha sottolineato come le comunità trans e non binarie abbiano contribuito al femminismo dimostrando che "è possibile immaginare mondi più socialmente giusti che sfidano ciò che è totalmente accettato come normale". Per Davis, il riconoscimento delle donne trans non è un'aggiunta al femminismo: ne è una componente essenziale.
 
 ### La lettera aperta del 2021
 
-Nel marzo 2021, in occasione del Transgender Day of Visibility, **GLAAD** pubblico una lettera aperta firmata da oltre 465 leader femministe in ambiti che andavano dall'attivismo all'intrattenimento, dalla politica alla giustizia sociale. Tra le firmatarie: **Gloria Steinem**, **Laverne Cox**, **Regina King**, **Halle Berry**, **Megan Rapinoe** e organizzazioni come **Planned Parenthood**. La lettera affermava: "Le donne transgender sono donne e le ragazze transgender sono ragazze. Onorare la diversita delle esperienze delle donne e una forza, non un danno per la causa femminista."
+Nel marzo 2021, in occasione del Transgender Day of Visibility, **GLAAD** pubblicò una lettera aperta firmata da oltre 465 leader femministe in ambiti che andavano dall'attivismo all'intrattenimento, dalla politica alla giustizia sociale. Tra le firmatarie: **Gloria Steinem**, **Laverne Cox**, **Regina King**, **Halle Berry**, **Megan Rapinoe** e organizzazioni come **Planned Parenthood**. La lettera affermava: "Le donne transgender sono donne e le ragazze transgender sono ragazze. Onorare la diversità delle esperienze delle donne è una forza, non un danno per la causa femminista."
 
 ### Andrea Dworkin e Catharine MacKinnon
 
-Come documentato dalla Stanford Encyclopedia of Philosophy, anche all'interno del femminismo radicale -- la corrente da cui proviene la posizione trans-escludente -- alcune delle figure piu importanti hanno esplicitamente sostenuto l'inclusione trans. **Andrea Dworkin** (1946-2005), tra le femministe radicali piu note, aveva espresso gia nel 1974 posizioni a favore del riconoscimento delle identita trans. **Catharine A. MacKinnon**, altra figura centrale del femminismo radicale, ha ribadito la stessa posizione nel 2023. Questo dimostra che la posizione trans-escludente non rappresenta il femminismo radicale nel suo complesso, ma ne e una deviazione minoritaria.
+Come documentato dalla Stanford Encyclopedia of Philosophy, anche all'interno del femminismo radicale -- la corrente da cui proviene la posizione trans-escludente -- alcune delle figure più importanti hanno esplicitamente sostenuto l'inclusione trans. **Andrea Dworkin** (1946-2005), tra le femministe radicali più note, aveva espresso già nel 1974 posizioni a favore del riconoscimento delle identità trans. **Catharine A. MacKinnon**, altra figura centrale del femminismo radicale, ha ribadito la stessa posizione nel 2023. Questo dimostra che la posizione trans-escludente non rappresenta il femminismo radicale nel suo complesso, ma ne è una deviazione minoritaria.
 
 ## Il contesto italiano: Non Una Di Meno e il transfemminismo
 
 ### Il movimento transfemminista in Italia
 
-In Italia, il dibattito sull'inclusione delle donne trans nel femminismo ha trovato una sintesi nel concetto di **transfemminismo**. Il termine, registrato dalla Treccani come neologismo, indica una corrente femminista che parte dalle esperienze delle donne trans per ampliare l'analisi delle oppressioni di genere a tutte le soggettivita che il patriarcato marginalizza.
+In Italia, il dibattito sull'inclusione delle donne trans nel femminismo ha trovato una sintesi nel concetto di **transfemminismo**. Il termine, registrato dalla Treccani come neologismo, indica una corrente femminista che parte dalle esperienze delle donne trans per ampliare l'analisi delle oppressioni di genere a tutte le soggettività che il patriarcato marginalizza.
 
-Una figura storica del transfemminismo italiano e **Porpora Marcasciano**, attivista che ha contribuito a costruire ponti tra il movimento trans e il movimento femminista fin dagli anni Ottanta.
+Una figura storica del transfemminismo italiano è **Porpora Marcasciano**, attivista che ha contribuito a costruire ponti tra il movimento trans e il movimento femminista fin dagli anni Ottanta.
 
 ### Non Una Di Meno: femminismo e transfemminismo
 
-**Non Una Di Meno** (NUDM), il principale movimento femminista italiano contemporaneo, attivo dal 2016, si definisce esplicitamente come movimento **femminista e transfemminista**. La piattaforma di NUDM parla di "violenza di genere" anziche di "violenza contro le donne", ampliando lo sguardo a tutte le soggettivita vulnerabili al sistema patriarcale.
+**Non Una Di Meno** (NUDM), il principale movimento femminista italiano contemporaneo, attivo dal 2016, si definisce esplicitamente come movimento **femminista e transfemminista**. La piattaforma di NUDM parla di "violenza di genere" anziché di "violenza contro le donne", ampliando lo sguardo a tutte le soggettività vulnerabili al sistema patriarcale.
 
 Essere femministe e transfemministe, per Non Una Di Meno, significa "riconoscere un approccio transnazionale, intergenerazionale, intersezionale che tenga conto della classe e delle condizioni materiali". Significa partire dalle pratiche e dalle esperienze delle donne e delle persone LGBTQIA+ quando queste sfidano la divisione sessuale del lavoro e le strutture familiari patriarcali.
 
-La scelta di NUDM non e stata priva di tensioni. Ma la posizione del movimento e stata chiara fin dall'inizio: il femminismo italiano del XXI secolo e inclusivo per definizione, e ogni tentativo di esclusione indebolisce la lotta comune.
+La scelta di NUDM non è stata priva di tensioni. Ma la posizione del movimento è stata chiara fin dall'inizio: il femminismo italiano del XXI secolo è inclusivo per definizione, e ogni tentativo di esclusione indebolisce la lotta comune.
 
-## Perche l'esclusione indebolisce il femminismo
+## Perché l'esclusione indebolisce il femminismo
 
-L'argomento centrale delle posizioni trans-escludenti e che l'inclusione delle donne trans rappresenterebbe una minaccia per gli "spazi delle donne" e per le conquiste femministe. Questo argomento non regge ne sul piano logico ne su quello storico.
+L'argomento centrale delle posizioni trans-escludenti è che l'inclusione delle donne trans rappresenterebbe una minaccia per gli "spazi delle donne" e per le conquiste femministe. Questo argomento non regge né sul piano logico né su quello storico.
 
 **L'inclusione non toglie diritti.** I diritti non sono una risorsa finita. Riconoscere le donne trans come donne non sottrae nulla alle donne cisgender: non toglie posti di lavoro, non riduce la protezione contro la violenza, non cancella le esperienze specifiche delle donne cis. Al contrario, ampliare la coalizione rafforza il potere collettivo del movimento.
 
-**L'esclusione crea divisioni strumentali.** La storia del femminismo mostra che ogni volta che il movimento si e chiuso attorno a una definizione restrittiva di "donna", ha perso forza politica. Le donne nere escluse dal femminismo bianco, le donne lesbiche escluse dal femminismo eteronormativo: ogni esclusione ha indebolito il movimento. L'esclusione delle donne trans segue lo stesso schema.
+**L'esclusione crea divisioni strumentali.** La storia del femminismo mostra che ogni volta che il movimento si è chiuso attorno a una definizione restrittiva di "donna", ha perso forza politica. Le donne nere escluse dal femminismo bianco, le donne lesbiche escluse dal femminismo eteronormativo: ogni esclusione ha indebolito il movimento. L'esclusione delle donne trans segue lo stesso schema.
 
-**Il patriarcato beneficia della divisione.** Quando le donne -- trans e cis -- litigano tra loro su chi meriti di essere chiamata donna, chi ne trae vantaggio e il sistema patriarcale che le opprime entrambe. La solidarieta tra donne e una risorsa politica fondamentale: frammentarla serve solo a chi vuole mantenere lo status quo.
+**Il patriarcato beneficia della divisione.** Quando le donne -- trans e cis -- litigano tra loro su chi meriti di essere chiamata donna, chi ne trae vantaggio è il sistema patriarcale che le opprime entrambe. La solidarietà tra donne è una risorsa politica fondamentale: frammentarla serve solo a chi vuole mantenere lo status quo.
 
-## Solidarieta pratica: cosa significa essere alleate
+## Solidarietà pratica: cosa significa essere alleate
 
 L'inclusione teorica deve tradursi in pratiche concrete. Ecco cosa significa, nella vita quotidiana, un femminismo che include le donne trans.
 
-**Linguaggio e rispetto.** Utilizzare il nome e i pronomi scelti da una persona trans. Correggere gentilmente chi sbaglia. Non chiedere dettagli sulla transizione o sul corpo: e una forma di invadenza che non si applicherebbe mai a una donna cisgender.
+**Linguaggio e rispetto.** Utilizzare il nome e i pronomi scelti da una persona trans. Correggere gentilmente chi sbaglia. Non chiedere dettagli sulla transizione o sul corpo: è una forma di invadenza che non si applicherebbe mai a una donna cisgender.
 
-**Spazi condivisi.** I centri antiviolenza, i consultori, gli spazi femministi devono essere accessibili alle donne trans. Le [donne trans](/wiki/donne-trans-sono-donne) subiscono tassi di violenza di genere superiori alla media: escluderle dai servizi di supporto e un atto di violenza istituzionale.
+**Spazi condivisi.** I centri antiviolenza, i consultori, gli spazi femministi devono essere accessibili alle donne trans. Le [donne trans](/wiki/donne-trans-sono-donne) subiscono tassi di violenza di genere superiori alla media: escluderle dai servizi di supporto è un atto di violenza istituzionale.
 
-**Ascolto e decentramento.** Le donne cisgender non possono parlare "per" le donne trans. Possono pero amplificare le loro voci, condividere le loro piattaforme, sostenere le loro richieste. La solidarieta non e paternalismo: e riconoscere che le donne trans sono le prime esperte delle proprie esperienze.
+**Ascolto e decentramento.** Le donne cisgender non possono parlare "per" le donne trans. Possono però amplificare le loro voci, condividere le loro piattaforme, sostenere le loro richieste. La solidarietà non è paternalismo: è riconoscere che le donne trans sono le prime esperte delle proprie esperienze.
 
 **Contrasto alla disinformazione.** I [miti sulle persone trans](/wiki/miti-comuni-persone-trans) sono numerosi e persistenti. Un femminismo inclusivo si impegna a contrastarli con le evidenze scientifiche e con la forza del racconto personale.
 
 ## Conclusione: il femminismo che esclude tradisce se stesso
 
-La storia del femminismo e una storia di ampliamento progressivo: della definizione di "donna", dei soggetti politici riconosciuti, degli orizzonti di giustizia perseguiti. Ogni generazione ha dovuto superare le esclusioni della precedente.
+La storia del femminismo è una storia di ampliamento progressivo: della definizione di "donna", dei soggetti politici riconosciuti, degli orizzonti di giustizia perseguiti. Ogni generazione ha dovuto superare le esclusioni della precedente.
 
-Il femminismo intersezionale, la corrente oggi prevalente nella teoria e nella pratica, non lascia spazio all'ambiguita: le donne trans sono donne, la loro lotta e una lotta femminista, e la loro esclusione non e una posizione femminista legittima -- e una contraddizione nei termini.
+Il femminismo intersezionale, la corrente oggi prevalente nella teoria e nella pratica, non lascia spazio all'ambiguità: le donne trans sono donne, la loro lotta è una lotta femminista, e la loro esclusione non è una posizione femminista legittima -- è una contraddizione nei termini.
 
-Come ha scritto bell hooks, il femminismo e per tutte le persone. Come ha dimostrato Kimberle Crenshaw, le oppressioni si intrecciano e non possono essere combattute separatamente. Come ha affermato Judith Butler, la categoria "donna" non si indebolisce accogliendo piu persone -- si rafforza. Come ha ribadito Angela Davis, le donne trans sono donne.
+Come ha scritto bell hooks, il femminismo è per tutte le persone. Come ha dimostrato Kimberlé Crenshaw, le oppressioni si intrecciano e non possono essere combattute separatamente. Come ha affermato Judith Butler, la categoria "donna" non si indebolisce accogliendo più persone -- si rafforza. Come ha ribadito Angela Davis, le donne trans sono donne.
 
-Il femminismo che esclude le donne trans non protegge le donne: tradisce la promessa fondamentale del femminismo stesso. Un femminismo che lotta davvero per la liberazione di tutte le donne non puo fare a meno delle donne trans. Ne ha bisogno, come le donne trans hanno bisogno del femminismo. La lotta e una sola.
+Il femminismo che esclude le donne trans non protegge le donne: tradisce la promessa fondamentale del femminismo stesso. Un femminismo che lotta davvero per la liberazione di tutte le donne non può fare a meno delle donne trans. Ne ha bisogno, come le donne trans hanno bisogno del femminismo. La lotta è una sola.

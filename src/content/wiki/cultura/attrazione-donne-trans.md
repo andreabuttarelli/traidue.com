@@ -123,7 +123,7 @@ La differenza fondamentale è semplice: nell'attrazione, l'altra persona è un s
 
 ## Il ruolo della pornografia
 
-Non si puo parlare di attrazione verso le donne trans senza affrontare l'elefante nella stanza: la pornografia. Per molti uomini, il primo contatto con la realtà delle donne trans avviene attraverso contenuti per adulti, e questo crea un problema serio di percezione.
+Non si può parlare di attrazione verso le donne trans senza affrontare l'elefante nella stanza: la pornografia. Per molti uomini, il primo contatto con la realtà delle donne trans avviene attraverso contenuti per adulti, e questo crea un problema serio di percezione.
 
 ### I numeri
 
@@ -169,7 +169,7 @@ Robinson (2023) ha analizzato oltre 200 post su Reddit scritti da uomini cisgend
 
 Una ricerca del 2022 di Ussher e colleghi sulle esperienze di violenza sessuale delle donne trans di colore ha documentato come la feticizzazione rappresenti una forma di violenza sessuale a tutti gli effetti. Le donne trans intervistate hanno descritto situazioni in cui i confini personali venivano sistematicamente ignorati, in cui il rifiuto generava reazioni violente, e in cui il loro corpo veniva trattato come un territorio da esplorare senza consenso.
 
-Il comportamento da "chaser" non danneggia solo le singole donne trans che ne sono bersaglio. Crea un ambiente in cui le donne trans faticano a fidarsi di qualsiasi uomo che mostri interesse per loro, perche devono costantemente chiedersi: "È attratto da me o dall'idea di me?"
+Il comportamento da "chaser" non danneggia solo le singole donne trans che ne sono bersaglio. Crea un ambiente in cui le donne trans faticano a fidarsi di qualsiasi uomo che mostri interesse per loro, perché devono costantemente chiedersi: "È attratto da me o dall'idea di me?"
 
 ### Sei un chaser? Una domanda onesta
 
@@ -204,7 +204,7 @@ Ogni donna trans ha un rapporto diverso con il proprio corpo, con la propria sto
 
 ### Preparati allo stigma esterno
 
-Lo studio di Gamarel et al. (2019) ha dimostrato che lo stigma interpersonale colpisce entrambi i partner, ma che un forte senso di impegno reciproco nella coppia attenua il disagio psicologico per le donne trans. Se decidi di costruire una relazione con una donna trans, potresti incontrare giudizi, commenti inappropriati, incomprensione da parte di familiari o amici. Sapere in anticipo che questo puo accadere -- e avere un piano per affrontarlo insieme -- è parte della preparazione emotiva necessaria.
+Lo studio di Gamarel et al. (2019) ha dimostrato che lo stigma interpersonale colpisce entrambi i partner, ma che un forte senso di impegno reciproco nella coppia attenua il disagio psicologico per le donne trans. Se decidi di costruire una relazione con una donna trans, potresti incontrare giudizi, commenti inappropriati, incomprensione da parte di familiari o amici. Sapere in anticipo che questo può accadere -- e avere un piano per affrontarlo insieme -- è parte della preparazione emotiva necessaria.
 
 ## Quello che conta davvero
 
