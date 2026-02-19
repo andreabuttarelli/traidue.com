@@ -58,8 +58,8 @@
 </script>
 
 <SEO
-	title="Quello che non ti dicono sulle tematiche trans"
-	description="Tra i Due è una risorsa informativa sulle tematiche trans: terminologia, basi scientifiche, percorsi legali e cultura. {data.stats.articles} articoli, {data.stats.sources} fonti peer-reviewed."
+	title="Scienza, storie e cultura trans"
+	description="Tra i Due è la risorsa in italiano più completa sulle tematiche trans: fatti scientifici, storie di successo e cultura. {data.stats.articles} articoli, {data.stats.sources} fonti peer-reviewed."
 	url="https://www.traidue.com"
 />
 
@@ -73,10 +73,10 @@
 			<Logo animated />
 		</h1>
 		<p class="text-base sm:text-lg lg:text-xl text-primary/80 mb-3 max-w-2xl leading-relaxed font-medium">
-			La disinformazione sulle persone trans si combatte con i fatti.
+			Fatti scientifici e storie di chi sta cambiando il mondo.
 		</p>
 		<p class="text-sm sm:text-base text-muted mb-6 sm:mb-8 max-w-xl leading-relaxed">
-			{data.stats.articles} articoli, {data.stats.sources}+ fonti scientifiche. Ogni affermazione verificabile.
+			{data.stats.articles} articoli, {data.stats.sources}+ fonti scientifiche. La risorsa in italiano più completa sulle tematiche trans.
 		</p>
 		<form onsubmit={handleSearch} class="mb-6 sm:mb-8 w-full max-w-xl">
 			<input
@@ -167,9 +167,9 @@
 <!-- CTA -->
 <section>
 	<div class="w-full px-4 sm:px-6 lg:px-12 py-14 sm:py-20 lg:py-24 text-center flex flex-col items-center">
-		<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-3">Anche tu hai diritto di sapere.</h2>
+		<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-3">Imprenditori, artisti, avvocati, scienziati. E molto altro.</h2>
 		<p class="text-muted mb-6 max-w-lg">
-			Ogni articolo cita le fonti. Ogni dato è verificabile. Non chiediamo di crederci: chiediamo di leggere.
+			Le persone trans stanno ricoprendo ruoli chiave nella società. Noi raccontiamo le loro storie, con i fatti.
 		</p>
 		<a href="/wiki" class="text-sm text-primary font-medium hover:underline transition">Inizia dalla Wiki &rarr;</a>
 	</div>

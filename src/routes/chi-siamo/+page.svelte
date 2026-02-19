@@ -17,7 +17,7 @@
 
 <SEO
 	title="Chi Siamo"
-	description="Scopri la missione di Tra i Due: informare sulle tematiche trans con rigore scientifico, combattere la disinformazione e offrire una risorsa accessibile a tutti."
+	description="Scopri la missione di Tra i Due: raccontare le tematiche trans con rigore scientifico, storie di successo e una wiki tematica tra le più complete in italiano."
 	url="https://www.traidue.com/chi-siamo"
 />
 
@@ -29,8 +29,8 @@
 	<header class="mb-10 sm:mb-16">
 		<h1 class="text-2xl sm:text-3xl lg:text-4xl font-heading font-semibold tracking-tight text-primary mb-4">Chi Siamo</h1>
 		<p class="text-lg text-muted leading-relaxed max-w-xl">
-			<strong class="text-primary">Tra i Due</strong> nasce con l'obiettivo di offrire informazione chiara, accessibile e
-			scientificamente rigorosa sulle tematiche trans.
+			<strong class="text-primary">Tra i Due</strong> nasce con l'obiettivo di offrire informazione chiara e scientificamente
+			rigorosa sulle tematiche trans, raccontare storie di successo e costruire la risorsa tematica più completa in italiano.
 		</p>
 	</header>
 
@@ -44,9 +44,10 @@
 					confinati alla letteratura accademica o frammentati in fonti poco affidabili.
 				</p>
 				<p>
-					Crediamo che la <strong>disinformazione</strong> sia uno degli ostacoli principali al
-					riconoscimento e alla tutela delle persone trans. Per questo, ogni contenuto pubblicato su
-					Tra i Due viene elaborato a partire da evidenze scientifiche e fonti verificabili.
+					Crediamo che la <strong>narrazione dominante</strong> sulle persone trans sia incompleta. Si parla
+					di difficoltà, raramente di successi. Imprenditori, artisti, avvocati, scienziati: le persone
+					trans stanno ricoprendo ruoli chiave nella società. Noi siamo qui per raccontare anche queste
+					storie, sempre con le fonti alla mano.
 				</p>
 				<p>
 					Vogliamo essere una <strong>risorsa accessibile</strong> tanto per le persone trans quanto
