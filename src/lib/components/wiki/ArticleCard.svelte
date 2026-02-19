@@ -2,6 +2,10 @@
 	import type { WikiArticle } from '$lib/utils/wiki';
 
 	let { article }: { article: WikiArticle } = $props();
+
+	function thumbSrc(src: string): string {
+		return src.replace(/\.webp$/, '-thumb.webp');
+	}
 </script>
 
 <a
@@ -11,10 +15,13 @@
 	{#if article.image}
 		<div class="aspect-[16/9] overflow-hidden rounded-xl mb-4">
 			<img
-				src={article.image}
-				alt=""
-				class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+				src={thumbSrc(article.image)}
+				alt={article.title}
+				width="672"
+				height="378"
+				decoding="async"
 				loading="lazy"
+				class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
 			/>
 		</div>
 	{/if}

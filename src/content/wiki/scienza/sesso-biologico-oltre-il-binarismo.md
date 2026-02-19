@@ -6,7 +6,7 @@ category: "scienza"
 tags: ["sesso biologico", "biologia", "intersex", "cromosomi", "ormoni"]
 date: "2026-02-18"
 updated: "2026-02-18"
-image: "/images/wiki/sesso-biologico-oltre-il-binarismo.png"
+image: "/images/wiki/sesso-biologico-oltre-il-binarismo.webp"
 sources:
   - title: "Sex redefined: the idea of 2 sexes is overly simplistic"
     url: "https://www.nature.com/articles/518288a"

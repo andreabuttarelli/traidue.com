@@ -6,7 +6,7 @@ category: "percorsi"
 tags: ["regno unito", "cass review", "diritti", "legislazione", "NHS"]
 date: "2026-02-18"
 updated: "2026-02-18"
-image: "/images/wiki/regno-unito-diritti-trans.png"
+image: "/images/wiki/regno-unito-diritti-trans.webp"
 sources:
   - title: "The Cass Review - Final Report"
     url: "https://cass.independent-review.uk/home/publications/final-report/"

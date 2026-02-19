@@ -3,6 +3,7 @@
 	import SEO from '$lib/components/seo/SEO.svelte';
 	import StructuredData from '$lib/components/seo/StructuredData.svelte';
 	import Logo from '$lib/components/ui/Logo.svelte';
+	import SearchInput from '$lib/components/ui/SearchInput.svelte';
 	import ArticleCard from '$lib/components/wiki/ArticleCard.svelte';
 
 	let { data } = $props();
@@ -78,14 +79,15 @@
 		<p class="text-sm sm:text-base text-muted mb-6 sm:mb-8 max-w-xl leading-relaxed">
 			{data.stats.articles} articoli, {data.stats.sources}+ fonti scientifiche. La risorsa in italiano più completa sulle tematiche trans.
 		</p>
-		<form onsubmit={handleSearch} class="mb-6 sm:mb-8 w-full max-w-xl">
-			<input
-				type="text"
-				placeholder="Cerca un argomento..."
+		<div class="mb-6 sm:mb-8 w-full max-w-xl">
+			<SearchInput
 				bind:value={heroSearch}
-				class="w-full px-4 sm:px-5 py-2.5 sm:py-3 rounded-full border border-border bg-transparent dark:bg-white/5 text-text shadow-sm focus:outline-none focus:border-primary text-base sm:text-lg"
+				articles={data.allArticles}
+				quizzes={data.allQuizzes}
+				placeholder="Cerca un argomento..."
+				onsubmit={handleSearch}
 			/>
-		</form>
+		</div>
 		<div class="flex gap-6 text-sm">
 			<a href="/wiki" class="text-primary font-medium hover:underline transition">Esplora gli articoli &rarr;</a>
 			<a href="/quiz" class="text-muted hover:text-primary transition">Mettiti alla prova &rarr;</a>

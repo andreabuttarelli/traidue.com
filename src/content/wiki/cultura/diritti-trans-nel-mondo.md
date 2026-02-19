@@ -6,7 +6,7 @@ category: "cultura"
 tags: ["diritti internazionali", "autodeterminazione", "legislazione", "mappa globale"]
 date: "2026-02-18"
 updated: "2026-02-18"
-image: "/images/wiki/diritti-trans-nel-mondo.png"
+image: "/images/wiki/diritti-trans-nel-mondo.webp"
 sources:
   - title: "TGEU – Trans Rights Index & Map 2025"
     url: "https://www.tgeu.org/trans-rights-index-map-2025/"

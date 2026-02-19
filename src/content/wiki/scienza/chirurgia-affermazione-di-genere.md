@@ -6,7 +6,7 @@ category: "scienza"
 tags: ["chirurgia", "transizione", "vaginoplastica", "falloplastica", "mastectomia", "corpo"]
 date: "2026-02-19"
 updated: "2026-02-19"
-image: "/images/wiki/chirurgia-affermazione-di-genere.png"
+image: "/images/wiki/chirurgia-affermazione-di-genere.webp"
 sources:
   - title: "Standards of Care for the Health of Transgender and Gender Diverse People, Version 8 (WPATH SOC-8)"
     url: "https://wpath.org/publications/soc8/"
@@ -64,15 +64,15 @@ faq:
 related: ["transizione-medica-cosa-cambia", "legge-164-italia", "famiglie-e-persone-trans"]
 ---
 
-Se ne parla molto, spesso male. La chirurgia di affermazione di genere viene brandita nel dibattito pubblico come argomento emotivo, quasi sempre senza dati. La realta e diversa da come viene raccontata: si tratta di procedure mediche consolidate, con decenni di letteratura scientifica, tassi di soddisfazione tra i piu alti in chirurgia e un quadro di accesso regolato. Questo articolo presenta i fatti. Non e un consiglio medico, ma un punto di partenza per capire cosa esiste, come funziona e cosa dicono le evidenze. Per gli aspetti ormonali della transizione medica, rimandiamo all'articolo sulla [terapia ormonale](/wiki/transizione-medica-cosa-cambia).
+Se ne parla molto, spesso male. La chirurgia di affermazione di genere viene brandita nel dibattito pubblico come argomento emotivo, quasi sempre senza dati. La realtà è diversa da come viene raccontata: si tratta di procedure mediche consolidate, con decenni di letteratura scientifica, tassi di soddisfazione tra i più alti in chirurgia e un quadro di accesso regolato. Questo articolo presenta i fatti. Non è un consiglio medico, ma un punto di partenza per capire cosa esiste, come funziona e cosa dicono le evidenze. Per gli aspetti ormonali della transizione medica, rimandiamo all'articolo sulla [terapia ormonale](/wiki/transizione-medica-cosa-cambia).
 
 ## Non tutti scelgono la chirurgia
 
-Primo dato fondamentale: la chirurgia di affermazione di genere e una possibilita, non un obbligo. Molte persone trans non desiderano alcun intervento chirurgico. Altre ne scelgono alcuni e non altri. Non esiste un percorso standard uguale per tutti, e la validita dell'identita di una persona non dipende da quali procedure mediche ha o non ha affrontato.
+Primo dato fondamentale: la chirurgia di affermazione di genere è una possibilità, non un obbligo. Molte persone trans non desiderano alcun intervento chirurgico. Altre ne scelgono alcuni e non altri. Non esiste un percorso standard uguale per tutti, e la validità dell'identità di una persona non dipende da quali procedure mediche ha o non ha affrontato.
 
 Le ragioni per non operarsi sono molteplici e tutte legittime: alcune persone non avvertono disforia rispetto a determinate parti del corpo, altre preferiscono evitare i rischi chirurgici, altre ancora non possono permetterselo o affrontare le lunghe liste di attesa. Nessuna di queste scelte rende una persona "meno trans".
 
-Detto questo, per chi la desidera, la chirurgia puo essere trasformativa. Le evidenze scientifiche mostrano un impatto significativo sulla riduzione della disforia, sul benessere psicologico e sulla qualita della vita.
+Detto questo, per chi la desidera, la chirurgia può essere trasformativa. Le evidenze scientifiche mostrano un impatto significativo sulla riduzione della disforia, sul benessere psicologico e sulla qualità della vita.
 
 ## Top surgery
 
@@ -82,106 +82,106 @@ Con il termine "top surgery" si indicano gli interventi chirurgici al torace.
 
 La mastectomia di affermazione di genere, spesso chiamata "mascolinizzazione del torace", consiste nella rimozione del tessuto mammario e nel rimodellamento del torace per ottenere un aspetto maschile. Le tecniche principali sono due:
 
-- **Mastectomia periareolare**: indicata per persone con seno di piccole dimensioni (coppa A-B). Prevede un'incisione attorno all'areola con cicatrici minime. La soddisfazione post-operatoria e del 93%.
-- **Mastectomia con innesto libero del capezzolo**: utilizzata per seni piu grandi. Prevede la rimozione completa del tessuto e il riposizionamento del capezzolo. Soddisfazione al 90%.
+- **Mastectomia periareolare**: indicata per persone con seno di piccole dimensioni (coppa A-B). Prevede un'incisione attorno all'areola con cicatrici minime. La soddisfazione post-operatoria è del 93%.
+- **Mastectomia con innesto libero del capezzolo**: utilizzata per seni più grandi. Prevede la rimozione completa del tessuto e il riposizionamento del capezzolo. Soddisfazione al 90%.
 
-Complessivamente, la soddisfazione post-operatoria per la top surgery transmasculina e del 92%, con miglioramenti significativi della qualita della vita, della fiducia in se e della salute mentale legata alla disforia nell'86% dei casi. E spesso il primo intervento chirurgico che le persone transmasculine scelgono, e in molti casi l'unico.
+Complessivamente, la soddisfazione post-operatoria per la top surgery transmasculina è del 92%, con miglioramenti significativi della qualità della vita, della fiducia in sé e della salute mentale legata alla disforia nell'86% dei casi. È spesso il primo intervento chirurgico che le persone transmasculine scelgono, e in molti casi l'unico.
 
-Il recupero prevede 1-2 settimane di riposo, 4-6 settimane prima di riprendere attivita fisiche intense e 3-6 mesi per la guarigione completa.
+Il recupero prevede 1-2 settimane di riposo, 4-6 settimane prima di riprendere attività fisiche intense e 3-6 mesi per la guarigione completa.
 
 ### Mammoplastica additiva (persone transfemminili)
 
-L'aumento del seno per donne trans segue le stesse tecniche chirurgiche utilizzate per le donne cisgender, con alcune considerazioni specifiche. La terapia estrogenica induce uno sviluppo mammario naturale, ma spesso di entita limitata (generalmente 1-2 taglie in meno rispetto a quanto la paziente desidera). Per questo motivo, molte donne trans scelgono l'augmentation con protesi.
+L'aumento del seno per donne trans segue le stesse tecniche chirurgiche utilizzate per le donne cisgender, con alcune considerazioni specifiche. La terapia estrogenica induce uno sviluppo mammario naturale, ma spesso di entità limitata (generalmente 1-2 taglie in meno rispetto a quanto la paziente desidera). Per questo motivo, molte donne trans scelgono l'augmentation con protesi.
 
-Le linee guida WPATH raccomandano almeno 12 mesi di terapia ormonale prima dell'intervento, per permettere il massimo sviluppo naturale del seno. La soddisfazione e elevata, con il 75% delle pazienti che riporta punteggi alti. Le complicanze sono comparabili a quelle delle mammoplastiche in donne cisgender: il tasso di contrattura capsulare e circa il 3%, le re-operazioni per complicanze intorno al 5%.
+Le linee guida WPATH raccomandano almeno 12 mesi di terapia ormonale prima dell'intervento, per permettere il massimo sviluppo naturale del seno. La soddisfazione è elevata, con il 75% delle pazienti che riporta punteggi alti. Le complicanze sono comparabili a quelle delle mammoplastiche in donne cisgender: il tasso di contrattura capsulare è circa il 3%, le re-operazioni per complicanze intorno al 5%.
 
 ## Bottom surgery
 
-La bottom surgery comprende gli interventi ai genitali. Sono le procedure piu complesse e quelle su cui circola piu disinformazione.
+La bottom surgery comprende gli interventi ai genitali. Sono le procedure più complesse e quelle su cui circola più disinformazione.
 
 ### Vaginoplastica (persone transfemminili)
 
-La vaginoplastica crea una vagina funzionale, con grandi e piccole labbra, clitoride e canale vaginale. La tecnica piu diffusa e la **vaginoplastica con inversione del lembo penile-scrotale**: il tessuto del pene e dello scroto viene riutilizzato per costruire il canale vaginale e la vulva. Il glande, con la sua innervazione, viene rimodellato per creare il neoclitoride, preservando la sensibilita.
+La vaginoplastica crea una vagina funzionale, con grandi e piccole labbra, clitoride e canale vaginale. La tecnica più diffusa è la **vaginoplastica con inversione del lembo penile-scrotale**: il tessuto del pene e dello scroto viene riutilizzato per costruire il canale vaginale e la vulva. Il glande, con la sua innervazione, viene rimodellato per creare il neoclitoride, preservando la sensibilità.
 
-Esiste anche la **colonvaginoplastica** (o sigmoidovaginoplastica), che utilizza un segmento del colon per creare il canale vaginale. Viene scelta in casi specifici, ad esempio quando il tessuto genitale disponibile e insufficiente.
+Esiste anche la **colonvaginoplastica** (o sigmoidovaginoplastica), che utilizza un segmento del colon per creare il canale vaginale. Viene scelta in casi specifici, ad esempio quando il tessuto genitale disponibile è insufficiente.
 
 I dati sulla vaginoplastica sono robusti:
 
 - Soddisfazione complessiva: 91-93%
 - Soddisfazione estetica: 90%
 - Soddisfazione funzionale: 87%
-- Capacita di raggiungere l'orgasmo: 70-80%
+- Capacità di raggiungere l'orgasmo: 70-80%
 - Tasso di rimpianto: circa 2%
 
 Le donne trans dopo vaginoplastica riportano punteggi sulla Female Genital Self-Image Scale comparabili a quelli delle donne cisgender.
 
-Il recupero richiede 6-8 settimane di riposo e un programma di **dilatazione vaginale** regolare, essenziale nei primi mesi per mantenere profondita e ampiezza del canale. La dilatazione diventa meno frequente nel tempo ma rimane parte della routine a lungo termine.
+Il recupero richiede 6-8 settimane di riposo e un programma di **dilatazione vaginale** regolare, essenziale nei primi mesi per mantenere profondità e ampiezza del canale. La dilatazione diventa meno frequente nel tempo ma rimane parte della routine a lungo termine.
 
-Le complicanze possibili includono stenosi (restringimento del canale), granulazione, necessita di revisioni chirurgiche e, in una percentuale variabile, dispareunia (dolore durante i rapporti). Queste vengono gestite nel follow-up post-operatorio.
+Le complicanze possibili includono stenosi (restringimento del canale), granulazione, necessità di revisioni chirurgiche e, in una percentuale variabile, dispareunia (dolore durante i rapporti). Queste vengono gestite nel follow-up post-operatorio.
 
 ### Falloplastica (persone transmasculine)
 
-La falloplastica costruisce un neofallo utilizzando tessuto prelevato da un'altra parte del corpo. I siti donatori piu comuni sono:
+La falloplastica costruisce un neofallo utilizzando tessuto prelevato da un'altra parte del corpo. I siti donatori più comuni sono:
 
-- **Avambraccio (lembo radiale)**: produce i risultati estetici migliori, con buona sensibilita tattile. Lascia una cicatrice visibile sull'avambraccio.
+- **Avambraccio (lembo radiale)**: produce i risultati estetici migliori, con buona sensibilità tattile. Lascia una cicatrice visibile sull'avambraccio.
 - **Coscia (lembo anterolaterale)**: meno visibile come cicatrice, dimensioni generose del lembo.
 - **Addome**: opzione alternativa in casi specifici.
 
-La falloplastica e un intervento multi-stadio che si svolge nell'arco di 12-24 mesi e comprende: creazione del fallo e connessione nervosa, allungamento uretrale (per permettere la minzione in piedi), scrotoplastica con inserimento di protesi testicolari, glanuloplastica e, eventualmente, inserimento di una protesi erettile per i rapporti penetrativi.
+La falloplastica è un intervento multi-stadio che si svolge nell'arco di 12-24 mesi e comprende: creazione del fallo e connessione nervosa, allungamento uretrale (per permettere la minzione in piedi), scrotoplastica con inserimento di protesi testicolari, glanuloplastica e, eventualmente, inserimento di una protesi erettile per i rapporti penetrativi.
 
 I risultati funzionali:
 
 - Minzione in piedi: 75% dei casi
-- Sensibilita erogena: 69%
-- Capacita di penetrazione (con protesi erettile): 43%
+- Sensibilità erogena: 69%
+- Capacità di penetrazione (con protesi erettile): 43%
 - Soddisfazione estetica: 70%
 
-Le complicanze urologiche sono la sfida principale: fistole uretrali nel 36% e stenosi uretrali nel 32% dei casi richiedono spesso interventi correttivi. Questo e un dato importante da conoscere in anticipo. La falloplastica e tra gli interventi piu complessi della chirurgia ricostruttiva, e la trasparenza sui limiti attuali e fondamentale per decisioni informate.
+Le complicanze urologiche sono la sfida principale: fistole uretrali nel 36% e stenosi uretrali nel 32% dei casi richiedono spesso interventi correttivi. Questo è un dato importante da conoscere in anticipo. La falloplastica è tra gli interventi più complessi della chirurgia ricostruttiva, e la trasparenza sui limiti attuali è fondamentale per decisioni informate.
 
 ### Metoidioplastica (persone transmasculine)
 
-La metoidioplastica e un'alternativa alla falloplastica che utilizza il clitoride, ingrandito dalla terapia con testosterone (generalmente dopo almeno 1-2 anni di HRT), per creare un microfallo di 5-9 cm. E un intervento meno invasivo, con tempi di recupero piu brevi.
+La metoidioplastica è un'alternativa alla falloplastica che utilizza il clitoride, ingrandito dalla terapia con testosterone (generalmente dopo almeno 1-2 anni di HRT), per creare un microfallo di 5-9 cm. È un intervento meno invasivo, con tempi di recupero più brevi.
 
 I risultati:
 
 - Minzione in piedi: 74-90% dei casi
-- Sensibilita erogena: 100% (il tessuto e nativo)
+- Sensibilità erogena: 100% (il tessuto è nativo)
 - Soddisfazione estetica: 87%
 - Complicanze uretrali: circa il 25% (meno della falloplastica)
 
-La metoidioplastica non permette in genere la penetrazione durante i rapporti sessuali, dato che le dimensioni del neofallo sono limitate. La scelta tra metoidioplastica e falloplastica dipende dalle priorita individuali: chi privilegia la sensibilita e un recupero piu rapido tende a preferire la metoidioplastica; chi desidera un fallo di dimensioni standard opta per la falloplastica.
+La metoidioplastica non permette in genere la penetrazione durante i rapporti sessuali, dato che le dimensioni del neofallo sono limitate. La scelta tra metoidioplastica e falloplastica dipende dalle priorità individuali: chi privilegia la sensibilità e un recupero più rapido tende a preferire la metoidioplastica; chi desidera un fallo di dimensioni standard opta per la falloplastica.
 
 ### Orchiectomia e isterectomia
 
-L'**orchiectomia** (rimozione dei testicoli) e un intervento relativamente semplice che le donne trans possono scegliere per eliminare la produzione endogena di testosterone, riducendo o eliminando la necessita di antiandrogeni. Puo essere eseguita come intervento a se stante o come parte della vaginoplastica.
+L'**orchiectomia** (rimozione dei testicoli) è un intervento relativamente semplice che le donne trans possono scegliere per eliminare la produzione endogena di testosterone, riducendo o eliminando la necessità di antiandrogeni. Può essere eseguita come intervento a sé stante o come parte della vaginoplastica.
 
-L'**isterectomia** con annessiectomia (rimozione di utero, tube e ovaie) e un'opzione per gli uomini trans. Puo essere motivata dalla disforia o da ragioni mediche, e viene talvolta eseguita in preparazione alla falloplastica o metoidioplastica.
+L'**isterectomia** con annessiectomia (rimozione di utero, tube e ovaie) è un'opzione per gli uomini trans. Può essere motivata dalla disforia o da ragioni mediche, e viene talvolta eseguita in preparazione alla falloplastica o metoidioplastica.
 
-Entrambi gli interventi sono irreversibili e comportano la perdita della fertilita.
+Entrambi gli interventi sono irreversibili e comportano la perdita della fertilità.
 
 ## Chirurgia di femminilizzazione facciale (FFS)
 
-La Facial Feminization Surgery (FFS) comprende un insieme di procedure che modificano le caratteristiche ossee e dei tessuti molli del viso per attenuare i tratti percepiti come maschili. Le procedure piu comuni includono:
+La Facial Feminization Surgery (FFS) comprende un insieme di procedure che modificano le caratteristiche ossee e dei tessuti molli del viso per attenuare i tratti percepiti come maschili. Le procedure più comuni includono:
 
-- **Rimodellamento della fronte**: riduzione della prominenza dell'osso frontale (bossing), la procedura piu richiesta
+- **Rimodellamento della fronte**: riduzione della prominenza dell'osso frontale (bossing), la procedura più richiesta
 - **Rinoplastica**: rimodellamento del naso
 - **Rimodellamento mandibolare e mentale**: riduzione dell'angolo mandibolare e del mento
 - **Lifting del labbro superiore**: accorciamento della distanza tra naso e labbro
 - **Avanzamento del cuoio capelluto**: per correggere la recessione della linea dei capelli
 
-Uno studio multicentrico prospettico ha mostrato che il punteggio mediano di femminilizzazione facciale sale da 47,2 prima dell'intervento a 80,6 dopo sei o piu mesi, con un livello di soddisfazione valutato come eccellente. La letteratura conferma che la FFS ha un ruolo significativo nella riduzione della disforia e nel miglioramento della qualita della vita, ed e considerata sicura con un buon profilo di complicanze.
+Uno studio multicentrico prospettico ha mostrato che il punteggio mediano di femminilizzazione facciale sale da 47,2 prima dell'intervento a 80,6 dopo sei o più mesi, con un livello di soddisfazione valutato come eccellente. La letteratura conferma che la FFS ha un ruolo significativo nella riduzione della disforia e nel miglioramento della qualità della vita, ed è considerata sicura con un buon profilo di complicanze.
 
-La FFS e particolarmente importante per molte donne trans perche il viso e il principale marcatore di genere nelle interazioni sociali quotidiane. Tuttavia, non e coperta dal SSN in Italia nella maggior parte dei casi, rappresentando un costo significativo a carico della paziente.
+La FFS è particolarmente importante per molte donne trans perché il viso è il principale marcatore di genere nelle interazioni sociali quotidiane. Tuttavia, non è coperta dal SSN in Italia nella maggior parte dei casi, rappresentando un costo significativo a carico della paziente.
 
 ## Altre procedure
 
 ### Condrolaringoplastica (tracheal shave)
 
-La riduzione del pomo d'Adamo e un intervento estetico relativamente semplice che riduce la prominenza della cartilagine tiroidea. Si esegue in anestesia locale o generale, con tempi di recupero brevi (1-2 settimane). Non influisce sulla voce.
+La riduzione del pomo d'Adamo è un intervento estetico relativamente semplice che riduce la prominenza della cartilagine tiroidea. Si esegue in anestesia locale o generale, con tempi di recupero brevi (1-2 settimane). Non influisce sulla voce.
 
 ### Chirurgia di femminilizzazione della voce
 
-Diversa dal tracheal shave, la chirurgia vocale modifica direttamente le corde vocali per innalzare la frequenza fondamentale della voce. La tecnica piu diffusa e la **glottoplastica di Wendler**, che unisce il terzo anteriore delle corde vocali con suture, riducendo la lunghezza vibrante e alzando il pitch. Un'alternativa e la **laringoplastica di femminilizzazione**, che rimuove porzioni delle corde vocali e della laringe.
+Diversa dal tracheal shave, la chirurgia vocale modifica direttamente le corde vocali per innalzare la frequenza fondamentale della voce. La tecnica più diffusa è la **glottoplastica di Wendler**, che unisce il terzo anteriore delle corde vocali con suture, riducendo la lunghezza vibrante e alzando il pitch. Un'alternativa è la **laringoplastica di femminilizzazione**, che rimuove porzioni delle corde vocali e della laringe.
 
 I risultati a lungo termine mostrano efficacia e soddisfazione elevata, con poche complicanze. Il recupero richiede una settimana di silenzio vocale e circa sei mesi per la guarigione completa dei tessuti, con reintroduzione graduale degli esercizi vocali.
 
@@ -193,7 +193,7 @@ Procedure come la liposuzione o il lipofilling possono essere utilizzate per arm
 
 ### Il percorso
 
-In Italia, l'accesso alla chirurgia di affermazione di genere segue un percorso strutturato. I centri di riferimento sono coordinati dall'**ONIG (Osservatorio Nazionale sull'Identita di Genere)** e includono strutture come il CIDIGEM di Torino, il centro di Careggi a Firenze, il San Camillo-Forlanini a Roma, il Policlinico di Bari, la Federico II di Napoli e altri.
+In Italia, l'accesso alla chirurgia di affermazione di genere segue un percorso strutturato. I centri di riferimento sono coordinati dall'**ONIG (Osservatorio Nazionale sull'Identità di Genere)** e includono strutture come il CIDIGEM di Torino, il centro di Careggi a Firenze, il San Camillo-Forlanini a Roma, il Policlinico di Bari, la Federico II di Napoli e altri.
 
 Il percorso prevede:
 
@@ -203,23 +203,23 @@ Il percorso prevede:
 
 ### La sentenza 143/2024 della Corte Costituzionale
 
-Un cambiamento importante e arrivato nel 2024. La Corte Costituzionale, con la sentenza n. 143/2024, ha dichiarato l'illegittimita costituzionale dell'obbligo di ottenere l'autorizzazione del tribunale per gli interventi chirurgici di adeguamento dei caratteri sessuali. In pratica: chi vuole operarsi non deve piu chiedere il permesso a un giudice. La chirurgia e una decisione medica tra paziente e professionisti sanitari, come qualsiasi altro intervento.
+Un cambiamento importante è arrivato nel 2024. La Corte Costituzionale, con la sentenza n. 143/2024, ha dichiarato l'illegittimità costituzionale dell'obbligo di ottenere l'autorizzazione del tribunale per gli interventi chirurgici di adeguamento dei caratteri sessuali. In pratica: chi vuole operarsi non deve più chiedere il permesso a un giudice. La chirurgia è una decisione medica tra paziente e professionisti sanitari, come qualsiasi altro intervento.
 
-Questa sentenza si inserisce in un quadro gia delineato dalla giurisprudenza precedente: dal 2015 la Cassazione ha stabilito che la [rettifica anagrafica](/wiki/legge-164-italia) non richiede interventi chirurgici.
+Questa sentenza si inserisce in un quadro già delineato dalla giurisprudenza precedente: dal 2015 la Cassazione ha stabilito che la [rettifica anagrafica](/wiki/legge-164-italia) non richiede interventi chirurgici.
 
 ### Copertura SSN
 
-Il Servizio Sanitario Nazionale copre le principali procedure di affermazione di genere: vaginoplastica, falloplastica, mastectomia, mammoplastica additiva, isterectomia, orchiectomia. La copertura e reale, ma le liste di attesa sono un problema serio: i centri SSN eseguono poche operazioni all'anno (circa otto per ospedale), e i tempi di attesa vanno da 2 a 5 anni. Alcune persone aspettano da quasi cinque anni.
+Il Servizio Sanitario Nazionale copre le principali procedure di affermazione di genere: vaginoplastica, falloplastica, mastectomia, mammoplastica additiva, isterectomia, orchiectomia. La copertura è reale, ma le liste di attesa sono un problema serio: i centri SSN eseguono poche operazioni all'anno (circa otto per ospedale), e i tempi di attesa vanno da 2 a 5 anni. Alcune persone aspettano da quasi cinque anni.
 
-La FFS e le procedure vocali non sono generalmente coperte dal SSN, cosi come il body contouring.
+La FFS e le procedure vocali non sono generalmente coperte dal SSN, così come il body contouring.
 
 ## Tassi di soddisfazione e rimpianto
 
-Questo e il punto su cui i dati sono piu chiari e piu distanti dalla narrativa pubblica.
+Questo è il punto su cui i dati sono più chiari e più distanti dalla narrativa pubblica.
 
-Una meta-analisi del 2021 pubblicata su Plastic and Reconstructive Surgery ha analizzato la prevalenza del rimpianto dopo chirurgia di affermazione di genere: **il tasso complessivo e inferiore all'1%**. Una revisione sistematica del 2024 pubblicata su The American Journal of Surgery ha confrontato il rimpianto in diverse specialita chirurgiche, scoprendo che la chirurgia di affermazione di genere ha tassi di rimpianto tra i piu bassi in assoluto. La chirurgia di sostituzione del ginocchio, per esempio, ha tassi di insoddisfazione tra il 6% e il 30%, cioe fino a 100 volte superiori.
+Una meta-analisi del 2021 pubblicata su Plastic and Reconstructive Surgery ha analizzato la prevalenza del rimpianto dopo chirurgia di affermazione di genere: **il tasso complessivo è inferiore all'1%**. Una revisione sistematica del 2024 pubblicata su The American Journal of Surgery ha confrontato il rimpianto in diverse specialità chirurgiche, scoprendo che la chirurgia di affermazione di genere ha tassi di rimpianto tra i più bassi in assoluto. La chirurgia di sostituzione del ginocchio, per esempio, ha tassi di insoddisfazione tra il 6% e il 30%, cioè fino a 100 volte superiori.
 
-I fattori associati ai rari casi di rimpianto non riguardano tanto l'identita di genere quanto i risultati fisici dell'intervento, lo scarso supporto sociale, problemi di salute mentale preesistenti e complicanze post-operatorie. In altre parole, il rimpianto e quasi sempre legato a come e andata l'operazione, non a chi si e.
+I fattori associati ai rari casi di rimpianto non riguardano tanto l'identità di genere quanto i risultati fisici dell'intervento, lo scarso supporto sociale, problemi di salute mentale preesistenti e complicanze post-operatorie. In altre parole, il rimpianto è quasi sempre legato a come è andata l'operazione, non a chi si è.
 
 Uno studio JAMA del 2024 ha confermato che il 99,7% delle persone trans che hanno avuto accesso alla chirurgia riporta un grado di soddisfazione con i risultati.
 
@@ -229,14 +229,14 @@ Ogni intervento ha il suo percorso di recupero, ma ci sono elementi comuni da co
 
 **Aspettative fisiche**: il gonfiore, il dolore e la limitazione dei movimenti nelle prime settimane sono normali. La top surgery richiede 4-6 settimane; la vaginoplastica 6-8 settimane di riposo con dilatazione quotidiana; la falloplastica, essendo multi-stadio, si estende su 12-24 mesi.
 
-**Aspettative emotive**: il periodo post-operatorio puo essere emotivamente complesso. Non e raro sperimentare una gamma di emozioni inattese, inclusi momenti di ansia, tristezza o dubbio, anche quando si e profondamente convinti della propria scelta. La depressione post-operatoria temporanea e un fenomeno comune dopo qualsiasi intervento chirurgico importante. A lungo termine, la soddisfazione e altissima.
+**Aspettative emotive**: il periodo post-operatorio può essere emotivamente complesso. Non è raro sperimentare una gamma di emozioni inattese, inclusi momenti di ansia, tristezza o dubbio, anche quando si è profondamente convinti della propria scelta. La depressione post-operatoria temporanea è un fenomeno comune dopo qualsiasi intervento chirurgico importante. A lungo termine, la soddisfazione è altissima.
 
-**Aspettative estetiche e funzionali**: i risultati chirurgici migliorano nel tempo. L'aspetto finale di cicatrici, tessuti e funzionalita si stabilizza nell'arco di 6-12 mesi. E importante avere aspettative realistiche e mantenere un dialogo aperto con il team chirurgico. Le foto "prima e dopo" trovate online non sono rappresentative della variabilita reale dei risultati.
+**Aspettative estetiche e funzionali**: i risultati chirurgici migliorano nel tempo. L'aspetto finale di cicatrici, tessuti e funzionalità si stabilizza nell'arco di 6-12 mesi. È importante avere aspettative realistiche e mantenere un dialogo aperto con il team chirurgico. Le foto "prima e dopo" trovate online non sono rappresentative della variabilità reale dei risultati.
 
-**Supporto pratico**: pianificare il recupero significa organizzare assistenza nelle prime settimane, avere flessibilita lavorativa e, idealmente, un supporto emotivo da parte di persone vicine. Chi vive questo percorso insieme a familiari puo trovare risorse utili nella nostra [guida per le famiglie](/wiki/famiglie-e-persone-trans).
+**Supporto pratico**: pianificare il recupero significa organizzare assistenza nelle prime settimane, avere flessibilità lavorativa e, idealmente, un supporto emotivo da parte di persone vicine. Chi vive questo percorso insieme a familiari può trovare risorse utili nella nostra [guida per le famiglie](/wiki/famiglie-e-persone-trans).
 
 ## Il quadro complessivo
 
-La chirurgia di affermazione di genere non e ne un miracolo ne un orrore: e un insieme di procedure mediche con evidenze solide, risultati documentati e limiti conosciuti. La scienza dice che funziona, che chi la sceglie e quasi sempre soddisfatto, e che il rimpianto e un'eccezione rara, non la regola.
+La chirurgia di affermazione di genere non è né un miracolo né un orrore: è un insieme di procedure mediche con evidenze solide, risultati documentati e limiti conosciuti. La scienza dice che funziona, che chi la sceglie è quasi sempre soddisfatto, e che il rimpianto è un'eccezione rara, non la regola.
 
-La decisione di operarsi e personale. Spetta a chi la vive, con il supporto di professionisti competenti. Nessun articolo, nessun commento sui social e nessuna opinione pubblica puo sostituire quel processo individuale. Quello che possiamo fare e assicurarci che le informazioni disponibili siano accurate, complete e rispettose dell'autonomia di ciascuno.
+La decisione di operarsi è personale. Spetta a chi la vive, con il supporto di professionisti competenti. Nessun articolo, nessun commento sui social e nessuna opinione pubblica può sostituire quel processo individuale. Quello che possiamo fare è assicurarci che le informazioni disponibili siano accurate, complete e rispettose dell'autonomia di ciascuno.

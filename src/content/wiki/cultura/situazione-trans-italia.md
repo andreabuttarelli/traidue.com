@@ -6,7 +6,7 @@ category: "cultura"
 tags: ["Italia", "discriminazione", "sanità", "diritti", "associazioni"]
 date: "2026-02-18"
 updated: "2026-02-18"
-image: "/images/wiki/situazione-trans-italia.png"
+image: "/images/wiki/situazione-trans-italia.webp"
 sources:
   - title: "ISTAT-UNAR – Discriminazioni lavorative nei confronti delle persone LGBT+ (persone trans e non binarie), Anno 2023"
     url: "https://www.istat.it/comunicato-stampa/discriminazioni-lavorative-nei-confronti-delle-persone-lgbt-anno-2023/"

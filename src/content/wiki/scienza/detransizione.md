@@ -6,7 +6,7 @@ category: "scienza"
 tags: ["detransizione", "rimpianto", "ricerca", "transizione", "dati"]
 date: "2026-02-19"
 updated: "2026-02-19"
-image: "/images/wiki/detransizione.png"
+image: "/images/wiki/detransizione.webp"
 sources:
   - title: "Bustos VP et al. - Regret after Gender-affirmation Surgery: A Systematic Review and Meta-analysis of Prevalence"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8099405/"

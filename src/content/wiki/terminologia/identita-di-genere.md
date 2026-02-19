@@ -6,7 +6,7 @@ category: "terminologia"
 tags: ["identità di genere", "definizioni", "sesso biologico", "spettro di genere", "disforia"]
 date: "2026-02-18"
 updated: "2026-02-18"
-image: "/images/wiki/identita-di-genere.png"
+image: "/images/wiki/identita-di-genere.webp"
 sources:
   - title: "WHO - Gender incongruence and transgender health in the ICD"
     url: "https://www.who.int/standards/classifications/frequently-asked-questions/gender-incongruence-and-transgender-health-in-the-icd"

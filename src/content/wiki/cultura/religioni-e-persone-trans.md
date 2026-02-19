@@ -6,7 +6,7 @@ category: "cultura"
 tags: ["religione", "fede", "chiesa", "islam", "ebraismo", "teologia"]
 date: "2026-02-19"
 updated: "2026-02-19"
-image: "/images/wiki/religioni-e-persone-trans.png"
+image: "/images/wiki/religioni-e-persone-trans.webp"
 sources:
   - title: "Vatican – Dignitas Infinita (full text)"
     url: "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_dfc_doc_20240402_dignitas-infinita_en.html"

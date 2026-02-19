@@ -6,7 +6,7 @@ category: "cultura"
 tags: ["miti", "disinformazione", "scienza", "biologia", "identità di genere"]
 date: "2026-02-18"
 updated: "2026-02-18"
-image: "/images/wiki/miti-comuni-persone-trans.png"
+image: "/images/wiki/miti-comuni-persone-trans.webp"
 sources:
   - title: "The Biological Contributions to Gender Identity and Gender Diversity: Bringing Data to the Table"
     url: "https://link.springer.com/article/10.1007/s10519-018-9889-z"

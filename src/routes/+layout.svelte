@@ -4,7 +4,7 @@
 	import Navbar from '$lib/components/ui/Navbar.svelte';
 	import Footer from '$lib/components/ui/Footer.svelte';
 
-	let { children } = $props();
+	let { children, data } = $props();
 </script>
 
 <svelte:head>
@@ -12,7 +12,7 @@
 </svelte:head>
 
 <div class="min-h-screen flex flex-col bg-bg text-text font-sans">
-	<Navbar />
+	<Navbar articles={data.allArticles} quizzes={data.allQuizzes} />
 	<main class="flex-1">
 		{@render children()}
 	</main>

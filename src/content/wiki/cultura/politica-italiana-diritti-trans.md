@@ -6,7 +6,7 @@ category: "cultura"
 tags: ["italia", "politica", "DDL Zan", "governo Meloni", "legislazione"]
 date: "2026-02-18"
 updated: "2026-02-18"
-image: "/images/wiki/politica-italiana-diritti-trans.png"
+image: "/images/wiki/politica-italiana-diritti-trans.webp"
 sources:
   - title: "Il Sole 24 ORE – DDL Zan contro omofobia affossato al Senato con 154 voti contro 131"
     url: "https://www.ilsole24ore.com/art/ddl-zan-27-ottobre-prova-voto-aula-AEoTuIs"

@@ -6,7 +6,7 @@ category: "scienza"
 tags: ["salute mentale", "depressione", "ansia", "minority stress", "supporto", "terapia"]
 date: "2026-02-19"
 updated: "2026-02-19"
-image: "/images/wiki/salute-mentale-persone-trans.png"
+image: "/images/wiki/salute-mentale-persone-trans.webp"
 sources:
   - title: "Prejudice, Social Stress, and Mental Health in Lesbian, Gay, and Bisexual Populations: Conceptual Issues and Research Evidence"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2072932/"

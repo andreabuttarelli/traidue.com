@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import SEO from '$lib/components/seo/SEO.svelte';
+	import SearchInput from '$lib/components/ui/SearchInput.svelte';
 	import ArticleCard from '$lib/components/wiki/ArticleCard.svelte';
 	import QuizCard from '$lib/components/quiz/QuizCard.svelte';
 
@@ -45,12 +46,14 @@
 	<div class="py-10 sm:py-16 lg:py-20 text-center flex flex-col items-center">
 		<h1 class="text-3xl sm:text-4xl lg:text-5xl font-heading font-semibold tracking-tight text-primary mb-3">Wiki</h1>
 		<p class="text-muted mb-6 sm:mb-8 max-w-md">Esplora i nostri articoli su tematiche trans</p>
-		<input
-			type="text"
-			placeholder="Cerca articoli e quiz..."
-			bind:value={search}
-			class="w-full max-w-xl px-4 sm:px-5 py-2.5 sm:py-3 rounded-full border border-border bg-transparent dark:bg-white/5 text-text shadow-sm focus:outline-none focus:border-primary text-base sm:text-lg"
-		/>
+		<div class="w-full max-w-xl">
+			<SearchInput
+				bind:value={search}
+				articles={data.articles}
+				quizzes={data.quizzes}
+				placeholder="Cerca articoli e quiz..."
+			/>
+		</div>
 		<div class="flex gap-4 flex-wrap justify-center mt-6">
 			<button
 				class="text-sm transition {selectedCategory === ''

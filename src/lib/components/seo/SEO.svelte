@@ -3,7 +3,7 @@
 		title,
 		description,
 		url,
-		image = 'https://www.traidue.com/images/wiki/identita-di-genere.png',
+		image = 'https://www.traidue.com/images/wiki/identita-di-genere.webp',
 		type = 'website',
 		article
 	}: {

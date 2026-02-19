@@ -6,7 +6,7 @@ category: "percorsi"
 tags: ["stati uniti", "legislazione", "diritti", "corte suprema", "sport"]
 date: "2026-02-18"
 updated: "2026-02-18"
-image: "/images/wiki/stati-uniti-diritti-trans.png"
+image: "/images/wiki/stati-uniti-diritti-trans.webp"
 sources:
   - title: "Trans Legislation Tracker – 2025-2026 Anti-Trans Bills"
     url: "https://translegislation.com/"

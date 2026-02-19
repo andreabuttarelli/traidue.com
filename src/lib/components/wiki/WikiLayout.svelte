@@ -103,7 +103,10 @@
 		<div class="rounded-xl overflow-hidden mb-8 sm:mb-10">
 			<img
 				src={image}
-				alt=""
+				alt={title}
+				width="1344"
+				height="768"
+				decoding="async"
 				class="w-full aspect-[16/9] object-cover"
 			/>
 		</div>

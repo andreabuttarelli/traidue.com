@@ -6,7 +6,7 @@ category: "cultura"
 tags: ["giovani", "esplorazione", "identità di genere", "coming out", "supporto"]
 date: "2026-02-19"
 updated: "2026-02-19"
-image: "/images/wiki/esplorare-identita-di-genere.png"
+image: "/images/wiki/esplorare-identita-di-genere.webp"
 sources:
   - title: "Gender Identity 5 Years After Social Transition — Pediatrics (AAP)"
     url: "https://publications.aap.org/pediatrics/article/150/2/e2021056082/186992/Gender-Identity-5-Years-After-Social-Transition"

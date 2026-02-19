@@ -6,7 +6,7 @@ category: "cultura"
 tags: ["famiglie", "genitori", "accettazione", "supporto", "salute mentale"]
 date: "2026-02-19"
 updated: "2026-02-19"
-image: "/images/wiki/famiglie-e-persone-trans.png"
+image: "/images/wiki/famiglie-e-persone-trans.webp"
 sources:
   - title: "Family Acceptance in Adolescence and the Health of LGBT Young Adults"
     url: "https://pubmed.ncbi.nlm.nih.gov/21073595/"

@@ -6,7 +6,7 @@ category: "cultura"
 tags: ["partner", "coppia", "famiglie", "coming out", "discriminazione", "figli"]
 date: "2026-02-19"
 updated: "2026-02-19"
-image: "/images/wiki/partner-trans.png"
+image: "/images/wiki/partner-trans.webp"
 sources:
   - title: "Transgender People and Their Cisgender Partners: Findings from the U.S. Transgender Survey"
     url: "https://transequality.org/sites/default/files/docs/usts/USTS-Full-Report-Dec17.pdf"

@@ -6,7 +6,7 @@ category: "cultura"
 tags: ["coming out", "famiglie", "relazioni", "salute mentale", "supporto"]
 date: "2026-02-19"
 updated: "2026-02-19"
-image: "/images/wiki/coming-out-trans.png"
+image: "/images/wiki/coming-out-trans.webp"
 sources:
   - title: "Stigma, Mental Health, and Resilience in an Online Sample of the US Transgender Population"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698807/"

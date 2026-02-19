@@ -1,8 +1,18 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
 	import { page } from '$app/state';
+	import type { WikiArticle } from '$lib/utils/wiki';
 	import Logo from './Logo.svelte';
+	import SearchInput from './SearchInput.svelte';
 	import ThemeToggle from './ThemeToggle.svelte';
+
+	let {
+		articles = [],
+		quizzes = []
+	}: {
+		articles?: WikiArticle[];
+		quizzes?: { slug: string; title: string; description: string; category: string }[];
+	} = $props();
 
 	let mobileMenuOpen = $state(false);
 	let navSearch = $state('');
@@ -68,14 +78,16 @@
 				<Logo />
 			</a>
 
-			<form onsubmit={handleSearch} class="justify-self-center w-full max-w-sm">
-				<input
-					type="text"
-					placeholder="Cerca..."
+			<div class="justify-self-center w-full max-w-sm">
+				<SearchInput
 					bind:value={navSearch}
-					class="w-full px-4 py-1.5 text-sm rounded-full border border-border bg-transparent dark:bg-white/5 text-text shadow-sm focus:outline-none focus:border-primary"
+					{articles}
+					{quizzes}
+					placeholder="Cerca..."
+					size="sm"
+					onsubmit={handleSearch}
 				/>
-			</form>
+			</div>
 
 			<div class="flex items-center gap-6 justify-self-end">
 				{#each navLinks as link}
@@ -104,14 +116,16 @@
 		></div>
 		<div class="sm:hidden absolute left-0 right-0 top-14 z-50 bg-bg border-b border-border shadow-md">
 			<div class="flex flex-col gap-1 px-4 py-4">
-				<form onsubmit={handleSearch} class="py-2">
-					<input
-						type="text"
-						placeholder="Cerca articoli e quiz..."
+				<div class="py-2">
+					<SearchInput
 						bind:value={navSearch}
-						class="w-full px-4 py-2.5 text-base rounded-full border border-border bg-transparent dark:bg-white/5 text-text shadow-sm focus:outline-none focus:border-primary"
+						{articles}
+						{quizzes}
+						placeholder="Cerca articoli e quiz..."
+						size="base"
+						onsubmit={handleSearch}
 					/>
-				</form>
+				</div>
 				{#each navLinks as link}
 					<a
 						href={link.href}

@@ -6,7 +6,7 @@ category: "percorsi"
 tags: ["legge 164", "rettificazione", "Italia", "diritti", "tribunale"]
 date: "2026-02-18"
 updated: "2026-02-18"
-image: "/images/wiki/legge-164-italia.png"
+image: "/images/wiki/legge-164-italia.webp"
 sources:
   - title: "Gazzetta Ufficiale - Legge 14 aprile 1982, n. 164"
     url: "https://www.gazzettaufficiale.it/eli/id/1982/04/19/082U0164/sg"

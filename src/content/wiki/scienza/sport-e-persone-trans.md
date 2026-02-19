@@ -6,7 +6,7 @@ category: "scienza"
 tags: ["sport", "regolamenti", "testosterone", "inclusione", "competizione"]
 date: "2026-02-18"
 updated: "2026-02-18"
-image: "/images/wiki/sport-e-persone-trans.png"
+image: "/images/wiki/sport-e-persone-trans.webp"
 sources:
   - title: "IOC Framework on Fairness, Inclusion and Non-discrimination on the basis of gender identity and sex variations"
     url: "https://www.olympics.com/ioc/news/ioc-releases-framework-on-fairness-inclusion-and-non-discrimination-on-the-basis-of-gender-identity-and-sex-variations"
