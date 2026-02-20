@@ -11,9 +11,18 @@
 		updated,
 		image,
 		sources = [],
+		media = [],
 		related = [],
 		children
 	} = $props();
+
+	const mediaLabels: Record<string, string> = {
+		libro: 'Libro',
+		film: 'Film',
+		serie: 'Serie TV',
+		documentario: 'Documentario',
+		podcast: 'Podcast'
+	};
 
 	let proseEl: HTMLDivElement;
 
@@ -132,6 +141,29 @@
 				{/each}
 			</ul>
 		</footer>
+	{/if}
+
+	{#if media.length > 0}
+		<div class="mt-12 pt-8 border-t border-border">
+			<h2 class="text-xl font-heading font-semibold text-primary mb-4">Approfondimenti</h2>
+			<ul class="space-y-2">
+				{#each media as item}
+					<li>
+						<span class="text-xs text-muted uppercase tracking-wide">{mediaLabels[item.type] ?? item.type}</span>
+						{#if item.url}
+							<a href={item.url} target="_blank" rel="noopener noreferrer" class="text-primary underline hover:no-underline ml-2">
+								{item.title}
+							</a>
+						{:else}
+							<span class="text-text ml-2">{item.title}</span>
+						{/if}
+						{#if item.year}
+							<span class="text-muted text-sm">({item.year})</span>
+						{/if}
+					</li>
+				{/each}
+			</ul>
+		</div>
 	{/if}
 
 	<!-- Email CTA -->

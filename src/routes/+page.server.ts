@@ -7,6 +7,7 @@ export function load() {
 	const totalSources = articles.reduce((sum, a) => sum + (a.sources?.length ?? 0), 0);
 	return {
 		featuredArticles: articles.slice(0, 6),
+		personArticles: articles.filter((a) => a.category === 'persone'),
 		featuredQuizzes: quizzes.slice(0, 2),
 		stats: {
 			articles: articles.length,

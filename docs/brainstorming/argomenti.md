@@ -102,7 +102,7 @@ Pillar: `identita-di-genere` (pubblicato)
 
 ---
 
-**Totale: 82 articoli — 82 pubblicati, 0 da scrivere**
+**Totale: 92 articoli — 92 pubblicati, 0 da scrivere** (di cui 10 biografie nella sezione `persone`)
 
 ## Extra: Nuovi Argomenti (pubblicati)
 
@@ -110,9 +110,13 @@ Pillar: `identita-di-genere` (pubblicato)
 - [x] È necessaria una certificazione per definirsi trans? (`certificazione-trans`)
 - [x] Quali sono i diritti trans mancanti e le battaglie future? (`diritti-trans-mancanti`)
 - [x] Festività e ricorrenze trans (`festivita-trans`)
-- [ ] Singole bio / pagine dedicate a personaggi famosi trans del passato (sezione `persone`)
+- [x] Singole bio / pagine dedicate a personaggi famosi trans del passato (sezione `persone`)
+  - `marsha-p-johnson`, `sylvia-rivera`, `christine-jorgensen`, `lili-elbe`, `marcella-di-folco`
+  - `lynn-conway`, `coccinelle`, `alan-l-hart`, `renee-richards`, `valentina-petrillo`
 - [x] Storia della medicina trans, chirurgie (`storia-medicina-trans`)
 - [x] Le persone trans nella storia (`persone-trans-nella-storia`)
 - [x] Costituzione e diritti trans (`costituzione-diritti-trans`)
 - [x] DDL Disforia, cosa fa (`ddl-disforia`)
 - [x] Prospettiva di un bambino trans, cosa prova, come aiutarlo (`bambini-trans`)
+
+- Trans e forze armate

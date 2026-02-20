@@ -9,6 +9,7 @@ export interface WikiArticle {
 	image?: string;
 	sources: { title: string; url: string; year: number }[];
 	faq?: { question: string; answer: string }[];
+	media?: { type: string; title: string; url?: string; year?: number }[];
 	related: string[];
 }
 
