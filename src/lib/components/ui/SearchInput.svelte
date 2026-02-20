@@ -146,13 +146,10 @@
 		<div class="absolute left-0 right-0 top-full mt-2 bg-bg border border-border rounded-xl shadow-lg overflow-hidden z-50">
 			{#each suggestions as item, i}
 				<button
-					class="w-full text-left px-4 py-3 flex items-center gap-3 transition-colors {i === selectedIndex ? 'bg-primary/5' : 'hover:bg-primary/5'}"
+					class="w-full text-left px-4 py-3 transition-colors {i === selectedIndex ? 'bg-primary/5' : 'hover:bg-primary/5'}"
 					onmousedown={() => navigateTo(item)}
 				>
-					<span class="text-xs text-muted uppercase tracking-wide w-12 shrink-0">
-						{item.type === 'quiz' ? 'Quiz' : item.category}
-					</span>
-					<span class="text-sm text-primary truncate">{item.title}</span>
+					<span class="text-sm text-primary truncate block">{item.title}</span>
 				</button>
 			{/each}
 		</div>

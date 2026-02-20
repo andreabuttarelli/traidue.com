@@ -91,7 +91,7 @@ Se provi vergogna per la tua attrazione, non sei l'unica persona in questa situa
 
 Lo stigma verso le persone trans si estende ai loro partner e a chiunque esprima attrazione verso di loro. Uno studio del 2018 sulle persone transgender italiane ha analizzato il meccanismo della transfobia interiorizzata, identificando quattro dimensioni: vergogna, alienazione, investimento nel passing e riduzione dell'orgoglio identitario. Questo stesso meccanismo opera, in forma diversa, su chi è attratto da persone trans. La società trasmette il messaggio che questa attrazione sia "strana", "deviante" o sospetta, e chi lo riceve può interiorizzarlo fino a vergognarsi dei propri sentimenti.
 
-Una meta-sintesi del 2021 sulle esperienze relazionali delle persone trans e dei loro partner ha documentato che lo stigma vissuto nelle relazioni danneggia il benessere sia della persona trans sia del partner cisgender. La vergogna che la società attribuisce a chi sta con una persona trans amplifica l'insicurezza, le difficolta relazionali e l'isolamento.
+Una meta-sintesi del 2021 sulle esperienze relazionali delle persone trans e dei loro partner ha documentato che lo stigma vissuto nelle relazioni danneggia il benessere sia della persona trans sia del partner cisgender. La vergogna che la società attribuisce a chi sta con una persona trans amplifica l'insicurezza, le difficoltà relazionali e l'isolamento.
 
 ### Lo stigma specifico verso chi è attratto dagli uomini trans
 

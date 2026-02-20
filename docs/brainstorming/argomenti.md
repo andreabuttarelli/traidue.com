@@ -33,9 +33,9 @@ Pillar: `transizione-medica-cosa-cambia` (pubblicato)
 Pillar: `persone-trans-e-lavoro` (pubblicato)
 
 - [x] Le persone trans possono lavorare liberamente? (`persone-trans-e-lavoro`) **PILLAR**
-- [ ] Quali persone trans hanno avuto successo nel lavoro? (`successi-persone-trans`)
-- [ ] È vero che le persone trans lavorano tutte nel sesso? (`sex-work-persone-trans`)
-- [ ] Quanta discriminazione subiscono le persone trans al lavoro? (`discriminazione-lavoro-trans-italia`)
+- [x] Quali persone trans hanno avuto successo nel lavoro? (`successi-persone-trans`)
+- [x] È vero che le persone trans lavorano tutte nel sesso? (`sex-work-persone-trans`)
+- [x] Quanta discriminazione subiscono le persone trans al lavoro? (`discriminazione-lavoro-trans-italia`)
 
 ## Cluster 5: Identità e Miti da Sfatare
 Pillar: `miti-comuni-persone-trans` (pubblicato)
@@ -66,21 +66,21 @@ Pillar: `femminismo-e-donne-trans` (pubblicato)
 Pillar: `storia-movimento-trans` (pubblicato)
 
 - [x] Storia del movimento trans (`storia-movimento-trans`)
-- [ ] Come vivevano le persone trans prima del 1982? (`condizione-trans-prima-1982`)
-- [ ] Cos'è successo alla piscina di Milano? (`protesta-piscina-milano`)
+- [x] Come vivevano le persone trans prima del 1982? (`condizione-trans-prima-1982`)
+- [x] Cos'è successo alla piscina di Milano? (`protesta-piscina-milano`)
 
 ## Cluster 9: Educazione Sessuale e Corpi Trans
 Pillar: `sessualita-persone-trans` (pubblicato)
 
 - [x] Come funziona la sessualità per le persone trans? (`sessualita-persone-trans`) **PILLAR**
-- [ ] Come funzionano i rapporti con una donna trans? (`rapporti-sessuali-donna-trans`)
-- [ ] Come funzionano i rapporti con un uomo trans? (`rapporti-sessuali-uomo-trans`)
+- [x] Come funzionano i rapporti con una donna trans? (`rapporti-sessuali-donna-trans`)
+- [x] Come funzionano i rapporti con un uomo trans? (`rapporti-sessuali-uomo-trans`)
 - [x] Come cambia il corpo con la terapia ormonale? (`corpo-cambia-dopo-ormoni`)
 - [x] Le persone trans possono avere figli? (`fertilita-persone-trans`)
 - [x] Come proteggersi durante i rapporti con persone trans? (`sicurezza-sessuale-trans`)
 - [x] Che genitali ha una donna trans? (`genitali-donna-trans`)
-- [ ] La vagina di una donna trans è uguale a quella di una donna cis? (`vaginoplastica-risultati`)
-- [ ] Come è fatto il pene di un uomo trans? (`falloplastica-risultati`)
+- [x] La vagina di una donna trans è uguale a quella di una donna cis? (`vaginoplastica-risultati`)
+- [x] Come è fatto il pene di un uomo trans? (`falloplastica-risultati`)
 - [x] Come funziona la vaginoplastica? (`vaginoplastica-come-funziona`)
 - [x] Le donne trans sono attive o passive? Sfatiamo i miti (`donne-trans-sessualita-miti`)
 
@@ -89,30 +89,30 @@ Pillar: `identita-di-genere` (pubblicato)
 
 - [x] Identità di genere (`identita-di-genere`)
 - [x] Sesso biologico oltre il binarismo (`sesso-biologico-oltre-il-binarismo`)
-- [ ] Che cos'è il genere? (`che-cose-il-genere`)
-- [ ] Che cos'è il sesso biologico? (`che-cose-il-sesso-biologico`)
+- [x] Che cos'è il genere? (`che-cose-il-genere`)
+- [x] Che cos'è il sesso biologico? (`che-cose-il-sesso-biologico`)
 - [x] Cosa significa essere non binario? (`persone-non-binarie`)
-- [ ] Come si usa il linguaggio inclusivo? (`linguaggio-inclusivo`)
+- [x] Come si usa il linguaggio inclusivo? (`linguaggio-inclusivo`)
 
 ## Extra: Lacune da Coprire
 
-- [ ] Come vivono le persone trans a scuola? (`trans-e-scuola`)
+- [x] Come vivono le persone trans a scuola? (`trans-e-scuola`)
 - [x] Come posso supportare una persona trans? (`allies-guida`)
-- [ ] Come funziona la sanità per le persone trans in Italia? (`trans-e-sanita`)
+- [x] Come funziona la sanità per le persone trans in Italia? (`trans-e-sanita`)
 
 ---
 
-**Totale: 73 articoli — 59 pubblicati, 14 da scrivere**
-**Priorità**: Cluster 9 (4 mancanti) > Cluster 4 (3 mancanti) > Cluster 8 (2 mancanti) > Cluster 10 (2 mancanti) > Extra (2 mancanti)
+**Totale: 82 articoli — 82 pubblicati, 0 da scrivere**
 
+## Extra: Nuovi Argomenti (pubblicati)
 
-- L'AI: opportunità e pericoli
-- è necessaria una certificazione per definirsi trans? è da togliere?
-- Quali sono i diritti trans mancanti e le battaglie future?
-- Festività e ricorrenze trans
-- Singole bio / pagine dedicate a personaggi  famosi trans del passato
-- Storia della medicina trans, chirurgie
-- Le persone trans nella storia
-- Costituzione e diritti trans
-- DDL Disforia, cosa fa
-- Prospettiva di un bambino trans, cosa prova, come aiutarlo
+- [x] L'AI: opportunità e pericoli (`ai-e-persone-trans`)
+- [x] È necessaria una certificazione per definirsi trans? (`certificazione-trans`)
+- [x] Quali sono i diritti trans mancanti e le battaglie future? (`diritti-trans-mancanti`)
+- [x] Festività e ricorrenze trans (`festivita-trans`)
+- [ ] Singole bio / pagine dedicate a personaggi famosi trans del passato (sezione `persone`)
+- [x] Storia della medicina trans, chirurgie (`storia-medicina-trans`)
+- [x] Le persone trans nella storia (`persone-trans-nella-storia`)
+- [x] Costituzione e diritti trans (`costituzione-diritti-trans`)
+- [x] DDL Disforia, cosa fa (`ddl-disforia`)
+- [x] Prospettiva di un bambino trans, cosa prova, come aiutarlo (`bambini-trans`)
