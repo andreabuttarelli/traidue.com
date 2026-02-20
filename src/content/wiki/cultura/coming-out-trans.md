@@ -51,6 +51,16 @@ sources:
     url: "https://reports.hrc.org/an-epidemic-of-violence-2023"
     year: 2023
 related: ["famiglie-e-persone-trans", "esplorare-identita-di-genere", "situazione-trans-italia"]
+media:
+  - type: libro
+    title: "Redefining Realness"
+    year: 2014
+  - type: serie
+    title: "Euphoria"
+    year: 2019
+  - type: film
+    title: "Boy Meets Girl"
+    year: 2014
 ---
 
 Il coming out come persona transgender non funziona come te lo raccontano. Non è un singolo momento, non è un gesto eroico e non è un obbligo. Ma è un processo su cui esiste una letteratura scientifica concreta, e conoscerla cambia la prospettiva -- sia per chi sceglie di fare coming out, sia per chi lo riceve.

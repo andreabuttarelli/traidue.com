@@ -48,6 +48,13 @@ faq:
   - question: "I bambini sono troppo piccoli per sapere il proprio genere?"
     answer: "La ricerca mostra che la maggior parte dei bambini sviluppa una consapevolezza del proprio genere tra i 2 e i 4 anni, e studi di follow-up mostrano che gli adolescenti con disforia di genere persistente mantengono la propria identità in età adulta."
 related: ["identita-di-genere", "basi-biologiche-identita-di-genere", "situazione-trans-italia"]
+media:
+  - type: libro
+    title: "The Transgender Issue"
+    year: 2021
+  - type: documentario
+    title: "Disclosure: Trans Lives on Screen"
+    year: 2020
 ---
 
 La disinformazione sulle persone transgender è diffusa e spesso si basa su semplificazioni che ignorano decenni di ricerca scientifica. Questo articolo esamina alcuni dei miti più comuni, confrontandoli con le evidenze disponibili nella letteratura peer-reviewed.

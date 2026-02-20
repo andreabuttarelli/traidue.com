@@ -62,6 +62,13 @@ faq:
   - question: "Le persone che detransizionano ricevono supporto adeguato?"
     answer: "Spesso no. Lo studio di Vandenbussche (2021) ha rilevato che il 60% delle persone detransizionate ha bisogno di supporto psicologico, ma la maggioranza riporta esperienze negative con il sistema sanitario e con la comunità LGBT+. Migliorare il supporto alle persone che detransizionano è un obiettivo importante, non in contraddizione con il supporto alle persone trans."
 related: ["transizione-medica-cosa-cambia", "chirurgia-affermazione-di-genere", "miti-comuni-persone-trans"]
+media:
+  - type: documentario
+    title: "The Detransition Diaries"
+    year: 2022
+  - type: libro
+    title: "Detransition, Baby"
+    year: 2021
 ---
 
 La detransizione è uno dei temi più strumentalizzati nel dibattito pubblico sulle persone transgender. Viene citata come prova che "troppe persone si pentono", che "i medici non fanno abbastanza controlli", che "i giovani vengono spinti a transizionare". Ma cosa dicono davvero i dati? E cosa si nasconde dietro le statistiche che vengono usate per giustificare restrizioni all'accesso alle cure?

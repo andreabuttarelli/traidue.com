@@ -59,6 +59,13 @@ related:
   - esplorare-identita-di-genere
   - coming-out-trans
   - identita-di-genere
+media:
+  - type: libro
+    title: "Trans: A Memoir"
+    year: 2015
+  - type: film
+    title: "Tomboy"
+    year: 2011
 ---
 
 Quando si parla di transizione di genere, l'immaginario collettivo va subito agli interventi medici: ormoni, chirurgia, cambiamenti fisici. Ma la realtà è diversa. Per molte persone transgender, la transizione inizia -- e talvolta si conclude -- in un ambito completamente diverso: quello sociale. Cambiare nome, pronomi, abbigliamento. Presentarsi al mondo nel genere con cui ci si identifica. Nessun farmaco, nessun bisturi. Solo la scelta di vivere in modo coerente con chi si è.

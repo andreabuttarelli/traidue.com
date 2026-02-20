@@ -27,6 +27,21 @@ sources:
 related:
   - storia-movimento-trans
   - sylvia-rivera
+media:
+  - type: documentario
+    title: "The Death and Life of Marsha P. Johnson"
+    url: "https://www.netflix.com/title/80189623"
+    year: 2017
+  - type: documentario
+    title: "Pay It No Mind: Marsha P. Johnson"
+    url: "https://www.imdb.com/title/tt2334801/"
+    year: 2012
+  - type: film
+    title: "Happy Birthday, Marsha!"
+    year: 2018
+  - type: libro
+    title: "The Stonewall Reader"
+    year: 2019
 faq:
   - question: "Chi era Marsha P. Johnson?"
     answer: "Marsha P. Johnson (1945-1992) e stata un'attivista trans afroamericana, performer e figura chiave dei moti di Stonewall del 1969. Ha dedicato la sua vita alla lotta per i diritti delle persone LGBTQ+, in particolare per quelle piu vulnerabili."

@@ -62,6 +62,13 @@ related:
   - coming-out-figlio-trans
   - transizione-sociale
   - bambini-trans
+media:
+  - type: libro
+    title: "The Transgender Child"
+    year: 2008
+  - type: film
+    title: "Just Charlie"
+    year: 2017
 ---
 
 La scuola dovrebbe essere un luogo sicuro per tutti. Per molti studenti transgender e non-binari in Italia, non lo è. I dati mostrano che il bullismo transfobico resta diffuso, che la maggior parte delle scuole non ha strumenti adeguati e che le conseguenze sulla salute mentale e sul rendimento scolastico sono serie e documentate.

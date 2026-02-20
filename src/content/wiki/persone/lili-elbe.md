@@ -36,6 +36,16 @@ faq:
 related:
   - storia-medicina-trans
   - persone-trans-nella-storia
+media:
+  - type: film
+    title: "The Danish Girl"
+    year: 2015
+  - type: libro
+    title: "Man into Woman: The First Sex Change"
+    year: 1933
+  - type: libro
+    title: "The Danish Girl"
+    year: 2000
 ---
 
 Lili Elbe è stata una delle prime persone conosciute a sottoporsi a interventi chirurgici di affermazione di genere, diventando un simbolo pionieristico nella storia delle persone transgender. Nata come Einar Magnus Andreas Wegener nel 1882 in Danimarca, Lili ha vissuto una vita straordinaria che ha sfidato le convenzioni sociali e mediche del suo tempo, aprendo la strada per le generazioni future.

@@ -59,6 +59,16 @@ related:
   - transizione-medica-cosa-cambia
   - legge-164-italia
   - miti-comuni-persone-trans
+media:
+  - type: libro
+    title: "Love Lives Here"
+    year: 2019
+  - type: serie
+    title: "Transparent"
+    year: 2014
+  - type: documentario
+    title: "Seahorse"
+    year: 2019
 ---
 
 "Posso avere una famiglia?" è una domanda che molte persone transgender si pongono, spesso con un misto di desiderio e timore. La risposta breve è: sì. Le persone trans possono diventare genitori, e molte lo sono già. Le strade per arrivarci sono diverse -- biologiche, legali, sociali -- e ognuna presenta opportunità e ostacoli specifici, soprattutto nel contesto italiano. Questo articolo esplora tutte le opzioni con onestà, senza nascondere le difficoltà legali che esistono oggi in Italia, ma senza nemmeno dimenticare che la scienza è dalla parte delle famiglie trans.

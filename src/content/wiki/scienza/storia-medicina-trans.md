@@ -65,6 +65,16 @@ related:
   - chirurgia-affermazione-di-genere
   - transizione-medica-cosa-cambia
   - vaginoplastica-come-funziona
+media:
+  - type: libro
+    title: "How Sex Changed"
+    year: 2002
+  - type: documentario
+    title: "Disclosure: Trans Lives on Screen"
+    year: 2020
+  - type: libro
+    title: "Transgender History"
+    year: 2008
 ---
 
 La medicina transgender non nasce nel vuoto. Ha una storia lunga oltre un secolo, fatta di intuizioni pionieristiche, distruzione deliberata, ricostruzione faticosa, errori gravi e conquiste fondamentali. Conoscerla serve a capire da dove vengono le pratiche cliniche di oggi, perche esistono certi dibattiti e quali lezioni il passato ci consegna.

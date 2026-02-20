@@ -57,6 +57,16 @@ faq:
   - question: "Sono etero se il mio partner è trans?"
     answer: "L'orientamento sessuale è indipendente dall'identità di genere del partner. Se sei una donna e il tuo partner è un uomo trans, la relazione è eterosessuale. Molte persone riscoprono o ridefiniscono il proprio orientamento: non ci sono risposte obbligate."
 related: ["famiglie-e-persone-trans", "identita-di-genere", "coming-out-trans", "esplorare-identita-di-genere"]
+media:
+  - type: libro
+    title: "Love Lives Here"
+    year: 2019
+  - type: serie
+    title: "Transparent"
+    year: 2014
+  - type: film
+    title: "A Fantastic Woman"
+    year: 2017
 ---
 
 Quando il tuo partner fa coming out come persona transgender, o quando inizi una relazione con una persona trans, ti trovi di fronte a un territorio spesso privo di mappe. La narrazione dominante sulle persone trans raramente include le relazioni di coppia, eppure milioni di persone nel mondo vivono relazioni con partner transgender -- relazioni che funzionano, crescono e affrontano sfide specifiche che meritano di essere comprese con i dati, non con i pregiudizi.

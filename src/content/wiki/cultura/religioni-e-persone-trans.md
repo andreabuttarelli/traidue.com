@@ -65,6 +65,13 @@ faq:
   - question: "Quali denominazioni cristiane accolgono pienamente le persone trans?"
     answer: "Diverse denominazioni hanno posizioni ufficiali di piena inclusione, inclusa la possibilità di ordinazione per persone trans: tra queste la Chiesa Episcopale, la United Church of Christ, la Chiesa Unitariana Universalista e, dal 2024, la Chiesa Metodista Unita. La Chiesa Evangelica Luterana in America (ELCA) ha consacrato nel 2021 la prima persona apertamente transgender come vescova. In Italia, le chiese valdesi e metodiste sono tra le più accoglienti."
 related: ["storia-movimento-trans", "identita-di-genere", "diritti-trans-nel-mondo"]
+media:
+  - type: documentario
+    title: "A Sinner in Mecca"
+    year: 2015
+  - type: libro
+    title: "Transforming: The Bible and the Lives of Transgender Christians"
+    year: 2018
 ---
 
 Le persone con [identità di genere](/wiki/identita-di-genere) non conforme al sesso assegnato alla nascita esistono in ogni cultura e in ogni epoca. E in ogni epoca, le tradizioni religiose hanno avuto qualcosa da dire al riguardo. Non sempre quello che ci si aspetterebbe. La narrazione dominante tende a ridurre il rapporto tra religione e persone trans a un'opposizione frontale: la fede da una parte, l'identità dall'altra. La realtà è più articolata, più antica, e per certi versi più sorprendente. Questa voce esplora cosa dicono davvero le grandi tradizioni religiose, al di là dei titoli di giornale.

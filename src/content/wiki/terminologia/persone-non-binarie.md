@@ -59,6 +59,16 @@ related:
   - sesso-biologico-oltre-il-binarismo
   - linguaggio-inclusivo
   - esplorare-identita-di-genere
+media:
+  - type: libro
+    title: "Nonbinary: Memoirs of Gender and Identity"
+    year: 2019
+  - type: serie
+    title: "Billions"
+    year: 2016
+  - type: libro
+    title: "Gender Queer: A Memoir"
+    year: 2019
 ---
 
 Le **persone non binarie** sono individui la cui identità di genere non si colloca esclusivamente nella categoria di uomo o di donna. Il termine "non binario" (in inglese *non-binary*, spesso abbreviato in *enby*) funziona come un termine ombrello che raccoglie un'ampia varietà di esperienze identitarie. Non si tratta di un fenomeno nuovo o di una tendenza recente: identità di genere al di fuori del binarismo sono documentate in culture di tutto il mondo da secoli. Quello che è cambiato negli ultimi decenni è la disponibilità di un linguaggio per descrivere queste esperienze e una crescente attenzione da parte della ricerca scientifica.

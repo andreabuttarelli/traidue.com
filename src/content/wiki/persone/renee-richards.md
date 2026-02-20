@@ -32,6 +32,17 @@ related:
   - successi-persone-trans
   - persone-trans-nella-storia
   - storia-medicina-trans
+media:
+  - type: libro
+    title: "Second Serve"
+    year: 1983
+  - type: film
+    title: "Second Serve"
+    year: 1986
+  - type: documentario
+    title: "Renée"
+    url: "https://www.imdb.com/title/tt1444528/"
+    year: 2011
 faq:
   - question: "Chi e Renee Richards?"
     answer: "Renee Richards (1934-) e un'oftalmologo e tennista americana. Nata come Richard Raskind, dopo aver completato la transizione nel 1975 ha sfidato il divieto di partecipazione delle donne trans alle competizioni femminili, vincendo una causa storica contro la United States Tennis Association nel 1977."

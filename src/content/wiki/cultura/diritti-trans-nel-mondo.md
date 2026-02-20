@@ -63,6 +63,16 @@ sources:
     url: "https://www.aljazeera.com/news/2024/9/17/georgias-parliament-approves-law-curbing-lgbtq-rights"
     year: 2024
 related: ["diritti-trans-internazionali", "regno-unito-diritti-trans", "stati-uniti-diritti-trans"]
+media:
+  - type: documentario
+    title: "Disclosure: Trans Lives on Screen"
+    year: 2020
+  - type: libro
+    title: "The Transgender Issue"
+    year: 2021
+  - type: film
+    title: "A Fantastic Woman"
+    year: 2017
 ---
 
 Ecco la mappa globale. 23 paesi che riconoscono l'autodeterminazione di genere. 13 che criminalizzano direttamente l'esistenza trans. E in mezzo, un arcipelago di contraddizioni: stati che proclamano diritti sulla carta e li negano nei fatti, sentenze che smantellano muri e parlamenti che ne costruiscono di nuovi. Dove si vince. Dove si perde. E dove il confine tra vittoria e sconfitta dipende dal codice postale.

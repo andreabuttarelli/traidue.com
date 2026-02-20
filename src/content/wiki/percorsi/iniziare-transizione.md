@@ -59,6 +59,13 @@ related:
   - legge-164-italia
   - cambio-documenti-trans
   - corpo-cambia-dopo-ormoni
+media:
+  - type: libro
+    title: "Redefining Realness"
+    year: 2014
+  - type: serie
+    title: "Pose"
+    year: 2018
 ---
 
 Iniziare la transizione di genere in Italia può sembrare un processo opaco e scoraggiante. Le informazioni sono frammentate, i percorsi variano da regione a regione e la burocrazia sanitaria non aiuta. Questa guida esiste per offrire una mappa chiara: passo dopo passo, dall'idea iniziale fino all'inizio concreto del percorso medico. Non serve sapere tutto in anticipo. Serve sapere da dove cominciare.

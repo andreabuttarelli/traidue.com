@@ -61,6 +61,16 @@ related:
   - persone-trans-e-lavoro
   - discriminazione-lavoro-trans-italia
   - miti-comuni-persone-trans
+media:
+  - type: film
+    title: "Tangerine"
+    year: 2015
+  - type: serie
+    title: "Pose"
+    year: 2018
+  - type: documentario
+    title: "Paris Is Burning"
+    year: 1990
 ---
 
 Tra i pregiudizi più radicati sulle persone transgender c'è l'idea che siano tutte coinvolte nel sex work. Questa associazione automatica è falsa, riduttiva e dannosa: non solo distorce la percezione pubblica di un'intera comunità, ma contribuisce a giustificare discriminazioni e violenze. Allo stesso tempo, ignorare che una parte delle persone trans effettivamente svolge sex work -- spesso come conseguenza della marginalizzazione economica -- significherebbe negare una realtà che merita attenzione e rispetto, non giudizio.

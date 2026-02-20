@@ -54,6 +54,13 @@ sources:
     url: "https://www.quotidianosanita.it/scienza-e-farmaci/articolo.php?articolo_id=80135"
     year: 2022
 related: ["legge-164-italia", "diritti-trans-internazionali"]
+media:
+  - type: libro
+    title: "Le parole per dirlo"
+    year: 2007
+  - type: film
+    title: "Le favolose"
+    year: 2022
 ---
 
 La condizione delle persone trans in Italia si colloca in un quadro di contraddizioni: da un lato il paese dispone, fin dal 1982, di una legislazione sulla rettificazione anagrafica del sesso (la **Legge 164/1982**) che lo rese pioniere in Europa; dall'altro, persistono lacune normative, disparità nell'accesso ai servizi sanitari e livelli elevati di discriminazione in ogni ambito della vita quotidiana. Questo articolo raccoglie i dati e le evidenze disponibili per delineare lo stato attuale della questione.

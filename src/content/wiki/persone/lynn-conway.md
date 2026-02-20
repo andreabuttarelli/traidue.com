@@ -31,6 +31,10 @@ related:
   - successi-persone-trans
   - persone-trans-e-lavoro
   - storia-movimento-trans
+media:
+  - type: libro
+    title: "Transgender Warriors"
+    year: 1996
 faq:
   - question: "Chi era Lynn Conway?"
     answer: "Lynn Conway (1938-2024) e stata una scienziata informatica e ingegnera americana che ha rivoluzionato la progettazione dei microchip. Invento tecniche fondamentali usate in ogni processore moderno, fu licenziata da IBM nel 1968 per la sua transizione, e ricostrui la sua carriera da zero diventando una figura centrale nella rivoluzione VLSI."

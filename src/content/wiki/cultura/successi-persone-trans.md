@@ -64,6 +64,13 @@ related:
   - persone-trans-e-lavoro
   - storia-movimento-trans
   - donne-trans-sono-donne
+media:
+  - type: documentario
+    title: "Disclosure: Trans Lives on Screen"
+    year: 2020
+  - type: serie
+    title: "Pose"
+    year: 2018
 ---
 
 Quando si parla di persone transgender nel dibattito pubblico, la narrazione dominante tende a concentrarsi sulle difficoltà: discriminazione, emarginazione, violenza. Queste realtà esistono e vanno denunciate. Tuttavia, raccontare **solo** la sofferenza significa offrire un quadro incompleto. In ogni ambito della vita pubblica -- dalla politica alla scienza, dall'arte allo sport, dall'impresa alla cultura popolare -- ci sono persone trans che hanno raggiunto risultati straordinari, spesso superando ostacoli che la maggior parte delle persone non può nemmeno immaginare.

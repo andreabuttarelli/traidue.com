@@ -48,6 +48,13 @@ sources:
     url: "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2023.1224476/full"
     year: 2023
 related: ["basi-biologiche-identita-di-genere"]
+media:
+  - type: documentario
+    title: "5 nanomoli - Il sogno olimpico di Valentina"
+    year: 2023
+  - type: libro
+    title: "Sporting Gender"
+    year: 2019
 ---
 
 La partecipazione delle persone transgender allo sport agonistico rappresenta una delle questioni più dibattute nel panorama sportivo e sociale contemporaneo. Il tema si colloca all'intersezione tra fisiologia, diritto, etica e politiche sportive, e coinvolge valori fondamentali come l'equità competitiva e il diritto all'inclusione. Questo articolo presenta le evidenze scientifiche disponibili, l'evoluzione dei regolamenti e le diverse posizioni nel dibattito in corso.

@@ -39,6 +39,10 @@ faq:
 related:
   - storia-medicina-trans
   - persone-trans-nella-storia
+media:
+  - type: libro
+    title: "Transgender History"
+    year: 2008
 ---
 
 Nella storia della medicina del XX secolo, poche figure hanno avuto un impatto così profondo eppure sono rimaste così a lungo nell'ombra come Alan L. Hart. Medico, radiologo, ricercatore e scrittore, Hart ha rivoluzionato la diagnosi della tubercolosi salvando potenzialmente migliaia di vite. Ma c'è un altro motivo per cui la sua storia è straordinaria: fu uno dei primi uomini transgender negli Stati Uniti a completare una transizione medica, in un'epoca in cui la stessa parola "transgender" non esisteva ancora.

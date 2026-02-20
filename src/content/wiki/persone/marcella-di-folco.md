@@ -46,6 +46,10 @@ related:
   - condizione-trans-prima-1982
   - storia-movimento-trans
   - legge-164-italia
+media:
+  - type: film
+    title: "Il Casanova di Federico Fellini"
+    year: 1976
 ---
 
 Marcella Di Folco è stata una delle figure più importanti e rivoluzionarie della storia del movimento per i diritti delle persone trans in Italia e nel mondo. Attrice scoperta da Federico Fellini, attivista instancabile, politica visionaria: la sua vita ha attraversato e segnato cinquant'anni di lotte per il riconoscimento della dignità e dei diritti delle persone transgender. Nel 1995, quando fu eletta consigliera comunale a Bologna, non solo divenne la prima donna trans a ricoprire un incarico pubblico elettivo in Italia, ma fu la prima al mondo in assoluto -- un primato che l'Italia e Bologna possono rivendicare con orgoglio.

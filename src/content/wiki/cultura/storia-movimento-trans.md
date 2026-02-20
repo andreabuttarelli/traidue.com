@@ -54,6 +54,22 @@ sources:
     url: "https://www.ilpost.it/2025/07/04/protesta-trans-milano-4-luglio-1980/"
     year: 2025
 related: ["situazione-trans-italia", "diritti-trans-internazionali"]
+media:
+  - type: documentario
+    title: "Disclosure: Trans Lives on Screen"
+    year: 2020
+  - type: libro
+    title: "Transgender History"
+    year: 2008
+  - type: documentario
+    title: "The Death and Life of Marsha P. Johnson"
+    year: 2017
+  - type: serie
+    title: "Pose"
+    year: 2018
+  - type: film
+    title: "Paris Is Burning"
+    year: 1990
 ---
 
 La storia delle persone trans non inizia con le rivolte di Stonewall, e nemmeno con i pionieri della sessuologia del Novecento. Le persone con [identità di genere](/wiki/identita-di-genere) non conforme ai canoni binari sono esistite in ogni epoca e in ogni cultura. Tuttavia, è nel XX secolo che si struttura un vero e proprio **movimento trans** organizzato, capace di rivendicare diritti, visibilità e dignità. Questa voce ripercorre le tappe fondamentali di quella storia, dall'Istituto di Sessuologia di Berlino fino alle sfide contemporanee.

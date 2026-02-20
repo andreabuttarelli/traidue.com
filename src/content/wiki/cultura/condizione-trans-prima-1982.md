@@ -64,6 +64,16 @@ related:
   - legge-164-italia
   - storia-movimento-trans
   - politica-italiana-diritti-trans
+media:
+  - type: libro
+    title: "How Sex Changed"
+    year: 2002
+  - type: film
+    title: "The Queen"
+    year: 1968
+  - type: libro
+    title: "Transgender History"
+    year: 2008
 ---
 
 Prima del 14 aprile 1982, in Italia le persone trans non esistevano. Non sul piano giuridico, almeno. Nessuna legge prevedeva la possibilità di modificare il sesso anagrafico. Nessun documento poteva riflettere l'identità reale di una persona. E l'ordinamento, lungi dall'ignorarle in silenzio, le perseguiva attivamente: con articoli del codice di pubblica sicurezza risalenti al fascismo, con retate notturne, con il confino. Questa è la storia di cosa significava essere trans in Italia quando lo Stato non solo non ti riconosceva, ma ti considerava un problema di ordine pubblico.

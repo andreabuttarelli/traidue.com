@@ -62,6 +62,13 @@ faq:
   - question: "Cos'è la disforia di genere?"
     answer: "La disforia di genere, secondo il DSM-5, è un disagio clinicamente significativo causato dall'incongruenza tra il genere esperito e il sesso assegnato alla nascita. Non è l'identità transgender in sé a essere un disturbo, ma il disagio che può accompagnarla."
 related: ["basi-biologiche-identita-di-genere", "ricerche-recenti-identita-genere"]
+media:
+  - type: libro
+    title: "Gender Trouble"
+    year: 1990
+  - type: documentario
+    title: "Disclosure: Trans Lives on Screen"
+    year: 2020
 ---
 
 L'**identità di genere** è uno degli aspetti fondamentali dell'esperienza umana. Si tratta del senso intimo e profondo che ogni persona ha del proprio genere, un'esperienza soggettiva che può corrispondere o meno al sesso assegnato alla nascita. Comprendere cosa sia l'identità di genere, come si sviluppi e cosa la scienza ci dice al riguardo è essenziale per affrontare con consapevolezza le tematiche legate alle persone transgender e di genere non conforme. In questo articolo analizziamo le definizioni, le basi scientifiche, le classificazioni diagnostiche e le posizioni delle principali istituzioni internazionali.

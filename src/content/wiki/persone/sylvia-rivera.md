@@ -27,6 +27,17 @@ sources:
 related:
   - marsha-p-johnson
   - storia-movimento-trans
+media:
+  - type: documentario
+    title: "The Death and Life of Marsha P. Johnson"
+    url: "https://www.netflix.com/title/80189623"
+    year: 2017
+  - type: libro
+    title: "Street Transvestites Action Revolutionaries: Survival, Revolt, and Queer Antagonist Struggle"
+    year: 2013
+  - type: documentario
+    title: "Sylvia Rivera: Queens in Exile"
+    year: 2021
 faq:
   - question: "Chi era Sylvia Rivera?"
     answer: "Sylvia Rivera (1951-2002) e stata un'attivista trans latina di origini venezuelane e portoricane, co-fondatrice di STAR e una delle figure piu combattive nella lotta per i diritti delle persone trans piu emarginate. E ricordata per il suo coraggio nel denunciare l'esclusione delle persone trans dal movimento gay mainstream."

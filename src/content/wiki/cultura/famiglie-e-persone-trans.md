@@ -65,6 +65,16 @@ faq:
   - question: "L'identità transgender è causata dall'educazione dei genitori?"
     answer: "No. Le evidenze scientifiche indicano che l'identità di genere ha basi biologiche e non è determinata dallo stile genitoriale, dall'ambiente familiare o da esperienze specifiche durante l'infanzia."
 related: ["identita-di-genere", "miti-comuni-persone-trans", "transizione-medica-cosa-cambia"]
+media:
+  - type: libro
+    title: "The Transgender Child"
+    year: 2008
+  - type: documentario
+    title: "Growing Up Trans"
+    year: 2015
+  - type: serie
+    title: "Transparent"
+    year: 2014
 ---
 
 Scoprire che il proprio figlio, la propria figlia o un familiare è una persona transgender è un momento che molte famiglie descrivono come uno spartiacque. Se stai leggendo questo articolo, probabilmente stai cercando informazioni affidabili in un panorama dove le opinioni sono tante e i dati verificabili sembrano pochi. Questo articolo non ha lo scopo di dirti cosa pensare, ma di mostrarti cosa dice la ricerca scientifica -- e perché quello che farai come genitore o familiare conta più di quanto immagini.

@@ -65,6 +65,13 @@ faq:
   - question: "L'accettazione della famiglia fa davvero la differenza?"
     answer: "Si, in modo significativo e misurabile. Il Family Acceptance Project ha dimostrato che i giovani LGBT con elevato rifiuto familiare sono 8,4 volte piu a rischio di tentativo di suicidio rispetto ai coetanei con famiglie accettanti. Uno studio del 2016 ha mostrato che i bambini trans supportati dalle famiglie nella transizione sociale presentano livelli di depressione nella norma e ansia solo lievemente elevata rispetto ai coetanei cisgender."
 related: ["famiglie-e-persone-trans", "esplorare-identita-di-genere", "miti-comuni-persone-trans"]
+media:
+  - type: libro
+    title: "The Transgender Issue"
+    year: 2021
+  - type: serie
+    title: "Euphoria"
+    year: 2019
 ---
 
 > **Nota sul contenuto.** Questo articolo tratta temi legati a disagio psicologico, depressione, autolesionismo e suicidio. Se stai attraversando un momento difficile, puoi trovare i contatti dei servizi di supporto nella sezione dedicata in fondo all'articolo. La lettura è sempre una tua scelta: puoi interrompere in qualsiasi momento e tornare quando ti senti pronto/a.

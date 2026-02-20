@@ -61,6 +61,13 @@ related:
   - identita-di-genere
   - basi-biologiche-identita-di-genere
   - miti-comuni-persone-trans
+media:
+  - type: libro
+    title: "Whipping Girl"
+    year: 2007
+  - type: documentario
+    title: "Disclosure: Trans Lives on Screen"
+    year: 2020
 ---
 
 "Le donne trans sono donne?" è una domanda che ricorre nei dibattiti pubblici, nei commenti online, nelle aule parlamentari. Spesso viene posta come se la risposta fosse una questione di opinione. Non lo è. Le evidenze scientifiche accumulate in oltre trent'anni di ricerca in neuroscienze, genetica, endocrinologia e psicologia convergono su un punto: l'[identità di genere](/wiki/identita-di-genere) ha solide [basi biologiche](/wiki/basi-biologiche-identita-di-genere) e non è determinata esclusivamente dai cromosomi o dall'anatomia genitale.

@@ -65,6 +65,16 @@ related:
   - coming-out-figlio-trans
   - esplorare-identita-di-genere
   - famiglie-e-persone-trans
+media:
+  - type: libro
+    title: "The Transgender Child"
+    year: 2008
+  - type: documentario
+    title: "Growing Up Trans"
+    year: 2015
+  - type: libro
+    title: "Gender Born, Gender Made"
+    year: 2011
 ---
 
 Immaginate di avere cinque anni e sapere con certezza qualcosa di voi -- qualcosa di così fondamentale che non avete bisogno che nessuno ve lo insegni. Sapete il vostro colore preferito, sapete quale cibo vi piace, sapete se preferite correre o disegnare. E sapete chi siete. Adesso immaginate che ogni persona intorno a voi -- i vostri genitori, gli insegnanti, i compagni, il mondo intero -- vi dica che vi sbagliate. Che quello che sentite dentro non è reale. Che dovete essere qualcun altro.

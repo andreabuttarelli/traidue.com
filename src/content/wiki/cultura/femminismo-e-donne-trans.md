@@ -62,6 +62,16 @@ related:
   - donna-trans-lesbica
   - storia-movimento-trans
   - miti-comuni-persone-trans
+media:
+  - type: libro
+    title: "Whipping Girl"
+    year: 2007
+  - type: libro
+    title: "Excluded"
+    year: 2013
+  - type: documentario
+    title: "Disclosure: Trans Lives on Screen"
+    year: 2020
 ---
 
 La domanda "il femminismo include le donne trans?" appare con frequenza crescente nei dibattiti pubblici, nelle aule universitarie, sui social media. Per chi la pone in buona fede, la risposta richiede un viaggio nella storia del pensiero femminista, nelle sue correnti, nelle sue contraddizioni e nella sua evoluzione. Per chi la usa come provocazione, la risposta è già contenuta nella domanda: se il femminismo lotta per i diritti di tutte le donne, escluderne alcune in base al sesso assegnato alla nascita significa tradire la propria missione fondante.

@@ -64,6 +64,13 @@ related:
   - situazione-trans-italia
   - politica-italiana-diritti-trans
   - coming-out-trans
+media:
+  - type: documentario
+    title: "TransGeneration"
+    year: 2005
+  - type: libro
+    title: "Le parole per dirlo"
+    year: 2007
 ---
 
 Una persona trans su due, in Italia, ha subito almeno un episodio di discriminazione nel cercare lavoro. Non un'impressione, non un sondaggio d'opinione: un dato dell'ISTAT, pubblicato nel dicembre 2024, basato su un'indagine condotta con l'UNAR nel 2023. E questo è solo l'inizio. Il **37,1%** ha sperimentato un clima ostile o aggressioni dirette nell'ambiente di lavoro. Oltre **otto persone trans su dieci** riportano micro-aggressioni legate all'identità di genere. Il tasso di disoccupazione delle persone trans in Italia è stimato fino a cinque volte superiore alla media nazionale.

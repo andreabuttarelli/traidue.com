@@ -47,6 +47,14 @@ related:
   - persone-trans-e-lavoro
   - sport-e-persone-trans
   - persone-trans-nella-storia
+media:
+  - type: documentario
+    title: "5 nanomoli - Il sogno olimpico di Valentina"
+    url: "https://5nanomoli.it/the-documentary/?lang=en"
+    year: 2023
+  - type: libro
+    title: "Più veloce del tempo"
+    year: 2025
 ---
 
 Valentina Petrillo è un'atleta paralimpica italiana che ha scritto una pagina importante nella storia dello sport. Il 2 settembre 2024, ai Giochi Paralimpici di Parigi, è diventata la prima donna transgender a partecipare a una competizione paralimpica internazionale, portando sotto i riflettori mondiali non solo le sue eccezionali capacità atletiche, ma anche una storia di coraggio, resilienza e doppia sfida: quella dell'identità di genere e quella della disabilità visiva.

@@ -63,6 +63,13 @@ faq:
   - question: "Dove trovare supporto per giovani trans in Italia?"
     answer: "In Italia sono disponibili il Gay Help Line (800 713 713, gratuito e anonimo), il portale InfoTrans dell'Istituto Superiore di Sanità, associazioni come AGEDO, GenderLens, MIT e Azione Trans, e i centri specializzati collegati all'ONIG."
 related: ["identita-di-genere", "famiglie-e-persone-trans", "miti-comuni-persone-trans"]
+media:
+  - type: libro
+    title: "Gender Queer: A Memoir"
+    year: 2019
+  - type: serie
+    title: "Euphoria"
+    year: 2019
 ---
 
 Se stai leggendo questo articolo, probabilmente ti stai facendo delle domande. Forse da poco, forse da anni. Forse non sai nemmeno come formulare quello che senti. Questo articolo non ha la pretesa di darti tutte le risposte, ma vuole offrirti qualcosa che spesso manca nel dibattito pubblico: informazioni accurate, basate sulla ricerca scientifica, scritte per te e non su di te.

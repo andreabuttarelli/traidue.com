@@ -64,6 +64,16 @@ related:
   - storia-movimento-trans
   - religioni-e-persone-trans
   - miti-comuni-persone-trans
+media:
+  - type: libro
+    title: "Transgender Warriors"
+    year: 1996
+  - type: libro
+    title: "Trans: A Memoir"
+    year: 2015
+  - type: documentario
+    title: "Disclosure: Trans Lives on Screen"
+    year: 2020
 ---
 
 L'idea che le persone trans siano un fenomeno recente, un prodotto della modernità o una "moda" contemporanea, è tra i [miti più diffusi e più facilmente smentibili](/wiki/miti-comuni-persone-trans) sull'[identità di genere](/wiki/identita-di-genere). La documentazione storica, archeologica e antropologica racconta una storia completamente diversa: in ogni epoca e in ogni angolo del pianeta, le società umane hanno conosciuto persone il cui genere non corrispondeva a quello assegnato alla nascita. Molte di queste culture non solo riconoscevano la varianza di genere, ma le attribuivano un valore sociale, spirituale o cerimoniale specifico.

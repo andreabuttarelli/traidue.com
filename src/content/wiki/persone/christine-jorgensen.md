@@ -31,6 +31,16 @@ related:
   - marsha-p-johnson
   - storia-medicina-trans
   - persone-trans-nella-storia
+media:
+  - type: libro
+    title: "Christine Jorgensen: A Personal Autobiography"
+    year: 1967
+  - type: documentario
+    title: "Christine Jorgensen Reveals"
+    year: 1970
+  - type: libro
+    title: "How Sex Changed: A History of Transsexuality in the United States"
+    year: 2002
 faq:
   - question: "Chi era Christine Jorgensen?"
     answer: "Christine Jorgensen (1926-1989) e stata una donna trans americana che divenne famosa nel 1952 dopo essere tornata dalla Danimarca, dove si era sottoposta a interventi chirurgici di affermazione di genere. E stata la prima persona trans americana a raggiungere visibilita mondiale, aprendo il dibattito pubblico sull'identita di genere."
