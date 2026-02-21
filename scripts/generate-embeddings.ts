@@ -39,7 +39,6 @@ function parseFrontmatter(content: string): Record<string, any> {
 	const match = content.match(/^---\n([\s\S]*?)\n---/);
 	if (!match) return {};
 	const frontmatter: Record<string, any> = {};
-	let currentKey = '';
 	let currentArray: any[] | null = null;
 	let currentObject: Record<string, any> | null = null;
 
@@ -77,7 +76,6 @@ function parseFrontmatter(content: string): Record<string, any> {
 			if (val === '') {
 				currentArray = [];
 				frontmatter[key] = currentArray;
-				currentKey = key;
 			} else if (val.startsWith('[')) {
 				// Inline array like tags: ["a", "b"]
 				frontmatter[key] = val.replace(/[\[\]"]/g, '').split(',').map(s => s.trim());
