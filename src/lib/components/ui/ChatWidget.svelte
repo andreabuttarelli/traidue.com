@@ -250,10 +250,10 @@
 		aria-label="Chat assistente wiki"
 		tabindex="-1"
 		onkeydown={handlePanelKeydown}
-		class="fixed bottom-0 right-0 sm:bottom-6 sm:right-6 z-50 w-full h-full sm:w-[440px] sm:h-[600px] sm:max-w-[calc(100vw-3rem)] bg-surface border border-border sm:rounded-xl shadow-xl flex flex-col"
+		class="fixed bottom-3 right-3 left-3 z-50 h-[75vh] max-h-[calc(100dvh-1.5rem)] rounded-xl sm:bottom-6 sm:right-6 sm:left-auto sm:w-[440px] sm:h-[600px] sm:max-w-[calc(100vw-3rem)] bg-surface border border-border shadow-xl flex flex-col"
 	>
 		<!-- Header -->
-		<div class="flex items-center justify-between px-4 py-3 border-b border-border sm:rounded-t-xl">
+		<div class="flex items-center justify-between px-4 py-3 border-b border-border rounded-t-xl">
 			<h2 class="text-sm font-semibold tracking-tight text-text">Chiedi al Wiki</h2>
 			<button
 				onclick={closePanel}
@@ -304,7 +304,7 @@
 					onkeydown={handleKeydown}
 					placeholder="Scrivi una domanda..."
 					disabled={loading}
-					class="flex-1 px-3 py-2 text-sm text-text bg-transparent border border-border rounded-lg focus:outline-none focus:border-primary disabled:opacity-50 placeholder:text-muted"
+					class="flex-1 px-3 py-2 text-base sm:text-sm text-text bg-transparent border border-border rounded-lg focus:outline-none focus:border-primary disabled:opacity-50 placeholder:text-muted"
 				/>
 				<button
 					onclick={sendMessage}
