@@ -19,6 +19,8 @@ CREATE TABLE news_articles (
   source_date TIMESTAMPTZ,
   status TEXT DEFAULT 'draft' NOT NULL CHECK (status IN ('draft', 'published', 'rejected')),
   approval_token UUID DEFAULT gen_random_uuid(),
+  image TEXT,
+  thumb TEXT,
   tags TEXT[] DEFAULT '{}' NOT NULL,
   created_at TIMESTAMPTZ DEFAULT now() NOT NULL,
   published_at TIMESTAMPTZ

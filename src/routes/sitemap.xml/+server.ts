@@ -58,7 +58,7 @@ export async function GET() {
 	const newsUrls = (newsArticles ?? []).map((n) => ({
 		url: `/notizie/${n.slug}`,
 		priority: '0.6',
-		changefreq: 'monthly' as const,
+		changefreq: 'daily' as const,
 		lastmod: n.published_at?.split('T')[0]
 	}));
 

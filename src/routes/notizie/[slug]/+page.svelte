@@ -1,9 +1,48 @@
 <script lang="ts">
 	import SEO from '$lib/components/seo/SEO.svelte';
+	import StructuredData from '$lib/components/seo/StructuredData.svelte';
 	import ShareButtons from '$lib/components/ui/ShareButtons.svelte';
 
 	let { data } = $props();
 	let article = $derived(data.article);
+
+	let breadcrumbSchema = $derived({
+		'@context': 'https://schema.org',
+		'@type': 'BreadcrumbList',
+		itemListElement: [
+			{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.traidue.com' },
+			{ '@type': 'ListItem', position: 2, name: 'Notizie', item: 'https://www.traidue.com/notizie' },
+			{ '@type': 'ListItem', position: 3, name: article.title, item: `https://www.traidue.com/notizie/${article.slug}` }
+		]
+	});
+
+	let newsSchema = $derived({
+		'@context': 'https://schema.org',
+		'@type': 'NewsArticle',
+		headline: article.title,
+		description: article.summary,
+		url: `https://www.traidue.com/notizie/${article.slug}`,
+		...(article.image && { image: article.image }),
+		datePublished: article.published_at,
+		author: {
+			'@type': 'Organization',
+			name: 'Tra i Due',
+			url: 'https://www.traidue.com'
+		},
+		publisher: {
+			'@type': 'Organization',
+			name: 'Tra i Due',
+			url: 'https://www.traidue.com',
+			logo: {
+				'@type': 'ImageObject',
+				url: 'https://www.traidue.com/favicon.png'
+			}
+		},
+		mainEntityOfPage: {
+			'@type': 'WebPage',
+			'@id': `https://www.traidue.com/notizie/${article.slug}`
+		}
+	});
 
 	function formatDate(dateStr: string) {
 		return new Date(dateStr).toLocaleDateString('it-IT', {
@@ -18,6 +57,7 @@
 	title={article.title}
 	description={article.summary}
 	url="https://www.traidue.com/notizie/{article.slug}"
+	image={article.image ?? undefined}
 	type="article"
 	article={{
 		publishedTime: article.published_at,
@@ -25,6 +65,8 @@
 		tags: article.tags
 	}}
 />
+<StructuredData schema={breadcrumbSchema} />
+<StructuredData schema={newsSchema} />
 
 <article class="w-full px-4 sm:px-6 lg:px-12">
 	<div class="max-w-3xl mx-auto py-10 sm:py-16">
@@ -66,6 +108,19 @@
 				/>
 			</div>
 		</header>
+
+		{#if article.image}
+			<div class="rounded-xl overflow-hidden mb-8 sm:mb-10">
+				<img
+					src={article.image}
+					alt={article.title}
+					width="1344"
+					height="768"
+					decoding="async"
+					class="w-full aspect-[16/9] object-cover"
+				/>
+			</div>
+		{/if}
 
 		<!-- Content -->
 		<div class="prose prose-lg max-w-none">

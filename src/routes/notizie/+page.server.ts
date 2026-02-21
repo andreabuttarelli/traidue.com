@@ -11,7 +11,7 @@ export async function load({ url }) {
 
 	let query = supabase
 		.from('news_articles')
-		.select('id, title, slug, summary, tags, source_url, source_title, published_at', {
+		.select('id, title, slug, summary, thumb, tags, source_url, source_title, published_at', {
 			count: 'exact'
 		})
 		.eq('status', 'published')

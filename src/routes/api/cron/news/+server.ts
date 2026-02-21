@@ -5,6 +5,7 @@ import { supabase } from '$lib/server/supabase';
 import { fetchAllFeeds, deduplicateItems } from '$lib/server/rss';
 import { processNewsItems } from '$lib/server/news-generator';
 import { sendNewsDigest } from '$lib/server/news-email';
+import { generateAndProcessNewsImage } from '$lib/server/news-image';
 
 const BASE_URL = 'https://www.traidue.com';
 
@@ -47,7 +48,7 @@ export const GET: RequestHandler = async ({ request }) => {
 						source_date: article.sourceDate || null,
 						tags: article.tags
 					})
-					.select('id, title, summary, source_url, approval_token')
+					.select('id, title, summary, content, tags, source_url, source_title, approval_token')
 					.single();
 
 				if (!error && data) {
@@ -55,7 +56,10 @@ export const GET: RequestHandler = async ({ request }) => {
 						id: data.id,
 						title: data.title,
 						summary: data.summary,
+						content: data.content,
+						tags: data.tags,
 						sourceUrl: data.source_url,
+						sourceTitle: data.source_title,
 						approvalToken: data.approval_token
 					});
 					break;
@@ -71,7 +75,32 @@ export const GET: RequestHandler = async ({ request }) => {
 			}
 		}
 
-		// 5. Email digest (failure doesn't lose saved drafts)
+		// 5. Generate images (fire-and-forget per article)
+		for (const draft of drafts) {
+			try {
+				const matchingArticle = articles.find((a) => a.sourceUrl === draft.sourceUrl);
+				if (!matchingArticle) continue;
+
+				const imageResult = await generateAndProcessNewsImage(
+					draft.title,
+					matchingArticle.tags,
+					draft.id
+				);
+
+				if (imageResult) {
+					await supabase
+						.from('news_articles')
+						.update({ image: imageResult.image, thumb: imageResult.thumb })
+						.eq('id', draft.id);
+					draft.image = imageResult.image;
+					draft.thumb = imageResult.thumb;
+				}
+			} catch (e) {
+				console.error(`Image generation failed for "${draft.title}":`, e);
+			}
+		}
+
+		// 6. Email digest (failure doesn't lose saved drafts)
 		let emailSent = false;
 		if (drafts.length) {
 			try {

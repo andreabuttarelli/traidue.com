@@ -2,8 +2,34 @@
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 	import SEO from '$lib/components/seo/SEO.svelte';
+	import StructuredData from '$lib/components/seo/StructuredData.svelte';
 
 	let { data } = $props();
+
+	const breadcrumbSchema = {
+		'@context': 'https://schema.org',
+		'@type': 'BreadcrumbList',
+		itemListElement: [
+			{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.traidue.com' },
+			{ '@type': 'ListItem', position: 2, name: 'Notizie', item: 'https://www.traidue.com/notizie' }
+		]
+	};
+
+	let collectionSchema = $derived({
+		'@context': 'https://schema.org',
+		'@type': 'CollectionPage',
+		name: 'Notizie',
+		description: 'Editoriali e approfondimenti su diritti civili, tematiche LGBTQ+, identità di genere e fine vita.',
+		url: 'https://www.traidue.com/notizie',
+		mainEntity: {
+			'@type': 'ItemList',
+			itemListElement: data.articles.map((a, i) => ({
+				'@type': 'ListItem',
+				position: i + 1,
+				url: `https://www.traidue.com/notizie/${a.slug}`
+			}))
+		}
+	});
 
 	let action = $derived($page.url.searchParams.get('action'));
 	let toastMessage = $derived(
@@ -58,6 +84,8 @@
 	description="Editoriali e approfondimenti su diritti civili, tematiche LGBTQ+, identità di genere e fine vita."
 	url="https://www.traidue.com/notizie"
 />
+<StructuredData schema={breadcrumbSchema} />
+<StructuredData schema={collectionSchema} />
 
 <div class="w-full px-4 sm:px-6 lg:px-12">
 	{#if showToast && toastMessage}
@@ -101,13 +129,19 @@
 	<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10 sm:gap-x-8 sm:gap-y-12">
 		{#each data.articles as article}
 			<a href="/notizie/{article.slug}" class="group block">
-				<div class="flex flex-wrap gap-2 mb-2">
-					{#each article.tags as tag}
-						<span class="text-xs px-2.5 py-1 rounded-full border border-border text-muted">
-							{tag}
-						</span>
-					{/each}
-				</div>
+				{#if article.thumb}
+					<div class="aspect-[16/9] overflow-hidden rounded-xl mb-4">
+						<img
+							src={article.thumb}
+							alt={article.title}
+							width="672"
+							height="378"
+							decoding="async"
+							loading="lazy"
+							class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+						/>
+					</div>
+				{/if}
 				<h2 class="text-lg font-heading font-semibold text-primary group-hover:underline underline-offset-4 mb-2">
 					{article.title}
 				</h2>
