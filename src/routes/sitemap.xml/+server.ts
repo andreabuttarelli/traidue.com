@@ -1,9 +1,10 @@
 import { getAllArticles } from '$lib/utils/wiki';
 import { getAllQuizzes } from '$lib/utils/quiz';
+import { supabase } from '$lib/server/supabase';
 import comuni from '$lib/data/comuni.json';
 import regioni from '$lib/data/regioni.json';
 
-export const prerender = true;
+export const prerender = false;
 
 export async function GET() {
 	const articles = getAllArticles();
@@ -12,6 +13,7 @@ export async function GET() {
 	const pages = [
 		{ url: '', priority: '1.0', changefreq: 'weekly' },
 		{ url: '/wiki', priority: '0.9', changefreq: 'weekly' },
+		{ url: '/notizie', priority: '0.8', changefreq: 'daily' },
 		{ url: '/giovani', priority: '0.8', changefreq: 'monthly' },
 		{ url: '/quiz', priority: '0.8', changefreq: 'monthly' },
 		{ url: '/glossario', priority: '0.7', changefreq: 'monthly' },
@@ -46,7 +48,28 @@ export async function GET() {
 		changefreq: 'monthly' as const
 	}));
 
-	const allUrls = [...pages, ...articleUrls, ...quizUrls, ...regioniUrls, ...comuniUrls];
+	// News articles from Supabase
+	const { data: newsArticles } = await supabase
+		.from('news_articles')
+		.select('slug, published_at')
+		.eq('status', 'published')
+		.order('published_at', { ascending: false });
+
+	const newsUrls = (newsArticles ?? []).map((n) => ({
+		url: `/notizie/${n.slug}`,
+		priority: '0.6',
+		changefreq: 'monthly' as const,
+		lastmod: n.published_at?.split('T')[0]
+	}));
+
+	const allUrls = [
+		...pages,
+		...articleUrls,
+		...quizUrls,
+		...newsUrls,
+		...regioniUrls,
+		...comuniUrls
+	];
 
 	const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -55,7 +78,7 @@ ${allUrls
 		(u) => `  <url>
     <loc>https://www.traidue.com${u.url}</loc>
     <priority>${u.priority}</priority>
-    <changefreq>${u.changefreq}</changefreq>${'lastmod' in u ? `\n    <lastmod>${u.lastmod}</lastmod>` : ''}
+    <changefreq>${u.changefreq}</changefreq>${'lastmod' in u && u.lastmod ? `\n    <lastmod>${u.lastmod}</lastmod>` : ''}
   </url>`
 	)
 	.join('\n')}
@@ -63,7 +86,8 @@ ${allUrls
 
 	return new Response(sitemap, {
 		headers: {
-			'Content-Type': 'application/xml; charset=utf-8'
+			'Content-Type': 'application/xml; charset=utf-8',
+			'Cache-Control': 'public, max-age=3600'
 		}
 	});
 }
