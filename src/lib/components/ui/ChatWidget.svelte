@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { tick } from 'svelte';
 
 	interface Message {
 		role: 'user' | 'assistant';
@@ -11,6 +12,8 @@
 	let input = $state('');
 	let loading = $state(false);
 	let messagesContainer = $state<HTMLDivElement>();
+	let inputEl = $state<HTMLInputElement>();
+	let toggleButton = $state<HTMLButtonElement>();
 
 	let currentSlug = $derived(
 		$page.url.pathname.startsWith('/wiki/')
@@ -18,9 +21,74 @@
 			: null
 	);
 
-	function scrollToBottom() {
+	const ALLOWED_TAGS = new Set(['a', 'strong', 'em', 'br', 'details', 'summary']);
+
+	function sanitizeHtml(html: string): string {
+		// Strip all tags except whitelisted ones
+		return html.replace(/<\/?([a-zA-Z][a-zA-Z0-9]*)\b[^>]*>/g, (match, tag) => {
+			const lower = tag.toLowerCase();
+			if (!ALLOWED_TAGS.has(lower)) return '';
+			// For allowed tags, only keep safe attributes
+			if (lower === 'a') {
+				const href = match.match(/href="([^"]*?)"/);
+				const cls = match.match(/class="([^"]*?)"/);
+				if (match.startsWith('</')) return '</a>';
+				const parts = ['<a'];
+				if (href) parts.push(`href="${href[1]}"`);
+				if (cls) parts.push(`class="${cls[1]}"`);
+				return parts.join(' ') + '>';
+			}
+			if (lower === 'details') return match.startsWith('</') ? '</details>' : '<details class="mt-3 text-xs">';
+			if (lower === 'summary') {
+				if (match.startsWith('</')) return '</summary>';
+				return '<summary class="cursor-pointer text-muted hover:text-primary">';
+			}
+			// For simple tags (strong, em, br), return clean open/close
+			return match.startsWith('</') ? `</${lower}>` : `<${lower}>`;
+		});
+	}
+
+	function renderMarkdown(text: string): string {
+		let html = text
+			// Escape any existing HTML first
+			.replace(/&/g, '&amp;')
+			.replace(/</g, '&lt;')
+			.replace(/>/g, '&gt;')
+			// Then apply markdown transformations
+			.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="underline hover:no-underline">$1</a>')
+			.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+			.replace(/\*(.+?)\*/g, '<em>$1</em>')
+			// Restore details/summary (Gemini outputs these literally per system prompt)
+			.replace(/&lt;details&gt;/g, '<details class="mt-3 text-xs">')
+			.replace(/&lt;\/details&gt;/g, '</details>')
+			.replace(/&lt;summary&gt;(.+?)&lt;\/summary&gt;/g, '<summary class="cursor-pointer text-muted hover:text-primary">$1</summary>')
+			.replace(/\n/g, '<br>');
+
+		return sanitizeHtml(html);
+	}
+
+	async function scrollToBottom() {
+		await tick();
 		if (messagesContainer) {
 			messagesContainer.scrollTop = messagesContainer.scrollHeight;
+		}
+	}
+
+	async function openPanel() {
+		open = true;
+		await tick();
+		inputEl?.focus();
+	}
+
+	async function closePanel() {
+		open = false;
+		await tick();
+		toggleButton?.focus();
+	}
+
+	function handlePanelKeydown(e: KeyboardEvent) {
+		if (e.key === 'Escape') {
+			closePanel();
 		}
 	}
 
@@ -60,14 +128,14 @@
 					const { done, value } = await reader.read();
 					if (done) break;
 					messages[assistantIndex].content += decoder.decode(value, { stream: true });
-					scrollToBottom();
+					await scrollToBottom();
 				}
 			}
 		} catch {
 			messages[assistantIndex].content = 'Mi dispiace, si è verificato un errore. Riprova.';
 		} finally {
 			loading = false;
-			scrollToBottom();
+			await scrollToBottom();
 		}
 	}
 
@@ -77,23 +145,14 @@
 			sendMessage();
 		}
 	}
-
-	function renderMarkdown(text: string): string {
-		return text
-			.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="underline hover:no-underline">$1</a>')
-			.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-			.replace(/\*(.+?)\*/g, '<em>$1</em>')
-			.replace(/<details>/g, '<details class="mt-3 text-xs">')
-			.replace(/<summary>(.+?)<\/summary>/g, '<summary class="cursor-pointer text-muted hover:text-primary">$1</summary>')
-			.replace(/\n/g, '<br>');
-	}
 </script>
 
 <!-- Floating button -->
 {#if !open}
 	<button
-		onclick={() => (open = true)}
-		class="fixed bottom-6 right-6 z-50 w-12 h-12 rounded-full bg-primary text-bg flex items-center justify-center shadow-lg hover:opacity-80 transition-opacity"
+		bind:this={toggleButton}
+		onclick={openPanel}
+		class="fixed bottom-20 right-6 z-40 w-12 h-12 rounded-full bg-primary text-bg flex items-center justify-center shadow-lg hover:opacity-80 transition-opacity"
 		aria-label="Apri chat"
 	>
 		<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
@@ -102,12 +161,18 @@
 
 <!-- Chat panel -->
 {#if open}
-	<div class="fixed bottom-0 right-0 sm:bottom-6 sm:right-6 z-50 w-full h-full sm:w-[380px] sm:h-[500px] bg-bg border border-border sm:rounded-xl shadow-xl flex flex-col">
+	<div
+		role="dialog"
+		aria-label="Chat assistente wiki"
+		tabindex="-1"
+		onkeydown={handlePanelKeydown}
+		class="fixed bottom-0 right-0 sm:bottom-6 sm:right-6 z-50 w-full h-full sm:w-[380px] sm:h-[500px] sm:max-w-[calc(100vw-3rem)] bg-bg border border-border sm:rounded-xl shadow-xl flex flex-col"
+	>
 		<!-- Header -->
 		<div class="flex items-center justify-between px-4 py-3 border-b border-border sm:rounded-t-xl">
 			<h2 class="text-sm font-semibold tracking-tight">Chiedi al Wiki</h2>
 			<button
-				onclick={() => (open = false)}
+				onclick={closePanel}
 				class="p-1 text-muted hover:text-primary transition-colors"
 				aria-label="Chiudi chat"
 			>
@@ -144,9 +209,10 @@
 		</div>
 
 		<!-- Input -->
-		<div class="border-t border-border px-4 py-3">
+		<div class="border-t border-border px-4 py-3 pb-[calc(0.75rem+env(safe-area-inset-bottom,0px))]">
 			<div class="flex gap-2">
 				<input
+					bind:this={inputEl}
 					type="text"
 					bind:value={input}
 					onkeydown={handleKeydown}
