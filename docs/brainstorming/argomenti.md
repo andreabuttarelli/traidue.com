@@ -28,6 +28,10 @@ Pillar: `transizione-medica-cosa-cambia` (pubblicato)
 - [x] La terapia ormonale è per sempre? (`terapia-ormonale-a-vita`)
 - [x] La transizione medica è sicura? (`sicurezza-transizione`)
 - [x] Cos'è la transizione sociale? (`transizione-sociale`)
+- [x] Guida completa alla terapia ormonale (`terapia-ormonale-guida`)
+- [x] Terapia psicologica per persone trans (`terapia-psicologica-trans`)
+- [x] Chirurgia di affermazione di genere MTF: guida completa (`chirurgia-mtf`)
+- [x] Chirurgia di affermazione di genere FTM: guida completa (`chirurgia-ftm`)
 
 ## Cluster 4: Lavoro e Società
 Pillar: `persone-trans-e-lavoro` (pubblicato)
@@ -61,6 +65,7 @@ Pillar: `femminismo-e-donne-trans` (pubblicato)
 - [x] Il femminismo include le donne trans? (`femminismo-e-donne-trans`) **PILLAR**
 - [x] Si può essere donna trans e lesbica? (`donna-trans-lesbica`)
 - [x] Si può essere uomo trans e gay? (`uomo-trans-gay`)
+- [x] Intersezionalità e persone trans (`intersezionalita-e-persone-trans`)
 
 ## Cluster 8: Storia e Memoria
 Pillar: `storia-movimento-trans` (pubblicato)
@@ -102,7 +107,7 @@ Pillar: `identita-di-genere` (pubblicato)
 
 ---
 
-**Totale: 92 articoli — 92 pubblicati, 0 da scrivere** (di cui 10 biografie nella sezione `persone`)
+**Totale: 98 articoli — 98 pubblicati, 0 da scrivere** (di cui 10 biografie nella sezione `persone`)
 
 ## Extra: Nuovi Argomenti (pubblicati)
 
@@ -118,5 +123,6 @@ Pillar: `identita-di-genere` (pubblicato)
 - [x] Costituzione e diritti trans (`costituzione-diritti-trans`)
 - [x] DDL Disforia, cosa fa (`ddl-disforia`)
 - [x] Prospettiva di un bambino trans, cosa prova, come aiutarlo (`bambini-trans`)
+- [x] Tecnologia e persone trans: come la tecnologia aiuta (`tecnologia-e-persone-trans`)
 
 - Trans e forze armate
