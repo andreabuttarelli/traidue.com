@@ -65,6 +65,8 @@
 		if (!proseEl) return;
 		// Skip if already annotated
 		if (proseEl.querySelector('.glossary-term')) return;
+		// Wait for mdsvex content to render
+		if (!proseEl.textContent?.trim()) return;
 
 		const annotated = new Set<string>();
 
