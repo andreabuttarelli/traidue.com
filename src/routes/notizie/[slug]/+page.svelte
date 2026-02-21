@@ -18,6 +18,12 @@
 	title={article.title}
 	description={article.summary}
 	url="https://www.traidue.com/notizie/{article.slug}"
+	type="article"
+	article={{
+		publishedTime: article.published_at,
+		section: 'Notizie',
+		tags: article.tags
+	}}
 />
 
 <article class="w-full px-4 sm:px-6 lg:px-12">

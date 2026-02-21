@@ -16,6 +16,23 @@
 					: null
 	);
 
+	let showToast = $state(false);
+
+	$effect(() => {
+		if (toastMessage) {
+			showToast = true;
+			const timer = setTimeout(() => {
+				showToast = false;
+				// Clean action from URL
+				const url = new URL($page.url);
+				url.searchParams.delete('action');
+				url.searchParams.delete('slug');
+				goto(url.toString(), { replaceState: true });
+			}, 4000);
+			return () => clearTimeout(timer);
+		}
+	});
+
 	function formatDate(dateStr: string) {
 		return new Date(dateStr).toLocaleDateString('it-IT', {
 			day: 'numeric',
@@ -43,8 +60,8 @@
 />
 
 <div class="w-full px-4 sm:px-6 lg:px-12">
-	{#if toastMessage}
-		<div class="fixed top-20 left-1/2 -translate-x-1/2 z-50 bg-primary text-bg px-6 py-3 rounded-lg shadow-lg text-sm font-medium">
+	{#if showToast && toastMessage}
+		<div class="fixed top-20 left-1/2 -translate-x-1/2 z-50 bg-primary text-bg px-6 py-3 rounded-lg shadow-lg text-sm font-medium animate-fade-in">
 			{toastMessage}
 		</div>
 	{/if}
