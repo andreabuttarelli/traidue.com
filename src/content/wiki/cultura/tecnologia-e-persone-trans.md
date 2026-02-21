@@ -89,13 +89,9 @@ Le community online abbattono tre barriere contemporaneamente: la distanza geogr
 
 ### Le piattaforme principali
 
-**Reddit** ospita alcune delle community trans più attive e strutturate al mondo. Subreddit come r/transgender, r/ftm, r/MtF, r/NonBinary e r/asktransgender contano milioni di iscritti complessivi e offrono spazi dove porre domande, condividere esperienze, chiedere consigli su percorsi medici e legali. La struttura di Reddit -- pseudonima, organizzata per argomenti, con sistemi di moderazione comunitaria -- la rende particolarmente adatta a discussioni su temi sensibili.
+**Reddit** ospita alcune delle community trans più attive e strutturate al mondo. Subreddit come r/transgender, r/ftm, r/MtF, r/NonBinary e r/asktransgender contano milioni di iscritti complessivi. La struttura pseudonima e organizzata per argomenti la rende particolarmente adatta a discussioni su temi sensibili. **Discord** ha assunto un ruolo crescente come spazio di aggregazione in tempo reale, con server dedicati che offrono canali vocali, chat tematiche e spazi di socializzazione che replicano le dinamiche dei gruppi di supporto in presenza. **TikTok, YouTube e Instagram** hanno democratizzato la visibilità trans: content creator condividono apertamente le proprie esperienze di transizione, creando un archivio visivo e narrativo impensabile anche solo dieci anni fa.
 
-**Discord** ha assunto un ruolo crescente come spazio di aggregazione in tempo reale. I server Discord dedicati alle persone trans offrono canali vocali, chat testuali tematiche e spazi di socializzazione che replicano -- e a volte superano -- le dinamiche dei gruppi di supporto in presenza. Per le persone che non hanno accesso a gruppi fisici, un server Discord può essere il primo luogo dove sentirsi chiamate con il nome scelto e i pronomi corretti.
-
-**TikTok, YouTube e Instagram** hanno democratizzato la visibilità trans. Creator come Samantha Lux, Jammidodger, Jamie Raines e molti altri condividono apertamente le proprie esperienze di transizione, creando un archivio visivo e narrativo che sarebbe stato impensabile anche solo dieci anni fa. Per chi sta esplorando la propria identità di genere, vedere qualcuno che racconta un percorso simile -- con i suoi tempi, le sue difficoltà, i suoi risultati -- può essere il primo momento di riconoscimento.
-
-In Italia, i gruppi Facebook e le pagine Instagram delle associazioni come il MIT, Arcigay e AGEDO rappresentano punti di riferimento digitali importanti, così come i canali Telegram e i gruppi WhatsApp locali gestiti da attiviste e attivisti sul territorio.
+In Italia, i gruppi Facebook e le pagine Instagram delle associazioni come il MIT, Arcigay e AGEDO rappresentano punti di riferimento digitali importanti, insieme ai canali Telegram e ai gruppi WhatsApp locali gestiti da attiviste e attivisti sul territorio.
 
 ### I limiti degli spazi online
 
@@ -115,11 +111,9 @@ Una revisione sistematica e meta-analisi pubblicata su JMIR nel 2024 ha conferma
 
 ### Come funziona nella pratica
 
-La telemedicina per le cure affermative di genere comprende diversi servizi: consulti psicologici e psicoterapeutici in videochiamata, prescrizioni di terapia ormonale dopo valutazione a distanza, monitoraggio dei livelli ormonali con esami del sangue locali e discussione dei risultati da remoto, follow-up post-chirurgici.
+La telemedicina per le cure affermative di genere comprende consulti psicologici in videochiamata, prescrizioni di terapia ormonale dopo valutazione a distanza, monitoraggio dei livelli ormonali con esami del sangue locali e follow-up post-chirurgici. Piattaforme internazionali come QueerDoc e FOLX Health offrono consulti specificamente progettati per persone trans. In Italia, la pandemia di COVID-19 ha accelerato l'adozione: molti centri di identità di genere hanno mantenuto la possibilità di effettuare colloqui psicologici e follow-up endocrinologici da remoto anche dopo la fine dell'emergenza sanitaria.
 
-Piattaforme internazionali come QueerDoc e FOLX Health offrono consulti in telemedicina specificamente progettati per persone trans, con professionisti formati sulle cure affermative. In Italia, la telemedicina si sta diffondendo più lentamente nei percorsi di affermazione di genere, ma la pandemia di COVID-19 ha accelerato l'adozione: molti centri di identità di genere hanno mantenuto la possibilità di effettuare colloqui psicologici e follow-up endocrinologici da remoto anche dopo la fine dell'emergenza sanitaria.
-
-Per chi vive in regioni con pochi servizi specializzati, la telemedicina può rappresentare la differenza tra accedere alle cure e non accedervi affatto. Una persona trans in Sardegna che dovrebbe altrimenti affrontare un viaggio di andata e ritorno per ogni visita a Careggi o al San Camillo-Forlanini può ora effettuare parte del percorso da casa propria.
+Per chi vive in regioni con pochi servizi specializzati, la telemedicina può rappresentare la differenza tra accedere alle cure e non accedervi affatto.
 
 ### I limiti della telemedicina
 
@@ -159,15 +153,7 @@ La **sorveglianza digitale** è un altro fronte di preoccupazione. Come analizza
 
 Esistono strumenti concreti per migliorare la sicurezza digitale.
 
-**VPN (Virtual Private Network)**: crittografano il traffico internet e nascondono la posizione geografica. Per le persone trans in paesi con legislazioni ostili o per chi vuole separare la propria identità online dal resto della propria vita digitale, una VPN è uno strumento di base.
-
-**Browser e motori di ricerca orientati alla privacy**: Tor Browser, Firefox con configurazione avanzata, DuckDuckGo come motore di ricerca. Riducono il tracciamento e la profilazione basata sulla navigazione.
-
-**Gestori di password e autenticazione a due fattori**: proteggono gli account da accessi non autorizzati, riducendo il rischio di doxxing tramite violazione degli account.
-
-**Alias e identità digitali separate**: utilizzare nomi utente e indirizzi email diversi per gli account legati alla propria identità trans rispetto a quelli legati alla vita quotidiana è una strategia di compartimentazione che molte persone trans adottano, soprattutto nelle fasi iniziali del percorso.
-
-**Attenzione ai metadati**: le foto scattate con lo smartphone contengono metadati (data, ora, posizione GPS) che possono rivelare informazioni sensibili. Strumenti come ExifTool o le funzioni integrate nei sistemi operativi permettono di rimuovere i metadati prima di condividere immagini online.
+**VPN (Virtual Private Network)**: crittografano il traffico internet e nascondono la posizione geografica. Per le persone trans in paesi con legislazioni ostili, una VPN è uno strumento di base. **Browser orientati alla privacy** come Tor Browser e motori di ricerca come DuckDuckGo riducono il tracciamento. **Gestori di password e autenticazione a due fattori** proteggono gli account da accessi non autorizzati. **Alias e identità digitali separate** -- nomi utente e email diversi per gli account legati alla propria identità trans -- sono una strategia di compartimentazione comune, soprattutto nelle fasi iniziali del percorso. **Attenzione ai metadati**: le foto contengono dati di geolocalizzazione che possono rivelare informazioni sensibili; strumenti come ExifTool permettono di rimuoverli.
 
 Organizzazioni come Access Now offrono risorse specifiche sulla sicurezza digitale per le persone LGBTQ+, incluse guide pratiche e helpline dedicate.
 
