@@ -464,7 +464,7 @@ for (const draft of drafts) {
 
 		console.log(`  Generating image for: "${draft.title.slice(0, 60)}"`);
 		const tagHint = matchingArticle.tags.slice(0, 3).join(', ');
-		const prompt = `Abstract artistic illustration for a news editorial about: "${draft.title}". Themes: ${tagHint}. Style: abstract painting, bold brushstrokes, muted earth tones with accent colors, no text, no faces, no photographs, editorial art style.`;
+		const prompt = `Full-bleed abstract watercolor painting inspired by the concept: "${draft.title}". Themes: ${tagHint}. STYLE: vibrant colorful watercolor on canvas, visible bold brushstrokes, splashes and drips of saturated colors, entirely abstract shapes and forms, full-screen composition edge to edge with no margins or borders. MUST NOT include: any text, words, letters, labels, descriptions, captions, borders, frames, empty space, realistic faces or photographs. The entire canvas must be filled with expressive abstract watercolor art.`;
 
 		let imageBuffer: Buffer | null = null;
 		for (let attempt = 1; attempt <= 3; attempt++) {

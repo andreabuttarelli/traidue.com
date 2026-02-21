@@ -64,7 +64,7 @@ const RETRY_DELAY_MS = 2000;
 
 async function generateImage(title: string, tags: string[]): Promise<Buffer | null> {
 	const tagHint = tags.slice(0, 3).join(', ');
-	const prompt = `Abstract artistic illustration for a news editorial about: "${title}". Themes: ${tagHint}. Style: abstract painting, bold brushstrokes, muted earth tones with accent colors, no text, no faces, no photographs, editorial art style.`;
+	const prompt = `Abstract impasto oil painting on dark canvas inspired by: "${title}". Themes: ${tagHint}. STYLE: thick palette knife strokes, heavy paint texture, dark moody background with vivid color splashes and gold/orange accents scattered across, abstract forms that vaguely evoke the theme without being literal, paint drips and splatters, full canvas coverage edge to edge. MUST NOT include: any text, words, letters, labels, captions, borders, frames, empty space, realistic human faces or photographs.`;
 
 	for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
 		try {

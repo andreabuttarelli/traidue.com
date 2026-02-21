@@ -4,7 +4,7 @@ import type { RSSItem } from './rss';
 import { supabase } from './supabase';
 
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
-const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+const model = genAI.getGenerativeModel({ model: 'gemini-3.1-pro-preview' });
 
 export interface GeneratedArticle {
 	title: string;
