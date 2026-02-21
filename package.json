@@ -24,7 +24,9 @@
 		"vite": "^7.2.2"
 	},
 	"dependencies": {
+		"@google/generative-ai": "^0.24.1",
 		"@resvg/resvg-js": "^2.6.2",
+		"firebase": "^12.9.0",
 		"satori": "^0.19.2"
 	}
 }
