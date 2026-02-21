@@ -3,7 +3,8 @@ import { supabase } from '$lib/server/supabase';
 export const prerender = false;
 
 export async function load({ url }) {
-	const page = Number(url.searchParams.get('page') ?? '1');
+	const rawPage = Number(url.searchParams.get('page') ?? '1');
+	const page = Number.isInteger(rawPage) && rawPage >= 1 ? rawPage : 1;
 	const tag = url.searchParams.get('tag');
 	const perPage = 10;
 	const offset = (page - 1) * perPage;

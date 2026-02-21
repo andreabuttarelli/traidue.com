@@ -27,5 +27,5 @@ export const GET: RequestHandler = async ({ params }) => {
 		redirect(303, '/notizie?action=invalid');
 	}
 
-	redirect(303, `/notizie?action=approved&slug=${data.slug}`);
+	redirect(303, `/notizie?action=approved&slug=${encodeURIComponent(data.slug)}`);
 };
