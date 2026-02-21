@@ -34,4 +34,5 @@ INSERT INTO news_sources (name, feed_url) VALUES
   ('Google News IT - Trans', 'https://news.google.com/rss/search?q=transgender+OR+transessuale+OR+%22identit%C3%A0+di+genere%22+OR+%22disforia+di+genere%22&hl=it&gl=IT&ceid=IT:it'),
   ('Google News IT - Diritti', 'https://news.google.com/rss/search?q=%22diritti+civili%22+OR+%22unioni+civili%22+OR+LGBTQ+OR+%22legge+Zan%22&hl=it&gl=IT&ceid=IT:it'),
   ('Google News IT - Vita', 'https://news.google.com/rss/search?q=aborto+OR+eutanasia+OR+%22fine+vita%22+OR+%22testamento+biologico%22&hl=it&gl=IT&ceid=IT:it'),
-  ('Google News EN - Global', 'https://news.google.com/rss/search?q=transgender+rights+OR+%22gender+identity%22+OR+%22LGBTQ+rights%22&hl=en&gl=US&ceid=US:en');
+  ('Google News EN - Global', 'https://news.google.com/rss/search?q=transgender+rights+OR+%22gender+identity%22+OR+%22LGBTQ+rights%22&hl=en&gl=US&ceid=US:en'),
+  ('Erin In The Morning', 'https://www.erininthemorning.com/feed');

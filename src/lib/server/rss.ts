@@ -37,7 +37,13 @@ export async function fetchAllFeeds(): Promise<RSSItem[]> {
 		}
 	}
 
-	return allItems;
+	// Keep only items from the last 48 hours
+	const cutoff = Date.now() - 48 * 60 * 60 * 1000;
+	return allItems.filter((item) => {
+		if (!item.pubDate) return true; // no date = keep (let Gemini decide)
+		const parsed = new Date(item.pubDate).getTime();
+		return !isNaN(parsed) && parsed >= cutoff;
+	});
 }
 
 function parseRSS(xml: string, sourceName: string): RSSItem[] {
