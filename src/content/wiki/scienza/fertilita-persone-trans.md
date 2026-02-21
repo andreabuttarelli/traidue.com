@@ -61,51 +61,51 @@ related:
   - sessualita-persone-trans
 ---
 
-La possibilità di avere figli è una preoccupazione concreta per molte persone trans. La paura di perdere per sempre questa opzione rappresenta uno dei fattori che più influenzano le decisioni riguardo al percorso di affermazione di genere. Un sondaggio condotto in Belgio ha rilevato che oltre il 54% degli uomini trans desiderava avere figli anche dopo aver completato la transizione (Wierckx et al., 2012). La realtà è che esistono diverse strade per la genitorialità, e la scienza offre oggi opzioni che vale la pena conoscere prima di prendere qualsiasi decisione.
+La possibilità di avere figli è una preoccupazione concreta per molte persone trans. La paura di perdere per sempre questa opzione rappresenta uno dei fattori che più influenzano le decisioni riguardo al percorso di affermazione di genere. Un sondaggio condotto in Belgio ha rilevato che oltre il 54% degli uomini trans desiderava avere figli anche dopo aver completato la transizione [4]. La realtà è che esistono diverse strade per la genitorialità, e la scienza offre oggi opzioni che vale la pena conoscere prima di prendere qualsiasi decisione.
 
 Questo articolo esamina gli effetti della [terapia ormonale](/wiki/transizione-medica-cosa-cambia) sulla fertilità, le opzioni di preservazione disponibili, la situazione legale in Italia e gli aspetti psicologici legati a queste scelte.
 
 ## Effetti della terapia ormonale sulla fertilità
 
-La terapia ormonale di affermazione di genere (GAHT) ha un impatto significativo sulla capacità riproduttiva. Tuttavia, questo impatto non è sempre totale né sempre permanente. Gli effetti variano in base al tipo di ormoni assunti, alla durata del trattamento e alle caratteristiche individuali.
+La terapia ormonale di affermazione di genere (GAHT) ha un impatto significativo sulla capacità riproduttiva. Tuttavia, questo impatto non è sempre totale né sempre permanente [10]. Gli effetti variano in base al tipo di ormoni assunti, alla durata del trattamento e alle caratteristiche individuali.
 
 ### Estrogeni e anti-androgeni (donne trans)
 
-Nelle donne trans, la terapia con estrogeni e anti-androgeni sopprime l'asse ipotalamo-ipofisi-gonadi, riducendo drasticamente i livelli di testosterone e inibendo la spermatogenesi. Nella maggior parte dei casi, si osserva una condizione di azoospermia (assenza di spermatozoi nel liquido seminale) entro 3-6 mesi dall'inizio della terapia (Adeleye et al., 2021).
+Nelle donne trans, la terapia con estrogeni e anti-androgeni sopprime l'asse ipotalamo-ipofisi-gonadi, riducendo drasticamente i livelli di testosterone e inibendo la spermatogenesi. Nella maggior parte dei casi, si osserva una condizione di azoospermia (assenza di spermatozoi nel liquido seminale) entro 3-6 mesi dall'inizio della terapia [7].
 
-Uno studio istologico condotto su tessuto testicolare prelevato durante orchiectomia ha evidenziato che la spermatogenesi era presente solo nel 28,2% dei campioni esaminati, con spermatogenesi attiva in appena l'8,2% dei casi (Adeleye et al., 2021). Si tratta di dati che confermano un impatto importante, ma che mostrano anche come una certa attività residua possa persistere in alcune persone.
+Uno studio istologico condotto su tessuto testicolare prelevato durante orchiectomia ha evidenziato che la spermatogenesi era presente solo nel 28,2% dei campioni esaminati, con spermatogenesi attiva in appena l'8,2% dei casi [7]. Si tratta di dati che confermano un impatto importante, ma che mostrano anche come una certa attività residua possa persistere in alcune persone.
 
-La buona notizia è che la ricerca recente suggerisce una possibilità di recupero. Uno studio pubblicato nel 2023 su Cell Reports Medicine ha documentato il ripristino della spermatogenesi in nove donne trans che avevano sospeso la terapia ormonale per motivi riproduttivi. Spermatozoi vitali sono stati identificati già dopo 3 mesi dalla sospensione, e quattro delle partecipanti hanno concepito naturalmente con le proprie partner (Adeleye et al., 2023). Questo studio, pur avendo un campione ridotto, indica che la soppressione della spermatogenesi indotta dalla GAHT può essere transitoria in alcuni casi.
+La buona notizia è che la ricerca recente suggerisce una possibilità di recupero. Uno studio pubblicato nel 2023 su Cell Reports Medicine ha documentato il ripristino della spermatogenesi in nove donne trans che avevano sospeso la terapia ormonale per motivi riproduttivi. Spermatozoi vitali sono stati identificati già dopo 3 mesi dalla sospensione, e quattro delle partecipanti hanno concepito naturalmente con le proprie partner [3]. Questo studio, pur avendo un campione ridotto, indica che la soppressione della spermatogenesi indotta dalla GAHT può essere transitoria in alcuni casi.
 
-Tuttavia, il recupero non è garantito. La durata della terapia sembra essere un fattore determinante: una sospensione entro i primi 6 mesi di trattamento tende a permettere un recupero più rapido, mentre trattamenti prolungati oltre i 2-3 anni possono ridurre significativamente le probabilità di ripristino completo.
+Tuttavia, il recupero non è garantito. La durata della terapia sembra essere un fattore determinante: una sospensione entro i primi 6 mesi di trattamento tende a permettere un recupero più rapido, mentre trattamenti prolungati oltre i 2-3 anni possono ridurre significativamente le probabilità di ripristino completo [10].
 
 ### Testosterone (uomini trans)
 
-Negli uomini trans, il testosterone esogeno interrompe l'ovulazione e può causare atrofia endometriale. Tuttavia, le evidenze scientifiche mostrano che l'impatto sulla riserva ovarica potrebbe essere meno drastico di quanto si pensasse in passato.
+Negli uomini trans, il testosterone esogeno interrompe l'ovulazione e può causare atrofia endometriale. Tuttavia, le evidenze scientifiche mostrano che l'impatto sulla riserva ovarica potrebbe essere meno drastico di quanto si pensasse in passato [6].
 
-Uno studio presentato nel 2019 ha dimostrato che dopo un anno di terapia con testosterone, i livelli di ormone anti-mülleriano (AMH), un indicatore della riserva ovarica, rimanevano entro valori normali per la fertilità. Questo suggerisce che la funzionalità ovarica viene conservata a un livello che potrebbe ancora permettere la riproduzione (Pirtea et al., 2020).
+Uno studio presentato nel 2019 ha dimostrato che dopo un anno di terapia con testosterone, i livelli di ormone anti-mülleriano (AMH), un indicatore della riserva ovarica, rimanevano entro valori normali per la fertilità [6]. Questo suggerisce che la funzionalità ovarica viene conservata a un livello che potrebbe ancora permettere la riproduzione.
 
-La ricerca su modelli animali ha confermato che la soppressione del ciclo indotta dal testosterone è reversibile dopo la sospensione della terapia, anche se la reversibilità dipende dalla durata del trattamento. Periodi brevi di terapia mostrano un recupero più completo rispetto a trattamenti prolungati (Pirtea et al., 2020).
+La ricerca su modelli animali ha confermato che la soppressione del ciclo indotta dal testosterone è reversibile dopo la sospensione della terapia, anche se la reversibilità dipende dalla durata del trattamento [6]. Periodi brevi di terapia mostrano un recupero più completo rispetto a trattamenti prolungati.
 
-Le linee guida dell'Endocrine Society (2017) e gli Standard of Care WPATH versione 8 (2022) raccomandano di informare chiaramente le persone transgender sugli effetti noti e su quelli ancora poco studiati della terapia ormonale sulla fertilità, sottolineando che la reversibilità non può essere data per certa.
+Le linee guida dell'Endocrine Society (2017) e gli Standard of Care WPATH versione 8 (2022) raccomandano di informare chiaramente le persone transgender sugli effetti noti e su quelli ancora poco studiati della terapia ormonale sulla fertilità, sottolineando che la reversibilità non può essere data per certa [9][1].
 
 ## Preservazione della fertilità prima della terapia ormonale
 
-Il momento ideale per preservare la fertilità è prima dell'inizio di qualsiasi terapia ormonale o intervento chirurgico. Le linee guida internazionali, tra cui quelle della WPATH (2022), dell'Endocrine Society (2017) e dell'ASRM (2021), raccomandano unanimemente che la consulenza sulla preservazione della fertilità venga offerta a ogni persona transgender come parte integrante del percorso di cura.
+Il momento ideale per preservare la fertilità è prima dell'inizio di qualsiasi terapia ormonale o intervento chirurgico. Le linee guida internazionali, tra cui quelle della WPATH (2022), dell'Endocrine Society (2017) e dell'ASRM (2021), raccomandano unanimemente che la consulenza sulla preservazione della fertilità venga offerta a ogni persona transgender come parte integrante del percorso di cura [1][9][5].
 
 ### Opzioni per le donne trans
 
-La crioconservazione del liquido seminale è la tecnica più consolidata e accessibile. Il processo prevede la raccolta di uno o più campioni di sperma tramite masturbazione, che vengono poi congelati e conservati in azoto liquido a tempo indeterminato.
+La crioconservazione del liquido seminale è la tecnica più consolidata e accessibile [10]. Il processo prevede la raccolta di uno o più campioni di sperma tramite masturbazione, che vengono poi congelati e conservati in azoto liquido a tempo indeterminato.
 
-In alternativa, quando la raccolta tramite masturbazione non è possibile o non produce campioni adeguati, si può ricorrere a tecniche più invasive come l'aspirazione con ago dal testicolo o l'estrazione chirurgica di spermatozoi (TESE). È disponibile anche la crioconservazione di tessuto testicolare, una tecnica ancora considerata sperimentale ma promettente per le persone più giovani che non hanno ancora raggiunto la pubertà.
+In alternativa, quando la raccolta tramite masturbazione non è possibile o non produce campioni adeguati, si può ricorrere a tecniche più invasive come l'aspirazione con ago dal testicolo o l'estrazione chirurgica di spermatozoi (TESE). È disponibile anche la crioconservazione di tessuto testicolare, una tecnica ancora considerata sperimentale ma promettente per le persone più giovani che non hanno ancora raggiunto la pubertà [10].
 
 ### Opzioni per gli uomini trans
 
-La crioconservazione di ovociti richiede un ciclo di stimolazione ovarica della durata di circa 10-14 giorni, con iniezioni giornaliere di gonadotropine e monitoraggio ecografico, seguito dal prelievo ovocitario in sedazione. Gli ovociti maturi vengono poi crioconservati con la tecnica della vitrificazione.
+La crioconservazione di ovociti richiede un ciclo di stimolazione ovarica della durata di circa 10-14 giorni, con iniezioni giornaliere di gonadotropine e monitoraggio ecografico, seguito dal prelievo ovocitario in sedazione. Gli ovociti maturi vengono poi crioconservati con la tecnica della vitrificazione [10].
 
 La crioconservazione embrionaria segue lo stesso processo, ma prevede la fecondazione degli ovociti prima del congelamento. Questa opzione richiede la disponibilità di spermatozoi (da un partner o da un donatore) e offre tassi di sopravvivenza allo scongelamento leggermente superiori.
 
-La crioconservazione di tessuto ovarico è una tecnica che consiste nel prelevare e congelare frammenti di corteccia ovarica. È considerata un'opzione importante soprattutto per adolescenti in fase prepuberale. L'ASRM ha rimosso l'etichetta di tecnica sperimentale dalla crioconservazione di tessuto ovarico nel 2019.
+La crioconservazione di tessuto ovarico è una tecnica che consiste nel prelevare e congelare frammenti di corteccia ovarica. È considerata un'opzione importante soprattutto per adolescenti in fase prepuberale [5]. L'ASRM ha rimosso l'etichetta di tecnica sperimentale dalla crioconservazione di tessuto ovarico nel 2019.
 
 ## Preservazione della fertilità durante o dopo la terapia ormonale
 
@@ -113,33 +113,33 @@ Non tutte le persone decidono di preservare la fertilità prima di iniziare la t
 
 ### Sospensione della terapia ormonale
 
-La sospensione temporanea della GAHT rappresenta l'opzione più studiata. Come già illustrato, la spermatogenesi può riprendere nelle donne trans dopo la sospensione degli estrogeni, e l'ovulazione può tornare negli uomini trans dopo la sospensione del testosterone. Il tempo necessario per il recupero varia da persona a persona: da pochi mesi a oltre un anno.
+La sospensione temporanea della GAHT rappresenta l'opzione più studiata. Come già illustrato, la spermatogenesi può riprendere nelle donne trans dopo la sospensione degli estrogeni [3], e l'ovulazione può tornare negli uomini trans dopo la sospensione del testosterone [6]. Il tempo necessario per il recupero varia da persona a persona: da pochi mesi a oltre un anno.
 
 Questa opzione richiede un'attenta valutazione con il proprio endocrinologo, perché la sospensione della terapia ormonale può avere conseguenze significative sul benessere psicologico e fisico. Non tutti sono disposti ad affrontare questo passaggio, e la decisione va rispettata.
 
 ### Prelievo di gameti durante la terapia
 
-Uno studio ha dimostrato che è possibile ottenere ovociti maturi da uomini trans anche durante la terapia con testosterone, senza necessità di sospensione preventiva. La qualità degli ovociti in termini di tassi di fecondazione e sviluppo embrionale preimpianto si è dimostrata comparabile a quella delle donne cisgender (Adeleye et al., 2022). Tuttavia, questa rimane un'area di ricerca attiva, e la pratica standard prevede ancora la sospensione del testosterone prima della stimolazione ovarica.
+Uno studio ha dimostrato che è possibile ottenere ovociti maturi da uomini trans anche durante la terapia con testosterone, senza necessità di sospensione preventiva. La qualità degli ovociti in termini di tassi di fecondazione e sviluppo embrionale preimpianto si è dimostrata comparabile a quella delle donne cisgender [10]. Tuttavia, questa rimane un'area di ricerca attiva, e la pratica standard prevede ancora la sospensione del testosterone prima della stimolazione ovarica [9].
 
 ## Uomini trans e gravidanza
 
-La gravidanza negli uomini trans è un tema che riceve crescente attenzione nella letteratura scientifica. Lo studio pionieristico di Light et al. (2014) ha documentato le esperienze di 41 uomini trans che avevano portato avanti una gravidanza dopo aver iniziato il percorso di transizione.
+La gravidanza negli uomini trans è un tema che riceve crescente attenzione nella letteratura scientifica. Lo studio pionieristico di Light et al. (2014) ha documentato le esperienze di 41 uomini trans che avevano portato avanti una gravidanza dopo aver iniziato il percorso di transizione [2].
 
 ### Cosa ha rivelato la ricerca
 
-Tra i partecipanti allo studio, il 61% (25 persone) aveva utilizzato testosterone prima della gravidanza. L'età media al momento del concepimento era di 28 anni. L'88% ha concepito con i propri ovociti. Il 44% ha partorito con l'assistenza di ostetriche, e il 78% ha partorito in ospedale (Light et al., 2014).
+Tra i partecipanti allo studio, il 61% (25 persone) aveva utilizzato testosterone prima della gravidanza. L'età media al momento del concepimento era di 28 anni. L'88% ha concepito con i propri ovociti. Il 44% ha partorito con l'assistenza di ostetriche, e il 78% ha partorito in ospedale [2].
 
-Questi dati dimostrano che la gravidanza è possibile anche dopo un periodo di terapia con testosterone, a condizione che l'utero e le ovaie siano ancora presenti e che il testosterone venga sospeso durante la gestazione. Il testosterone è infatti teratogeno e deve essere interrotto prima del concepimento.
+Questi dati dimostrano che la gravidanza è possibile anche dopo un periodo di terapia con testosterone, a condizione che l'utero e le ovaie siano ancora presenti e che il testosterone venga sospeso durante la gestazione. Il testosterone è infatti teratogeno e deve essere interrotto prima del concepimento [9].
 
 ### Aspetti pratici e medici
 
-La gravidanza in un uomo trans richiede un accompagnamento medico attento e competente. Purtroppo, lo studio di Light et al. ha evidenziato bassi livelli di conoscenza e consapevolezza da parte degli operatori sanitari riguardo alle esigenze specifiche degli uomini trans in gravidanza.
+La gravidanza in un uomo trans richiede un accompagnamento medico attento e competente. Purtroppo, lo studio di Light et al. ha evidenziato bassi livelli di conoscenza e consapevolezza da parte degli operatori sanitari riguardo alle esigenze specifiche degli uomini trans in gravidanza [2].
 
 La sospensione del testosterone può provocare il ritorno delle mestruazioni, cambiamenti nella distribuzione del grasso corporeo e altri effetti che possono essere fonte di disagio significativo. Un supporto psicologico adeguato durante tutto il percorso è fondamentale.
 
 ### Un tema in evoluzione
 
-Negli ultimi anni, la visibilità della gravidanza maschile trans è aumentata nella comunità medica e nella società. Diverse strutture sanitarie stanno sviluppando protocolli specifici per seguire uomini trans e persone non binarie durante la gravidanza, anche se il percorso resta spesso complicato dalla mancanza di formazione specifica del personale medico.
+Negli ultimi anni, la visibilità della gravidanza maschile trans è aumentata nella comunità medica e nella società. Diverse strutture sanitarie stanno sviluppando protocolli specifici per seguire uomini trans e persone non binarie durante la gravidanza, anche se il percorso resta spesso complicato dalla mancanza di formazione specifica del personale medico [1].
 
 ## La situazione legale in Italia
 
@@ -153,9 +153,9 @@ Una persona trans che ha completato la rettifica anagrafica e che si trova in un
 
 ### La sentenza 155/2025 della Corte Costituzionale
 
-Un importante sviluppo giuridico è rappresentato dalla sentenza n. 155/2025 della Corte Costituzionale. Il caso riguardava una persona che nel 2014 aveva avviato il percorso di rettifica del genere da maschile a femminile e che nel 2018 aveva avuto una figlia tramite PMA utilizzando i propri gameti maschili, crioconservati prima della transizione.
+Un importante sviluppo giuridico è rappresentato dalla sentenza n. 155/2025 della Corte Costituzionale [12]. Il caso riguardava una persona che nel 2014 aveva avviato il percorso di rettifica del genere da maschile a femminile e che nel 2018 aveva avuto una figlia tramite PMA utilizzando i propri gameti maschili, crioconservati prima della transizione.
 
-La Corte ha chiarito che la Legge 40/2004 non impedisce il riconoscimento della genitorialità biologica per una persona che abbia fornito materiale genetico maschile per la PMA e che successivamente sia diventata donna. Il cambiamento di genere successivo non incide sul legame biologico tra genitore e figlio. Si tratta di una sentenza rilevante perché riconosce implicitamente il valore della preservazione della fertilità nel percorso di affermazione di genere.
+La Corte ha chiarito che la Legge 40/2004 non impedisce il riconoscimento della genitorialità biologica per una persona che abbia fornito materiale genetico maschile per la PMA e che successivamente sia diventata donna [12]. Il cambiamento di genere successivo non incide sul legame biologico tra genitore e figlio. Si tratta di una sentenza rilevante perché riconosce implicitamente il valore della preservazione della fertilità nel percorso di affermazione di genere.
 
 ### Adozione
 
@@ -185,7 +185,7 @@ Dal 2024, le spese per la crioconservazione degli ovociti sono detraibili al 19%
 
 ### Barriere all'accesso
 
-Nonostante i miglioramenti normativi, le barriere restano significative. Il portale Infotrans.it, una risorsa istituzionale dell'Istituto Superiore di Sanità, segnala che non tutti i centri di PMA hanno esperienza nel lavorare con persone transgender, e la mancanza di protocolli specifici può rendere il percorso più complicato e stressante di quanto dovrebbe essere. I tempi di attesa nel sistema pubblico possono inoltre essere lunghi, il che rappresenta un problema quando la persona desidera iniziare la terapia ormonale il prima possibile.
+Nonostante i miglioramenti normativi, le barriere restano significative. Il portale Infotrans.it, una risorsa istituzionale dell'Istituto Superiore di Sanità, segnala che non tutti i centri di PMA hanno esperienza nel lavorare con persone transgender, e la mancanza di protocolli specifici può rendere il percorso più complicato e stressante di quanto dovrebbe essere [11]. I tempi di attesa nel sistema pubblico possono inoltre essere lunghi, il che rappresenta un problema quando la persona desidera iniziare la terapia ormonale il prima possibile.
 
 ## Aspetti psicologici
 
@@ -193,19 +193,19 @@ Le decisioni sulla fertilità si intrecciano profondamente con l'identità, il b
 
 ### Il conflitto tra urgenza e pianificazione
 
-Molte persone trans vivono un conflitto tra l'urgenza di iniziare la terapia ormonale per alleviare la disforia di genere e la necessità di prendersi del tempo per preservare la fertilità. Lo studio di Chen et al. (2019) su adolescenti e giovani adulti transgender ha identificato la disforia di genere come una delle principali barriere alla preservazione della fertilità: le procedure necessarie, come la stimolazione ovarica per gli uomini trans o la raccolta di liquido seminale per le donne trans, possono amplificare il disagio legato al corpo.
+Molte persone trans vivono un conflitto tra l'urgenza di iniziare la terapia ormonale per alleviare la disforia di genere e la necessità di prendersi del tempo per preservare la fertilità. Lo studio di Chen et al. (2019) su adolescenti e giovani adulti transgender ha identificato la disforia di genere come una delle principali barriere alla preservazione della fertilità: le procedure necessarie, come la stimolazione ovarica per gli uomini trans o la raccolta di liquido seminale per le donne trans, possono amplificare il disagio legato al corpo [8].
 
 ### Il peso economico
 
-Lo stesso studio ha identificato i costi come un altro fattore determinante. Quando la preservazione della fertilità rappresenta una spesa significativa, in un contesto dove molte altre spese mediche già gravano sulla persona, la decisione diventa ancora più complessa.
+Lo stesso studio ha identificato i costi come un altro fattore determinante [8]. Quando la preservazione della fertilità rappresenta una spesa significativa, in un contesto dove molte altre spese mediche già gravano sulla persona, la decisione diventa ancora più complessa.
 
 ### Il ruolo della famiglia
 
-I valori familiari riguardo alla genitorialità biologica influenzano significativamente le decisioni sulla preservazione della fertilità. Alcune famiglie esercitano pressioni affinché la persona preservi i propri gameti, altre non comprendono l'importanza di questa opzione. Un dialogo aperto e non giudicante all'interno del nucleo familiare può aiutare, ma non è sempre possibile.
+I valori familiari riguardo alla genitorialità biologica influenzano significativamente le decisioni sulla preservazione della fertilità [8]. Alcune famiglie esercitano pressioni affinché la persona preservi i propri gameti, altre non comprendono l'importanza di questa opzione. Un dialogo aperto e non giudicante all'interno del nucleo familiare può aiutare, ma non è sempre possibile.
 
 ### L'importanza di un supporto adeguato
 
-Il supporto psicologico durante il processo decisionale è fondamentale. I professionisti della salute mentale che lavorano con persone trans dovrebbero essere preparati ad affrontare questi temi con competenza e sensibilità, aiutando ogni persona a esplorare i propri desideri senza pressioni in nessuna direzione.
+Il supporto psicologico durante il processo decisionale è fondamentale. I professionisti della salute mentale che lavorano con persone trans dovrebbero essere preparati ad affrontare questi temi con competenza e sensibilità, aiutando ogni persona a esplorare i propri desideri senza pressioni in nessuna direzione [1].
 
 Non desiderare figli è una scelta altrettanto valida. Non tutte le persone, transgender o cisgender, desiderano diventare genitori, e nessuno dovrebbe sentirsi obbligato a preservare la propria fertilità.
 
@@ -213,11 +213,11 @@ Non desiderare figli è una scelta altrettanto valida. Non tutte le persone, tra
 
 Se stai iniziando o considerando un percorso di affermazione di genere e la genitorialità è un tema importante per te, ecco alcuni passi concreti.
 
-**Parlane con il tuo endocrinologo o medico di riferimento** il prima possibile, idealmente prima di iniziare la terapia ormonale. Chiedi informazioni specifiche sulle opzioni di preservazione disponibili nella tua zona.
+**Parlane con il tuo endocrinologo o medico di riferimento** il prima possibile, idealmente prima di iniziare la terapia ormonale. Chiedi informazioni specifiche sulle opzioni di preservazione disponibili nella tua zona [9].
 
 **Consulta un centro di PMA** per avere un quadro chiaro dei costi, dei tempi e delle procedure. Alcuni centri hanno esperienza specifica con pazienti transgender.
 
-**Informati sui tuoi diritti.** Il portale Infotrans.it dell'Istituto Superiore di Sanità offre informazioni aggiornate sulla preservazione della fertilità nel percorso di affermazione di genere.
+**Informati sui tuoi diritti.** Il portale Infotrans.it dell'Istituto Superiore di Sanità offre informazioni aggiornate sulla preservazione della fertilità nel percorso di affermazione di genere [11].
 
 **Non sentirti in dovere di decidere subito.** Se hai bisogno di tempo per riflettere, parlane con il tuo medico per capire se è possibile iniziare la terapia ormonale e preservare la fertilità in un secondo momento, pur sapendo che la tempistica ideale è prima dell'inizio del trattamento.
 

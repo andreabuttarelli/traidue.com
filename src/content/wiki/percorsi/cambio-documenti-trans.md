@@ -65,16 +65,16 @@ Cambiare nome e sesso sui documenti è uno dei passaggi più concreti e attesi n
 
 ## Il quadro legale: la legge 164/1982
 
-La norma di riferimento è la [legge 14 aprile 1982, n. 164](/wiki/legge-164-italia), intitolata "Norme in materia di rettificazione di attribuzione di sesso". Questa legge, composta da soli sette articoli, stabilisce che la rettificazione dell'attribuzione di sesso avviene tramite **sentenza del tribunale** passata in giudicato.
+La norma di riferimento è la [legge 14 aprile 1982, n. 164](/wiki/legge-164-italia), intitolata "Norme in materia di rettificazione di attribuzione di sesso" [1]. Questa legge, composta da soli sette articoli, stabilisce che la rettificazione dell'attribuzione di sesso avviene tramite **sentenza del tribunale** passata in giudicato.
 
 I punti essenziali della legge sono:
 
-- La rettificazione è disposta dal **tribunale ordinario** del luogo di residenza del richiedente (articolo 2).
+- La rettificazione è disposta dal **tribunale ordinario** del luogo di residenza del richiedente (articolo 2) [1].
 - Il procedimento si avvia con un **ricorso** (non una causa ordinaria).
 - La sentenza di rettificazione comporta la modifica del sesso anagrafico e del nome nei registri dello stato civile.
-- Se la persona era sposata, la sentenza provoca lo **scioglimento del matrimonio** o la cessazione degli effetti civili (articolo 4).
+- Se la persona era sposata, la sentenza provoca lo **scioglimento del matrimonio** o la cessazione degli effetti civili (articolo 4) [1].
 
-La procedura oggi segue il **rito sommario di cognizione**, come previsto dal decreto legislativo 150/2011 (articolo 31), che ha riformato il procedimento rendendo la procedura formalmente più snella rispetto al rito ordinario.
+La procedura oggi segue il **rito sommario di cognizione**, come previsto dal decreto legislativo 150/2011 (articolo 31), che ha riformato il procedimento rendendo la procedura formalmente più snella rispetto al rito ordinario [12].
 
 ## Non serve l'intervento chirurgico
 
@@ -82,11 +82,11 @@ Per anni, nella prassi dei tribunali italiani, la rettificazione anagrafica è s
 
 Tre pronunce fondamentali hanno eliminato questo requisito:
 
-**Corte di Cassazione, sentenza n. 15138 del 20 luglio 2015.** La Prima Sezione Civile ha stabilito che l'intervento chirurgico non costituisce un presupposto indispensabile per la rettificazione. La Cassazione ha riconosciuto che l'identità di genere può essere il risultato di un percorso individuale che non richiede necessariamente la chirurgia, purché sia verificata la serietà e la definitività del percorso intrapreso.
+**Corte di Cassazione, sentenza n. 15138 del 20 luglio 2015.** La Prima Sezione Civile ha stabilito che l'intervento chirurgico non costituisce un presupposto indispensabile per la rettificazione. La Cassazione ha riconosciuto che l'identità di genere può essere il risultato di un percorso individuale che non richiede necessariamente la chirurgia, purché sia verificata la serietà e la definitività del percorso intrapreso [2].
 
-**Corte Costituzionale, sentenza n. 221 del 5 novembre 2015.** La Corte ha confermato che il trattamento chirurgico non deve essere considerato un prerequisito, ma piuttosto un "possibile mezzo, funzionale al raggiungimento del pieno benessere psicofisico". L'esclusione dell'obbligo chirurgico è, secondo la Corte, "il corollario di un'impostazione che -- in coerenza con supremi valori costituzionali -- rimette al singolo la scelta delle modalità attraverso le quali realizzare il proprio percorso di transizione".
+**Corte Costituzionale, sentenza n. 221 del 5 novembre 2015.** La Corte ha confermato che il trattamento chirurgico non deve essere considerato un prerequisito, ma piuttosto un "possibile mezzo, funzionale al raggiungimento del pieno benessere psicofisico". L'esclusione dell'obbligo chirurgico è, secondo la Corte, "il corollario di un'impostazione che -- in coerenza con supremi valori costituzionali -- rimette al singolo la scelta delle modalità attraverso le quali realizzare il proprio percorso di transizione" [3].
 
-**Corte Costituzionale, sentenza n. 180 del 13 luglio 2017.** Ha ribadito che per ottenere la rettificazione del sesso non è obbligatorio l'intervento chirurgico demolitorio o modificativo dei caratteri sessuali anatomici primari. È tuttavia necessaria una "rigorosa verifica non solo della serietà e univocità dell'intento, ma anche dell'avvenuta oggettiva transizione dell'identità di genere".
+**Corte Costituzionale, sentenza n. 180 del 13 luglio 2017.** Ha ribadito che per ottenere la rettificazione del sesso non è obbligatorio l'intervento chirurgico demolitorio o modificativo dei caratteri sessuali anatomici primari. È tuttavia necessaria una "rigorosa verifica non solo della serietà e univocità dell'intento, ma anche dell'avvenuta oggettiva transizione dell'identità di genere" [4].
 
 In altre parole: **oggi la legge non richiede alcun intervento chirurgico per cambiare i documenti**. Quello che il tribunale valuta è la serietà, la stabilità e la coerenza del percorso di transizione della persona.
 
@@ -94,7 +94,7 @@ In altre parole: **oggi la legge non richiede alcun intervento chirurgico per ca
 
 ### 1. Raccogliere la documentazione medica e psicologica
 
-Prima di depositare il ricorso, è necessario avere una documentazione clinica solida. I documenti solitamente richiesti sono:
+Prima di depositare il ricorso, è necessario avere una documentazione clinica solida [6]. I documenti solitamente richiesti sono:
 
 - **Relazione psicodiagnostica** redatta da uno psicologo o psicoterapeuta, preferibilmente con esperienza in disforia di genere o incongruenza di genere (classificazione ICD-11). La relazione deve attestare l'identificazione stabile e duratura con il genere vissuto.
 - **Documentazione endocrinologica**, se la persona ha intrapreso una [terapia ormonale sostitutiva](/wiki/transizione-medica-cosa-cambia). La terapia ormonale non è un requisito obbligatorio, ma nella prassi i tribunali la considerano un elemento importante.
@@ -109,7 +109,7 @@ Il ricorso va presentato con l'assistenza di un **avvocato civilista**. È forte
 
 Per trovare un avvocato competente si può:
 
-- Chiedere alle **associazioni transgender** del territorio (MIT, Consultorio TransGenere, SAT - Sportello Attività Trans, associazioni locali).
+- Chiedere alle **associazioni transgender** del territorio (MIT, Consultorio TransGenere, SAT - Sportello Attività Trans, associazioni locali) [8].
 - Consultare la **Rete Lenford** (Avvocatura per i diritti LGBTI+), che può fornire riferimenti di avvocati esperti.
 - Rivolgersi ai **consultori pubblici** che seguono percorsi di affermazione di genere, che spesso hanno contatti con avvocati specializzati.
 
@@ -144,7 +144,7 @@ La sentenza diventa efficace con il **passaggio in giudicato**, cioè trascorsi 
 
 ## Dopo la sentenza: aggiornare tutti i documenti
 
-Una volta che la sentenza è passata in giudicato, inizia la fase burocratica di aggiornamento dei documenti. Il comune di nascita riceve la comunicazione dal tribunale e annota la rettificazione sull'**atto di nascita**. Da quel momento, si possono aggiornare tutti gli altri documenti.
+Una volta che la sentenza è passata in giudicato, inizia la fase burocratica di aggiornamento dei documenti [9]. Il comune di nascita riceve la comunicazione dal tribunale e annota la rettificazione sull'**atto di nascita**. Da quel momento, si possono aggiornare tutti gli altri documenti.
 
 ### Carta d'identità
 
@@ -152,7 +152,7 @@ Recarsi all'**ufficio anagrafe del comune di residenza** con la sentenza passata
 
 ### Codice fiscale e tessera sanitaria
 
-Con l'aggiornamento dell'atto di nascita, il comune comunica automaticamente la variazione all'**Agenzia delle Entrate**, che attribuisce il nuovo codice fiscale. Non è più necessario recarsi di persona all'Agenzia delle Entrate per richiedere il nuovo codice fiscale: viene generato in automatico al momento della rettificazione dell'atto di nascita da parte del comune.
+Con l'aggiornamento dell'atto di nascita, il comune comunica automaticamente la variazione all'**Agenzia delle Entrate**, che attribuisce il nuovo codice fiscale [9]. Non è più necessario recarsi di persona all'Agenzia delle Entrate per richiedere il nuovo codice fiscale: viene generato in automatico al momento della rettificazione dell'atto di nascita da parte del comune.
 
 Per la **tessera sanitaria**, è possibile richiedere la riemissione direttamente sul sito dell'Agenzia delle Entrate oppure recandosi presso un ufficio territoriale con un documento d'identità aggiornato.
 
@@ -170,9 +170,9 @@ Recarsi alla **Questura** competente per territorio con la sentenza, la nuova ca
 
 ### Laurea, diploma e titoli di studio
 
-Per la **laurea**, bisogna presentare istanza alla segreteria dell'università dove si è conseguito il titolo, allegando la sentenza di rettificazione. L'università deve emettere un **nuovo diploma di laurea** con il nome aggiornato. Il **Garante della Privacy** ha stabilito con un provvedimento specifico che il nuovo diploma non deve contenere alcuna annotazione che riveli la rettificazione: non deve comparire il nome precedente né il motivo della riemissione. Questo a tutela della [privacy](/wiki/privacy-identita-di-genere) della persona.
+Per la **laurea**, bisogna presentare istanza alla segreteria dell'università dove si è conseguito il titolo, allegando la sentenza di rettificazione. L'università deve emettere un **nuovo diploma di laurea** con il nome aggiornato. Il **Garante della Privacy** ha stabilito con un provvedimento specifico che il nuovo diploma non deve contenere alcuna annotazione che riveli la rettificazione: non deve comparire il nome precedente né il motivo della riemissione [7]. Questo a tutela della [privacy](/wiki/privacy-identita-di-genere) della persona.
 
-Per il **diploma di scuola superiore**, la procedura è analoga: bisogna rivolgersi alla scuola dove si è conseguito il diploma (o al Provveditorato agli Studi se la scuola non esiste più). Anche in questo caso, il nuovo certificato non deve contenere riferimenti alla rettificazione.
+Per il **diploma di scuola superiore**, la procedura è analoga: bisogna rivolgersi alla scuola dove si è conseguito il diploma (o al Provveditorato agli Studi se la scuola non esiste più). Anche in questo caso, il nuovo certificato non deve contenere riferimenti alla rettificazione [7].
 
 ### Conto corrente bancario e carte
 
@@ -211,11 +211,11 @@ Una delle preoccupazioni principali riguarda i costi. Ecco una stima realistica 
 
 ## Gratuito patrocinio: come accedere
 
-La buona notizia è che la rettificazione anagrafica rientra tra i procedimenti per i quali è possibile accedere al **patrocinio a spese dello Stato** (comunemente chiamato gratuito patrocinio). Questo significa che, se il reddito è sotto la soglia, lo Stato copre le spese legali e processuali.
+La buona notizia è che la rettificazione anagrafica rientra tra i procedimenti per i quali è possibile accedere al **patrocinio a spese dello Stato** (comunemente chiamato gratuito patrocinio) [10]. Questo significa che, se il reddito è sotto la soglia, lo Stato copre le spese legali e processuali.
 
-**Soglia di reddito (aggiornata al 2025)**: 13.659,64 euro annui. La soglia viene aggiornata periodicamente con decreto del Ministero della Giustizia.
+**Soglia di reddito (aggiornata al 2025)**: 13.659,64 euro annui [10]. La soglia viene aggiornata periodicamente con decreto del Ministero della Giustizia.
 
-**Reddito considerato**: trattandosi di un procedimento che riguarda un **diritto della persona**, si considera esclusivamente il **reddito personale** del richiedente, non quello del nucleo familiare. Questo è un punto cruciale, perché molte persone trans vivono ancora con la famiglia di origine e il reddito familiare supererebbe la soglia.
+**Reddito considerato**: trattandosi di un procedimento che riguarda un **diritto della persona**, si considera esclusivamente il **reddito personale** del richiedente, non quello del nucleo familiare [10]. Questo è un punto cruciale, perché molte persone trans vivono ancora con la famiglia di origine e il reddito familiare supererebbe la soglia.
 
 **Come fare domanda**: la domanda di ammissione al gratuito patrocinio va presentata al **Consiglio dell'Ordine degli Avvocati** del tribunale competente. L'avvocato scelto può assistere nella compilazione. Serve l'ultima dichiarazione dei redditi (si considera il reddito imponibile IRPEF) e un'autocertificazione.
 
@@ -223,7 +223,7 @@ La buona notizia è che la rettificazione anagrafica rientra tra i procedimenti 
 
 ## Tempi: quanto si aspetta
 
-I tempi della rettificazione anagrafica variano enormemente a seconda del tribunale. Ecco le stime basate sull'esperienza delle associazioni e degli avvocati specializzati:
+I tempi della rettificazione anagrafica variano enormemente a seconda del tribunale. Ecco le stime basate sull'esperienza delle associazioni e degli avvocati specializzati [8]:
 
 **Dal deposito del ricorso alla prima udienza**: da 1 a 6 mesi, a seconda del carico del tribunale.
 
@@ -243,9 +243,9 @@ Non tutti sanno che in molti contesti è possibile utilizzare il proprio **nome 
 
 ### A scuola
 
-Al 2025, oltre **480 scuole pubbliche** in Italia hanno adottato un regolamento per la carriera alias. La procedura prevede un accordo di riservatezza tra la scuola, lo studente (e la famiglia, se minorenne) che consente di utilizzare il nome scelto nel registro elettronico, nel badge, nella comunicazione quotidiana e in tutti i documenti interni. I documenti ufficiali (pagelle, diploma) restano con il nome anagrafico fino alla rettificazione legale.
+Al 2025, oltre **480 scuole pubbliche** in Italia hanno adottato un regolamento per la carriera alias [11]. La procedura prevede un accordo di riservatezza tra la scuola, lo studente (e la famiglia, se minorenne) che consente di utilizzare il nome scelto nel registro elettronico, nel badge, nella comunicazione quotidiana e in tutti i documenti interni. I documenti ufficiali (pagelle, diploma) restano con il nome anagrafico fino alla rettificazione legale.
 
-La carriera alias non è regolata da una legge nazionale: ogni scuola adotta il proprio regolamento. Per sapere se la scuola di riferimento la prevede, si può consultare l'elenco curato da AGEDO o contattare direttamente la dirigenza scolastica.
+La carriera alias non è regolata da una legge nazionale: ogni scuola adotta il proprio regolamento. Per sapere se la scuola di riferimento la prevede, si può consultare l'elenco curato da AGEDO o contattare direttamente la dirigenza scolastica [11].
 
 ### In università
 
@@ -263,11 +263,11 @@ Fin dall'inizio del percorso, è utile raccogliere e conservare in modo ordinato
 
 ### Fare copie autentiche della sentenza
 
-La sentenza di rettificazione serve per aggiornare ogni singolo documento. È consigliabile richiedere al tribunale **diverse copie conformi** della sentenza (almeno 5-6), perché ogni ufficio ne chiederà una. Le copie conformi hanno un costo minimo (diritti di copia).
+La sentenza di rettificazione serve per aggiornare ogni singolo documento. È consigliabile richiedere al tribunale **diverse copie conformi** della sentenza (almeno 5-6), perché ogni ufficio ne chiederà una [9]. Le copie conformi hanno un costo minimo (diritti di copia).
 
 ### Aggiornare i documenti in ordine
 
-L'ordine consigliato per aggiornare i documenti è:
+L'ordine consigliato per aggiornare i documenti è [9]:
 
 1. **Atto di nascita** (aggiornato automaticamente dal comune di nascita dopo la comunicazione del tribunale).
 2. **Carta d'identità** (serve per tutti i passaggi successivi).
@@ -281,7 +281,7 @@ Uno dei problemi più comuni dopo la rettificazione è la persistenza del vecchi
 
 ### Matrimonio e figli
 
-Se la persona è sposata al momento della rettificazione, la sentenza comporta lo **scioglimento del matrimonio** (articolo 4, legge 164/1982). La coppia può, dopo la rettificazione, contrarre una **unione civile** (se dello stesso sesso anagrafico risultante) o un nuovo matrimonio (se di sesso diverso). Questa è una conseguenza automatica della legge e non può essere evitata.
+Se la persona è sposata al momento della rettificazione, la sentenza comporta lo **scioglimento del matrimonio** (articolo 4, legge 164/1982) [1]. La coppia può, dopo la rettificazione, contrarre una **unione civile** (se dello stesso sesso anagrafico risultante) o un nuovo matrimonio (se di sesso diverso). Questa è una conseguenza automatica della legge e non può essere evitata.
 
 Per quanto riguarda i **figli**, la rettificazione non ha alcun effetto sulla **responsabilità genitoriale**: il genitore trans mantiene tutti i diritti e i doveri nei confronti dei figli. L'atto di nascita dei figli viene aggiornato con il nuovo nome del genitore.
 
@@ -297,10 +297,10 @@ La burocrazia italiana può essere frustrante, e non tutti gli impiegati pubblic
 
 Per chi sta affrontando o sta per affrontare il percorso di rettificazione, queste risorse possono essere di aiuto:
 
-- **Infotrans** (infotrans.it): portale dell'Istituto Superiore di Sanità con informazioni sulla rettifica di genere in Italia.
+- **Infotrans** (infotrans.it): portale dell'Istituto Superiore di Sanità con informazioni sulla rettifica di genere in Italia [6].
 - **Rete Lenford**: associazione di avvocati specializzati in diritti LGBTI+, utile per trovare assistenza legale qualificata.
 - **MIT** (Movimento Identità Trans): storica associazione che offre supporto legale e orientamento.
-- **Consultorio TransGenere**: sportello che fornisce informazioni pratiche sul cambio anagrafico.
+- **Consultorio TransGenere**: sportello che fornisce informazioni pratiche sul cambio anagrafico [8].
 - **AGEDO**: associazione di genitori che può orientare le famiglie nel percorso.
 
 La rettificazione anagrafica è un diritto riconosciuto dalla legge italiana. Il percorso può sembrare lungo e complesso, ma migliaia di persone lo hanno completato con successo. Avere le informazioni giuste, un buon avvocato e il supporto di chi ci è già passato fa una differenza enorme.

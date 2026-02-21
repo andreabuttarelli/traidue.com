@@ -2,7 +2,7 @@
 	import Logo from './Logo.svelte';
 </script>
 
-<footer>
+<footer class="pb-24">
 	<div class="w-full px-4 sm:px-6 lg:px-12 py-8 sm:py-12">
 		<div class="grid grid-cols-1 sm:grid-cols-[1fr_auto_auto] gap-8 sm:gap-12">
 			<div class="max-w-sm">
@@ -28,6 +28,7 @@
 				<div class="flex flex-col gap-2">
 					<p class="text-sm text-muted">&copy; 2026 Tra i Due</p>
 					<a href="/privacy" class="text-sm text-muted hover:text-primary transition-colors">Privacy Policy</a>
+					<a href="/cookie" class="text-sm text-muted hover:text-primary transition-colors">Cookie Policy</a>
 					<a href="/termini" class="text-sm text-muted hover:text-primary transition-colors">Termini di Utilizzo</a>
 					<a
 						href="https://www.apache.org/licenses/LICENSE-2.0"

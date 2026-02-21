@@ -16,6 +16,7 @@ export async function GET() {
 		{ url: '/quiz', priority: '0.8', changefreq: 'monthly' },
 		{ url: '/glossario', priority: '0.7', changefreq: 'monthly' },
 		{ url: '/chi-siamo', priority: '0.5', changefreq: 'monthly' },
+		{ url: '/cookie', priority: '0.3', changefreq: 'yearly' },
 		{ url: '/privacy', priority: '0.3', changefreq: 'yearly' },
 		{ url: '/termini', priority: '0.3', changefreq: 'yearly' }
 	];

@@ -1,0 +1,167 @@
+{
+	"slug": "legislazione-italiana",
+	"title": "Quanto conosci i diritti trans in Italia?",
+	"description": "Un quiz tecnico sulla legislazione italiana: rettificazione anagrafica, privacy, carceri, sanità e discriminazione.",
+	"category": "percorsi",
+	"questions": [
+		{
+			"text": "Da quale anno è possibile cambiare legalmente sesso in Italia?",
+			"options": [
+				"1972",
+				"1982",
+				"1996",
+				"2006"
+			],
+			"correct": 1,
+			"explanation": "La Legge 164 del 14 aprile 1982 è la norma fondamentale che consente la rettificazione di attribuzione di sesso nei registri dello stato civile."
+		},
+		{
+			"text": "Per ottenere la rettificazione anagrafica in Italia è obbligatorio sottoporsi a un intervento chirurgico?",
+			"options": [
+				"Sì, è sempre obbligatorio",
+				"No, dal 2015 la Corte Costituzionale ha stabilito che non è un prerequisito",
+				"Solo per le donne trans",
+				"Solo se lo richiede il giudice"
+			],
+			"correct": 1,
+			"explanation": "La sentenza 221/2015 della Corte Costituzionale ha stabilito che l'intervento chirurgico non è un prerequisito, ma una possibile scelta. La sentenza 180/2017 ha ribadito il principio, e la sentenza 143/2024 ha eliminato anche l'obbligo di autorizzazione giudiziaria per chi sceglie di operarsi."
+		},
+		{
+			"text": "Dopo la rettificazione, cosa accade al certificato di nascita?",
+			"options": [
+				"Viene completamente riscritto senza tracce",
+				"L'estratto per riassunto mostra solo i nuovi dati; quello integrale (con annotazione) è accessibile solo dall'interessato/a",
+				"Rimane invariato con il sesso originale",
+				"Viene eliminato e sostituito con uno nuovo"
+			],
+			"correct": 1,
+			"explanation": "L'estratto per riassunto — il documento usato normalmente — mostra solo nome e genere aggiornati. L'estratto integrale contiene l'annotazione della sentenza ma può essere richiesto solo dalla persona stessa. Le forze dell'ordine possono accedere ai dati precedenti per motivi di sicurezza."
+		},
+		{
+			"text": "Cosa succede al codice fiscale dopo la rettificazione di sesso?",
+			"options": [
+				"Resta lo stesso",
+				"Cambia solo il nome ma non il codice",
+				"Viene generato un codice fiscale completamente nuovo",
+				"Viene aggiunta una lettera alla fine"
+			],
+			"correct": 2,
+			"explanation": "Il codice fiscale italiano codifica il genere nella data di nascita (il giorno viene aumentato di 40 per le donne). Dopo la rettificazione, il Comune genera automaticamente un nuovo codice fiscale coerente con il nuovo genere."
+		},
+		{
+			"text": "Esiste in Italia una legge specifica che regoli l'accesso ai bagni per le persone trans?",
+			"options": [
+				"Sì, la Legge 164/1982 disciplina anche i bagni",
+				"Sì, il D.Lgs. 81/2008 stabilisce regole precise",
+				"No, non esiste una norma nazionale specifica",
+				"Sì, ma solo nelle scuole"
+			],
+			"correct": 2,
+			"explanation": "Non esiste alcuna legge italiana che regoli specificamente l'accesso ai bagni per le persone transgender. Il D.Lgs. 81/2008 sulla sicurezza sul lavoro richiede bagni separati per uomini e donne, ma non affronta la questione delle persone trans. Alcuni comuni e università hanno introdotto bagni gender-neutral su base volontaria."
+		},
+		{
+			"text": "In base a quale criterio il sistema penitenziario italiano assegna le persone trans a un carcere maschile o femminile?",
+			"options": [
+				"Il sesso legale sui documenti d'identità",
+				"L'identità di genere dichiarata dalla persona",
+				"Il sesso anatomico/genitale, indipendentemente dai documenti",
+				"La decisione del magistrato di sorveglianza caso per caso"
+			],
+			"correct": 2,
+			"explanation": "Il DAP (Dipartimento dell'Amministrazione Penitenziaria) usa come unico criterio il sesso anatomico-genitale. Anche una donna trans con la F sui documenti, se non ha completato l'intervento chirurgico genitale, viene assegnata al carcere maschile in una sezione protetta. Esistono solo 6 istituti con sezioni trans dedicate (tra cui Rebibbia, Como, Belluno). Un'ordinanza del Tribunale di Sorveglianza di Firenze (2020) ha stabilito che dovrebbe prevalere il sesso legale, ma nella prassi il DAP continua a basarsi sull'anatomia."
+		},
+		{
+			"text": "La terapia ormonale per la transizione di genere è a carico del SSN?",
+			"options": [
+				"No, è completamente a carico del paziente",
+				"Solo in alcune regioni",
+				"Sì, è gratuita dal 2020 grazie a due determine AIFA",
+				"Solo con un reddito sotto una certa soglia"
+			],
+			"correct": 2,
+			"explanation": "Dal 1° ottobre 2020, le determine AIFA 104272 e 104273 hanno reso gratuiti i farmaci ormonali per la transizione (testosterone per uomini trans, estrogeni e antiandrogeni per donne trans), a fronte di una diagnosi da parte di un'equipe multidisciplinare."
+		},
+		{
+			"text": "Cosa succede a un matrimonio esistente quando uno dei coniugi ottiene la rettificazione di sesso?",
+			"options": [
+				"Il matrimonio viene automaticamente annullato",
+				"Il matrimonio continua senza modifiche",
+				"Se entrambi lo vogliono, il matrimonio si converte in unione civile",
+				"Il matrimonio viene convertito in separazione consensuale"
+			],
+			"correct": 2,
+			"explanation": "La Legge Cirinnà (76/2016) prevede che, se entrambi i coniugi dichiarano di voler mantenere il legame, il matrimonio si converte automaticamente in unione civile. Altrimenti viene sciolto. La Corte Costituzionale (sentenza 170/2014) aveva dichiarato incostituzionale il divorzio automatico senza alternative."
+		},
+		{
+			"text": "Il DDL Zan, che avrebbe tutelato le persone trans dalla discriminazione, è stato:",
+			"options": [
+				"Approvato nel 2021",
+				"Bocciato alla Camera nel 2020",
+				"Bloccato al Senato con voto segreto nel 2021",
+				"Ritirato dal proponente"
+			],
+			"correct": 2,
+			"explanation": "Il DDL Zan è stato approvato dalla Camera nel novembre 2020, ma il 27 ottobre 2021 il Senato lo ha affossato con la cosiddetta \"tagliola\" (154 voti contro 131), votata a scrutinio segreto. L'Italia resta senza una legge nazionale che tuteli esplicitamente l'identità di genere come fattore protetto."
+		},
+		{
+			"text": "Cos'è la 'carriera alias'?",
+			"options": [
+				"Una legge nazionale che consente di cambiare nome senza tribunale",
+				"Un accordo di riservatezza tra persona trans e istituzione per usare il nome di elezione nei documenti interni",
+				"Un percorso medico alternativo alla terapia ormonale",
+				"Un programma di reinserimento lavorativo per persone trans"
+			],
+			"correct": 1,
+			"explanation": "La carriera alias è un accordo tra la persona trans e l'istituzione (scuola, università, datore di lavoro) che permette di usare il nome scelto nei documenti interni non ufficiali: badge, email, registri di classe. Non è basata su una legge nazionale specifica. Ad oggi circa 475 scuole italiane l'hanno adottata, e il CCNL Scuola 2024 (art. 21) la prevede per il personale scolastico."
+		},
+		{
+			"text": "Chi può accedere ai dati relativi al sesso di nascita originale dopo la rettificazione?",
+			"options": [
+				"Chiunque ne faccia richiesta al Comune",
+				"Il datore di lavoro e la scuola",
+				"Solo la persona interessata e le forze dell'ordine",
+				"Nessuno, i dati vengono cancellati"
+			],
+			"correct": 2,
+			"explanation": "Dopo la rettificazione, i documenti pubblici mostrano solo i nuovi dati. L'estratto integrale del certificato di nascita (con l'annotazione) è richiedibile solo dall'interessato/a. Le forze dell'ordine possono accedere ai dati pregressi per motivi di sicurezza. L'identità di genere è classificata come dato sensibile dal GDPR (art. 9)."
+		},
+		{
+			"text": "Il D.Lgs. 216/2003, la principale norma antidiscriminazione sul lavoro, protegge esplicitamente l'identità di genere?",
+			"options": [
+				"Sì, sia orientamento sessuale che identità di genere",
+				"No, copre solo l'orientamento sessuale",
+				"Sì, dal 2021",
+				"No, non copre nessuno dei due"
+			],
+			"correct": 1,
+			"explanation": "Il D.Lgs. 216/2003, che recepisce la Direttiva UE 2000/78, vieta la discriminazione sul lavoro per orientamento sessuale, ma non menziona esplicitamente l'identità di genere. Questa lacuna sarebbe stata colmata dal DDL Zan, mai approvato. Alcune regioni (Toscana, Piemonte, Liguria) hanno leggi regionali che includono l'identità di genere."
+		},
+		{
+			"text": "Quale sentenza della Corte Costituzionale ha eliminato l'obbligo di autorizzazione giudiziaria per l'intervento chirurgico di riattribuzione?",
+			"options": [
+				"Sentenza 221/2015",
+				"Sentenza 170/2014",
+				"Sentenza 143/2024",
+				"Sentenza 180/2017"
+			],
+			"correct": 2,
+			"explanation": "La sentenza 143/2024 ha dichiarato incostituzionale l'obbligo di autorizzazione del tribunale per l'intervento chirurgico (art. 31, comma 4, D.Lgs. 150/2011), poiché la transizione può avvenire anche senza chirurgia, rendendo irragionevole subordinare l'intervento a un via libera giudiziario."
+		},
+		{
+			"text": "La chirurgia per la riattribuzione di sesso è coperta dal Servizio Sanitario Nazionale?",
+			"options": [
+				"No, è sempre a pagamento",
+				"Sì, rientra nei LEA (Livelli Essenziali di Assistenza)",
+				"Solo in strutture private convenzionate",
+				"Solo per i maggiorenni con reddito basso"
+			],
+			"correct": 1,
+			"explanation": "La chirurgia di riattribuzione di sesso è inclusa nei LEA, i livelli essenziali di assistenza che il SSN deve garantire a tutti i cittadini. Tuttavia, i centri specializzati in Italia sono solo circa 7 e le liste d'attesa possono essere lunghe."
+		}
+	],
+	"levels": [
+		{ "min": 0, "max": 30, "label": "Principiante", "message": "La legislazione italiana è complessa, ma è importante conoscerla. Leggi i nostri articoli nella sezione Percorsi per approfondire." },
+		{ "min": 31, "max": 70, "label": "Informato/a", "message": "Buona conoscenza! Ci sono ancora aspetti da approfondire: dai un'occhiata ai nostri articoli su diritti e percorsi." },
+		{ "min": 71, "max": 100, "label": "Esperto/a", "message": "Ottima padronanza della legislazione italiana. Condividi il quiz per far conoscere questi diritti a più persone!" }
+	]
+}

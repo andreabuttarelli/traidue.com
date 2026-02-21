@@ -135,3 +135,12 @@ Pillar: `identita-di-genere` (pubblicato)
 - L'importanza di saper programmare per una persona trans
 - Saper usare l'AI per promuovere le tematiche trans
 - Leggi attuale su bagni e spogliatoi, carceri e sport
+- Cambiare sesso in Italia significa che il sesso originario di nascita viene completamente eliminato? Oppure no? Chi potrebbe saperlo, quali sono le leggi sulla privacy e quali rischi per il futuro?
+- Leggi sulla privacy in tema di identità di genere
+- Il casino che sta succedendo in Uk sulle leggi trans dopo la sentenza della Corte Suprema e dell'High Court
+- Chi c'è dietro la propaganda anti-trans e quale è il suo obiettivo
+- Cosa c'è di scientifico nella transfobia. Perchè esiste e perchè è così diffusa
+- Isole verdi per i diritti trans nel mondo
+- Rischi e pericolosi di vietare alle persone trans di usare i servizi del loro genere e le bufale in merito
+- Come le attiviste anti-trans danneggiano gli uomini con i loro stereotipi
+- Come la transfobia danneggia tutte le donne

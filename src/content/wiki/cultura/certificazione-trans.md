@@ -75,21 +75,21 @@ Questo articolo spiega cosa dice la scienza, cosa prevede la legge italiana, com
 
 ## L'identità di genere non è una malattia: cosa ha fatto l'OMS
 
-Il passaggio più significativo degli ultimi decenni è avvenuto il 1 gennaio 2022, quando è entrata in vigore l'undicesima revisione della Classificazione Internazionale delle Malattie (ICD-11) dell'Organizzazione Mondiale della Sanità. L'ICD-11 ha eliminato il termine "transessualismo" e lo ha sostituito con "incongruenza di genere", spostandolo fuori dal capitolo dei disturbi mentali e collocandolo in un nuovo capitolo intitolato "Condizioni relative alla salute sessuale".
+Il passaggio più significativo degli ultimi decenni è avvenuto il 1 gennaio 2022, quando è entrata in vigore l'undicesima revisione della Classificazione Internazionale delle Malattie (ICD-11) dell'Organizzazione Mondiale della Sanità [1]. L'ICD-11 ha eliminato il termine "transessualismo" e lo ha sostituito con "incongruenza di genere", spostandolo fuori dal capitolo dei disturbi mentali e collocandolo in un nuovo capitolo intitolato "Condizioni relative alla salute sessuale" [1].
 
-Non è un cambiamento cosmetico. È un cambiamento di paradigma. L'OMS ha riconosciuto esplicitamente che essere transgender non è una malattia mentale. L'incongruenza di genere nell'ICD-11 non richiede la presenza di disagio o disfunzione per essere riconosciuta -- a differenza della "disforia di genere" del DSM-5, che mantiene il criterio del disagio clinicamente significativo.
+Non è un cambiamento cosmetico. È un cambiamento di paradigma. L'OMS ha riconosciuto esplicitamente che essere transgender non è una malattia mentale [1]. L'incongruenza di genere nell'ICD-11 non richiede la presenza di disagio o disfunzione per essere riconosciuta -- a differenza della "disforia di genere" del DSM-5, che mantiene il criterio del disagio clinicamente significativo [3].
 
-Perché allora mantenere una voce nell'ICD-11? La risposta è pragmatica: molte persone transgender hanno bisogno di accedere a cure mediche -- terapia ormonale, interventi chirurgici, supporto psicologico -- e in molti sistemi sanitari l'accesso a queste cure richiede una classificazione riconosciuta. Eliminare completamente la voce avrebbe potuto paradossalmente ridurre l'accesso alle cure. La soluzione dell'OMS è stata mantenere il riconoscimento clinico senza la patologizzazione: le cure esistono per chi le desidera, ma essere trans non è più classificato come un disturbo.
+Perché allora mantenere una voce nell'ICD-11? La risposta è pragmatica: molte persone transgender hanno bisogno di accedere a cure mediche -- terapia ormonale, interventi chirurgici, supporto psicologico -- e in molti sistemi sanitari l'accesso a queste cure richiede una classificazione riconosciuta. Eliminare completamente la voce avrebbe potuto paradossalmente ridurre l'accesso alle cure. La soluzione dell'OMS è stata mantenere il riconoscimento clinico senza la patologizzazione: le cure esistono per chi le desidera, ma essere trans non è più classificato come un disturbo [1][3].
 
-Come ha spiegato il gruppo di lavoro guidato da Geoffrey Reed, l'obiettivo era trovare un equilibrio tra la depatologizzazione e la garanzia di accesso ai servizi sanitari.
+Come ha spiegato il gruppo di lavoro guidato da Geoffrey Reed, l'obiettivo era trovare un equilibrio tra la depatologizzazione e la garanzia di accesso ai servizi sanitari [13].
 
 ## Identità valida e accesso alle cure: una distinzione fondamentale
 
 Questa è forse la distinzione più importante di questo articolo, e vale la pena metterla in chiaro.
 
-**L'identità di genere di una persona è valida indipendentemente da qualsiasi certificazione.** Nessuno ha bisogno di un permesso per essere chi è. Le linee guida WPATH (Standards of Care, versione 8, 2022) lo affermano chiaramente: l'accesso alle cure di affermazione di genere deve basarsi sull'informazione e sul consenso della persona, non sulle parole specifiche che le persone transgender o i loro professionisti usano per descrivere le proprie identità.
+**L'identità di genere di una persona è valida indipendentemente da qualsiasi certificazione.** Nessuno ha bisogno di un permesso per essere chi è. Le linee guida WPATH (Standards of Care, versione 8, 2022) lo affermano chiaramente: l'accesso alle cure di affermazione di genere deve basarsi sull'informazione e sul consenso della persona, non sulle parole specifiche che le persone transgender o i loro professionisti usano per descrivere le proprie identità [2].
 
-Tuttavia, per accedere a determinati percorsi medici o legali, possono essere necessari dei passaggi formali. In Italia, ad esempio, la terapia ormonale di affermazione di genere richiede una prescrizione medica e una valutazione che confermi l'incongruenza di genere. La rettificazione anagrafica -- il cambio di nome e genere sui documenti -- richiede un procedimento giudiziario.
+Tuttavia, per accedere a determinati percorsi medici o legali, possono essere necessari dei passaggi formali. In Italia, ad esempio, la terapia ormonale di affermazione di genere richiede una prescrizione medica e una valutazione che confermi l'incongruenza di genere [9]. La rettificazione anagrafica -- il cambio di nome e genere sui documenti -- richiede un procedimento giudiziario [6].
 
 Questi requisiti non significano che la tua identità debba essere "confermata" da qualcuno per essere reale. Significano che il sistema -- legale e sanitario -- ha ancora delle procedure che devi attraversare per ottenere determinati servizi. La tua identità esiste prima, durante e dopo queste procedure. Non dipende da esse.
 
@@ -97,44 +97,44 @@ Questi requisiti non significano che la tua identità debba essere "confermata" 
 
 Per decenni, l'accesso alle cure di affermazione di genere è stato regolato da un modello chiamato **gatekeeping**. In questo sistema, il professionista sanitario -- spesso uno psicologo o uno psichiatra -- aveva il compito di stabilire se la persona fosse "veramente" transgender e se fosse "pronta" a intraprendere un percorso medico. In pratica, significava che qualcun altro decideva se la tua identità fosse legittima.
 
-Le critiche a questo modello sono documentate da una letteratura scientifica sempre più ampia. Una revisione pubblicata nel 2022 sul Qualitative Health Research ha analizzato il concetto di "mental readiness" -- la prontezza mentale -- come criterio di accesso alle cure, concludendo che questo approccio non è supportato da evidenze scientifiche solide e che è basato più su pregiudizi dei medici che su dati clinici.
+Le critiche a questo modello sono documentate da una letteratura scientifica sempre più ampia. Una revisione pubblicata nel 2022 sul Qualitative Health Research ha analizzato il concetto di "mental readiness" -- la prontezza mentale -- come criterio di accesso alle cure, concludendo che questo approccio non è supportato da evidenze scientifiche solide e che è basato più su pregiudizi dei medici che su dati clinici [4].
 
-Le conseguenze concrete del gatekeeping sono state documentate in modo dettagliato. Uno studio pubblicato su PLOS Digital Health nel 2025 ha analizzato migliaia di testimonianze di persone transgender sulle barriere all'accesso alle cure, identificando come problemi principali: la mancanza di conoscenze da parte dei professionisti sanitari, i pregiudizi impliciti, le credenze binarie rigide sul genere, i requisiti documentali eccessivi e i tempi di attesa arbitrari per la terapia ormonale.
+Le conseguenze concrete del gatekeeping sono state documentate in modo dettagliato. Uno studio pubblicato su PLOS Digital Health nel 2025 ha analizzato migliaia di testimonianze di persone transgender sulle barriere all'accesso alle cure, identificando come problemi principali: la mancanza di conoscenze da parte dei professionisti sanitari, i pregiudizi impliciti, le credenze binarie rigide sul genere, i requisiti documentali eccessivi e i tempi di attesa arbitrari per la terapia ormonale [5].
 
-Il gatekeeping non è solo un inconveniente burocratico. Ha conseguenze misurabili sulla salute mentale: le persone che si vedono negare o ritardare l'accesso alle cure sviluppano con maggiore frequenza depressione, ansia e ideazione suicidaria. Molte finiscono per evitare del tutto il sistema sanitario, con rischi per la salute complessiva.
+Il gatekeeping non è solo un inconveniente burocratico. Ha conseguenze misurabili sulla salute mentale: le persone che si vedono negare o ritardare l'accesso alle cure sviluppano con maggiore frequenza depressione, ansia e ideazione suicidaria [5]. Molte finiscono per evitare del tutto il sistema sanitario, con rischi per la salute complessiva.
 
-Come ha scritto l'American Scientist, le pratiche di gatekeeping nella transizione medica non sono giustificate dalle evidenze disponibili e dovrebbero essere superate a favore di modelli che rispettino l'autonomia della persona.
+Come ha scritto l'American Scientist, le pratiche di gatekeeping nella transizione medica non sono giustificate dalle evidenze disponibili e dovrebbero essere superate a favore di modelli che rispettino l'autonomia della persona [14].
 
 ## Il consenso informato: un modello diverso
 
 La direzione verso cui si sta muovendo la medicina internazionale è il **modello del consenso informato**. In questo approccio, il ruolo del professionista non è decidere se la persona "meriti" le cure, ma assicurarsi che abbia tutte le informazioni necessarie per prendere una decisione autonoma e consapevole.
 
-Le linee guida WPATH SOC-8, pubblicate nel 2022, rappresentano un passaggio esplicito dal gatekeeping al consenso informato. Il documento raccomanda che i professionisti si concentrino sul fornire informazioni complete su rischi, benefici, alternative e possibili effetti irreversibili dei trattamenti, e che rispettino la decisione della persona.
+Le linee guida WPATH SOC-8, pubblicate nel 2022, rappresentano un passaggio esplicito dal gatekeeping al consenso informato [2]. Il documento raccomanda che i professionisti si concentrino sul fornire informazioni complete su rischi, benefici, alternative e possibili effetti irreversibili dei trattamenti, e che rispettino la decisione della persona [2].
 
-In Italia, il modello del consenso informato si sta facendo strada, anche se con lentezza. L'Istituto Superiore di Sanità, nel documento sull'appropriatezza terapeutica nelle persone transgender, specifica che prima di iniziare qualsiasi percorso la persona deve essere informata su tutte le procedure disponibili, i rischi, l'irreversibilità di alcuni trattamenti, e deve poter esprimere un consenso informato scritto. Il portale InfoTrans, creato dall'ISS e dall'UNAR, dettaglia i criteri di accesso alla terapia ormonale: incongruenza di genere marcata e stabile, capacità di fornire il consenso informato, presa in carico di eventuali problemi interferenti e comprensione degli effetti sulla fertilità.
+In Italia, il modello del consenso informato si sta facendo strada, anche se con lentezza. L'Istituto Superiore di Sanità, nel documento sull'appropriatezza terapeutica nelle persone transgender, specifica che prima di iniziare qualsiasi percorso la persona deve essere informata su tutte le procedure disponibili, i rischi, l'irreversibilità di alcuni trattamenti, e deve poter esprimere un consenso informato scritto [9]. Il portale InfoTrans, creato dall'ISS e dall'UNAR, dettaglia i criteri di accesso alla terapia ormonale: incongruenza di genere marcata e stabile, capacità di fornire il consenso informato, presa in carico di eventuali problemi interferenti e comprensione degli effetti sulla fertilità [8].
 
 È un modello che restituisce potere alla persona. Non elimina il ruolo dei professionisti -- che resta fondamentale per la sicurezza medica -- ma lo ridefinisce: il professionista è un alleato informato, non un guardiano che decide chi passa e chi no.
 
 ## Cosa prevede la legge italiana
 
-In Italia, la rettificazione anagrafica -- cioè il cambio di nome e genere sui documenti ufficiali -- è regolata dalla **Legge 164 del 1982**. È una legge che ha ormai più di quarant'anni e che, nonostante alcune interpretazioni giurisprudenziali progressive, riflette un'epoca in cui essere transgender era ancora considerato una patologia.
+In Italia, la rettificazione anagrafica -- cioè il cambio di nome e genere sui documenti ufficiali -- è regolata dalla **Legge 164 del 1982** [6]. È una legge che ha ormai più di quarant'anni e che, nonostante alcune interpretazioni giurisprudenziali progressive, riflette un'epoca in cui essere transgender era ancora considerato una patologia.
 
 ### La procedura
 
-La legge prevede un procedimento giudiziario: la persona deve presentare un ricorso al tribunale. Il giudice può disporre una consulenza tecnica d'ufficio (CTU) -- tipicamente una valutazione psicologica o psichiatrica -- per accertare le "condizioni psico-sessuali" della persona.
+La legge prevede un procedimento giudiziario: la persona deve presentare un ricorso al tribunale [6]. Il giudice può disporre una consulenza tecnica d'ufficio (CTU) -- tipicamente una valutazione psicologica o psichiatrica -- per accertare le "condizioni psico-sessuali" della persona.
 
 Due sentenze della Corte Costituzionale hanno modernizzato parzialmente il quadro:
 
-- **Sentenza 221/2015**: ha stabilito che l'intervento chirurgico di riassegnazione non è un requisito indispensabile per ottenere la rettificazione anagrafica. Il trattamento chirurgico è una possibilità, non un obbligo, e la scelta dei mezzi per realizzare il proprio percorso è lasciata alla persona.
+- **Sentenza 221/2015**: ha stabilito che l'intervento chirurgico di riassegnazione non è un requisito indispensabile per ottenere la rettificazione anagrafica [7]. Il trattamento chirurgico è una possibilità, non un obbligo, e la scelta dei mezzi per realizzare il proprio percorso è lasciata alla persona.
 - **Sentenza 180/2017**: ha confermato che non è obbligatorio l'intervento chirurgico demolitorio o modificativo dei caratteri sessuali primari.
 
 Questo significa che oggi, in Italia, è possibile ottenere il cambio dei documenti senza aver subito interventi chirurgici. Nella pratica, però, l'esperienza varia enormemente da tribunale a tribunale: alcuni giudici richiedono perizie approfondite, altri si basano sulla documentazione del percorso terapeutico, altri ancora sono più aperti a percorsi senza terapia ormonale.
 
 ### La terapia ormonale
 
-Dal 1 ottobre 2020, grazie alle Determine dell'Agenzia Italiana del Farmaco (AIFA), la terapia ormonale sostitutiva per le persone transgender è erogabile a totale carico del Servizio Sanitario Nazionale. Per accedervi è necessario rivolgersi a un centro specializzato -- i centri collegati all'ONIG (Osservatorio Nazionale sull'Identità di Genere) sono presenti in diverse regioni -- e seguire un percorso che include una valutazione e la prescrizione da parte di un endocrinologo.
+Dal 1 ottobre 2020, grazie alle Determine dell'Agenzia Italiana del Farmaco (AIFA), la terapia ormonale sostitutiva per le persone transgender è erogabile a totale carico del Servizio Sanitario Nazionale. Per accedervi è necessario rivolgersi a un centro specializzato -- i centri collegati all'ONIG (Osservatorio Nazionale sull'Identità di Genere) sono presenti in diverse regioni -- e seguire un percorso che include una valutazione e la prescrizione da parte di un endocrinologo [9].
 
-I tempi di attesa possono essere lunghi, a volte di molti mesi, e questo rappresenta una delle principali criticità del sistema italiano. Il portale InfoTrans offre una mappa aggiornata dei servizi disponibili regione per regione.
+I tempi di attesa possono essere lunghi, a volte di molti mesi, e questo rappresenta una delle principali criticità del sistema italiano. Il portale InfoTrans offre una mappa aggiornata dei servizi disponibili regione per regione [8].
 
 ## Come funziona nel resto del mondo
 
@@ -142,19 +142,19 @@ L'Italia non è sola nella sua impostazione, ma non è nemmeno all'avanguardia. 
 
 ### Argentina (2012)
 
-L'Argentina è stata il primo Paese al mondo a introdurre il riconoscimento legale del genere basato sulla sola dichiarazione della persona. La Ley de Identidad de Genero, approvata quasi all'unanimità dal Senato nel maggio 2012, consente a tutte le persone maggiorenni di modificare nome, immagine e genere sui documenti ufficiali attraverso una procedura gratuita, senza alcuna valutazione medica, psicologica o giudiziaria. Dal 2012 al 2022, oltre 12.655 persone hanno utilizzato questa procedura. Nel 2021 è stata introdotta anche la categoria "X" per le identità non binarie.
+L'Argentina è stata il primo Paese al mondo a introdurre il riconoscimento legale del genere basato sulla sola dichiarazione della persona [10]. La Ley de Identidad de Genero, approvata quasi all'unanimità dal Senato nel maggio 2012, consente a tutte le persone maggiorenni di modificare nome, immagine e genere sui documenti ufficiali attraverso una procedura gratuita, senza alcuna valutazione medica, psicologica o giudiziaria [10]. Dal 2012 al 2022, oltre 12.655 persone hanno utilizzato questa procedura. Nel 2021 è stata introdotta anche la categoria "X" per le identità non binarie.
 
 ### Danimarca (2014)
 
-La Danimarca è stato il primo Paese europeo a adottare il modello dell'autodeterminazione, nel 2014. La rettificazione anagrafica avviene attraverso una semplice dichiarazione scritta, senza requisiti medici. I dati mostrano che i cambiamenti ripetuti -- spesso citati come preoccupazione dai detrattori -- sono in percentuali prossime allo zero.
+La Danimarca è stato il primo Paese europeo a adottare il modello dell'autodeterminazione, nel 2014 [12]. La rettificazione anagrafica avviene attraverso una semplice dichiarazione scritta, senza requisiti medici. I dati mostrano che i cambiamenti ripetuti -- spesso citati come preoccupazione dai detrattori -- sono in percentuali prossime allo zero.
 
 ### Malta (2015)
 
-Malta ha approvato nel 2015 il Gender Identity, Gender Expression and Sex Characteristics Act, che consente il cambio dei documenti tramite un atto notarile, senza alcun requisito medico. Dal 2016, anche i minori dai 16 anni possono accedere alla procedura senza bisogno di un'autorizzazione giudiziaria. Malta è stata inoltre il primo Paese al mondo a vietare per legge gli interventi chirurgici non necessari sui neonati intersex.
+Malta ha approvato nel 2015 il Gender Identity, Gender Expression and Sex Characteristics Act, che consente il cambio dei documenti tramite un atto notarile, senza alcun requisito medico [11]. Dal 2016, anche i minori dai 16 anni possono accedere alla procedura senza bisogno di un'autorizzazione giudiziaria. Malta è stata inoltre il primo Paese al mondo a vietare per legge gli interventi chirurgici non necessari sui neonati intersex [11].
 
 ### Il quadro europeo
 
-Dopo la Danimarca, il modello dell'autodeterminazione è stato adottato da Norvegia, Belgio, Irlanda, Portogallo, Svizzera, Spagna e, dal novembre 2024, dalla Germania con il Selbstbestimmungsgesetz. In tutti questi Paesi, le previsioni catastrofiche dei detrattori -- abusi del sistema, ondate di "pentimenti", conseguenze negative per le donne -- non si sono verificate.
+Dopo la Danimarca, il modello dell'autodeterminazione è stato adottato da Norvegia, Belgio, Irlanda, Portogallo, Svizzera, Spagna e, dal novembre 2024, dalla Germania con il Selbstbestimmungsgesetz [12]. In tutti questi Paesi, le previsioni catastrofiche dei detrattori -- abusi del sistema, ondate di "pentimenti", conseguenze negative per le donne -- non si sono verificate.
 
 L'Italia resta ancorata a un modello giudiziario. Più volte negli ultimi anni sono state presentate proposte di riforma, ma nessuna ha raggiunto l'approvazione parlamentare.
 
@@ -162,7 +162,7 @@ L'Italia resta ancorata a un modello giudiziario. Più volte negli ultimi anni s
 
 Questa obiezione riflette un'incomprensione fondamentale di cosa sia l'identità di genere. L'identità di genere è un'esperienza soggettiva -- come lo sono l'orientamento sessuale, la fede religiosa, il senso di appartenenza culturale. Nessuno chiede una certificazione per essere eterosessuale. Nessuno chiede un referto medico per essere cattolico. Eppure, per le persone transgender, si pretende una prova.
 
-L'OMS, la WPATH, l'APA e la comunità scientifica internazionale concordano: l'identità di genere è un aspetto fondamentale dell'esperienza umana e non è qualcosa che debba essere "diagnosticato" dall'esterno. La diagnosi -- o meglio, il riconoscimento clinico dell'incongruenza di genere -- ha un ruolo pratico: facilita l'accesso alle cure per chi le desidera. Ma non definisce l'identità della persona.
+L'OMS, la WPATH, l'APA e la comunità scientifica internazionale concordano: l'identità di genere è un aspetto fondamentale dell'esperienza umana e non è qualcosa che debba essere "diagnosticato" dall'esterno [1][2]. La diagnosi -- o meglio, il riconoscimento clinico dell'incongruenza di genere -- ha un ruolo pratico: facilita l'accesso alle cure per chi le desidera. Ma non definisce l'identità della persona.
 
 Detto in modo semplice: **la diagnosi può servire per le cure. Non serve per essere chi sei.**
 
@@ -172,7 +172,7 @@ Se sei una persona transgender in Italia e stai pensando a come muoverti, ecco a
 
 ### Se vuoi accedere a un percorso medico
 
-1. **Individua il centro più vicino.** Il portale [InfoTrans](https://www.infotrans.it/) dell'Istituto Superiore di Sanità ha una mappa completa dei servizi pubblici e convenzionati, regione per regione.
+1. **Individua il centro più vicino.** Il portale [InfoTrans](https://www.infotrans.it/) dell'Istituto Superiore di Sanità ha una mappa completa dei servizi pubblici e convenzionati, regione per regione [8].
 2. **Prenota una prima visita.** Il percorso inizia tipicamente con un colloquio presso il servizio di salute mentale del centro, che serve a stabilire un quadro complessivo e a concordare il percorso.
 3. **Sappi che la terapia ormonale è gratuita.** Dal 2020, il SSN copre i costi della terapia ormonale sostitutiva.
 4. **I tempi possono essere lunghi.** Purtroppo i centri pubblici hanno spesso liste di attesa di diversi mesi. Le associazioni del territorio possono aiutarti a orientarti e a trovare supporto nel frattempo.
@@ -180,8 +180,8 @@ Se sei una persona transgender in Italia e stai pensando a come muoverti, ecco a
 ### Se vuoi cambiare i documenti
 
 1. **Rivolgiti a un avvocato specializzato** o a un'associazione che offra supporto legale (il MIT, Azione Trans e molte altre offrono questo servizio).
-2. **La chirurgia non è obbligatoria.** La Corte Costituzionale ha chiarito che non è necessario un intervento chirurgico per ottenere la rettificazione.
-3. **La procedura è giudiziaria.** Dovrai presentare un ricorso al tribunale. I tempi e le modalità variano da tribunale a tribunale.
+2. **La chirurgia non è obbligatoria.** La Corte Costituzionale ha chiarito che non è necessario un intervento chirurgico per ottenere la rettificazione [7].
+3. **La procedura è giudiziaria.** Dovrai presentare un ricorso al tribunale [6]. I tempi e le modalità variano da tribunale a tribunale.
 
 ### Se non vuoi fare nulla di tutto questo
 
@@ -189,9 +189,9 @@ Va benissimo. Non tutte le persone transgender scelgono un percorso medico o leg
 
 ## Il futuro: verso l'autodeterminazione
 
-Il dibattito internazionale si sta muovendo con chiarezza verso un modello fondato sull'autodeterminazione. Le evidenze scientifiche supportano questo orientamento: la depatologizzazione nell'ICD-11, il passaggio al consenso informato nelle linee guida WPATH, l'esperienza positiva dei Paesi che hanno adottato leggi sull'autodeterminazione -- tutto punta nella stessa direzione.
+Il dibattito internazionale si sta muovendo con chiarezza verso un modello fondato sull'autodeterminazione. Le evidenze scientifiche supportano questo orientamento: la depatologizzazione nell'ICD-11 [1], il passaggio al consenso informato nelle linee guida WPATH [2], l'esperienza positiva dei Paesi che hanno adottato leggi sull'autodeterminazione [10][11][12] -- tutto punta nella stessa direzione.
 
-L'Italia è ancora indietro rispetto a molti Paesi europei su questo fronte. La Legge 164 del 1982 è stata reinterpretata dalla giurisprudenza in modo più progressivo -- eliminando l'obbligo chirurgico, per esempio -- ma resta un impianto che richiede l'intervento del giudice e, nella pratica, spesso anche una valutazione psicologica. Per molte persone transgender, questo significa affrontare un sistema che chiede loro di dimostrare chi sono a qualcuno che ha il potere di dire sì o no.
+L'Italia è ancora indietro rispetto a molti Paesi europei su questo fronte. La Legge 164 del 1982 è stata reinterpretata dalla giurisprudenza in modo più progressivo -- eliminando l'obbligo chirurgico, per esempio [7] -- ma resta un impianto che richiede l'intervento del giudice e, nella pratica, spesso anche una valutazione psicologica. Per molte persone transgender, questo significa affrontare un sistema che chiede loro di dimostrare chi sono a qualcuno che ha il potere di dire sì o no.
 
 Le riforme legislative sono necessarie, e il modello dei Paesi che hanno già adottato l'autodeterminazione dimostra che funzionano -- senza gli effetti negativi paventati dai critici. Ma nel frattempo, una cosa va detta con chiarezza.
 
@@ -201,6 +201,6 @@ Puoi essere transgender senza aver mai visto uno psicologo. Puoi essere transgen
 
 Le certificazioni, le diagnosi, le procedure legali -- tutto questo ha un ruolo pratico: serve per accedere a cure e diritti. Ma non definisce chi sei. Non ti rende "più trans" o "meno trans". Non è un esame da superare.
 
-L'Organizzazione Mondiale della Sanità lo ha riconosciuto spostando l'incongruenza di genere fuori dai disturbi mentali. Le principali organizzazioni mediche internazionali lo ribadiscono nei loro standard di cura. I Paesi più avanzati lo hanno tradotto in legge.
+L'Organizzazione Mondiale della Sanità lo ha riconosciuto spostando l'incongruenza di genere fuori dai disturbi mentali [1]. Le principali organizzazioni mediche internazionali lo ribadiscono nei loro standard di cura [2]. I Paesi più avanzati lo hanno tradotto in legge [10][11][12].
 
 La scienza è chiara. La direzione è chiara. E anche se il tuo Paese non è ancora arrivato dove dovrebbe, la tua identità è già valida. Lo è sempre stata.

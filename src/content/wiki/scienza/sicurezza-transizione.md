@@ -81,13 +81,13 @@ Per la transizione medica si applica lo stesso principio. La domanda non è "ci 
 
 ### La revisione della Cornell University
 
-Il progetto What We Know della Cornell University ha condotto una delle revisioni più ampie disponibili, analizzando oltre 4.000 studi e identificandone 56 che valutavano direttamente l'impatto della transizione di genere sul benessere delle persone transgender. Il risultato: il **93% degli studi** (52 su 56) ha riscontrato effetti positivi dalla transizione. Solo 4 studi hanno riportato risultati misti o nulli. Nessuno ha trovato che la transizione peggiorasse il benessere complessivo.
+Il progetto What We Know della Cornell University ha condotto una delle revisioni più ampie disponibili, analizzando oltre 4.000 studi e identificandone 56 che valutavano direttamente l'impatto della transizione di genere sul benessere delle persone transgender [1]. Il risultato: il **93% degli studi** (52 su 56) ha riscontrato effetti positivi dalla transizione. Solo 4 studi hanno riportato risultati misti o nulli. Nessuno ha trovato che la transizione peggiorasse il benessere complessivo [1].
 
-I benefici documentati includono miglioramento della qualità della vita, maggiore soddisfazione relazionale, aumento dell'autostima, riduzione di ansia, depressione, tendenze suicidarie e abuso di sostanze. La revisione ha anche notato che i risultati positivi sono migliorati nel tempo, man mano che le tecniche chirurgiche e il supporto sociale sono progrediti.
+I benefici documentati includono miglioramento della qualità della vita, maggiore soddisfazione relazionale, aumento dell'autostima, riduzione di ansia, depressione, tendenze suicidarie e abuso di sostanze [1]. La revisione ha anche notato che i risultati positivi sono migliorati nel tempo, man mano che le tecniche chirurgiche e il supporto sociale sono progrediti.
 
 ### La meta-analisi di Murad et al.
 
-La meta-analisi di Murad et al. (2010), condotta dalla Mayo Clinic e pubblicata su Clinical Endocrinology, ha analizzato 28 studi su 1.833 partecipanti (1.093 donne trans e 801 uomini trans). I risultati:
+La meta-analisi di Murad et al. (2010), condotta dalla Mayo Clinic e pubblicata su Clinical Endocrinology, ha analizzato 28 studi su 1.833 partecipanti (1.093 donne trans e 801 uomini trans). I risultati [2]:
 
 - **80%** ha riportato un miglioramento significativo della disforia di genere
 - **78%** ha riportato un miglioramento dei sintomi psicologici
@@ -98,9 +98,9 @@ Questi numeri non descrivono un trattamento "sperimentale". Descrivono un tratta
 
 ### Lo studio di de Vries et al. su giovani adulti
 
-Lo studio longitudinale di de Vries et al. (2014), pubblicato su Pediatrics, ha seguito 55 giovani adulti transgender che avevano ricevuto la soppressione puberale durante l'adolescenza, valutandoli in tre momenti: prima dell'inizio del trattamento (età media 13,6 anni), all'introduzione degli ormoni cross-sex (età media 16,7 anni) e almeno un anno dopo la chirurgia di riassegnazione (età media 20,7 anni).
+Lo studio longitudinale di de Vries et al. (2014), pubblicato su Pediatrics, ha seguito 55 giovani adulti transgender che avevano ricevuto la soppressione puberale durante l'adolescenza, valutandoli in tre momenti: prima dell'inizio del trattamento (età media 13,6 anni), all'introduzione degli ormoni cross-sex (età media 16,7 anni) e almeno un anno dopo la chirurgia di riassegnazione (età media 20,7 anni) [3].
 
-I risultati hanno mostrato un miglioramento costante della disforia di genere, dell'immagine corporea, del funzionamento globale e della soddisfazione di vita. Depressione, ansia e problemi emotivi e comportamentali si sono ridotti significativamente. Nessun partecipante ha espresso rimpianto. Questo studio rimane uno dei riferimenti principali per l'efficacia del protocollo olandese di soppressione puberale seguita da ormoni e chirurgia.
+I risultati hanno mostrato un miglioramento costante della disforia di genere, dell'immagine corporea, del funzionamento globale e della soddisfazione di vita. Depressione, ansia e problemi emotivi e comportamentali si sono ridotti significativamente. Nessun partecipante ha espresso rimpianto [3]. Questo studio rimane uno dei riferimenti principali per l'efficacia del protocollo olandese di soppressione puberale seguita da ormoni e chirurgia.
 
 ## Salute mentale: i dati sull'impatto
 
@@ -108,13 +108,13 @@ La transizione medica non è solo una questione di cambiamenti fisici. Il suo im
 
 ### Riduzione di depressione e suicidio
 
-Lo studio di Tordoff et al. (2022), pubblicato su JAMA Network Open, ha seguito una coorte di 104 giovani transgender e non binari (13-20 anni) che avevano iniziato cure di affermazione di genere. Dopo 12 mesi, chi aveva ricevuto bloccanti della pubertà o ormoni aveva il **60% in meno di probabilità** di soffrire di depressione moderata o grave e il **73% in meno di probabilità** di ideazione suicidaria rispetto a chi non aveva iniziato il trattamento.
+Lo studio di Tordoff et al. (2022), pubblicato su JAMA Network Open, ha seguito una coorte di 104 giovani transgender e non binari (13-20 anni) che avevano iniziato cure di affermazione di genere. Dopo 12 mesi, chi aveva ricevuto bloccanti della pubertà o ormoni aveva il **60% in meno di probabilità** di soffrire di depressione moderata o grave e il **73% in meno di probabilità** di ideazione suicidaria rispetto a chi non aveva iniziato il trattamento [9].
 
-Il dato più significativo: chi non aveva iniziato gli ormoni entro i primi 3-6 mesi dal primo accesso alla clinica mostrava un aumento di 2-3 volte dei sintomi depressivi e dell'ideazione suicidaria. Questo suggerisce che le liste d'attesa e i ritardi nell'accesso non sono solo un inconveniente burocratico, ma un fattore di rischio clinico.
+Il dato più significativo: chi non aveva iniziato gli ormoni entro i primi 3-6 mesi dal primo accesso alla clinica mostrava un aumento di 2-3 volte dei sintomi depressivi e dell'ideazione suicidaria [9]. Questo suggerisce che le liste d'attesa e i ritardi nell'accesso non sono solo un inconveniente burocratico, ma un fattore di rischio clinico.
 
 ### Chirurgia e benessere psicologico
 
-Lo studio di Almazan e Keuroghlian (2021), pubblicato su JAMA Surgery, ha analizzato i dati di 27.715 adulti transgender dalla US Transgender Survey. Le persone che avevano ricevuto almeno un intervento chirurgico di affermazione di genere mostravano:
+Lo studio di Almazan e Keuroghlian (2021), pubblicato su JAMA Surgery, ha analizzato i dati di 27.715 adulti transgender dalla US Transgender Survey. Le persone che avevano ricevuto almeno un intervento chirurgico di affermazione di genere mostravano [10]:
 
 - **42% in meno** di disagio psicologico nel mese precedente
 - **35% in meno** di probabilità di fumo nell'anno precedente
@@ -128,13 +128,13 @@ Uno dei modi più diretti per valutare la sicurezza di un trattamento è chieder
 
 ### Rimpianto chirurgico: meno del 2%
 
-La meta-analisi di Bustos et al. (2021), pubblicata su Plastic and Reconstructive Surgery -- Global Open, ha analizzato 27 studi su 7.928 pazienti transgender. Il **tasso complessivo di rimpianto dopo chirurgia di affermazione di genere è risultato dell'1%** (intervallo di confidenza al 95%: meno dell'1% -- 2%).
+La meta-analisi di Bustos et al. (2021), pubblicata su Plastic and Reconstructive Surgery -- Global Open, ha analizzato 27 studi su 7.928 pazienti transgender. Il **tasso complessivo di rimpianto dopo chirurgia di affermazione di genere è risultato dell'1%** (intervallo di confidenza al 95%: meno dell'1% -- 2%) [5].
 
-Lo studio di coorte di Amsterdam (Wiepjes et al., 2018), che ha seguito 6.793 persone tra il 1972 e il 2015, ha riportato tassi di rimpianto dopo gonadectomia dello **0,6% per le donne trans** e dello **0,3% per gli uomini trans**. Questi numeri non sono aumentati nel tempo, nonostante il numero di persone in trattamento sia cresciuto di 20 volte nel periodo dello studio.
+Lo studio di coorte di Amsterdam (Wiepjes et al., 2018), che ha seguito 6.793 persone tra il 1972 e il 2015, ha riportato tassi di rimpianto dopo gonadectomia dello **0,6% per le donne trans** e dello **0,3% per gli uomini trans** [4]. Questi numeri non sono aumentati nel tempo, nonostante il numero di persone in trattamento sia cresciuto di 20 volte nel periodo dello studio [4].
 
 ### Il confronto con altri interventi
 
-Per contestualizzare questi numeri, la revisione sistematica di Boyd et al. (2024), pubblicata su The American Journal of Surgery, ha confrontato i tassi di rimpianto chirurgico tra specialità diverse:
+Per contestualizzare questi numeri, la revisione sistematica di Boyd et al. (2024), pubblicata su The American Journal of Surgery, ha confrontato i tassi di rimpianto chirurgico tra specialità diverse [11]:
 
 | Intervento | Tasso di rimpianto |
 |---|---|
@@ -145,7 +145,7 @@ Per contestualizzare questi numeri, la revisione sistematica di Boyd et al. (202
 | Chirurgia alla schiena | fino al 21% |
 | Ricostruzione mammaria | 0--47,1% |
 
-Il rimpianto dopo chirurgia di affermazione di genere è tra i più bassi in tutta la medicina. Nessuno degli altri interventi elencati è oggetto di campagne legislative per limitarne l'accesso. Questo doppio standard non è giustificabile sul piano scientifico.
+Il rimpianto dopo chirurgia di affermazione di genere è tra i più bassi in tutta la medicina [11]. Nessuno degli altri interventi elencati è oggetto di campagne legislative per limitarne l'accesso. Questo doppio standard non è giustificabile sul piano scientifico.
 
 ## I rischi reali: una panoramica onesta
 
@@ -153,46 +153,46 @@ Affermare che la transizione medica è sicura non significa negare l'esistenza d
 
 ### Tromboembolismo venoso (TEV)
 
-Il rischio di trombosi venosa profonda e embolia polmonare è il rischio più studiato della terapia estrogenica nelle donne trans. Una meta-analisi pubblicata su Frontiers in Endocrinology (2021) ha confermato un aumento del rischio di TEV nelle donne trans in terapia estrogenica rispetto alla popolazione generale.
+Il rischio di trombosi venosa profonda e embolia polmonare è il rischio più studiato della terapia estrogenica nelle donne trans. Una meta-analisi pubblicata su Frontiers in Endocrinology (2021) ha confermato un aumento del rischio di TEV nelle donne trans in terapia estrogenica rispetto alla popolazione generale [12].
 
-Tuttavia, il contesto è importante. Il rischio è fortemente influenzato dalla **via di somministrazione**: gli estrogeni orali presentano un rischio significativamente più alto rispetto a quelli transdermici (cerotti o gel). Le formulazioni transdermiche mostrano un rischio di TEV comparabile a quello della popolazione generale. Questo è coerente con quanto osservato nelle donne cisgender: i contraccettivi orali aumentano il rischio di TEV a 3-9 casi ogni 10.000 donne per anno, rispetto a 1-5 nella popolazione generale. La terapia estrogenica transdermica per le donne trans non supera sostanzialmente questi valori.
+Tuttavia, il contesto è importante. Il rischio è fortemente influenzato dalla **via di somministrazione**: gli estrogeni orali presentano un rischio significativamente più alto rispetto a quelli transdermici (cerotti o gel). Le formulazioni transdermiche mostrano un rischio di TEV comparabile a quello della popolazione generale [12]. Questo è coerente con quanto osservato nelle donne cisgender: i contraccettivi orali aumentano il rischio di TEV a 3-9 casi ogni 10.000 donne per anno, rispetto a 1-5 nella popolazione generale. La terapia estrogenica transdermica per le donne trans non supera sostanzialmente questi valori.
 
-Le linee guida della Endocrine Society (2017) raccomandano di preferire la via transdermica, specialmente nelle pazienti con fattori di rischio aggiuntivi (fumo, obesità, età avanzata, storia familiare di trombosi).
+Le linee guida della Endocrine Society (2017) raccomandano di preferire la via transdermica, specialmente nelle pazienti con fattori di rischio aggiuntivi (fumo, obesità, età avanzata, storia familiare di trombosi) [7].
 
 ### Rischio cardiovascolare
 
-Lo studio di coorte di Getahun et al. (2018), pubblicato su Annals of Internal Medicine, ha analizzato i dati di 2.842 donne trans e 2.118 uomini trans nei sistemi sanitari Kaiser Permanente, confrontandoli con quasi 100.000 controlli cisgender.
+Lo studio di coorte di Getahun et al. (2018), pubblicato su Annals of Internal Medicine, ha analizzato i dati di 2.842 donne trans e 2.118 uomini trans nei sistemi sanitari Kaiser Permanente, confrontandoli con quasi 100.000 controlli cisgender [6].
 
-I risultati hanno mostrato un aumento moderato degli eventi cardiovascolari nelle donne trans rispetto alle donne cisgender, ma non rispetto agli uomini cisgender. Negli uomini trans, il profilo di rischio si è spostato verso quello tipico degli uomini cisgender. In entrambi i casi, i tassi assoluti di eventi rimangono bassi: circa 3 casi di TEV per 1.000 persone-anno nelle donne trans, con tassi di ictus e infarto inferiori.
+I risultati hanno mostrato un aumento moderato degli eventi cardiovascolari nelle donne trans rispetto alle donne cisgender, ma non rispetto agli uomini cisgender [6]. Negli uomini trans, il profilo di rischio si è spostato verso quello tipico degli uomini cisgender. In entrambi i casi, i tassi assoluti di eventi rimangono bassi: circa 3 casi di TEV per 1.000 persone-anno nelle donne trans, con tassi di ictus e infarto inferiori [6].
 
 Questo non è un "pericolo nascosto": è un profilo di rischio noto, monitorabile e gestibile con controlli regolari del profilo lipidico, della pressione arteriosa e dei parametri ematici.
 
 ### Densità ossea
 
-La revisione sistematica e meta-analisi di Singh-Ospina et al. (2019), pubblicata sul Journal of the Endocrine Society, ha analizzato 19 studi su 487 uomini trans e 812 donne trans. I risultati:
+La revisione sistematica e meta-analisi di Singh-Ospina et al. (2019), pubblicata sul Journal of the Endocrine Society, ha analizzato 19 studi su 487 uomini trans e 812 donne trans [13]. I risultati:
 
-- **Negli uomini trans**: nessuna differenza significativa nella densità minerale ossea rispetto alle donne cisgender, sia negli studi trasversali che longitudinali. Il testosterone mantiene la salute ossea.
-- **Nelle donne trans**: nessuna differenza significativa rispetto agli uomini cisgender a livello del collo femorale, del femore totale e della colonna lombare. Gli studi longitudinali hanno mostrato un lieve ma significativo aumento della densità ossea lombare dopo 12 e 24 mesi di terapia.
+- **Negli uomini trans**: nessuna differenza significativa nella densità minerale ossea rispetto alle donne cisgender, sia negli studi trasversali che longitudinali. Il testosterone mantiene la salute ossea [13].
+- **Nelle donne trans**: nessuna differenza significativa rispetto agli uomini cisgender a livello del collo femorale, del femore totale e della colonna lombare. Gli studi longitudinali hanno mostrato un lieve ma significativo aumento della densità ossea lombare dopo 12 e 24 mesi di terapia [13].
 
-In sintesi: la terapia ormonale non compromette la salute ossea. In alcuni casi, la migliora. Il monitoraggio tramite densitometria ossea rimane raccomandato, soprattutto per le donne trans dopo eventuale gonadectomia.
+In sintesi: la terapia ormonale non compromette la salute ossea. In alcuni casi, la migliora. Il monitoraggio tramite densitometria ossea rimane raccomandato, soprattutto per le donne trans dopo eventuale gonadectomia [7].
 
 ### Effetti epatici
 
-Gli effetti sulla funzionalità epatica sono rari e generalmente lievi. Le linee guida raccomandano il monitoraggio degli enzimi epatici, soprattutto nei primi mesi di terapia e in caso di somministrazione orale. La terapia ormonale per le persone trans non è associata a un aumento significativo del rischio di malattie epatiche gravi nella popolazione monitorata.
+Gli effetti sulla funzionalità epatica sono rari e generalmente lievi. Le linee guida raccomandano il monitoraggio degli enzimi epatici, soprattutto nei primi mesi di terapia e in caso di somministrazione orale [7]. La terapia ormonale per le persone trans non è associata a un aumento significativo del rischio di malattie epatiche gravi nella popolazione monitorata.
 
 ### Fertilità
 
-La terapia ormonale influisce sulla fertilità. Gli estrogeni riducono la spermatogenesi nelle donne trans; il testosterone può interrompere l'ovulazione negli uomini trans. Questi effetti sono generalmente reversibili dopo l'interruzione della terapia, anche se il recupero completo non è garantito, soprattutto dopo trattamenti prolungati. Le linee guida WPATH SOC-8 e della Endocrine Society raccomandano una discussione sulle opzioni di preservazione della fertilità (crioconservazione di spermatozoi o ovociti) prima di iniziare il trattamento.
+La terapia ormonale influisce sulla fertilità. Gli estrogeni riducono la spermatogenesi nelle donne trans; il testosterone può interrompere l'ovulazione negli uomini trans. Questi effetti sono generalmente reversibili dopo l'interruzione della terapia, anche se il recupero completo non è garantito, soprattutto dopo trattamenti prolungati. Le linee guida WPATH SOC-8 e della Endocrine Society raccomandano una discussione sulle opzioni di preservazione della fertilità (crioconservazione di spermatozoi o ovociti) prima di iniziare il trattamento [7][8].
 
 ## Cosa dicono le organizzazioni mediche internazionali
 
 Un indicatore potente della sicurezza di un trattamento è il consenso delle organizzazioni mediche che lo valutano. Nel caso della transizione medica, il consenso è ampio e inequivocabile.
 
-**La World Professional Association for Transgender Health (WPATH)** ha pubblicato nel 2022 la versione 8 degli Standards of Care, il documento di riferimento globale per la salute delle persone transgender. Gli SOC-8, basati su una revisione sistematica della letteratura, raccomandano la terapia ormonale e la chirurgia come trattamenti efficaci e appropriati per le persone con incongruenza di genere, con protocolli dettagliati per la valutazione, il trattamento e il monitoraggio.
+**La World Professional Association for Transgender Health (WPATH)** ha pubblicato nel 2022 la versione 8 degli Standards of Care, il documento di riferimento globale per la salute delle persone transgender [8]. Gli SOC-8, basati su una revisione sistematica della letteratura, raccomandano la terapia ormonale e la chirurgia come trattamenti efficaci e appropriati per le persone con incongruenza di genere, con protocolli dettagliati per la valutazione, il trattamento e il monitoraggio.
 
-**La Endocrine Society** ha pubblicato nel 2017 le proprie linee guida cliniche, che raccomandano la terapia ormonale per le persone con disforia di genere o incongruenza di genere, specificando protocolli per il dosaggio, il monitoraggio e la gestione degli effetti collaterali.
+**La Endocrine Society** ha pubblicato nel 2017 le proprie linee guida cliniche, che raccomandano la terapia ormonale per le persone con disforia di genere o incongruenza di genere, specificando protocolli per il dosaggio, il monitoraggio e la gestione degli effetti collaterali [7].
 
-**L'American Psychological Association (APA)** ha adottato nel 2021 una risoluzione che si oppone ai tentativi di cambiare l'identità di genere delle persone e supporta l'accesso senza ostacoli alle cure basate sulle evidenze per le persone transgender.
+**L'American Psychological Association (APA)** ha adottato nel 2021 una risoluzione che si oppone ai tentativi di cambiare l'identità di genere delle persone e supporta l'accesso senza ostacoli alle cure basate sulle evidenze per le persone transgender [14].
 
 A queste si aggiungono l'**Organizzazione Mondiale della Sanità** (che nel 2019 ha rimosso l'incongruenza di genere dal capitolo sui disturbi mentali dell'ICD-11), l'**American Medical Association**, l'**American Academy of Pediatrics**, il **Royal College of Physicians** e decine di altre organizzazioni mediche nazionali e internazionali.
 
@@ -202,7 +202,7 @@ Non esiste una singola grande organizzazione medica al mondo che classifichi la 
 
 Una delle narrazioni più diffuse nei media e nel discorso politico è che la transizione medica sia un "esperimento" condotto su persone vulnerabili. Questa affermazione è falsa.
 
-La terapia ormonale cross-sex è stata documentata per la prima volta negli anni '60 e '70 del Novecento. Le prime linee guida della WPATH risalgono al 1979. La Endocrine Society ha pubblicato le proprie raccomandazioni nel 2009, aggiornandole nel 2017. La coorte di Amsterdam segue pazienti dal 1972.
+La terapia ormonale cross-sex è stata documentata per la prima volta negli anni '60 e '70 del Novecento. Le prime linee guida della WPATH risalgono al 1979. La Endocrine Society ha pubblicato le proprie raccomandazioni nel 2009, aggiornandole nel 2017 [7]. La coorte di Amsterdam segue pazienti dal 1972 [4].
 
 Stiamo parlando di oltre **50 anni di dati clinici**, centinaia di studi peer-reviewed, migliaia di pazienti seguiti longitudinalmente. Per confronto, molti farmaci di uso comune hanno basi di evidenza meno estese.
 
@@ -210,7 +210,7 @@ La definizione di "sperimentale" ha un significato preciso in medicina: si rifer
 
 ## L'importanza del monitoraggio
 
-La sicurezza della transizione medica non è automatica: dipende dalla qualità del monitoraggio. Le linee guida della Endocrine Society (2017) raccomandano:
+La sicurezza della transizione medica non è automatica: dipende dalla qualità del monitoraggio. Le linee guida della Endocrine Society (2017) raccomandano [7]:
 
 - **Controlli dei livelli ormonali** ogni 3 mesi nel primo anno, poi 1-2 volte all'anno
 - **Emocromo completo** per monitorare emoglobina e policitemia (soprattutto negli uomini trans)
@@ -229,30 +229,30 @@ La percezione pubblica della sicurezza della transizione medica è distorta da d
 
 **Confusione tra rischio assoluto e rischio relativo.** Un "aumento del 200% del rischio" di trombosi suona allarmante. Ma se il rischio di base è 1 su 10.000 per anno, un aumento del 200% significa 3 su 10.000 per anno: un rischio che rimane molto basso in termini assoluti. Questa distinzione viene raramente spiegata nel discorso pubblico.
 
-**Doppio standard nella valutazione.** I rischi della transizione medica vengono valutati con uno standard diverso rispetto a trattamenti comparabili. I contraccettivi orali hanno un profilo di rischio tromboembolico simile, ma nessuno propone di vietarli. Le protesi al ginocchio hanno un tasso di rimpianto 17 volte superiore, ma nessuno suggerisce di limitarne l'accesso. Il doppio standard suggerisce che la preoccupazione reale non sia la sicurezza del paziente.
+**Doppio standard nella valutazione.** I rischi della transizione medica vengono valutati con uno standard diverso rispetto a trattamenti comparabili. I contraccettivi orali hanno un profilo di rischio tromboembolico simile, ma nessuno propone di vietarli. Le protesi al ginocchio hanno un tasso di rimpianto 17 volte superiore, ma nessuno suggerisce di limitarne l'accesso [11]. Il doppio standard suggerisce che la preoccupazione reale non sia la sicurezza del paziente.
 
 **Strumentalizzazione politica.** I rischi reali della transizione medica -- che esistono, sono documentati e sono gestibili -- vengono utilizzati come argomento per negare l'accesso alle cure a tutte le persone trans, indipendentemente dal bilancio rischio-beneficio individuale. Questo equivale a proporre di vietare le statine perché possono causare miopatia: tecnicamente vero, ma profondamente fuorviante.
 
-**Omissione dei rischi della non-transizione.** Il dibattito si concentra quasi esclusivamente sui rischi del trattamento, ignorando sistematicamente i rischi documentati della mancata transizione: depressione, ansia, autolesionismo, abuso di sostanze, ideazione suicidaria. La letteratura mostra in modo coerente che negare l'accesso alle cure non è una scelta "prudente" -- è una scelta con conseguenze cliniche misurabili.
+**Omissione dei rischi della non-transizione.** Il dibattito si concentra quasi esclusivamente sui rischi del trattamento, ignorando sistematicamente i rischi documentati della mancata transizione: depressione, ansia, autolesionismo, abuso di sostanze, ideazione suicidaria [9][10]. La letteratura mostra in modo coerente che negare l'accesso alle cure non è una scelta "prudente" -- è una scelta con conseguenze cliniche misurabili.
 
 ## Il bilancio rischio-beneficio
 
 Riassumendo le evidenze disponibili:
 
 **Benefici documentati:**
-- Riduzione significativa della disforia di genere (80% dei pazienti)
-- Miglioramento della qualità della vita (80%)
-- Riduzione di depressione e ansia (60-78%)
-- Riduzione dell'ideazione suicidaria (44-73%)
-- Tassi di soddisfazione superiori al 94%
-- Tassi di rimpianto inferiori al 2%
+- Riduzione significativa della disforia di genere (80% dei pazienti) [2]
+- Miglioramento della qualità della vita (80%) [2]
+- Riduzione di depressione e ansia (60-78%) [2][9]
+- Riduzione dell'ideazione suicidaria (44-73%) [9][10]
+- Tassi di soddisfazione superiori al 94% [1]
+- Tassi di rimpianto inferiori al 2% [5]
 
 **Rischi documentati:**
-- Aumento moderato del rischio tromboembolico (soprattutto con estrogeni orali, minimizzabile con via transdermica)
-- Variazioni del profilo lipidico (monitorabili)
-- Effetti sulla fertilità (parzialmente reversibili, gestibili con crioconservazione preventiva)
-- Effetti epatici rari (monitorabili)
-- Rischio cardiovascolare moderatamente aumentato nelle donne trans (monitorabile)
+- Aumento moderato del rischio tromboembolico (soprattutto con estrogeni orali, minimizzabile con via transdermica) [12]
+- Variazioni del profilo lipidico (monitorabili) [7]
+- Effetti sulla fertilità (parzialmente reversibili, gestibili con crioconservazione preventiva) [7][8]
+- Effetti epatici rari (monitorabili) [7]
+- Rischio cardiovascolare moderatamente aumentato nelle donne trans (monitorabile) [6]
 
 Non esiste un trattamento medico con questo rapporto tra benefici e rischi che venga considerato "non sicuro". La transizione medica, quando effettuata sotto supervisione medica con monitoraggio adeguato, è un trattamento sicuro, efficace e con un solido supporto di evidenze scientifiche.
 
@@ -260,6 +260,6 @@ Non esiste un trattamento medico con questo rapporto tra benefici e rischi che v
 
 È importante essere onesti anche sui limiti della ricerca. Molti degli studi disponibili sono osservazionali, non randomizzati controllati. I follow-up sono talvolta brevi. Alcuni studi hanno campioni di dimensioni moderate.
 
-Questo non significa che le conclusioni siano inaffidabili. Significa che, come in molti ambiti della medicina, le evidenze sono imperfette ma coerenti. La direzione dei risultati è costante: la transizione medica migliora la vita delle persone trans. La consistenza di questo risultato attraverso decenni, paesi, metodologie e popolazioni diverse è il segnale più forte che la ricerca possa offrire.
+Questo non significa che le conclusioni siano inaffidabili. Significa che, come in molti ambiti della medicina, le evidenze sono imperfette ma coerenti. La direzione dei risultati è costante: la transizione medica migliora la vita delle persone trans [1][2]. La consistenza di questo risultato attraverso decenni, paesi, metodologie e popolazioni diverse è il segnale più forte che la ricerca possa offrire.
 
 La risposta alla domanda "la transizione medica è sicura?" non è un atto di fede: è una lettura dei dati. E i dati, con tutti i loro limiti, sono chiari.

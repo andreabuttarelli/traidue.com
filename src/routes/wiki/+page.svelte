@@ -51,7 +51,7 @@
 				bind:value={search}
 				articles={data.articles}
 				quizzes={data.quizzes}
-				placeholder="Cerca articoli e quiz..."
+				placeholder="Identità di genere, coming out, sport..."
 			/>
 		</div>
 		<div class="flex gap-4 flex-wrap justify-center mt-6">

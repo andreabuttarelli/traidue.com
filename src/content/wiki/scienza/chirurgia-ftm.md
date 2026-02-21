@@ -74,7 +74,7 @@ La chirurgia di affermazione di genere per gli uomini trans comprende un insieme
 
 Prima di tutto: non esiste un percorso chirurgico obbligatorio o standard per gli uomini trans. Ogni persona ha il proprio rapporto con il proprio corpo, le proprie priorita e i propri limiti. Alcuni uomini trans desiderano tutti gli interventi disponibili. Molti desiderano solo la mastectomia. Altri non vogliono alcun intervento chirurgico. Tutte queste scelte sono valide.
 
-I dati confermano questa variabilita. Uno studio JAMA del 2024 ha rilevato che la top surgery e l'intervento di affermazione di genere piu desiderato e piu eseguito tra le persone transmasculine. La chirurgia genitale, invece, viene scelta da una minoranza. Questo non significa che sia meno importante: significa che il bisogno e individuale.
+I dati confermano questa variabilita. Uno studio JAMA del 2024 ha rilevato che la top surgery e l'intervento di affermazione di genere piu desiderato e piu eseguito tra le persone transmasculine [10]. La chirurgia genitale, invece, viene scelta da una minoranza. Questo non significa che sia meno importante: significa che il bisogno e individuale.
 
 La sequenza tipica, quando si scelgono piu interventi, e generalmente questa:
 
@@ -86,30 +86,30 @@ Questa sequenza non e rigida. Alcuni scelgono la top surgery senza terapia ormon
 
 ## Prerequisiti: cosa serve per accedere alla chirurgia
 
-Le linee guida internazionali di riferimento sono gli **Standards of Care versione 8 (SOC-8)** della World Professional Association for Transgender Health (WPATH), pubblicati nel 2022. I requisiti variano in base all'intervento.
+Le linee guida internazionali di riferimento sono gli **Standards of Care versione 8 (SOC-8)** della World Professional Association for Transgender Health (WPATH), pubblicati nel 2022 [1]. I requisiti variano in base all'intervento.
 
 ### Per la mastectomia
 
 - Diagnosi documentata di incongruenza di genere
 - Valutazione da parte di un professionista della salute mentale
 - Una lettera di raccomandazione
-- La terapia ormonale con testosterone non e un requisito obbligatorio per la mastectomia, anche se molti pazienti la iniziano prima
+- La terapia ormonale con testosterone non e un requisito obbligatorio per la mastectomia, anche se molti pazienti la iniziano prima [1]
 
 ### Per la chirurgia genitale (metoidioplastica o falloplastica)
 
 - Diagnosi documentata di incongruenza di genere
-- Almeno 12 mesi di terapia ormonale con testosterone (per la metoidioplastica e fortemente raccomandata, poiche la crescita del clitoride e essenziale per il risultato)
+- Almeno 12 mesi di terapia ormonale con testosterone (per la metoidioplastica e fortemente raccomandata, poiche la crescita del clitoride e essenziale per il risultato) [1]
 - Una lettera di raccomandazione da un professionista della salute mentale
 - Eta minima di 18 anni
 - Capacita di consenso informato
 
 ### In Italia
 
-Il percorso passa attraverso i centri di riferimento coordinati dall'**ONIG (Osservatorio Nazionale sull'Identita di Genere)** e prevede una valutazione psicologica di almeno sei mesi secondo il protocollo nazionale. Dal 2024, grazie alla sentenza n. 143 della Corte Costituzionale, non e piu necessaria l'autorizzazione del tribunale per procedere con gli interventi chirurgici di adeguamento dei caratteri sessuali. La chirurgia e una decisione medica tra paziente e professionisti sanitari, come qualsiasi altro intervento. Per approfondire il quadro legale, rimandiamo all'articolo sulla [legge 164/1982](/wiki/legge-164-italia).
+Il percorso passa attraverso i centri di riferimento coordinati dall'**ONIG (Osservatorio Nazionale sull'Identita di Genere)** e prevede una valutazione psicologica di almeno sei mesi secondo il protocollo nazionale [13]. Dal 2024, grazie alla sentenza n. 143 della Corte Costituzionale, non e piu necessaria l'autorizzazione del tribunale per procedere con gli interventi chirurgici di adeguamento dei caratteri sessuali [12]. La chirurgia e una decisione medica tra paziente e professionisti sanitari, come qualsiasi altro intervento. Per approfondire il quadro legale, rimandiamo all'articolo sulla [legge 164/1982](/wiki/legge-164-italia).
 
 ## Mastectomia (top surgery)
 
-La mastectomia di affermazione di genere -- spesso chiamata "mascolinizzazione del torace" -- e l'intervento piu richiesto e piu praticato tra gli uomini trans. Consiste nella rimozione del tessuto mammario e nel rimodellamento del torace per ottenere un aspetto maschile piatto.
+La mastectomia di affermazione di genere -- spesso chiamata "mascolinizzazione del torace" -- e l'intervento piu richiesto e piu praticato tra gli uomini trans [10]. Consiste nella rimozione del tessuto mammario e nel rimodellamento del torace per ottenere un aspetto maschile piatto.
 
 ### Tecniche chirurgiche
 
@@ -144,11 +144,11 @@ Il recupero completo, inteso come stabilizzazione estetica delle cicatrici e rec
 
 ### Tassi di soddisfazione
 
-I dati sulla soddisfazione dopo la mastectomia sono tra i piu alti dell'intera chirurgia elettiva. Uno studio del 2023 su singolo centro ha riportato una soddisfazione complessiva del **97%**. Uno studio pubblicato su JAMA Surgery nel 2023 ha confermato che il rimpianto a lungo termine e estremamente raro, con il **97% dei pazienti** che rifarebbe la stessa scelta. L'impatto sulla qualita della vita e documentato come significativo: riduzione della disforia, miglioramento della fiducia in se, maggiore facilita nel vivere socialmente nel genere affermato.
+I dati sulla soddisfazione dopo la mastectomia sono tra i piu alti dell'intera chirurgia elettiva. Uno studio del 2023 su singolo centro ha riportato una soddisfazione complessiva del **97%** [2]. Uno studio pubblicato su JAMA Surgery nel 2023 ha confermato che il rimpianto a lungo termine e estremamente raro, con il **97% dei pazienti** che rifarebbe la stessa scelta [3]. L'impatto sulla qualita della vita e documentato come significativo: riduzione della disforia, miglioramento della fiducia in se, maggiore facilita nel vivere socialmente nel genere affermato [2][3].
 
 ### Costi
 
-- **SSN**: coperta dal Servizio Sanitario Nazionale. Liste di attesa: 1-3 anni a seconda del centro
+- **SSN**: coperta dal Servizio Sanitario Nazionale. Liste di attesa: 1-3 anni a seconda del centro [13]
 - **Privatamente in Italia**: 4.000-8.000 euro, a seconda della tecnica, del chirurgo e della struttura
 - **All'estero**: centri specializzati in Spagna, Belgio e Germania offrono la procedura a costi variabili tra 5.000 e 12.000 euro, incluso il soggiorno
 
@@ -158,11 +158,11 @@ L'isterectomia (rimozione dell'utero) e l'ovariectomia o annessiectomia bilatera
 
 ### Tecnica
 
-L'approccio piu comune e quello **laparoscopico** o **robotico-assistito**: attraverso 3-4 piccole incisioni addominali (di 5-12 mm ciascuna), il chirurgo visualizza e opera con strumenti miniaturizzati. Rispetto all'isterectomia addominale tradizionale (con incisione ampia), l'approccio laparoscopico comporta meno dolore, degenza piu breve e recupero piu rapido.
+L'approccio piu comune e quello **laparoscopico** o **robotico-assistito**: attraverso 3-4 piccole incisioni addominali (di 5-12 mm ciascuna), il chirurgo visualizza e opera con strumenti miniaturizzati. Rispetto all'isterectomia addominale tradizionale (con incisione ampia), l'approccio laparoscopico comporta meno dolore, degenza piu breve e recupero piu rapido [14].
 
-L'isterectomia puo essere **totale** (rimozione di utero e cervice) o **subtotale** (conservazione della cervice). La scelta dipende da considerazioni mediche e dalle preferenze del paziente. Per gli uomini trans che prevedono una futura chirurgia genitale, l'isterectomia totale con rimozione della cervice e generalmente raccomandata, poiche semplifica le fasi successive.
+L'isterectomia puo essere **totale** (rimozione di utero e cervice) o **subtotale** (conservazione della cervice). La scelta dipende da considerazioni mediche e dalle preferenze del paziente. Per gli uomini trans che prevedono una futura chirurgia genitale, l'isterectomia totale con rimozione della cervice e generalmente raccomandata, poiche semplifica le fasi successive [15].
 
-Una revisione sistematica del 2022 su isterectomie come chirurgia di affermazione di genere ha rilevato un tasso complessivo di complicanze del **5-10%**, la maggior parte delle quali di lieve entita (infezioni urinarie, sanguinamento minore). Le complicanze gravi sono rare.
+Una revisione sistematica del 2022 su isterectomie come chirurgia di affermazione di genere ha rilevato un tasso complessivo di complicanze del **5-10%**, la maggior parte delle quali di lieve entita (infezioni urinarie, sanguinamento minore) [14]. Le complicanze gravi sono rare.
 
 ### Implicazioni per la terapia ormonale
 
@@ -197,7 +197,7 @@ La metoidioplastica e un intervento di chirurgia genitale che utilizza il clitor
 
 ### Come funziona
 
-Il testosterone, assunto per almeno 1-2 anni, provoca una crescita significativa del clitoride: la lunghezza media passa da circa 1 cm a 3-5 cm, con variabilita individuale. Il chirurgo interviene in diversi modi:
+Il testosterone, assunto per almeno 1-2 anni, provoca una crescita significativa del clitoride: la lunghezza media passa da circa 1 cm a 3-5 cm, con variabilita individuale [5]. Il chirurgo interviene in diversi modi:
 
 1. **Rilascio dei legamenti sospensori**: il clitoride viene liberato dai legamenti che lo mantengono aderente all'osso pubico, massimizzandone la lunghezza visibile
 2. **Raddrizzamento**: eventuali curvature vengono corrette
@@ -205,11 +205,11 @@ Il testosterone, assunto per almeno 1-2 anni, provoca una crescita significativa
 4. **Scrotoplastica** (opzionale): le grandi labbra vengono unite sulla linea mediana per creare uno scroto, con eventuale inserimento di protesi testicolari
 5. **Vaginectomia** (opzionale): chiusura del canale vaginale
 
-La metoidioplastica puo essere eseguita come procedura "semplice" (solo rilascio del clitoride) o "completa" (con allungamento uretrale, scrotoplastica e vaginectomia). La scelta dipende dagli obiettivi del paziente.
+La metoidioplastica puo essere eseguita come procedura "semplice" (solo rilascio del clitoride) o "completa" (con allungamento uretrale, scrotoplastica e vaginectomia). La scelta dipende dagli obiettivi del paziente [5].
 
 ### Risultati
 
-Lo studio piu ampio disponibile, condotto dal prof. Djordjevic su 813 pazienti, ha riportato:
+Lo studio piu ampio disponibile, condotto dal prof. Djordjevic su 813 pazienti, ha riportato [5]:
 
 - **Dimensione del microfallo**: 5-9 cm
 - **Minzione in piedi**: 74-90% dei casi (con allungamento uretrale)
@@ -222,12 +222,12 @@ Lo studio piu ampio disponibile, condotto dal prof. Djordjevic su 813 pazienti, 
 
 **Vantaggi della metoidioplastica rispetto alla falloplastica**:
 
-- Sensibilita erogena al 100%
+- Sensibilita erogena al 100% [5]
 - Erezione naturale senza protesi
 - Nessuna cicatrice in siti donatori (avambraccio, coscia)
 - Percorso chirurgico piu breve (1-2 interventi vs 3-4)
 - Recupero piu rapido
-- Tassi di complicanze piu bassi
+- Tassi di complicanze piu bassi [6]
 - Costi inferiori
 
 **Limiti**:
@@ -254,13 +254,13 @@ La scelta tra metoidioplastica e falloplastica e strettamente personale. Non esi
 
 ## Falloplastica
 
-La falloplastica costruisce un neofallo di dimensioni standard (12-16 cm) utilizzando tessuto prelevato da un'altra parte del corpo. E l'intervento chirurgico di affermazione di genere piu complesso in assoluto e richiede un percorso multi-stadio che si svolge nell'arco di 12-24 mesi. Per i risultati dettagliati, rimandiamo all'approfondimento dedicato su [falloplastica e metoidioplastica](/wiki/falloplastica-risultati).
+La falloplastica costruisce un neofallo di dimensioni standard (12-16 cm) utilizzando tessuto prelevato da un'altra parte del corpo. E l'intervento chirurgico di affermazione di genere piu complesso in assoluto e richiede un percorso multi-stadio che si svolge nell'arco di 12-24 mesi [4]. Per i risultati dettagliati, rimandiamo all'approfondimento dedicato su [falloplastica e metoidioplastica](/wiki/falloplastica-risultati).
 
 ### Tecniche: i siti donatori
 
-**Lembo radiale dell'avambraccio (RFF -- Radial Forearm Free Flap)**: considerato il gold standard dalla maggior parte dei centri. Il tessuto dell'avambraccio e sottile, flessibile e ben vascolarizzato, producendo un neofallo con buona estetica e buon potenziale sensoriale. Il chirurgo preleva un lembo di cute e tessuto sottocutaneo dall'avambraccio non dominante, lo modella a forma di fallo con la tecnica "tube-within-a-tube" (un tubo interno per l'uretra, uno esterno per il corpo), e lo collega microchirurgicamente ai vasi sanguigni e ai nervi dell'area pubica. Lo svantaggio principale e la cicatrice visibile sull'avambraccio, che viene coperta con un innesto cutaneo prelevato dalla coscia.
+**Lembo radiale dell'avambraccio (RFF -- Radial Forearm Free Flap)**: considerato il gold standard dalla maggior parte dei centri [6]. Il tessuto dell'avambraccio e sottile, flessibile e ben vascolarizzato, producendo un neofallo con buona estetica e buon potenziale sensoriale. Il chirurgo preleva un lembo di cute e tessuto sottocutaneo dall'avambraccio non dominante, lo modella a forma di fallo con la tecnica "tube-within-a-tube" (un tubo interno per l'uretra, uno esterno per il corpo), e lo collega microchirurgicamente ai vasi sanguigni e ai nervi dell'area pubica. Lo svantaggio principale e la cicatrice visibile sull'avambraccio, che viene coperta con un innesto cutaneo prelevato dalla coscia.
 
-**Lembo anterolaterale della coscia (ALT -- Anterolateral Thigh Flap)**: alternativa che evita la cicatrice sull'avambraccio. Il tessuto della coscia e piu spesso, il che puo richiedere interventi successivi di debulking (riduzione di volume). Uno studio comparativo su 413 casi ha mostrato che il lembo ALT ha tassi piu alti di revisioni secondarie (45% vs 15% per il lembo radiale), ma la cicatrice al sito donatore e meno visibile e coperta dall'abbigliamento. I risultati funzionali a lungo termine sono comparabili.
+**Lembo anterolaterale della coscia (ALT -- Anterolateral Thigh Flap)**: alternativa che evita la cicatrice sull'avambraccio. Il tessuto della coscia e piu spesso, il che puo richiedere interventi successivi di debulking (riduzione di volume). Uno studio comparativo su 413 casi ha mostrato che il lembo ALT ha tassi piu alti di revisioni secondarie (45% vs 15% per il lembo radiale), ma la cicatrice al sito donatore e meno visibile e coperta dall'abbigliamento [7]. I risultati funzionali a lungo termine sono comparabili.
 
 **Lembo muscolo-cutaneo del gran dorsale (MLD -- Musculocutaneous Latissimus Dorsi Flap)**: utilizza tessuto dalla schiena. E meno diffuso dei precedenti, ma viene scelto in casi specifici quando gli altri siti non sono disponibili o preferibili. La cicatrice e ben nascosta dal dorso.
 
@@ -268,13 +268,13 @@ La scelta del sito donatore dipende dalla corporatura del paziente, dalla quanti
 
 ### Il percorso multi-stadio
 
-La falloplastica non e un singolo intervento: e un percorso di 2-4 operazioni chirurgiche separate, ciascuna seguita da un periodo di recupero.
+La falloplastica non e un singolo intervento: e un percorso di 2-4 operazioni chirurgiche separate, ciascuna seguita da un periodo di recupero [4].
 
 **Fase 1 -- Creazione del neofallo** (durata: 8-12 ore): prelievo del lembo, modellamento a fallo, collegamento microchirurgico dei vasi sanguigni e dei nervi. E tra le operazioni piu lunghe e complesse della chirurgia ricostruttiva. Il ricovero dura 7-10 giorni. Il neofallo viene monitorato attentamente nelle prime 72 ore per verificare la vitalita vascolare.
 
-**Fase 2 -- Allungamento uretrale e scrotoplastica** (a distanza di circa 5-6 mesi): l'uretra viene estesa attraverso il neofallo per permettere la minzione in piedi. Le grandi labbra vengono unite per creare lo scroto. Questa e la fase con il maggior tasso di complicanze (fistole e stenosi uretrali).
+**Fase 2 -- Allungamento uretrale e scrotoplastica** (a distanza di circa 5-6 mesi): l'uretra viene estesa attraverso il neofallo per permettere la minzione in piedi. Le grandi labbra vengono unite per creare lo scroto. Questa e la fase con il maggior tasso di complicanze (fistole e stenosi uretrali) [9].
 
-**Fase 3 -- Protesi testicolari e dispositivo erettile** (a distanza di almeno 12 mesi dalla fase 2): inserimento delle protesi testicolari nello scroto e, se desiderato, di una protesi erettile nel neofallo. La glanuloplastica (rimodellamento della punta per simulare il glande) viene spesso eseguita in questa fase.
+**Fase 3 -- Protesi testicolari e dispositivo erettile** (a distanza di almeno 12 mesi dalla fase 2): inserimento delle protesi testicolari nello scroto e, se desiderato, di una protesi erettile nel neofallo [8]. La glanuloplastica (rimodellamento della punta per simulare il glande) viene spesso eseguita in questa fase.
 
 **Eventuali revisioni**: procedure correttive per ottimizzare l'estetica, gestire complicanze uretrali o sostituire protesi malfunzionanti.
 
@@ -282,22 +282,22 @@ La falloplastica non e un singolo intervento: e un percorso di 2-4 operazioni ch
 
 La falloplastica ha tassi di complicanze significativi. Questo non e un motivo per non sceglierla -- e un motivo per sceglierla con consapevolezza.
 
-**Complicanze uretrali** (la sfida principale):
+**Complicanze uretrali** (la sfida principale) [9]:
 
 - Fistole uretrocutanee: 17-40% dei casi. Fino a due terzi si risolvono spontaneamente
 - Stenosi uretrali: 21-51% dei casi. Richiedono trattamento endoscopico o chirurgico
 
-I centri piu esperti riportano tassi di complicanze uretrali del 24%, significativamente piu bassi rispetto alla media.
+I centri piu esperti riportano tassi di complicanze uretrali del 24%, significativamente piu bassi rispetto alla media [9].
 
-**Complicanze del sito donatore**: cicatrizzazione problematica, limitazione funzionale temporanea dell'avambraccio (per il lembo radiale), necessita di fisioterapia.
+**Complicanze del sito donatore**: cicatrizzazione problematica, limitazione funzionale temporanea dell'avambraccio (per il lembo radiale), necessita di fisioterapia [7].
 
-**Complicanze protesiche**: tra i pazienti con protesi erettile, il 53% richiede almeno un re-intervento. Le cause principali sono malfunzionamento meccanico (40%), infezione (6%), malposizionamento (5%).
+**Complicanze protesiche**: tra i pazienti con protesi erettile, il 53% richiede almeno un re-intervento. Le cause principali sono malfunzionamento meccanico (40%), infezione (6%), malposizionamento (5%) [8].
 
-**Perdita parziale o totale del lembo**: rara (1-5% dei casi), ma e la complicanza piu temuta. Si verifica quando il collegamento vascolare non funziona adeguatamente.
+**Perdita parziale o totale del lembo**: rara (1-5% dei casi), ma e la complicanza piu temuta [4]. Si verifica quando il collegamento vascolare non funziona adeguatamente.
 
 ### Risultati funzionali
 
-Nonostante la complessita, i risultati sono significativi:
+Nonostante la complessita, i risultati sono significativi [4]:
 
 - **Minzione in piedi**: 75-91% dei casi
 - **Sensibilita tattile**: 88% dei pazienti sviluppa sensibilita tattile nel neofallo
@@ -307,18 +307,18 @@ Nonostante la complessita, i risultati sono significativi:
 
 ### Soddisfazione
 
-La soddisfazione complessiva e alta, considerando la complessita dell'intervento:
+La soddisfazione complessiva e alta, considerando la complessita dell'intervento [4]:
 
 - Soddisfazione con l'effetto sulla mascolinita: 82%
 - Soddisfazione con l'aspetto: 66%
 - Soddisfazione con la vita complessiva: 75%
-- Il rimpianto e inferiore all'1%
+- Il rimpianto e inferiore all'1% [11]
 
-Il dato piu basso e la soddisfazione con la funzione sessuale (34%), legato alla complessita del recupero sensoriale e alle complicanze protesiche. Questo non significa che la maggior parte dei pazienti sia insoddisfatta della scelta: significa che la funzione sessuale e l'area con piu margine di miglioramento.
+Il dato piu basso e la soddisfazione con la funzione sessuale (34%), legato alla complessita del recupero sensoriale e alle complicanze protesiche [4]. Questo non significa che la maggior parte dei pazienti sia insoddisfatta della scelta: significa che la funzione sessuale e l'area con piu margine di miglioramento.
 
 ### Recupero: una timeline realistica
 
-Il percorso completo della falloplastica si estende su 18-24 mesi:
+Il percorso completo della falloplastica si estende su 18-24 mesi [15]:
 
 - **Dopo la fase 1**: 2-3 settimane di degenza, 6-8 settimane di riposo, 3-6 mesi prima di riprendere le attivita normali. Fisioterapia per il sito donatore
 - **Dopo la fase 2**: 1-2 settimane di degenza, catetere urinario per 3-4 settimane, 4-6 settimane di riposo
@@ -328,7 +328,7 @@ Ogni fase richiede tempo di guarigione prima di procedere alla successiva. Il pe
 
 ### Costi
 
-- **SSN**: coperta dal Servizio Sanitario Nazionale, ma pochissimi centri la eseguono (il San Camillo a Roma e il principale). Liste di attesa: 3-5 anni
+- **SSN**: coperta dal Servizio Sanitario Nazionale, ma pochissimi centri la eseguono (il San Camillo a Roma e il principale) [13]. Liste di attesa: 3-5 anni
 - **Privatamente in Italia**: 20.000-50.000 euro per il percorso completo (tutte le fasi)
 - **All'estero**: il Regno Unito (St Andrew's Centre, Chelmsford), il Belgio (UZ Gent), la Serbia (Belgrado) e la Spagna sono centri di riferimento europei. Costi: 15.000-60.000 euro a seconda del centro e del numero di fasi
 
@@ -336,7 +336,7 @@ Ogni fase richiede tempo di guarigione prima di procedere alla successiva. Il pe
 
 La scrotoplastica puo essere eseguita come parte della metoidioplastica o della falloplastica, oppure come intervento a se stante. Consiste nella creazione dello scroto a partire dalle grandi labbra, che vengono unite sulla linea mediana.
 
-Le **protesi testicolari** in silicone vengono inserite generalmente in un secondo tempo, almeno 6 mesi dopo la creazione dello scroto. Sono disponibili in diverse dimensioni e vengono selezionate in base alla corporatura del paziente. Il tasso di espianto (rimozione) e del 20,8%, con le cause principali che includono infezione, estrusione e disagio. I tassi sono migliorati nel tempo con l'evoluzione delle tecniche e dei materiali.
+Le **protesi testicolari** in silicone vengono inserite generalmente in un secondo tempo, almeno 6 mesi dopo la creazione dello scroto. Sono disponibili in diverse dimensioni e vengono selezionate in base alla corporatura del paziente. Il tasso di espianto (rimozione) e del 20,8%, con le cause principali che includono infezione, estrusione e disagio [8]. I tassi sono migliorati nel tempo con l'evoluzione delle tecniche e dei materiali.
 
 L'intervento e relativamente semplice rispetto alle altre procedure genitali:
 
@@ -361,7 +361,7 @@ Il body contouring **non e coperto dal SSN** in Italia, poiche e classificato co
 
 ### I centri di riferimento
 
-In Italia, i principali centri che eseguono chirurgia di affermazione di genere per uomini trans sono:
+In Italia, i principali centri che eseguono chirurgia di affermazione di genere per uomini trans sono [13]:
 
 - **Roma -- Ospedale San Camillo-Forlanini (SAIFIP)**: centro storico e di riferimento nazionale, esegue mastectomie, isterectomie e falloplastiche
 - **Torino -- Citta della Salute e della Scienza (CIDIGem)**: centro piemontese di riferimento, specializzato in mastectomie e chirurgia genitale
@@ -375,7 +375,7 @@ I centri sono coordinati dall'ONIG e seguono protocolli condivisi.
 
 ### Copertura del SSN
 
-Il Servizio Sanitario Nazionale copre le seguenti procedure per gli uomini trans:
+Il Servizio Sanitario Nazionale copre le seguenti procedure per gli uomini trans [13]:
 
 - Mastectomia
 - Isterectomia e ovariectomia
@@ -404,7 +404,7 @@ Il quadro legale per la chirurgia di affermazione di genere in Italia e definito
 
 **La sentenza 221/2015 della Corte di Cassazione**: ha stabilito che la [rettifica anagrafica del genere](/wiki/legge-164-italia) non richiede necessariamente interventi chirurgici. Questo significa che un uomo trans puo ottenere il cambio dei documenti senza essersi sottoposto ad alcun intervento.
 
-**La sentenza 143/2024 della Corte Costituzionale**: ha eliminato l'obbligo di ottenere l'autorizzazione del tribunale per gli interventi chirurgici di adeguamento dei caratteri sessuali. Chi vuole operarsi non deve piu chiedere il permesso a un giudice: la chirurgia e una decisione tra il paziente e il team medico.
+**La sentenza 143/2024 della Corte Costituzionale** [12]: ha eliminato l'obbligo di ottenere l'autorizzazione del tribunale per gli interventi chirurgici di adeguamento dei caratteri sessuali. Chi vuole operarsi non deve piu chiedere il permesso a un giudice: la chirurgia e una decisione tra il paziente e il team medico.
 
 Questi due passaggi hanno separato definitivamente il percorso chirurgico da quello legale: la chirurgia non e un requisito per il riconoscimento legale, e il riconoscimento legale non e un requisito per la chirurgia.
 
@@ -412,33 +412,33 @@ Questi due passaggi hanno separato definitivamente il percorso chirurgico da que
 
 I dati sulla soddisfazione dopo la chirurgia di affermazione di genere sono tra i piu solidi della letteratura chirurgica:
 
-- **Top surgery**: soddisfazione del 95-97%, rimpianto inferiore al 3%
-- **Isterectomia**: soddisfazione superiore al 90%
-- **Metoidioplastica**: soddisfazione del 79% (totale) + 20% (parziale) = 99% complessiva
-- **Falloplastica**: soddisfazione complessiva con la vita al 75%, con la mascolinita all'82%
+- **Top surgery**: soddisfazione del 95-97%, rimpianto inferiore al 3% [2][3]
+- **Isterectomia**: soddisfazione superiore al 90% [14]
+- **Metoidioplastica**: soddisfazione del 79% (totale) + 20% (parziale) = 99% complessiva [5]
+- **Falloplastica**: soddisfazione complessiva con la vita al 75%, con la mascolinita all'82% [4]
 
-Il tasso di rimpianto complessivo per la chirurgia di affermazione di genere, secondo la meta-analisi piu ampia disponibile (2021), e **inferiore all'1%**. Per confronto, la chirurgia di sostituzione del ginocchio ha tassi di insoddisfazione tra il 6% e il 30%. Uno studio JAMA del 2024 ha confermato che il 99,7% delle persone trans che hanno avuto accesso alla chirurgia riporta soddisfazione con la propria decisione.
+Il tasso di rimpianto complessivo per la chirurgia di affermazione di genere, secondo la meta-analisi piu ampia disponibile (2021), e **inferiore all'1%** [11]. Per confronto, la chirurgia di sostituzione del ginocchio ha tassi di insoddisfazione tra il 6% e il 30%. Uno studio JAMA del 2024 ha confermato che il 99,7% delle persone trans che hanno avuto accesso alla chirurgia riporta soddisfazione con la propria decisione [10].
 
-Nei rari casi di rimpianto, i fattori associati non riguardano l'identita di genere ma piuttosto complicanze post-operatorie, risultati estetici insoddisfacenti o scarso supporto sociale.
+Nei rari casi di rimpianto, i fattori associati non riguardano l'identita di genere ma piuttosto complicanze post-operatorie, risultati estetici insoddisfacenti o scarso supporto sociale [11].
 
 ## Aspettative realistiche: cosa sapere prima di decidere
 
 La chirurgia di affermazione di genere non e una bacchetta magica e non e un orrore. E un insieme di procedure mediche con evidenze solide e limiti conosciuti. Ecco cosa e ragionevole aspettarsi:
 
-**La top surgery** e un intervento consolidato con risultati eccellenti. La stragrande maggioranza dei pazienti la descrive come trasformativa. Le cicatrici ci sono, soprattutto con la doppia incisione, ma per la maggior parte degli uomini trans rappresentano un compromesso piu che accettabile.
+**La top surgery** e un intervento consolidato con risultati eccellenti. La stragrande maggioranza dei pazienti la descrive come trasformativa [2][3]. Le cicatrici ci sono, soprattutto con la doppia incisione, ma per la maggior parte degli uomini trans rappresentano un compromesso piu che accettabile.
 
-**L'isterectomia** e una procedura di routine in ambito ginecologico, con rischi contenuti e recupero rapido. La decisione di rimuovere le ovaie ha implicazioni a lungo termine sulla terapia ormonale che vanno discusse con l'endocrinologo.
+**L'isterectomia** e una procedura di routine in ambito ginecologico, con rischi contenuti e recupero rapido [14]. La decisione di rimuovere le ovaie ha implicazioni a lungo termine sulla terapia ormonale che vanno discusse con l'endocrinologo.
 
-**La metoidioplastica** offre risultati eccellenti in termini di sensibilita e funzione erettile naturale, con il limite delle dimensioni. Chi si aspetta un fallo di dimensioni standard restera deluso. Chi privilegia la sensibilita e un percorso meno invasivo ne sara probabilmente molto soddisfatto.
+**La metoidioplastica** offre risultati eccellenti in termini di sensibilita e funzione erettile naturale, con il limite delle dimensioni [5]. Chi si aspetta un fallo di dimensioni standard restera deluso. Chi privilegia la sensibilita e un percorso meno invasivo ne sara probabilmente molto soddisfatto.
 
-**La falloplastica** e un percorso lungo e impegnativo. Le complicanze sono frequenti, i re-interventi probabili, il recupero si misura in mesi. Ma per molti uomini trans e un intervento che cambia la vita. La chiave e arrivarci con aspettative realistiche: il neofallo non e identico a un pene cisgender, ma non e nemmeno il suo obiettivo. L'obiettivo e creare un organo funzionale che riduca la disforia e permetta una vita piu congruente con la propria identita.
+**La falloplastica** e un percorso lungo e impegnativo. Le complicanze sono frequenti, i re-interventi probabili, il recupero si misura in mesi [4]. Ma per molti uomini trans e un intervento che cambia la vita. La chiave e arrivarci con aspettative realistiche: il neofallo non e identico a un pene cisgender, ma non e nemmeno il suo obiettivo. L'obiettivo e creare un organo funzionale che riduca la disforia e permetta una vita piu congruente con la propria identita.
 
-**Il centro chirurgico conta**. I risultati variano significativamente in base all'esperienza del team. Le linee guida WPATH raccomandano di rivolgersi a chirurghi con un volume elevato di casi e un percorso formativo specifico. Informarsi, chiedere casistiche, parlare con altri pazienti: e un diritto e una forma di tutela.
+**Il centro chirurgico conta**. I risultati variano significativamente in base all'esperienza del team [1]. Le linee guida WPATH raccomandano di rivolgersi a chirurghi con un volume elevato di casi e un percorso formativo specifico. Informarsi, chiedere casistiche, parlare con altri pazienti: e un diritto e una forma di tutela.
 
 ## Il quadro complessivo
 
 La chirurgia di affermazione di genere per gli uomini trans offre opzioni diversificate, dalla mastectomia -- intervento relativamente semplice con risultati eccellenti -- alla falloplastica, tra le procedure piu complesse della chirurgia ricostruttiva. Non tutti gli interventi sono necessari per tutti. Non tutti gli uomini trans vogliono o hanno bisogno della chirurgia genitale. La top surgery da sola e sufficiente per molti, e questo non e un compromesso: e una scelta legittima.
 
-Per chi desidera la chirurgia genitale, le opzioni esistono e i risultati continuano a migliorare. Le tecniche si raffinano, i tassi di complicanze diminuiscono, i protocolli di recupero diventano piu efficaci. Nessun intervento e perfetto, ma i dati mostrano che la stragrande maggioranza delle persone che scelgono questo percorso e soddisfatta della propria decisione.
+Per chi desidera la chirurgia genitale, le opzioni esistono e i risultati continuano a migliorare. Le tecniche si raffinano, i tassi di complicanze diminuiscono, i protocolli di recupero diventano piu efficaci. Nessun intervento e perfetto, ma i dati mostrano che la stragrande maggioranza delle persone che scelgono questo percorso e soddisfatta della propria decisione [10][11].
 
 La decisione di operarsi e personale. Spetta a chi la vive, con il supporto di professionisti competenti e informazioni accurate. Quello che possiamo fare e assicurarci che le informazioni disponibili siano complete, oneste e rispettose dell'autonomia di ciascuno. Per chi si sta informando anche su altri aspetti della transizione, rimandiamo agli articoli sui [cambiamenti fisici della terapia ormonale](/wiki/corpo-cambia-dopo-ormoni) e sulla [sessualita delle persone trans](/wiki/sessualita-persone-trans).

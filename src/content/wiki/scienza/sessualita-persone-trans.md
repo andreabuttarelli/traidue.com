@@ -67,7 +67,7 @@ La sessualità delle persone trans è un argomento circondato da curiosità, imb
 
 La prima cosa da chiarire è che non esiste una "sessualità trans". Esiste la sessualità delle persone, e le persone trans la vivono con la stessa varietà di chiunque altro. Ci sono persone trans eterosessuali, omosessuali, bisessuali, pansessuali, asessuali. Ci sono persone con una libido molto attiva e persone che non provano interesse per il sesso. Ci sono persone in relazioni stabili e persone che preferiscono esperienze casuali. Niente di tutto questo è determinato dal fatto di essere trans.
 
-Quello che è specifico dell'esperienza trans è il rapporto con il corpo durante il percorso di transizione, e come questo rapporto influenza la vita sessuale. La disforia di genere può rendere difficile vivere il sesso con serenità, ma la transizione, sia sociale che medica, tende a migliorare significativamente la soddisfazione sessuale e il benessere complessivo (Holmberg et al., 2019).
+Quello che è specifico dell'esperienza trans è il rapporto con il corpo durante il percorso di transizione, e come questo rapporto influenza la vita sessuale. La disforia di genere può rendere difficile vivere il sesso con serenità, ma la transizione, sia sociale che medica, tende a migliorare significativamente la soddisfazione sessuale e il benessere complessivo [5].
 
 ## Effetti della terapia ormonale sul desiderio sessuale
 
@@ -75,19 +75,19 @@ La terapia ormonale è una delle domande più frequenti quando si parla di sessu
 
 ### Testosterone (uomini trans e persone transmasculine)
 
-Lo studio ENIGI, uno dei più ampi studi longitudinali prospettici sulle persone trans in Europa, ha seguito 364 uomini trans durante i primi tre anni di terapia ormonale (Defreyne et al., 2020). I risultati mostrano un aumento significativo del desiderio sessuale nei primi tre mesi di terapia con testosterone, sia nella componente solitaria che in quella relazionale. Dopo 36 mesi, il desiderio complessivo si stabilizza su livelli paragonabili alla baseline, mentre il desiderio solitario rimane più alto. In pratica: il testosterone aumenta la libido, soprattutto all'inizio, poi il corpo si assesta.
+Lo studio ENIGI, uno dei più ampi studi longitudinali prospettici sulle persone trans in Europa, ha seguito 364 uomini trans durante i primi tre anni di terapia ormonale [2]. I risultati mostrano un aumento significativo del desiderio sessuale nei primi tre mesi di terapia con testosterone, sia nella componente solitaria che in quella relazionale [2]. Dopo 36 mesi, il desiderio complessivo si stabilizza su livelli paragonabili alla baseline, mentre il desiderio solitario rimane più alto [2]. In pratica: il testosterone aumenta la libido, soprattutto all'inizio, poi il corpo si assesta.
 
 Molti uomini trans descrivono questo cambiamento come uno degli effetti più immediati e notevoli della terapia ormonale. L'aumento del desiderio può essere intenso e richiedere un periodo di adattamento, sia individuale che nella coppia.
 
 ### Estrogeni e antiandrogeni (donne trans e persone transfemminili)
 
-Per le donne trans, il quadro è diverso. Lo stesso studio ENIGI ha documentato una diminuzione del desiderio sessuale nei primi tre mesi di terapia con estrogeni e antiandrogeni. Tuttavia, a lungo termine (36 mesi), il desiderio relazionale (diadico) tende a risalire, raggiungendo livelli superiori alla baseline. Il desiderio solitario invece rimane più basso (Defreyne et al., 2020).
+Per le donne trans, il quadro è diverso. Lo stesso studio ENIGI ha documentato una diminuzione del desiderio sessuale nei primi tre mesi di terapia con estrogeni e antiandrogeni [2]. Tuttavia, a lungo termine (36 mesi), il desiderio relazionale (diadico) tende a risalire, raggiungendo livelli superiori alla baseline [2]. Il desiderio solitario invece rimane più basso [2].
 
 Questo dato è importante: la riduzione iniziale della libido non significa una perdita permanente del desiderio. Significa che il corpo attraversa una fase di adattamento. Molte donne trans descrivono il cambiamento come qualitativo oltre che quantitativo: il desiderio diventa diverso, meno impulsivo, più connesso all'intimità emotiva. Non necessariamente meno presente, ma vissuto in modo differente.
 
 ### Cosa significa concretamente
 
-La terapia ormonale non "spegne" la sessualità. La revisione sistematica di Mattawanon et al. (2021) conferma che le disfunzioni sessuali sono presenti nelle persone trans, ma sono legate a molteplici fattori: non solo ormonali, ma anche psicologici, relazionali e sociali. La terapia ormonale può dare origine a nuove sfide (calo iniziale della libido, secchezza genitale, cambiamenti nella risposta erotica), ma può anche risolvere problemi preesistenti legati alla disforia.
+La terapia ormonale non "spegne" la sessualità. La revisione sistematica di Mattawanon et al. (2021) conferma che le disfunzioni sessuali sono presenti nelle persone trans, ma sono legate a molteplici fattori: non solo ormonali, ma anche psicologici, relazionali e sociali [4]. La terapia ormonale può dare origine a nuove sfide (calo iniziale della libido, secchezza genitale, cambiamenti nella risposta erotica), ma può anche risolvere problemi preesistenti legati alla disforia.
 
 ## Funzione sessuale e piacere
 
@@ -95,19 +95,19 @@ Una delle domande più dirette che le persone si pongono: le persone trans prova
 
 ### Piacere e soddisfazione: cosa dicono i dati
 
-Lo studio ENIGI sul piacere sessuale (Gieles et al., 2023) ha confrontato i punteggi dell'Amsterdam Sexual Pleasure Index tra persone trans e persone cisgender. I risultati mostrano che le persone trans riportano punteggi significativamente più bassi rispetto alle persone cisgender. Questo non significa che le persone trans non provino piacere, ma che fattori come la disforia corporea, lo stigma sociale e la mancanza di educazione sessuale specifica possono ridurre la capacità di godere pienamente della propria sessualità.
+Lo studio ENIGI sul piacere sessuale (Gieles et al., 2023) ha confrontato i punteggi dell'Amsterdam Sexual Pleasure Index tra persone trans e persone cisgender [10]. I risultati mostrano che le persone trans riportano punteggi significativamente più bassi rispetto alle persone cisgender [10]. Questo non significa che le persone trans non provino piacere, ma che fattori come la disforia corporea, lo stigma sociale e la mancanza di educazione sessuale specifica possono ridurre la capacità di godere pienamente della propria sessualità.
 
-I fattori associati a un maggiore piacere sessuale includono: la soddisfazione corporea, la felicità generale e la qualità della relazione di coppia. In altre parole, quando la transizione migliora il rapporto con il corpo, anche la sessualità ne beneficia.
+I fattori associati a un maggiore piacere sessuale includono: la soddisfazione corporea, la felicità generale e la qualità della relazione di coppia [10]. In altre parole, quando la transizione migliora il rapporto con il corpo, anche la sessualità ne beneficia.
 
 ### Disfunzioni sessuali: frequenza e contesto
 
-Lo studio di Kerckhof et al. (2019), condotto su 518 persone trans nelle cliniche di genere di Gand, Amsterdam e Amburgo, ha documentato che le disfunzioni sessuali più comuni sono: difficoltà a iniziare o cercare il contatto sessuale (26% nelle donne trans, 32% negli uomini trans) e difficoltà a raggiungere l'orgasmo (29% nelle donne trans, 15% negli uomini trans).
+Lo studio di Kerckhof et al. (2019), condotto su 518 persone trans nelle cliniche di genere di Gand, Amsterdam e Amburgo, ha documentato che le disfunzioni sessuali più comuni sono: difficoltà a iniziare o cercare il contatto sessuale (26% nelle donne trans, 32% negli uomini trans) e difficoltà a raggiungere l'orgasmo (29% nelle donne trans, 15% negli uomini trans) [3].
 
-Questi numeri vanno contestualizzati. Le disfunzioni sessuali sono comuni anche nella popolazione cisgender (si stima che colpiscano il 40-45% delle donne cisgender e il 20-30% degli uomini cisgender). Nelle persone trans, le disfunzioni sono spesso legate a fattori specifici come la disforia genitale, l'ansia legata al corpo e la mancanza di informazioni su come vivere il sesso con un corpo in transizione.
+Questi numeri vanno contestualizzati. Le disfunzioni sessuali sono comuni anche nella popolazione cisgender (si stima che colpiscano il 40-45% delle donne cisgender e il 20-30% degli uomini cisgender). Nelle persone trans, le disfunzioni sono spesso legate a fattori specifici come la disforia genitale, l'ansia legata al corpo e la mancanza di informazioni su come vivere il sesso con un corpo in transizione [4].
 
 ### Orgasmo dopo la chirurgia
 
-Per chi si sottopone a [chirurgia di affermazione di genere](/wiki/chirurgia-affermazione-di-genere), la domanda sull'orgasmo è centrale. I dati sono rassicuranti: una meta-analisi del 2022 riporta che il 64-98% delle donne trans dopo vaginoplastica è in grado di raggiungere l'orgasmo, con una mediana del 79,7% (Montejo et al., 2022). Per gli uomini trans dopo metoidioplastica, la sensibilità erogena è preservata nella quasi totalità dei casi.
+Per chi si sottopone a [chirurgia di affermazione di genere](/wiki/chirurgia-affermazione-di-genere), la domanda sull'orgasmo è centrale. I dati sono rassicuranti: una meta-analisi del 2022 riporta che il 64-98% delle donne trans dopo vaginoplastica è in grado di raggiungere l'orgasmo, con una mediana del 79,7% [6]. Per gli uomini trans dopo metoidioplastica, la sensibilità erogena è preservata nella quasi totalità dei casi.
 
 Le tecniche chirurgiche moderne sono progettate per preservare il tessuto nervoso e la sensibilità. Il neoclitoride nelle donne trans è costruito a partire dal tessuto del glande, che mantiene le terminazioni nervose. Ci può volere tempo per riacquistare la piena sensibilità dopo l'intervento, e la riabilitazione sessuale è un aspetto importante del percorso post-operatorio.
 
@@ -117,7 +117,7 @@ Una confusione molto diffusa riguarda il rapporto tra identità di genere e orie
 
 ### L'orientamento sessuale cambia durante la transizione?
 
-La questione è dibattuta in letteratura. Lo studio di Auer et al. (2014), condotto su 115 persone trans, ha rilevato che il 32,9% delle donne trans e il 22,2% degli uomini trans riportava un cambiamento nell'orientamento sessuale durante o dopo la transizione. Tuttavia, uno studio longitudinale più recente dello stesso progetto ENIGI (Defreyne et al., 2021) ha analizzato prospetticamente 469 donne trans e 433 uomini trans, concludendo che l'orientamento sessuale non cambiava nel tempo e non era associato alla terapia ormonale o alla chirurgia.
+La questione è dibattuta in letteratura. Lo studio di Auer et al. (2014), condotto su 115 persone trans, ha rilevato che il 32,9% delle donne trans e il 22,2% degli uomini trans riportava un cambiamento nell'orientamento sessuale durante o dopo la transizione [7]. Tuttavia, uno studio longitudinale più recente dello stesso progetto ENIGI (Defreyne et al., 2021) ha analizzato prospetticamente 469 donne trans e 433 uomini trans, concludendo che l'orientamento sessuale non cambiava nel tempo e non era associato alla terapia ormonale o alla chirurgia [8].
 
 Come interpretare questa discrepanza? Il punto cruciale è cosa si intende per "cambiamento". Molte persone trans raccontano non tanto un cambiamento reale dell'orientamento, quanto una maggiore libertà di esprimerlo. Prima della transizione, vivere il proprio orientamento sessuale può essere confuso dalla disforia e dalle aspettative sociali. Dopo, quando ci si sente finalmente a proprio agio nel proprio corpo e nella propria identità, diventa possibile esplorare la propria sessualità con maggiore autenticità. Non è un cambio di orientamento: è la possibilità, finalmente, di viverlo.
 
@@ -127,13 +127,13 @@ Il rapporto con il proprio corpo è forse il fattore più determinante nella ses
 
 ### Come la disforia influenza il sesso
 
-La disforia può manifestarsi in molti modi durante l'attività sessuale: evitare di essere toccati in certe parti del corpo, dissociarsi durante il sesso, evitare situazioni di nudità, provare disagio quando il corpo viene visto o desiderato in un modo che non corrisponde alla propria identità. Queste esperienze sono documentate nella letteratura clinica e rappresentano una delle sfide più significative per la vita sessuale delle persone trans (Holmberg et al., 2019).
+La disforia può manifestarsi in molti modi durante l'attività sessuale: evitare di essere toccati in certe parti del corpo, dissociarsi durante il sesso, evitare situazioni di nudità, provare disagio quando il corpo viene visto o desiderato in un modo che non corrisponde alla propria identità. Queste esperienze sono documentate nella letteratura clinica e rappresentano una delle sfide più significative per la vita sessuale delle persone trans [5].
 
 ### La transizione migliora l'immagine corporea?
 
-Lo studio multicentrico di Koehler et al. (2021) ha esaminato il rapporto tra terapia di affermazione di genere, immagine corporea e desiderio sessuale. I risultati confermano che la terapia ormonale è associata a un miglioramento dell'immagine corporea, e che questo miglioramento è a sua volta associato a un aumento del desiderio sessuale, in particolare negli uomini trans.
+Lo studio multicentrico di Koehler et al. (2021) ha esaminato il rapporto tra terapia di affermazione di genere, immagine corporea e desiderio sessuale [9]. I risultati confermano che la terapia ormonale è associata a un miglioramento dell'immagine corporea, e che questo miglioramento è a sua volta associato a un aumento del desiderio sessuale, in particolare negli uomini trans [9].
 
-Un dato importante emerge dallo studio di Becker et al. (2023) che ha confrontato il comportamento sessuale quotidiano, l'autostima sessuale e l'immagine corporea tra persone trans e cisgender. Le persone trans mostrano un'autostima sessuale più bassa e un'immagine corporea più negativa, ma non differiscono nel comportamento sessuale quotidiano. Questo suggerisce che le persone trans trovano modi per vivere la propria sessualità nonostante le sfide legate al corpo.
+Un dato importante emerge dallo studio di Becker et al. (2023) che ha confrontato il comportamento sessuale quotidiano, l'autostima sessuale e l'immagine corporea tra persone trans e cisgender [12]. Le persone trans mostrano un'autostima sessuale più bassa e un'immagine corporea più negativa, ma non differiscono nel comportamento sessuale quotidiano [12]. Questo suggerisce che le persone trans trovano modi per vivere la propria sessualità nonostante le sfide legate al corpo.
 
 ### Strategie pratiche
 
@@ -145,35 +145,35 @@ La transizione non avviene in un vuoto relazionale. Per le persone trans in rela
 
 ### L'esperienza dei partner
 
-Uno studio qualitativo di Pigatto et al. (2022) ha raccolto le esperienze di 99 partner di persone trans e non binarie, identificando quattro temi principali: gli aspetti positivi della relazione, le sfide, le strategie per gestire la disforia e le aspettative rispetto alla transizione medica.
+Uno studio qualitativo di Pigatto et al. (2022) ha raccolto le esperienze di 99 partner di persone trans e non binarie, identificando quattro temi principali: gli aspetti positivi della relazione, le sfide, le strategie per gestire la disforia e le aspettative rispetto alla transizione medica [11].
 
-La ricerca evidenzia che le coppie che affrontano la transizione insieme spesso sviluppano livelli di comunicazione e intimità emotiva molto profondi. La necessità di parlare esplicitamente di desideri, limiti, zone del corpo, terminologia, crea un dialogo sessuale che molte coppie cisgender non raggiungono mai. Non è un paradosso: la complessità della situazione diventa un catalizzatore per una maggiore connessione.
+La ricerca evidenzia che le coppie che affrontano la transizione insieme spesso sviluppano livelli di comunicazione e intimità emotiva molto profondi [11]. La necessità di parlare esplicitamente di desideri, limiti, zone del corpo, terminologia, crea un dialogo sessuale che molte coppie cisgender non raggiungono mai. Non è un paradosso: la complessità della situazione diventa un catalizzatore per una maggiore connessione.
 
 Allo stesso tempo, le sfide sono reali. I partner possono trovarsi a fare i conti con il cambiamento del corpo del proprio compagno o della propria compagna, con domande sulla propria identità sessuale, con paure e insicurezze. Il supporto psicologico, sia individuale che di coppia, può essere prezioso in queste fasi. Per un approfondimento su come vivere una relazione con una persona trans, rimandiamo all'articolo dedicato ai [partner delle persone trans](/wiki/partner-trans).
 
 ### Comunicazione sessuale
 
-Le linee guida WPATH SOC-8 (2022) dedicano un intero capitolo alla salute sessuale, sottolineando l'importanza di una comunicazione aperta sulla sessualità nel contesto delle cure affermative. I professionisti sanitari sono invitati a parlare proattivamente di sessualità con i pazienti trans, non solo in termini di funzione, ma anche di piacere, desiderio e soddisfazione.
+Le linee guida WPATH SOC-8 (2022) dedicano un intero capitolo alla salute sessuale, sottolineando l'importanza di una comunicazione aperta sulla sessualità nel contesto delle cure affermative [1]. I professionisti sanitari sono invitati a parlare proattivamente di sessualità con i pazienti trans, non solo in termini di funzione, ma anche di piacere, desiderio e soddisfazione.
 
 Questo principio vale anche nella relazione: parlare di sesso non è facile per nessuno, ma per le persone trans è particolarmente importante. Stabilire insieme cosa piace e cosa no, quali parti del corpo possono essere toccate e come, quale linguaggio usare per i genitali: sono conversazioni che richiedono fiducia reciproca e che, quando avvengono, migliorano significativamente la qualità dell'esperienza sessuale.
 
 ## Soddisfazione sessuale dopo la transizione
 
-I dati sulla soddisfazione sessuale dopo la transizione sono complessivamente positivi. Una revisione sistematica del 2022 sulla soddisfazione post-chirurgica riporta che il 64-76% degli uomini trans si dichiara soddisfatto o molto soddisfatto, e il 64-98% delle donne trans dopo vaginoplastica esprime soddisfazione (Montejo et al., 2022).
+I dati sulla soddisfazione sessuale dopo la transizione sono complessivamente positivi. Una revisione sistematica del 2022 sulla soddisfazione post-chirurgica riporta che il 64-76% degli uomini trans si dichiara soddisfatto o molto soddisfatto, e il 64-98% delle donne trans dopo vaginoplastica esprime soddisfazione [6].
 
-Ma la soddisfazione sessuale non dipende solo dalla chirurgia. Holmberg et al. (2019), nella loro revisione pubblicata su Nature Reviews Urology, sottolineano che la soddisfazione sessuale nelle persone trans è influenzata da un insieme di fattori: la riduzione della disforia, il miglioramento dell'immagine corporea, la qualità delle relazioni, l'accesso a informazioni appropriate e la presenza di supporto psicologico.
+Ma la soddisfazione sessuale non dipende solo dalla chirurgia. Holmberg et al. (2019), nella loro revisione pubblicata su Nature Reviews Urology, sottolineano che la soddisfazione sessuale nelle persone trans è influenzata da un insieme di fattori: la riduzione della disforia, il miglioramento dell'immagine corporea, la qualità delle relazioni, l'accesso a informazioni appropriate e la presenza di supporto psicologico [5].
 
-Un dato particolarmente significativo riguarda il ruolo protettivo della soddisfazione sessuale: nelle persone trans, livelli più alti di soddisfazione sessuale sono associati a livelli più bassi di depressione. La sessualità non è un aspetto secondario del benessere: è una componente centrale.
+Un dato particolarmente significativo riguarda il ruolo protettivo della soddisfazione sessuale: nelle persone trans, livelli più alti di soddisfazione sessuale sono associati a livelli più bassi di depressione [5]. La sessualità non è un aspetto secondario del benessere: è una componente centrale.
 
 ### Cosa può migliorare
 
 Non tutto è rose e fiori, ed è importante dirlo. Alcuni aspetti della sessualità possono essere più difficili dopo la transizione medica: la secchezza vaginale nelle donne trans, la ridotta sensibilità in alcuni interventi chirurgici, la necessità di lubrificazione, l'adattamento a un corpo che funziona in modo diverso. Questi aspetti non sono insormontabili, ma richiedono attenzione, informazione e, quando necessario, supporto medico.
 
-La revisione di Barcelos et al. (2022), specificamente focalizzata sulla funzione sessuale delle donne trans dopo chirurgia, sottolinea che le evidenze sono ancora limitate e che servono strumenti di valutazione migliori, specificamente pensati per le persone trans e non adattati da questionari creati per persone cisgender.
+La revisione di Barcelos et al. (2022), specificamente focalizzata sulla funzione sessuale delle donne trans dopo chirurgia, sottolinea che le evidenze sono ancora limitate e che servono strumenti di valutazione migliori, specificamente pensati per le persone trans e non adattati da questionari creati per persone cisgender [6].
 
 ## Risorse pratiche e percorsi di supporto
 
-La sessualità è un aspetto della salute che merita attenzione clinica specifica. Le linee guida WPATH SOC-8 (2022) raccomandano che:
+La sessualità è un aspetto della salute che merita attenzione clinica specifica. Le linee guida WPATH SOC-8 (2022) raccomandano che [1]:
 
 - I professionisti sanitari affrontino proattivamente il tema della sessualità con i pazienti trans
 - La valutazione della funzione sessuale faccia parte del monitoraggio durante la transizione
@@ -194,6 +194,6 @@ Se stai cercando supporto per la tua vita sessuale:
 
 La sessualità delle persone trans non è esotica, non è tragica, non è un feticcio. È sessualità umana, con tutta la sua complessità. La transizione può portare sfide specifiche, come la disforia, gli effetti ormonali, i cambiamenti post-chirurgici, ma porta anche opportunità: una maggiore consapevolezza del proprio corpo, un dialogo più autentico con i partner, la possibilità di vivere il sesso in modo finalmente coerente con la propria identità.
 
-I dati scientifici confermano che la maggior parte delle persone trans che intraprende un percorso di transizione riporta un miglioramento della soddisfazione sessuale complessiva. Non perché la transizione risolva tutto, ma perché offre le condizioni per una vita sessuale più autentica.
+I dati scientifici confermano che la maggior parte delle persone trans che intraprende un percorso di transizione riporta un miglioramento della soddisfazione sessuale complessiva [5][6]. Non perché la transizione risolva tutto, ma perché offre le condizioni per una vita sessuale più autentica.
 
 Se hai domande specifiche sulla sessualità nei rapporti con donne trans o uomini trans, troverai approfondimenti dedicati negli articoli satellite di questa sezione.

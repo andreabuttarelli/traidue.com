@@ -72,7 +72,7 @@ Iniziare la transizione di genere in Italia può sembrare un processo opaco e sc
 
 ## Prima di tutto: non esiste un unico modo di fare transizione
 
-La transizione è un percorso personale. Alcune persone desiderano la [terapia ormonale](/wiki/transizione-medica-cosa-cambia) e interventi chirurgici, altre solo il cambio dei documenti, altre ancora scelgono una transizione esclusivamente sociale -- cambiando nome, pronomi, modo di presentarsi -- senza alcun intervento medico. Nessuna di queste scelte è più o meno valida delle altre. La transizione non è una scala con un punto di partenza e un punto di arrivo obbligato: è un insieme di decisioni che ciascuno prende in base a ciò che sente necessario per stare bene.
+La transizione è un percorso personale. Alcune persone desiderano la [terapia ormonale](/wiki/transizione-medica-cosa-cambia) e interventi chirurgici, altre solo il cambio dei documenti, altre ancora scelgono una transizione esclusivamente sociale -- cambiando nome, pronomi, modo di presentarsi -- senza alcun intervento medico. Nessuna di queste scelte è più o meno valida delle altre [1]. La transizione non è una scala con un punto di partenza e un punto di arrivo obbligato: è un insieme di decisioni che ciascuno prende in base a ciò che sente necessario per stare bene.
 
 Questa guida si concentra sui passaggi pratici per chi desidera intraprendere un percorso medico in Italia, ma le informazioni sui centri e sulle risorse sono utili anche a chi sta ancora esplorando la propria [identità di genere](/wiki/identita-di-genere).
 
@@ -80,13 +80,13 @@ Questa guida si concentra sui passaggi pratici per chi desidera intraprendere un
 
 ### Rivolgersi al medico di base
 
-Il medico di medicina generale (medico di base) è spesso il primo punto di contatto con il sistema sanitario. Può prescrivere un'impegnativa per una visita specialistica presso un centro per l'identità di genere o indirizzare verso i servizi territoriali competenti. Non tutti i medici di base hanno familiarità con questi percorsi, ma hanno l'obbligo di fornire l'impegnativa se richiesta.
+Il medico di medicina generale (medico di base) è spesso il primo punto di contatto con il sistema sanitario [4]. Può prescrivere un'impegnativa per una visita specialistica presso un centro per l'identità di genere o indirizzare verso i servizi territoriali competenti. Non tutti i medici di base hanno familiarità con questi percorsi, ma hanno l'obbligo di fornire l'impegnativa se richiesta.
 
 Se il proprio medico di base non conosce i centri di riferimento o si mostra poco collaborativo, è possibile rivolgersi direttamente ai centri specializzati, molti dei quali accettano l'accesso anche senza impegnativa.
 
 ### Contattare direttamente un centro specializzato
 
-La strada più diretta è contattare uno dei centri afferenti all'**ONIG** (Osservatorio Nazionale sull'Identità di Genere) o una delle strutture pubbliche presenti sulla mappa di **Infotrans.it**, il portale istituzionale realizzato dall'Istituto Superiore di Sanità e dall'UNAR. Questi centri hanno équipe multidisciplinari -- psicologi, endocrinologi, psichiatri, chirurghi -- specificamente formate per accompagnare le persone nel percorso di affermazione di genere.
+La strada più diretta è contattare uno dei centri afferenti all'**ONIG** (Osservatorio Nazionale sull'Identità di Genere) o una delle strutture pubbliche presenti sulla mappa di **Infotrans.it**, il portale istituzionale realizzato dall'Istituto Superiore di Sanità e dall'UNAR [6]. Questi centri hanno équipe multidisciplinari -- psicologi, endocrinologi, psichiatri, chirurghi -- specificamente formate per accompagnare le persone nel percorso di affermazione di genere.
 
 Il primo contatto avviene generalmente per telefono o email. Viene fissato un colloquio di accoglienza, durante il quale si raccolgono le informazioni iniziali e si spiega il percorso offerto dal centro. Questo primo incontro non è vincolante: serve a conoscersi.
 
@@ -98,13 +98,13 @@ Non servono documenti particolari per il primo colloquio. È utile portare la te
 
 ### A cosa serve
 
-I protocolli italiani, in linea con gli standard ONIG e con le raccomandazioni WPATH SOC 8, prevedono una fase di valutazione psicologica. È importante chiarire cosa questa fase **non** è: non è un esame per "dimostrare" di essere trans, non è un processo per ottenere un'autorizzazione, e non ha lo scopo di mettere in discussione l'identità della persona.
+I protocolli italiani, in linea con gli standard ONIG e con le raccomandazioni WPATH SOC 8 [1][2], prevedono una fase di valutazione psicologica. È importante chiarire cosa questa fase **non** è: non è un esame per "dimostrare" di essere trans, non è un processo per ottenere un'autorizzazione, e non ha lo scopo di mettere in discussione l'identità della persona.
 
 La valutazione psicologica ha tre obiettivi principali:
 
 1. **Supportare la persona** nell'esplorazione consapevole del proprio percorso, aiutandola a chiarire desideri, aspettative e timori.
-2. **Verificare l'assenza di condizioni psichiatriche non trattate** che potrebbero interferire con la capacità decisionale (ad esempio psicosi attive o gravi disturbi dissociativi non trattati). La presenza di condizioni come depressione o ansia -- estremamente comuni nelle persone trans a causa dello stress minoritario -- **non** è un motivo di esclusione.
-3. **Redigere una relazione psicodiagnostica** che attesti la condizione di incongruenza di genere e che sarà necessaria per accedere alla terapia ormonale e, successivamente, per la [rettificazione anagrafica](/wiki/legge-164-italia).
+2. **Verificare l'assenza di condizioni psichiatriche non trattate** che potrebbero interferire con la capacità decisionale (ad esempio psicosi attive o gravi disturbi dissociativi non trattati). La presenza di condizioni come depressione o ansia -- estremamente comuni nelle persone trans a causa dello stress minoritario -- **non** è un motivo di esclusione [1].
+3. **Redigere una relazione psicodiagnostica** che attesti la condizione di incongruenza di genere e che sarà necessaria per accedere alla terapia ormonale e, successivamente, per la [rettificazione anagrafica](/wiki/legge-164-italia) [10].
 
 ### Come si svolge
 
@@ -120,7 +120,7 @@ Succede. Non tutti i rapporti terapeutici funzionano, e questo non è un fallime
 
 ## Passo 3: i principali centri in Italia
 
-L'Italia dispone di una rete di centri pubblici che offrono percorsi di affermazione di genere all'interno del Servizio Sanitario Nazionale. Ecco i principali, con le informazioni essenziali per il primo contatto.
+L'Italia dispone di una rete di centri pubblici che offrono percorsi di affermazione di genere all'interno del Servizio Sanitario Nazionale [3][6]. Ecco i principali, con le informazioni essenziali per il primo contatto.
 
 ### Roma - SAIFIP (San Camillo-Forlanini)
 
@@ -149,7 +149,7 @@ Il **Movimento Identità Trans** di Bologna gestisce un consultorio che opera in
 
 ### Milano - Niguarda
 
-Il servizio per l'adeguamento di genere dell'**Ospedale Niguarda** è il centro di riferimento per la Lombardia. Opera come centro ONIG e offre percorsi multidisciplinari completi.
+Il servizio per l'adeguamento di genere dell'**Ospedale Niguarda** è il centro di riferimento per la Lombardia. Opera come centro ONIG e offre percorsi multidisciplinari completi [3].
 
 - **Indirizzo**: Piazza Ospedale Maggiore 3, Milano
 - **Telefono**: 02 64442034 / 02 64442176
@@ -171,32 +171,32 @@ Il **Policlinico di Bari** offre un servizio di Day Hospital per i percorsi lega
 
 ### Altri centri
 
-Oltre ai centri elencati, esistono servizi attivi a **Firenze** (AOU Careggi), **Padova** (associazione Con-Te-Stare, centro ONIG), **Trieste**, **Palermo** e in altre città. La mappa completa e aggiornata è disponibile su [Infotrans.it](https://www.infotrans.it/it-schede-3-mappa_servizi_transgender) e sul sito dell'[ONIG](https://www.onig.it/i-centri-italiani/).
+Oltre ai centri elencati, esistono servizi attivi a **Firenze** (AOU Careggi), **Padova** (associazione Con-Te-Stare, centro ONIG), **Trieste**, **Palermo** e in altre città. La mappa completa e aggiornata è disponibile su [Infotrans.it](https://www.infotrans.it/it-schede-3-mappa_servizi_transgender) e sul sito dell'[ONIG](https://www.onig.it/i-centri-italiani/) [3][6].
 
 ## Passo 4: la terapia ormonale
 
 ### Come si accede
 
-Una volta completata la fase di valutazione psicologica e ottenuta la relazione psicodiagnostica, il passo successivo -- per chi lo desidera -- è l'inizio della **terapia ormonale sostitutiva** (TOS). All'interno dei centri pubblici, la prescrizione avviene da parte dell'endocrinologo del centro stesso, sulla base della relazione psicologica e dopo un'accurata valutazione medica che include esami del sangue, profilo ormonale, funzionalità epatica e renale, profilo lipidico e altri parametri.
+Una volta completata la fase di valutazione psicologica e ottenuta la relazione psicodiagnostica, il passo successivo -- per chi lo desidera -- è l'inizio della **terapia ormonale sostitutiva** (TOS). All'interno dei centri pubblici, la prescrizione avviene da parte dell'endocrinologo del centro stesso, sulla base della relazione psicologica e dopo un'accurata valutazione medica che include esami del sangue, profilo ormonale, funzionalità epatica e renale, profilo lipidico e altri parametri [5][8].
 
-La TOS consiste nella somministrazione di **testosterone** (per le persone transmaschili) o di **estrogeni e antiandrogeni** (per le persone transfemminili). I farmaci sono disponibili in diverse forme: iniezioni intramuscolari, gel transdermico, cerotti, compresse. La scelta dipende dalle preferenze della persona e dalla valutazione medica.
+La TOS consiste nella somministrazione di **testosterone** (per le persone transmaschili) o di **estrogeni e antiandrogeni** (per le persone transfemminili). I farmaci sono disponibili in diverse forme: iniezioni intramuscolari, gel transdermico, cerotti, compresse. La scelta dipende dalle preferenze della persona e dalla valutazione medica [5].
 
 ### Cosa aspettarsi nei primi mesi
 
-I cambiamenti non sono immediati. La terapia ormonale agisce gradualmente, e i primi effetti visibili compaiono generalmente dopo **2-3 mesi**. Per una descrizione dettagliata dei cambiamenti fisici, rimandiamo all'articolo dedicato alla [transizione medica](/wiki/transizione-medica-cosa-cambia). In sintesi:
+I cambiamenti non sono immediati. La terapia ormonale agisce gradualmente, e i primi effetti visibili compaiono generalmente dopo **2-3 mesi** [5][8]. Per una descrizione dettagliata dei cambiamenti fisici, rimandiamo all'articolo dedicato alla [transizione medica](/wiki/transizione-medica-cosa-cambia). In sintesi:
 
 - **Testosterone**: abbassamento della voce (3-12 mesi), crescita di peli sul viso e sul corpo (6-12 mesi), redistribuzione del grasso corporeo, aumento della massa muscolare, interruzione del ciclo mestruale (2-6 mesi).
 - **Estrogeni e antiandrogeni**: sviluppo del seno (3-6 mesi, con crescita completa in 2-3 anni), pelle più morbida, riduzione della crescita dei peli corporei, redistribuzione del grasso, riduzione delle erezioni spontanee.
 
 ### Il monitoraggio
 
-La TOS richiede un **monitoraggio medico regolare**, specialmente nei primi mesi. Gli esami del sangue vengono effettuati periodicamente (ogni 3-6 mesi all'inizio, poi annualmente) per verificare i livelli ormonali e controllare la funzionalità epatica, i parametri ematologici e il profilo lipidico. Questo monitoraggio è fondamentale per la sicurezza e l'efficacia del trattamento.
+La TOS richiede un **monitoraggio medico regolare**, specialmente nei primi mesi [8]. Gli esami del sangue vengono effettuati periodicamente (ogni 3-6 mesi all'inizio, poi annualmente) per verificare i livelli ormonali e controllare la funzionalità epatica, i parametri ematologici e il profilo lipidico. Questo monitoraggio è fondamentale per la sicurezza e l'efficacia del trattamento.
 
 ## Costi: pubblico e privato
 
 ### Percorso pubblico (SSN)
 
-Dal **1 ottobre 2020**, grazie alle determine AIFA n. 104272/2020 e n. 104273/2020, i farmaci ormonali per la transizione di genere sono **erogabili a totale carico del Servizio Sanitario Nazionale** su tutto il territorio italiano. Questo significa che, con una diagnosi di incongruenza di genere rilasciata da un'équipe multidisciplinare specialistica, testosterone, estrogeni, antiandrogeni e analoghi del GnRH sono gratuiti.
+Dal **1 ottobre 2020**, grazie alle determine AIFA n. 104272/2020 e n. 104273/2020, i farmaci ormonali per la transizione di genere sono **erogabili a totale carico del Servizio Sanitario Nazionale** su tutto il territorio italiano [7][12]. Questo significa che, con una diagnosi di incongruenza di genere rilasciata da un'équipe multidisciplinare specialistica, testosterone, estrogeni, antiandrogeni e analoghi del GnRH sono gratuiti.
 
 Le visite specialistiche presso i centri pubblici sono soggette ai normali **ticket** del SSN (generalmente tra i 25 e i 40 euro per visita, a meno di esenzioni per reddito). Anche gli esami del sangue per il monitoraggio sono coperti dal SSN con il pagamento del ticket.
 
@@ -231,19 +231,19 @@ In totale, dal primo contatto all'inizio della terapia ormonale possono passare 
 
 ### I bloccanti della pubertà
 
-Per gli adolescenti all'inizio dello sviluppo puberale (stadi Tanner 2-3, generalmente tra i 10 e i 13 anni), i protocolli italiani -- in linea con le raccomandazioni WPATH SOC 8 e le linee guida dell'Endocrine Society -- prevedono la possibilità di prescrivere **analoghi del GnRH** (comunemente chiamati "bloccanti della pubertà"). Questi farmaci sospendono temporaneamente lo sviluppo puberale, dando al ragazzo o alla ragazza più tempo per esplorare la propria identità senza il disagio provocato da cambiamenti corporei indesiderati. L'effetto dei bloccanti è **reversibile**: se sospesi, la pubertà riprende normalmente.
+Per gli adolescenti all'inizio dello sviluppo puberale (stadi Tanner 2-3, generalmente tra i 10 e i 13 anni), i protocolli italiani -- in linea con le raccomandazioni WPATH SOC 8 e le linee guida dell'Endocrine Society [1][8] -- prevedono la possibilità di prescrivere **analoghi del GnRH** (comunemente chiamati "bloccanti della pubertà"). Questi farmaci sospendono temporaneamente lo sviluppo puberale, dando al ragazzo o alla ragazza più tempo per esplorare la propria identità senza il disagio provocato da cambiamenti corporei indesiderati. L'effetto dei bloccanti è **reversibile**: se sospesi, la pubertà riprende normalmente [9].
 
 ### La terapia ormonale per gli adolescenti
 
-La terapia ormonale cross-sex (testosterone o estrogeni) è generalmente disponibile a partire dai **16 anni**, con il consenso dei genitori o di chi esercita la responsabilità genitoriale. In alcuni centri può essere avviata dai 14-15 anni in casi specifici, sempre con il supporto dell'équipe multidisciplinare e il consenso familiare.
+La terapia ormonale cross-sex (testosterone o estrogeni) è generalmente disponibile a partire dai **16 anni**, con il consenso dei genitori o di chi esercita la responsabilità genitoriale [8][9]. In alcuni centri può essere avviata dai 14-15 anni in casi specifici, sempre con il supporto dell'équipe multidisciplinare e il consenso familiare.
 
 ### Dove andare
 
-Non tutti i centri per adulti trattano anche minorenni. I principali centri pediatrici e per adolescenti includono il SAIFIP a Roma, il CIDIGEM a Torino, l'AOU Careggi a Firenze e il servizio dell'Ospedale Niguarda a Milano. L'elenco aggiornato dei centri per minorenni è disponibile sul [sito ONIG](https://www.onig.it/i-centri-per-minorenni/).
+Non tutti i centri per adulti trattano anche minorenni. I principali centri pediatrici e per adolescenti includono il SAIFIP a Roma, il CIDIGEM a Torino, l'AOU Careggi a Firenze e il servizio dell'Ospedale Niguarda a Milano [9]. L'elenco aggiornato dei centri per minorenni è disponibile sul [sito ONIG](https://www.onig.it/i-centri-per-minorenni/).
 
 ### Il ruolo della famiglia
 
-Il coinvolgimento della famiglia è una parte importante del percorso per i minorenni. Molti centri offrono colloqui dedicati ai genitori e gruppi di sostegno per le famiglie. L'obiettivo non è convincere i genitori, ma costruire un dialogo informato. Se la famiglia non è di supporto, i centri possono comunque offrire ascolto e orientamento alla persona minorenne, e le associazioni come **Agedo** (Associazione Genitori di Omosessuali) e il **GenderLens** offrono risorse specifiche per i familiari.
+Il coinvolgimento della famiglia è una parte importante del percorso per i minorenni [1][9]. Molti centri offrono colloqui dedicati ai genitori e gruppi di sostegno per le famiglie. L'obiettivo non è convincere i genitori, ma costruire un dialogo informato. Se la famiglia non è di supporto, i centri possono comunque offrire ascolto e orientamento alla persona minorenne, e le associazioni come **Agedo** (Associazione Genitori di Omosessuali) e il **GenderLens** offrono risorse specifiche per i familiari.
 
 ## Paure comuni (e risposte oneste)
 
@@ -253,7 +253,7 @@ Il coinvolgimento della famiglia è una parte importante del percorso per i mino
 
 ### "Non sono abbastanza trans"
 
-Non esiste un modo giusto di essere trans. Non serve aver saputo "da sempre" di essere nati nel corpo sbagliato. Non serve odiare il proprio corpo. Non serve corrispondere a un'immagine stereotipata. L'incongruenza di genere si manifesta in modi diversi per persone diverse, e il percorso di esplorazione è parte integrante della transizione stessa. Se stai leggendo questa guida, probabilmente hai già tutte le ragioni per rivolgerti a un centro.
+Non esiste un modo giusto di essere trans. Non serve aver saputo "da sempre" di essere nati nel corpo sbagliato. Non serve odiare il proprio corpo. Non serve corrispondere a un'immagine stereotipata. L'incongruenza di genere si manifesta in modi diversi per persone diverse [1], e il percorso di esplorazione è parte integrante della transizione stessa. Se stai leggendo questa guida, probabilmente hai già tutte le ragioni per rivolgerti a un centro.
 
 ### "Ho paura del giudizio degli altri"
 
@@ -261,7 +261,7 @@ Il giudizio sociale è reale e può essere doloroso. Non ha senso minimizzarlo. 
 
 ### "Non posso permettermelo"
 
-Il percorso pubblico attraverso il SSN è gratuito o quasi (con i soli ticket). I farmaci ormonali sono a carico del SSN dal 2020. Se i tempi di attesa sono un problema, molte associazioni offrono supporto nell'orientamento e nell'accesso ai servizi. Il [gratuito patrocinio](https://www.infotrans.it/it-schede-39-rettifica_genere_italia) è disponibile per le spese legali legate alla rettificazione anagrafica, per chi rientra nei limiti di reddito.
+Il percorso pubblico attraverso il SSN è gratuito o quasi (con i soli ticket). I farmaci ormonali sono a carico del SSN dal 2020 [7][12]. Se i tempi di attesa sono un problema, molte associazioni offrono supporto nell'orientamento e nell'accesso ai servizi. Il [gratuito patrocinio](https://www.infotrans.it/it-schede-39-rettifica_genere_italia) è disponibile per le spese legali legate alla rettificazione anagrafica, per chi rientra nei limiti di reddito [10].
 
 ## Cosa fare se vivi lontano da un centro
 
@@ -269,7 +269,7 @@ Non tutti vivono a Roma, Torino o Milano. Se il centro più vicino è a ore di d
 
 - **Teleconsulto**: dopo la pandemia, molti centri e professionisti privati offrono colloqui psicologici in videochiamata. Non sostituiscono l'intero percorso, ma possono ridurre significativamente il numero di spostamenti necessari.
 - **Combinare pubblico e privato**: si può iniziare il percorso psicologico con un professionista privato nella propria città (purché specializzato in identità di genere) e poi presentare la relazione al centro pubblico per accedere alla TOS attraverso il SSN.
-- **Associazioni locali**: anche nelle città più piccole esistono spesso sportelli o associazioni LGBTQ+ che possono offrire orientamento, ascolto e accompagnamento. L'elenco delle associazioni è disponibile su [Infotrans.it](https://www.infotrans.it/it-schede-157-associacoes_transgenero).
+- **Associazioni locali**: anche nelle città più piccole esistono spesso sportelli o associazioni LGBTQ+ che possono offrire orientamento, ascolto e accompagnamento. L'elenco delle associazioni è disponibile su [Infotrans.it](https://www.infotrans.it/it-schede-157-associacoes_transgenero) [6].
 - **Concentrare gli appuntamenti**: quando si deve viaggiare, è utile chiedere al centro di concentrare più appuntamenti nella stessa giornata o in giorni consecutivi.
 
 La distanza dai centri resta un problema strutturale del sistema italiano, ma non deve diventare un motivo per rinunciare al percorso.
@@ -278,13 +278,13 @@ La distanza dai centri resta un problema strutturale del sistema italiano, ma no
 
 Iniziare la transizione può essere un momento di grande solitudine, soprattutto se non si conosce nessun'altra persona trans. Entrare in contatto con la comunità -- attraverso associazioni, gruppi di sostegno, forum online o semplicemente conoscendo altre persone che hanno fatto un percorso simile -- può fare una differenza decisiva. Non per ricevere consigli medici (per quelli ci sono i professionisti), ma per sentirsi meno soli, per condividere esperienze, per vedere che è possibile.
 
-Le principali associazioni nazionali includono il **MIT** (Movimento Identità Trans), **Azione Trans**, **Arcigay** e le sue sedi territoriali, e **Agedo** per i familiari. Molte di queste offrono sportelli di ascolto gratuiti.
+Le principali associazioni nazionali includono il **MIT** (Movimento Identità Trans), **Azione Trans** [11], **Arcigay** e le sue sedi territoriali, e **Agedo** per i familiari. Molte di queste offrono sportelli di ascolto gratuiti.
 
 ## Da dove cominciare, concretamente
 
 Se hai letto fino a qui e ti stai chiedendo qual è il passo successivo, ecco una lista sintetica:
 
-1. **Identifica il centro più vicino** consultando la [mappa Infotrans](https://www.infotrans.it/it-schede-3-mappa_servizi_transgender) o il [sito ONIG](https://www.onig.it/i-centri-italiani/).
+1. **Identifica il centro più vicino** consultando la [mappa Infotrans](https://www.infotrans.it/it-schede-3-mappa_servizi_transgender) o il [sito ONIG](https://www.onig.it/i-centri-italiani/) [3][6].
 2. **Chiama o scrivi** per fissare un primo appuntamento. Non serve avere una diagnosi o una certezza assoluta.
 3. **Parla con il tuo medico di base**, se ti senti a tuo agio, per ottenere un'impegnativa.
 4. **Contatta un'associazione** nella tua zona per supporto e orientamento.

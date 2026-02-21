@@ -72,23 +72,23 @@ I genitali maschili sono composti da tessuti che, dal punto di vista embriologic
 
 ## Cosa cambia con la terapia ormonale
 
-La terapia estrogenica (estrogeni combinati con antiandrogeni) produce cambiamenti significativi nell'anatomia genitale. Secondo le linee guida della Endocrine Society (Hembree et al., 2017) e gli Standards of Care WPATH versione 8 (2022), i principali effetti sui genitali sono i seguenti.
+La terapia estrogenica (estrogeni combinati con antiandrogeni) produce cambiamenti significativi nell'anatomia genitale. Secondo le linee guida della Endocrine Society (Hembree et al., 2017) e gli Standards of Care WPATH versione 8 (2022), i principali effetti sui genitali sono i seguenti [2][1].
 
 ### Riduzione del volume testicolare
 
-Gli antiandrogeni e gli estrogeni sopprimono la produzione di testosterone da parte dei testicoli. Questo porta a una progressiva atrofia testicolare: i testicoli si riducono in dimensioni, spesso in modo significativo. Uno studio di Schneider et al. (2017) ha documentato che la terapia ormonale causa alterazioni istologiche nei tessuti testicolari, inclusa ialinizzazione dei tubuli seminiferi, ispessimento della membrana basale e compromissione della spermatogenesi. La riduzione del volume è visibile già nei primi 3-6 mesi di terapia e prosegue nel tempo.
+Gli antiandrogeni e gli estrogeni sopprimono la produzione di testosterone da parte dei testicoli. Questo porta a una progressiva atrofia testicolare: i testicoli si riducono in dimensioni, spesso in modo significativo [3]. Uno studio di Schneider et al. (2017) ha documentato che la terapia ormonale causa alterazioni istologiche nei tessuti testicolari, inclusa ialinizzazione dei tubuli seminiferi, ispessimento della membrana basale e compromissione della spermatogenesi [4]. La riduzione del volume è visibile già nei primi 3-6 mesi di terapia e prosegue nel tempo.
 
 ### Cambiamenti del pene
 
-Il pene tende a ridursi in dimensioni, sia in lunghezza che in circonferenza, soprattutto in stato di flaccidità. La pelle diventa più sottile e morbida per effetto degli estrogeni. Le erezioni spontanee diminuiscono drasticamente o scompaiono del tutto, anche se la capacità erettile può essere mantenuta con stimolazione diretta. La Mayo Clinic (2024) e il programma di salute transgender della UCSF confermano che questi cambiamenti iniziano nei primi 1-3 mesi e si stabilizzano entro 1-2 anni.
+Il pene tende a ridursi in dimensioni, sia in lunghezza che in circonferenza, soprattutto in stato di flaccidità. La pelle diventa più sottile e morbida per effetto degli estrogeni. Le erezioni spontanee diminuiscono drasticamente o scompaiono del tutto, anche se la capacità erettile può essere mantenuta con stimolazione diretta [11][12]. Questi cambiamenti iniziano nei primi 1-3 mesi e si stabilizzano entro 1-2 anni.
 
 ### Modifiche alla pelle e ai tessuti
 
-La pelle dell'area genitale diventa più sottile, morbida e con meno peluria. La produzione di sebo diminuisce. La texture della pelle si avvicina progressivamente a quella tipica femminile. Questi cambiamenti sono rilevanti anche in vista di un eventuale intervento chirurgico, poiché la qualità del tessuto cutaneo influenza i risultati della vaginoplastica.
+La pelle dell'area genitale diventa più sottile, morbida e con meno peluria [3]. La produzione di sebo diminuisce. La texture della pelle si avvicina progressivamente a quella tipica femminile. Questi cambiamenti sono rilevanti anche in vista di un eventuale intervento chirurgico, poiché la qualità del tessuto cutaneo influenza i risultati della vaginoplastica.
 
 ### Sensibilità e funzione sessuale
 
-Un aspetto spesso trascurato: la terapia ormonale non elimina la sensibilità genitale. Anzi, molte donne trans riportano un cambiamento qualitativo nella percezione del piacere. La sensibilità può diventare più diffusa e meno localizzata rispetto al pattern tipicamente maschile. La libido tende a diminuire, almeno inizialmente, per poi stabilizzarsi su livelli variabili da persona a persona. La capacità di raggiungere l'orgasmo è generalmente preservata, anche se le modalità possono cambiare.
+Un aspetto spesso trascurato: la terapia ormonale non elimina la sensibilità genitale. Anzi, molte donne trans riportano un cambiamento qualitativo nella percezione del piacere [12]. La sensibilità può diventare più diffusa e meno localizzata rispetto al pattern tipicamente maschile. La libido tende a diminuire, almeno inizialmente, per poi stabilizzarsi su livelli variabili da persona a persona. La capacità di raggiungere l'orgasmo è generalmente preservata, anche se le modalità possono cambiare.
 
 ### Cosa non cambia con i soli ormoni
 
@@ -102,15 +102,15 @@ La vaginoplastica è l'intervento chirurgico con cui si creano una neovagina, un
 
 La tecnica più diffusa al mondo è la vaginoplastica con inversione peniena (penile inversion vaginoplasty). La pelle del pene viene utilizzata per rivestire il canale neovaginale, mentre il glande viene ridotto e riposizionato come neoclitoride, preservando il fascio neurovascolare per mantenere la sensibilità. Lo scroto viene utilizzato per creare le grandi labbra, e il tessuto uretrale può essere impiegato per le piccole labbra.
 
-La revisione sistematica di Hontscharuk et al. (2021), pubblicata su Andrology, ha analizzato i risultati di questa tecnica. Il tasso di complicanze varia dal 20% al 70% a seconda degli studi e della definizione di "complicanza", ma la maggior parte sono minori e gestibili: granulazione del tessuto, restringimento dell'introito vaginale, infezioni urinarie. Le complicanze gravi che richiedono revisione chirurgica sono molto meno frequenti.
+La revisione sistematica di Hontscharuk et al. (2021), pubblicata su Andrology, ha analizzato i risultati di questa tecnica [5]. Il tasso di complicanze varia dal 20% al 70% a seconda degli studi e della definizione di "complicanza", ma la maggior parte sono minori e gestibili: granulazione del tessuto, restringimento dell'introito vaginale, infezioni urinarie. Le complicanze gravi che richiedono revisione chirurgica sono molto meno frequenti.
 
-Una meta-analisi del 2021 (Dreher et al.) ha confermato che la soddisfazione complessiva delle pazienti dopo vaginoplastica con inversione peniena è elevata, con tassi che variano dall'80% al 100% a seconda degli studi.
+Una meta-analisi del 2021 (Dreher et al.) ha confermato che la soddisfazione complessiva delle pazienti dopo vaginoplastica con inversione peniena è elevata, con tassi che variano dall'80% al 100% a seconda degli studi [10].
 
 ### Vaginoplastica peritoneale
 
 Una tecnica più recente utilizza il peritoneo (la membrana che riveste la cavità addominale) per creare il canale vaginale, generalmente con assistenza laparoscopica o robotica. Il vantaggio teorico è che il peritoneo è un tessuto umido e flessibile, che potrebbe offrire una migliore lubrificazione rispetto alla pelle peniena.
 
-Tuttavia, una revisione pubblicata su Sexual Medicine Reviews nel 2023 (Bordas et al.) ha chiarito che nessuna tecnica di vaginoplastica produce una lubrificazione paragonabile a quella della vagina nativa. La lubrificazione riportata dalle pazienti con tecnica peritoneale è reale ma limitata, e nella pratica clinica la maggior parte delle donne trans, indipendentemente dalla tecnica, utilizza lubrificanti durante i rapporti sessuali.
+Tuttavia, una revisione pubblicata su Sexual Medicine Reviews nel 2023 (Bordas et al.) ha chiarito che nessuna tecnica di vaginoplastica produce una lubrificazione paragonabile a quella della vagina nativa [9]. La lubrificazione riportata dalle pazienti con tecnica peritoneale è reale ma limitata, e nella pratica clinica la maggior parte delle donne trans, indipendentemente dalla tecnica, utilizza lubrificanti durante i rapporti sessuali.
 
 La tecnica peritoneale ha il vantaggio di non dipendere dalla quantità di pelle peniena disponibile, il che la rende una buona opzione per le donne trans che hanno iniziato il blocco puberale prima dello sviluppo genitale completo. I dati a lungo termine sono ancora limitati rispetto all'inversione peniena.
 
@@ -120,7 +120,7 @@ Esistono anche la vaginoplastica con innesto di colon sigmoideo (meno praticata 
 
 ## Come appare il risultato
 
-Una delle domande più comuni riguarda l'aspetto estetico. I risultati della vaginoplastica moderna sono significativamente migliorati negli ultimi decenni. L'aspetto esterno della vulva creata chirurgicamente, comprensivo di grandi labbra, piccole labbra, cappuccio clitorideo e introito vaginale, può essere esteticamente molto simile a quello di una vulva nativa. La variabilità naturale dell'anatomia femminile è ampia, e i risultati chirurgici rientrano in questa variabilità.
+Una delle domande più comuni riguarda l'aspetto estetico. I risultati della vaginoplastica moderna sono significativamente migliorati negli ultimi decenni. L'aspetto esterno della vulva creata chirurgicamente, comprensivo di grandi labbra, piccole labbra, cappuccio clitorideo e introito vaginale, può essere esteticamente molto simile a quello di una vulva nativa. La variabilità naturale dell'anatomia femminile è ampia, e i risultati chirurgici rientrano in questa variabilità [10].
 
 Detto questo, è importante avere aspettative realistiche. Ogni intervento produce risultati diversi, e il processo di guarigione richiede tempo: l'aspetto finale si stabilizza nell'arco di 6-12 mesi. Il gonfiore post-operatorio, le cicatrici iniziali e l'asimmetria temporanea sono normali. I ritocchi chirurgici (revisioni) sono comuni e non indicano un fallimento dell'intervento.
 
@@ -130,30 +130,30 @@ Le foto "prima e dopo" disponibili online non sono rappresentative della variabi
 
 Questo è uno degli aspetti su cui la ricerca offre dati rassicuranti. Le tecniche chirurgiche moderne preservano il fascio neurovascolare del glande durante la creazione del neoclitoride, mantenendo la sensibilità erogena.
 
-Uno studio di Sigurjonsson et al. (2016), pubblicato su The Journal of Sexual Medicine, ha valutato la sensibilità genitale in 22 donne trans dopo vaginoplastica: l'86% riportava la capacità di raggiungere l'orgasmo. Uno studio precedente di Lowenberg et al. (2007) aveva riscontrato che la sensibilità alla pressione e alla vibrazione era preservata nel neoclitoride, con soglie sensoriali comparabili a quelle del clitoride nativo.
+Uno studio di Sigurjonsson et al. (2016), pubblicato su The Journal of Sexual Medicine, ha valutato la sensibilità genitale in 22 donne trans dopo vaginoplastica: l'86% riportava la capacità di raggiungere l'orgasmo [6]. Uno studio precedente di Lowenberg et al. (2007) aveva riscontrato che la sensibilità alla pressione e alla vibrazione era preservata nel neoclitoride, con soglie sensoriali comparabili a quelle del clitoride nativo [7].
 
-Dati più recenti confermano questi risultati. Uno studio del 2025 pubblicato su The Journal of Sexual Medicine (Buncamper et al.) ha rilevato che l'82% delle pazienti riportava orgasmi dopo vaginoplastica, e che la stimolazione clitoridea era il metodo principale per raggiungere l'eccitazione sessuale, esattamente come avviene per molte donne cisgender.
+Dati più recenti confermano questi risultati. Uno studio del 2025 pubblicato su The Journal of Sexual Medicine (Buncamper et al.) ha rilevato che l'82% delle pazienti riportava orgasmi dopo vaginoplastica, e che la stimolazione clitoridea era il metodo principale per raggiungere l'eccitazione sessuale, esattamente come avviene per molte donne cisgender [8].
 
 La sensibilità non è identica a quella pre-operatoria: cambia in qualità e localizzazione. Alcune donne descrivono orgasmi diversi da quelli sperimentati prima della chirurgia, spesso più diffusi. Il recupero completo della sensibilità può richiedere da 6 a 18 mesi dopo l'intervento.
 
 ## Penetrazione e rapporti sessuali
 
-La neovagina consente rapporti sessuali penetrativi. La profondità media dopo l'intervento varia generalmente tra 10 e 15 cm, a seconda della tecnica e della quantità di tessuto disponibile. La dilatazione regolare nei mesi successivi all'intervento è essenziale per mantenere la profondità e l'ampiezza del canale neovaginale.
+La neovagina consente rapporti sessuali penetrativi. La profondità media dopo l'intervento varia generalmente tra 10 e 15 cm, a seconda della tecnica e della quantità di tessuto disponibile [5]. La dilatazione regolare nei mesi successivi all'intervento è essenziale per mantenere la profondità e l'ampiezza del canale neovaginale.
 
 Il programma di dilatazione è intenso nelle prime settimane (più volte al giorno) e si riduce progressivamente nel tempo. Molte donne trans continuano a dilatare periodicamente anche a lungo termine, come parte della routine di mantenimento. La dilatazione non è dolorosa se eseguita correttamente, ma richiede costanza e disciplina.
 
-La lubrificazione durante i rapporti è nella maggior parte dei casi necessaria con l'uso di lubrificanti esterni, indipendentemente dalla tecnica chirurgica. Alcune donne riportano una produzione minima di muco, ma questa non è sufficiente per la penetrazione senza lubrificante nella grande maggioranza dei casi.
+La lubrificazione durante i rapporti è nella maggior parte dei casi necessaria con l'uso di lubrificanti esterni, indipendentemente dalla tecnica chirurgica [9]. Alcune donne riportano una produzione minima di muco, ma questa non è sufficiente per la penetrazione senza lubrificante nella grande maggioranza dei casi.
 
 ## Non tutte scelgono la chirurgia
 
 È fondamentale ribadire questo punto: la chirurgia genitale è una scelta, non un obbligo. Molte donne trans vivono una vita piena e soddisfacente senza vaginoplastica. Le ragioni sono molteplici e tutte legittime:
 
 - **Assenza di disforia genitale**: non tutte le donne trans provano disagio rispetto ai propri genitali. La disforia di genere si manifesta in modi diversi da persona a persona.
-- **Rischi chirurgici**: come ogni intervento maggiore, la vaginoplastica comporta rischi (infezioni, complicanze, necessità di revisioni). Alcune persone preferiscono evitarli.
+- **Rischi chirurgici**: come ogni intervento maggiore, la vaginoplastica comporta rischi (infezioni, complicanze, necessità di revisioni) [10]. Alcune persone preferiscono evitarli.
 - **Costi e accessibilità**: dove la copertura sanitaria pubblica è assente o le liste di attesa sono lunghe (in Italia i tempi superano spesso i 2-3 anni tramite SSN), l'accesso effettivo alla chirurgia è limitato.
 - **Scelta personale**: alcune donne trans semplicemente non desiderano questo intervento. La loro identità non è meno valida.
 
-Secondo i dati WPATH SOC-8 (2022), la percentuale di donne trans che si sottopone a vaginoplastica varia ampiamente tra i diversi paesi e contesti. La chirurgia non è un criterio di autenticità. In Italia, dal 2015 la Cassazione ha stabilito che la [rettifica anagrafica](/wiki/legge-164-italia) non richiede interventi chirurgici.
+Secondo i dati WPATH SOC-8 (2022), la percentuale di donne trans che si sottopone a vaginoplastica varia ampiamente tra i diversi paesi e contesti [1]. La chirurgia non è un criterio di autenticità. In Italia, dal 2015 la Cassazione ha stabilito che la [rettifica anagrafica](/wiki/legge-164-italia) non richiede interventi chirurgici.
 
 ## Rispetto, consenso e limiti della curiosità
 
@@ -165,6 +165,6 @@ Se sei una donna trans e stai cercando informazioni per te stessa: questo artico
 
 ## Il quadro scientifico
 
-L'anatomia genitale delle donne trans è un dato medico, non un argomento da scandalo o da dibattito politico. La scienza descrive con chiarezza cosa succede al corpo con la terapia ormonale, quali sono le opzioni chirurgiche disponibili e quali risultati ci si può aspettare. I dati mostrano che le tecniche attuali producono risultati funzionali ed estetici significativi, con tassi di soddisfazione elevati e capacità di provare piacere sessuale preservata nella grande maggioranza dei casi.
+L'anatomia genitale delle donne trans è un dato medico, non un argomento da scandalo o da dibattito politico. La scienza descrive con chiarezza cosa succede al corpo con la terapia ormonale, quali sono le opzioni chirurgiche disponibili e quali risultati ci si può aspettare. I dati mostrano che le tecniche attuali producono risultati funzionali ed estetici significativi, con tassi di soddisfazione elevati e capacità di provare piacere sessuale preservata nella grande maggioranza dei casi [6][8][10].
 
 La variabilità è enorme: tra donne trans che non hanno fatto alcun trattamento e donne trans che hanno completato la vaginoplastica, esiste un intero spettro di anatomie possibili. Tutte sono anatomie di donne. La comprensione di questa realtà è il primo passo per un dialogo onesto, rispettoso e basato sui fatti. Per approfondire il tema della transizione medica nel suo complesso, rimandiamo all'articolo sulla [terapia ormonale](/wiki/transizione-medica-cosa-cambia). Per una panoramica sulle opzioni chirurgiche, consulta l'articolo sulla [chirurgia di affermazione di genere](/wiki/chirurgia-affermazione-di-genere).

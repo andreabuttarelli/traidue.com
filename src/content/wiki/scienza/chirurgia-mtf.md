@@ -74,7 +74,7 @@ La transizione chirurgica per le donne trans non si riduce a un singolo interven
 
 ## Prerequisiti e criteri di accesso
 
-Prima di qualsiasi intervento chirurgico di affermazione di genere, esistono criteri clinici definiti dagli **Standards of Care versione 8 (SOC-8)** della World Professional Association for Transgender Health (WPATH), pubblicati nel 2022. Questi criteri non sono barriere arbitrarie ma strumenti per garantire che la persona sia adeguatamente informata e preparata.
+Prima di qualsiasi intervento chirurgico di affermazione di genere, esistono criteri clinici definiti dagli **Standards of Care versione 8 (SOC-8)** della World Professional Association for Transgender Health (WPATH), pubblicati nel 2022 [1]. Questi criteri non sono barriere arbitrarie ma strumenti per garantire che la persona sia adeguatamente informata e preparata.
 
 I requisiti generali per la chirurgia di affermazione di genere secondo i SOC-8 includono:
 
@@ -83,19 +83,19 @@ I requisiti generali per la chirurgia di affermazione di genere secondo i SOC-8 
 - **Raggiungimento dell'età adulta** (o requisiti specifici per minori, che si applicano solo alla top surgery e non alla bottom surgery)
 - **Eventuali condizioni di salute mentale o fisica ragionevolmente ben controllate**
 
-Per interventi specifici si aggiungono criteri ulteriori:
+Per interventi specifici si aggiungono criteri ulteriori [1]:
 
 - **Vaginoplastica e orchiectomia**: almeno 12 mesi di terapia ormonale (salvo controindicazioni o scelta informata diversa) e almeno 6 mesi di vita nel ruolo di genere congruente con la propria identità. La terapia ormonale è raccomandata per garantire la maturazione dei tessuti necessari all'intervento.
 - **Mammoplastica additiva**: almeno 12 mesi di terapia ormonale per permettere il massimo sviluppo naturale del seno prima di valutare l'intervento.
 - **FFS, chirurgia vocale, condrolaringoplastica**: non richiedono periodi obbligatori di terapia ormonale, anche se molte pazienti iniziano gli ormoni prima di accedere a queste procedure.
 
-In Italia, il percorso prevede una **valutazione psicologica** di almeno sei mesi secondo il protocollo ONIG (Osservatorio Nazionale sull'Identità di Genere), con l'obiettivo di esplorare l'incongruenza di genere, preparare la persona alle scelte successive e documentare il percorso clinico. Questo non è un giudizio sulla legittimità dell'identità della persona ma un processo di accompagnamento clinico.
+In Italia, il percorso prevede una **valutazione psicologica** di almeno sei mesi secondo il protocollo ONIG (Osservatorio Nazionale sull'Identità di Genere), con l'obiettivo di esplorare l'incongruenza di genere, preparare la persona alle scelte successive e documentare il percorso clinico [10]. Questo non è un giudizio sulla legittimità dell'identità della persona ma un processo di accompagnamento clinico.
 
 ## Il quadro legale in Italia
 
 ### La sentenza 143/2024 della Corte Costituzionale
 
-Il panorama legale italiano ha subito un cambiamento significativo nel 2024. La Corte Costituzionale, con la **sentenza n. 143/2024**, ha dichiarato l'illegittimità costituzionale dell'obbligo di ottenere l'autorizzazione del tribunale per sottoporsi a interventi chirurgici di adeguamento dei caratteri sessuali. Fino a quel momento, chi desiderava operarsi doveva prima ottenere il via libera di un giudice, un requisito che non esisteva per nessun altro tipo di intervento chirurgico.
+Il panorama legale italiano ha subito un cambiamento significativo nel 2024. La Corte Costituzionale, con la **sentenza n. 143/2024**, ha dichiarato l'illegittimità costituzionale dell'obbligo di ottenere l'autorizzazione del tribunale per sottoporsi a interventi chirurgici di adeguamento dei caratteri sessuali [9]. Fino a quel momento, chi desiderava operarsi doveva prima ottenere il via libera di un giudice, un requisito che non esisteva per nessun altro tipo di intervento chirurgico.
 
 Dopo la sentenza, la chirurgia di affermazione di genere è diventata una decisione medica tra la paziente e il team sanitario, esattamente come qualsiasi altro intervento. Resta ovviamente necessario il percorso clinico previsto dalle linee guida.
 
@@ -103,9 +103,9 @@ Questo si affianca a quanto già stabilito dalla Cassazione nel 2015: la [rettif
 
 ### Copertura del Servizio Sanitario Nazionale
 
-Il SSN copre le principali procedure di affermazione di genere nei centri pubblici specializzati: **vaginoplastica, mammoplastica additiva e orchiectomia** sono interventi erogabili. La copertura è reale ma il problema principale sono le **liste di attesa**: i centri SSN eseguono un numero limitato di interventi all'anno e i tempi di attesa vanno da 2 a 5 anni.
+Il SSN copre le principali procedure di affermazione di genere nei centri pubblici specializzati: **vaginoplastica, mammoplastica additiva e orchiectomia** sono interventi erogabili [10]. La copertura è reale ma il problema principale sono le **liste di attesa**: i centri SSN eseguono un numero limitato di interventi all'anno e i tempi di attesa vanno da 2 a 5 anni.
 
-**Non sono generalmente coperti** dal SSN: la femminilizzazione facciale (FFS), la chirurgia vocale, la condrolaringoplastica e le procedure di body contouring. Questi interventi restano a carico della paziente, salvo rare eccezioni in specifiche regioni o situazioni cliniche particolari.
+**Non sono generalmente coperti** dal SSN: la femminilizzazione facciale (FFS), la chirurgia vocale, la condrolaringoplastica e le procedure di body contouring [10]. Questi interventi restano a carico della paziente, salvo rare eccezioni in specifiche regioni o situazioni cliniche particolari.
 
 ## Vaginoplastica
 
@@ -117,11 +117,11 @@ Le tecniche principali sono:
 - **Colonvaginoplastica (sigmoidovaginoplastica)**: utilizza un segmento del colon sigmoideo per il canale vaginale. Indicata quando il tessuto genitale è insufficiente o come revisione.
 - **Vaginoplastica peritoneale**: tecnica più recente che utilizza il peritoneo pelvico. Offre il vantaggio di una certa autolubrificazione.
 
-I dati sulla soddisfazione sono solidi: il 91-93% delle pazienti riporta soddisfazione complessiva, il 90% soddisfazione estetica, il 70-80% la capacità di raggiungere l'orgasmo. Il tasso di rimpianto è circa il 2%.
+I dati sulla soddisfazione sono solidi [12]: il 91-93% delle pazienti riporta soddisfazione complessiva, il 90% soddisfazione estetica, il 70-80% la capacità di raggiungere l'orgasmo. Il tasso di rimpianto è circa il 2%.
 
 Il recupero richiede **6-8 settimane di riposo** e un programma di **dilatazione vaginale** regolare, indispensabile nei primi mesi e che continua con frequenza decrescente nel tempo. La guarigione completa si raggiunge in circa 12 mesi.
 
-**Costi**: tramite SSN l'intervento è coperto (liste di attesa 2-5 anni). Privatamente, in Italia i costi oscillano tra **15.000 e 25.000 euro** a seconda del chirurgo e della struttura. All'estero, centri come il Suporn Clinic in Thailandia o il Ghent University Hospital in Belgio sono tra i più noti, con costi variabili.
+**Costi**: tramite SSN l'intervento è coperto (liste di attesa 2-5 anni) [10]. Privatamente, in Italia i costi oscillano tra **15.000 e 25.000 euro** a seconda del chirurgo e della struttura. All'estero, centri come il Suporn Clinic in Thailandia o il Ghent University Hospital in Belgio sono tra i più noti, con costi variabili.
 
 Per un'analisi approfondita di tecniche, preparazione, rischi e recupero, rimandiamo all'articolo dedicato sulla [vaginoplastica](/wiki/vaginoplastica-come-funziona).
 
@@ -129,13 +129,13 @@ Per un'analisi approfondita di tecniche, preparazione, rischi e recupero, rimand
 
 ### Quando serve e quando no
 
-La terapia estrogenica induce uno [sviluppo mammario naturale](/wiki/corpo-cambia-dopo-ormoni), ma i risultati variano molto da persona a persona. In media, dopo 2-3 anni di terapia ormonale, lo sviluppo raggiunge una taglia A-B, spesso inferiore alle aspettative. Uno studio prospettico multicentrico ha mostrato che dopo un anno di ormoni il volume mammario medio raggiunge circa 150 ml, equivalente a poco più di una coppa A. Lo sviluppo può continuare fino a 3-5 anni dall'inizio della terapia.
+La terapia estrogenica induce uno [sviluppo mammario naturale](/wiki/corpo-cambia-dopo-ormoni), ma i risultati variano molto da persona a persona. In media, dopo 2-3 anni di terapia ormonale, lo sviluppo raggiunge una taglia A-B, spesso inferiore alle aspettative [7]. Uno studio prospettico multicentrico ha mostrato che dopo un anno di ormoni il volume mammario medio raggiunge circa 150 ml, equivalente a poco più di una coppa A. Lo sviluppo può continuare fino a 3-5 anni dall'inizio della terapia.
 
-Per questo motivo, le linee guida WPATH SOC-8 raccomandano di attendere **almeno 12 mesi di terapia ormonale** prima di considerare l'intervento di aumento del seno, per permettere il massimo sviluppo naturale. Alcune pazienti raggiungono risultati soddisfacenti solo con gli ormoni e non desiderano la chirurgia. Per altre, la mammoplastica additiva è necessaria per ridurre la disforia legata al torace.
+Per questo motivo, le linee guida WPATH SOC-8 raccomandano di attendere **almeno 12 mesi di terapia ormonale** prima di considerare l'intervento di aumento del seno, per permettere il massimo sviluppo naturale [1]. Alcune pazienti raggiungono risultati soddisfacenti solo con gli ormoni e non desiderano la chirurgia. Per altre, la mammoplastica additiva è necessaria per ridurre la disforia legata al torace.
 
 ### Tecnica chirurgica
 
-La mammoplastica additiva nelle donne trans segue le stesse tecniche utilizzate per le donne cisgender, con alcune considerazioni specifiche:
+La mammoplastica additiva nelle donne trans segue le stesse tecniche utilizzate per le donne cisgender, con alcune considerazioni specifiche [7]:
 
 - **Tipo di protesi**: le protesi in silicone coesivo sono le più utilizzate. Le protesi rotonde sono preferite rispetto a quelle anatomiche (a goccia) nelle donne trans, perché la base toracica è in genere più ampia e il tessuto mammario nativo è minore, rendendo le protesi rotonde esteticamente più naturali in questo contesto.
 - **Posizionamento**: la posizione **sottomuscolare** (sotto il muscolo grande pettorale) o **dual plane** è generalmente preferita nelle donne trans. Il muscolo offre una copertura aggiuntiva della protesi, fondamentale quando il tessuto mammario è scarso, riducendo la visibilità dei bordi dell'impianto.
@@ -150,11 +150,11 @@ Il recupero dalla mammoplastica additiva prevede:
 - **6-8 settimane** prima di riprendere attività intense
 - **3-6 mesi** per l'assestamento definitivo delle protesi
 
-La soddisfazione post-operatoria è elevata: circa il **75-80%** delle pazienti riporta punteggi alti di soddisfazione. Le complicanze sono comparabili a quelle delle mammoplastiche in donne cisgender: il tasso di contrattura capsulare (indurimento della capsula fibrosa attorno alla protesi) è circa il 3-5%, le re-operazioni per complicanze intorno al 5-8%.
+La soddisfazione post-operatoria è elevata: circa il **75-80%** delle pazienti riporta punteggi alti di soddisfazione [2]. Le complicanze sono comparabili a quelle delle mammoplastiche in donne cisgender: il tasso di contrattura capsulare (indurimento della capsula fibrosa attorno alla protesi) è circa il 3-5%, le re-operazioni per complicanze intorno al 5-8% [2].
 
 ### Costi
 
-- **SSN**: coperto nei centri pubblici specializzati, ma con liste di attesa lunghe.
+- **SSN**: coperto nei centri pubblici specializzati, ma con liste di attesa lunghe [10].
 - **Privato in Italia**: da **4.000 a 8.000 euro** a seconda della struttura, del tipo di protesi e del chirurgo.
 - **Privato in Europa**: prezzi comparabili nella maggior parte dei paesi UE. La Spagna e il Belgio offrono centri specializzati con esperienza specifica su pazienti trans.
 
@@ -162,13 +162,13 @@ La soddisfazione post-operatoria è elevata: circa il **75-80%** delle pazienti 
 
 ### Perché il viso conta
 
-La Facial Feminization Surgery (FFS) è un insieme di procedure chirurgiche che modificano le caratteristiche ossee e dei tessuti molli del viso per attenuare i tratti percepiti come maschili. Il viso è il principale marcatore di genere nelle interazioni sociali quotidiane: spesso è il fattore che più influenza il passing e la percezione sociale. Per questo motivo, molte donne trans considerano la FFS altrettanto o più importante della bottom surgery per il proprio benessere quotidiano.
+La Facial Feminization Surgery (FFS) è un insieme di procedure chirurgiche che modificano le caratteristiche ossee e dei tessuti molli del viso per attenuare i tratti percepiti come maschili [4]. Il viso è il principale marcatore di genere nelle interazioni sociali quotidiane: spesso è il fattore che più influenza il passing e la percezione sociale. Per questo motivo, molte donne trans considerano la FFS altrettanto o più importante della bottom surgery per il proprio benessere quotidiano.
 
-Uno studio multicentrico prospettico pubblicato nel 2020 ha mostrato che il punteggio mediano di femminilizzazione facciale sale da 47,2 prima dell'intervento a **80,6 dopo sei o più mesi**, con miglioramenti significativi nella qualità della vita e riduzione della disforia. La soddisfazione è valutata come eccellente dalla maggioranza delle pazienti.
+Uno studio multicentrico prospettico pubblicato nel 2020 ha mostrato che il punteggio mediano di femminilizzazione facciale sale da 47,2 prima dell'intervento a **80,6 dopo sei o più mesi**, con miglioramenti significativi nella qualità della vita e riduzione della disforia [3]. La soddisfazione è valutata come eccellente dalla maggioranza delle pazienti.
 
 ### Le procedure
 
-La FFS comprende diverse procedure, spesso combinate in una o due sessioni chirurgiche:
+La FFS comprende diverse procedure, spesso combinate in una o due sessioni chirurgiche [4]:
 
 **Rimodellamento della fronte (frontal bone contouring)**
 È la procedura più richiesta e spesso la più impattante. L'osso frontale maschile presenta una prominenza (bossing) sopra le orbite che viene ridotta. Esistono tre approcci:
@@ -199,11 +199,11 @@ I tempi di recupero variano in base al numero di procedure combinate:
 - **FFS combinata** (fronte + naso + mascella): **3-6 settimane** per il gonfiore iniziale, **3-6 mesi** per la risoluzione completa del gonfiore e l'assestamento dei tessuti
 - Il risultato definitivo è visibile dopo **6-12 mesi**
 
-Le complicanze sono generalmente moderate: gonfiore prolungato, alterazioni temporanee della sensibilità, asimmetrie lievi. Complicanze serie (lesioni nervose permanenti, infezioni ossee) sono rare nei centri specializzati, con tassi inferiori al 2%.
+Le complicanze sono generalmente moderate: gonfiore prolungato, alterazioni temporanee della sensibilità, asimmetrie lievi. Complicanze serie (lesioni nervose permanenti, infezioni ossee) sono rare nei centri specializzati, con tassi inferiori al 2% [4].
 
 ### Costi e centri
 
-La FFS rappresenta uno degli investimenti economici più significativi nel percorso di transizione perché **non è coperta dal SSN** nella quasi totalità dei casi.
+La FFS rappresenta uno degli investimenti economici più significativi nel percorso di transizione perché **non è coperta dal SSN** nella quasi totalità dei casi [10].
 
 - **Italia (privato)**: da **8.000 a 30.000 euro** a seconda del numero e della complessità delle procedure. Una FFS completa (fronte, naso, mascella, mento) si colloca tipicamente nella fascia 15.000-25.000 euro.
 - **Spagna**: il Team Facial (Marbella) e il 2pass Clinic (non più attivo) erano storicamente tra i centri di riferimento europei. Attualmente, chirurghi come il Dr. Luis Capitán operano a costi simili a quelli italiani.
@@ -216,14 +216,14 @@ I centri italiani con esperienza in FFS includono chirurghi privati a Milano, Ro
 
 ### Tecnica
 
-La condrolaringoplastica, comunemente chiamata "tracheal shave", è un intervento relativamente semplice che riduce la prominenza della cartilagine tiroidea (il pomo d'Adamo). La cartilagine tiroidea è più prominente negli individui con sviluppo puberale maschile, e la sua riduzione è uno degli interventi con il rapporto efficacia/invasività più favorevole.
+La condrolaringoplastica, comunemente chiamata "tracheal shave", è un intervento relativamente semplice che riduce la prominenza della cartilagine tiroidea (il pomo d'Adamo) [6]. La cartilagine tiroidea è più prominente negli individui con sviluppo puberale maschile, e la sua riduzione è uno degli interventi con il rapporto efficacia/invasività più favorevole.
 
 La procedura prevede:
 - Un'incisione di 2-3 cm nella regione cervicale, posizionata in una piega cutanea naturale per minimizzare la visibilità della cicatrice
 - La rasatura (shaving) della cartilagine tiroidea fino al profilo desiderato
 - La sutura, spesso con punti riassorbibili
 
-L'intervento può essere eseguito in **anestesia locale** con sedazione o in anestesia generale e dura circa 30-45 minuti.
+L'intervento può essere eseguito in **anestesia locale** con sedazione o in anestesia generale e dura circa 30-45 minuti [6].
 
 ### Recupero
 
@@ -232,11 +232,11 @@ L'intervento può essere eseguito in **anestesia locale** con sedazione o in ane
 - Ritorno alle attività normali dopo **1 settimana**
 - Risultato definitivo visibile dopo **1-2 mesi**
 
-L'intervento **non influisce sulla voce** se eseguito correttamente, poiché non modifica le corde vocali. Il chirurgo deve fare attenzione a non rasare eccessivamente la cartilagine nella zona dove si inseriscono i legamenti vocali.
+L'intervento **non influisce sulla voce** se eseguito correttamente, poiché non modifica le corde vocali [6]. Il chirurgo deve fare attenzione a non rasare eccessivamente la cartilagine nella zona dove si inseriscono i legamenti vocali.
 
 ### Rischi
 
-I rischi sono minimi: infezione (rara), cicatrice visibile (dipende dalla tecnica e dalla predisposizione individuale), alterazione temporanea della voce (transitoria e rara). In mani esperte, le complicanze sono estremamente rare.
+I rischi sono minimi: infezione (rara), cicatrice visibile (dipende dalla tecnica e dalla predisposizione individuale), alterazione temporanea della voce (transitoria e rara). In mani esperte, le complicanze sono estremamente rare [6].
 
 ### Costi
 
@@ -260,7 +260,7 @@ I vantaggi: nessun rischio chirurgico, risultati naturali, controllo completo su
 
 ### Glottoplastica di Wendler
 
-La tecnica chirurgica più diffusa è la **glottoplastica di Wendler** (Wendler glottoplasty), un intervento endoscopico che accorcia la porzione vibrante delle corde vocali. In pratica:
+La tecnica chirurgica più diffusa è la **glottoplastica di Wendler** (Wendler glottoplasty), un intervento endoscopico che accorcia la porzione vibrante delle corde vocali [5]. In pratica:
 
 - Si accede attraverso la bocca (nessuna incisione esterna)
 - Il terzo anteriore delle corde vocali viene de-epitelizzato (rimossa la mucosa superficiale)
@@ -278,7 +278,7 @@ La procedura dura circa 30-60 minuti e può essere eseguita in day surgery.
 
 ### Risultati e rischi
 
-Una revisione sistematica e meta-analisi del 2023 sui risultati a lungo termine della glottoplastica di Wendler ha mostrato:
+Una revisione sistematica e meta-analisi del 2023 sui risultati a lungo termine della glottoplastica di Wendler ha mostrato [5]:
 
 - Innalzamento medio della frequenza fondamentale di circa **50-80 Hz**
 - Frequenza post-operatoria media nella fascia **180-220 Hz** (la frequenza femminile tipica è 165-255 Hz)
@@ -303,7 +303,7 @@ Per chi lavora con la voce (cantanti, attrici, insegnanti) la chirurgia vocale v
 
 ### Quando e perché
 
-L'orchiectomia è la rimozione chirurgica dei testicoli. Per le donne trans può essere scelta come:
+L'orchiectomia è la rimozione chirurgica dei testicoli. Per le donne trans può essere scelta come [8]:
 
 - **Procedura autonoma**: per eliminare la produzione endogena di testosterone senza sottoporsi alla vaginoplastica. Dopo l'orchiectomia, la dose di antiandrogeni può essere ridotta o eliminata, semplificando la terapia ormonale e riducendone gli effetti collaterali.
 - **Procedura ponte**: come passo intermedio in attesa della vaginoplastica, per chi ha lunghi tempi di attesa e vuole eliminare la necessità di antiandrogeni.
@@ -328,11 +328,11 @@ L'intervento è relativamente semplice:
 
 L'orchiectomia è **irreversibile** e comporta la perdita definitiva della fertilità. Chi desidera preservare la possibilità di avere figli biologici deve procedere alla **crioconservazione del seme** prima dell'intervento.
 
-Se si prevede di fare la vaginoplastica in futuro, è importante discutere con il chirurgo la tecnica di orchiectomia: alcune tecniche preservano la pelle scrotale (necessaria per la vaginoplastica), altre no. La **tecnica inguinale semplice** è generalmente preferita per non compromettere il tessuto scrotale.
+Se si prevede di fare la vaginoplastica in futuro, è importante discutere con il chirurgo la tecnica di orchiectomia: alcune tecniche preservano la pelle scrotale (necessaria per la vaginoplastica), altre no [8]. La **tecnica inguinale semplice** è generalmente preferita per non compromettere il tessuto scrotale.
 
 ### Costi
 
-- **SSN**: coperto nei centri specializzati.
+- **SSN**: coperto nei centri specializzati [10].
 - **Privato in Italia**: da **2.000 a 4.000 euro**.
 
 ## Body contouring
@@ -366,7 +366,7 @@ Un lipofilling specifico per i glutei. Il grasso viene prelevato da addome, fian
 
 L'epilazione definitiva ricopre un doppio ruolo nel percorso delle donne trans:
 
-**Pre-chirurgica**: prima della vaginoplastica è necessaria l'**epilazione dell'area genitale**, in particolare della pelle del pene e dello scroto che verrà utilizzata per creare il canale vaginale e la vulva. Se questa pelle non viene epilata, i follicoli piliferi rimangono attivi e possono causare crescita di peli all'interno della neovagina, con rischi di infezioni e complicanze. L'epilazione pre-chirurgica richiede tipicamente **6-12 mesi** di trattamenti prima dell'intervento.
+**Pre-chirurgica**: prima della vaginoplastica è necessaria l'**epilazione dell'area genitale**, in particolare della pelle del pene e dello scroto che verrà utilizzata per creare il canale vaginale e la vulva [13]. Se questa pelle non viene epilata, i follicoli piliferi rimangono attivi e possono causare crescita di peli all'interno della neovagina, con rischi di infezioni e complicanze. L'epilazione pre-chirurgica richiede tipicamente **6-12 mesi** di trattamenti prima dell'intervento.
 
 **Estetica**: la riduzione dei peli del viso e del corpo è uno degli interventi più richiesti dalle donne trans. La terapia estrogenica riduce la peluria corporea ma non elimina la barba, che richiede trattamenti specifici.
 
@@ -386,7 +386,7 @@ La strategia più efficiente è combinare le due tecniche:
 1. **Laser** per la riduzione iniziale (elimina il 70-80% dei peli scuri)
 2. **Elettrolisi** per i peli residui, quelli chiari e quelli più resistenti
 
-Per l'epilazione pre-vaginoplastica, uno studio sistematico del 2022 ha confrontato le due tecniche, confermando che entrambe sono efficaci e che la combinazione offre i risultati migliori.
+Per l'epilazione pre-vaginoplastica, uno studio sistematico del 2022 ha confrontato le due tecniche, confermando che entrambe sono efficaci e che la combinazione offre i risultati migliori [13].
 
 ### Costi
 
@@ -403,13 +403,13 @@ Non esiste un ordine obbligatorio per gli interventi di affermazione di genere. 
 
 1. **Terapia ormonale** (prerequisito per molti interventi): inizio degli estrogeni e degli antiandrogeni. I [cambiamenti fisici](/wiki/corpo-cambia-dopo-ormoni) iniziano dopo 1-3 mesi e si sviluppano nell'arco di 2-5 anni.
 
-2. **Epilazione** (se si prevede la vaginoplastica): va iniziata con ampio anticipo, perché richiede 6-12 mesi di trattamenti.
+2. **Epilazione** (se si prevede la vaginoplastica): va iniziata con ampio anticipo, perché richiede 6-12 mesi di trattamenti [13].
 
 3. **Condrolaringoplastica e/o FFS**: interventi che possono essere eseguiti anche nelle fasi iniziali della transizione, senza necessità di terapia ormonale pregressa. Per chi desidera la FFS, è talvolta preferibile operarsi dopo almeno 12-18 mesi di terapia ormonale, perché gli estrogeni modificano la distribuzione del grasso facciale e dei tessuti molli, influenzando la pianificazione chirurgica.
 
-4. **Mammoplastica additiva**: dopo almeno 12 mesi di terapia ormonale. Alcune pazienti attendono 2-3 anni per massimizzare lo sviluppo naturale.
+4. **Mammoplastica additiva**: dopo almeno 12 mesi di terapia ormonale [1]. Alcune pazienti attendono 2-3 anni per massimizzare lo sviluppo naturale.
 
-5. **Orchiectomia**: può essere eseguita come procedura ponte durante l'attesa per la vaginoplastica, oppure come scelta definitiva.
+5. **Orchiectomia**: può essere eseguita come procedura ponte durante l'attesa per la vaginoplastica, oppure come scelta definitiva [8].
 
 6. **Vaginoplastica**: spesso l'ultimo intervento del percorso per ragioni di complessità e recupero. Richiede che l'epilazione sia completata e che la paziente possa dedicare 6-8 settimane al recupero iniziale.
 
@@ -431,7 +431,7 @@ La combinazione di interventi va sempre discussa con il chirurgo, valutando i ri
 
 ### In Italia
 
-I centri pubblici di riferimento per la chirurgia di affermazione di genere in Italia sono coordinati dall'ONIG e includono:
+I centri pubblici di riferimento per la chirurgia di affermazione di genere in Italia sono coordinati dall'ONIG e includono [10]:
 
 - **CIDIGEM - Torino** (AOU Città della Salute e della Scienza): centro storico con esperienza pluridecennale in vaginoplastica e mammoplastica
 - **AOU Careggi - Firenze**: centro di riferimento per la Toscana
@@ -471,13 +471,13 @@ Non esiste una gerarchia di interventi e non esiste un pacchetto standard. La ch
 
 ### Il ruolo del team multidisciplinare
 
-Il percorso chirurgico ideale coinvolge un team multidisciplinare: endocrinologo, psicologo o psicoterapeuta, chirurgo specializzato ed eventualmente logopedista. Questo team non ha il compito di decidere al posto della persona ma di accompagnarla con competenza, fornendo informazioni accurate, gestendo le aspettative e garantendo la sicurezza del percorso.
+Il percorso chirurgico ideale coinvolge un team multidisciplinare: endocrinologo, psicologo o psicoterapeuta, chirurgo specializzato ed eventualmente logopedista [1]. Questo team non ha il compito di decidere al posto della persona ma di accompagnarla con competenza, fornendo informazioni accurate, gestendo le aspettative e garantendo la sicurezza del percorso.
 
 ## Soddisfazione e rimpianto
 
-I dati sulla soddisfazione dopo chirurgia di affermazione di genere nelle donne trans sono tra i più solidi della letteratura chirurgica. Una meta-analisi del 2021 ha calcolato un tasso di rimpianto complessivo **inferiore all'1-2%**, tra i più bassi in tutta la chirurgia elettiva. Uno studio JAMA del 2024 ha confermato che il **99,7%** delle persone trans che hanno avuto accesso alla chirurgia riporta soddisfazione con i risultati.
+I dati sulla soddisfazione dopo chirurgia di affermazione di genere nelle donne trans sono tra i più solidi della letteratura chirurgica. Una meta-analisi del 2021 ha calcolato un tasso di rimpianto complessivo **inferiore all'1-2%**, tra i più bassi in tutta la chirurgia elettiva [11]. Uno studio JAMA del 2024 ha confermato che il **99,7%** delle persone trans che hanno avuto accesso alla chirurgia riporta soddisfazione con i risultati [14].
 
-I rari casi di rimpianto sono quasi sempre legati a complicanze post-operatorie, risultati estetici non soddisfacenti o mancanza di supporto sociale, non all'identità di genere in sé.
+I rari casi di rimpianto sono quasi sempre legati a complicanze post-operatorie, risultati estetici non soddisfacenti o mancanza di supporto sociale, non all'identità di genere in sé [11].
 
 Questi dati non significano che la chirurgia sia priva di rischi o di momenti difficili. Il post-operatorio può essere fisicamente ed emotivamente impegnativo. Ma a lungo termine, la stragrande maggioranza delle persone che sceglie questo percorso riporta un miglioramento significativo della qualità della vita, della salute mentale e del benessere complessivo.
 
@@ -485,6 +485,6 @@ Questi dati non significano che la chirurgia sia priva di rischi o di momenti di
 
 La chirurgia di affermazione di genere per le donne trans non è un evento singolo ma un percorso che può estendersi su mesi o anni, con interventi diversi in tempi diversi. È un percorso individuale: non esiste un modello unico e nessuna scelta è obbligata.
 
-Il panorama italiano offre sia opzioni pubbliche (con copertura SSN ma liste di attesa lunghe) sia opzioni private (con costi variabili ma tempi più rapidi). La sentenza 143/2024 della Corte Costituzionale ha rimosso un ostacolo burocratico significativo, riconoscendo che la scelta chirurgica spetta alla persona e al suo team medico, non a un tribunale.
+Il panorama italiano offre sia opzioni pubbliche (con copertura SSN ma liste di attesa lunghe) sia opzioni private (con costi variabili ma tempi più rapidi). La sentenza 143/2024 della Corte Costituzionale ha rimosso un ostacolo burocratico significativo, riconoscendo che la scelta chirurgica spetta alla persona e al suo team medico, non a un tribunale [9].
 
-I dati scientifici sono chiari: quando la chirurgia è desiderata e viene eseguita in centri specializzati, i tassi di soddisfazione sono tra i più alti in tutta la chirurgia e il rimpianto è un'eccezione rara. La decisione di operarsi, tuttavia, rimane profondamente personale. Questo articolo serve a garantire che chi si pone la domanda abbia accesso a informazioni complete, aggiornate e basate sulle evidenze.
+I dati scientifici sono chiari: quando la chirurgia è desiderata e viene eseguita in centri specializzati, i tassi di soddisfazione sono tra i più alti in tutta la chirurgia e il rimpianto è un'eccezione rara [11][14]. La decisione di operarsi, tuttavia, rimane profondamente personale. Questo articolo serve a garantire che chi si pone la domanda abbia accesso a informazioni complete, aggiornate e basate sulle evidenze.

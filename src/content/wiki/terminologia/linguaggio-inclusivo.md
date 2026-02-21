@@ -61,7 +61,7 @@ related:
   - che-cose-il-genere
 ---
 
-Le parole contano. Non in senso retorico, ma in senso misurabile. Uno studio del 2018 dell'Università del Texas ad Austin (Russell et al.) ha dimostrato che l'uso del nome scelto da una persona transgender in diversi contesti -- casa, scuola, lavoro, amicizie -- è associato a una riduzione del 34% dei pensieri suicidari, del 65% dei tentativi di suicidio e del 71% dei sintomi depressivi gravi. Non si tratta di gentilezza facoltativa: il linguaggio che usiamo per parlare di e con le persone trans ha un impatto diretto sulla loro salute.
+Le parole contano. Non in senso retorico, ma in senso misurabile. Uno studio del 2018 dell'Università del Texas ad Austin (Russell et al.) ha dimostrato che l'uso del nome scelto da una persona transgender in diversi contesti -- casa, scuola, lavoro, amicizie -- è associato a una riduzione del 34% dei pensieri suicidari, del 65% dei tentativi di suicidio e del 71% dei sintomi depressivi gravi [1]. Non si tratta di gentilezza facoltativa: il linguaggio che usiamo per parlare di e con le persone trans ha un impatto diretto sulla loro salute.
 
 L'italiano presenta sfide particolari. È una lingua profondamente gendered: ogni nome, aggettivo, participio passato e pronome porta una desinenza maschile o femminile. Per le persone non binarie, che non si identificano in modo esclusivo come uomo o donna, questa struttura linguistica può rappresentare un ostacolo quotidiano. Ma le soluzioni esistono -- e sono più semplici di quanto si pensi.
 
@@ -81,7 +81,7 @@ Il pronome è il modo più diretto con cui il linguaggio riconosce -- o nega -- 
 
 ### Come sapere quale pronome usare
 
-La regola è semplice: **chiedi**. Un "Quali pronomi usi?" è appropriato, rispettoso e apprezzato. Le linee guida APA del 2015 per la pratica con persone transgender raccomandano esplicitamente ai professionisti di chiedere nome e pronomi piuttosto che dare per scontato il genere di una persona in base al suo aspetto.
+La regola è semplice: **chiedi**. Un "Quali pronomi usi?" è appropriato, rispettoso e apprezzato. Le linee guida APA del 2015 per la pratica con persone transgender raccomandano esplicitamente ai professionisti di chiedere nome e pronomi piuttosto che dare per scontato il genere di una persona in base al suo aspetto [6].
 
 Se non hai la possibilità di chiedere direttamente -- ad esempio perché stai parlando di una persona pubblica che non conosci -- cerca informazioni sui pronomi che quella persona usa nei propri profili o nelle dichiarazioni pubbliche. Nel dubbio, usa il nome.
 
@@ -91,9 +91,9 @@ Il **nome scelto** è il nome con cui una persona trans si identifica, che può 
 
 ### Perché il deadnaming è dannoso
 
-Lo studio di Russell et al. (2018) ha quantificato l'impatto dell'uso del nome scelto. Quando il nome scelto viene rispettato in tutti e quattro i contesti principali (casa, scuola, lavoro, amicizie), i giovani transgender mostrano riduzioni significative di depressione, ideazione suicidaria e tentativi di suicidio rispetto a chi non può usare il proprio nome in nessun contesto.
+Lo studio di Russell et al. (2018) ha quantificato l'impatto dell'uso del nome scelto. Quando il nome scelto viene rispettato in tutti e quattro i contesti principali (casa, scuola, lavoro, amicizie), i giovani transgender mostrano riduzioni significative di depressione, ideazione suicidaria e tentativi di suicidio rispetto a chi non può usare il proprio nome in nessun contesto [1].
 
-La GLAAD Media Reference Guide specifica che il nome precedente di una persona trans non va mai usato, nemmeno per riferirsi al passato della persona. Scrivere o dire "Quando si chiamava ancora..." invalida l'identità della persona e comunica il messaggio che la sua identità attuale sia meno autentica di quella precedente.
+La GLAAD Media Reference Guide specifica che il nome precedente di una persona trans non va mai usato, nemmeno per riferirsi al passato della persona [4]. Scrivere o dire "Quando si chiamava ancora..." invalida l'identità della persona e comunica il messaggio che la sua identità attuale sia meno autentica di quella precedente.
 
 ### Regole pratiche
 
@@ -108,15 +108,15 @@ Il **misgendering** consiste nell'attribuire a una persona un genere diverso da 
 
 ### L'impatto del misgendering
 
-Uno studio del 2023 pubblicato sull'*International Journal of Transgender Health* ha analizzato la frequenza e le conseguenze del misgendering sulle persone non binarie in Canada. I risultati mostrano che il misgendering frequente è associato a livelli significativamente più alti di depressione, ansia e stress psicologico. Il 59% delle persone non binarie nel campione veniva misgenderato quotidianamente. Non si tratta di una questione di "sensibilità eccessiva": è un'esperienza ripetuta con un peso cumulativo documentato dalla ricerca.
+Uno studio del 2023 pubblicato sull'*International Journal of Transgender Health* ha analizzato la frequenza e le conseguenze del misgendering sulle persone non binarie in Canada. I risultati mostrano che il misgendering frequente è associato a livelli significativamente più alti di depressione, ansia e stress psicologico [2]. Il 59% delle persone non binarie nel campione veniva misgenderato quotidianamente [2]. Non si tratta di una questione di "sensibilità eccessiva": è un'esperienza ripetuta con un peso cumulativo documentato dalla ricerca.
 
-Il sondaggio 2024 del Trevor Project conferma questo dato in modo indiretto: meno della metà dei giovani transgender e non binari (46%) riferisce che la maggior parte delle persone nella propria vita usa i pronomi corretti.
+Il sondaggio 2024 del Trevor Project conferma questo dato in modo indiretto: meno della metà dei giovani transgender e non binari (46%) riferisce che la maggior parte delle persone nella propria vita usa i pronomi corretti [10].
 
 ### Come correggersi
 
 Sbaglierai. Tutti sbagliano, specialmente all'inizio o quando conoscono una persona da prima della sua transizione. Il punto non è non sbagliare mai, ma come gestisci l'errore.
 
-La GLAAD raccomanda un approccio in tre passi:
+La GLAAD raccomanda un approccio in tre passi [5]:
 
 1. **Correggiti subito.** "Ha detto che -- scusa, ha detto che lei arriva alle tre."
 2. **Non drammatizzare.** Evita scuse prolungate, giustificazioni o spiegazioni su quanto sia difficile per te. Questo sposta l'attenzione dalla persona trans a te, mettendola nella posizione di doverti consolare.
@@ -134,7 +134,7 @@ Negli ultimi anni, la comunità linguistica italiana ha proposto diverse soluzio
 
 ## La schwa (ə)
 
-La **schwa** (simbolo fonetico: ə) è una vocale media centrale presente in molte lingue del mondo, tra cui diversi dialetti italiani meridionali. È stata proposta come desinenza neutra per l'italiano dal linguista Luca Boschetto nel 2015 e successivamente diffusa dalla sociolinguista Vera Gheno, che ne ha discusso ampiamente nel libro *Femminili singolari* (2019) e nei suoi interventi pubblici.
+La **schwa** (simbolo fonetico: ə) è una vocale media centrale presente in molte lingue del mondo, tra cui diversi dialetti italiani meridionali. È stata proposta come desinenza neutra per l'italiano dal linguista Luca Boschetto nel 2015 e successivamente diffusa dalla sociolinguista Vera Gheno, che ne ha discusso ampiamente nel libro *Femminili singolari* (2019) e nei suoi interventi pubblici [7].
 
 ### Come funziona
 
@@ -149,7 +149,7 @@ Per il plurale, alcuni propongono la **schwa lunga** (ɜ): *ragazzɜ* per indica
 
 ### Il supporto della ricerca
 
-Uno studio del 2023 pubblicato sul *Journal of LGBTQ+ Mental Health* ha analizzato la proposta della schwa come desinenza non specifica per il genere in italiano. La ricerca ha evidenziato il potenziale della schwa come strumento di inclusione linguistica, riconoscendo che l'adozione di forme neutre può contribuire a ridurre lo stress di minoranza nelle persone non binarie italiane.
+Uno studio del 2023 pubblicato sul *Journal of LGBTQ+ Mental Health* ha analizzato la proposta della schwa come desinenza non specifica per il genere in italiano. La ricerca ha evidenziato il potenziale della schwa come strumento di inclusione linguistica, riconoscendo che l'adozione di forme neutre può contribuire a ridurre lo stress di minoranza nelle persone non binarie italiane [3].
 
 ### I limiti pratici
 
@@ -166,7 +166,7 @@ La schwa presenta limiti concreti che è importante riconoscere:
 
 L'**asterisco** è stato tra le prime soluzioni proposte per indicare apertura a tutti i generi nella scrittura italiana. Si usa al posto della desinenza di genere: *ragazz\**, *tutt\**, *car\* amic\**. È diffuso soprattutto in ambito accademico e attivista.
 
-Il suo principale limite è che non è pronunciabile: è uno strumento esclusivamente scritto. L'Accademia della Crusca, nella sua consulenza del 2023 sull'uso dell'asterisco e di altre soluzioni, ha riconosciuto le ragioni alla base di queste proposte, pur esprimendo riserve sulla loro adozione nella lingua ufficiale.
+Il suo principale limite è che non è pronunciabile: è uno strumento esclusivamente scritto. L'Accademia della Crusca, nella sua consulenza del 2023 sull'uso dell'asterisco e di altre soluzioni, ha riconosciuto le ragioni alla base di queste proposte, pur esprimendo riserve sulla loro adozione nella lingua ufficiale [9].
 
 ### La desinenza in -u
 
@@ -192,14 +192,14 @@ L'adozione di forme neutre in italiano è oggetto di un dibattito vivace, che co
 
 ### Le ragioni a favore
 
-- **Riconoscimento**: per le persone non binarie, avere strumenti linguistici che riflettono la propria identità riduce l'esperienza quotidiana di invisibilità. Lo studio di Scandurra et al. (2021) su persone transgender italiane ha documentato che le persone non binarie in Italia affrontano livelli più elevati di stress di minoranza rispetto alle persone trans binarie, in parte a causa della mancanza di riconoscimento linguistico e sociale.
+- **Riconoscimento**: per le persone non binarie, avere strumenti linguistici che riflettono la propria identità riduce l'esperienza quotidiana di invisibilità. Lo studio di Scandurra et al. (2021) su persone transgender italiane ha documentato che le persone non binarie in Italia affrontano livelli più elevati di stress di minoranza rispetto alle persone trans binarie, in parte a causa della mancanza di riconoscimento linguistico e sociale [12].
 - **La lingua evolve**: l'italiano si è sempre trasformato nel tempo. Parole, costruzioni e usi grammaticali che oggi consideriamo normali erano innovazioni contestate in passato. La proposta di forme neutre si inserisce in questo processo naturale di evoluzione linguistica.
 - **Uso mirato, non universale**: la maggior parte dei sostenitori della schwa e di altre soluzioni non chiede che vengano usate ovunque e da tutti, ma che siano disponibili come opzione per chi ne ha bisogno, specialmente quando ci si rivolge a persone non binarie che le richiedono.
 
 ### Le ragioni contro
 
-- **Accessibilità**: come riconosciuto anche da Vera Gheno, l'uso della schwa e dell'asterisco crea difficoltà per le persone con dislessia e per chi utilizza screen reader. Un linguaggio inclusivo che esclude le persone con disabilità rischia di spostare il problema anziché risolverlo.
-- **Leggibilità e naturalezza**: per molti parlanti, le forme con schwa o asterisco risultano artificiose e rendono i testi meno fluidi. L'Accademia della Crusca ha espresso riserve sull'introduzione di queste forme nella lingua standard, pur riconoscendo la legittimità delle istanze di inclusione.
+- **Accessibilità**: come riconosciuto anche da Vera Gheno [7], l'uso della schwa e dell'asterisco crea difficoltà per le persone con dislessia e per chi utilizza screen reader. Un linguaggio inclusivo che esclude le persone con disabilità rischia di spostare il problema anziché risolverlo.
+- **Leggibilità e naturalezza**: per molti parlanti, le forme con schwa o asterisco risultano artificiose e rendono i testi meno fluidi. L'Accademia della Crusca ha espresso riserve sull'introduzione di queste forme nella lingua standard, pur riconoscendo la legittimità delle istanze di inclusione [9].
 - **Complessità grammaticale**: l'italiano ha un sistema morfologico articolato in cui il genere interagisce con articoli, aggettivi, participi e pronomi. Introdurre un terzo genere grammaticale richiede modifiche a cascata che vanno oltre la semplice sostituzione di una vocale finale.
 - **Rischio di imposizione**: alcune persone percepiscono l'adozione di forme neutre come un obbligo, generando una reazione di rifiuto che può ostacolare anziché favorire l'inclusione.
 
@@ -207,17 +207,17 @@ L'adozione di forme neutre in italiano è oggetto di un dibattito vivace, che co
 
 Il dibattito sulle forme neutre è legittimo e utile. Ma è importante non confondere la discussione sugli strumenti con il principio sottostante: il rispetto per l'identità di ogni persona. Qualunque posizione si abbia sulla schwa o sull'asterisco, usare il nome e i pronomi che una persona chiede per sé non è una questione linguistica -- è una questione di rispetto.
 
-La sociolinguista Vera Gheno ha riassunto efficacemente questa posizione: l'obiettivo non è imporre una soluzione unica, ma ampliare le possibilità della lingua affinché nessuno si senta escluso. Se la schwa non convince, la riformulazione delle frasi resta uno strumento potente e accessibile a tutti.
+La sociolinguista Vera Gheno ha riassunto efficacemente questa posizione: l'obiettivo non è imporre una soluzione unica, ma ampliare le possibilità della lingua affinché nessuno si senta escluso [7]. Se la schwa non convince, la riformulazione delle frasi resta uno strumento potente e accessibile a tutti.
 
 ## Linguaggio inclusivo nei contesti professionali
 
-Il contesto lavorativo e istituzionale è un ambito in cui il linguaggio inclusivo ha un impatto particolarmente significativo. Le linee guida della Human Rights Campaign Foundation per l'inclusione transgender sul posto di lavoro (2023) offrono indicazioni pratiche che si applicano anche al contesto italiano.
+Il contesto lavorativo e istituzionale è un ambito in cui il linguaggio inclusivo ha un impatto particolarmente significativo. Le linee guida della Human Rights Campaign Foundation per l'inclusione transgender sul posto di lavoro (2023) offrono indicazioni pratiche che si applicano anche al contesto italiano [11].
 
 ### Comunicazione interna
 
 - **Email e documenti**: usa formule neutre nelle comunicazioni rivolte a gruppi ("Gentili colleghe e colleghi" oppure "A tutto il team" invece del solo "Cari colleghi").
 - **Moduli e form**: quando possibile, includi un campo aperto per il genere e un campo per i pronomi, oltre alle opzioni tradizionali.
-- **Badge e firma email**: inserire i pronomi nella firma email (es. "Marco Rossi - lui/him") normalizza la pratica e riduce la pressione sulle persone trans, che non saranno le uniche a farlo.
+- **Badge e firma email**: inserire i pronomi nella firma email (es. "Marco Rossi - lui/him") normalizza la pratica e riduce la pressione sulle persone trans, che non saranno le uniche a farlo [11].
 
 ### Comunicazione esterna
 
@@ -229,7 +229,7 @@ Il contesto lavorativo e istituzionale è un ambito in cui il linguaggio inclusi
 
 Diverse università italiane hanno adottato politiche di **carriera alias** -- la possibilità per studenti transgender di essere registrati con il nome scelto nei sistemi interni, nelle liste di classe e nei badge, prima ancora del completamento dell'iter legale per il cambio di nome. Questo strumento, pur non avendo valore legale sui documenti ufficiali come il diploma, elimina una fonte quotidiana di disagio e misgendering.
 
-Gli Standards of Care versione 8 del WPATH (2022) raccomandano che le istituzioni adottino politiche che rispettino il nome e i pronomi scelti dalle persone transgender e gender diverse, riconoscendo l'impatto positivo di queste pratiche sulla salute mentale.
+Gli Standards of Care versione 8 del WPATH (2022) raccomandano che le istituzioni adottino politiche che rispettino il nome e i pronomi scelti dalle persone transgender e gender diverse, riconoscendo l'impatto positivo di queste pratiche sulla salute mentale [8].
 
 ## Errori comuni e come evitarli
 
@@ -237,21 +237,21 @@ Ecco una lista di errori frequenti nel linguaggio usato per parlare di e con per
 
 ### Terminologia scorretta
 
-- **"Un trans" / "una trans"**: trans è un aggettivo, non un sostantivo. Si dice **"una persona trans"**, **"un uomo trans"**, **"una donna trans"**. La GLAAD Media Reference Guide sottolinea che usare "trans" come sostantivo riduce l'intera identità di una persona a una singola caratteristica.
+- **"Un trans" / "una trans"**: trans è un aggettivo, non un sostantivo. Si dice **"una persona trans"**, **"un uomo trans"**, **"una donna trans"**. La GLAAD Media Reference Guide sottolinea che usare "trans" come sostantivo riduce l'intera identità di una persona a una singola caratteristica [4].
 
-- **"Transessuale"**: questo termine è considerato datato da molte persone e organizzazioni. Il termine preferito è **"transgender"** o semplicemente **"trans"**. Tuttavia, alcune persone -- specialmente della generazione precedente -- continuano a identificarsi come transessuali, e la loro scelta va rispettata.
+- **"Transessuale"**: questo termine è considerato datato da molte persone e organizzazioni [4]. Il termine preferito è **"transgender"** o semplicemente **"trans"**. Tuttavia, alcune persone -- specialmente della generazione precedente -- continuano a identificarsi come transessuali, e la loro scelta va rispettata.
 
 - **"Vero uomo" / "vera donna"**: implica che le persone trans non siano veramente uomini o donne. Un uomo trans è un uomo. Una donna trans è una donna. Aggiungere "vero" o "biologico" come qualificazione suggerisce che la loro identità sia meno autentica.
 
-- **"Sesso di nascita"**: la formulazione corretta è **"sesso assegnato alla nascita"**, perché il genere non viene scelto dalla persona ma viene attribuito sulla base dell'osservazione dei genitali al momento della nascita.
+- **"Sesso di nascita"**: la formulazione corretta è **"sesso assegnato alla nascita"**, perché il genere non viene scelto dalla persona ma viene attribuito sulla base dell'osservazione dei genitali al momento della nascita [6].
 
 ### Costruzioni da evitare
 
 - **"Era un uomo e ora è una donna"**: una donna trans è sempre stata una donna. Non ha cambiato genere: ha reso la propria identità visibile e riconosciuta. Meglio: **"È una donna trans"** oppure **"Le è stato assegnato il genere maschile alla nascita"**.
 
-- **"L'operazione"**: non tutte le persone trans intraprendono percorsi chirurgici, e non esiste un singolo intervento che definisca la transizione. Inoltre, chiedere informazioni sugli interventi chirurgici è invasivo esattamente come lo sarebbe con una persona cisgender.
+- **"L'operazione"**: non tutte le persone trans intraprendono percorsi chirurgici, e non esiste un singolo intervento che definisca la transizione. Inoltre, chiedere informazioni sugli interventi chirurgici è invasivo esattamente come lo sarebbe con una persona cisgender [4].
 
-- **"Scelta di genere"**: l'identità di genere non è una scelta. L'American Psychological Association, l'Organizzazione Mondiale della Sanità e le principali associazioni mediche internazionali concordano che l'identità di genere è una componente intrinseca della persona, con basi biologiche documentate dalla ricerca.
+- **"Scelta di genere"**: l'identità di genere non è una scelta. L'American Psychological Association, l'Organizzazione Mondiale della Sanità e le principali associazioni mediche internazionali concordano che l'identità di genere è una componente intrinseca della persona, con basi biologiche documentate dalla ricerca [6].
 
 ## Guida rapida di riferimento
 
@@ -281,8 +281,8 @@ Per chi vuole un riepilogo pratico, ecco le regole fondamentali:
 
 Il linguaggio inclusivo non si esaurisce nella grammatica. È un atteggiamento che riguarda il modo in cui parliamo delle persone trans nella conversazione quotidiana, nei media, nella politica e nell'educazione.
 
-Usare un linguaggio rispettoso significa anche non ridurre le persone trans alla loro transizione, non trattare la loro identità come un argomento di dibattito su cui "sentire entrambe le parti", non presentare la loro esistenza come una questione controversa. Le linee guida APA raccomandano di "depersonalizzare" le differenze e di trattare le identità transgender con la stessa naturalezza con cui si trattano le identità cisgender.
+Usare un linguaggio rispettoso significa anche non ridurre le persone trans alla loro transizione, non trattare la loro identità come un argomento di dibattito su cui "sentire entrambe le parti", non presentare la loro esistenza come una questione controversa. Le linee guida APA raccomandano di "depersonalizzare" le differenze e di trattare le identità transgender con la stessa naturalezza con cui si trattano le identità cisgender [6].
 
-I dati parlano chiaro: le parole hanno conseguenze misurabili. Lo studio di Russell et al. mostra che un gesto semplice come usare il nome corretto può ridurre drasticamente il rischio suicidario. Il sondaggio del Trevor Project del 2024 conferma che il supporto sociale -- di cui il linguaggio è una componente fondamentale -- è il fattore protettivo più forte per la salute mentale delle persone transgender.
+I dati parlano chiaro: le parole hanno conseguenze misurabili. Lo studio di Russell et al. mostra che un gesto semplice come usare il nome corretto può ridurre drasticamente il rischio suicidario [1]. Il sondaggio del Trevor Project del 2024 conferma che il supporto sociale -- di cui il linguaggio è una componente fondamentale -- è il fattore protettivo più forte per la salute mentale delle persone transgender [10].
 
 Non serve adottare la schwa o padroneggiare ogni sfumatura del dibattito linguistico. Serve chiamare le persone con il nome che chiedono, usare i pronomi che preferiscono e correggersi quando si sbaglia. Il linguaggio inclusivo, nella sua forma più essenziale, è questo: riconoscere le persone per quello che sono.

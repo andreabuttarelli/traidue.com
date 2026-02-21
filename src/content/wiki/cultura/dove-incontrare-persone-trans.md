@@ -59,13 +59,13 @@ Se sei una persona trans e senti di essere sola, sappi che non lo sei -- anche s
 
 La solitudine non è solo una sensazione sgradevole. Per le persone transgender, l'isolamento sociale è un fattore di rischio documentato per la [salute mentale](/wiki/salute-mentale-persone-trans). I dati parlano chiaro.
 
-Uno studio del 2013 di Bockting e colleghi, condotto su oltre 1.000 persone transgender negli Stati Uniti, ha riscontrato che lo stigma sociale è positivamente associato a depressione, ansia e somatizzazione. Ma il dato più rilevante per noi è un altro: il **supporto tra pari da altre persone transgender** moderava significativamente questa relazione. In altre parole, avere accanto persone che capiscono la tua esperienza non è solo confortante -- è protettivo.
+Uno studio del 2013 di Bockting e colleghi, condotto su oltre 1.000 persone transgender negli Stati Uniti, ha riscontrato che lo stigma sociale è positivamente associato a depressione, ansia e somatizzazione. Ma il dato più rilevante per noi è un altro: il **supporto tra pari da altre persone transgender** moderava significativamente questa relazione [2]. In altre parole, avere accanto persone che capiscono la tua esperienza non è solo confortante -- è protettivo.
 
-Una revisione sistematica del 2020 ha confermato che la connessione con la community trans è associata a diversi esiti positivi: migliore salute mentale, maggiore accesso alle cure, supporto nell'esplorazione della propria identità di genere e orientamento nei percorsi di transizione. Non si tratta di dati aneddotici: la connessione con altre persone trans è un fattore protettivo riconosciuto dalla letteratura scientifica.
+Una revisione sistematica del 2020 ha confermato che la connessione con la community trans è associata a diversi esiti positivi: migliore salute mentale, maggiore accesso alle cure, supporto nell'esplorazione della propria identità di genere e orientamento nei percorsi di transizione [3]. Non si tratta di dati aneddotici: la connessione con altre persone trans è un fattore protettivo riconosciuto dalla letteratura scientifica.
 
-Un altro studio del 2020, pubblicato sull'International Journal of Environmental Research and Public Health, ha analizzato i fattori di resilienza nelle persone transgender e ha identificato tre elementi chiave: l'orgoglio identitario, il supporto sociale generico e, in modo particolarmente significativo, il **supporto specifico dalla community trans**. Quest'ultimo aveva un effetto unico nel moderare l'impatto dello stigma sulla salute mentale -- un effetto che il supporto sociale generico, da solo, non replicava.
+Un altro studio del 2020, pubblicato sull'International Journal of Environmental Research and Public Health, ha analizzato i fattori di resilienza nelle persone transgender e ha identificato tre elementi chiave: l'orgoglio identitario, il supporto sociale generico e, in modo particolarmente significativo, il **supporto specifico dalla community trans** [1]. Quest'ultimo aveva un effetto unico nel moderare l'impatto dello stigma sulla salute mentale -- un effetto che il supporto sociale generico, da solo, non replicava.
 
-Una scoping review del 2024 sugli interventi peer-based ha ulteriormente documentato come il supporto tra pari da altri membri della community trans contribuisca al benessere sia direttamente sia indirettamente, fungendo da scudo contro stigma e discriminazione attraverso resilienza e empowerment.
+Una scoping review del 2024 sugli interventi peer-based ha ulteriormente documentato come il supporto tra pari da altri membri della community trans contribuisca al benessere sia direttamente sia indirettamente, fungendo da scudo contro stigma e discriminazione attraverso resilienza e empowerment [4].
 
 Questo significa una cosa semplice: cercare la propria community non è un optional. È uno dei passi più basati sulle evidenze che una persona trans possa fare.
 
@@ -91,7 +91,7 @@ Il [MIT](https://mit-italia.it/) è la più antica associazione trans italiana, 
 
 ### Azione Trans e Gay Center
 
-[Azione Trans](https://azionetrans.org/), con sede a Roma presso il Gay Center di Via Zabaglia 14, offre servizi di ascolto, supporto e orientamento per persone transgender. Gestisce anche il **Trans - Punto di Ascolto**, una sezione dedicata del numero verde Gay Help Line (800 713 713), attiva dalle 16:00 alle 20:00, per supporto, informazioni e confronto su tematiche trans.
+[Azione Trans](https://azionetrans.org/), con sede a Roma presso il Gay Center di Via Zabaglia 14, offre servizi di ascolto, supporto e orientamento per persone transgender. Gestisce anche il **Trans - Punto di Ascolto**, una sezione dedicata del numero verde Gay Help Line (800 713 713), attiva dalle 16:00 alle 20:00, per supporto, informazioni e confronto su tematiche trans [8].
 
 ### Gruppo Trans APS
 
@@ -103,9 +103,9 @@ Il [Gruppo Trans APS](https://gruppotrans.it/) di Bologna offre uno Sportello T 
 
 ## Come trovare risorse nella tua zona
 
-Il modo più efficace per trovare servizi vicino a te è consultare **[Infotrans.it](https://www.infotrans.it/)**, il portale istituzionale creato dall'Istituto Superiore di Sanità (ISS) e dall'Ufficio Nazionale Antidiscriminazioni Razziali (UNAR). È il primo portale di questo tipo in Europa, e contiene una [mappa interattiva dei servizi](https://www.infotrans.it/it-schede-3-mappa_servizi_transgender) dedicati alle persone transgender in Italia: associazioni, centri clinici, consultori, sportelli di ascolto, regione per regione.
+Il modo più efficace per trovare servizi vicino a te è consultare **[Infotrans.it](https://www.infotrans.it/)**, il portale istituzionale creato dall'Istituto Superiore di Sanità (ISS) e dall'Ufficio Nazionale Antidiscriminazioni Razziali (UNAR) [5]. È il primo portale di questo tipo in Europa, e contiene una [mappa interattiva dei servizi](https://www.infotrans.it/it-schede-3-mappa_servizi_transgender) dedicati alle persone transgender in Italia: associazioni, centri clinici, consultori, sportelli di ascolto, regione per regione [6].
 
-Infotrans.it offre anche un [elenco completo delle associazioni transgender](https://www.infotrans.it/it-schede-5-associazioni_transgender) attive sul territorio, con contatti e descrizione dei servizi offerti. Se non sai da dove iniziare, parti da qui.
+Infotrans.it offre anche un [elenco completo delle associazioni transgender](https://www.infotrans.it/it-schede-5-associazioni_transgender) attive sul territorio, con contatti e descrizione dei servizi offerti [7]. Se non sai da dove iniziare, parti da qui.
 
 Altri canali pratici per trovare risorse locali:
 
@@ -155,13 +155,13 @@ Molte associazioni organizzano eventi regolari: cineforum, gruppi di lettura, la
 
 ## Gruppi di supporto e auto-mutuo aiuto
 
-I gruppi di supporto tra pari sono uno degli strumenti più efficaci per il benessere delle persone trans. La ricerca del 2013 di Bockting mostrava già che il supporto tra pari moderava l'effetto dello stigma sulla salute mentale. Studi più recenti hanno confermato che solo il supporto specifico da altre persone trans -- non il supporto sociale generico -- modera in modo significativo la relazione tra discriminazione e ideazione suicidaria.
+I gruppi di supporto tra pari sono uno degli strumenti più efficaci per il benessere delle persone trans. La ricerca del 2013 di Bockting mostrava già che il supporto tra pari moderava l'effetto dello stigma sulla salute mentale [2]. Studi più recenti hanno confermato che solo il supporto specifico da altre persone trans -- non il supporto sociale generico -- modera in modo significativo la relazione tra discriminazione e ideazione suicidaria [1][9].
 
 In pratica, cosa sono questi gruppi? Sono incontri regolari (settimanali, bisettimanali o mensili) dove persone transgender si ritrovano per condividere esperienze, dubbi, conquiste e difficoltà. Alcuni sono facilitati da un professionista della salute mentale, altri sono autogestiti dalla community. Molti offrono anche la possibilità di partecipare online.
 
 Per trovare un gruppo nella tua zona:
 
-- Consulta [Infotrans.it](https://www.infotrans.it/it-schede-3-mappa_servizi_transgender) per la mappa dei servizi
+- Consulta [Infotrans.it](https://www.infotrans.it/it-schede-3-mappa_servizi_transgender) per la mappa dei servizi [6]
 - Contatta la sezione Arcigay o il MIT più vicino
 - Chiedi al tuo psicologo o al centro di identità di genere
 - Cerca su Facebook gruppi locali di supporto trans
@@ -203,8 +203,8 @@ Quel posto esiste anche per te.
 
 ## Numeri utili
 
-- **Gay Help Line:** 800 713 713 (gratuito da fisso e cellulare, con sezione dedicata Trans - Punto di Ascolto, attiva dalle 16:00 alle 20:00)
-- **Infotrans.it:** [www.infotrans.it](https://www.infotrans.it/) -- mappa servizi, associazioni, informazioni su percorsi e diritti
+- **Gay Help Line:** 800 713 713 (gratuito da fisso e cellulare, con sezione dedicata Trans - Punto di Ascolto, attiva dalle 16:00 alle 20:00) [8]
+- **Infotrans.it:** [www.infotrans.it](https://www.infotrans.it/) -- mappa servizi, associazioni, informazioni su percorsi e diritti [5]
 - **MIT Bologna:** [mit-italia.it](https://mit-italia.it/) -- 051 271666
 - **AGEDO Nazionale:** [agedonazionale.org](https://www.agedonazionale.org/)
 - **GenderLens:** [genderlens.org](https://www.genderlens.org/) -- info@genderlens.org

@@ -69,7 +69,7 @@ Questo articolo affronta il dating dal punto di vista delle persone trans -- con
 
 Partiamo dai dati, perché i dati raccontano una storia che i media spesso ignorano.
 
-Uno studio del 2019 pubblicato sul Journal of Social and Personal Relationships (Blair e Hoskin) ha analizzato le preferenze di dating di 958 persone di vari orientamenti sessuali. Il risultato: l'87,5% dei partecipanti ha dichiarato che non prenderebbe in considerazione una persona trans come potenziale partner. Tra le persone eterosessuali, la percentuale sale ulteriormente: solo l'1,8% delle donne eterosessuali e il 3,3% degli uomini eterosessuali si sono detti disponibili. Tra le persone bisessuali, queer e non binarie la disponibilità era significativamente maggiore, ma il dato complessivo resta inequivocabile: la stragrande maggioranza delle persone cisgender esclude a priori le persone trans dal proprio radar romantico.
+Uno studio del 2019 pubblicato sul Journal of Social and Personal Relationships (Blair e Hoskin) ha analizzato le preferenze di dating di 958 persone di vari orientamenti sessuali. Il risultato: l'87,5% dei partecipanti ha dichiarato che non prenderebbe in considerazione una persona trans come potenziale partner. Tra le persone eterosessuali, la percentuale sale ulteriormente: solo l'1,8% delle donne eterosessuali e il 3,3% degli uomini eterosessuali si sono detti disponibili. Tra le persone bisessuali, queer e non binarie la disponibilità era significativamente maggiore, ma il dato complessivo resta inequivocabile: la stragrande maggioranza delle persone cisgender esclude a priori le persone trans dal proprio radar romantico [1].
 
 Questo non significa che le persone trans non trovino partner. Significa che il pool di partenza è drasticamente ridotto, e che ogni interazione di dating porta con sé un carico emotivo aggiuntivo: il dubbio su come la propria identità verrà accolta.
 
@@ -99,7 +99,7 @@ Esistono piattaforme pensate specificamente per persone trans e LGBTQ+, come Tai
 
 ### Il fenomeno T4T
 
-Uno degli aspetti più interessanti emersi dalla ricerca è la preferenza di molte persone trans per relazioni T4T (trans for trans). Uno studio qualitativo del 2023 sulle esperienze di dating tramite app ha rilevato che le persone trans cercano attivamente altri utenti gender-diverse per evitare le incomprensioni, l'ostilità e le dinamiche di potere che spesso caratterizzano le interazioni con persone cisgender. Le relazioni T4T vengono descritte come spazi di maggiore sicurezza emotiva e fisica, dove la comprensione condivisa dell'esperienza trans genera quella che i partecipanti hanno definito "euforia di genere" all'interno della relazione.
+Uno degli aspetti più interessanti emersi dalla ricerca è la preferenza di molte persone trans per relazioni T4T (trans for trans). Uno studio qualitativo del 2023 sulle esperienze di dating tramite app ha rilevato che le persone trans cercano attivamente altri utenti gender-diverse per evitare le incomprensioni, l'ostilità e le dinamiche di potere che spesso caratterizzano le interazioni con persone cisgender. Le relazioni T4T vengono descritte come spazi di maggiore sicurezza emotiva e fisica, dove la comprensione condivisa dell'esperienza trans genera quella che i partecipanti hanno definito "euforia di genere" all'interno della relazione [2].
 
 ## La disclosure: quando, come, se
 
@@ -115,7 +115,7 @@ Diciamolo chiaramente: non esiste una regola universale. Ogni persona trans pren
 
 ### La sicurezza prima di tutto
 
-La ragione per cui la disclosure è così caricata di ansia non è astratta. I dati del Williams Institute (2021), basati sul National Crime Victimization Survey, mostrano che le persone transgender subiscono vittimizzazione violenta con una frequenza oltre quattro volte superiore rispetto alle persone cisgender: 86,2 casi ogni 1.000 persone trans, contro 21,7 ogni 1.000 persone cisgender. La violenza legata alla disclosure nel contesto del dating -- la cosiddetta "trans panic" -- è un fenomeno documentato e reale, in cui la scoperta dell'identità trans della persona scatena una reazione violenta nel partner.
+La ragione per cui la disclosure è così caricata di ansia non è astratta. I dati del Williams Institute (2021), basati sul National Crime Victimization Survey, mostrano che le persone transgender subiscono vittimizzazione violenta con una frequenza oltre quattro volte superiore rispetto alle persone cisgender: 86,2 casi ogni 1.000 persone trans, contro 21,7 ogni 1.000 persone cisgender [7]. La violenza legata alla disclosure nel contesto del dating -- la cosiddetta "trans panic" -- è un fenomeno documentato e reale, in cui la scoperta dell'identità trans della persona scatena una reazione violenta nel partner.
 
 In diversi paesi, la "trans panic defense" è stata utilizzata come attenuante in processi per aggressione e omicidio, sostenendo che la reazione violenta fosse giustificata dalla "provocazione" della disclosure. Questa difesa legale è stata vietata in diversi stati americani, ma in Italia e nella maggior parte dei paesi europei il tema non è nemmeno oggetto di dibattito legislativo specifico.
 
@@ -125,11 +125,11 @@ In diversi paesi, la "trans panic defense" è stata utilizzata come attenuante i
 
 ## Feticizzazione e "chasers": quando l'interesse non è rispetto
 
-Uno dei problemi più specifici del dating trans è la feticizzazione. Un studio del 2021 pubblicato su Archives of Sexual Behavior ha documentato che oltre la metà delle persone trans e non binarie intervistate ha subito esperienze di feticizzazione -- in interazioni interpersonali (63,5%), sulle app di dating (53,2%) e sui social media (56,9%).
+Uno dei problemi più specifici del dating trans è la feticizzazione. Un studio del 2021 pubblicato su Archives of Sexual Behavior ha documentato che oltre la metà delle persone trans e non binarie intervistate ha subito esperienze di feticizzazione -- in interazioni interpersonali (63,5%), sulle app di dating (53,2%) e sui social media (56,9%) [3].
 
 ### Cosa sono i "chasers"
 
-Il termine "chaser" (inseguitore) viene usato nella comunità trans per descrivere persone -- tipicamente uomini cisgender eterosessuali -- il cui interesse per le persone trans è guidato dalla feticizzazione del corpo trans piuttosto che da un interesse per la persona. Lo studio qualitativo del 2023 sulle esperienze di dating tramite app riporta che i partecipanti descrivevano frequentemente la sensazione di essere trattati come oggetti: "Parlavano con un'idea che avevano di me, non con me" è una citazione diretta dallo studio.
+Il termine "chaser" (inseguitore) viene usato nella comunità trans per descrivere persone -- tipicamente uomini cisgender eterosessuali -- il cui interesse per le persone trans è guidato dalla feticizzazione del corpo trans piuttosto che da un interesse per la persona. Lo studio qualitativo del 2023 sulle esperienze di dating tramite app riporta che i partecipanti descrivevano frequentemente la sensazione di essere trattati come oggetti: "Parlavano con un'idea che avevano di me, non con me" è una citazione diretta dallo studio [2].
 
 ### Come riconoscerla
 
@@ -146,9 +146,9 @@ Una distinzione importante: essere attratti da una persona trans non è feticizz
 
 ## Sicurezza nel dating: consigli pratici
 
-La meta-analisi di Peitzmeier e colleghi (2020), pubblicata sull'American Journal of Public Health, ha calcolato che le persone transgender hanno un rischio 2,2 volte superiore di subire violenza fisica da partner intimi e 2,5 volte superiore di subire violenza sessuale, rispetto alle persone cisgender. L'U.S. Transgender Survey (2015), con oltre 27.000 partecipanti, ha rilevato che il 54% delle persone trans ha subito qualche forma di violenza da partner intimo nel corso della vita.
+La meta-analisi di Peitzmeier e colleghi (2020), pubblicata sull'American Journal of Public Health, ha calcolato che le persone transgender hanno un rischio 2,2 volte superiore di subire violenza fisica da partner intimi e 2,5 volte superiore di subire violenza sessuale, rispetto alle persone cisgender [6]. L'U.S. Transgender Survey (2015), con oltre 27.000 partecipanti, ha rilevato che il 54% delle persone trans ha subito qualche forma di violenza da partner intimo nel corso della vita [8].
 
-Il monitoraggio europeo del TGEU (Trans Europe and Central Asia) documenta che l'Italia ha registrato 27 omicidi di persone trans dall'inizio del progetto Trans Murder Monitoring. Nel periodo 2023-2024, l'Europa ha registrato 8 casi complessivi.
+Il monitoraggio europeo del TGEU (Trans Europe and Central Asia) documenta che l'Italia ha registrato 27 omicidi di persone trans dall'inizio del progetto Trans Murder Monitoring [9]. Nel periodo 2023-2024, l'Europa ha registrato 8 casi complessivi [9].
 
 Questi numeri non devono paralizzare, ma informare. Ecco le precauzioni concrete che la letteratura e le organizzazioni consigliano:
 
@@ -163,7 +163,7 @@ Questi numeri non devono paralizzare, ma informare. Ecco le precauzioni concrete
 
 L'Italia presenta un quadro specifico per le persone trans che fanno dating. Da un lato, ci sono stati progressi significativi: nel 2023, un tribunale di Trapani ha riconosciuto per la prima volta il diritto di una donna trans a cambiare nome e genere anagrafico senza interventi chirurgici né terapia ormonale. Nel 2024, la Corte Costituzionale ha riconosciuto esplicitamente l'esistenza delle persone non binarie.
 
-Dall'altro lato, l'identità di genere non è menzionata nelle leggi antidiscriminazione italiane. Il DDL Zan, che avrebbe esteso le protezioni contro la discriminazione alle persone LGBTQ+, è stato bocciato dal Senato nel 2021. Questo significa che una persona trans che subisce discriminazione nel dating -- ad esempio, violenza verbale o fisica dopo la disclosure -- non ha una tutela legislativa specifica basata sull'identità di genere.
+Dall'altro lato, l'identità di genere non è menzionata nelle leggi antidiscriminazione italiane [10]. Il DDL Zan, che avrebbe esteso le protezioni contro la discriminazione alle persone LGBTQ+, è stato bocciato dal Senato nel 2021. Questo significa che una persona trans che subisce discriminazione nel dating -- ad esempio, violenza verbale o fisica dopo la disclosure -- non ha una tutela legislativa specifica basata sull'identità di genere.
 
 Il contesto sociale varia enormemente tra Nord e Sud, tra grandi città e piccoli centri. Milano, Bologna, Roma e Torino offrono comunità LGBTQ+ più visibili e maggiori risorse. In altre aree, l'isolamento può rendere il dating ancora più complesso e la sicurezza più precaria.
 
@@ -171,14 +171,14 @@ Il contesto sociale varia enormemente tra Nord e Sud, tra grandi città e piccol
 
 Sarebbe disonesto e controproducente dipingere il dating trans solo come un campo di battaglia. La ricerca documenta anche esperienze positive.
 
-Una revisione sistematica del 2022 sulla qualità e soddisfazione delle relazioni romantiche nelle persone transgender ha evidenziato che la transizione di genere è spesso associata a un miglioramento complessivo delle relazioni. I benefici includono: una comunicazione più autentica, relazioni sessuali più appaganti perché finalmente allineate con la propria identità, e una ridistribuzione del potere nella coppia verso una maggiore equità.
+Una revisione sistematica del 2022 sulla qualità e soddisfazione delle relazioni romantiche nelle persone transgender ha evidenziato che la transizione di genere è spesso associata a un miglioramento complessivo delle relazioni. I benefici includono: una comunicazione più autentica, relazioni sessuali più appaganti perché finalmente allineate con la propria identità, e una ridistribuzione del potere nella coppia verso una maggiore equità [5].
 
-Uno studio del 2024 sulle esperienze relazionali di adulti trans e non binari ha documentato che, nonostante le sfide legate allo stress da minoranza, molte persone trans riportano relazioni stabili e soddisfacenti. I fattori protettivi identificati dalla ricerca includono:
+Uno studio del 2024 sulle esperienze relazionali di adulti trans e non binari ha documentato che, nonostante le sfide legate allo stress da minoranza, molte persone trans riportano relazioni stabili e soddisfacenti [4]. I fattori protettivi identificati dalla ricerca includono:
 
 - **Comunicazione aperta**: le coppie in cui entrambi i partner comunicano apertamente su identità, aspettative e paure tendono a essere più resilienti
 - **Supporto sociale**: avere una rete di amicizie e comunità che accettano la relazione
 - **Resilienza personale**: la capacità di affrontare le difficoltà senza lasciare che definiscano la relazione
-- **Anni di relazione**: nelle coppie già consolidate prima della transizione, la durata della relazione è un fattore predittivo positivo della soddisfazione
+- **Anni di relazione**: nelle coppie già consolidate prima della transizione, la durata della relazione è un fattore predittivo positivo della soddisfazione [5]
 
 Molte persone trans descrivono il dating post-transizione come un'esperienza liberatoria: finalmente si presentano al mondo come sono, e questo porta a connessioni più genuine. Il dating da persona trans può essere difficile, ma le relazioni che ne nascono hanno spesso una profondità che deriva dall'aver affrontato la propria identità con coraggio e onestà.
 
@@ -196,7 +196,7 @@ Se stai frequentando o vuoi frequentare una persona trans, ecco cosa suggerisce 
 
 ### Servizi e supporto
 
-- **Infotrans.it** -- Portale dell'Istituto Superiore di Sanità e UNAR, con informazioni su percorsi di salute, diritti e mappa dei servizi. Sito: [infotrans.it](https://www.infotrans.it/)
+- **Infotrans.it** -- Portale dell'Istituto Superiore di Sanità e UNAR, con informazioni su percorsi di salute, diritti e mappa dei servizi [12]. Sito: [infotrans.it](https://www.infotrans.it/)
 - **Gay Help Line: 800 713 713** -- Numero verde nazionale, attivo dal lunedì al sabato (16:00-20:00)
 - **Telefono Amico Italia: 02 2327 2327** -- Attivo ogni giorno (9:00-00:00)
 - **1522** -- Numero antiviolenza e stalking, attivo 24 ore su 24

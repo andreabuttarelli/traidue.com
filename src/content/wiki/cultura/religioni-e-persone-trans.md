@@ -78,7 +78,7 @@ Le persone con [identità di genere](/wiki/identita-di-genere) non conforme al s
 
 ## Diversità di genere e religione: una storia millenaria
 
-Prima di entrare nelle posizioni contemporanee, vale la pena ricordare un fatto storico fondamentale: la diversità di genere non è un'invenzione moderna, e nemmeno lo è la sua presenza nei contesti religiosi. Testi sacri antichi, dalla Mishnah ebraica ai Veda indiani, dalle cronache buddhiste alle tradizioni dei popoli nativi americani, documentano l'esistenza di persone che non rientravano nel binarismo maschio/femmina. In molti casi, queste persone avevano ruoli spirituali specifici. I *hijra* dell'Asia meridionale partecipavano a cerimonie religiose hindu. I *Two-Spirit* delle culture indigene nordamericane erano considerati dotati di una prospettiva spirituale unica. I *galli*, sacerdoti della dea Cibele nell'antica Roma, vivevano in un genere diverso da quello assegnato alla nascita.
+Prima di entrare nelle posizioni contemporanee, vale la pena ricordare un fatto storico fondamentale: la diversità di genere non è un'invenzione moderna, e nemmeno lo è la sua presenza nei contesti religiosi. Testi sacri antichi, dalla Mishnah ebraica ai Veda indiani, dalle cronache buddhiste alle tradizioni dei popoli nativi americani, documentano l'esistenza di persone che non rientravano nel binarismo maschio/femmina [7][10]. In molti casi, queste persone avevano ruoli spirituali specifici. I *hijra* dell'Asia meridionale partecipavano a cerimonie religiose hindu [9]. I *Two-Spirit* delle culture indigene nordamericane erano considerati dotati di una prospettiva spirituale unica. I *galli*, sacerdoti della dea Cibele nell'antica Roma, vivevano in un genere diverso da quello assegnato alla nascita.
 
 La tensione tra religione e identità di genere non binarie, insomma, non è una costante universale. È un fenomeno storicamente situato, legato a tradizioni specifiche e a letture specifiche dei testi sacri.
 
@@ -86,27 +86,27 @@ La tensione tra religione e identità di genere non binarie, insomma, non è una
 
 ### La Chiesa Cattolica
 
-La posizione ufficiale della Chiesa cattolica è stata definita nel modo più chiaro dalla dichiarazione **Dignitas Infinita**, pubblicata nell'aprile 2024 dal Dicastero per la Dottrina della Fede. Il documento afferma che "qualsiasi intervento di cambio di sesso, di norma, rischia di minacciare la dignità unica che la persona ha ricevuto dal momento del concepimento" e condanna la "teoria del gender" come un tentativo di cancellare la differenza sessuale tra uomo e donna. Papa Francesco ha definito l'ideologia di genere "il pericolo più brutto" del nostro tempo.
+La posizione ufficiale della Chiesa cattolica è stata definita nel modo più chiaro dalla dichiarazione **Dignitas Infinita**, pubblicata nell'aprile 2024 dal Dicastero per la Dottrina della Fede [1]. Il documento afferma che "qualsiasi intervento di cambio di sesso, di norma, rischia di minacciare la dignità unica che la persona ha ricevuto dal momento del concepimento" e condanna la "teoria del gender" come un tentativo di cancellare la differenza sessuale tra uomo e donna [1]. Papa Francesco ha definito l'ideologia di genere "il pericolo più brutto" del nostro tempo.
 
-Tuttavia, la stessa Chiesa cattolica presenta sfumature importanti. Nel 2023, il cardinale Víctor Manuel Fernández, con l'approvazione di Papa Francesco, ha firmato una dichiarazione che afferma che le persone transgender possono essere battezzate, fare da padrino o madrina e fungere da testimoni ai matrimoni. Francesco stesso ha incontrato più volte persone trans, dedicando loro udienze private. Nell'ottobre 2024, ha ricevuto un gruppo di cattolici transgender e intersex in un'udienza di quasi novanta minuti, e dopo la pubblicazione di *Dignitas Infinita* ha ribadito a suor Jeannine Gramick che le persone trans "devono essere accolte".
+Tuttavia, la stessa Chiesa cattolica presenta sfumature importanti. Nel 2023, il cardinale Víctor Manuel Fernández, con l'approvazione di Papa Francesco, ha firmato una dichiarazione che afferma che le persone transgender possono essere battezzate, fare da padrino o madrina e fungere da testimoni ai matrimoni [2][14]. Francesco stesso ha incontrato più volte persone trans, dedicando loro udienze private. Nell'ottobre 2024, ha ricevuto un gruppo di cattolici transgender e intersex in un'udienza di quasi novanta minuti, e dopo la pubblicazione di *Dignitas Infinita* ha ribadito a suor Jeannine Gramick che le persone trans "devono essere accolte" [2].
 
-In Italia, il peso della Chiesa cattolica nel dibattito pubblico è particolarmente rilevante. Organizzazioni come **La Tenda di Gionata**, nata alla fine degli anni Novanta, lavorano per creare spazi di dialogo tra comunità LGBT e mondo cattolico. Nel 2025, durante il Giubileo, oltre 1.500 pellegrini LGBT provenienti da tutto il mondo hanno attraversato la Porta Santa: il primo pellegrinaggio apertamente LGBT nella storia della Chiesa.
+In Italia, il peso della Chiesa cattolica nel dibattito pubblico è particolarmente rilevante. Organizzazioni come **La Tenda di Gionata**, nata alla fine degli anni Novanta, lavorano per creare spazi di dialogo tra comunità LGBT e mondo cattolico. Nel 2025, durante il Giubileo, oltre 1.500 pellegrini LGBT provenienti da tutto il mondo hanno attraversato la Porta Santa: il primo pellegrinaggio apertamente LGBT nella storia della Chiesa [15].
 
-Nel novembre 2025, la Conferenza dei Vescovi degli Stati Uniti ha votato per vietare ufficialmente le cure di affermazione di genere negli ospedali cattolici, incorporando i documenti vaticani del 2024. Il risultato è una tensione evidente: accoglienza pastorale da un lato, rigidità dottrinale dall'altro.
+Nel novembre 2025, la Conferenza dei Vescovi degli Stati Uniti ha votato per vietare ufficialmente le cure di affermazione di genere negli ospedali cattolici, incorporando i documenti vaticani del 2024 [3]. Il risultato è una tensione evidente: accoglienza pastorale da un lato, rigidità dottrinale dall'altro.
 
 ### Le denominazioni protestanti: un arcobaleno teologico
 
-Il protestantesimo non ha un magistero centralizzato, e le posizioni sulle persone trans variano enormemente da una denominazione all'altra. Nel maggio 2024 si è raggiunto un traguardo storico: le quattro principali denominazioni protestanti statunitensi — metodisti, presbiteriani, episcopali e luterani — hanno tutte rimosso le barriere alla partecipazione piena delle persone LGBTQ+ nella vita ecclesiale.
+Il protestantesimo non ha un magistero centralizzato, e le posizioni sulle persone trans variano enormemente da una denominazione all'altra. Nel maggio 2024 si è raggiunto un traguardo storico: le quattro principali denominazioni protestanti statunitensi — metodisti, presbiteriani, episcopali e luterani — hanno tutte rimosso le barriere alla partecipazione piena delle persone LGBTQ+ nella vita ecclesiale [4].
 
 Alcune tappe significative:
 
-- **Chiesa Episcopale**: ha emesso dichiarazioni ufficiali di piena inclusione delle persone trans, inclusa la possibilità di ordinazione al ministero.
-- **Chiesa Metodista Unita**: nel 2024 ha smantellato le proprie politiche anti-LGBTQ+, eliminando i divieti su matrimoni tra persone dello stesso sesso e clero gay, dopo decenni di controversie interne.
-- **Chiesa Evangelica Luterana in America (ELCA)**: nel 2021, **Megan Rohrer** è diventata la prima persona apertamente transgender a essere consacrata vescova nella storia della denominazione.
-- **Chiesa Presbiteriana (U.S.A.)**: dal 2010 ha rimosso le barriere specifiche all'ordinazione di persone transgender.
-- **United Church of Christ** e **Chiesa Unitariana Universalista**: tra le denominazioni storicamente più accoglienti, con posizioni esplicitamente inclusive da anni.
+- **Chiesa Episcopale**: ha emesso dichiarazioni ufficiali di piena inclusione delle persone trans, inclusa la possibilità di ordinazione al ministero [12].
+- **Chiesa Metodista Unita**: nel 2024 ha smantellato le proprie politiche anti-LGBTQ+, eliminando i divieti su matrimoni tra persone dello stesso sesso e clero gay, dopo decenni di controversie interne [4].
+- **Chiesa Evangelica Luterana in America (ELCA)**: nel 2021, **Megan Rohrer** è diventata la prima persona apertamente transgender a essere consacrata vescova nella storia della denominazione [4].
+- **Chiesa Presbiteriana (U.S.A.)**: dal 2010 ha rimosso le barriere specifiche all'ordinazione di persone transgender [12].
+- **United Church of Christ** e **Chiesa Unitariana Universalista**: tra le denominazioni storicamente più accoglienti, con posizioni esplicitamente inclusive da anni [12].
 
-All'estremo opposto, molte chiese evangeliche e pentecostali mantengono posizioni fermamente contrarie, considerando la transizione di genere incompatibile con l'insegnamento biblico. I dati del Pew Research Center mostrano che il 68% dei protestanti evangelici bianchi negli Stati Uniti ritiene che la società "sia andata troppo avanti" nell'accettazione delle persone transgender. Il 60% afferma che le proprie convinzioni religiose hanno influenzato significativamente questa opinione.
+All'estremo opposto, molte chiese evangeliche e pentecostali mantengono posizioni fermamente contrarie, considerando la transizione di genere incompatibile con l'insegnamento biblico. I dati del Pew Research Center mostrano che il 68% dei protestanti evangelici bianchi negli Stati Uniti ritiene che la società "sia andata troppo avanti" nell'accettazione delle persone transgender [11]. Il 60% afferma che le proprie convinzioni religiose hanno influenzato significativamente questa opinione [11].
 
 ### Le Chiese Ortodosse
 
@@ -114,25 +114,25 @@ Le Chiese ortodosse orientali mantengono generalmente posizioni conservative, co
 
 ## Islam: una pluralità di voci
 
-L'islam non ha un'autorità centrale paragonabile al papato, e le posizioni sulle persone trans variano enormemente tra tradizioni giuridiche, scuole teologiche e contesti culturali.
+L'islam non ha un'autorità centrale paragonabile al papato, e le posizioni sulle persone trans variano enormemente tra tradizioni giuridiche, scuole teologiche e contesti culturali [5].
 
 ### La fatwa di Khomeini e il caso iraniano
 
-Il caso più noto e più controintuitivo è quello dell'Iran. Nel 1967, l'Ayatollah Ruhollah Khomeini pubblicò una fatwa che dichiarava l'assenza di restrizioni religiose alla riassegnazione chirurgica di genere per le persone intersex. Nel 1985, estese questa fatwa alle persone transgender con disforia di genere. La storia è legata a **Maryam Khatoon Molkara**, attivista trans iraniana che scrisse direttamente a Khomeini chiedendo tolleranza verso le persone transgender: ottenne una fatwa che è stata successivamente confermata dall'attuale Guida Suprema, Ali Khamenei.
+Il caso più noto e più controintuitivo è quello dell'Iran. Nel 1967, l'Ayatollah Ruhollah Khomeini pubblicò una fatwa che dichiarava l'assenza di restrizioni religiose alla riassegnazione chirurgica di genere per le persone intersex [6]. Nel 1985, estese questa fatwa alle persone transgender con disforia di genere [6]. La storia è legata a **Maryam Khatoon Molkara**, attivista trans iraniana che scrisse direttamente a Khomeini chiedendo tolleranza verso le persone transgender: ottenne una fatwa che è stata successivamente confermata dall'attuale Guida Suprema, Ali Khamenei [6].
 
-Di conseguenza, l'Iran è oggi uno dei paesi con il più alto numero di interventi di riassegnazione di genere al mondo. Lo stato offre sussidi parziali per la chirurgia, e il cambio del marcatore di genere sui documenti è disponibile dopo l'intervento. Questo non significa, però, che la vita delle persone trans iraniane sia facile: la pressione verso la chirurgia come unica opzione legittima, la persecuzione delle persone gay (la transizione è talvolta imposta come "soluzione" all'omosessualità) e lo stigma sociale restano problemi gravi.
+Di conseguenza, l'Iran è oggi uno dei paesi con il più alto numero di interventi di riassegnazione di genere al mondo [6]. Lo stato offre sussidi parziali per la chirurgia, e il cambio del marcatore di genere sui documenti è disponibile dopo l'intervento. Questo non significa, però, che la vita delle persone trans iraniane sia facile: la pressione verso la chirurgia come unica opzione legittima, la persecuzione delle persone gay (la transizione è talvolta imposta come "soluzione" all'omosessualità) e lo stigma sociale restano problemi gravi [6].
 
-Il ragionamento giuridico islamico alla base della fatwa si fonda su due principi della tradizione sciita: il *principio di permissibilità* (isalat al-ibahah) e il *principio di legalità* (isalat al-hillyyah), secondo i quali tutto ciò che non è esplicitamente proibito è permesso.
+Il ragionamento giuridico islamico alla base della fatwa si fonda su due principi della tradizione sciita: il *principio di permissibilità* (isalat al-ibahah) e il *principio di legalità* (isalat al-hillyyah), secondo i quali tutto ciò che non è esplicitamente proibito è permesso [5].
 
 ### Sunnismo e altre tradizioni
 
-In Egitto, lo Sheikh Muhammad al-Tantawi, Gran Imam di al-Azhar, emise negli anni Ottanta un parere favorevole alla riassegnazione chirurgica in casi specifici, successivamente oggetto di interpretazioni divergenti. Nella maggioranza del mondo sunnita, tuttavia, le posizioni dominanti tendono a essere più restrittive. L'Assembly of Muslim Jurists of America (AMJA) ha emesso una fatwa che distingue tra persone intersex (per le quali la chirurgia correttiva è ammessa) e persone transgender (per le quali la transizione è considerata vietata).
+In Egitto, lo Sheikh Muhammad al-Tantawi, Gran Imam di al-Azhar, emise negli anni Ottanta un parere favorevole alla riassegnazione chirurgica in casi specifici, successivamente oggetto di interpretazioni divergenti [5]. Nella maggioranza del mondo sunnita, tuttavia, le posizioni dominanti tendono a essere più restrittive. L'Assembly of Muslim Jurists of America (AMJA) ha emesso una fatwa che distingue tra persone intersex (per le quali la chirurgia correttiva è ammessa) e persone transgender (per le quali la transizione è considerata vietata) [5].
 
 In Sud-Est asiatico, le tradizioni culturali locali hanno creato spazi storici per la diversità di genere all'interno di società a maggioranza musulmana. In Malaysia e Indonesia, le comunità *waria* e *mak nyah* rappresentano identità di genere tradizionali con radici che precedono l'arrivo dell'islam.
 
 ## Ebraismo: sei generi nel Talmud
 
-L'ebraismo offre forse il caso più affascinante di complessità testuale. La **Mishnah** e il **Talmud**, i testi fondamentali della legge ebraica, descrivono non due ma almeno **sei categorie di genere e sesso**:
+L'ebraismo offre forse il caso più affascinante di complessità testuale. La **Mishnah** e il **Talmud**, i testi fondamentali della legge ebraica, descrivono non due ma almeno **sei categorie di genere e sesso** [7]:
 
 1. **Zachar** — maschio
 2. **Nekevah** — femmina
@@ -141,13 +141,13 @@ L'ebraismo offre forse il caso più affascinante di complessità testuale. La **
 5. **Aylonit** — persona assegnata femmina alla nascita che alla pubertà sviluppa caratteristiche maschili
 6. **Saris** — persona assegnata maschio alla nascita che in seguito sviluppa caratteristiche femminili
 
-Queste categorie non sono marginali: compaiono centinaia di volte nei testi talmudici, perché i rabbini dovevano determinare come applicare la halakhah (legge ebraica) a persone che non rientravano nel binarismo. L'androgynos, per esempio, è trattato in alcuni contesti come un uomo, in altri come una donna, in altri ancora come entrambi, e in altri come nessuno dei due.
+Queste categorie non sono marginali: compaiono centinaia di volte nei testi talmudici, perché i rabbini dovevano determinare come applicare la halakhah (legge ebraica) a persone che non rientravano nel binarismo [7]. L'androgynos, per esempio, è trattato in alcuni contesti come un uomo, in altri come una donna, in altri ancora come entrambi, e in altri come nessuno dei due.
 
 I rabbini dell'antichità non conoscevano cromosomi e ormoni, ma avevano compreso con chiarezza che sesso e genere sono variabili indipendenti. La tradizione mistica ebraica (Kabbalah) discute anche la possibilità che figure bibliche come Dinah e Isacco abbiano sperimentato cambiamenti di genere.
 
 ### Le denominazioni moderne
 
-L'**ebraismo riformato** e l'**ebraismo ricostruzionista** hanno posizioni esplicitamente inclusive. Il Religious Action Center of Reform Judaism afferma che la Torah insegna la fluidità di genere e la giustizia transgender. L'**ebraismo conservativo** (Conservative/Masorti), attraverso la United Synagogue e la Rabbinical Assembly, ha affermato nel 2023 che "le persone con esperienza transgender hanno gli obblighi e i privilegi di tutti gli ebrei".
+L'**ebraismo riformato** e l'**ebraismo ricostruzionista** hanno posizioni esplicitamente inclusive. Il Religious Action Center of Reform Judaism afferma che la Torah insegna la fluidità di genere e la giustizia transgender [8]. L'**ebraismo conservativo** (Conservative/Masorti), attraverso la United Synagogue e la Rabbinical Assembly, ha affermato nel 2023 che "le persone con esperienza transgender hanno gli obblighi e i privilegi di tutti gli ebrei".
 
 L'**ebraismo ortodosso** mantiene generalmente posizioni più restrittive, pur con un dibattito interno in evoluzione su come applicare la halakhah alle persone trans nel rispetto della loro dignità.
 
@@ -155,11 +155,11 @@ L'**ebraismo ortodosso** mantiene generalmente posizioni più restrittive, pur c
 
 ### Induismo e la tradizione hijra
 
-I **Veda** (1500-500 a.C.) descrivono tre nature (*prakrti*): *pums-prakrti* (natura maschile), *stri-prakrti* (natura femminile) e **tritiya-prakrti** (terza natura). Il **Kama Sutra** riprende la stessa tripartizione. In questa cornice si inserisce la millenaria tradizione dei **hijra**, comunità di persone che non si identificano né come uomini né come donne.
+I **Veda** (1500-500 a.C.) descrivono tre nature (*prakrti*): *pums-prakrti* (natura maschile), *stri-prakrti* (natura femminile) e **tritiya-prakrti** (terza natura) [10]. Il **Kama Sutra** riprende la stessa tripartizione. In questa cornice si inserisce la millenaria tradizione dei **hijra**, comunità di persone che non si identificano né come uomini né come donne [9].
 
-Gli hijra hanno un ruolo religioso specifico nella tradizione hindu: la loro partecipazione a cerimonie di nascita e matrimonio è considerata di buon auspicio. Secondo il **Ramayana**, il dio Rama benedisse le persone transgender e conferì loro il potere di benedire e maledire. Molti hijra sono devoti della dea **Bahuchara Mata** e considerano il proprio genere una vocazione spirituale.
+Gli hijra hanno un ruolo religioso specifico nella tradizione hindu: la loro partecipazione a cerimonie di nascita e matrimonio è considerata di buon auspicio [9]. Secondo il **Ramayana**, il dio Rama benedisse le persone transgender e conferì loro il potere di benedire e maledire [10]. Molti hijra sono devoti della dea **Bahuchara Mata** e considerano il proprio genere una vocazione spirituale.
 
-Nel 2014, la Corte Suprema indiana (caso NALSA) ha riconosciuto ufficialmente il terzo genere, citando esplicitamente le radici culturali e religiose di questa identità nella tradizione del subcontinente.
+Nel 2014, la Corte Suprema indiana (caso NALSA) ha riconosciuto ufficialmente il terzo genere, citando esplicitamente le radici culturali e religiose di questa identità nella tradizione del subcontinente [9].
 
 ### Buddhismo
 
@@ -171,7 +171,7 @@ Il Dalai Lama ha espresso posizioni sfumate, accettando l'identità transgender 
 
 In Italia, il rapporto tra fede e identità trans si gioca quasi interamente nel campo cattolico, data la predominanza della Chiesa nella cultura religiosa del paese. La situazione è segnata da una tensione costante.
 
-Da un lato, la dottrina ufficiale resta chiara: *Dignitas Infinita* e i pronunciamenti della Conferenza Episcopale Italiana non lasciano margini di ambiguità sulla posizione istituzionale. Dall'altro, la pastorale sul campo racconta una storia diversa. Parrocchie singole, sacerdoti individuali e organizzazioni come **La Tenda di Gionata** e il **Progetto Gionata** offrono spazi di ascolto e di preghiera per le persone LGBT credenti. Il mensile cattolico *Jesus* ha dedicato inchieste alla Chiesa che "cammina con le persone transgender".
+Da un lato, la dottrina ufficiale resta chiara: *Dignitas Infinita* e i pronunciamenti della Conferenza Episcopale Italiana non lasciano margini di ambiguità sulla posizione istituzionale [1]. Dall'altro, la pastorale sul campo racconta una storia diversa. Parrocchie singole, sacerdoti individuali e organizzazioni come **La Tenda di Gionata** e il **Progetto Gionata** offrono spazi di ascolto e di preghiera per le persone LGBT credenti. Il mensile cattolico *Jesus* ha dedicato inchieste alla Chiesa che "cammina con le persone transgender".
 
 Le **chiese valdesi e metodiste** italiane rappresentano una voce distintamente diversa nel panorama religioso nazionale. La Chiesa Evangelica Valdese ha assunto posizioni progressiste sui diritti delle persone LGBTQ+, offrendo un'alternativa protestante per chi cerca una comunità di fede accogliente.
 
@@ -183,7 +183,7 @@ Per molte persone trans, la fede non è qualcosa da cui fuggire ma una dimension
 
 Le esperienze sono estremamente diverse. Alcune persone trovano nella propria tradizione di fede il linguaggio e il sostegno per comprendere la propria identità. Altre attraversano periodi di crisi profonda, in cui il messaggio di condanna percepito dalla comunità religiosa si intreccia con il percorso di accettazione di sé. Altre ancora abbandonano la religione organizzata per poi tornarvi, o trovano casa in tradizioni diverse da quella di origine.
 
-Ciò che la ricerca mostra con chiarezza è che la fede non scompare con la transizione. Un sondaggio del Pew Research Center ha rilevato che le persone religiosamente affiliate che non sono cisgender spesso mantengono un rapporto attivo con la spiritualità, anche quando lasciano la comunità di appartenenza.
+Ciò che la ricerca mostra con chiarezza è che la fede non scompare con la transizione. Un sondaggio del Pew Research Center ha rilevato che le persone religiosamente affiliate che non sono cisgender spesso mantengono un rapporto attivo con la spiritualità, anche quando lasciano la comunità di appartenenza [11][12].
 
 ## Comunità religiose accoglienti e organizzazioni
 
@@ -196,10 +196,10 @@ In quasi tutte le tradizioni di fede esistono oggi organizzazioni che lavorano s
 - **Metropolitan Community Churches (MCC)**: denominazione cristiana internazionale che celebra e afferma le persone transgender, non binarie e gender non-conforming.
 - **La Tenda di Gionata** e **Progetto Gionata** (Italia): spazi di dialogo e spiritualità per persone LGBT cattoliche.
 
-Nel 2023, leader di diverse grandi tradizioni religiose americane hanno firmato una dichiarazione congiunta senza precedenti a sostegno delle persone trans, intersex e non binarie, riconoscendo esplicitamente la loro dignità e il loro posto nelle comunità di fede.
+Nel 2023, leader di diverse grandi tradizioni religiose americane hanno firmato una dichiarazione congiunta senza precedenti a sostegno delle persone trans, intersex e non binarie, riconoscendo esplicitamente la loro dignità e il loro posto nelle comunità di fede [13].
 
 ## Un panorama in movimento
 
-Il rapporto tra religioni e persone trans non è statico. Sta cambiando, in direzioni diverse, contemporaneamente. Alcune denominazioni si muovono verso una maggiore inclusione: i metodisti che nel 2024 smantellano decenni di barriere, i rabbini conservativi che affermano i diritti delle persone trans, le parrocchie cattoliche che aprono le porte senza aspettare il permesso del Vaticano. Altre si irrigidiscono: i vescovi che vietano le cure negli ospedali cattolici, le comunità evangeliche che rafforzano i propri confini, i governi teocratici che strumentalizzano la tradizione religiosa.
+Il rapporto tra religioni e persone trans non è statico. Sta cambiando, in direzioni diverse, contemporaneamente. Alcune denominazioni si muovono verso una maggiore inclusione: i metodisti che nel 2024 smantellano decenni di barriere [4], i rabbini conservativi che affermano i diritti delle persone trans, le parrocchie cattoliche che aprono le porte senza aspettare il permesso del Vaticano. Altre si irrigidiscono: i vescovi che vietano le cure negli ospedali cattolici [3], le comunità evangeliche che rafforzano i propri confini, i governi teocratici che strumentalizzano la tradizione religiosa.
 
 Per chi legge queste righe — che sia una persona trans credente, un genitore cattolico che cerca di capire, o semplicemente qualcuno che vuole informarsi — il messaggio più onesto è questo: non esiste una risposta unica. Ogni tradizione religiosa contiene al proprio interno voci diverse, testi che possono essere letti in modi diversi, e comunità che scelgono percorsi diversi. La decisione su come vivere la propria fede e la propria identità appartiene a ciascuna persona. Nessun articolo, nessuna fatwa e nessun documento vaticano può sostituirsi a quel discernimento personale.

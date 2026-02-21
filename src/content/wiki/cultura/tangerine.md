@@ -63,13 +63,13 @@ related:
 
 ## Un film che ha cambiato le regole del cinema
 
-Alla vigilia di Natale del 2013, sulle strade assolate e caoiche di Hollywood Boulevard, Sean Baker accese tre iPhone 5s e comincio a girare uno dei film piu sorprendenti del decennio. "Tangerine", uscito nel 2015 dopo la premiere al Sundance Film Festival, avrebbe riscritto le regole del cinema indipendente sotto almeno due aspetti: la tecnologia con cui fu girato e le persone che lo interpretano.
+Alla vigilia di Natale del 2013, sulle strade assolate e caoiche di Hollywood Boulevard, Sean Baker accese tre iPhone 5s e comincio a girare uno dei film piu sorprendenti del decennio. "Tangerine", uscito nel 2015 dopo la premiere al Sundance Film Festival, avrebbe riscritto le regole del cinema indipendente sotto almeno due aspetti: la tecnologia con cui fu girato e le persone che lo interpretano [1].
 
 Il film racconta ventiquattr'ore nella vita di due donne trans a Los Angeles. Non e un dramma cupo sulla sofferenza. Non e un documentario sulle "condizioni di vita" delle persone transgender. E una commedia drammatica piena di energia, umorismo, rabbia e affetto -- una storia che tratta le sue protagoniste come esseri umani completi, con desideri, difetti e una forza vitale travolgente.
 
 ## La trama: una caccia al traditore sotto il sole di Los Angeles
 
-Sin-Dee Rella (Kitana Kiki Rodriguez) esce di prigione alla vigilia di Natale. La prima cosa che fa e incontrare la sua migliore amica Alexandra (Mya Taylor) in un fast food. Alexandra, che sta cercando di promuovere il suo spettacolo canoro serale, le rivela quasi per caso una notizia devastante: Chester, il fidanzato di Sin-Dee e anche il suo protettore, l'ha tradita durante la sua assenza con una donna cisgender di nome Dinah.
+Sin-Dee Rella (Kitana Kiki Rodriguez) esce di prigione alla vigilia di Natale. La prima cosa che fa e incontrare la sua migliore amica Alexandra (Mya Taylor) in un fast food. Alexandra, che sta cercando di promuovere il suo spettacolo canoro serale, le rivela quasi per caso una notizia devastante: Chester, il fidanzato di Sin-Dee e anche il suo protettore, l'ha tradita durante la sua assenza con una donna cisgender di nome Dinah [1].
 
 Da quel momento parte una caccia furiosa attraverso le strade di Hollywood. Sin-Dee e determinata a trovare Chester e a confrontarsi con lui. La sua rabbia e viscerale, la sua energia inarrestabile. Il film la segue mentre attraversa motel, laundromat, saloni di bellezza e angoli di strada, trascinando letteralmente Dinah per i capelli quando la trova.
 
@@ -79,9 +79,9 @@ Le tre storie convergono in un climax esplosivo al locale dove Alexandra si esib
 
 ## L'innovazione tecnica: cinema con tre iPhone
 
-L'aspetto piu discusso di "Tangerine" al momento della sua uscita fu la scelta tecnologica. Sean Baker giro l'intero film con tre iPhone 5s, equipaggiati con lenti anamorfiche Moondog Labs da 1.33x montate su adattatori personalizzati, e utilizzando l'app di ripresa professionale FiLMiC Pro.
+L'aspetto piu discusso di "Tangerine" al momento della sua uscita fu la scelta tecnologica. Sean Baker giro l'intero film con tre iPhone 5s, equipaggiati con lenti anamorfiche Moondog Labs da 1.33x montate su adattatori personalizzati, e utilizzando l'app di ripresa professionale FiLMiC Pro [3].
 
-Il budget complessivo del film era di circa 100.000 dollari -- una cifra microscopica per gli standard cinematografici, ma comunque significativa per un regista indipendente. La scelta dell'iPhone non fu un espediente pubblicitario, ma una decisione pratica e artistica. Baker aveva bisogno di girare in modo veloce e discreto nelle strade reali di Los Angeles, senza attirare l'attenzione che una troupe cinematografica tradizionale avrebbe inevitabilmente generato.
+Il budget complessivo del film era di circa 100.000 dollari -- una cifra microscopica per gli standard cinematografici, ma comunque significativa per un regista indipendente [1]. La scelta dell'iPhone non fu un espediente pubblicitario, ma una decisione pratica e artistica [3]. Baker aveva bisogno di girare in modo veloce e discreto nelle strade reali di Los Angeles, senza attirare l'attenzione che una troupe cinematografica tradizionale avrebbe inevitabilmente generato.
 
 Il risultato e un'estetica che si rivelo perfetta per la storia. Le immagini hanno una qualita vibrante, quasi ipersaturata, che cattura la luce dorata di Los Angeles con un'intensita che le cineprese tradizionali non avrebbero potuto replicare allo stesso modo. Il formato anamorfico conferisce alle inquadrature una profondita e un'ampiezza cinematiche che contraddicono le dimensioni minuscole del dispositivo di ripresa.
 
@@ -91,11 +91,11 @@ Questa scelta tecnica ebbe un impatto enorme sul cinema indipendente. Dimostro c
 
 ## L'autenticita: attrici trans in ruoli trans
 
-L'aspetto piu significativo e duraturo di "Tangerine" non e la tecnologia, ma le persone. Sean Baker scopri Kitana Kiki Rodriguez e Mya Taylor al Los Angeles LGBT Center, un centro comunitario che offre servizi alla comunita LGBTQ+ della citta. Non erano attrici professioniste: erano donne trans che vivevano le stesse esperienze dei personaggi che avrebbero interpretato.
+L'aspetto piu significativo e duraturo di "Tangerine" non e la tecnologia, ma le persone. Sean Baker scopri Kitana Kiki Rodriguez e Mya Taylor al Los Angeles LGBT Center [6][8], un centro comunitario che offre servizi alla comunita LGBTQ+ della citta. Non erano attrici professioniste: erano donne trans che vivevano le stesse esperienze dei personaggi che avrebbero interpretato.
 
-Baker passo mesi a conoscerle prima di iniziare le riprese, sviluppando la sceneggiatura in collaborazione con loro e con il co-sceneggiatore Chris Bergoch. Rodriguez e Taylor contribuirono con le proprie esperienze, il proprio linguaggio, il proprio umorismo. Molti dei dialoghi del film nascono da conversazioni reali, e diverse situazioni sono ispirate a episodi vissuti dalle attrici.
+Baker passo mesi a conoscerle prima di iniziare le riprese, sviluppando la sceneggiatura in collaborazione con loro e con il co-sceneggiatore Chris Bergoch [6]. Rodriguez e Taylor contribuirono con le proprie esperienze, il proprio linguaggio, il proprio umorismo. Molti dei dialoghi del film nascono da conversazioni reali, e diverse situazioni sono ispirate a episodi vissuti dalle attrici [7].
 
-Questa scelta non fu solo una questione di rappresentazione politicamente corretta. Fu una decisione artistica che rese il film radicalmente diverso da qualsiasi altra rappresentazione cinematografica delle donne trans fino a quel momento. Rodriguez e Taylor non "interpretano" donne trans -- lo sono. La loro naturalezza davanti alla camera, la loro capacita di oscillare tra il comico e il drammatico con fluidita assoluta, la loro chimica come amiche sullo schermo -- tutto questo sarebbe stato impossibile da replicare con attrici cisgender.
+Questa scelta non fu solo una questione di rappresentazione politicamente corretta. Fu una decisione artistica che rese il film radicalmente diverso da qualsiasi altra rappresentazione cinematografica delle donne trans fino a quel momento [6]. Rodriguez e Taylor non "interpretano" donne trans -- lo sono. La loro naturalezza davanti alla camera, la loro capacita di oscillare tra il comico e il drammatico con fluidita assoluta, la loro chimica come amiche sullo schermo -- tutto questo sarebbe stato impossibile da replicare con attrici cisgender.
 
 ## La rappresentazione del sex work: senza giudizio
 
@@ -109,9 +109,9 @@ Allo stesso tempo, il sex work non definisce i personaggi. Sin-Dee e Alexandra s
 
 Il percorso di "Tangerine" nel circuito dei premi cinematografici fu significativo, anche se non esplosivo come quello di altri film a tematica trans.
 
-La premiere al Sundance Film Festival nel gennaio 2015 genero un entusiasmo immediato. Il film fu acquistato da Magnolia Pictures per la distribuzione negli Stati Uniti e ricevette recensioni largamente positive dalla critica.
+La premiere al Sundance Film Festival nel gennaio 2015 genero un entusiasmo immediato [1]. Il film fu acquistato da Magnolia Pictures per la distribuzione negli Stati Uniti e ricevette recensioni largamente positive dalla critica [5].
 
-Il momento piu importante arrivo nel febbraio 2016, quando Mya Taylor vinse l'Independent Spirit Award come Miglior attrice non protagonista. Fu la prima donna apertamente transgender a ricevere questo premio, uno dei piu prestigiosi del cinema indipendente americano. Nel suo discorso di ringraziamento, Taylor rivolse un appello diretto a Hollywood: "Dateci lavoro. Dateci opportunita. Noi ci siamo."
+Il momento piu importante arrivo nel febbraio 2016, quando Mya Taylor vinse l'Independent Spirit Award come Miglior attrice non protagonista [4]. Fu la prima donna apertamente transgender a ricevere questo premio, uno dei piu prestigiosi del cinema indipendente americano [4]. Nel suo discorso di ringraziamento, Taylor rivolse un appello diretto a Hollywood: "Dateci lavoro. Dateci opportunita. Noi ci siamo."
 
 Il film fu inserito in numerose liste dei migliori film dell'anno da pubblicazioni come il New York Times, il Los Angeles Times e Rolling Stone. Roger Ebert.com gli assegno quattro stelle, lodandone l'energia e l'autenticita.
 

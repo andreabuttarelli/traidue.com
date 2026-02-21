@@ -69,7 +69,7 @@ Questo articolo esplora la durata della terapia ormonale, cosa succede se viene 
 
 Per capire perché la terapia ormonale è generalmente a lungo termine, bisogna partire da un concetto fondamentale: il corpo umano ha bisogno di ormoni sessuali per funzionare correttamente. Non si tratta solo di mantenere i [cambiamenti fisici](/wiki/corpo-cambia-dopo-ormoni) ottenuti con la transizione, ma di garantire la salute complessiva dell'organismo.
 
-Gli ormoni sessuali -- estrogeni e testosterone -- svolgono funzioni essenziali che vanno ben oltre i caratteri sessuali secondari. Proteggono le ossa dall'osteoporosi, regolano il metabolismo del colesterolo e il rischio cardiovascolare, sostengono le funzioni cognitive e l'umore, e mantengono la salute dei tessuti in tutto il corpo (Nota e den Heijer, 2020).
+Gli ormoni sessuali -- estrogeni e testosterone -- svolgono funzioni essenziali che vanno ben oltre i caratteri sessuali secondari. Proteggono le ossa dall'osteoporosi, regolano il metabolismo del colesterolo e il rischio cardiovascolare, sostengono le funzioni cognitive e l'umore, e mantengono la salute dei tessuti in tutto il corpo [3].
 
 Interrompere la terapia ormonale senza che il corpo abbia una fonte endogena di ormoni sessuali significherebbe vivere in uno stato di carenza ormonale cronica, paragonabile a una menopausa o un'andropausa prematura, ma senza la possibilità di recupero spontaneo.
 
@@ -79,16 +79,16 @@ La necessità di continuare la terapia ormonale per tutta la vita dipende in mod
 
 ### Dopo la gonadectomia
 
-Chi ha rimosso le gonadi nell'ambito della [transizione chirurgica](/wiki/chirurgia-affermazione-di-genere) non ha più una fonte endogena significativa di ormoni sessuali. In questo caso, la terapia ormonale sostitutiva è medicalmente necessaria, non solo per mantenere i cambiamenti della transizione, ma per prevenire gravi conseguenze sulla salute.
+Chi ha rimosso le gonadi nell'ambito della [transizione chirurgica](/wiki/chirurgia-affermazione-di-genere) non ha più una fonte endogena significativa di ormoni sessuali. In questo caso, la terapia ormonale sostitutiva è medicalmente necessaria, non solo per mantenere i cambiamenti della transizione, ma per prevenire gravi conseguenze sulla salute [1][2].
 
 Senza terapia ormonale dopo la gonadectomia, il corpo va incontro a:
 
-- **Perdita di densità ossea**: il rischio di osteoporosi aumenta significativamente. Uno studio di Lips et al. (1998) ha dimostrato che la densità minerale ossea nelle persone trans trattate con ormoni dopo la gonadectomia si mantiene stabile nel tempo, mentre senza trattamento il calo sarebbe rapido e progressivo.
-- **Deterioramento cardiovascolare**: gli ormoni sessuali hanno un ruolo protettivo sul sistema cardiovascolare. La carenza ormonale cronica aumenta il rischio di malattie cardiovascolari.
+- **Perdita di densità ossea**: il rischio di osteoporosi aumenta significativamente. Uno studio di Lips et al. (1998) ha dimostrato che la densità minerale ossea nelle persone trans trattate con ormoni dopo la gonadectomia si mantiene stabile nel tempo, mentre senza trattamento il calo sarebbe rapido e progressivo [4].
+- **Deterioramento cardiovascolare**: gli ormoni sessuali hanno un ruolo protettivo sul sistema cardiovascolare. La carenza ormonale cronica aumenta il rischio di malattie cardiovascolari [3].
 - **Sintomi da carenza ormonale**: vampate di calore, sudorazioni notturne, stanchezza cronica, insonnia, secchezza della pelle e delle mucose, calo della libido, difficoltà di concentrazione.
 - **Impatto sull'umore**: aumento del rischio di depressione e ansia, come documentato anche nella letteratura sulla [salute mentale delle persone trans](/wiki/salute-mentale-persone-trans).
 
-Le linee guida della Endocrine Society (Hembree et al., 2017) e il WPATH SOC 8 (2022) sono chiare: la terapia ormonale dopo la gonadectomia è considerata un trattamento medico essenziale e deve essere continuata a tempo indeterminato.
+Le linee guida della Endocrine Society (2017) e il WPATH SOC 8 (2022) sono chiare: la terapia ormonale dopo la gonadectomia è considerata un trattamento medico essenziale e deve essere continuata a tempo indeterminato [1][2].
 
 ### Con le gonadi ancora presenti
 
@@ -101,7 +101,7 @@ Se la terapia viene interrotta, le gonadi riprendono gradualmente la loro attivi
 - I cambiamenti irreversibili restano (voce abbassata dal testosterone, sviluppo del seno dagli estrogeni)
 - Il ciclo mestruale può riprendere negli uomini trans
 
-Tuttavia, anche in questo caso, la maggior parte delle persone trans sceglie di continuare la terapia per mantenere l'allineamento tra il corpo e la propria identità di genere. L'interruzione volontaria è rara e, quando avviene, è generalmente motivata da ragioni specifiche (effetti collaterali, desiderio di fertilità, circostanze mediche particolari) piuttosto che da un desiderio di detransizione (Wierckx et al., 2012).
+Tuttavia, anche in questo caso, la maggior parte delle persone trans sceglie di continuare la terapia per mantenere l'allineamento tra il corpo e la propria identità di genere. L'interruzione volontaria è rara e, quando avviene, è generalmente motivata da ragioni specifiche (effetti collaterali, desiderio di fertilità, circostanze mediche particolari) piuttosto che da un desiderio di detransizione [6].
 
 ## Cosa succede se si interrompe la terapia
 
@@ -117,9 +117,9 @@ Per gli uomini trans che interrompono il testosterone, gli estrogeni endogeni ri
 
 ### Interruzione senza gonadi
 
-Senza gonadi, l'interruzione della terapia ormonale porta a uno stato di carenza ormonale completa. I sintomi si manifestano nell'arco di giorni o settimane e sono significativi: vampate, stanchezza intensa, disturbi del sonno, irritabilità, difficoltà cognitive, dolori articolari. A lungo termine, il rischio di osteoporosi diventa concreto e serio.
+Senza gonadi, l'interruzione della terapia ormonale porta a uno stato di carenza ormonale completa. I sintomi si manifestano nell'arco di giorni o settimane e sono significativi: vampate, stanchezza intensa, disturbi del sonno, irritabilità, difficoltà cognitive, dolori articolari [3]. A lungo termine, il rischio di osteoporosi diventa concreto e serio [4].
 
-Questa situazione è analoga a quella delle donne cisgender dopo una menopausa chirurgica (ovariectomia bilaterale) o degli uomini cisgender dopo l'orchidectomia: in tutti questi casi, la terapia ormonale sostitutiva è lo standard di cura raccomandato.
+Questa situazione è analoga a quella delle donne cisgender dopo una menopausa chirurgica (ovariectomia bilaterale) o degli uomini cisgender dopo l'orchidectomia: in tutti questi casi, la terapia ormonale sostitutiva è lo standard di cura raccomandato [1].
 
 ## Sicurezza a lungo termine: cosa dicono gli studi
 
@@ -127,15 +127,15 @@ Una delle preoccupazioni più comprensibili riguarda la sicurezza dell'assunzion
 
 ### Dati sulla mortalità
 
-Lo studio di Asscheman et al. (2011), che ha seguito un'ampia coorte di persone trans nei Paesi Bassi per una mediana di 18,5 anni, ha riscontrato che la mortalità complessiva nelle donne trans era superiore a quella della popolazione generale, ma questo eccesso era attribuibile principalmente a cause non legate alla terapia ormonale (suicidio, HIV, uso di sostanze). Negli uomini trans, la mortalità non differiva dalla popolazione generale.
+Lo studio di Asscheman et al. (2011), che ha seguito un'ampia coorte di persone trans nei Paesi Bassi per una mediana di 18,5 anni, ha riscontrato che la mortalità complessiva nelle donne trans era superiore a quella della popolazione generale, ma questo eccesso era attribuibile principalmente a cause non legate alla terapia ormonale (suicidio, HIV, uso di sostanze) [5]. Negli uomini trans, la mortalità non differiva dalla popolazione generale [5].
 
-Nota e den Heijer (2020), nella loro revisione sugli effetti a lungo termine, hanno concluso che la terapia ormonale sotto supervisione medica ha un profilo di rischio accettabile e che i benefici in termini di qualità della vita superano ampiamente i rischi.
+Nota e den Heijer (2020), nella loro revisione sugli effetti a lungo termine, hanno concluso che la terapia ormonale sotto supervisione medica ha un profilo di rischio accettabile e che i benefici in termini di qualità della vita superano ampiamente i rischi [3].
 
 ### Rischio cardiovascolare
 
-Il rischio cardiovascolare è l'area che richiede maggiore attenzione. Una meta-analisi pubblicata sull'European Heart Journal Open (2023) ha esaminato i dati aggregati di numerosi studi e ha concluso che le donne trans in terapia estrogenica hanno un rischio leggermente aumentato di eventi tromboembolici venosi, in particolare nei primi due anni di trattamento. Questo rischio è influenzato dal tipo di estrogeno utilizzato: l'estradiolo per via transdermica presenta un rischio tromboembolico inferiore rispetto all'etinilestradiolo orale, motivo per cui quest'ultimo non è più raccomandato dalle linee guida (Hembree et al., 2017).
+Il rischio cardiovascolare è l'area che richiede maggiore attenzione. Una meta-analisi pubblicata sull'European Heart Journal Open (2023) ha esaminato i dati aggregati di numerosi studi e ha concluso che le donne trans in terapia estrogenica hanno un rischio leggermente aumentato di eventi tromboembolici venosi, in particolare nei primi due anni di trattamento [11]. Questo rischio è influenzato dal tipo di estrogeno utilizzato: l'estradiolo per via transdermica presenta un rischio tromboembolico inferiore rispetto all'etinilestradiolo orale, motivo per cui quest'ultimo non è più raccomandato dalle linee guida [1].
 
-Per gli uomini trans in terapia con testosterone, il profilo di rischio cardiovascolare non appare significativamente diverso da quello degli uomini cisgender. Il monitoraggio dell'ematocrito è importante, poiché il testosterone stimola l'eritropoiesi e un ematocrito elevato aumenta la viscosità del sangue.
+Per gli uomini trans in terapia con testosterone, il profilo di rischio cardiovascolare non appare significativamente diverso da quello degli uomini cisgender [11]. Il monitoraggio dell'ematocrito è importante, poiché il testosterone stimola l'eritropoiesi e un ematocrito elevato aumenta la viscosità del sangue.
 
 Getahun et al. (2018) e altri hanno sottolineato come i fattori di rischio modificabili (fumo, obesità, sedentarietà) abbiano un impatto molto maggiore sul rischio cardiovascolare rispetto alla terapia ormonale in sé.
 
@@ -143,17 +143,17 @@ Getahun et al. (2018) e altri hanno sottolineato come i fattori di rischio modif
 
 Il timore che la terapia ormonale possa aumentare il rischio di tumori è comprensibile, ma i dati disponibili sono rassicuranti.
 
-**Tumore al seno nelle donne trans:** lo studio di coorte nazionale di de Blok et al. (2019), condotto nei Paesi Bassi su 2.260 donne trans seguite per una mediana di 18 anni, ha riscontrato un'incidenza di tumore al seno di 46 casi per 100.000 anni-persona. Questo valore e superiore a quello degli uomini cisgender, ma rimane nettamente inferiore a quello delle donne cisgender. Gli autori concludono che il rischio assoluto resta basso.
+**Tumore al seno nelle donne trans:** lo studio di coorte nazionale di de Blok et al. (2019), condotto nei Paesi Bassi su 2.260 donne trans seguite per una mediana di 18 anni, ha riscontrato un'incidenza di tumore al seno di 46 casi per 100.000 anni-persona [8]. Questo valore e superiore a quello degli uomini cisgender, ma rimane nettamente inferiore a quello delle donne cisgender. Gli autori concludono che il rischio assoluto resta basso [8].
 
-**Tumore alla prostata nelle donne trans:** i casi documentati sono estremamente rari. La soppressione del testosterone protegge la prostata e il rischio è molto inferiore a quello degli uomini cisgender.
+**Tumore alla prostata nelle donne trans:** i casi documentati sono estremamente rari. La soppressione del testosterone protegge la prostata e il rischio è molto inferiore a quello degli uomini cisgender [9].
 
-**Tumori nelle persone in terapia con testosterone:** Nota et al. (2018) non hanno trovato un aumento significativo del rischio di tumori correlati agli ormoni negli uomini trans. Lo screening per il tumore al seno (nel tessuto mammario residuo) e per il tumore della cervice uterina (se l'utero è presente) resta comunque raccomandato.
+**Tumori nelle persone in terapia con testosterone:** Nota et al. (2018) non hanno trovato un aumento significativo del rischio di tumori correlati agli ormoni negli uomini trans [9]. Lo screening per il tumore al seno (nel tessuto mammario residuo) e per il tumore della cervice uterina (se l'utero è presente) resta comunque raccomandato [1].
 
-**Meningioma e ciproterone acetato:** Wiepjes et al. (2019) hanno analizzato il rischio di meningioma associato all'uso prolungato di ciproterone acetato (un anti-androgeno comunemente usato in Europa). A dosi elevate e per periodi prolungati, il rischio è leggermente aumentato. Per questo motivo, le linee guida raccomandano di usare la dose minima efficace e di monitorare i sintomi neurologici.
+**Meningioma e ciproterone acetato:** Wiepjes et al. (2019) hanno analizzato il rischio di meningioma associato all'uso prolungato di ciproterone acetato (un anti-androgeno comunemente usato in Europa) [10]. A dosi elevate e per periodi prolungati, il rischio è leggermente aumentato. Per questo motivo, le linee guida raccomandano di usare la dose minima efficace e di monitorare i sintomi neurologici [10].
 
 ## Il programma di monitoraggio
 
-La gestione della terapia ormonale a lungo termine richiede un rapporto continuativo con il proprio medico. Le linee guida della Endocrine Society (Hembree et al., 2017) e le linee guida UCSF (Deutsch, 2016) forniscono un quadro chiaro del monitoraggio necessario.
+La gestione della terapia ormonale a lungo termine richiede un rapporto continuativo con il proprio medico. Le linee guida della Endocrine Society (2017) e le linee guida UCSF (2016) forniscono un quadro chiaro del monitoraggio necessario [1][12].
 
 ### Primo anno
 
@@ -171,7 +171,7 @@ La gestione della terapia ormonale a lungo termine richiede un rapporto continua
 Per le **donne trans:**
 - Prolattina (annualmente nei primi anni, poi ogni 2-3 anni)
 - Monitoraggio del rischio tromboembolico (specialmente se presenti altri fattori di rischio come fumo, obesità, immobilità)
-- Screening mammografico secondo le linee guida per le donne cisgender dopo 5 o più anni di terapia estrogenica
+- Screening mammografico secondo le linee guida per le donne cisgender dopo 5 o più anni di terapia estrogenica [8]
 
 Per gli **uomini trans:**
 - Ematocrito (il testosterone aumenta la produzione di globuli rossi; valori troppo alti richiedono un aggiustamento della dose)
@@ -186,21 +186,21 @@ Con l'allungamento della vita media e il numero crescente di persone trans che r
 
 Le persone cisgender attraversano naturalmente la menopausa (calo degli estrogeni) o l'andropausa (graduale calo del testosterone). Per le persone trans in terapia ormonale, questa transizione fisiologica non avviene spontaneamente perché gli ormoni sono somministrati dall'esterno.
 
-La domanda che si pone è: bisogna ridurre i dosaggi con l'età? Le linee guida non forniscono una risposta univoca. In generale, i medici tendono ad adattare i dosaggi per mantenere livelli ormonali appropriati per l'età, riducendoli gradualmente se necessario. Per le donne trans in età avanzata, questo significa valutare un possibile passaggio a dosi di estradiolo più basse, simili a quelle della terapia ormonale sostitutiva per le donne cisgender in menopausa. Per gli uomini trans, i dosaggi di testosterone possono essere ridotti per avvicinarsi ai livelli tipici degli uomini cisgender anziani.
+La domanda che si pone è: bisogna ridurre i dosaggi con l'età? Le linee guida non forniscono una risposta univoca [12]. In generale, i medici tendono ad adattare i dosaggi per mantenere livelli ormonali appropriati per l'età, riducendoli gradualmente se necessario. Per le donne trans in età avanzata, questo significa valutare un possibile passaggio a dosi di estradiolo più basse, simili a quelle della terapia ormonale sostitutiva per le donne cisgender in menopausa. Per gli uomini trans, i dosaggi di testosterone possono essere ridotti per avvicinarsi ai livelli tipici degli uomini cisgender anziani.
 
 ### Salute ossea nell'invecchiamento
 
-La densità ossea è una preoccupazione importante con l'età. Lips et al. (1998) e studi successivi hanno dimostrato che la terapia ormonale adeguata mantiene la densità ossea nel tempo, ma il monitoraggio diventa ancora più importante dopo i 50 anni. L'integrazione con calcio e vitamina D può essere raccomandata, così come l'attività fisica con carico (camminata, esercizi con pesi).
+La densità ossea è una preoccupazione importante con l'età. Lips et al. (1998) e studi successivi hanno dimostrato che la terapia ormonale adeguata mantiene la densità ossea nel tempo [4], ma il monitoraggio diventa ancora più importante dopo i 50 anni. L'integrazione con calcio e vitamina D può essere raccomandata, così come l'attività fisica con carico (camminata, esercizi con pesi).
 
 ### Interazioni farmacologiche
 
-Con l'età aumenta la probabilità di assumere altri farmaci per condizioni croniche (ipertensione, diabete, ipercolesterolemia). È importante che il medico che prescrive la terapia ormonale sia informato di tutti gli altri trattamenti in corso, perché possono esserci interazioni. In generale, la terapia ormonale è compatibile con la maggior parte dei farmaci comuni, ma alcuni aggiustamenti possono essere necessari.
+Con l'età aumenta la probabilità di assumere altri farmaci per condizioni croniche (ipertensione, diabete, ipercolesterolemia). È importante che il medico che prescrive la terapia ormonale sia informato di tutti gli altri trattamenti in corso, perché possono esserci interazioni [3]. In generale, la terapia ormonale è compatibile con la maggior parte dei farmaci comuni, ma alcuni aggiustamenti possono essere necessari.
 
 ## Gestire la terapia in situazioni particolari
 
 ### Prima di un intervento chirurgico
 
-Alcuni chirurghi richiedono la sospensione della terapia estrogenica 2-4 settimane prima di un intervento chirurgico maggiore, per ridurre il rischio tromboembolico. Questa raccomandazione è dibattuta: il WPATH SOC 8 (2022) osserva che il rischio tromboembolico può essere gestito anche con misure preventive (calze elastiche, eparina a basso peso molecolare) senza necessariamente sospendere gli estrogeni. La decisione va presa caso per caso con il chirurgo e l'endocrinologo.
+Alcuni chirurghi richiedono la sospensione della terapia estrogenica 2-4 settimane prima di un intervento chirurgico maggiore, per ridurre il rischio tromboembolico [7]. Questa raccomandazione è dibattuta: il WPATH SOC 8 (2022) osserva che il rischio tromboembolico può essere gestito anche con misure preventive (calze elastiche, eparina a basso peso molecolare) senza necessariamente sospendere gli estrogeni [2]. La decisione va presa caso per caso con il chirurgo e l'endocrinologo.
 
 Per il testosterone, la sospensione preoperatoria non è generalmente necessaria, ma è importante informare l'anestesista perché i valori ematologici (in particolare l'ematocrito) possono essere diversi dagli intervalli di riferimento standard.
 
@@ -215,7 +215,7 @@ Viaggiare con la terapia ormonale richiede un minimo di pianificazione:
 
 ### Durante una malattia
 
-Nella maggior parte dei casi, la terapia ormonale può essere continuata durante malattie comuni (influenza, infezioni, ecc.). La sospensione è da valutare in caso di malattie che aumentano il rischio trombotico (lunghi periodi di immobilità a letto, interventi d'urgenza, malattie che causano forte disidratazione) o in caso di patologie epatiche acute che compromettono il metabolismo dei farmaci.
+Nella maggior parte dei casi, la terapia ormonale può essere continuata durante malattie comuni (influenza, infezioni, ecc.). La sospensione è da valutare in caso di malattie che aumentano il rischio trombotico (lunghi periodi di immobilità a letto, interventi d'urgenza, malattie che causano forte disidratazione) o in caso di patologie epatiche acute che compromettono il metabolismo dei farmaci [3].
 
 È sempre consigliabile informare il medico curante della terapia ormonale in corso quando si ricevono cure per qualsiasi altra condizione.
 
@@ -244,16 +244,16 @@ Le molecole utilizzate nella terapia ormonale (estradiolo, testosterone) sono fa
 
 ### "I rischi aumentano con gli anni?"
 
-I dati a disposizione, che coprono ormai follow-up di 20-30 anni in alcune coorti, non mostrano un accumulo esponenziale dei rischi nel tempo. I rischi della terapia ormonale sono maggiori nei primi anni (specialmente il rischio tromboembolico con gli estrogeni) e tendono a stabilizzarsi. Il fattore più importante per la sicurezza a lungo termine resta il monitoraggio medico regolare e la gestione dei fattori di rischio modificabili (Nota e den Heijer, 2020).
+I dati a disposizione, che coprono ormai follow-up di 20-30 anni in alcune coorti, non mostrano un accumulo esponenziale dei rischi nel tempo [5]. I rischi della terapia ormonale sono maggiori nei primi anni (specialmente il rischio tromboembolico con gli estrogeni) e tendono a stabilizzarsi [7]. Il fattore più importante per la sicurezza a lungo termine resta il monitoraggio medico regolare e la gestione dei fattori di rischio modificabili [3].
 
 ### "Posso ridurre la dose nel tempo?"
 
-In molti casi, sì. Una volta raggiunti e stabilizzati i cambiamenti desiderati, è possibile valutare con il proprio medico una riduzione del dosaggio, mantenendo livelli ormonali sufficienti per la salute ma non necessariamente ai limiti superiori dell'intervallo. Questo approccio può essere particolarmente appropriato con l'avanzare dell'età.
+In molti casi, sì. Una volta raggiunti e stabilizzati i cambiamenti desiderati, è possibile valutare con il proprio medico una riduzione del dosaggio, mantenendo livelli ormonali sufficienti per la salute ma non necessariamente ai limiti superiori dell'intervallo [12]. Questo approccio può essere particolarmente appropriato con l'avanzare dell'età.
 
 ## Conclusione
 
 La terapia ormonale è, nella pratica, un impegno a lungo termine. Per chi ha effettuato la gonadectomia è una necessità medica; per chi ha ancora le gonadi è una scelta che la grande maggioranza delle persone trans compie consapevolmente per mantenere l'allineamento tra il proprio corpo e la propria identità.
 
-I dati scientifici accumulati in decenni di pratica clinica -- dagli studi di coorte olandesi alle linee guida internazionali -- confermano che la terapia ormonale a lungo termine, sotto adeguato monitoraggio medico, ha un profilo di sicurezza accettabile e benefici documentati sulla qualità della vita e sulla salute complessiva.
+I dati scientifici accumulati in decenni di pratica clinica -- dagli studi di coorte olandesi alle linee guida internazionali -- confermano che la terapia ormonale a lungo termine, sotto adeguato monitoraggio medico, ha un profilo di sicurezza accettabile e benefici documentati sulla qualità della vita e sulla salute complessiva [3][5].
 
 La chiave è la continuità del rapporto con il proprio medico, il monitoraggio regolare e la consapevolezza che prendersi cura del proprio corpo è un atto di responsabilità verso se stessi, non un peso. Come per qualsiasi aspetto della [transizione medica](/wiki/transizione-medica-cosa-cambia), l'informazione accurata è il miglior antidoto alla paura.

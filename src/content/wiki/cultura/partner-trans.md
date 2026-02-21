@@ -75,29 +75,29 @@ Questo articolo è scritto per chi ha un partner trans: moglie, marito, compagno
 
 ## Il coming out del partner: cosa succede alla coppia
 
-Il momento in cui un partner rivela la propria identità di genere è spesso descritto come uno dei più intensi nella vita di coppia. Una scoping review del 2022 sulle esperienze dei partner cisgender di persone trans ha identificato un ventaglio di reazioni iniziali: shock, confusione, paura per il futuro della relazione, ma anche sollievo ("finalmente capisco cosa non andava") e ammirazione per il coraggio del partner.
+Il momento in cui un partner rivela la propria identità di genere è spesso descritto come uno dei più intensi nella vita di coppia. Una scoping review del 2022 sulle esperienze dei partner cisgender di persone trans ha identificato un ventaglio di reazioni iniziali: shock, confusione, paura per il futuro della relazione, ma anche sollievo ("finalmente capisco cosa non andava") e ammirazione per il coraggio del partner [3].
 
 ### Le reazioni sono normali -- tutte
 
-La ricerca mostra che non esiste una reazione "giusta" al coming out del partner. Alcune persone provano rabbia, altre tristezza, altre ancora un senso di tradimento per non essere state informate prima. Questi sentimenti non ti rendono una persona cattiva o transfobica: ti rendono una persona che sta elaborando un cambiamento significativo nella propria vita. Il punto cruciale, documentato dalla letteratura, è cosa succede dopo quella reazione iniziale.
+La ricerca mostra che non esiste una reazione "giusta" al coming out del partner [3]. Alcune persone provano rabbia, altre tristezza, altre ancora un senso di tradimento per non essere state informate prima. Questi sentimenti non ti rendono una persona cattiva o transfobica: ti rendono una persona che sta elaborando un cambiamento significativo nella propria vita. Il punto cruciale, documentato dalla letteratura, è cosa succede dopo quella reazione iniziale.
 
-Uno studio qualitativo del 2015 sulle relazioni intime con persone transgender ha evidenziato che le coppie che riuscivano ad attraversare questa fase condividevano alcune caratteristiche: comunicazione aperta, disponibilità a rinegoziare aspetti della relazione e accesso a supporto esterno (terapia di coppia, gruppi di pari).
+Uno studio qualitativo del 2015 sulle relazioni intime con persone transgender ha evidenziato che le coppie che riuscivano ad attraversare questa fase condividevano alcune caratteristiche: comunicazione aperta, disponibilità a rinegoziare aspetti della relazione e accesso a supporto esterno (terapia di coppia, gruppi di pari) [8].
 
 ### Il lutto che non è un lutto
 
-Molti partner cisgender descrivono un'esperienza che gli psicologi chiamano "ambiguous loss": la sensazione di perdere la persona che conoscevano, mentre quella persona è ancora presente. Questo è particolarmente comune nelle relazioni iniziate prima del coming out. Studi sulla terapia di coppia con persone transgender sottolineano che riconoscere questo vissuto -- senza colpevolizzarsi -- è un passaggio importante. Non stai perdendo il tuo partner: stai conoscendo una dimensione della persona che ami che prima non era visibile.
+Molti partner cisgender descrivono un'esperienza che gli psicologi chiamano "ambiguous loss": la sensazione di perdere la persona che conoscevano, mentre quella persona è ancora presente [3]. Questo è particolarmente comune nelle relazioni iniziate prima del coming out. Studi sulla terapia di coppia con persone transgender sottolineano che riconoscere questo vissuto -- senza colpevolizzarsi -- è un passaggio importante [11]. Non stai perdendo il tuo partner: stai conoscendo una dimensione della persona che ami che prima non era visibile.
 
 ## La relazione dopo (e durante) la transizione
 
 ### Le coppie restano insieme?
 
-Più spesso di quanto si pensi. I dati del U.S. Transgender Survey (2015), la più ampia indagine sulle persone transgender mai condotta con oltre 27.000 partecipanti, mostrano che il 55% delle persone trans che erano in una relazione al momento della transizione è rimasta con lo stesso partner. Questo dato sfata l'idea che la transizione significhi automaticamente la fine della relazione.
+Più spesso di quanto si pensi. I dati del U.S. Transgender Survey (2015), la più ampia indagine sulle persone transgender mai condotta con oltre 27.000 partecipanti, mostrano che il 55% delle persone trans che erano in una relazione al momento della transizione è rimasta con lo stesso partner [1]. Questo dato sfata l'idea che la transizione significhi automaticamente la fine della relazione.
 
-Uno studio del 2021 sulla soddisfazione relazionale e il benessere sessuale nelle coppie con un partner transgender ha mostrato che i livelli di soddisfazione relazionale erano comparabili a quelli delle coppie cisgender. I fattori predittivi della soddisfazione non erano legati alla transizione in sé, ma alla qualità della comunicazione, al supporto reciproco e all'accettazione dell'identità del partner.
+Uno studio del 2021 sulla soddisfazione relazionale e il benessere sessuale nelle coppie con un partner transgender ha mostrato che i livelli di soddisfazione relazionale erano comparabili a quelli delle coppie cisgender [2]. I fattori predittivi della soddisfazione non erano legati alla transizione in sé, ma alla qualità della comunicazione, al supporto reciproco e all'accettazione dell'identità del partner [2].
 
 ### L'intimità si trasforma
 
-La transizione può modificare aspetti dell'intimità fisica e sessuale. Le terapie ormonali possono influenzare il desiderio sessuale, la sensibilità corporea e le preferenze sessuali di entrambi i partner. Non è insolito che la sessualità della coppia attraversi una fase di rinegoziazione. La letteratura clinica suggerisce che le coppie che affrontano apertamente questi cambiamenti, eventualmente con il supporto di un terapeuta sessuale, tendono a sviluppare un'intimità più consapevole e autentica.
+La transizione può modificare aspetti dell'intimità fisica e sessuale. Le terapie ormonali possono influenzare il desiderio sessuale, la sensibilità corporea e le preferenze sessuali di entrambi i partner [5]. Non è insolito che la sessualità della coppia attraversi una fase di rinegoziazione. La letteratura clinica suggerisce che le coppie che affrontano apertamente questi cambiamenti, eventualmente con il supporto di un terapeuta sessuale, tendono a sviluppare un'intimità più consapevole e autentica [11].
 
 ### L'orientamento sessuale: domande legittime
 
@@ -109,11 +109,11 @@ La genitorialità è una delle preoccupazioni più concrete per le coppie con un
 
 ### Concepimento naturale
 
-Se il partner trans non ha ancora iniziato la terapia ormonale, il concepimento naturale è possibile esattamente come in qualsiasi altra coppia. Anche dopo l'inizio della terapia ormonale, la fertilità non è necessariamente compromessa in modo permanente: una revisione del 2019 sulla preservazione della fertilità nelle persone transgender riporta che la sospensione degli ormoni può, in molti casi, ripristinare la fertilità, sebbene questo non sia garantito.
+Se il partner trans non ha ancora iniziato la terapia ormonale, il concepimento naturale è possibile esattamente come in qualsiasi altra coppia. Anche dopo l'inizio della terapia ormonale, la fertilità non è necessariamente compromessa in modo permanente: una revisione del 2019 sulla preservazione della fertilità nelle persone transgender riporta che la sospensione degli ormoni può, in molti casi, ripristinare la fertilità, sebbene questo non sia garantito [10].
 
 ### Preservazione della fertilità
 
-Le linee guida WPATH (Standards of Care, versione 8) raccomandano che le persone transgender vengano informate sulle opzioni di preservazione della fertilità prima di iniziare qualsiasi trattamento ormonale o chirurgico. Le opzioni includono la crioconservazione degli spermatozoi e la crioconservazione degli ovociti, procedimenti consolidati e ampiamente disponibili.
+Le linee guida WPATH (Standards of Care, versione 8) raccomandano che le persone transgender vengano informate sulle opzioni di preservazione della fertilità prima di iniziare qualsiasi trattamento ormonale o chirurgico [5]. Le opzioni includono la crioconservazione degli spermatozoi e la crioconservazione degli ovociti, procedimenti consolidati e ampiamente disponibili.
 
 ### Fecondazione assistita (PMA)
 
@@ -125,7 +125,7 @@ In Italia l'adozione è accessibile alle coppie sposate (incluse le coppie in cu
 
 ### Cosa dice la ricerca sui figli
 
-Uno studio del 2010 sulla genitorialità nelle famiglie adottive ha mostrato che lo sviluppo dei bambini non è influenzato dall'orientamento sessuale o dall'identità di genere dei genitori. I fattori determinanti per il benessere dei figli sono la qualità della relazione genitore-figlio, la stabilità familiare e il livello di conflitto in famiglia -- gli stessi fattori validi per qualsiasi famiglia.
+Uno studio del 2010 sulla genitorialità nelle famiglie adottive ha mostrato che lo sviluppo dei bambini non è influenzato dall'orientamento sessuale o dall'identità di genere dei genitori [9]. I fattori determinanti per il benessere dei figli sono la qualità della relazione genitore-figlio, la stabilità familiare e il livello di conflitto in famiglia -- gli stessi fattori validi per qualsiasi famiglia [9].
 
 ## Discriminazione: cosa affrontano le coppie
 
@@ -133,15 +133,15 @@ Non sarebbe onesto parlare di relazioni con partner trans senza affrontare il te
 
 ### La discriminazione per associazione
 
-Il National Transgender Discrimination Survey ha documentato che le persone trans subiscono discriminazione in ambito lavorativo, sanitario, abitativo e sociale. Questa discriminazione può estendersi ai partner cisgender, un fenomeno noto come "courtesy stigma" o stigma per associazione. Alcuni partner cisgender riportano tensioni con familiari, amici o colleghi dopo il coming out del partner.
+Il National Transgender Discrimination Survey ha documentato che le persone trans subiscono discriminazione in ambito lavorativo, sanitario, abitativo e sociale [7]. Questa discriminazione può estendersi ai partner cisgender, un fenomeno noto come "courtesy stigma" o stigma per associazione [3]. Alcuni partner cisgender riportano tensioni con familiari, amici o colleghi dopo il coming out del partner.
 
 ### L'impatto sulla salute mentale della coppia
 
-La discriminazione esterna può generare stress nella coppia. Studi sulle disparità di salute mentale nelle persone transgender mostrano che lo stress da minoranza -- lo stress cronico derivante dall'appartenenza a un gruppo stigmatizzato -- è un fattore di rischio per depressione e ansia. Questo stress può coinvolgere anche il partner cisgender, che può sperimentare isolamento sociale, ansia per la sicurezza del partner o conflitti interni tra il desiderio di supportare e la paura del giudizio.
+La discriminazione esterna può generare stress nella coppia. Studi sulle disparità di salute mentale nelle persone transgender mostrano che lo stress da minoranza -- lo stress cronico derivante dall'appartenenza a un gruppo stigmatizzato -- è un fattore di rischio per depressione e ansia [12]. Questo stress può coinvolgere anche il partner cisgender, che può sperimentare isolamento sociale, ansia per la sicurezza del partner o conflitti interni tra il desiderio di supportare e la paura del giudizio.
 
 ### Come affrontare la discriminazione insieme
 
-La letteratura sulla terapia di coppia con persone transgender suggerisce alcune strategie:
+La letteratura sulla terapia di coppia con persone transgender suggerisce alcune strategie [11]:
 
 - **Definire insieme i confini**: decidere come coppia cosa condividere e con chi, rispettando i tempi di entrambi
 - **Costruire una rete di supporto**: associazioni, gruppi di coppie, amicizie sicure
@@ -152,9 +152,9 @@ La letteratura sulla terapia di coppia con persone transgender suggerisce alcune
 
 ### Terapia di coppia
 
-Uno studio del 2019 sulla terapia di coppia con persone transgender e i loro partner ha identificato i temi più ricorrenti: comunicazione sull'identità di genere, rinegoziazione dell'intimità, gestione delle reazioni familiari e sociali, e ridefinizione dei ruoli nella relazione. I terapeuti esperti adottano un approccio affermativo che valida l'identità della persona trans senza trascurare i bisogni del partner cisgender.
+Uno studio del 2019 sulla terapia di coppia con persone transgender e i loro partner ha identificato i temi più ricorrenti: comunicazione sull'identità di genere, rinegoziazione dell'intimità, gestione delle reazioni familiari e sociali, e ridefinizione dei ruoli nella relazione [11]. I terapeuti esperti adottano un approccio affermativo che valida l'identità della persona trans senza trascurare i bisogni del partner cisgender.
 
-In Italia, è possibile trovare professionisti con esperienza in questo ambito attraverso l'ONIG (Osservatorio Nazionale sull'Identità di Genere) e il portale Infotrans.it dell'Istituto Superiore di Sanità.
+In Italia, è possibile trovare professionisti con esperienza in questo ambito attraverso l'ONIG (Osservatorio Nazionale sull'Identità di Genere) e il portale Infotrans.it dell'Istituto Superiore di Sanità [13].
 
 ### Gruppi di supporto per partner
 
@@ -162,7 +162,7 @@ Esistono gruppi specifici per partner cisgender di persone trans, sia in presenz
 
 ### Comunicazione nella coppia
 
-La ricerca identifica la comunicazione come il fattore protettivo più potente nelle relazioni con partner trans. Questo significa:
+La ricerca identifica la comunicazione come il fattore protettivo più potente nelle relazioni con partner trans [2][8]. Questo significa:
 
 - Parlare apertamente di aspettative, paure e bisogni
 - Rinegoziare gli aspetti della relazione che cambiano, senza dare nulla per scontato
@@ -173,7 +173,7 @@ La ricerca identifica la comunicazione come il fattore protettivo più potente n
 
 ### Servizi istituzionali
 
-- **Infotrans.it** — Portale dell'Istituto Superiore di Sanità e UNAR, con informazioni su percorsi di salute, diritti e mappa dei servizi. Sito: [infotrans.it](https://www.infotrans.it/)
+- **Infotrans.it** — Portale dell'Istituto Superiore di Sanità e UNAR, con informazioni su percorsi di salute, diritti e mappa dei servizi. Sito: [infotrans.it](https://www.infotrans.it/) [13]
 - **ONIG** — Osservatorio Nazionale sull'Identità di Genere, per trovare professionisti e centri specializzati. Sito: [onig.it](https://www.onig.it/)
 
 ### Associazioni
@@ -187,6 +187,6 @@ La ricerca identifica la comunicazione come il fattore protettivo più potente n
 
 ## Non sei solo, non siete soli
 
-Le relazioni con partner transgender non sono relazioni "speciali" nel senso di eccezionali o problematiche: sono relazioni umane, con le stesse basi di tutte le altre -- comunicazione, rispetto, affetto -- e con sfide aggiuntive che derivano da un contesto sociale ancora poco informato. La ricerca scientifica mostra con chiarezza che queste relazioni possono essere soddisfacenti, stabili e arricchenti per entrambi i partner.
+Le relazioni con partner transgender non sono relazioni "speciali" nel senso di eccezionali o problematiche: sono relazioni umane, con le stesse basi di tutte le altre -- comunicazione, rispetto, affetto -- e con sfide aggiuntive che derivano da un contesto sociale ancora poco informato. La ricerca scientifica mostra con chiarezza che queste relazioni possono essere soddisfacenti, stabili e arricchenti per entrambi i partner [2].
 
 Se il tuo partner ha appena fatto coming out, o se stai iniziando una relazione con una persona trans, il consiglio che emerge dalla letteratura è semplice: informati, comunica, chiedi aiuto quando serve. Non devi avere tutte le risposte oggi. Devi solo essere disposto a cercarle insieme.

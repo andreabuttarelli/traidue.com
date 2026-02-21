@@ -76,43 +76,43 @@ media:
 
 > **Nota sul contenuto.** Questo articolo tratta temi legati a disagio psicologico, depressione, autolesionismo e suicidio. Se stai attraversando un momento difficile, puoi trovare i contatti dei servizi di supporto nella sezione dedicata in fondo all'articolo. La lettura è sempre una tua scelta: puoi interrompere in qualsiasi momento e tornare quando ti senti pronto/a.
 
-Le persone transgender e non-binarie mostrano tassi di depressione, ansia e rischio suicidario significativamente superiori alla media della popolazione. Questa è una realtà documentata dalla ricerca. Ma la domanda che conta non è "quanto soffrono le persone trans" -- è **perché**. La risposta della scienza, accumulata in oltre due decenni di studi, è chiara: il disagio non nasce dall'identità di genere in sé, ma dall'ambiente in cui quella identità viene vissuta. Discriminazione, rifiuto, violenza e barriere nell'accesso alle cure sono i fattori che spiegano la disparità. E quando questi fattori si riducono, anche la disparità si riduce.
+Le persone transgender e non-binarie mostrano tassi di depressione, ansia e rischio suicidario significativamente superiori alla media della popolazione. Questa è una realtà documentata dalla ricerca. Ma la domanda che conta non è "quanto soffrono le persone trans" -- è **perché**. La risposta della scienza, accumulata in oltre due decenni di studi, è chiara: il disagio non nasce dall'identità di genere in sé, ma dall'ambiente in cui quella identità viene vissuta [1][13]. Discriminazione, rifiuto, violenza e barriere nell'accesso alle cure sono i fattori che spiegano la disparità. E quando questi fattori si riducono, anche la disparità si riduce.
 
 Questo articolo presenta i dati, spiega i meccanismi e mostra cosa funziona per ridurre il divario.
 
 ## I numeri: cosa dicono i dati
 
-I dati sulla salute mentale delle persone trans sono consistenti attraverso studi e paesi diversi. L'indagine nazionale del Trevor Project del 2024, condotta su oltre 18.000 giovani LGBTQ+ negli Stati Uniti, ha rilevato che il **46% dei giovani transgender e non-binari** ha seriamente considerato il suicidio nell'ultimo anno, e il 12% ha tentato il suicidio. Il 59% ha riportato sintomi di depressione recenti, rispetto al 44% dei coetanei cisgender.
+I dati sulla salute mentale delle persone trans sono consistenti attraverso studi e paesi diversi. L'indagine nazionale del Trevor Project del 2024, condotta su oltre 18.000 giovani LGBTQ+ negli Stati Uniti, ha rilevato che il **46% dei giovani transgender e non-binari** ha seriamente considerato il suicidio nell'ultimo anno, e il 12% ha tentato il suicidio. Il 59% ha riportato sintomi di depressione recenti, rispetto al 44% dei coetanei cisgender [2].
 
-Studi condotti in contesti clinici mostrano dati altrettanto significativi. Più del 55% dei giovani trans tra i 12 e i 18 anni valutati in cliniche specializzate negli Stati Uniti presenta livelli clinicamente elevati di disagio internalizzante -- depressione, ansia, ritiro sociale. Una revisione sistematica europea del 2023 ha confermato che le persone transgender nel continente mostrano tassi elevati di disturbi depressivi e ansiosi, con percentuali costantemente superiori a quelle della popolazione generale.
+Studi condotti in contesti clinici mostrano dati altrettanto significativi. Più del 55% dei giovani trans tra i 12 e i 18 anni valutati in cliniche specializzate negli Stati Uniti presenta livelli clinicamente elevati di disagio internalizzante -- depressione, ansia, ritiro sociale [3]. Una revisione sistematica europea del 2023 ha confermato che le persone transgender nel continente mostrano tassi elevati di disturbi depressivi e ansiosi, con percentuali costantemente superiori a quelle della popolazione generale [12].
 
-Questi numeri sono reali e meritano attenzione. Ma richiedono anche un'interpretazione corretta: non descrivono una caratteristica intrinseca delle persone trans. Descrivono l'impatto di un contesto ostile. La differenza è fondamentale.
+Questi numeri sono reali e meritano attenzione. Ma richiedono anche un'interpretazione corretta: non descrivono una caratteristica intrinseca delle persone trans. Descrivono l'impatto di un contesto ostile [1]. La differenza è fondamentale.
 
 ## Perché: il modello del minority stress
 
-La spiegazione scientifica dominante per queste disparità si chiama **minority stress** -- stress da minoranza. Il modello è stato formalizzato nel 2003 dallo psicologo Ilan H. Meyer in un articolo pubblicato su *Psychological Bulletin*, diventato uno dei testi più citati nella ricerca sulla salute delle minoranze sessuali e di genere.
+La spiegazione scientifica dominante per queste disparità si chiama **minority stress** -- stress da minoranza. Il modello è stato formalizzato nel 2003 dallo psicologo Ilan H. Meyer in un articolo pubblicato su *Psychological Bulletin*, diventato uno dei testi più citati nella ricerca sulla salute delle minoranze sessuali e di genere [1].
 
 ### Stressor distali e prossimali
 
-Il modello di Meyer distingue tra due categorie di fattori di stress.
+Il modello di Meyer distingue tra due categorie di fattori di stress [1].
 
 Gli **stressor distali** sono esterni all'individuo: episodi di discriminazione diretta, molestie verbali e fisiche, microaggressioni, esclusione dai servizi, negazione di opportunità. Per le persone trans, questo include il misgendering (l'uso deliberato di pronomi o nomi non corretti), la violenza transfobica, la discriminazione lavorativa e l'esclusione da spazi pubblici.
 
-Gli **stressor prossimali** sono interni, ma generati dall'ambiente: l'aspettativa costante di essere rifiutati, la necessità di nascondere la propria identità per evitare conseguenze negative, e la **transfobia interiorizzata** -- l'assorbimento dei messaggi negativi della società sulla propria identità.
+Gli **stressor prossimali** sono interni, ma generati dall'ambiente: l'aspettativa costante di essere rifiutati, la necessità di nascondere la propria identità per evitare conseguenze negative, e la **transfobia interiorizzata** -- l'assorbimento dei messaggi negativi della società sulla propria identità [1].
 
 ### Non è l'identità, è la discriminazione
 
-Questo punto merita di essere sottolineato perché viene spesso frainteso nel dibattito pubblico. Il minority stress non dice che le persone trans soffrono *perché sono trans*. Dice che soffrono perché vivono in una società che le discrimina, le rifiuta e le marginalizza per il fatto di essere trans. La fonte del disagio è esterna, non interna.
+Questo punto merita di essere sottolineato perché viene spesso frainteso nel dibattito pubblico. Il minority stress non dice che le persone trans soffrono *perché sono trans*. Dice che soffrono perché vivono in una società che le discrimina, le rifiuta e le marginalizza per il fatto di essere trans [1][13]. La fonte del disagio è esterna, non interna.
 
-Un dato recente lo illustra con chiarezza: uno studio del 2024 pubblicato su *Nature Human Behaviour* ha analizzato i dati di oltre 61.000 giovani trans e non-binari negli Stati Uniti tra il 2018 e il 2022. I risultati mostrano che l'approvazione di leggi anti-transgender a livello statale ha causato un aumento dei tentativi di suicidio tra il **7% e il 72%** tra i giovani trans residenti in quegli stati. Per gli adolescenti tra i 13 e i 17 anni, l'aumento è stato tra il 33% e il 49%. Questo non è un'associazione: lo studio, grazie al disegno quasi-sperimentale, stabilisce un nesso causale tra legislazione ostile e rischio suicidario.
+Un dato recente lo illustra con chiarezza: uno studio del 2024 pubblicato su *Nature Human Behaviour* ha analizzato i dati di oltre 61.000 giovani trans e non-binari negli Stati Uniti tra il 2018 e il 2022. I risultati mostrano che l'approvazione di leggi anti-transgender a livello statale ha causato un aumento dei tentativi di suicidio tra il **7% e il 72%** tra i giovani trans residenti in quegli stati [7]. Per gli adolescenti tra i 13 e i 17 anni, l'aumento è stato tra il 33% e il 49% [7]. Questo non è un'associazione: lo studio, grazie al disegno quasi-sperimentale, stabilisce un nesso causale tra legislazione ostile e rischio suicidario.
 
 ### Una nota sull'adattamento del modello
 
-Il modello originale di Meyer era stato sviluppato per le persone lesbiche, gay e bisessuali. Nel 2012, Hendricks e Testa lo hanno adattato specificamente alla popolazione transgender, aggiungendo stressor unici come la non affermazione di genere (il non riconoscimento della propria identità da parte degli altri) e la paura della violenza fisica legata alla visibilità trans.
+Il modello originale di Meyer era stato sviluppato per le persone lesbiche, gay e bisessuali [1]. Nel 2012, Hendricks e Testa lo hanno adattato specificamente alla popolazione transgender, aggiungendo stressor unici come la non affermazione di genere (il non riconoscimento della propria identità da parte degli altri) e la paura della violenza fisica legata alla visibilità trans.
 
 ## L'accettazione familiare come fattore protettivo
 
-Se la discriminazione è il fattore di rischio più potente, l'accettazione familiare è il fattore protettivo più efficace. I dati su questo punto sono tra i più robusti nella letteratura.
+Se la discriminazione è il fattore di rischio più potente, l'accettazione familiare è il fattore protettivo più efficace [8]. I dati su questo punto sono tra i più robusti nella letteratura.
 
 ### Il Family Acceptance Project
 
@@ -126,9 +126,9 @@ Al contrario, le famiglie accettanti producono effetti protettivi misurabili: li
 
 ### L'effetto della transizione sociale supportata
 
-Uno studio del 2016 pubblicato su *Pediatrics* (Olson et al.) ha esaminato la salute mentale di 73 bambini transgender tra i 3 e i 12 anni che avevano effettuato una transizione sociale con il supporto delle famiglie. I risultati sono stati significativi: questi bambini presentavano livelli di depressione **nella norma** e livelli di ansia solo lievemente elevati rispetto ai coetanei cisgender e ai propri fratelli. Il dato è particolarmente importante se confrontato con studi precedenti su bambini con disforia di genere non supportati, che riportavano tassi molto più alti di disagio.
+Uno studio del 2016 pubblicato su *Pediatrics* (Olson et al.) ha esaminato la salute mentale di 73 bambini transgender tra i 3 e i 12 anni che avevano effettuato una transizione sociale con il supporto delle famiglie [5]. I risultati sono stati significativi: questi bambini presentavano livelli di depressione **nella norma** e livelli di ansia solo lievemente elevati rispetto ai coetanei cisgender e ai propri fratelli [5]. Il dato è particolarmente importante se confrontato con studi precedenti su bambini con disforia di genere non supportati, che riportavano tassi molto più alti di disagio.
 
-Uno studio del 2024 pubblicato su *JAMA Pediatrics* ha aggiunto un ulteriore tassello: i momenti del percorso di affermazione di genere -- come il coming out o l'inizio della transizione sociale -- sono risultati associati a un rischio aumentato di tentativi di suicidio **solo nelle famiglie non supportive**. Nelle famiglie supportive, queste associazioni scomparivano. In altre parole: non è il percorso in sé a essere rischioso, ma il farlo senza supporto.
+Uno studio del 2024 pubblicato su *JAMA Pediatrics* ha aggiunto un ulteriore tassello: i momenti del percorso di affermazione di genere -- come il coming out o l'inizio della transizione sociale -- sono risultati associati a un rischio aumentato di tentativi di suicidio **solo nelle famiglie non supportive** [9]. Nelle famiglie supportive, queste associazioni scomparivano [9]. In altre parole: non è il percorso in sé a essere rischioso, ma il farlo senza supporto.
 
 ## Le cure di affermazione di genere migliorano la salute mentale
 
@@ -136,13 +136,13 @@ La ricerca sugli esiti delle cure di affermazione di genere -- terapia ormonale,
 
 ### Terapia ormonale
 
-Uno studio del 2022 pubblicato su *JAMA Network Open* ha seguito giovani trans tra i 13 e i 20 anni per 12 mesi, rilevando che l'accesso ai bloccanti della pubertà e alla terapia ormonale era associato a una **riduzione del 60%** delle probabilità di depressione moderata o grave e a una **riduzione del 73%** delle probabilità di autolesionismo o ideazione suicidaria.
+Uno studio del 2022 pubblicato su *JAMA Network Open* ha seguito giovani trans tra i 13 e i 20 anni per 12 mesi, rilevando che l'accesso ai bloccanti della pubertà e alla terapia ormonale era associato a una **riduzione del 60%** delle probabilità di depressione moderata o grave e a una **riduzione del 73%** delle probabilità di autolesionismo o ideazione suicidaria [3].
 
-Una revisione sistematica del 2024 ha analizzato 29 studi con 2.789 partecipanti adulti, confermando che la maggioranza degli studi sulla terapia ormonale riporta miglioramenti significativi della salute mentale, in particolare per quanto riguarda la depressione, sia nel breve termine che al follow-up.
+Una revisione sistematica del 2024 ha analizzato 29 studi con 2.789 partecipanti adulti, confermando che la maggioranza degli studi sulla terapia ormonale riporta miglioramenti significativi della salute mentale, in particolare per quanto riguarda la depressione, sia nel breve termine che al follow-up [14].
 
 ### Interventi chirurgici
 
-Per gli interventi chirurgici, i dati sono positivi ma più complessi. Uno studio del 2021 pubblicato su *JAMA Surgery* ha rilevato un'associazione tra chirurgia di affermazione di genere e riduzione del disagio psicologico e del rischio suicidario. Tuttavia, la revisione sistematica del 2024 ha evidenziato risultati più variabili nel breve termine (fino a 6 mesi dopo l'intervento), con meno della metà degli studi che riportava miglioramenti significativi della depressione nel periodo post-operatorio immediato, e miglioramenti più chiari nel medio e lungo termine.
+Per gli interventi chirurgici, i dati sono positivi ma più complessi. Uno studio del 2021 pubblicato su *JAMA Surgery* ha rilevato un'associazione tra chirurgia di affermazione di genere e riduzione del disagio psicologico e del rischio suicidario [4]. Tuttavia, la revisione sistematica del 2024 ha evidenziato risultati più variabili nel breve termine (fino a 6 mesi dopo l'intervento), con meno della metà degli studi che riportava miglioramenti significativi della depressione nel periodo post-operatorio immediato, e miglioramenti più chiari nel medio e lungo termine [14].
 
 Questa complessità non contraddice l'efficacia complessiva delle cure, ma sottolinea che il percorso chirurgico richiede un supporto psicologico continuativo e aspettative realistiche sui tempi di recupero.
 
@@ -150,17 +150,17 @@ Questa complessità non contraddice l'efficacia complessiva delle cure, ma sotto
 
 Un passaggio storico nella comprensione dell'esperienza transgender si è compiuto con la revisione dell'**ICD-11**, la Classificazione Internazionale delle Malattie dell'Organizzazione Mondiale della Sanità, entrata in vigore il 1 gennaio 2022.
 
-L'ICD-11 ha rimosso l'identità transgender dal capitolo sui disturbi mentali e comportamentali. Il vecchio "transessualismo" dell'ICD-10 è stato sostituito con **"incongruenza di genere"**, collocata nel capitolo sulle condizioni relative alla salute sessuale. Un cambiamento non solo terminologico, ma concettuale: la classificazione riconosce esplicitamente che l'incongruenza di genere **non è un disturbo mentale** e che il disagio non ne è una caratteristica necessaria.
+L'ICD-11 ha rimosso l'identità transgender dal capitolo sui disturbi mentali e comportamentali [6]. Il vecchio "transessualismo" dell'ICD-10 è stato sostituito con **"incongruenza di genere"**, collocata nel capitolo sulle condizioni relative alla salute sessuale. Un cambiamento non solo terminologico, ma concettuale: la classificazione riconosce esplicitamente che l'incongruenza di genere **non è un disturbo mentale** e che il disagio non ne è una caratteristica necessaria [6].
 
-Questo non significa che le persone trans non possano sperimentare disagio -- il minority stress lo produce, come abbiamo visto. Significa che il disagio non è intrinseco all'essere trans, e che l'identità di genere in sé non richiede un trattamento psichiatrico. La permanenza della diagnosi nell'ICD-11 risponde a una necessità pratica: garantire l'accesso ai percorsi sanitari e alla copertura assicurativa per chi ne ha bisogno.
+Questo non significa che le persone trans non possano sperimentare disagio -- il minority stress lo produce, come abbiamo visto [1]. Significa che il disagio non è intrinseco all'essere trans, e che l'identità di genere in sé non richiede un trattamento psichiatrico. La permanenza della diagnosi nell'ICD-11 risponde a una necessità pratica: garantire l'accesso ai percorsi sanitari e alla copertura assicurativa per chi ne ha bisogno.
 
 ## Resilienza e fattori protettivi
 
-Concentrarsi esclusivamente sui dati negativi rischia di produrre un'immagine distorta: le persone trans non sono definite dalla sofferenza. La ricerca sulla **resilienza** mostra che, accanto ai fattori di rischio, esistono risorse individuali e collettive che permettono alle persone trans di vivere vite piene e soddisfacenti.
+Concentrarsi esclusivamente sui dati negativi rischia di produrre un'immagine distorta: le persone trans non sono definite dalla sofferenza. La ricerca sulla **resilienza** mostra che, accanto ai fattori di rischio, esistono risorse individuali e collettive che permettono alle persone trans di vivere vite piene e soddisfacenti [13].
 
-Uno studio del 2020 pubblicato su *International Journal of Environmental Research and Public Health* ha identificato il **supporto familiare** come il fattore con la correlazione più forte con la riduzione di ansia e depressione, e l'unica forma di supporto associata alla resilienza anche controllando per altre variabili. Ma non è l'unico fattore.
+Uno studio del 2020 pubblicato su *International Journal of Environmental Research and Public Health* ha identificato il **supporto familiare** come il fattore con la correlazione più forte con la riduzione di ansia e depressione, e l'unica forma di supporto associata alla resilienza anche controllando per altre variabili [8]. Ma non è l'unico fattore.
 
-La ricerca identifica diversi livelli di resilienza nelle persone trans:
+La ricerca identifica diversi livelli di resilienza nelle persone trans [13]:
 
 - **Individuale**: la capacità di autodefinire la propria identità, il senso di autenticità dopo il coming out o la transizione, le strategie di coping sviluppate nel tempo
 - **Interpersonale**: relazioni affettive solide, amicizie significative, connessione con pari trans che comprendono l'esperienza
@@ -175,7 +175,7 @@ In Italia, l'accesso ai servizi di salute mentale per le persone trans è possib
 
 ### Servizi disponibili
 
-Il portale **Infotrans.it**, promosso dall'Istituto Superiore di Sanità e dall'UNAR (Ufficio Nazionale Antidiscriminazioni Razziali), offre una mappa dei servizi dedicati alle persone transgender su tutto il territorio nazionale, includendo centri sanitari, associazioni e punti di ascolto.
+Il portale **Infotrans.it**, promosso dall'Istituto Superiore di Sanità e dall'UNAR (Ufficio Nazionale Antidiscriminazioni Razziali), offre una mappa dei servizi dedicati alle persone transgender su tutto il territorio nazionale, includendo centri sanitari, associazioni e punti di ascolto [15].
 
 Tra i servizi specializzati attivi:
 
@@ -196,13 +196,13 @@ Non tutte le forme di supporto psicologico sono uguali. La distinzione più impo
 
 L'approccio affermativo non ha l'obiettivo di cambiare l'identità di genere della persona, ma di supportarla nell'esplorazione e nell'espressione della propria identità in un contesto sicuro. Il terapeuta affermativo riconosce che l'identità trans è una variante naturale dell'esperienza umana, e che il disagio eventualmente presente è legato al contesto esterno, non all'identità in sé.
 
-L'**American Psychological Association** ha pubblicato nel 2015 le linee guida per la pratica psicologica con persone transgender e di genere non conforme, organizzate in cinque aree: conoscenza e consapevolezza di base, stigma e barriere, sviluppo nel ciclo di vita, valutazione e intervento, e formazione. Nel 2024, l'APA ha adottato una dichiarazione formale a sostegno delle cure inclusive e basate sull'evidenza per le persone trans e non-binarie.
+L'**American Psychological Association** ha pubblicato nel 2015 le linee guida per la pratica psicologica con persone transgender e di genere non conforme, organizzate in cinque aree: conoscenza e consapevolezza di base, stigma e barriere, sviluppo nel ciclo di vita, valutazione e intervento, e formazione. Nel 2024, l'APA ha adottato una dichiarazione formale a sostegno delle cure inclusive e basate sull'evidenza per le persone trans e non-binarie [11].
 
 ### Terapia di conversione
 
-Le cosiddette "terapie di conversione" (o GICE -- *Gender Identity Change Efforts*) mirano a modificare l'identità di genere della persona per allinearla al sesso assegnato alla nascita. L'APA, nella risoluzione del 2021, le ha condannate in modo inequivocabile: "qualsiasi tentativo di cambiare l'identità di genere o l'espressione di genere di un individuo è inappropriato", poiché "l'incongruenza tra sesso e genere in sé non è un disturbo mentale" e tali tentativi possono essere dannosi.
+Le cosiddette "terapie di conversione" (o GICE -- *Gender Identity Change Efforts*) mirano a modificare l'identità di genere della persona per allinearla al sesso assegnato alla nascita. L'APA, nella risoluzione del 2021, le ha condannate in modo inequivocabile: "qualsiasi tentativo di cambiare l'identità di genere o l'espressione di genere di un individuo è inappropriato", poiché "l'incongruenza tra sesso e genere in sé non è un disturbo mentale" e tali tentativi possono essere dannosi [10].
 
-Le terapie di conversione sono associate a un aumento della depressione, dell'ansia e del rischio suicidario. Diversi paesi europei le hanno vietate per legge. In Italia non esiste ancora una normativa specifica che le proibisca, sebbene gli ordini professionali ne scoraggino la pratica.
+Le terapie di conversione sono associate a un aumento della depressione, dell'ansia e del rischio suicidario [10]. Diversi paesi europei le hanno vietate per legge. In Italia non esiste ancora una normativa specifica che le proibisca, sebbene gli ordini professionali ne scoraggino la pratica.
 
 ### Come riconoscere un professionista adeguato
 
@@ -217,9 +217,9 @@ Alcuni segnali di un professionista competente e affermativo:
 
 ## Prevenzione del suicidio: dati e risorse
 
-La prevenzione del suicidio nella popolazione trans richiede interventi a più livelli: individuale, familiare, comunitario e politico. I dati mostrano che le strategie più efficaci non sono quelle che si concentrano sul singolo individuo, ma quelle che agiscono sull'ambiente.
+La prevenzione del suicidio nella popolazione trans richiede interventi a più livelli: individuale, familiare, comunitario e politico. I dati mostrano che le strategie più efficaci non sono quelle che si concentrano sul singolo individuo, ma quelle che agiscono sull'ambiente [7][13].
 
-L'accettazione familiare, come documentato sopra, è il fattore protettivo più potente. L'accesso alle cure di affermazione di genere riduce significativamente il rischio. L'uso del nome scelto dalla persona in almeno un contesto è associato a una riduzione del 29% dell'ideazione suicidaria. Le leggi antidiscriminazione proteggono; le leggi anti-trans uccidono -- come dimostrato dallo studio su *Nature Human Behaviour* del 2024.
+L'accettazione familiare, come documentato sopra, è il fattore protettivo più potente [8]. L'accesso alle cure di affermazione di genere riduce significativamente il rischio [3]. L'uso del nome scelto dalla persona in almeno un contesto è associato a una riduzione del 29% dell'ideazione suicidaria. Le leggi antidiscriminazione proteggono; le leggi anti-trans uccidono -- come dimostrato dallo studio su *Nature Human Behaviour* del 2024 [7].
 
 ### Numeri utili in Italia
 
@@ -229,13 +229,13 @@ Se tu o qualcuno che conosci sta attraversando un momento di crisi, questi servi
 - **Telefono Azzurro**: 19696 (per minori, attivo 24/7)
 - **Gay Help Line**: 800 713 713 (contact center antiomofobia e antitransfobia, gratuito)
 - **Numero verde antiviolenza e stalking**: 1522 (attivo 24/7)
-- **Infotrans.it**: mappa completa dei servizi dedicati alle persone trans in Italia
+- **Infotrans.it**: mappa completa dei servizi dedicati alle persone trans in Italia [15]
 
 Chiedere aiuto non è un segno di debolezza. È un atto di cura verso sé stessi.
 
 ## Conclusione
 
-La ricerca scientifica racconta una storia chiara. Le persone trans non soffrono perché sono trans. Soffrono quando vivono in contesti che le discriminano, le rifiutano e le privano dell'accesso alle cure. E smettono di soffrire -- o soffrono molto meno -- quando ricevono accettazione, supporto e cure adeguate.
+La ricerca scientifica racconta una storia chiara. Le persone trans non soffrono perché sono trans. Soffrono quando vivono in contesti che le discriminano, le rifiutano e le privano dell'accesso alle cure [1][13]. E smettono di soffrire -- o soffrono molto meno -- quando ricevono accettazione, supporto e cure adeguate [3][5][8].
 
 Questa distinzione non è un dettaglio retorico. Ha conseguenze concrete per le politiche sanitarie, per la legislazione, per le famiglie e per i singoli professionisti. Ogni studio citato in questo articolo punta nella stessa direzione: il problema non è l'identità trans, ma come la società la tratta. La soluzione, di conseguenza, non è cambiare le persone trans, ma cambiare l'ambiente in cui vivono.
 

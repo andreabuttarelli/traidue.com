@@ -48,11 +48,20 @@
 		return [...articleResults, ...quizResults];
 	});
 
-	let showSuggestions = $derived(focused && suggestions.length > 0);
+	let showSuggestions = $derived(focused && value.trim().length >= 2);
 
 	function handleSubmit() {
-		if (selectedIndex >= 0 && selectedIndex < suggestions.length) {
-			navigateTo(suggestions[selectedIndex]);
+		if (selectedIndex === 0) {
+			askAI();
+			return;
+		}
+		if (selectedIndex > 0 && selectedIndex <= suggestions.length) {
+			navigateTo(suggestions[selectedIndex - 1]);
+			return;
+		}
+		// Default: if no suggestion selected, ask AI and send immediately
+		if (value.trim()) {
+			askAI(true);
 			return;
 		}
 		onsubmit?.();
@@ -69,12 +78,24 @@
 		inputEl?.blur();
 	}
 
+	// Total items = AI option (index 0) + suggestions
+	let totalItems = $derived(suggestions.length + 1);
+
+	function askAI(autoSend = false) {
+		const query = value.trim();
+		if (!query) return;
+		document.dispatchEvent(new CustomEvent('ask-ai', { detail: { query, autoSend } }));
+		value = '';
+		focused = false;
+		inputEl?.blur();
+	}
+
 	function handleKeydown(e: KeyboardEvent) {
 		if (!showSuggestions) return;
 
 		if (e.key === 'ArrowDown') {
 			e.preventDefault();
-			selectedIndex = Math.min(selectedIndex + 1, suggestions.length - 1);
+			selectedIndex = Math.min(selectedIndex + 1, totalItems - 1);
 		} else if (e.key === 'ArrowUp') {
 			e.preventDefault();
 			selectedIndex = Math.max(selectedIndex - 1, -1);
@@ -144,9 +165,17 @@
 
 	{#if showSuggestions}
 		<div class="absolute left-0 right-0 top-full mt-2 bg-bg border border-border rounded-xl shadow-lg overflow-hidden z-50">
+			<!-- Ask AI option -->
+			<button
+				class="w-full text-left px-4 py-3 flex items-center gap-2 transition-colors border-b border-border {selectedIndex === 0 ? 'bg-primary/5' : 'hover:bg-primary/5'}"
+				onmousedown={() => askAI()}
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-muted shrink-0"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+				<span class="text-sm text-muted">Chiedi all'AI: <strong class="text-text">{value.trim()}</strong></span>
+			</button>
 			{#each suggestions as item, i}
 				<button
-					class="w-full text-left px-4 py-3 transition-colors {i === selectedIndex ? 'bg-primary/5' : 'hover:bg-primary/5'}"
+					class="w-full text-left px-4 py-3 transition-colors {i + 1 === selectedIndex ? 'bg-primary/5' : 'hover:bg-primary/5'}"
 					onmousedown={() => navigateTo(item)}
 				>
 					<span class="text-sm text-primary truncate block">{item.title}</span>

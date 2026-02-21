@@ -75,13 +75,13 @@ La distinzione tra **sesso** e **genere** è il punto di partenza per qualsiasi 
 
 ### Cos'è il sesso biologico
 
-Il **sesso biologico** si riferisce a un insieme di caratteristiche fisiche e fisiologiche: i cromosomi sessuali (tipicamente XX o XY), i livelli e i tipi di ormoni sessuali, l'anatomia riproduttiva interna ed esterna e i caratteri sessuali secondari. Alla nascita, sulla base dei genitali esterni, viene assegnato un sesso -- generalmente maschio o femmina. Tuttavia, come evidenziato da un articolo pubblicato su *Nature* nel 2015, il sesso biologico non è sempre riducibile a una classificazione binaria netta: le persone intersex, le variazioni cromosomiche e le condizioni di sviluppo sessuale atipico dimostrano che anche la biologia presenta una variabilità significativa.
+Il **sesso biologico** si riferisce a un insieme di caratteristiche fisiche e fisiologiche: i cromosomi sessuali (tipicamente XX o XY), i livelli e i tipi di ormoni sessuali, l'anatomia riproduttiva interna ed esterna e i caratteri sessuali secondari. Alla nascita, sulla base dei genitali esterni, viene assegnato un sesso -- generalmente maschio o femmina. Tuttavia, come evidenziato da un articolo pubblicato su *Nature* nel 2015, il sesso biologico non è sempre riducibile a una classificazione binaria netta: le persone intersex, le variazioni cromosomiche e le condizioni di sviluppo sessuale atipico dimostrano che anche la biologia presenta una variabilità significativa [12].
 
 ### Cos'è il genere
 
-Il **genere**, secondo la definizione dell'Organizzazione Mondiale della Sanità (WHO), si riferisce alle caratteristiche socialmente costruite di donne, uomini, ragazze e ragazzi, incluse le norme, i comportamenti e i ruoli associati all'essere donna, uomo, ragazza o ragazzo, nonché le relazioni reciproche tra questi gruppi. La WHO sottolinea che il genere varia da società a società e può cambiare nel tempo.
+Il **genere**, secondo la definizione dell'Organizzazione Mondiale della Sanità (WHO), si riferisce alle caratteristiche socialmente costruite di donne, uomini, ragazze e ragazzi, incluse le norme, i comportamenti e i ruoli associati all'essere donna, uomo, ragazza o ragazzo, nonché le relazioni reciproche tra questi gruppi [1]. La WHO sottolinea che il genere varia da società a società e può cambiare nel tempo [1].
 
-L'**American Psychological Association** (APA) adotta una definizione complementare, descrivendo il genere come un costrutto multidimensionale che comprende l'identità di genere (il senso interiore del proprio genere), l'espressione di genere (il modo in cui il genere viene comunicato all'esterno) e i ruoli di genere (le aspettative sociali legate al genere). Secondo l'APA, il genere è il risultato dell'interazione tra fattori biologici, psicologici, sociali e culturali.
+L'**American Psychological Association** (APA) adotta una definizione complementare, descrivendo il genere come un costrutto multidimensionale che comprende l'identità di genere (il senso interiore del proprio genere), l'espressione di genere (il modo in cui il genere viene comunicato all'esterno) e i ruoli di genere (le aspettative sociali legate al genere) [2]. Secondo l'APA, il genere è il risultato dell'interazione tra fattori biologici, psicologici, sociali e culturali [2].
 
 In sintesi: il sesso riguarda il corpo, il genere riguarda l'esperienza complessiva -- interiore, relazionale e sociale -- di essere una persona in un mondo che attribuisce significati al maschile e al femminile.
 
@@ -91,9 +91,9 @@ Il genere non è un concetto monolitico. Si articola in almeno tre dimensioni di
 
 ### Identità di genere
 
-L'**identità di genere** è il senso intimo e profondo che ogni persona ha del proprio genere: sentirsi uomo, donna, una combinazione di entrambi, nessuno dei due o qualcosa di diverso. Come riconosciuto dall'APA e dalla WHO, l'identità di genere è un'esperienza soggettiva che si manifesta tipicamente nella prima infanzia -- tra i 2 e i 4 anni di età -- e che può corrispondere o meno al sesso assegnato alla nascita.
+L'**identità di genere** è il senso intimo e profondo che ogni persona ha del proprio genere: sentirsi uomo, donna, una combinazione di entrambi, nessuno dei due o qualcosa di diverso. Come riconosciuto dall'APA e dalla WHO, l'identità di genere è un'esperienza soggettiva che si manifesta tipicamente nella prima infanzia -- tra i 2 e i 4 anni di età -- e che può corrispondere o meno al sesso assegnato alla nascita [2].
 
-La ricerca neuroscientifica ha dimostrato che l'identità di genere ha una componente biologica significativa. Studi su gemelli hanno evidenziato un indice di ereditabilità stimato tra 0,30 e 0,57, e ricerche di neuroimaging hanno mostrato che alcune caratteristiche strutturali e funzionali del cervello delle persone transgender sono più simili a quelle delle persone cisgender con la stessa identità di genere. L'identità di genere non è dunque una semplice preferenza o una scelta consapevole, ma un aspetto profondo dell'esperienza umana con radici neurobiologiche.
+La ricerca neuroscientifica ha dimostrato che l'identità di genere ha una componente biologica significativa [10]. Studi su gemelli hanno evidenziato un indice di ereditabilità stimato tra 0,30 e 0,57, e ricerche di neuroimaging hanno mostrato che alcune caratteristiche strutturali e funzionali del cervello delle persone transgender sono più simili a quelle delle persone cisgender con la stessa identità di genere [10]. L'identità di genere non è dunque una semplice preferenza o una scelta consapevole, ma un aspetto profondo dell'esperienza umana con radici neurobiologiche.
 
 ### Espressione di genere
 
@@ -107,7 +107,7 @@ Un aspetto cruciale dell'espressione di genere è che essa è in larga misura mo
 
 I **ruoli di genere** sono l'insieme delle aspettative, dei comportamenti e delle norme che una società attribuisce alle persone in base al genere percepito. Comprendono le aspettative relative al lavoro, alla cura dei figli, all'emotività, all'aggressività, alla leadership e a innumerevoli altri ambiti della vita quotidiana.
 
-I ruoli di genere rappresentano la dimensione più chiaramente sociale del genere. Come documentato dall'antropologa **Margaret Mead** nel suo studio pionieristico *Sex and Temperament in Three Primitive Societies* (1935), i tratti considerati "naturalmente" maschili o femminili variano radicalmente tra le culture. Mead osservò che tra gli Arapesh della Nuova Guinea sia gli uomini sia le donne si comportavano in modi che la cultura occidentale avrebbe definito "materni", mentre tra i Mundugumor sia gli uomini sia le donne erano aggressivi e competitivi. Tra i Tchambuli, infine, i ruoli di genere erano invertiti rispetto alle aspettative occidentali: le donne erano dominanti e pratiche, gli uomini emotivi e dediti all'arte.
+I ruoli di genere rappresentano la dimensione più chiaramente sociale del genere. Come documentato dall'antropologa **Margaret Mead** nel suo studio pionieristico *Sex and Temperament in Three Primitive Societies* (1935), i tratti considerati "naturalmente" maschili o femminili variano radicalmente tra le culture [14]. Mead osservò che tra gli Arapesh della Nuova Guinea sia gli uomini sia le donne si comportavano in modi che la cultura occidentale avrebbe definito "materni", mentre tra i Mundugumor sia gli uomini sia le donne erano aggressivi e competitivi. Tra i Tchambuli, infine, i ruoli di genere erano invertiti rispetto alle aspettative occidentali: le donne erano dominanti e pratiche, gli uomini emotivi e dediti all'arte [14].
 
 Questi dati antropologici, confermati da decenni di ricerca successiva, dimostrano che i ruoli di genere non sono determinati dalla biologia ma sono il prodotto delle strutture sociali, economiche e culturali di ciascuna società.
 
@@ -123,43 +123,43 @@ Il termine "genere" (*gender*) nel suo significato moderno fu introdotto in ambi
 
 ### Robert Stoller e l'identità di genere
 
-Fu lo psicoanalista **Robert Stoller**, nel 1968, a introdurre il concetto di **identità di genere** (*gender identity*) nel suo libro *Sex and Gender*. Stoller distinse con chiarezza il sesso -- un fatto biologico -- dal genere -- un fatto psicologico e culturale --, e propose che l'identità di genere fosse il senso interiore di appartenere a un genere, indipendente dalle caratteristiche fisiche del corpo. Il suo lavoro fu fondamentale per comprendere l'esperienza delle persone transgender.
+Fu lo psicoanalista **Robert Stoller**, nel 1968, a introdurre il concetto di **identità di genere** (*gender identity*) nel suo libro *Sex and Gender* [5]. Stoller distinse con chiarezza il sesso -- un fatto biologico -- dal genere -- un fatto psicologico e culturale --, e propose che l'identità di genere fosse il senso interiore di appartenere a un genere, indipendente dalle caratteristiche fisiche del corpo [5]. Il suo lavoro fu fondamentale per comprendere l'esperienza delle persone transgender.
 
 ### Il contributo del femminismo e degli studi di genere
 
 A partire dagli anni Settanta, il movimento femminista adottò la distinzione sesso-genere come strumento analitico per smascherare la naturalizzazione delle disuguaglianze tra uomini e donne. Se i ruoli di genere non erano determinati dalla biologia ma costruiti socialmente, allora potevano essere modificati.
 
-Nel 1987, i sociologi **Candace West e Don Zimmerman** pubblicarono il saggio *Doing Gender*, in cui proponevano che il genere non fosse qualcosa che si "è" ma qualcosa che si "fa": un insieme di pratiche quotidiane attraverso le quali le persone producono e riproducono le differenze di genere nelle interazioni sociali.
+Nel 1987, i sociologi **Candace West e Don Zimmerman** pubblicarono il saggio *Doing Gender*, in cui proponevano che il genere non fosse qualcosa che si "è" ma qualcosa che si "fa": un insieme di pratiche quotidiane attraverso le quali le persone producono e riproducono le differenze di genere nelle interazioni sociali [6].
 
-La filosofa **Judith Butler**, con il suo libro *Gender Trouble* (1990), spinse questa analisi ancora oltre, sostenendo che il genere è **performativo**: non esiste un'essenza di genere preesistente che viene espressa, ma il genere stesso viene creato attraverso la ripetizione di atti, gesti, discorsi e pratiche corporee. Per Butler, anche la distinzione tra sesso e genere è problematica, poiché il modo in cui comprendiamo e classifichiamo il sesso è a sua volta influenzato dalle categorie di genere.
+La filosofa **Judith Butler**, con il suo libro *Gender Trouble* (1990), spinse questa analisi ancora oltre, sostenendo che il genere è **performativo**: non esiste un'essenza di genere preesistente che viene espressa, ma il genere stesso viene creato attraverso la ripetizione di atti, gesti, discorsi e pratiche corporee [4]. Per Butler, anche la distinzione tra sesso e genere è problematica, poiché il modo in cui comprendiamo e classifichiamo il sesso è a sua volta influenzato dalle categorie di genere [4].
 
 ### Verso la comprensione attuale
 
-Negli ultimi trent'anni, la comprensione del genere si è ulteriormente arricchita grazie al contributo delle neuroscienze, della genetica e degli studi transgender. La posizione attuale delle principali istituzioni scientifiche -- WHO, APA, WPATH -- riconosce che il genere è il prodotto di un'interazione complessa tra fattori biologici e sociali, e che l'identità di genere ha sia basi neurobiologiche sia dimensioni culturali.
+Negli ultimi trent'anni, la comprensione del genere si è ulteriormente arricchita grazie al contributo delle neuroscienze, della genetica e degli studi transgender. La posizione attuale delle principali istituzioni scientifiche -- WHO, APA, WPATH -- riconosce che il genere è il prodotto di un'interazione complessa tra fattori biologici e sociali, e che l'identità di genere ha sia basi neurobiologiche sia dimensioni culturali [1][2][11].
 
 ## Il genere nelle culture del mondo
 
-Una delle prove più convincenti della natura non esclusivamente biologica del genere è la grande varietà di sistemi di genere documentati nelle culture umane. Il binarismo uomo-donna, pur essendo il sistema più diffuso, è tutt'altro che universale.
+Una delle prove più convincenti della natura non esclusivamente biologica del genere è la grande varietà di sistemi di genere documentati nelle culture umane. Il binarismo uomo-donna, pur essendo il sistema più diffuso, è tutt'altro che universale [13].
 
 ### Le persone Two-Spirit
 
-Nelle culture indigene del Nord America, le persone **Two-Spirit** (letteralmente "due spiriti") occupano da secoli un ruolo di genere riconosciuto e rispettato, distinto sia dalla mascolinità sia dalla femminilità. Il termine, adottato nel 1990 durante una conferenza intertribale a Winnipeg, sostituisce i termini coloniali dispregiativi usati in precedenza. La ricerca antropologica ha documentato oltre 150 comunità native nordamericane precoloniali che riconoscevano ruoli di genere al di fuori del binarismo. Le persone Two-Spirit ricoprivano spesso funzioni importanti nelle loro comunità come guaritori, guide spirituali e mediatori.
+Nelle culture indigene del Nord America, le persone **Two-Spirit** (letteralmente "due spiriti") occupano da secoli un ruolo di genere riconosciuto e rispettato, distinto sia dalla mascolinità sia dalla femminilità. Il termine, adottato nel 1990 durante una conferenza intertribale a Winnipeg, sostituisce i termini coloniali dispregiativi usati in precedenza. La ricerca antropologica ha documentato oltre 150 comunità native nordamericane precoloniali che riconoscevano ruoli di genere al di fuori del binarismo [13]. Le persone Two-Spirit ricoprivano spesso funzioni importanti nelle loro comunità come guaritori, guide spirituali e mediatori.
 
 ### Le Hijra nel subcontinente asiatico
 
-Le **hijra** in India, Pakistan, Bangladesh e Nepal rappresentano uno dei più antichi esempi di un terzo genere riconosciuto socialmente, con origini che risalgono ai testi sacri dell'induismo di migliaia di anni fa. Nel 2014, la Corte Suprema dell'India ha riconosciuto ufficialmente le hijra come terzo genere, sancendo legalmente una realtà sociale millenaria. Oggi si stima che in India vivano tra le 500.000 e le 2 milioni di persone hijra.
+Le **hijra** in India, Pakistan, Bangladesh e Nepal rappresentano uno dei più antichi esempi di un terzo genere riconosciuto socialmente, con origini che risalgono ai testi sacri dell'induismo di migliaia di anni fa [13]. Nel 2014, la Corte Suprema dell'India ha riconosciuto ufficialmente le hijra come terzo genere, sancendo legalmente una realtà sociale millenaria. Oggi si stima che in India vivano tra le 500.000 e le 2 milioni di persone hijra.
 
 ### I Fa'afafine in Samoa
 
-I **fa'afafine** (letteralmente "alla maniera di una donna") sono persone assegnate maschio alla nascita che nella società samoana assumono ruoli e comportamenti tradizionalmente femminili. I fa'afafine sono integrati e rispettati nella cultura samoana da secoli, e il loro esempio dimostra che la diversità di genere non è un'invenzione della cultura occidentale contemporanea, ma un aspetto ricorrente dell'organizzazione sociale umana.
+I **fa'afafine** (letteralmente "alla maniera di una donna") sono persone assegnate maschio alla nascita che nella società samoana assumono ruoli e comportamenti tradizionalmente femminili [13]. I fa'afafine sono integrati e rispettati nella cultura samoana da secoli, e il loro esempio dimostra che la diversità di genere non è un'invenzione della cultura occidentale contemporanea, ma un aspetto ricorrente dell'organizzazione sociale umana.
 
 ### I Muxe nella cultura zapoteca
 
-Nella comunità zapoteca di Juchitan de Zaragoza, in Messico, i **muxe** sono persone assegnate maschio alla nascita che adottano ruoli femminili o intermedi. I muxe sono celebrati nella cultura locale e partecipano a una festa annuale, la *Vela de las Intrépidas*, che onora il loro ruolo nella comunità. L'esistenza dei muxe dimostra come una società possa integrare la diversità di genere senza marginalizzarla.
+Nella comunità zapoteca di Juchitan de Zaragoza, in Messico, i **muxe** sono persone assegnate maschio alla nascita che adottano ruoli femminili o intermedi [13]. I muxe sono celebrati nella cultura locale e partecipano a una festa annuale, la *Vela de las Intrépidas*, che onora il loro ruolo nella comunità. L'esistenza dei muxe dimostra come una società possa integrare la diversità di genere senza marginalizzarla.
 
 ### Altre culture
 
-Esempi analoghi si trovano in molte altre società del mondo: i **kathoey** in Thailandia, i **quariwarmi** nella tradizione andina precolombiana, le **sworn virgins** (vergini giurate) in Albania -- donne che assumevano un ruolo sociale maschile in una società rigidamente patriarcale -- e i **bissu** tra i Bugis dell'Indonesia, dove vengono riconosciuti cinque generi distinti. Questa ricorrenza trasversale a continenti, epoche e tradizioni culturali profondamente diverse suggerisce che la diversità di genere è un tratto costante dell'esperienza umana.
+Esempi analoghi si trovano in molte altre società del mondo: i **kathoey** in Thailandia, i **quariwarmi** nella tradizione andina precolombiana, le **sworn virgins** (vergini giurate) in Albania -- donne che assumevano un ruolo sociale maschile in una società rigidamente patriarcale -- e i **bissu** tra i Bugis dell'Indonesia, dove vengono riconosciuti cinque generi distinti [13]. Questa ricorrenza trasversale a continenti, epoche e tradizioni culturali profondamente diverse suggerisce che la diversità di genere è un tratto costante dell'esperienza umana.
 
 ## Cosa dice la scienza moderna
 
@@ -167,25 +167,25 @@ La comprensione scientifica del genere si è evoluta significativamente negli ul
 
 ### Il genere non è riducibile al cervello
 
-Lo studio *Sex beyond the genitalia: The human brain mosaic*, pubblicato su *PNAS* nel 2015 dalla neuroscienziata Daphna Joel e colleghi, ha analizzato le scansioni cerebrali di oltre 1.400 persone, dimostrando che i cervelli umani non possono essere classificati in due categorie distinte -- "maschile" e "femminile" -- ma sono piuttosto dei mosaici unici di caratteristiche. Questo risultato non nega che esistano differenze statistiche tra gruppi, ma dimostra che a livello individuale il cervello non è sessualmente dimorfico in modo netto.
+Lo studio *Sex beyond the genitalia: The human brain mosaic*, pubblicato su *PNAS* nel 2015 dalla neuroscienziata Daphna Joel e colleghi, ha analizzato le scansioni cerebrali di oltre 1.400 persone, dimostrando che i cervelli umani non possono essere classificati in due categorie distinte -- "maschile" e "femminile" -- ma sono piuttosto dei mosaici unici di caratteristiche [7]. Questo risultato non nega che esistano differenze statistiche tra gruppi, ma dimostra che a livello individuale il cervello non è sessualmente dimorfico in modo netto.
 
 ### Le somiglianze di genere
 
-La psicologa **Janet Shibley Hyde**, con la sua *Gender Similarities Hypothesis* pubblicata sull'*American Psychologist* nel 2005, ha condotto una meta-analisi di 46 studi sulle differenze psicologiche tra uomini e donne. Il risultato è stato che il 78% delle differenze di genere misurate era di entità trascurabile o piccola. Uomini e donne sono psicologicamente molto più simili di quanto la cultura popolare suggerisca, e le differenze osservate sono in gran parte il prodotto della socializzazione, non della biologia.
+La psicologa **Janet Shibley Hyde**, con la sua *Gender Similarities Hypothesis* pubblicata sull'*American Psychologist* nel 2005, ha condotto una meta-analisi di 46 studi sulle differenze psicologiche tra uomini e donne [8]. Il risultato è stato che il 78% delle differenze di genere misurate era di entità trascurabile o piccola [8]. Uomini e donne sono psicologicamente molto più simili di quanto la cultura popolare suggerisca, e le differenze osservate sono in gran parte il prodotto della socializzazione, non della biologia.
 
 ### Identità di genere e neurobiologia
 
-Se i ruoli e le espressioni di genere sono in larga parte costruiti socialmente, l'identità di genere ha una componente biologica documentata. Una revisione pubblicata sul *Journal of Neuroendocrinology* nel 2019 ha esaminato le basi neurobiologiche dell'identità di genere, concludendo che fattori genetici, esposizione prenatale agli ormoni e sviluppo cerebrale contribuiscono alla formazione dell'identità di genere. Tuttavia, nessun singolo fattore è determinante: l'identità di genere emerge dall'interazione complessa tra biologia e ambiente.
+Se i ruoli e le espressioni di genere sono in larga parte costruiti socialmente, l'identità di genere ha una componente biologica documentata. Una revisione pubblicata sul *Journal of Neuroendocrinology* nel 2019 ha esaminato le basi neurobiologiche dell'identità di genere, concludendo che fattori genetici, esposizione prenatale agli ormoni e sviluppo cerebrale contribuiscono alla formazione dell'identità di genere [10]. Tuttavia, nessun singolo fattore è determinante: l'identità di genere emerge dall'interazione complessa tra biologia e ambiente [10].
 
 ### Le posizioni delle istituzioni internazionali
 
 Le principali istituzioni scientifiche e sanitarie convergono nel riconoscere che il genere è uno spettro e che le identità al di fuori del binarismo sono varianti naturali dell'esperienza umana.
 
-La **WHO** definisce il genere come un costrutto sociale che varia tra le società e nel tempo, riconoscendo che il binarismo di genere è una semplificazione che non cattura l'intera gamma delle esperienze umane.
+La **WHO** definisce il genere come un costrutto sociale che varia tra le società e nel tempo, riconoscendo che il binarismo di genere è una semplificazione che non cattura l'intera gamma delle esperienze umane [1].
 
-L'**APA**, nelle sue linee guida del 2015 per la pratica psicologica con persone transgender e di genere non conforme, afferma che il genere è un costrutto non binario che comprende un ampio spettro di identità ed esperienze, e che le identità transgender e non binarie sono "variazioni normali dell'espressione umana del genere".
+L'**APA**, nelle sue linee guida del 2015 per la pratica psicologica con persone transgender e di genere non conforme, afferma che il genere è un costrutto non binario che comprende un ampio spettro di identità ed esperienze, e che le identità transgender e non binarie sono "variazioni normali dell'espressione umana del genere" [3].
 
-Il **WPATH**, negli Standards of Care versione 8 (2022), riconosce esplicitamente la diversità delle identità di genere e dedica per la prima volta un capitolo specifico alle persone non binarie, sancendo il riconoscimento clinico di identità al di fuori del binarismo.
+Il **WPATH**, negli Standards of Care versione 8 (2022), riconosce esplicitamente la diversità delle identità di genere e dedica per la prima volta un capitolo specifico alle persone non binarie, sancendo il riconoscimento clinico di identità al di fuori del binarismo [11].
 
 ## Il genere nella vita quotidiana
 
@@ -209,7 +209,7 @@ Il genere funziona anche come una **struttura sociale** che organizza le relazio
 
 La concezione del genere come uno **spettro**, piuttosto che come un sistema binario rigido, è oggi supportata sia dalla ricerca scientifica sia dall'esperienza di milioni di persone nel mondo.
 
-Le persone **non binarie** -- coloro la cui identità di genere non si colloca esclusivamente nella categoria di uomo o di donna -- rappresentano una realtà sempre più visibile e documentata. Sondaggi recenti suggeriscono che circa l'1-2% della popolazione adulta si identifica come non binaria, con percentuali più elevate tra i giovani. Sotto il termine ombrello "non binario" si raccolgono esperienze diverse: persone **genderfluid**, la cui identità di genere cambia nel tempo; persone **agender**, che non si identificano con alcun genere; persone **bigender**, che si identificano con due generi; e molte altre configurazioni identitarie.
+Le persone **non binarie** -- coloro la cui identità di genere non si colloca esclusivamente nella categoria di uomo o di donna -- rappresentano una realtà sempre più visibile e documentata [9]. Sondaggi recenti suggeriscono che circa l'1-2% della popolazione adulta si identifica come non binaria, con percentuali più elevate tra i giovani. Sotto il termine ombrello "non binario" si raccolgono esperienze diverse: persone **genderfluid**, la cui identità di genere cambia nel tempo; persone **agender**, che non si identificano con alcun genere; persone **bigender**, che si identificano con due generi; e molte altre configurazioni identitarie.
 
 Riconoscere lo spettro di genere non significa abolire le categorie di uomo e donna, che restano significative per la grande maggioranza delle persone. Significa piuttosto riconoscere che queste categorie non esauriscono l'intera gamma delle esperienze umane, e che le persone che si collocano al di fuori del binarismo meritano lo stesso rispetto e lo stesso riconoscimento.
 

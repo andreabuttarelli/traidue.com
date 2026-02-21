@@ -78,7 +78,7 @@ Non ti diremo cosa pensare o cosa sentire. Ti diremo cosa sappiamo, cosa la scie
 
 ## Cos'è l'identità di genere (in breve)
 
-L'identità di genere è il senso intimo e profondo che hai del tuo genere. Può corrispondere al sesso che ti è stato assegnato alla nascita, oppure no. Può collocarsi nello spettro tra maschile e femminile, oppure al di fuori di questo spettro. L'American Psychological Association la definisce come un'esperienza interna e individuale del genere, che include il senso personale del proprio corpo e altre espressioni come l'abbigliamento, il linguaggio e i comportamenti.
+L'identità di genere è il senso intimo e profondo che hai del tuo genere. Può corrispondere al sesso che ti è stato assegnato alla nascita, oppure no. Può collocarsi nello spettro tra maschile e femminile, oppure al di fuori di questo spettro. L'American Psychological Association la definisce come un'esperienza interna e individuale del genere, che include il senso personale del proprio corpo e altre espressioni come l'abbigliamento, il linguaggio e i comportamenti [12].
 
 L'identità di genere non è la stessa cosa dell'orientamento sessuale (verso chi sei attratto/a), dell'espressione di genere (come ti presenti al mondo) o del ruolo di genere (le aspettative della società). Sono tutte dimensioni diverse dell'esperienza umana. Se vuoi approfondire, abbiamo un articolo dedicato: [Identità di genere: cos'è e cosa sappiamo](/wiki/identita-di-genere).
 
@@ -86,9 +86,9 @@ L'identità di genere non è la stessa cosa dell'orientamento sessuale (verso ch
 
 La risposta breve: se ti stai interrogando sulla tua identità di genere, sei in buona compagnia, e non solo metaforicamente. La ricerca lo documenta.
 
-L'adolescenza è un periodo in cui l'identità -- tutta l'identità, non solo quella di genere -- è in costruzione. Uno studio longitudinale pubblicato su Archives of Sexual Behavior nel 2024 ha analizzato lo sviluppo dell'identità di genere dall'età di 11 anni fino ai 26, trovando che una parte significativa di adolescenti attraversa fasi di esplorazione e domande sul proprio genere. Non è un'anomalia: è parte del normale sviluppo.
+L'adolescenza è un periodo in cui l'identità -- tutta l'identità, non solo quella di genere -- è in costruzione. Uno studio longitudinale pubblicato su Archives of Sexual Behavior nel 2024 ha analizzato lo sviluppo dell'identità di genere dall'età di 11 anni fino ai 26, trovando che una parte significativa di adolescenti attraversa fasi di esplorazione e domande sul proprio genere [2]. Non è un'anomalia: è parte del normale sviluppo.
 
-Il TransYouth Project, il primo studio longitudinale su larga scala su giovani transgender, ha seguito oltre 300 bambini e ragazzi per più di cinque anni. I risultati, pubblicati su Pediatrics nel 2022, mostrano che il 97,5% dei giovani che avevano fatto una transizione sociale continuava a identificarsi come transgender dopo cinque anni. Solo il 2,5% era tornato a identificarsi con il sesso assegnato alla nascita. Questo ci dice due cose importanti: per la stragrande maggioranza, l'identità di genere è stabile nel tempo; e per una piccola percentuale, l'identità può evolvere, e anche questo va bene.
+Il TransYouth Project, il primo studio longitudinale su larga scala su giovani transgender, ha seguito oltre 300 bambini e ragazzi per più di cinque anni. I risultati, pubblicati su Pediatrics nel 2022, mostrano che il 97,5% dei giovani che avevano fatto una transizione sociale continuava a identificarsi come transgender dopo cinque anni. Solo il 2,5% era tornato a identificarsi con il sesso assegnato alla nascita [1]. Questo ci dice due cose importanti: per la stragrande maggioranza, l'identità di genere è stabile nel tempo; e per una piccola percentuale, l'identità può evolvere, e anche questo va bene.
 
 Interrogarsi non significa avere un problema. Significa prestare attenzione a ciò che senti. E questo, qualunque cosa scoprirai su di te, è un punto di partenza solido.
 
@@ -100,7 +100,7 @@ La disforia di genere è definita dal DSM-5 come un disagio clinicamente signifi
 
 Detto in modo diretto: non tutte le persone transgender provano disforia, e la disforia non si manifesta nello stesso modo per tutti. Per qualcuno è un disagio fisico intenso, per altri è più sottile -- un senso di estraneità, di "qualcosa che non torna". Per altri ancora si manifesta soprattutto nelle interazioni sociali, quando vengono percepiti in un modo che non corrisponde a chi sono.
 
-Quello che la ricerca mostra in modo chiaro è che la sofferenza psicologica delle persone transgender è legata in larga parte allo stigma sociale, alla discriminazione e alla mancanza di supporto, non all'identità di genere in sé. Il modello del minority stress, ben documentato nella letteratura scientifica, spiega come il pregiudizio e l'esclusione abbiano un impatto diretto sulla salute mentale. I dati del Trevor Project (2024) indicano che il 46% dei giovani transgender e non binari ha pensato seriamente al suicidio nell'ultimo anno, ma anche che il supporto familiare e sociale riduce drasticamente questo rischio.
+Quello che la ricerca mostra in modo chiaro è che la sofferenza psicologica delle persone transgender è legata in larga parte allo stigma sociale, alla discriminazione e alla mancanza di supporto, non all'identità di genere in sé [13]. Il modello del minority stress, ben documentato nella letteratura scientifica, spiega come il pregiudizio e l'esclusione abbiano un impatto diretto sulla salute mentale. I dati del Trevor Project (2024) indicano che il 46% dei giovani transgender e non binari ha pensato seriamente al suicidio nell'ultimo anno, ma anche che il supporto familiare e sociale riduce drasticamente questo rischio [10].
 
 Se stai attraversando un momento difficile: non è colpa tua, e non sei solo/a.
 
@@ -110,7 +110,7 @@ Questa è forse la cosa più importante che possiamo dirti: va bene non sapere.
 
 La cultura in cui viviamo spinge a definirsi in fretta -- un'etichetta, una dichiarazione, una certezza. Ma l'identità di genere non funziona con un interruttore. Per alcune persone è una certezza precoce e chiara; per altre è un processo che richiede tempo, esplorazione, a volte tentativi ed errori.
 
-Le linee guida dell'American Psychological Association per la pratica clinica con persone transgender raccomandano esplicitamente che i professionisti della salute mentale supportino l'esplorazione dell'identità di genere senza cercare di indirizzarla in una direzione o nell'altra. Il principio è lo stesso che vale per te: l'esplorazione non è un problema da risolvere, è un processo da attraversare.
+Le linee guida dell'American Psychological Association per la pratica clinica con persone transgender raccomandano esplicitamente che i professionisti della salute mentale supportino l'esplorazione dell'identità di genere senza cercare di indirizzarla in una direzione o nell'altra [12]. Il principio è lo stesso che vale per te: l'esplorazione non è un problema da risolvere, è un processo da attraversare.
 
 Alcuni punti fermi dalla ricerca:
 
@@ -126,7 +126,7 @@ Se stai pensando di fare qualcosa rispetto a quello che senti, è utile sapere c
 
 ### Transizione sociale
 
-La transizione sociale comprende i cambiamenti non medici: scegliere un nome diverso, usare pronomi diversi, cambiare il modo in cui ti presenti. Può essere totale o parziale, pubblica o limitata a poche persone fidate. La ricerca mostra che i giovani transgender che vivono in accordo con la propria identità e hanno il supporto della famiglia presentano livelli di depressione comparabili a quelli dei coetanei cisgender.
+La transizione sociale comprende i cambiamenti non medici: scegliere un nome diverso, usare pronomi diversi, cambiare il modo in cui ti presenti. Può essere totale o parziale, pubblica o limitata a poche persone fidate. La ricerca mostra che i giovani transgender che vivono in accordo con la propria identità e hanno il supporto della famiglia presentano livelli di depressione comparabili a quelli dei coetanei cisgender [6].
 
 La transizione sociale è completamente reversibile per definizione: è fatta di scelte quotidiane, non di interventi irreversibili. E per molti giovani è sufficiente, almeno per un periodo.
 
@@ -134,21 +134,21 @@ La transizione sociale è completamente reversibile per definizione: è fatta di
 
 Parlare con un professionista esperto di identità di genere non è un prerequisito per "essere davvero trans" -- è una risorsa che puoi usare per capire meglio cosa senti, indipendentemente da dove arriverai. Un buon professionista non ti dirà chi sei: ti aiuterà a scoprirlo.
 
-Le linee guida WPATH (Standards of Care, versione 8, 2022) raccomandano che qualsiasi percorso medico per adolescenti sia preceduto da una valutazione approfondita che consideri la salute mentale complessiva, il contesto familiare e sociale, e la stabilità dell'identità di genere nel tempo. Questo non è un ostacolo burocratico: è una tutela per te.
+Le linee guida WPATH (Standards of Care, versione 8, 2022) raccomandano che qualsiasi percorso medico per adolescenti sia preceduto da una valutazione approfondita che consideri la salute mentale complessiva, il contesto familiare e sociale, e la stabilità dell'identità di genere nel tempo [3]. Questo non è un ostacolo burocratico: è una tutela per te.
 
 ### Bloccanti della pubertà
 
 Se sei in fase puberale, potresti sentir parlare dei bloccanti della pubertà (agonisti del GnRH). Ecco cosa dice la scienza, senza semplificazioni.
 
-I bloccanti della pubertà sospendono temporaneamente lo sviluppo puberale. L'Endocrine Society li descrive come generalmente reversibili: quando vengono interrotti, la pubertà riprende. Uno studio del 2024 pubblicato dall'American Physiological Society ha confermato che gli effetti dei bloccanti sui tessuti riproduttivi sono reversibili dopo la sospensione.
+I bloccanti della pubertà sospendono temporaneamente lo sviluppo puberale. L'Endocrine Society li descrive come generalmente reversibili: quando vengono interrotti, la pubertà riprende [4]. Uno studio del 2024 pubblicato dall'American Physiological Society ha confermato che gli effetti dei bloccanti sui tessuti riproduttivi sono reversibili dopo la sospensione [15].
 
 Lo scopo non è "decidere al posto tuo" -- è darti tempo. Tempo per capire, senza che il corpo cambi in una direzione che potrebbe aumentare il disagio. I bloccanti non vengono prescritti alla leggera: richiedono una diagnosi di disforia di genere, una valutazione da parte di un'équipe multidisciplinare e il consenso informato del ragazzo/a e della famiglia.
 
-Una nota di onestà: la ricerca sui bloccanti è ancora in evoluzione. Gli studi disponibili indicano benefici sulla salute mentale, ma le pubblicazioni scientifiche riconoscono che servono dati a lungo termine più robusti. Uno studio pubblicato su Frontiers in Endocrinology nel 2024 sottolinea che i trial controllati randomizzati su larga scala sono ancora necessari. La comunità scientifica è concorde sull'importanza di continuare la ricerca.
+Una nota di onestà: la ricerca sui bloccanti è ancora in evoluzione. Gli studi disponibili indicano benefici sulla salute mentale, ma le pubblicazioni scientifiche riconoscono che servono dati a lungo termine più robusti [8]. Uno studio pubblicato su Frontiers in Endocrinology nel 2024 sottolinea che i trial controllati randomizzati su larga scala sono ancora necessari [8]. La comunità scientifica è concorde sull'importanza di continuare la ricerca.
 
 ### Terapia ormonale
 
-La terapia ormonale (testosterone o estrogeni) è un passo successivo, distinto dai bloccanti, che produce cambiamenti in parte irreversibili. Le linee guida internazionali la riservano ad adolescenti più grandi, dopo una valutazione approfondita e prolungata. Uno studio pubblicato sul New England Journal of Medicine nel 2023 ha seguito 315 giovani transgender per due anni dopo l'inizio della terapia ormonale, riscontrando un aumento della soddisfazione per la vita, una riduzione dei sintomi depressivi e ansiosi, e un miglioramento del benessere psicosociale.
+La terapia ormonale (testosterone o estrogeni) è un passo successivo, distinto dai bloccanti, che produce cambiamenti in parte irreversibili. Le linee guida internazionali la riservano ad adolescenti più grandi, dopo una valutazione approfondita e prolungata [3][4]. Uno studio pubblicato sul New England Journal of Medicine nel 2023 ha seguito 315 giovani transgender per due anni dopo l'inizio della terapia ormonale, riscontrando un aumento della soddisfazione per la vita, una riduzione dei sintomi depressivi e ansiosi, e un miglioramento del benessere psicosociale [7].
 
 Nessun intervento medico avviene in fretta. Questo è un punto su cui la disinformazione è particolarmente aggressiva: l'idea che "i bambini vengano operati" o che "basta chiedere per ottenere ormoni" non corrisponde alla realtà dei protocolli clinici esistenti, in Italia o altrove.
 
@@ -158,7 +158,7 @@ Decidere di parlare di quello che senti è un passo significativo. Non esiste un
 
 ### Con la famiglia
 
-Una revisione sistematica del 2023 sugli interventi familiari con giovani transgender ha identificato che il supporto dei genitori è il singolo fattore protettivo più potente per la salute mentale. I giovani con famiglie "molto supportive" mostrano livelli di autostima e soddisfazione significativamente più alti e tassi di depressione e tentativi di suicidio significativamente più bassi rispetto a chi non ha questo supporto.
+Una revisione sistematica del 2023 sugli interventi familiari con giovani transgender ha identificato che il supporto dei genitori è il singolo fattore protettivo più potente per la salute mentale [11]. I giovani con famiglie "molto supportive" mostrano livelli di autostima e soddisfazione significativamente più alti e tassi di depressione e tentativi di suicidio significativamente più bassi rispetto a chi non ha questo supporto [10][11].
 
 Questo non significa che tutti i genitori reagiranno bene, o subito. Se pensi che parlare con la tua famiglia potrebbe non essere sicuro, non sei obbligato/a a farlo. La tua sicurezza viene prima di tutto. In quel caso, inizia con un adulto di fiducia -- un insegnante, un/a consulente, un professionista.
 
@@ -189,9 +189,9 @@ Non tutte le scuole la prevedono, e il Ministero dell'Istruzione non ha emanato 
 
 ### Percorsi sanitari per minori
 
-In Italia, i centri specializzati che offrono percorsi per minori con incongruenza di genere sono pochi. Secondo uno studio del 2020 pubblicato sull'International Journal of Environmental Research and Public Health, solo nove centri nel paese erano collegati all'ONIG (Osservatorio Nazionale sull'Identità di Genere) per la presa in carico di giovani. La situazione negli ultimi anni si è ulteriormente complicata per via di restrizioni e indagini che hanno limitato l'accesso ad alcuni servizi.
+In Italia, i centri specializzati che offrono percorsi per minori con incongruenza di genere sono pochi. Secondo uno studio del 2020 pubblicato sull'International Journal of Environmental Research and Public Health, solo nove centri nel paese erano collegati all'ONIG (Osservatorio Nazionale sull'Identità di Genere) per la presa in carico di giovani [9]. La situazione negli ultimi anni si è ulteriormente complicata per via di restrizioni e indagini che hanno limitato l'accesso ad alcuni servizi.
 
-Il percorso previsto dai protocolli italiani segue un approccio a tappe: prima una valutazione psicodiagnostica approfondita, poi -- se indicato -- il supporto endocrinologico. Nulla avviene senza valutazione, senza consenso e senza il coinvolgimento della famiglia.
+Il percorso previsto dai protocolli italiani segue un approccio a tappe: prima una valutazione psicodiagnostica approfondita, poi -- se indicato -- il supporto endocrinologico [9]. Nulla avviene senza valutazione, senza consenso e senza il coinvolgimento della famiglia.
 
 ### Privacy
 
@@ -215,7 +215,7 @@ Non devi affrontare tutto da solo/a. In Italia esistono risorse concrete.
 
 ### Risorse istituzionali
 
-- **InfoTrans** ([infotrans.it](https://www.infotrans.it/)): portale creato dall'Istituto Superiore di Sanità e dall'UNAR. Contiene una mappa interattiva di tutti i servizi dedicati alle persone transgender in Italia -- centri clinici, associazioni, punti di ascolto -- regione per regione.
+- **InfoTrans** ([infotrans.it](https://www.infotrans.it/)): portale creato dall'Istituto Superiore di Sanità e dall'UNAR [14]. Contiene una mappa interattiva di tutti i servizi dedicati alle persone transgender in Italia -- centri clinici, associazioni, punti di ascolto -- regione per regione.
 
 ### Comunità online
 

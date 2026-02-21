@@ -55,25 +55,25 @@ related:
 
 ## Un capolavoro di dignita e resistenza
 
-Quando "Una donna fantastica" (titolo originale "Una mujer fantastica") vinse il Premio Oscar come Miglior film in lingua straniera nel marzo 2018, non fu solo un trionfo cinematografico. Fu un momento storico per la rappresentazione delle persone transgender nel cinema mondiale, un riconoscimento che cambio la vita della sua protagonista, della comunita trans cilena e, in parte, la legislazione di un intero paese.
+Quando "Una donna fantastica" (titolo originale "Una mujer fantastica") vinse il Premio Oscar come Miglior film in lingua straniera nel marzo 2018 [6], non fu solo un trionfo cinematografico. Fu un momento storico per la rappresentazione delle persone transgender nel cinema mondiale, un riconoscimento che cambio la vita della sua protagonista, della comunita trans cilena e, in parte, la legislazione di un intero paese.
 
-Il film, diretto dal regista cileno Sebastian Lelio e interpretato dall'attrice transgender Daniela Vega, racconta una storia apparentemente semplice -- una donna che affronta il lutto -- ma lo fa con una profondita e un'intensita che lo rendono un'opera universale sulla dignita umana, sull'identita e sul diritto di esistere.
+Il film, diretto dal regista cileno Sebastian Lelio e interpretato dall'attrice transgender Daniela Vega [1], racconta una storia apparentemente semplice -- una donna che affronta il lutto -- ma lo fa con una profondita e un'intensita che lo rendono un'opera universale sulla dignita umana, sull'identita e sul diritto di esistere.
 
 ## La trama: il diritto al dolore
 
-Marina Vidal e una giovane donna trans che vive a Santiago del Cile. Lavora come cameriera durante il giorno e canta in un locale la sera. La sua vita e segnata dalla relazione con Orlando, un uomo piu grande di lei di circa vent'anni, che la ama e la rispetta profondamente.
+Marina Vidal e una giovane donna trans che vive a Santiago del Cile. Lavora come cameriera durante il giorno e canta in un locale la sera. La sua vita e segnata dalla relazione con Orlando, un uomo piu grande di lei di circa vent'anni, che la ama e la rispetta profondamente [1].
 
 Una notte, dopo aver festeggiato il compleanno di Marina, Orlando si sente male. Marina lo porta d'urgenza in ospedale, ma Orlando muore per un aneurisma. Da quel momento, la vita di Marina viene stravolta -- non solo dal dolore della perdita, ma dalla reazione della famiglia di Orlando e delle istituzioni.
 
-Il figlio di Orlando le chiede di lasciare l'appartamento che condivideva con il padre. L'ex moglie la tratta con aperto disprezzo. Un detective della polizia la interroga con sospetto, insinuando che possa aver causato la morte di Orlando. Il medico legale la guarda con disgusto. Persino le procedure burocratiche per il funerale diventano un campo di battaglia.
+Il figlio di Orlando le chiede di lasciare l'appartamento che condivideva con il padre. L'ex moglie la tratta con aperto disprezzo. Un detective della polizia la interroga con sospetto, insinuando che possa aver causato la morte di Orlando. Il medico legale la guarda con disgusto. Persino le procedure burocratiche per il funerale diventano un campo di battaglia [1].
 
 Marina viene sistematicamente privata del diritto piu elementare: il diritto al lutto. Non solo perde l'uomo che ama, ma deve lottare per il riconoscimento stesso della sua relazione, della sua identita e della sua umanita.
 
 ## Daniela Vega: una protagonista rivoluzionaria
 
-La scelta di Daniela Vega come protagonista rappresenta uno degli aspetti piu significativi del film. In un'epoca in cui la maggior parte dei ruoli trans veniva ancora affidata ad attori cisgender, Lelio scelse un'attrice transgender per interpretare un personaggio transgender, garantendo un'autenticita che permea ogni scena.
+La scelta di Daniela Vega come protagonista rappresenta uno degli aspetti piu significativi del film [7]. In un'epoca in cui la maggior parte dei ruoli trans veniva ancora affidata ad attori cisgender, Lelio scelse un'attrice transgender per interpretare un personaggio transgender, garantendo un'autenticita che permea ogni scena.
 
-Daniela Vega, nata nel 1989 a Santiago del Cile, aveva studiato recitazione e musica prima di essere selezionata per il ruolo di Marina. Non era un'esordiente assoluta -- aveva lavorato in teatro e in piccole produzioni -- ma "Una donna fantastica" rappresento il suo primo ruolo cinematografico di rilievo.
+Daniela Vega, nata nel 1989 a Santiago del Cile, aveva studiato recitazione e musica prima di essere selezionata per il ruolo di Marina [7]. Non era un'esordiente assoluta -- aveva lavorato in teatro e in piccole produzioni -- ma "Una donna fantastica" rappresento il suo primo ruolo cinematografico di rilievo.
 
 La sua performance e straordinaria per la capacita di comunicare emozioni complesse con gesti minimi. Lo sguardo di Marina, che oscilla tra la vulnerabilita e la determinazione, tra il dolore e la rabbia contenuta, e reso con una verita che solo chi ha vissuto esperienze simili puo trasmettere. Non si tratta di imitazione o di studio del personaggio: si tratta di vita vissuta tradotta in arte.
 
@@ -81,15 +81,15 @@ Lelio ha raccontato in diverse interviste che la collaborazione con Vega fu fond
 
 ## La notte degli Oscar: un momento storico
 
-Il 4 marzo 2018, alla 90esima cerimonia degli Academy Awards, "Una donna fantastica" fu annunciato come vincitore nella categoria Miglior film in lingua straniera. Sebastian Lelio e Daniela Vega salirono sul palco del Dolby Theatre di Los Angeles per ritirare la statuetta, in un momento che emoziono il pubblico presente e quello televisivo.
+Il 4 marzo 2018, alla 90esima cerimonia degli Academy Awards, "Una donna fantastica" fu annunciato come vincitore nella categoria Miglior film in lingua straniera [6]. Sebastian Lelio e Daniela Vega salirono sul palco del Dolby Theatre di Los Angeles per ritirare la statuetta, in un momento che emoziono il pubblico presente e quello televisivo.
 
-Ma il momento piu significativo venne dopo. Daniela Vega fu invitata a presentare una delle categorie della serata, diventando la prima persona apertamente transgender a presentare agli Oscar. Fu un gesto simbolico potentissimo: l'Academy of Motion Picture Arts and Sciences, l'istituzione piu prestigiosa del cinema mondiale, riconosceva pubblicamente la presenza e il contributo delle persone trans nell'industria cinematografica.
+Ma il momento piu significativo venne dopo. Daniela Vega fu invitata a presentare una delle categorie della serata, diventando la prima persona apertamente transgender a presentare agli Oscar [3]. Fu un gesto simbolico potentissimo: l'Academy of Motion Picture Arts and Sciences, l'istituzione piu prestigiosa del cinema mondiale, riconosceva pubblicamente la presenza e il contributo delle persone trans nell'industria cinematografica.
 
-La rivista TIME inseri Daniela Vega nella lista delle 100 persone piu influenti al mondo nel 2018, riconoscendo il suo impatto culturale e sociale ben oltre i confini del cinema.
+La rivista TIME inseri Daniela Vega nella lista delle 100 persone piu influenti al mondo nel 2018, riconoscendo il suo impatto culturale e sociale ben oltre i confini del cinema [3].
 
 ## Il contesto cileno
 
-Per comprendere appieno la portata di "Una donna fantastica", e necessario conoscere il contesto cileno in cui il film fu concepito e realizzato. Il Cile degli anni 2010 era un paese in rapida trasformazione sociale, ma dove i diritti delle persone LGBTQ+ erano ancora significativamente limitati.
+Per comprendere appieno la portata di "Una donna fantastica", e necessario conoscere il contesto cileno in cui il film fu concepito e realizzato. Il Cile degli anni 2010 era un paese in rapida trasformazione sociale, ma dove i diritti delle persone LGBTQ+ erano ancora significativamente limitati [4].
 
 La societa cilena, influenzata dalla tradizione cattolica e dal retaggio della dittatura di Pinochet, era storicamente conservatrice sui temi legati alla sessualita e all'identita di genere. Le persone transgender cilene affrontavano discriminazioni diffuse nell'accesso al lavoro, alla sanita, all'educazione e ai servizi pubblici.
 
@@ -97,17 +97,17 @@ Il film cattura questa realta con precisione dolorosa. Le umiliazioni che Marina
 
 ## L'impatto legislativo: una legge nata dal cinema
 
-L'effetto piu tangibile e misurabile di "Una donna fantastica" si manifesto nella sfera politica. Il successo internazionale del film, culminato con l'Oscar, genero un enorme dibattito pubblico in Cile sulla condizione delle persone transgender.
+L'effetto piu tangibile e misurabile di "Una donna fantastica" si manifesto nella sfera politica [4]. Il successo internazionale del film, culminato con l'Oscar, genero un enorme dibattito pubblico in Cile sulla condizione delle persone transgender.
 
-Nel novembre 2018, pochi mesi dopo la vittoria agli Oscar, il Parlamento cileno approvo la Ley de Identidad de Genero (Legge sull'identita di genere). La legge permette alle persone transgender maggiorenni di cambiare il proprio nome e genere sui documenti ufficiali senza la necessita di sottoporsi a interventi chirurgici o trattamenti medici.
+Nel novembre 2018, pochi mesi dopo la vittoria agli Oscar, il Parlamento cileno approvo la Ley de Identidad de Genero (Legge sull'identita di genere) [5]. La legge permette alle persone transgender maggiorenni di cambiare il proprio nome e genere sui documenti ufficiali senza la necessita di sottoporsi a interventi chirurgici o trattamenti medici.
 
-Sarebbe semplicistico attribuire l'approvazione della legge esclusivamente al film -- il movimento attivista trans cileno lavorava a questo obiettivo da anni -- ma e innegabile che "Una donna fantastica" abbia accelerato il processo, portando la questione al centro del dibattito nazionale e generando un'ondata di empatia e comprensione nell'opinione pubblica.
+Sarebbe semplicistico attribuire l'approvazione della legge esclusivamente al film -- il movimento attivista trans cileno lavorava a questo obiettivo da anni -- ma e innegabile che "Una donna fantastica" abbia accelerato il processo, portando la questione al centro del dibattito nazionale e generando un'ondata di empatia e comprensione nell'opinione pubblica [4].
 
-Daniela Vega stessa divenne un simbolo del movimento per i [diritti trans](/wiki/diritti-trans-nel-mondo), partecipando a eventi pubblici, rilasciando interviste e usando la sua nuova visibilita per portare attenzione sulle condizioni di vita della comunita transgender cilena.
+Daniela Vega stessa divenne un simbolo del movimento per i [diritti trans](/wiki/diritti-trans-nel-mondo), partecipando a eventi pubblici, rilasciando interviste e usando la sua nuova visibilita per portare attenzione sulle condizioni di vita della comunita transgender cilena [7].
 
 ## La regia di Sebastian Lelio
 
-Sebastian Lelio, gia noto per il film "Gloria" (2013), dimostro con "Una donna fantastica" una sensibilita registica rara nel trattare tematiche trans. La sua regia evita sia la spettacolarizzazione sia la vittimizzazione, presentando Marina come un essere umano completo -- forte e vulnerabile, determinata e ferita, ordinaria e straordinaria.
+Sebastian Lelio, gia noto per il film "Gloria" (2013), dimostro con "Una donna fantastica" una sensibilita registica rara nel trattare tematiche trans [1]. La sua regia evita sia la spettacolarizzazione sia la vittimizzazione, presentando Marina come un essere umano completo -- forte e vulnerabile, determinata e ferita, ordinaria e straordinaria.
 
 Uno degli elementi piu apprezzati dalla critica e dalla comunita trans e il modo in cui Lelio tratta il corpo di Marina. In un genere cinematografico che troppo spesso si sofferma morbosamente sulla fisicita delle persone trans -- scene di svestizione, primi piani sul corpo, rivelazioni drammatiche -- Lelio sceglie la discrezione. Il corpo di Marina e presentato con la stessa naturalezza con cui verrebbe mostrato il corpo di qualsiasi altra protagonista.
 

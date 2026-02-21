@@ -84,7 +84,7 @@ media:
     year: 2014
 ---
 
-Nel 2024, l'88% delle persone trans uccise nel mondo -- monitorate da TGEU nel suo Trans Murder Monitoring -- erano persone di colore. Il 90% erano donne trans o persone transfemminili. Non è un caso. Non è una coincidenza statistica. È il risultato di ciò che accade quando più forme di marginalizzazione convergono sulla stessa persona: razzismo, transfobia, sessismo, povertà. Queste forze non si sommano in modo aritmetico. Si intrecciano, si amplificano, producono qualcosa di diverso dalla semplice giustapposizione delle parti.
+Nel 2024, l'88% delle persone trans uccise nel mondo -- monitorate da TGEU nel suo Trans Murder Monitoring -- erano persone di colore [8]. Il 90% erano donne trans o persone transfemminili [8]. Non è un caso. Non è una coincidenza statistica. È il risultato di ciò che accade quando più forme di marginalizzazione convergono sulla stessa persona: razzismo, transfobia, sessismo, povertà. Queste forze non si sommano in modo aritmetico. Si intrecciano, si amplificano, producono qualcosa di diverso dalla semplice giustapposizione delle parti.
 
 Per descrivere questo fenomeno esiste un concetto preciso: **intersezionalità**. E per le persone trans, non è una teoria astratta. È la differenza tra vivere in difficoltà e vivere in pericolo.
 
@@ -92,15 +92,15 @@ Per descrivere questo fenomeno esiste un concetto preciso: **intersezionalità**
 
 ### Le origini del concetto
 
-Il termine "intersezionalità" è stato coniato nel 1989 dalla giurista e accademica statunitense **Kimberlé Crenshaw** in un saggio pubblicato sull'University of Chicago Legal Forum: *Demarginalizing the Intersection of Race and Sex*. Crenshaw non stava costruendo una teoria astratta: stava analizzando casi giudiziari concreti in cui donne nere avevano fatto causa per discriminazione e i tribunali avevano respinto le istanze perché non rientravano né nella categoria "discriminazione razziale" né in quella "discriminazione sessuale".
+Il termine "intersezionalità" è stato coniato nel 1989 dalla giurista e accademica statunitense **Kimberlé Crenshaw** in un saggio pubblicato sull'University of Chicago Legal Forum: *Demarginalizing the Intersection of Race and Sex* [1]. Crenshaw non stava costruendo una teoria astratta: stava analizzando casi giudiziari concreti in cui donne nere avevano fatto causa per discriminazione e i tribunali avevano respinto le istanze perché non rientravano né nella categoria "discriminazione razziale" né in quella "discriminazione sessuale" [1].
 
 Il problema era strutturale: il sistema giuridico era progettato per riconoscere un solo asse di oppressione alla volta. Se un'azienda assumeva donne (bianche) e uomini (neri), poteva sostenere di non discriminare né in base al sesso né in base alla razza -- anche se non assumeva nessuna donna nera. L'esperienza specifica delle donne nere cadeva in una fessura tra le categorie.
 
-Due anni dopo, nel 1991, Crenshaw approfondì il concetto in *Mapping the Margins*, analizzando come la violenza contro le donne di colore venga sistematicamente sottovalutata sia dai movimenti femministi (che tendono a centrare l'esperienza delle donne bianche) sia dai movimenti antirazzisti (che tendono a centrare l'esperienza degli uomini neri).
+Due anni dopo, nel 1991, Crenshaw approfondì il concetto in *Mapping the Margins*, analizzando come la violenza contro le donne di colore venga sistematicamente sottovalutata sia dai movimenti femministi (che tendono a centrare l'esperienza delle donne bianche) sia dai movimenti antirazzisti (che tendono a centrare l'esperienza degli uomini neri) [2].
 
 ### Oltre la somma delle parti
 
-L'intuizione centrale dell'intersezionalità è che le identità non si sommano come numeri. Una donna trans nera e disabile non sperimenta "transfobia + razzismo + abilismo": sperimenta una forma di oppressione specifica che nasce dall'intersezione di tutti questi fattori e che non può essere compresa scomponendola nelle sue parti. È come la differenza tra guardare i singoli ingredienti e assaggiare il piatto: il risultato è qualitativamente diverso dalla lista dei componenti.
+L'intuizione centrale dell'intersezionalità è che le identità non si sommano come numeri [1]. Una donna trans nera e disabile non sperimenta "transfobia + razzismo + abilismo": sperimenta una forma di oppressione specifica che nasce dall'intersezione di tutti questi fattori e che non può essere compresa scomponendola nelle sue parti. È come la differenza tra guardare i singoli ingredienti e assaggiare il piatto: il risultato è qualitativamente diverso dalla lista dei componenti.
 
 Questo significa che le risposte -- legali, sanitarie, sociali -- devono essere progettate tenendo conto di queste intersezioni, non di categorie isolate. Una politica antidiscriminatoria che protegge le "persone trans" in astratto, senza considerare che una donna trans migrante affronta barriere radicalmente diverse da un uomo trans italiano con cittadinanza e laurea, rischia di funzionare solo per chi ha già meno bisogno di protezione.
 
@@ -108,19 +108,19 @@ Questo significa che le risposte -- legali, sanitarie, sociali -- devono essere 
 
 ### I dati: una disparità dentro la disparità
 
-I dati più completi sulle intersezioni tra identità trans e appartenenza etnica provengono dalla **U.S. Transgender Survey** (USTS). Lo studio del 2015, con oltre 27.000 partecipanti, e quello del 2022 hanno documentato differenze profonde all'interno della stessa comunità trans.
+I dati più completi sulle intersezioni tra identità trans e appartenenza etnica provengono dalla **U.S. Transgender Survey** (USTS). Lo studio del 2015, con oltre 27.000 partecipanti, e quello del 2022 hanno documentato differenze profonde all'interno della stessa comunità trans [3][4].
 
-Nell'indagine del 2015, il tasso di povertà tra le persone trans nel complesso era tre volte quello della popolazione generale statunitense (29% contro 12%). Ma disaggregando per etnia, il quadro si aggravava radicalmente: il **42%** delle persone trans di colore viveva in povertà, contro il 23% delle persone trans bianche. Per le donne trans nere il dato saliva ulteriormente. La disoccupazione seguiva lo stesso schema: 20% complessivo tra le persone trans, ma fino al 35% tra le persone trans nativi americane.
+Nell'indagine del 2015, il tasso di povertà tra le persone trans nel complesso era tre volte quello della popolazione generale statunitense (29% contro 12%) [3]. Ma disaggregando per etnia, il quadro si aggravava radicalmente: il **42%** delle persone trans di colore viveva in povertà, contro il 23% delle persone trans bianche [3]. Per le donne trans nere il dato saliva ulteriormente. La disoccupazione seguiva lo stesso schema: 20% complessivo tra le persone trans, ma fino al 35% tra le persone trans nativi americane [3].
 
-In ambito sanitario, il **33%** delle persone trans nere intervistate aveva rinunciato a cure mediche nell'anno precedente per paura della discriminazione, contro il 23% delle persone trans bianche. Il 41% aveva subito maltrattamenti in contesti sanitari, contro il 29%.
+In ambito sanitario, il **33%** delle persone trans nere intervistate aveva rinunciato a cure mediche nell'anno precedente per paura della discriminazione, contro il 23% delle persone trans bianche [3]. Il 41% aveva subito maltrattamenti in contesti sanitari, contro il 29% [3].
 
-Le disparità nella [salute mentale](/wiki/salute-mentale-persone-trans) seguono lo stesso schema. Il modello del minority stress -- teorizzato da Ilan Meyer e confermato da una revisione sistematica europea del 2023 -- prevede che l'esposizione cumulativa a più fonti di stigma produca un impatto sulla salute mentale che eccede la somma delle singole esposizioni. Le persone trans di colore, esposte simultaneamente a transfobia e razzismo, mostrano tassi più elevati di depressione, ansia e ideazione suicidaria rispetto sia alle persone trans bianche sia alle persone cisgender della stessa minoranza etnica.
+Le disparità nella [salute mentale](/wiki/salute-mentale-persone-trans) seguono lo stesso schema. Il modello del minority stress -- teorizzato da Ilan Meyer e confermato da una revisione sistematica europea del 2023 [7] -- prevede che l'esposizione cumulativa a più fonti di stigma produca un impatto sulla salute mentale che eccede la somma delle singole esposizioni. Le persone trans di colore, esposte simultaneamente a transfobia e razzismo, mostrano tassi più elevati di depressione, ansia e ideazione suicidaria rispetto sia alle persone trans bianche sia alle persone cisgender della stessa minoranza etnica [13].
 
 ### La violenza: chi viene ucciso
 
 I dati sulla violenza letale contro le persone trans sono il punto in cui l'intersezionalità smette di essere un concetto accademico e diventa una questione di vita o di morte.
 
-Il **Trans Murder Monitoring** di TGEU, il monitoraggio più sistematico degli omicidi di persone trans a livello globale, documenta anno dopo anno un pattern costante: le vittime sono nella stragrande maggioranza donne trans, di colore, giovani, spesso in condizioni di povertà o coinvolte nel [sex work](/wiki/sex-work-persone-trans). Nel rapporto 2025, l'88% delle vittime il cui background etnico era noto apparteneva a minoranze. Il 90% era costituito da donne trans o persone transfemminili. L'età mediana era sotto i 30 anni.
+Il **Trans Murder Monitoring** di TGEU, il monitoraggio più sistematico degli omicidi di persone trans a livello globale, documenta anno dopo anno un pattern costante: le vittime sono nella stragrande maggioranza donne trans, di colore, giovani, spesso in condizioni di povertà o coinvolte nel [sex work](/wiki/sex-work-persone-trans) [8]. Nel rapporto 2025, l'88% delle vittime il cui background etnico era noto apparteneva a minoranze [8]. Il 90% era costituito da donne trans o persone transfemminili [8]. L'età mediana era sotto i 30 anni.
 
 Questi numeri non descrivono una "comunità a rischio" generica. Descrivono un profilo specifico: la persona trans più vulnerabile alla violenza letale è giovane, di colore, povera, spesso priva di documenti regolari. Ogni fattore aggiuntivo di marginalizzazione non aggiunge un rischio: moltiplica quello esistente.
 
@@ -134,13 +134,13 @@ Le persone trans con disabilità affrontano quella che i ricercatori definiscono
 
 Questa invisibilità ha conseguenze pratiche. I centri di identità di genere -- in Italia come altrove -- sono spesso fisicamente inaccessibili per persone con disabilità motorie, oppure non dispongono di personale formato per comunicare con persone sorde o con disabilità cognitive. Le procedure standard dei percorsi di affermazione di genere presuppongono una capacità di navigare il sistema sanitario e burocratico che non tiene conto delle barriere aggiuntive che una persona disabile deve affrontare.
 
-La USTS del 2015 ha rilevato che il **39%** delle persone trans con disabilità viveva in povertà, contro il 24% delle persone trans senza disabilità. Le persone trans disabili avevano anche una probabilità significativamente più alta di aver subito violenza fisica (18% contro 9% nell'anno precedente l'indagine) e di aver tentato il suicidio (54% nel corso della vita, contro il 38% delle persone trans senza disabilità).
+La USTS del 2015 ha rilevato che il **39%** delle persone trans con disabilità viveva in povertà, contro il 24% delle persone trans senza disabilità [3]. Le persone trans disabili avevano anche una probabilità significativamente più alta di aver subito violenza fisica (18% contro 9% nell'anno precedente l'indagine) e di aver tentato il suicidio (54% nel corso della vita, contro il 38% delle persone trans senza disabilità) [3].
 
 ### Accesso ai percorsi di affermazione di genere
 
 Per le persone trans con disabilità, l'accesso ai percorsi di transizione presenta ostacoli specifici. In Italia, dove le [liste d'attesa dei centri di identità di genere](/wiki/trans-e-sanita) possono superare i 18 mesi, una persona con disabilità motoria potrebbe dover affrontare spostamenti di centinaia di chilometri verso centri specializzati che non sono attrezzati per accoglierla. Una persona con disabilità intellettiva potrebbe vedersi negare l'accesso alla terapia ormonale perché il protocollo richiede un consenso informato che il sistema non è in grado di adattare alle sue esigenze.
 
-Gli Standards of Care versione 8 della WPATH (2022) riconoscono esplicitamente la necessità di approcci individualizzati per le persone trans con disabilità, raccomandando che le barriere fisiche, sensoriali e cognitive non vengano utilizzate come motivo di esclusione dai percorsi di cura, ma vengano affrontate con adattamenti ragionevoli. La distanza tra questa raccomandazione e la pratica clinica quotidiana, tuttavia, resta ampia.
+Gli Standards of Care versione 8 della WPATH (2022) riconoscono esplicitamente la necessità di approcci individualizzati per le persone trans con disabilità, raccomandando che le barriere fisiche, sensoriali e cognitive non vengano utilizzate come motivo di esclusione dai percorsi di cura, ma vengano affrontate con adattamenti ragionevoli [9]. La distanza tra questa raccomandazione e la pratica clinica quotidiana, tuttavia, resta ampia.
 
 ## Essere trans e poveri
 
@@ -150,13 +150,13 @@ La classe sociale è forse l'asse di intersezionalità più sottovalutato nel di
 
 Le liste d'attesa del servizio pubblico -- documentate nel dettaglio nell'articolo sulla [situazione delle persone trans in Italia](/wiki/situazione-trans-italia) -- spingono chi può permetterselo verso il settore privato: endocrinologi, psicologi, chirurghi. I costi di una terapia ormonale seguita privatamente, pur variabili, si aggirano su diverse centinaia di euro all'anno. Gli interventi chirurgici non coperti o parzialmente coperti dal SSN possono raggiungere cifre a cinque zeri. Per le persone trans che vivono in condizioni di povertà, queste cifre rappresentano un muro invalicabile.
 
-Ma il problema non è solo il costo della transizione. È il circolo vizioso tra discriminazione lavorativa e povertà. Come documentato dall'indagine [ISTAT-UNAR del 2023](/wiki/discriminazione-lavoro-trans-italia), una persona trans su due in Italia ha subito discriminazione nella ricerca di lavoro. Il 46,4% ha rinunciato a candidarsi per un posto per cui era qualificata. Il tasso di disoccupazione delle persone trans è stimato fino a cinque volte superiore alla media nazionale.
+Ma il problema non è solo il costo della transizione. È il circolo vizioso tra discriminazione lavorativa e povertà. Come documentato dall'indagine [ISTAT-UNAR del 2023](/wiki/discriminazione-lavoro-trans-italia), una persona trans su due in Italia ha subito discriminazione nella ricerca di lavoro [6]. Il 46,4% ha rinunciato a candidarsi per un posto per cui era qualificata [6]. Il tasso di disoccupazione delle persone trans è stimato fino a cinque volte superiore alla media nazionale.
 
 La discriminazione lavorativa produce povertà. La povertà impedisce l'accesso alle cure private quando il pubblico non è disponibile. L'impossibilità di completare la transizione impedisce la rettifica dei documenti. I documenti incongruenti alimentano la discriminazione lavorativa. La spirale si chiude.
 
 ### Il sex work come esito della marginalizzazione economica
 
-Uno studio del 2013 pubblicato su PubMed ha analizzato sistematicamente come la discriminazione a livello sistemico, istituzionale e interpersonale spinga alcune donne trans -- in particolare quelle di colore e di bassa estrazione sociale -- verso il [sex work](/wiki/sex-work-persone-trans) come strategia di sopravvivenza. Non è una scelta identitaria: è la conseguenza della chiusura progressiva di tutte le alternative economiche.
+Uno studio del 2013 pubblicato su PubMed ha analizzato sistematicamente come la discriminazione a livello sistemico, istituzionale e interpersonale spinga alcune donne trans -- in particolare quelle di colore e di bassa estrazione sociale -- verso il [sex work](/wiki/sex-work-persone-trans) come strategia di sopravvivenza [10]. Non è una scelta identitaria: è la conseguenza della chiusura progressiva di tutte le alternative economiche.
 
 In Italia, questa dinamica ha radici storiche profonde. Negli anni Settanta e Ottanta, per molte donne trans la prostituzione era una delle poche vie di sostentamento disponibili. Oggi le alternative sono formalmente più ampie, ma le barriere strutturali -- discriminazione lavorativa, mancanza di documenti coerenti, rifiuto familiare -- continuano a produrre vulnerabilità economica, e questa vulnerabilità non è distribuita in modo omogeneo: colpisce in modo sproporzionato le persone trans che appartengono anche ad altre minoranze.
 
@@ -172,11 +172,11 @@ La [legge 164/1982](/wiki/legge-164-italia) consente la rettifica anagrafica del
 
 ### Casa Caterina e le risorse esistenti
 
-Il MIT (Movimento Identità Trans) di Bologna ha aperto nel 2018 **Casa Caterina**, il primo rifugio protetto in Europa dedicato specificamente a persone trans rifugiate e richiedenti asilo. La struttura offre accoglienza abitativa, supporto legale per le pratiche di asilo, accompagnamento sanitario e inserimento lavorativo. È una buona pratica riconosciuta a livello internazionale, ma resta un'eccezione: una singola struttura in un singolo territorio per un bisogno che attraversa l'intero paese.
+Il MIT (Movimento Identità Trans) di Bologna ha aperto nel 2018 **Casa Caterina**, il primo rifugio protetto in Europa dedicato specificamente a persone trans rifugiate e richiedenti asilo [12]. La struttura offre accoglienza abitativa, supporto legale per le pratiche di asilo, accompagnamento sanitario e inserimento lavorativo. È una buona pratica riconosciuta a livello internazionale, ma resta un'eccezione: una singola struttura in un singolo territorio per un bisogno che attraversa l'intero paese.
 
 Alcune sezioni locali di Arcigay e la Rete Trans Nazionale offrono sportelli di orientamento per persone trans migranti, ma la copertura territoriale è frammentaria. Nelle regioni meridionali e nelle isole, dove peraltro si concentra una parte significativa degli arrivi migratori, le risorse dedicate sono pressoché assenti.
 
-La Strategia Nazionale LGBT+ 2022-2025 dell'UNAR menziona la necessità di interventi specifici per le persone LGBTIQ+ migranti, ma senza stanziamenti dedicati e con un'implementazione ancora largamente insufficiente.
+La Strategia Nazionale LGBT+ 2022-2025 dell'UNAR menziona la necessità di interventi specifici per le persone LGBTIQ+ migranti, ma senza stanziamenti dedicati e con un'implementazione ancora largamente insufficiente [11].
 
 ## Il contesto italiano: Nord, Sud e le disuguaglianze interne
 
@@ -186,15 +186,15 @@ In Italia, la possibilità concreta di vivere la propria identità di genere dip
 
 Questa disparità territoriale non è solo una questione sanitaria. È una questione di classe. Le famiglie con risorse economiche possono permettersi gli spostamenti, le visite private, i tempi di attesa ridotti del settore privato. Le famiglie senza queste risorse -- che nel Mezzogiorno sono proporzionalmente più numerose -- sono intrappolate in liste d'attesa che possono durare anni, con conseguenze sulla salute mentale, sulla vita scolastica e lavorativa, e sulla possibilità stessa di vivere in modo autentico.
 
-L'Istituto Superiore di Sanità, nel suo comunicato del 2022 sulla salute di genere nella popolazione transgender, ha evidenziato un basso livello di prevenzione sanitaria tra le persone trans in Italia. Il dato è nazionale, ma le disparità regionali suggeriscono che il problema sia particolarmente acuto nelle aree con minore offerta di servizi dedicati.
+L'Istituto Superiore di Sanità, nel suo comunicato del 2022 sulla salute di genere nella popolazione transgender, ha evidenziato un basso livello di prevenzione sanitaria tra le persone trans in Italia [15]. Il dato è nazionale, ma le disparità regionali suggeriscono che il problema sia particolarmente acuto nelle aree con minore offerta di servizi dedicati.
 
 ### Transfobia e contesto culturale
 
-La terza indagine FRA sulle persone LGBTIQ+ (2024) ha collocato l'Italia al di sotto della media europea su diversi indicatori di inclusione. Il 38% delle persone LGBTIQ+ italiane ha subito discriminazione in almeno un ambito della vita nell'anno precedente l'indagine. Ma il dato nazionale nasconde differenze regionali significative.
+La terza indagine FRA sulle persone LGBTIQ+ (2024) ha collocato l'Italia al di sotto della media europea su diversi indicatori di inclusione [5]. Il 38% delle persone LGBTIQ+ italiane ha subito discriminazione in almeno un ambito della vita nell'anno precedente l'indagine [5]. Ma il dato nazionale nasconde differenze regionali significative.
 
 Il contesto culturale delle aree più conservatrici del paese -- non necessariamente coincidenti con il solo Mezzogiorno, ma spesso correlate a centri di minori dimensioni e a minore esposizione alla diversità -- produce un clima in cui il coming out come persona trans comporta rischi sociali maggiori: rifiuto familiare, isolamento comunitario, violenza. Per le persone trans che vivono in questi contesti e appartengono anche ad altre minoranze (migranti, disabili, di bassa estrazione sociale), i rischi si moltiplicano.
 
-La [politica italiana sui diritti trans](/wiki/politica-italiana-diritti-trans) riflette queste tensioni. La bocciatura del DDL Zan nel 2021 ha lasciato il paese senza una legge specifica contro i crimini d'odio fondati sull'identità di genere, rendendo ancora più vulnerabili le persone trans che già affrontano discriminazione su altri fronti.
+La [politica italiana sui diritti trans](/wiki/politica-italiana-diritti-trans) riflette queste tensioni. La bocciatura del DDL Zan nel 2021 ha lasciato il paese senza una legge specifica contro i crimini d'odio fondati sull'identità di genere, rendendo ancora più vulnerabili le persone trans che già affrontano discriminazione su altri fronti [14].
 
 ## L'età come fattore intersezionale
 
@@ -204,7 +204,7 @@ Per gli adolescenti trans, l'intersezionalità si manifesta attraverso la dipend
 
 I dati internazionali sono eloquenti. Il Family Acceptance Project ha dimostrato che i giovani LGBT con elevato rifiuto familiare sono 8,4 volte più a rischio di tentativo di suicidio. Per gli adolescenti trans che appartengono anche a minoranze etniche o vivono in povertà, il rifiuto familiare è statisticamente più frequente e i servizi di supporto sono meno accessibili.
 
-In Italia, la [scuola](/wiki/trans-e-scuola) rappresenta un contesto critico: il 66,1% delle persone trans la cui identità era visibile durante gli studi ha subito discriminazioni, secondo l'indagine ISTAT-UNAR del 2023. Per gli studenti trans che sono anche migranti o disabili, l'esperienza scolastica può diventare una trappola da cui è difficile uscire senza supporto esterno.
+In Italia, la [scuola](/wiki/trans-e-scuola) rappresenta un contesto critico: il 66,1% delle persone trans la cui identità era visibile durante gli studi ha subito discriminazioni, secondo l'indagine ISTAT-UNAR del 2023 [6]. Per gli studenti trans che sono anche migranti o disabili, l'esperienza scolastica può diventare una trappola da cui è difficile uscire senza supporto esterno.
 
 ### Persone trans anziane
 
@@ -224,11 +224,11 @@ Allo stesso modo, una campagna di sensibilizzazione contro la transfobia che uti
 
 ### Come l'intersezionalità migliora i servizi
 
-Le raccomandazioni degli Standards of Care versione 8 della WPATH (2022) integrano esplicitamente una prospettiva intersezionale, riconoscendo che le barriere all'accesso alle cure di affermazione di genere sono distribuite in modo diseguale e che i protocolli di trattamento devono essere adattati alle condizioni specifiche di ciascuna persona, inclusa la sua posizione rispetto a razza, classe, disabilità e status migratorio.
+Le raccomandazioni degli Standards of Care versione 8 della WPATH (2022) integrano esplicitamente una prospettiva intersezionale, riconoscendo che le barriere all'accesso alle cure di affermazione di genere sono distribuite in modo diseguale e che i protocolli di trattamento devono essere adattati alle condizioni specifiche di ciascuna persona, inclusa la sua posizione rispetto a razza, classe, disabilità e status migratorio [9].
 
 In pratica, un approccio intersezionale ai servizi per le persone trans significa:
 
-**Raccogliere dati disaggregati.** Non basta sapere quante persone trans subiscono discriminazione. È necessario sapere chi, tra le persone trans, subisce più discriminazione, e perché. L'indagine ISTAT-UNAR del 2023 rappresenta un passo avanti importante, ma non disaggrega i dati per etnia, disabilità o status migratorio. Senza questi dati, le politiche volano alla cieca.
+**Raccogliere dati disaggregati.** Non basta sapere quante persone trans subiscono discriminazione. È necessario sapere chi, tra le persone trans, subisce più discriminazione, e perché. L'indagine ISTAT-UNAR del 2023 rappresenta un passo avanti importante [6], ma non disaggrega i dati per etnia, disabilità o status migratorio. Senza questi dati, le politiche volano alla cieca.
 
 **Progettare servizi accessibili.** I centri di identità di genere devono essere fisicamente accessibili, culturalmente competenti e linguisticamente attrezzati. Questo significa rampe e ascensori, ma anche interpreti, mediatori culturali e personale formato sulle specificità delle persone trans migranti o disabili.
 
@@ -240,7 +240,7 @@ In pratica, un approccio intersezionale ai servizi per le persone trans signific
 
 ### Le associazioni e la prospettiva intersezionale
 
-Il movimento trans italiano ha iniziato a integrare una prospettiva intersezionale, ma il processo è ancora in corso. Il MIT di Bologna, con l'apertura di Casa Caterina per persone trans rifugiate, ha dato una risposta concreta a un bisogno intersezionale specifico. La Rete Trans Nazionale di Arcigay, che nel 2024 ha supportato 899 persone, include nei suoi servizi l'accompagnamento legale per le pratiche di asilo e il supporto per la [genitorialità trans](/wiki/genitorialita-trans), riconoscendo che le esigenze delle persone trans non si esauriscono nella transizione medica.
+Il movimento trans italiano ha iniziato a integrare una prospettiva intersezionale, ma il processo è ancora in corso. Il MIT di Bologna, con l'apertura di Casa Caterina per persone trans rifugiate, ha dato una risposta concreta a un bisogno intersezionale specifico [12]. La Rete Trans Nazionale di Arcigay, che nel 2024 ha supportato 899 persone, include nei suoi servizi l'accompagnamento legale per le pratiche di asilo e il supporto per la [genitorialità trans](/wiki/genitorialita-trans), riconoscendo che le esigenze delle persone trans non si esauriscono nella transizione medica.
 
 Il [femminismo intersezionale italiano](/wiki/femminismo-e-donne-trans), incarnato da movimenti come Non Una Di Meno, ha esplicitamente incluso le donne trans nella propria piattaforma politica, riconoscendo che la lotta contro il patriarcato e quella contro la transfobia sono inseparabili.
 
@@ -252,6 +252,6 @@ Il quadro che emerge da questa analisi è chiaro: le persone trans non sono un g
 
 L'intersezionalità non è un'aggiunta opzionale al discorso sui diritti trans. È la condizione necessaria perché quel discorso sia onesto. Riconoscere che la comunità trans è attraversata dalle stesse disuguaglianze che attraversano la società nel suo insieme -- razzismo, abilismo, classismo, xenofobia -- non indebolisce la lotta per i diritti trans. La rende più lucida, più efficace e più giusta.
 
-I dati disponibili -- dalla USTS alle indagini FRA, dal monitoraggio TGEU ai rapporti ISTAT-UNAR -- documentano in modo coerente che le intersezioni tra identità trans e altre forme di marginalizzazione producono vulnerabilità specifiche, misurabili e prevedibili. Questo significa che sono anche affrontabili, a condizione di volerle vedere.
+I dati disponibili -- dalla USTS [3][4] alle indagini FRA [5], dal monitoraggio TGEU [8] ai rapporti ISTAT-UNAR [6] -- documentano in modo coerente che le intersezioni tra identità trans e altre forme di marginalizzazione producono vulnerabilità specifiche, misurabili e prevedibili. Questo significa che sono anche affrontabili, a condizione di volerle vedere.
 
 Raccogliere dati disaggregati. Progettare servizi accessibili. Ascoltare le voci di chi vive all'intersezione. Non è idealismo: è il requisito minimo per politiche che funzionino per tutti, non solo per chi ha già meno bisogno di aiuto.

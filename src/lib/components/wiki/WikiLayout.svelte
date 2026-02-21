@@ -1,5 +1,6 @@
 <script lang="ts">
 	import ShareButtons from '$lib/components/ui/ShareButtons.svelte';
+	import { glossaryTerms } from '$lib/data/glossary';
 
 	let {
 		title,
@@ -45,6 +46,197 @@
 				window.location.hash = id;
 			};
 			h.appendChild(btn);
+		}
+	});
+
+	// Glossary term annotations
+	const skipTags = new Set(['A', 'CODE', 'PRE', 'H1', 'H2', 'H3', 'H4', 'H5', 'H6']);
+
+	function isInsideSkippedTag(node: Node): boolean {
+		let parent = node.parentElement;
+		while (parent && parent !== proseEl) {
+			if (skipTags.has(parent.tagName)) return true;
+			parent = parent.parentElement;
+		}
+		return false;
+	}
+
+	$effect(() => {
+		if (!proseEl) return;
+		// Skip if already annotated
+		if (proseEl.querySelector('.glossary-term')) return;
+
+		const annotated = new Set<string>();
+
+		// Sort terms by length descending so longer terms match first
+		const sortedTerms = [...glossaryTerms].sort((a, b) => b.term.length - a.term.length);
+
+		for (const { term, definition, link } of sortedTerms) {
+			if (annotated.has(term)) continue;
+
+			// Build regex: escape special chars, word boundary, case-insensitive
+			const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+			const regex = new RegExp(`\\b${escaped}\\b`, 'i');
+
+			const walker = document.createTreeWalker(proseEl, NodeFilter.SHOW_TEXT);
+			let textNode: Text | null;
+			let found = false;
+
+			while ((textNode = walker.nextNode() as Text | null)) {
+				if (found) break;
+				if (isInsideSkippedTag(textNode)) continue;
+
+				const match = textNode.textContent?.match(regex);
+				if (!match || match.index === undefined) continue;
+
+				const before = textNode.textContent!.substring(0, match.index);
+				const matched = textNode.textContent!.substring(match.index, match.index + match[0].length);
+				const after = textNode.textContent!.substring(match.index + match[0].length);
+
+				const span = document.createElement('span');
+				span.className = 'glossary-term';
+				span.setAttribute('role', 'button');
+				span.setAttribute('aria-expanded', 'false');
+				span.setAttribute('tabindex', '0');
+				span.setAttribute('data-definition', definition);
+				if (link) span.setAttribute('data-link', link);
+				span.textContent = matched;
+
+				const parent = textNode.parentNode!;
+				if (before) parent.insertBefore(document.createTextNode(before), textNode);
+				parent.insertBefore(span, textNode);
+				if (after) parent.insertBefore(document.createTextNode(after), textNode);
+				parent.removeChild(textNode);
+
+				annotated.add(term);
+				found = true;
+			}
+		}
+	});
+
+	// Glossary popover click handler
+	function handleGlossaryClick(e: MouseEvent) {
+		const target = (e.target as HTMLElement).closest('.glossary-term') as HTMLElement | null;
+
+		// Close any existing popover
+		const existing = proseEl?.querySelector('.glossary-popover');
+		if (existing) {
+			const prevTerm = existing.previousElementSibling ?? existing.parentElement;
+			prevTerm?.setAttribute('aria-expanded', 'false');
+			existing.remove();
+		}
+
+		if (!target) return;
+
+		// If we just closed the popover for this same term, stop
+		if (existing && existing.previousElementSibling === target) return;
+
+		const definition = target.getAttribute('data-definition');
+		const link = target.getAttribute('data-link');
+		if (!definition) return;
+
+		target.setAttribute('aria-expanded', 'true');
+
+		const popover = document.createElement('div');
+		popover.className = 'glossary-popover';
+
+		let html = `<p style="margin:0">${definition}</p>`;
+		if (link) {
+			html += `<a href="${link}" class="glossary-popover-link">Approfondisci &rarr;</a>`;
+		}
+		popover.innerHTML = html;
+
+		// Position below the term
+		target.style.position = 'relative';
+		target.appendChild(popover);
+	}
+
+	function handleGlossaryKeydown(e: KeyboardEvent) {
+		if (e.key === 'Enter' || e.key === ' ') {
+			const target = (e.target as HTMLElement).closest('.glossary-term');
+			if (target) {
+				e.preventDefault();
+				handleGlossaryClick(e as unknown as MouseEvent);
+			}
+		}
+	}
+
+	function handleClickOutside(e: MouseEvent) {
+		const target = e.target as HTMLElement;
+		if (!target.closest('.glossary-term') && !target.closest('.glossary-popover')) {
+			const existing = proseEl?.querySelector('.glossary-popover');
+			if (existing) {
+				const prevTerm = existing.parentElement;
+				prevTerm?.setAttribute('aria-expanded', 'false');
+				existing.remove();
+			}
+		}
+	}
+
+	$effect(() => {
+		if (!proseEl) return;
+		proseEl.addEventListener('click', handleGlossaryClick);
+		proseEl.addEventListener('keydown', handleGlossaryKeydown);
+		document.addEventListener('click', handleClickOutside);
+		return () => {
+			proseEl.removeEventListener('click', handleGlossaryClick);
+			proseEl.removeEventListener('keydown', handleGlossaryKeydown);
+			document.removeEventListener('click', handleClickOutside);
+		};
+	});
+
+	// Inline citation references: [1], [2], etc. → superscript links to #fonte-N
+	$effect(() => {
+		if (!proseEl || sources.length === 0) return;
+		if (proseEl.querySelector('.cite-ref')) return;
+
+		const citationRegex = /\[(\d+)\]/g;
+		const walker = document.createTreeWalker(proseEl, NodeFilter.SHOW_TEXT);
+		const nodesToProcess: { node: Text; matches: { index: number; num: number; length: number }[] }[] = [];
+
+		let textNode: Text | null;
+		while ((textNode = walker.nextNode() as Text | null)) {
+			if (isInsideSkippedTag(textNode)) continue;
+			const text = textNode.textContent ?? '';
+			const matches: { index: number; num: number; length: number }[] = [];
+			let m;
+			while ((m = citationRegex.exec(text)) !== null) {
+				const num = parseInt(m[1], 10);
+				if (num >= 1 && num <= sources.length) {
+					matches.push({ index: m.index, num, length: m[0].length });
+				}
+			}
+			if (matches.length > 0) {
+				nodesToProcess.push({ node: textNode, matches });
+			}
+		}
+
+		for (const { node, matches } of nodesToProcess) {
+			const text = node.textContent ?? '';
+			const parent = node.parentNode!;
+			const frag = document.createDocumentFragment();
+			let lastIdx = 0;
+
+			for (const { index, num, length } of matches) {
+				if (index > lastIdx) {
+					frag.appendChild(document.createTextNode(text.substring(lastIdx, index)));
+				}
+				const sup = document.createElement('sup');
+				const a = document.createElement('a');
+				a.href = `#fonte-${num}`;
+				a.className = 'cite-ref';
+				a.title = sources[num - 1]?.title ?? '';
+				a.textContent = `[${num}]`;
+				sup.appendChild(a);
+				frag.appendChild(sup);
+				lastIdx = index + length;
+			}
+
+			if (lastIdx < text.length) {
+				frag.appendChild(document.createTextNode(text.substring(lastIdx)));
+			}
+
+			parent.replaceChild(frag, node);
 		}
 	});
 
@@ -128,9 +320,9 @@
 	{#if sources.length > 0}
 		<footer class="mt-12 pt-8 border-t border-border">
 			<h2 class="text-xl font-heading font-semibold text-primary mb-4">Fonti</h2>
-			<ul class="space-y-2">
-				{#each sources as source}
-					<li>
+			<ol class="space-y-2 list-decimal list-inside">
+				{#each sources as source, i}
+					<li id="fonte-{i + 1}">
 						<a href={source.url} target="_blank" rel="noopener noreferrer" class="text-primary underline hover:no-underline">
 							{source.title}
 						</a>
@@ -139,7 +331,7 @@
 						{/if}
 					</li>
 				{/each}
-			</ul>
+			</ol>
 		</footer>
 	{/if}
 

@@ -83,7 +83,7 @@
 					bind:value={navSearch}
 					{articles}
 					{quizzes}
-					placeholder="Cerca..."
+					placeholder="Cerca nel sito..."
 					size="sm"
 					onsubmit={handleSearch}
 				/>
@@ -121,7 +121,7 @@
 						bind:value={navSearch}
 						{articles}
 						{quizzes}
-						placeholder="Cerca articoli e quiz..."
+						placeholder="Cerca nel sito..."
 						size="base"
 						onsubmit={handleSearch}
 					/>

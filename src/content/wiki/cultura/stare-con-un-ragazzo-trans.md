@@ -63,7 +63,7 @@ related:
 
 Se stai leggendo questo articolo, probabilmente ti trovi in una di queste situazioni: stai frequentando un ragazzo trans, hai iniziato una relazione con lui, oppure sei semplicemente curioso di capire come funziona. Magari hai fatto ricerche online e hai trovato poco di concreto, oppure hai trovato troppo -- e quasi tutto scritto da chi una relazione con un ragazzo trans non l'ha mai vissuta.
 
-Partiamo da un dato che la ricerca conferma con chiarezza: le relazioni con uomini transgender hanno le stesse basi di qualsiasi altra relazione. Una revisione sistematica del 2021 ha analizzato gli studi disponibili sulla qualità delle relazioni romantiche delle persone trans e ha concluso che i livelli di soddisfazione relazionale sono comparabili a quelli delle coppie cisgender (Docter & Green, 2021). Quello che fa funzionare una coppia non è l'identità di genere dei partner, ma la comunicazione, il rispetto reciproco e la volontà di costruire qualcosa insieme.
+Partiamo da un dato che la ricerca conferma con chiarezza: le relazioni con uomini transgender hanno le stesse basi di qualsiasi altra relazione. Una revisione sistematica del 2021 ha analizzato gli studi disponibili sulla qualità delle relazioni romantiche delle persone trans e ha concluso che i livelli di soddisfazione relazionale sono comparabili a quelli delle coppie cisgender [1]. Quello che fa funzionare una coppia non è l'identità di genere dei partner, ma la comunicazione, il rispetto reciproco e la volontà di costruire qualcosa insieme.
 
 ## Un ragazzo trans è un ragazzo
 
@@ -75,7 +75,7 @@ Se ti stai chiedendo "ma allora sono etero?", la risposta è semplice: se sei un
 
 ## La comunicazione è tutto (davvero)
 
-Ogni guida sulle relazioni dice che la comunicazione è importante. Nelle relazioni con ragazzi trans, la comunicazione non è solo importante: è il collante che tiene insieme tutto il resto. Uno studio del 2021 sulle coppie in cui un partner è in transizione ha evidenziato che le coppie con livelli più alti di comunicazione aperta riportavano maggiore soddisfazione relazionale e migliore gestione delle sfide specifiche della transizione (Motter & Softas-Nall, 2021).
+Ogni guida sulle relazioni dice che la comunicazione è importante. Nelle relazioni con ragazzi trans, la comunicazione non è solo importante: è il collante che tiene insieme tutto il resto. Uno studio del 2021 sulle coppie in cui un partner è in transizione ha evidenziato che le coppie con livelli più alti di comunicazione aperta riportavano maggiore soddisfazione relazionale e migliore gestione delle sfide specifiche della transizione [2].
 
 Comunicare significa parlare di:
 
@@ -106,7 +106,7 @@ Se il tuo ragazzo è in terapia con testosterone o sta per iniziarla, ci sono ca
 
 ### I cambiamenti fisici
 
-Il testosterone produce una serie di cambiamenti graduali e documentati: la voce si abbassa, compare la peluria facciale e corporea, la massa muscolare aumenta, il grasso si redistribuisce, il ciclo mestruale si interrompe. Secondo le linee guida UCSF per la terapia con testosterone, i primi cambiamenti compaiono entro 1-6 mesi e il percorso completo richiede 2-5 anni (UCSF Transgender Care, 2016). Se vuoi approfondire, abbiamo un articolo dedicato ai [cambiamenti fisici della terapia ormonale](/wiki/corpo-cambia-dopo-ormoni).
+Il testosterone produce una serie di cambiamenti graduali e documentati: la voce si abbassa, compare la peluria facciale e corporea, la massa muscolare aumenta, il grasso si redistribuisce, il ciclo mestruale si interrompe. Secondo le linee guida UCSF per la terapia con testosterone, i primi cambiamenti compaiono entro 1-6 mesi e il percorso completo richiede 2-5 anni [5]. Se vuoi approfondire, abbiamo un articolo dedicato ai [cambiamenti fisici della terapia ormonale](/wiki/corpo-cambia-dopo-ormoni).
 
 Come partner, potresti notare:
 
@@ -119,13 +119,13 @@ Molti partner descrivono questi cambiamenti come un'esperienza affascinante: gua
 
 ### Gli effetti sulle emozioni
 
-Il testosterone può influenzare l'umore, specialmente nei primi mesi. Alcuni uomini trans riportano una fase iniziale di maggiore irritabilità o impulsività, che tende a stabilizzarsi nel tempo. Uno studio sulla personalità degli uomini trans in terapia con testosterone ha mostrato che nel lungo termine i tratti legati alla socialità aumentano, mentre quelli legati allo stress interpersonale diminuiscono (Schneider et al., 2019). In altre parole: il testosterone non rende aggressivi. Spesso rende più sicuri di sé.
+Il testosterone può influenzare l'umore, specialmente nei primi mesi. Alcuni uomini trans riportano una fase iniziale di maggiore irritabilità o impulsività, che tende a stabilizzarsi nel tempo. In altre parole: il testosterone non rende aggressivi. Spesso rende più sicuri di sé.
 
 ## L'intimità: onesta, flessibile, unica
 
 L'intimità sessuale nelle relazioni con ragazzi trans è un tema su cui circolano molte fantasie e poche informazioni concrete. La realtà è più semplice e più varia di quanto si pensi.
 
-Uno studio qualitativo del 2020 sulla soddisfazione sessuale degli uomini trans e delle persone transmasculine ha evidenziato che la maggior parte dei partecipanti riportava una vita sessuale soddisfacente, e che i fattori chiave erano la comunicazione con il partner, il comfort con il proprio corpo e la flessibilità nell'esplorare cosa funziona per entrambi (Bauer et al., 2020).
+Uno studio qualitativo del 2020 sulla soddisfazione sessuale degli uomini trans e delle persone transmasculine ha evidenziato che la maggior parte dei partecipanti riportava una vita sessuale soddisfacente, e che i fattori chiave erano la comunicazione con il partner, il comfort con il proprio corpo e la flessibilità nell'esplorare cosa funziona per entrambi [4].
 
 Alcuni punti pratici:
 
@@ -138,7 +138,7 @@ Per un approfondimento sulla sessualità e le persone trans, puoi leggere il nos
 
 ## La famiglia e le reazioni degli altri
 
-Presentare il tuo ragazzo alla famiglia o agli amici può generare ansia, specialmente se non sai come reagiranno. La ricerca sulla family acceptance mostra che il supporto familiare ha un impatto significativo sulla salute mentale delle persone LGBT+: uno studio fondamentale del 2010 ha documentato che i giovani LGBT+ con famiglie accoglienti avevano livelli significativamente più bassi di depressione, uso di sostanze e ideazione suicidaria (Ryan et al., 2010).
+Presentare il tuo ragazzo alla famiglia o agli amici può generare ansia, specialmente se non sai come reagiranno. La ricerca sulla family acceptance mostra che il supporto familiare ha un impatto significativo sulla salute mentale delle persone LGBT+: uno studio fondamentale del 2010 ha documentato che i giovani LGBT+ con famiglie accoglienti avevano livelli significativamente più bassi di depressione, uso di sostanze e ideazione suicidaria [11].
 
 ### Come gestire la famiglia
 
@@ -149,11 +149,11 @@ Alcune situazioni che potresti affrontare:
 - **Il tuo ragazzo potrebbe non voler essere "out"** con tutti, e questa decisione va rispettata
 - **Alcuni familiari potrebbero usare il nome o i pronomi sbagliati**, per abitudine o per resistenza. È importante correggerli con gentilezza ma con fermezza
 
-Il consiglio che emerge dalla letteratura sulla terapia di coppia con persone transgender è definire insieme una strategia: decidere chi sa cosa, come rispondere alle domande inappropriate, e come proteggervi a vicenda senza isolarvi (Malpas, 2019).
+Il consiglio che emerge dalla letteratura sulla terapia di coppia con persone transgender è definire insieme una strategia: decidere chi sa cosa, come rispondere alle domande inappropriate, e come proteggervi a vicenda senza isolarvi [10].
 
 ### Affrontare il pregiudizio esterno
 
-Il pregiudizio esiste. Uno studio del 2016 sullo stigma transgender ha documentato che le persone trans affrontano discriminazione in ambito lavorativo, sanitario e sociale, e che questo stigma si estende anche ai partner, un fenomeno noto come "stigma per associazione" (White Hughto et al., 2016).
+Il pregiudizio esiste. Uno studio del 2016 sullo stigma transgender ha documentato che le persone trans affrontano discriminazione in ambito lavorativo, sanitario e sociale, e che questo stigma si estende anche ai partner, un fenomeno noto come "stigma per associazione" [9].
 
 In pratica, questo significa:
 
@@ -170,11 +170,11 @@ Se state pensando al futuro e la genitorialità fa parte dei vostri progetti, le
 
 ### Preservazione della fertilità
 
-Le linee guida WPATH (Standards of Care, versione 8, 2022) raccomandano che le persone trans vengano informate sulle opzioni di preservazione della fertilità prima di iniziare la terapia ormonale. Per gli uomini trans, questo include la crioconservazione degli ovociti, una procedura consolidata e ampiamente disponibile.
+Le linee guida WPATH (Standards of Care, versione 8, 2022) raccomandano che le persone trans vengano informate sulle opzioni di preservazione della fertilità prima di iniziare la terapia ormonale [8]. Per gli uomini trans, questo include la crioconservazione degli ovociti, una procedura consolidata e ampiamente disponibile [7].
 
 ### Gravidanza
 
-Uno studio del 2021 sulla gravidanza negli uomini trans ha documentato che la gravidanza è possibile anche dopo periodi di terapia con testosterone: il 61% dei partecipanti ha sospeso il testosterone prima della gravidanza, e l'80% ha riportato il ritorno del ciclo mestruale entro 6 mesi dalla sospensione (Obedin-Maliver & Makadon, 2021). La gravidanza in un uomo trans richiede un supporto medico informato e sensibile, ma dal punto di vista biologico, i risultati sono comparabili a quelli delle gravidanze cisgender.
+Uno studio del 2021 sulla gravidanza negli uomini trans ha documentato che la gravidanza è possibile anche dopo periodi di terapia con testosterone: il 61% dei partecipanti ha sospeso il testosterone prima della gravidanza, e l'80% ha riportato il ritorno del ciclo mestruale entro 6 mesi dalla sospensione [6]. La gravidanza in un uomo trans richiede un supporto medico informato e sensibile, ma dal punto di vista biologico, i risultati sono comparabili a quelli delle gravidanze cisgender [6].
 
 ### Adozione e PMA
 
@@ -184,7 +184,7 @@ L'adozione e la procreazione medicalmente assistita sono opzioni concrete per le
 
 Fin qui abbiamo parlato di sfide, e le sfide sono reali. Ma sarebbe disonesto fermarsi qui, perché le relazioni con ragazzi trans hanno anche qualcosa di unico in senso positivo.
 
-Uno studio del 2018 sulle esperienze dei partner di persone transgender ha evidenziato che molti partner cisgender descrivono la relazione come un'esperienza che li ha resi più consapevoli, più empatici e più capaci di comunicare (Platt & Bolland, 2018). Quando sei con qualcuno che ha dovuto lottare per essere se stesso, impari cose sulla resilienza, sull'autenticità e sul coraggio che non avresti imparato altrimenti.
+Uno studio del 2018 sulle esperienze dei partner di persone transgender ha evidenziato che molti partner cisgender descrivono la relazione come un'esperienza che li ha resi più consapevoli, più empatici e più capaci di comunicare [3]. Quando sei con qualcuno che ha dovuto lottare per essere se stesso, impari cose sulla resilienza, sull'autenticità e sul coraggio che non avresti imparato altrimenti.
 
 Molte coppie riportano:
 
@@ -193,7 +193,7 @@ Molte coppie riportano:
 - **Una comprensione più ampia dell'identità e delle relazioni umane**, che arricchisce entrambi i partner
 - **La soddisfazione di costruire qualcosa insieme** in un mondo che non sempre lo rende facile
 
-Lo studio "Love is Gender Blind" (Motter & Softas-Nall, 2021) ha documentato che le coppie che attraversano la transizione insieme spesso emergono con un legame più forte, una comunicazione migliore e una comprensione reciproca più profonda.
+Lo studio "Love is Gender Blind" ha documentato che le coppie che attraversano la transizione insieme spesso emergono con un legame più forte, una comunicazione migliore e una comprensione reciproca più profonda [2].
 
 ## Risorse e supporto
 
@@ -202,7 +202,7 @@ Se senti il bisogno di confrontarti con altre persone nella tua stessa situazion
 - **[Infotrans.it](https://www.infotrans.it/)** -- Portale dell'Istituto Superiore di Sanità con informazioni, servizi e mappa dei professionisti
 - **[Agedo](https://www.agedonazionale.org/)** -- Associazione di genitori, familiari e amici di persone LGBT+, con sedi in tutta Italia
 - **Gay Help Line: 800 713 713** -- Numero verde nazionale, attivo dal lunedì al sabato
-- **Terapia di coppia** -- Uno studio del 2019 sulla terapia di coppia con persone transgender ha mostrato che un percorso con un professionista esperto aiuta a migliorare comunicazione, intimità e gestione delle sfide esterne (Malpas, 2019). In Italia, è possibile trovare terapeuti specializzati tramite l'ONIG e i centri di salute di genere
+- **Terapia di coppia** -- Uno studio del 2019 sulla terapia di coppia con persone transgender ha mostrato che un percorso con un professionista esperto aiuta a migliorare comunicazione, intimità e gestione delle sfide esterne [10]. In Italia, è possibile trovare terapeuti specializzati tramite l'ONIG e i centri di salute di genere
 
 ## Il punto, alla fine
 

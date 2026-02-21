@@ -72,7 +72,7 @@ media:
     year: 2022
 ---
 
-Ecco la verità nuda: il 64,5% degli italiani nel 2024 è favorevole al matrimonio egualitario. Il 53,5% riconosce che esistono identità oltre il binarismo maschile-femminile. Eppure l'Italia segna il **24% sulla Rainbow Map di ILGA-Europe** (2025), in calo rispetto all'anno precedente. Un Paese dove l'opinione pubblica corre avanti e la classe politica frena, temporeggia o — quando può — tira il freno a mano. Questa è la storia di come ciò è accaduto, con nomi, date e numeri di voto. Nessuno escluso.
+Ecco la verità nuda: il 64,5% degli italiani nel 2024 è favorevole al matrimonio egualitario [12]. Il 53,5% riconosce che esistono identità oltre il binarismo maschile-femminile [12]. Eppure l'Italia segna il **24% sulla Rainbow Map di ILGA-Europe** (2025), in calo rispetto all'anno precedente [13]. Un Paese dove l'opinione pubblica corre avanti e la classe politica frena, temporeggia o — quando può — tira il freno a mano. Questa è la storia di come ciò è accaduto, con nomi, date e numeri di voto. Nessuno escluso.
 
 ## Il DDL Zan: anatomia di un naufragio
 
@@ -84,15 +84,15 @@ Il testo constava di dieci articoli. L'articolo 1 definiva i concetti chiave, in
 
 ### L'iter e il voto
 
-Il DDL Zan fu approvato dalla **Camera dei Deputati il 4 novembre 2020**, con 265 voti favorevoli e 193 contrari. Il testo passò poi al Senato, dove iniziò un calvario parlamentare fatto di rinvii, ostruzionismo e trattative. Il 27 ottobre 2021 la maggioranza dei senatori approvò la cosiddetta **"tagliola"** — una mozione procedurale che impediva la discussione degli articoli e degli emendamenti. Tradotto: il disegno di legge venne ucciso senza che i senatori dovessero neppure pronunciarsi nel merito.
+Il DDL Zan fu approvato dalla **Camera dei Deputati il 4 novembre 2020**, con 265 voti favorevoli e 193 contrari. Il testo passò poi al Senato, dove iniziò un calvario parlamentare fatto di rinvii, ostruzionismo e trattative. Il 27 ottobre 2021 la maggioranza dei senatori approvò la cosiddetta **"tagliola"** — una mozione procedurale che impediva la discussione degli articoli e degli emendamenti [1]. Tradotto: il disegno di legge venne ucciso senza che i senatori dovessero neppure pronunciarsi nel merito.
 
-I numeri: **154 favorevoli alla tagliola, 131 contrari, 2 astenuti**. Voto segreto. Quando il risultato apparve sugli schermi, dai banchi del centrodestra partì un applauso. Dai banchi dell'opposizione, il silenzio.
+I numeri: **154 favorevoli alla tagliola, 131 contrari, 2 astenuti** [1]. Voto segreto. Quando il risultato apparve sugli schermi, dai banchi del centrodestra partì un applauso. Dai banchi dell'opposizione, il silenzio.
 
 ### I franchi tiratori e il ruolo di Italia Viva
 
-Il voto segreto rese impossibile identificare con certezza i responsabili. Ma l'aritmetica parlò chiaro: sommando i senatori di PD, M5S, LeU e Italia Viva, i voti contrari alla tagliola avrebbero dovuto superare quelli favorevoli. Non accadde. Le analisi successive stimarono almeno **16 franchi tiratori** tra le fila del centrosinistra.
+Il voto segreto rese impossibile identificare con certezza i responsabili. Ma l'aritmetica parlò chiaro: sommando i senatori di PD, M5S, LeU e Italia Viva, i voti contrari alla tagliola avrebbero dovuto superare quelli favorevoli. Non accadde. Le analisi successive stimarono almeno **16 franchi tiratori** tra le fila del centrosinistra [2].
 
-Il caso più eclatante fu quello di **Matteo Renzi**, leader di Italia Viva, fisicamente assente il giorno del voto. Mentre il Senato decideva il destino dei diritti civili, Renzi si trovava a Riad, in Arabia Saudita — un Paese dove l'omosessualità è punita con il carcere, la fustigazione e, potenzialmente, la pena di morte — per partecipare alla **Future Investment Initiative**, un evento promosso dal fondo sovrano saudita. Italia Viva dichiarò di aver votato compattamente contro la tagliola. Ma l'assenza del leader, in quel contesto, rimase un dato politico inequivocabile.
+Il caso più eclatante fu quello di **Matteo Renzi**, leader di Italia Viva, fisicamente assente il giorno del voto [3]. Mentre il Senato decideva il destino dei diritti civili, Renzi si trovava a Riad, in Arabia Saudita — un Paese dove l'omosessualità è punita con il carcere, la fustigazione e, potenzialmente, la pena di morte — per partecipare alla **Future Investment Initiative**, un evento promosso dal fondo sovrano saudita [3]. Italia Viva dichiarò di aver votato compattamente contro la tagliola. Ma l'assenza del leader, in quel contesto, rimase un dato politico inequivocabile.
 
 Renzi, al rientro, disse: "Per mesi ho chiesto un accordo per evitare la bocciatura del DDL Zan. Chi si lamenta delle assenze faccia i conti con i 40 franchi tiratori." La responsabilità venne scaricata altrove. Il DDL Zan venne archiviato.
 
@@ -102,48 +102,48 @@ L'insediamento del governo Meloni nell'ottobre 2022 ha inaugurato la fase più a
 
 ### La circolare Piantedosi e la guerra ai certificati di nascita
 
-Il 19 gennaio 2023, il Ministro dell'Interno **Matteo Piantedosi** diramò ai prefetti una circolare che richiamava il divieto, per le coppie dello stesso sesso, di accedere alla procreazione medicalmente assistita in Italia. La conseguenza operativa: solo il genitore biologico poteva figurare nell'atto di nascita. Il genitore intenzionale — colei o colui che aveva partecipato al progetto procreativo, cresciuto il figlio, condiviso ogni istante dalla decisione di diventare genitore — veniva cancellato dall'esistenza giuridica.
+Il 19 gennaio 2023, il Ministro dell'Interno **Matteo Piantedosi** diramò ai prefetti una circolare che richiamava il divieto, per le coppie dello stesso sesso, di accedere alla procreazione medicalmente assistita in Italia [8]. La conseguenza operativa: solo il genitore biologico poteva figurare nell'atto di nascita. Il genitore intenzionale — colei o colui che aveva partecipato al progetto procreativo, cresciuto il figlio, condiviso ogni istante dalla decisione di diventare genitore — veniva cancellato dall'esistenza giuridica.
 
-A **Milano**, il sindaco Beppe Sala fu costretto a interrompere le trascrizioni. A **Padova**, la Procura impugnò **33 certificati di nascita** di bambini con due madri, nati da fecondazione eterologa a partire dal 2017. Trentatre famiglie. Trentasette minori, di età compresa fra 8 anni e 40 giorni. Bambini a cui si chiedeva, retroattivamente, di avere un genitore in meno.
+A **Milano**, il sindaco Beppe Sala fu costretto a interrompere le trascrizioni. A **Padova**, la Procura impugnò **33 certificati di nascita** di bambini con due madri, nati da fecondazione eterologa a partire dal 2017 [9]. Trentatre famiglie. Trentasette minori, di età compresa fra 8 anni e 40 giorni. Bambini a cui si chiedeva, retroattivamente, di avere un genitore in meno.
 
 Il Tribunale di Padova dichiarò inammissibili oltre 30 ricorsi della Procura nel marzo 2024, confermando gli atti di nascita. Ma il segnale politico era stato lanciato: le famiglie arcobaleno erano nel mirino.
 
 ### La sentenza 68/2025 della Corte Costituzionale: un argine
 
-Il **22 maggio 2025**, la Corte Costituzionale pronunciò la sentenza n. 68, dichiarando l'**incostituzionalità dell'articolo 8 della Legge 40/2004** nella parte in cui impediva il riconoscimento della cosiddetta "madre intenzionale". La Corte stabilì che un figlio nato in Italia da PMA eterologa praticata all'estero da una coppia di donne poteva acquisire lo status di figlio rispetto ad entrambe le madri — sia quella biologica, sia quella che aveva condiviso e voluto il progetto procreativo.
+Il **22 maggio 2025**, la Corte Costituzionale pronunciò la sentenza n. 68, dichiarando l'**incostituzionalità dell'articolo 8 della Legge 40/2004** nella parte in cui impediva il riconoscimento della cosiddetta "madre intenzionale" [10]. La Corte stabilì che un figlio nato in Italia da PMA eterologa praticata all'estero da una coppia di donne poteva acquisire lo status di figlio rispetto ad entrambe le madri — sia quella biologica, sia quella che aveva condiviso e voluto il progetto procreativo.
 
-La motivazione citava l'articolo 3 della Costituzione (uguaglianza sostanziale), l'articolo 2 (diritti inviolabili della persona) e l'articolo 30 (diritti del minore). In sintesi: era il legislatore ad aver violato la Costituzione, non le famiglie arcobaleno. Un dato che il dibattito pubblico ha largamente ignorato.
+La motivazione citava l'articolo 3 della Costituzione (uguaglianza sostanziale), l'articolo 2 (diritti inviolabili della persona) e l'articolo 30 (diritti del minore) [10]. In sintesi: era il legislatore ad aver violato la Costituzione, non le famiglie arcobaleno. Un dato che il dibattito pubblico ha largamente ignorato.
 
 ### Gestazione per altri: il "reato universale"
 
-Il **16 ottobre 2024**, il Senato approvò in via definitiva la legge che rende la gestazione per altri (GPA) un **"reato universale"**: 84 voti favorevoli, 58 contrari. La modifica all'articolo 12 della Legge 40/2004 estende la perseguibilità del reato ai cittadini italiani che ricorrano alla GPA all'estero, anche in Paesi dove la pratica è legale. Le pene: fino a **2 anni di reclusione** e fino a **1 milione di euro di multa**.
+Il **16 ottobre 2024**, il Senato approvò in via definitiva la legge che rende la gestazione per altri (GPA) un **"reato universale"**: 84 voti favorevoli, 58 contrari [4][5]. La modifica all'articolo 12 della Legge 40/2004 estende la perseguibilità del reato ai cittadini italiani che ricorrano alla GPA all'estero, anche in Paesi dove la pratica è legale. Le pene: fino a **2 anni di reclusione** e fino a **1 milione di euro di multa** [4].
 
-L'Italia diventa così uno dei pochissimi Paesi al mondo a criminalizzare il comportamento dei propri cittadini in giurisdizioni straniere dove quel comportamento è perfettamente lecito. La legge, pubblicata in Gazzetta Ufficiale il 18 novembre 2024 come **Legge 169/2024**, colpisce in modo sproporzionato le coppie di uomini che desiderano diventare padri, poiché la GPA rappresenta l'unica via biologica alla genitorialità per le coppie omosessuali maschili.
+L'Italia diventa così uno dei pochissimi Paesi al mondo a criminalizzare il comportamento dei propri cittadini in giurisdizioni straniere dove quel comportamento è perfettamente lecito. La legge, pubblicata in Gazzetta Ufficiale il 18 novembre 2024 come **Legge 169/2024**, colpisce in modo sproporzionato le coppie di uomini che desiderano diventare padri, poiché la GPA rappresenta l'unica via biologica alla genitorialità per le coppie omosessuali maschili [5].
 
 ### Il decreto Schillaci-Roccella: la stretta sulla sanità trans per i minori
 
-L'**11 agosto 2025**, il Consiglio dei Ministri approvò il decreto-legge sulla disforia di genere nei minori, firmato dal Ministro della Salute **Orazio Schillaci** e dalla Ministra per la Famiglia **Eugenia Roccella**. Il testo introdusse:
+L'**11 agosto 2025**, il Consiglio dei Ministri approvò il decreto-legge sulla disforia di genere nei minori, firmato dal Ministro della Salute **Orazio Schillaci** e dalla Ministra per la Famiglia **Eugenia Roccella** [6]. Il testo introdusse:
 
 - **Valutazione psichiatrica obbligatoria** per ogni minore che acceda a percorsi di affermazione di genere.
 - **Parere preventivo del Comitato Etico Nazionale** prima della prescrizione di bloccanti della pubertà (triptorelina).
-- Istituzione di un **registro nazionale AIFA** per monitorare la prescrizione e la dispensazione dei farmaci.
+- Istituzione di un **registro nazionale AIFA** per monitorare la prescrizione e la dispensazione dei farmaci [6].
 - Dispensazione esclusivamente tramite **farmacia ospedaliera**.
 
-Otto tra le principali **società scientifiche italiane** si pronunciarono contro il decreto, denunciando la sostituzione di protocolli clinici già efficaci con un percorso burocratico centralizzato, e segnalando che il parere obbligatorio del Comitato Etico Nazionale — un organo non clinico — avrebbe introdotto un ostacolo di fatto insormontabile all'accesso alle cure per i giovani trans.
+Otto tra le principali **società scientifiche italiane** si pronunciarono contro il decreto, denunciando la sostituzione di protocolli clinici già efficaci con un percorso burocratico centralizzato, e segnalando che il parere obbligatorio del Comitato Etico Nazionale — un organo non clinico — avrebbe introdotto un ostacolo di fatto insormontabile all'accesso alle cure per i giovani trans [7].
 
 Il messaggio politico era trasparente: la disforia di genere nei minori non era più trattata come una condizione medica da gestire con strumenti clinici, ma come un fenomeno da sorvegliare, contenere e, possibilmente, scoraggiare.
 
 ### La scuola: il divieto del "relativismo di genere"
 
-Nel dicembre 2025, la Camera dei Deputati approvò in prima lettura — con **151 voti favorevoli, 113 contrari e 1 astenuto** — il cosiddetto "DDL Valditara" (dal nome del Ministro dell'Istruzione Giuseppe Valditara). Il disegno di legge vieta l'insegnamento del "relativismo di genere" nelle scuole dell'infanzia e primarie e subordina l'educazione sessuale nelle scuole medie al **consenso informato dei genitori**. Il testo deve ancora passare al Senato.
+Nel dicembre 2025, la Camera dei Deputati approvò in prima lettura — con **151 voti favorevoli, 113 contrari e 1 astenuto** — il cosiddetto "DDL Valditara" (dal nome del Ministro dell'Istruzione Giuseppe Valditara) [14]. Il disegno di legge vieta l'insegnamento del "relativismo di genere" nelle scuole dell'infanzia e primarie e subordina l'educazione sessuale nelle scuole medie al **consenso informato dei genitori**. Il testo deve ancora passare al Senato.
 
 ## La sentenza 143/2024: la Corte che vede ciò che il Parlamento non vuole vedere
 
-Il **23 luglio 2024**, la Corte Costituzionale pronunciò la sentenza n. 143, una decisione di portata storica per le persone trans in Italia. Due le questioni affrontate:
+Il **23 luglio 2024**, la Corte Costituzionale pronunciò la sentenza n. 143, una decisione di portata storica per le persone trans in Italia [11]. Due le questioni affrontate:
 
-**Sulle identità non binarie:** la Corte dichiarò inammissibile la questione sollevata dal Tribunale di Bolzano riguardo alla possibilità di introdurre un marcatore di genere diverso da maschile e femminile. Ma — ed è qui il punto che nessuno ha raccontato — la Corte riconobbe esplicitamente che "la percezione dell'individuo di non appartenere né al sesso femminile né a quello maschile — dalla quale nasce l'esigenza di vedersi riconosciuta un'identità 'altra' — genera una significativa condizione di disagio" che può "indurre trattamenti diseguali o compromettere il benessere psicofisico della persona". La Corte rinviò la questione al Parlamento. Il Parlamento, ad oggi, non ha mosso un dito.
+**Sulle identità non binarie:** la Corte dichiarò inammissibile la questione sollevata dal Tribunale di Bolzano riguardo alla possibilità di introdurre un marcatore di genere diverso da maschile e femminile. Ma — ed è qui il punto che nessuno ha raccontato — la Corte riconobbe esplicitamente che "la percezione dell'individuo di non appartenere né al sesso femminile né a quello maschile — dalla quale nasce l'esigenza di vedersi riconosciuta un'identità 'altra' — genera una significativa condizione di disagio" che può "indurre trattamenti diseguali o compromettere il benessere psicofisico della persona" [11]. La Corte rinviò la questione al Parlamento. Il Parlamento, ad oggi, non ha mosso un dito.
 
-**Sull'autorizzazione giudiziaria per la chirurgia:** la Corte dichiarò l'**incostituzionalità dell'articolo 31, comma 4, del decreto legislativo 150/2011**, che imponeva l'autorizzazione del tribunale per gli interventi chirurgici di adeguamento dei caratteri sessuali anche dopo che il giudice avesse già disposto la rettificazione anagrafica. In pratica: una persona trans che aveva già ottenuto il riconoscimento legale della propria identità doveva chiedere un ulteriore permesso al giudice per operarsi. Un'anomalia eliminata dalla Corte.
+**Sull'autorizzazione giudiziaria per la chirurgia:** la Corte dichiarò l'**incostituzionalità dell'articolo 31, comma 4, del decreto legislativo 150/2011**, che imponeva l'autorizzazione del tribunale per gli interventi chirurgici di adeguamento dei caratteri sessuali anche dopo che il giudice avesse già disposto la rettificazione anagrafica [11]. In pratica: una persona trans che aveva già ottenuto il riconoscimento legale della propria identità doveva chiedere un ulteriore permesso al giudice per operarsi. Un'anomalia eliminata dalla Corte.
 
 ## La mappa dei partiti: chi sta dove
 
@@ -153,7 +153,7 @@ Il partito di Giorgia Meloni si oppone sistematicamente a ogni forma di riconosc
 
 ### Lega
 
-Matteo Salvini è stato tra i principali promotori della retorica "anti-gender" in Italia. La Lega ha presentato la mozione per la tagliola che ha ucciso il DDL Zan. Salvini ha partecipato al **World Congress of Families di Verona** nel marzo 2019, insieme al Ministro della Famiglia Lorenzo Fontana, in un evento co-organizzato da Pro Vita e Famiglia e definito dal Southern Poverty Law Center un raduno di "gruppi d'odio anti-LGBT".
+Matteo Salvini è stato tra i principali promotori della retorica "anti-gender" in Italia. La Lega ha presentato la mozione per la tagliola che ha ucciso il DDL Zan [1]. Salvini ha partecipato al **World Congress of Families di Verona** nel marzo 2019, insieme al Ministro della Famiglia Lorenzo Fontana, in un evento co-organizzato da Pro Vita e Famiglia e definito dal Southern Poverty Law Center un raduno di "gruppi d'odio anti-LGBT" [15].
 
 ### Forza Italia
 
@@ -161,31 +161,31 @@ Segue la linea della coalizione. Significativo il caso di **Elio Vito**, che las
 
 ### Partito Democratico
 
-Il PD è stato il promotore del DDL Zan tramite il deputato Alessandro Zan, che ha ripresentato una versione aggiornata della proposta nella legislatura successiva. Il partito sostiene il matrimonio egualitario e l'estensione delle tutele antidiscriminatorie. Tuttavia, la vicenda dei franchi tiratori nel voto segreto del 2021 ha messo in luce ambiguità interne mai pienamente risolte.
+Il PD è stato il promotore del DDL Zan tramite il deputato Alessandro Zan, che ha ripresentato una versione aggiornata della proposta nella legislatura successiva. Il partito sostiene il matrimonio egualitario e l'estensione delle tutele antidiscriminatorie. Tuttavia, la vicenda dei franchi tiratori nel voto segreto del 2021 ha messo in luce ambiguità interne mai pienamente risolte [2].
 
 ### Movimento 5 Stelle
 
-Il M5S ha sostenuto il DDL Zan e, tramite la senatrice **Alessandra Maiorino**, ha presentato un disegno di legge sul matrimonio egualitario e la filiazione. Maiorino, coordinatrice del Comitato per le Politiche di Genere e i Diritti Civili del M5S, ha collaborato con Arcigay e il giurista Antonio Rotelli per la stesura del testo. Il partito si è dichiarato a favore di matrimonio egualitario e adozioni per le coppie dello stesso sesso.
+Il M5S ha sostenuto il DDL Zan e, tramite la senatrice **Alessandra Maiorino**, ha presentato un disegno di legge sul matrimonio egualitario e la filiazione [17]. Maiorino, coordinatrice del Comitato per le Politiche di Genere e i Diritti Civili del M5S, ha collaborato con Arcigay e il giurista Antonio Rotelli per la stesura del testo. Il partito si è dichiarato a favore di matrimonio egualitario e adozioni per le coppie dello stesso sesso.
 
 ### Alleanza Verdi e Sinistra (AVS)
 
-AVS rappresenta la posizione più avanzata nel panorama parlamentare. Il programma include: **matrimonio egualitario**, adozione da parte di coppie omosessuali e single, accesso alla PMA per donne e coppie di donne, **divieto delle terapie di conversione**, divieto degli interventi chirurgici non necessari sui minori intersex, e una legge contro l'omo-bi-transfobia e l'abilismo. Nessun altro partito parlamentare propone un pacchetto di questa ampiezza.
+AVS rappresenta la posizione più avanzata nel panorama parlamentare. Il programma include: **matrimonio egualitario**, adozione da parte di coppie omosessuali e single, accesso alla PMA per donne e coppie di donne, **divieto delle terapie di conversione**, divieto degli interventi chirurgici non necessari sui minori intersex, e una legge contro l'omo-bi-transfobia e l'abilismo [18]. Nessun altro partito parlamentare propone un pacchetto di questa ampiezza.
 
 ## Pro Vita e Famiglia: l'apparato extra-parlamentare
 
 L'associazione **Pro Vita e Famiglia**, presieduta da **Toni Brandi**, rappresenta il principale attore della società civile schierato contro i diritti delle persone trans e LGBTQ+ in Italia. Fondata alla fine del 2013, conta **110 circoli territoriali** e organizza oltre **150 conferenze e incontri formativi** all'anno.
 
-Nel 2019, Pro Vita si fuse con Generazione Famiglia durante il **World Congress of Families XIII a Verona** (29-31 marzo 2019), un evento che vide la partecipazione di Salvini, del Ministro Fontana e del Governatore del Veneto Luca Zaia. La CNN lo descrisse come un raduno in cui "gruppi di estrema destra uniscono le forze sotto l'ombrello pro-famiglia".
+Nel 2019, Pro Vita si fuse con Generazione Famiglia durante il **World Congress of Families XIII a Verona** (29-31 marzo 2019), un evento che vide la partecipazione di Salvini, del Ministro Fontana e del Governatore del Veneto Luca Zaia [15]. La CNN lo descrisse come un raduno in cui "gruppi di estrema destra uniscono le forze sotto l'ombrello pro-famiglia" [15].
 
-La campagna più recente, "**Mio Figlio No**", lanciata nel febbraio 2025, chiede una legge sul consenso informato preventivo per ogni progetto scolastico riguardante sessualità e affettività. La petizione nazionale ha superato le 51.000 firme. L'obiettivo dichiarato: tenere le scuole "libere dal gender".
+La campagna più recente, "**Mio Figlio No**", lanciata nel febbraio 2025, chiede una legge sul consenso informato preventivo per ogni progetto scolastico riguardante sessualità e affettività [16]. La petizione nazionale ha superato le 51.000 firme. L'obiettivo dichiarato: tenere le scuole "libere dal gender".
 
-Il rapporto tra Pro Vita e Famiglia e la destra di governo è documentato dalla ricerca accademica come **simbiotico**: le posizioni dell'associazione trovano traduzione legislativa nei provvedimenti della coalizione, e la coalizione trova nella rete associativa di Pro Vita e Famiglia consenso organizzato sul territorio. Il DDL Valditara sul divieto del "relativismo di genere" a scuola è l'esempio più recente di questa dinamica.
+Il rapporto tra Pro Vita e Famiglia e la destra di governo è documentato dalla ricerca accademica come **simbiotico**: le posizioni dell'associazione trovano traduzione legislativa nei provvedimenti della coalizione, e la coalizione trova nella rete associativa di Pro Vita e Famiglia consenso organizzato sul territorio. Il DDL Valditara sul divieto del "relativismo di genere" a scuola è l'esempio più recente di questa dinamica [14].
 
 La Ministra Roccella, co-firmataria del decreto sulla disforia di genere nei minori, ha ripetutamente echeggiato le posizioni di Pro Vita e Famiglia in materia di "libertà educativa" e "tutela dell'infanzia" — formule retoriche che traducono, nei fatti, l'opposizione a qualsiasi riconoscimento dell'identità di genere nei contesti educativi e sanitari.
 
 ## L'opinione pubblica: il divario che nessuno racconta
 
-I numeri dell'**Eurispes** nel 36esimo Rapporto Italia (2024) fotografano un Paese molto diverso da quello rappresentato dal proprio Parlamento:
+I numeri dell'**Eurispes** nel 36esimo Rapporto Italia (2024) fotografano un Paese molto diverso da quello rappresentato dal proprio Parlamento [12]:
 
 - **64,5%** favorevole al matrimonio egualitario (era il 47,8% nel 2016: +16,7 punti in otto anni).
 - **54,5%** favorevole all'adozione da parte di coppie dello stesso sesso (+23,4% in cinque anni).
@@ -193,16 +193,16 @@ I numeri dell'**Eurispes** nel 36esimo Rapporto Italia (2024) fotografano un Pae
 - **53,5%** favorevole al riconoscimento di identità oltre il binarismo.
 - **69,3%** favorevole alla tutela giuridica delle coppie di fatto indipendentemente dal sesso.
 
-Il divario generazionale è imponente: l'adozione da parte di coppie dello stesso sesso è accettata dal **72,2% dei 18-24enni** ma solo dal **39,2% degli ultra-sessantaquattrenni**.
+Il divario generazionale è imponente: l'adozione da parte di coppie dello stesso sesso è accettata dal **72,2% dei 18-24enni** ma solo dal **39,2% degli ultra-sessantaquattrenni** [12].
 
 Questi dati rendono il gap tra opinione pubblica e azione legislativa non un semplice ritardo, ma un **deficit democratico misurabile**. Una maggioranza di cittadini chiede diritti che una maggioranza parlamentare nega. I numeri sono lì. Il dibattito li ignora.
 
-Nel frattempo, la **Rainbow Map di ILGA-Europe** segna il declino: l'Italia è al **24%** nel 2025, in calo dal 25% del 2024 — su una scala che misura la conformità delle leggi nazionali agli standard europei sui diritti LGBTI. Per confronto: Malta è al primo posto, la Danimarca e il Belgio fra i primi cinque. L'Italia sta con la Polonia e la Romania.
+Nel frattempo, la **Rainbow Map di ILGA-Europe** segna il declino: l'Italia è al **24%** nel 2025, in calo dal 25% del 2024 — su una scala che misura la conformità delle leggi nazionali agli standard europei sui diritti LGBTI [13]. Per confronto: Malta è al primo posto, la Danimarca e il Belgio fra i primi cinque. L'Italia sta con la Polonia e la Romania.
 
 ## Il quadro complessivo
 
-Tra il 2021 e il 2026, la traiettoria dei diritti delle persone trans nella politica italiana è stata segnata da un paradosso strutturale. Da un lato, la Corte Costituzionale ha progressivamente ampliato le tutele: ha riconosciuto la legittimità delle identità non binarie (pur rinviando al Parlamento), ha eliminato l'obbligo di autorizzazione giudiziaria per la chirurgia, ha dichiarato incostituzionale la mancata tutela della madre intenzionale. Dall'altro, il potere legislativo ed esecutivo ha marciato nella direzione opposta: ha affossato il DDL Zan, criminalizzato la GPA come "reato universale", burocratizzato l'accesso alla sanità trans per i minori, e avviato la censura scolastica sul "relativismo di genere".
+Tra il 2021 e il 2026, la traiettoria dei diritti delle persone trans nella politica italiana è stata segnata da un paradosso strutturale. Da un lato, la Corte Costituzionale ha progressivamente ampliato le tutele: ha riconosciuto la legittimità delle identità non binarie (pur rinviando al Parlamento) [11], ha eliminato l'obbligo di autorizzazione giudiziaria per la chirurgia [11], ha dichiarato incostituzionale la mancata tutela della madre intenzionale [10]. Dall'altro, il potere legislativo ed esecutivo ha marciato nella direzione opposta: ha affossato il DDL Zan [1], criminalizzato la GPA come "reato universale" [4], burocratizzato l'accesso alla sanità trans per i minori [6], e avviato la censura scolastica sul "relativismo di genere" [14].
 
 Il risultato è un cortocircuito istituzionale in cui la Corte Costituzionale corregge le omissioni del Parlamento, il Parlamento legifera contro i principi della Corte, e nel mezzo restano le persone: famiglie senza certificati, adolescenti senza cure, identità senza riconoscimento.
 
-I dati Eurispes mostrano che la società italiana è già altrove. La politica non la sta ascoltando. E quando lo fa, spesso è per dire no.
+I dati Eurispes mostrano che la società italiana è già altrove [12]. La politica non la sta ascoltando. E quando lo fa, spesso è per dire no.

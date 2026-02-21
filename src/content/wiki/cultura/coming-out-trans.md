@@ -69,19 +69,19 @@ Il coming out come persona transgender non funziona come te lo raccontano. Non �
 
 Quando si parla di coming out, il riferimento culturale più diffuso è quello legato all'orientamento sessuale: rivelare di essere gay, lesbica o bisessuale. Il coming out transgender condivide alcuni aspetti di questa esperienza, ma ha caratteristiche proprie che la ricerca ha iniziato a distinguere in modo più preciso.
 
-La differenza fondamentale è nel tipo di informazione rivelata. Il coming out LGB riguarda l'attrazione -- chi ti piace. Il coming out trans riguarda l'[identità di genere](/wiki/identita-di-genere) -- chi sei. Questo ha implicazioni pratiche enormi: il coming out trans spesso implica cambiamenti visibili (nome, pronomi, aspetto, documenti) e non può restare "privato" allo stesso modo. Il modello a stadi sviluppato da Bockting e Coleman descrive il processo specifico dell'identità transgender attraverso cinque fasi -- dal pre-coming out all'integrazione dell'identità -- riconoscendo che il percorso è diverso da quello dell'orientamento sessuale.
+La differenza fondamentale è nel tipo di informazione rivelata. Il coming out LGB riguarda l'attrazione -- chi ti piace. Il coming out trans riguarda l'[identità di genere](/wiki/identita-di-genere) -- chi sei. Questo ha implicazioni pratiche enormi: il coming out trans spesso implica cambiamenti visibili (nome, pronomi, aspetto, documenti) e non può restare "privato" allo stesso modo. Il modello a stadi sviluppato da Bockting e Coleman descrive il processo specifico dell'identità transgender attraverso cinque fasi -- dal pre-coming out all'integrazione dell'identità -- riconoscendo che il percorso è diverso da quello dell'orientamento sessuale [11].
 
-C'è un'altra differenza che la letteratura evidenzia: il coming out trans è spesso un processo continuo. A differenza dell'orientamento sessuale, che può rimanere non visibile, le persone transgender che intraprendono una transizione sociale o [medica](/wiki/transizione-medica-cosa-cambia) si trovano ripetutamente nella condizione di dover decidere se rivelare la propria storia di genere -- con ogni nuovo medico, ogni nuovo collega, ogni nuova relazione. Uno studio qualitativo del 2017 su adulti transgender ha documentato come questa disclosure ricorrente rappresenti una fonte di stress unica, distinta dall'atto iniziale di coming out.
+C'è un'altra differenza che la letteratura evidenzia: il coming out trans è spesso un processo continuo. A differenza dell'orientamento sessuale, che può rimanere non visibile, le persone transgender che intraprendono una transizione sociale o [medica](/wiki/transizione-medica-cosa-cambia) si trovano ripetutamente nella condizione di dover decidere se rivelare la propria storia di genere -- con ogni nuovo medico, ogni nuovo collega, ogni nuova relazione. Uno studio qualitativo del 2017 su adulti transgender ha documentato come questa disclosure ricorrente rappresenti una fonte di stress unica, distinta dall'atto iniziale di coming out [12].
 
 ## Cosa dice la ricerca: salute mentale, nascondersi e rivelarsi
 
-Il modello del minority stress, formulato da Ilan Meyer nel 2003 e successivamente applicato alla popolazione transgender, identifica la concealment -- il nascondere la propria identità -- come uno dei fattori di stress prossimale che contribuiscono alla sofferenza psicologica nelle minoranze sessuali e di genere. La logica è diretta: nascondere un aspetto centrale di sé richiede un lavoro cognitivo ed emotivo costante che ha un costo misurabile sulla salute mentale.
+Il modello del minority stress, formulato da Ilan Meyer nel 2003 e successivamente applicato alla popolazione transgender, identifica la concealment -- il nascondere la propria identità -- come uno dei fattori di stress prossimale che contribuiscono alla sofferenza psicologica nelle minoranze sessuali e di genere [2]. La logica è diretta: nascondere un aspetto centrale di sé richiede un lavoro cognitivo ed emotivo costante che ha un costo misurabile sulla salute mentale.
 
-Uno studio del 2013 di Bockting e colleghi su un campione di 1.093 persone transgender negli Stati Uniti ha riscontrato una prevalenza elevata di depressione clinica (44,1%), ansia (33,2%) e somatizzazione (27,5%). Lo stigma sociale risultava positivamente associato al disagio psicologico. Tuttavia -- e questo è un dato cruciale -- il supporto tra pari da altre persone transgender moderava significativamente questa relazione.
+Uno studio del 2013 di Bockting e colleghi su un campione di 1.093 persone transgender negli Stati Uniti ha riscontrato una prevalenza elevata di depressione clinica (44,1%), ansia (33,2%) e somatizzazione (27,5%). Lo stigma sociale risultava positivamente associato al disagio psicologico. Tuttavia -- e questo è un dato cruciale -- il supporto tra pari da altre persone transgender moderava significativamente questa relazione [1].
 
-Ma la questione non è semplice come "nascondersi fa male, rivelarsi fa bene". Una scoping review del 2024, pubblicata sull'International Journal of Transgender Health, ha esaminato 46 studi sulla relazione tra concealment, disclosure e salute mentale nelle persone trans. La conclusione è sfumata: sebbene emergano piccoli effetti negativi della concealment e piccoli effetti positivi della disclosure sulla salute mentale, i ricercatori avvertono che le carenze metodologiche della ricerca esistente non permettono conclusioni definitive. In particolare, lo studio evidenzia che nascondere il proprio passato di genere può anche funzionare come affermazione della propria identità attuale -- non sempre è un atto di repressione.
+Ma la questione non è semplice come "nascondersi fa male, rivelarsi fa bene". Una scoping review del 2024, pubblicata sull'International Journal of Transgender Health, ha esaminato 46 studi sulla relazione tra concealment, disclosure e salute mentale nelle persone trans. La conclusione è sfumata: sebbene emergano piccoli effetti negativi della concealment e piccoli effetti positivi della disclosure sulla salute mentale, i ricercatori avvertono che le carenze metodologiche della ricerca esistente non permettono conclusioni definitive. In particolare, lo studio evidenzia che nascondere il proprio passato di genere può anche funzionare come affermazione della propria identità attuale -- non sempre è un atto di repressione [3].
 
-Uno studio del 2021 sulla disclosure nei giovani gender-expansive ha aggiunto un tassello importante: i sintomi depressivi erano più elevati e l'autostima più bassa nei ragazzi transgender con livelli misti di disclosure -- ovvero quelli che erano out con alcune persone ma non con altre. Questo suggerisce che l'incoerenza nella propria apertura può essere più stressante della concealment stessa, probabilmente perché genera una costante vigilanza su "chi sa cosa".
+Uno studio del 2021 sulla disclosure nei giovani gender-expansive ha aggiunto un tassello importante: i sintomi depressivi erano più elevati e l'autostima più bassa nei ragazzi transgender con livelli misti di disclosure -- ovvero quelli che erano out con alcune persone ma non con altre. Questo suggerisce che l'incoerenza nella propria apertura può essere più stressante della concealment stessa, probabilmente perché genera una costante vigilanza su "chi sa cosa" [4].
 
 ### Cosa significa in pratica
 
@@ -89,25 +89,25 @@ La ricerca non dice che bisogna fare coming out per stare bene, né che nasconde
 
 ## Quando e come: non esiste un modo giusto, ma la ricerca suggerisce degli approcci
 
-Le linee guida dell'American Psychological Association (APA) del 2015 per la pratica psicologica con persone transgender e gender nonconforming sottolineano un principio chiave: il professionista deve rimanere obiettivo e non giudicante rispetto all'esito, concentrandosi sull'empowerment della persona nella sua esplorazione identitaria. Lo stesso principio si applica al coming out: non è compito di nessuno decidere per te se, quando e come farlo.
+Le linee guida dell'American Psychological Association (APA) del 2015 per la pratica psicologica con persone transgender e gender nonconforming sottolineano un principio chiave: il professionista deve rimanere obiettivo e non giudicante rispetto all'esito, concentrandosi sull'empowerment della persona nella sua esplorazione identitaria [7]. Lo stesso principio si applica al coming out: non è compito di nessuno decidere per te se, quando e come farlo.
 
 Detto questo, la ricerca e la pratica clinica hanno identificato alcuni elementi che tendono a facilitare il processo:
 
 - **Preparazione interna.** Prima di comunicarlo agli altri, avere chiarezza sulla propria identità -- anche se parziale, anche se in evoluzione -- aiuta a rispondere alle domande inevitabili. Questo non significa avere tutte le risposte, ma avere un linguaggio per descrivere la propria esperienza.
 
-- **Scegliere la prima persona con attenzione.** La ricerca sulle reazioni familiari mostra che le prime esperienze di disclosure influenzano significativamente la disponibilità a continuare il processo. Iniziare con una persona di cui ci si fida e che ha mostrato apertura verso le tematiche di genere può creare un primo punto di appoggio.
+- **Scegliere la prima persona con attenzione.** La ricerca sulle reazioni familiari mostra che le prime esperienze di disclosure influenzano significativamente la disponibilità a continuare il processo [5]. Iniziare con una persona di cui ci si fida e che ha mostrato apertura verso le tematiche di genere può creare un primo punto di appoggio.
 
 - **Fornire informazioni.** Molte reazioni negative iniziali derivano dall'ignoranza, non dalla cattiva volontà. Avere risorse pronte da condividere -- un articolo, un sito, un libro -- può aiutare la persona che riceve la notizia a elaborarla con informazioni accurate.
 
-- **Gestire le aspettative.** Non tutti reagiranno immediatamente nel modo sperato. La ricerca sulle reazioni genitoriali mostra che le risposte iniziali spesso non predicono quelle a lungo termine: genitori che all'inizio reagiscono con shock o negazione possono arrivare all'accettazione nel tempo.
+- **Gestire le aspettative.** Non tutti reagiranno immediatamente nel modo sperato. La ricerca sulle reazioni genitoriali mostra che le risposte iniziali spesso non predicono quelle a lungo termine: genitori che all'inizio reagiscono con shock o negazione possono arrivare all'accettazione nel tempo [5].
 
 ## Coming out in famiglia: cosa mostrano i dati
 
 La famiglia è il contesto di coming out più studiato e, comprensibilmente, quello che genera più ansia. Il Family Acceptance Project della San Francisco State University, guidato dalla ricercatrice Caitlin Ryan, ha prodotto le evidenze più robuste sulla relazione tra reazioni familiari e benessere delle persone LGBT.
 
-I dati sono chiari in una direzione: l'accettazione familiare predice maggiore autostima, supporto sociale e salute generale, e protegge contro depressione, abuso di sostanze, ideazione e comportamenti suicidari. Al contrario, il rifiuto familiare si associa a esiti negativi significativi: i giovani LGBT respinti dalle famiglie hanno una probabilità 8,4 volte maggiore di tentare il suicidio rispetto a quelli con famiglie accettanti.
+I dati sono chiari in una direzione: l'accettazione familiare predice maggiore autostima, supporto sociale e salute generale, e protegge contro depressione, abuso di sostanze, ideazione e comportamenti suicidari. Al contrario, il rifiuto familiare si associa a esiti negativi significativi: i giovani LGBT respinti dalle famiglie hanno una probabilità 8,4 volte maggiore di tentare il suicidio rispetto a quelli con famiglie accettanti [6].
 
-Uno studio del 2023 pubblicato sul Journal of Family Psychology ha esaminato specificamente le risposte genitoriali ai giovani transgender e gender nonconforming, distinguendo tra comportamenti di supporto e comportamenti abusivi. I risultati mostrano che una percentuale maggiore di madri rispetto ai padri ha reazioni iniziali positive e risposte attuali supportive. Inoltre, più giovani rivelano la propria identità di genere alla madre prima che al padre.
+Uno studio del 2023 pubblicato sul Journal of Family Psychology ha esaminato specificamente le risposte genitoriali ai giovani transgender e gender nonconforming, distinguendo tra comportamenti di supporto e comportamenti abusivi. I risultati mostrano che una percentuale maggiore di madri rispetto ai padri ha reazioni iniziali positive e risposte attuali supportive. Inoltre, più giovani rivelano la propria identità di genere alla madre prima che al padre [5].
 
 Un aspetto poco discusso: le reazioni positive e negative possono coesistere. Un genitore può provare simultaneamente amore, paura, confusione e lutto per le aspettative che aveva proiettato sul figlio o sulla figlia. Questo non è necessariamente un cattivo segnale -- è una reazione umana complessa che, con il tempo e le giuste risorse, spesso evolve verso l'accettazione.
 
@@ -115,35 +115,35 @@ Un aspetto poco discusso: le reazioni positive e negative possono coesistere. Un
 
 ### A scuola
 
-I dati del National School Climate Survey di GLSEN (2021), condotto su oltre 22.000 studenti LGBTQ+ negli Stati Uniti, documentano un ambiente scolastico significativamente più ostile per gli studenti transgender rispetto ai coetanei cisgender LGB. Gli studenti trans riportano tassi più elevati di bullismo, molestie verbali e fisiche, e assenteismo legato all'insicurezza. Allo stesso tempo, la presenza di specifici fattori protettivi -- politiche scolastiche inclusive, personale di supporto, gruppi studenteschi (come le GSA) -- è fortemente associata a un miglioramento del benessere e della performance scolastica.
+I dati del National School Climate Survey di GLSEN (2021), condotto su oltre 22.000 studenti LGBTQ+ negli Stati Uniti, documentano un ambiente scolastico significativamente più ostile per gli studenti transgender rispetto ai coetanei cisgender LGB. Gli studenti trans riportano tassi più elevati di bullismo, molestie verbali e fisiche, e assenteismo legato all'insicurezza. Allo stesso tempo, la presenza di specifici fattori protettivi -- politiche scolastiche inclusive, personale di supporto, gruppi studenteschi (come le GSA) -- è fortemente associata a un miglioramento del benessere e della performance scolastica [10].
 
 In Italia, molte scuole e università hanno introdotto la cosiddetta "identità alias" o "carriera alias": un accordo che consente alla persona transgender di utilizzare il nome scelto nei registri interni, nelle comunicazioni e nelle email istituzionali, prima della rettifica anagrafica ufficiale. Non è una soluzione perfetta, ma rappresenta uno strumento concreto di tutela della privacy e della dignità.
 
 ### Al lavoro
 
-I dati sul contesto lavorativo sono meno incoraggianti. Secondo un rapporto del Williams Institute del 2024, l'82% dei dipendenti transgender negli Stati Uniti ha subito discriminazione o molestie sul lavoro a causa della propria identità di genere almeno una volta nella vita. Il 47% riporta episodi nell'ultimo anno. Le persone transgender out sul lavoro hanno una probabilità tre volte maggiore di subire discriminazione rispetto a quelle che non hanno rivelato la propria identità -- un dato che sottolinea la complessità della scelta di disclosure in ambito professionale.
+I dati sul contesto lavorativo sono meno incoraggianti. Secondo un rapporto del Williams Institute del 2024, l'82% dei dipendenti transgender negli Stati Uniti ha subito discriminazione o molestie sul lavoro a causa della propria identità di genere almeno una volta nella vita. Il 47% riporta episodi nell'ultimo anno. Le persone transgender out sul lavoro hanno una probabilità tre volte maggiore di subire discriminazione rispetto a quelle che non hanno rivelato la propria identità [9] -- un dato che sottolinea la complessità della scelta di disclosure in ambito professionale.
 
-In Italia, il Decreto Legislativo 216/2003 vieta la discriminazione sul lavoro basata su orientamento sessuale, ma non menziona esplicitamente l'identità di genere come categoria protetta autonoma. La giurisprudenza ha progressivamente esteso le tutele, ma il quadro normativo resta frammentato.
+In Italia, il Decreto Legislativo 216/2003 vieta la discriminazione sul lavoro basata su orientamento sessuale, ma non menziona esplicitamente l'identità di genere come categoria protetta autonoma [13]. La giurisprudenza ha progressivamente esteso le tutele, ma il quadro normativo resta frammentato.
 
 ## La disclosure selettiva: non deve essere tutto o niente
 
 Uno degli aspetti meno compresi del coming out trans è che non è un evento binario. Non si passa da "nessuno lo sa" a "tutti lo sanno" in un colpo solo. La maggior parte delle persone transgender pratica quella che la letteratura chiama disclosure selettiva -- rivelare la propria identità a certe persone in certi contesti, e non ad altre.
 
-Uno studio qualitativo del 2017 sulla concealment dell'identità in adulti transgender ha documentato come questa strategia sia guidata da valutazioni contestuali continue: la sicurezza fisica, il tipo di relazione, il livello di passabilità percepita, le implicazioni professionali. I partecipanti descrivevano un costante calcolo costi-benefici che, sebbene faticoso, permetteva di mantenere il controllo sulla propria narrazione.
+Uno studio qualitativo del 2017 sulla concealment dell'identità in adulti transgender ha documentato come questa strategia sia guidata da valutazioni contestuali continue: la sicurezza fisica, il tipo di relazione, il livello di passabilità percepita, le implicazioni professionali. I partecipanti descrivevano un costante calcolo costi-benefici che, sebbene faticoso, permetteva di mantenere il controllo sulla propria narrazione [12].
 
-Questo approccio è legittimo e, in molti contesti, prudente. Le WPATH Standards of Care versione 8 (2022) hanno esplicitamente rimosso il requisito di 12 mesi di "transizione sociale" come prerequisito per accedere ai trattamenti medici, riconoscendo che non tutte le persone transgender desiderano o possono vivere apertamente nel genere percepito in tutti i contesti della propria vita.
+Questo approccio è legittimo e, in molti contesti, prudente. Le WPATH Standards of Care versione 8 (2022) hanno esplicitamente rimosso il requisito di 12 mesi di "transizione sociale" come prerequisito per accedere ai trattamenti medici, riconoscendo che non tutte le persone transgender desiderano o possono vivere apertamente nel genere percepito in tutti i contesti della propria vita [8].
 
 La disclosure selettiva non è ipocrisia o vergogna. È gestione consapevole della propria sicurezza e del proprio benessere in un mondo che non è uniformemente accogliente.
 
 ## Cosa fare quando qualcuno fa coming out con te
 
-Se una persona sceglie di condividere con te la propria identità di genere, sta facendo un atto di fiducia. La ricerca mostra che le prime reazioni ricevute influenzano significativamente il benessere della persona e la sua disponibilità a continuare il percorso di apertura. Ecco cosa suggeriscono le evidenze e le linee guida cliniche:
+Se una persona sceglie di condividere con te la propria identità di genere, sta facendo un atto di fiducia. La ricerca mostra che le prime reazioni ricevute influenzano significativamente il benessere della persona e la sua disponibilità a continuare il percorso di apertura [5]. Ecco cosa suggeriscono le evidenze e le linee guida cliniche:
 
 - **Ringrazia per la fiducia.** Può sembrare ovvio, ma riconoscere esplicitamente che la persona ha scelto di confidarsi con te è un primo segnale di accoglienza.
 
 - **Ascolta più di quanto parli.** La reazione più utile nelle prime fasi non è dare consigli o fare domande invasive, ma creare spazio perché la persona possa esprimersi nei propri tempi.
 
-- **Usa il nome e i pronomi richiesti.** Le linee guida dell'APA raccomandano di rispettare il nome e i pronomi indicati dalla persona, anche se si commettono errori iniziali. L'importante è la volontà di provarci.
+- **Usa il nome e i pronomi richiesti.** Le linee guida dell'APA raccomandano di rispettare il nome e i pronomi indicati dalla persona, anche se si commettono errori iniziali [7]. L'importante è la volontà di provarci.
 
 - **Non condividere con altri senza permesso.** Il cosiddetto "outing" -- rivelare l'identità di genere di qualcuno senza il suo consenso -- è una violazione grave della privacy e della fiducia. In alcuni contesti può anche mettere a rischio la sicurezza della persona.
 
@@ -153,7 +153,7 @@ Se una persona sceglie di condividere con te la propria identità di genere, sta
 
 ## Sicurezza: un fattore che non si può ignorare
 
-La decisione di fare coming out non è solo emotiva -- è anche una valutazione di sicurezza. I dati sulla violenza contro le persone transgender documentano rischi concreti. Secondo l'Human Rights Campaign, il numero di persone transgender e gender nonconforming vittime di violenza fatale negli Stati Uniti resta allarmante, con le donne trans nere e latine a rischio sproporzionatamente elevato.
+La decisione di fare coming out non è solo emotiva -- è anche una valutazione di sicurezza. I dati sulla violenza contro le persone transgender documentano rischi concreti. Secondo l'Human Rights Campaign, il numero di persone transgender e gender nonconforming vittime di violenza fatale negli Stati Uniti resta allarmante, con le donne trans nere e latine a rischio sproporzionatamente elevato [14].
 
 Le linee guida di sicurezza per le persone transgender suggeriscono di considerare alcuni fattori prima di fare coming out in un determinato contesto:
 
@@ -171,13 +171,13 @@ Non fare coming out in un contesto non sicuro non è un fallimento. È una scelt
 
 In Italia, il quadro normativo per le persone transgender si articola su diversi livelli, nessuno dei quali completo.
 
-La **[Legge 164 del 1982](/wiki/legge-164-italia)** consente la rettificazione dell'attribuzione di sesso nei documenti ufficiali. La sentenza della Corte Costituzionale n. 221 del 2015 ha stabilito che l'intervento chirurgico non è un requisito obbligatorio per la rettifica anagrafica, aprendo la strada a percorsi meno invasivi. Il procedimento richiede comunque un ricorso al tribunale con la partecipazione del pubblico ministero.
+La **[Legge 164 del 1982](/wiki/legge-164-italia)** consente la rettificazione dell'attribuzione di sesso nei documenti ufficiali. La sentenza della Corte Costituzionale n. 221 del 2015 ha stabilito che l'intervento chirurgico non è un requisito obbligatorio per la rettifica anagrafica, aprendo la strada a percorsi meno invasivi [13]. Il procedimento richiede comunque un ricorso al tribunale con la partecipazione del pubblico ministero.
 
 Sul fronte della **privacy**, il Garante per la Protezione dei Dati Personali ha riconosciuto l'identità di genere come dato sensibile meritevole di tutela rafforzata. Lo strumento dell'identità alias, diffuso in ambito universitario e scolastico, consente l'utilizzo del nome di elezione nei documenti interni, proteggendo la persona dalla disclosure involontaria dei dati anagrafici.
 
-Per quanto riguarda la **discriminazione lavorativa**, il D.Lgs. 216/2003 recepisce la direttiva europea 2000/78/CE e vieta discriminazioni basate su orientamento sessuale. La giurisprudenza ha esteso queste tutele alle persone transgender, ma manca una norma esplicita sull'identità di genere. Il DDL Zan, che avrebbe introdotto protezioni specifiche contro la discriminazione e la violenza basate sull'identità di genere, è stato bocciato dal Senato nell'ottobre 2021.
+Per quanto riguarda la **discriminazione lavorativa**, il D.Lgs. 216/2003 recepisce la direttiva europea 2000/78/CE e vieta discriminazioni basate su orientamento sessuale [13]. La giurisprudenza ha esteso queste tutele alle persone transgender, ma manca una norma esplicita sull'identità di genere. Il DDL Zan, che avrebbe introdotto protezioni specifiche contro la discriminazione e la violenza basate sull'identità di genere, è stato bocciato dal Senato nell'ottobre 2021.
 
-Il quadro complessivo è quello di una tutela parziale, costruita più dalla giurisprudenza che dalla legislazione, con lacune significative soprattutto nella protezione dalla violenza e dalla discriminazione quotidiana. Conoscere i propri diritti è un primo passo concreto: il portale Infotrans.it, promosso dall'Istituto Superiore di Sanità e dall'UNAR, offre una rassegna legislativa aggiornata.
+Il quadro complessivo è quello di una tutela parziale, costruita più dalla giurisprudenza che dalla legislazione, con lacune significative soprattutto nella protezione dalla violenza e dalla discriminazione quotidiana. Conoscere i propri diritti è un primo passo concreto: il portale Infotrans.it, promosso dall'Istituto Superiore di Sanità e dall'UNAR, offre una rassegna legislativa aggiornata [13].
 
 ## Risorse e supporto
 
@@ -199,4 +199,4 @@ Per chi sta considerando il coming out o lo ha appena fatto, e per chi ha ricevu
 - **UNAR** (Ufficio Nazionale Antidiscriminazioni Razziali) -- Raccoglie segnalazioni di discriminazione, inclusa quella basata sull'identità di genere.
 - **Parks - Liberi e Uguali** -- Associazione che supporta le aziende nella creazione di ambienti di lavoro inclusivi per le persone LGBT+.
 
-La ricerca è chiara su un punto: il supporto sociale è il più forte fattore protettivo per la salute mentale delle persone transgender. Questo supporto può venire dalla famiglia, dagli amici, da professionisti della salute mentale o dalla comunità trans stessa. Cercarlo non è un segno di debolezza. È il passo più basato sulle evidenze che si possa fare.
+La ricerca è chiara su un punto: il supporto sociale è il più forte fattore protettivo per la salute mentale delle persone transgender [1]. Questo supporto può venire dalla famiglia, dagli amici, da professionisti della salute mentale o dalla comunità trans stessa. Cercarlo non è un segno di debolezza. È il passo più basato sulle evidenze che si possa fare.

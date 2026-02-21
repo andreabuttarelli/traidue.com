@@ -56,9 +56,9 @@ related:
 
 ## Un film che ha portato la storia trans al grande pubblico
 
-Nel novembre 2015, milioni di spettatori in tutto il mondo hanno scoperto per la prima volta il nome di Lili Elbe grazie a "The Danish Girl", un dramma biografico diretto da Tom Hooper e prodotto da Working Title Films. Il film, presentato in anteprima al Festival di Venezia nel settembre dello stesso anno, ha avuto il merito di portare una storia transgender degli anni '30 nelle sale cinematografiche mainstream, accendendo un dibattito che continua ancora oggi.
+Nel novembre 2015, milioni di spettatori in tutto il mondo hanno scoperto per la prima volta il nome di Lili Elbe grazie a "The Danish Girl", un dramma biografico diretto da Tom Hooper e prodotto da Working Title Films [1]. Il film, presentato in anteprima al Festival di Venezia nel settembre dello stesso anno, ha avuto il merito di portare una storia transgender degli anni '30 nelle sale cinematografiche mainstream, accendendo un dibattito che continua ancora oggi.
 
-Basato sull'omonimo romanzo di David Ebershoff pubblicato nel 2000, il film racconta la vicenda di [Lili Elbe](/wiki/lili-elbe), pittrice danese nata nel 1882, che fu tra le prime persone conosciute a sottoporsi a interventi chirurgici di affermazione di genere. La pellicola si concentra sul percorso di scoperta identitaria di Lili e sulla complessa relazione con la moglie Gerda Wegener, interpretata da Alicia Vikander.
+Basato sull'omonimo romanzo di David Ebershoff pubblicato nel 2000, il film racconta la vicenda di [Lili Elbe](/wiki/lili-elbe), pittrice danese nata nel 1882, che fu tra le prime persone conosciute a sottoporsi a interventi chirurgici di affermazione di genere [2]. La pellicola si concentra sul percorso di scoperta identitaria di Lili e sulla complessa relazione con la moglie Gerda Wegener, interpretata da Alicia Vikander.
 
 ## La trama: un viaggio di scoperta
 
@@ -70,23 +70,23 @@ Il cuore emotivo del film risiede nella relazione tra Lili e Gerda: una storia d
 
 ## Il contesto storico: la vera Lili Elbe
 
-Per comprendere appieno il film, e fondamentale conoscere la storia reale che lo ha ispirato. [Lili Elbe](/wiki/lili-elbe) nacque come Einar Wegener nel 1882 a Vejle, in Danimarca. Studio all'Accademia Reale Danese di Belle Arti e sposo Gerda Gottlieb nel 1904.
+Per comprendere appieno il film, e fondamentale conoscere la storia reale che lo ha ispirato. [Lili Elbe](/wiki/lili-elbe) nacque come Einar Wegener nel 1882 a Vejle, in Danimarca [2]. Studio all'Accademia Reale Danese di Belle Arti e sposo Gerda Gottlieb nel 1904.
 
-Tra il 1930 e il 1931, Lili si sottopose a una serie di interventi chirurgici presso la clinica del dottor Kurt Warnekros a Dresda, con il supporto scientifico dell'Institut fur Sexualwissenschaft di Magnus Hirschfeld a Berlino. Il re Christian X di Danimarca riconobbe ufficialmente la sua identita femminile, un gesto straordinario per l'epoca.
+Tra il 1930 e il 1931, Lili si sottopose a una serie di interventi chirurgici presso la clinica del dottor Kurt Warnekros a Dresda, con il supporto scientifico dell'Institut fur Sexualwissenschaft di Magnus Hirschfeld a Berlino [2]. Il re Christian X di Danimarca riconobbe ufficialmente la sua identita femminile, un gesto straordinario per l'epoca.
 
-Tragicamente, Lili mori nel settembre 1931, a 48 anni, a causa di complicazioni legate al suo ultimo intervento chirurgico, un tentativo pionieristico di trapianto uterino. La sua autobiografia, "Man into Woman", fu pubblicata postuma nel 1933 e rimane uno dei primi documenti diretti dell'esperienza transgender.
+Tragicamente, Lili mori nel settembre 1931, a 48 anni, a causa di complicazioni legate al suo ultimo intervento chirurgico, un tentativo pionieristico di trapianto uterino [2]. La sua autobiografia, "Man into Woman", fu pubblicata postuma nel 1933 e rimane uno dei primi documenti diretti dell'esperienza transgender.
 
-Il film, tuttavia, prende numerose liberta narrative. La dinamica tra Lili e Gerda e romanzata, alcuni personaggi sono inventati, e le circostanze degli interventi chirurgici sono semplificate. Lo Smithsonian Magazine ha pubblicato un'analisi dettagliata delle differenze tra la storia vera e la versione cinematografica, evidenziando come il film sacrifichi spesso l'accuratezza storica in favore dell'effetto drammatico.
+Il film, tuttavia, prende numerose liberta narrative. La dinamica tra Lili e Gerda e romanzata, alcuni personaggi sono inventati, e le circostanze degli interventi chirurgici sono semplificate [6]. Lo Smithsonian Magazine ha pubblicato un'analisi dettagliata delle differenze tra la storia vera e la versione cinematografica, evidenziando come il film sacrifichi spesso l'accuratezza storica in favore dell'effetto drammatico [6].
 
 ## Premi e riconoscimenti
 
 "The Danish Girl" ha ottenuto importanti riconoscimenti nell'ambito dei premi cinematografici internazionali:
 
-**Oscar 2016**: Alicia Vikander ha vinto il Premio Oscar come Miglior attrice non protagonista per la sua interpretazione di Gerda Wegener. Eddie Redmayne era candidato come Miglior attore protagonista, ma la statuetta ando a Leonardo DiCaprio per "The Revenant".
+**Oscar 2016**: Alicia Vikander ha vinto il Premio Oscar come Miglior attrice non protagonista per la sua interpretazione di Gerda Wegener [4]. Eddie Redmayne era candidato come Miglior attore protagonista, ma la statuetta ando a Leonardo DiCaprio per "The Revenant" [1].
 
 **BAFTA**: Il film ha ricevuto candidature ai British Academy Film Awards, consolidando la sua presenza nella stagione dei premi.
 
-**Festival di Venezia**: La pellicola e stata presentata in concorso alla 72esima Mostra internazionale d'arte cinematografica di Venezia nel settembre 2015.
+**Festival di Venezia**: La pellicola e stata presentata in concorso alla 72esima Mostra internazionale d'arte cinematografica di Venezia nel settembre 2015 [1].
 
 **Screen Actors Guild Awards**: Vikander ha ricevuto una nomination anche ai SAG Awards.
 
@@ -94,11 +94,11 @@ La performance di Vikander e stata quasi universalmente elogiata dalla critica. 
 
 ## La controversia sul casting: attori cisgender in ruoli trans
 
-Il casting di Eddie Redmayne nel ruolo di Lili Elbe ha generato un dibattito che ha trasceso il film stesso, diventando uno dei temi centrali nella discussione sulla rappresentazione transgender nei media. La critica principale, espressa da attivisti, organizzazioni trans e numerosi commentatori, si articola su diversi punti.
+Il casting di Eddie Redmayne nel ruolo di Lili Elbe ha generato un dibattito che ha trasceso il film stesso, diventando uno dei temi centrali nella discussione sulla rappresentazione transgender nei media [5]. La critica principale, espressa da attivisti, organizzazioni trans e numerosi commentatori, si articola su diversi punti.
 
-**Autenticita della rappresentazione**: Molti sostengono che solo una persona transgender possa comprendere e trasmettere autenticamente l'esperienza di essere trans. Un attore cisgender, per quanto talentuoso, interpreterebbe inevitabilmente l'identita trans come una "performance" piuttosto che come un'esperienza vissuta.
+**Autenticita della rappresentazione**: Molti sostengono che solo una persona transgender possa comprendere e trasmettere autenticamente l'esperienza di essere trans [5]. Un attore cisgender, per quanto talentuoso, interpreterebbe inevitabilmente l'identita trans come una "performance" piuttosto che come un'esperienza vissuta.
 
-**Opportunita lavorative**: In un'industria dove le attrici e gli attori transgender faticano gia enormemente a trovare lavoro, affidare i pochi ruoli trans disponibili ad attori cisgender riduce ulteriormente le loro possibilita.
+**Opportunita lavorative**: In un'industria dove le attrici e gli attori transgender faticano gia enormemente a trovare lavoro, affidare i pochi ruoli trans disponibili ad attori cisgender riduce ulteriormente le loro possibilita [5].
 
 **Narrazione problematica**: Quando un uomo cisgender interpreta una donna trans, il pubblico puo involontariamente percepire la transessualita come un "travestimento" o una "trasformazione", piuttosto che come un'identita autentica.
 
@@ -110,7 +110,7 @@ Questa controversia ha contribuito a un cambiamento significativo nell'industria
 
 Nonostante le controversie, "The Danish Girl" ha avuto un impatto culturale significativo. Per molte persone, e stato il primo contatto con la storia delle persone transgender e con il concetto stesso di identita di genere. Il film ha portato il nome di Lili Elbe nella cultura popolare globale, stimolando curiosita e ricerche sulla vera storia dietro la pellicola.
 
-Il successo commerciale del film -- con un incasso mondiale di circa 64 milioni di dollari a fronte di un budget di 15 milioni -- ha dimostrato che le storie transgender possono raggiungere un pubblico ampio e mainstream. Questo ha aperto la strada ad altre produzioni che esplorano tematiche trans, contribuendo a una maggiore visibilita complessiva.
+Il successo commerciale del film -- con un incasso mondiale di circa 64 milioni di dollari a fronte di un budget di 15 milioni [1] -- ha dimostrato che le storie transgender possono raggiungere un pubblico ampio e mainstream. Questo ha aperto la strada ad altre produzioni che esplorano tematiche trans, contribuendo a una maggiore visibilita complessiva.
 
 Allo stesso tempo, il film ha stimolato un dibattito piu ampio sulla rappresentazione delle persone trans nei media. Ha evidenziato la differenza tra "parlare di" persone trans e "dare voce a" persone trans, una distinzione che e diventata sempre piu centrale nel discorso culturale contemporaneo.
 

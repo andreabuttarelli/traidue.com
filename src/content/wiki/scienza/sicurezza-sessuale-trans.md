@@ -70,9 +70,9 @@ Questo articolo raccoglie le evidenze scientifiche e le raccomandazioni delle pr
 
 ### Le basi valgono per tutti
 
-Le infezioni sessualmente trasmissibili (IST) si trasmettono attraverso il contatto con mucose, fluidi corporei e micro-lesioni della pelle, indipendentemente dal genere delle persone coinvolte. Le linee guida del CDC per le persone transgender e gender diverse raccomandano le stesse strategie di prevenzione valide per la popolazione generale: uso corretto e costante del preservativo, test periodici e accesso ai vaccini disponibili (epatite A e B, HPV, mpox).
+Le infezioni sessualmente trasmissibili (IST) si trasmettono attraverso il contatto con mucose, fluidi corporei e micro-lesioni della pelle, indipendentemente dal genere delle persone coinvolte. Le linee guida del CDC per le persone transgender e gender diverse raccomandano le stesse strategie di prevenzione valide per la popolazione generale: uso corretto e costante del preservativo, test periodici e accesso ai vaccini disponibili (epatite A e B, HPV, mpox) [1].
 
-Un aspetto specifico riguarda lo screening basato sull'anatomia. Il CDC raccomanda di eseguire test IST su tutti i siti mucosi esposti durante l'attività sessuale, indipendentemente dal genere della persona. Per le donne trans che hanno effettuato la vaginoplastica, lo screening dovrebbe includere la neovagina. Per gli uomini trans che non hanno effettuato la vaginectomia, il test cervicale resta indicato.
+Un aspetto specifico riguarda lo screening basato sull'anatomia. Il CDC raccomanda di eseguire test IST su tutti i siti mucosi esposti durante l'attività sessuale, indipendentemente dal genere della persona [1]. Per le donne trans che hanno effettuato la vaginoplastica, lo screening dovrebbe includere la neovagina. Per gli uomini trans che non hanno effettuato la vaginectomia, il test cervicale resta indicato.
 
 ### Il preservativo con anatomie diverse
 
@@ -82,7 +82,7 @@ Per le persone che hanno effettuato la vaginoplastica, il preservativo interno p
 
 ### Effetti della terapia ormonale sulla vulnerabilità alle IST
 
-La terapia con testosterone negli uomini trans causa cambiamenti nella mucosa vaginale simili a quelli della menopausa: assottigliamento dell'epitelio, riduzione dei lattobacilli protettivi, diminuzione del glicogeno e della lubrificazione. Uno studio del 2022 ha documentato che queste alterazioni del microbioma vaginale possono aumentare la suscettibilità alle infezioni sessualmente trasmissibili, perché l'integrità della barriera epiteliale risulta compromessa.
+La terapia con testosterone negli uomini trans causa cambiamenti nella mucosa vaginale simili a quelli della menopausa: assottigliamento dell'epitelio, riduzione dei lattobacilli protettivi, diminuzione del glicogeno e della lubrificazione. Uno studio del 2022 ha documentato che queste alterazioni del microbioma vaginale possono aumentare la suscettibilità alle infezioni sessualmente trasmissibili, perché l'integrità della barriera epiteliale risulta compromessa [8].
 
 Questo non significa che il testosterone renda i rapporti pericolosi. Significa che l'uso del lubrificante e del preservativo diventa particolarmente importante per proteggere una mucosa più fragile. Il trattamento con estrogeni topici a basso dosaggio, applicati direttamente a livello vaginale, può contrastare l'atrofia senza interferire con la terapia con testosterone: si tratta di un intervento localizzato che non altera i livelli ormonali sistemici.
 
@@ -94,46 +94,46 @@ Per le donne trans in terapia estrogenica, non sono documentati effetti specific
 
 La PrEP (profilassi pre-esposizione per l'HIV) è efficace e sicura per le persone transgender, incluse quelle in terapia ormonale. Questa è una delle domande più frequenti nella comunità trans, e la risposta della ricerca è chiara.
 
-Una revisione sistematica pubblicata nel 2024 sul *British Journal of Clinical Pharmacology* ha analizzato le interazioni farmacologiche tra la terapia ormonale di affermazione di genere e i farmaci antiretrovirali usati per la prevenzione e il trattamento dell'HIV. I risultati mostrano che:
+Una revisione sistematica pubblicata nel 2024 sul *British Journal of Clinical Pharmacology* ha analizzato le interazioni farmacologiche tra la terapia ormonale di affermazione di genere e i farmaci antiretrovirali usati per la prevenzione e il trattamento dell'HIV [2]. I risultati mostrano che:
 
-- La PrEP con tenofovir disoproxil fumarato/emtricitabina (TDF/FTC) nelle donne trans può ridurre leggermente le concentrazioni plasmatiche di tenofovir, ma le concentrazioni intracellulari di tenofovir difosfato -- quelle che determinano l'efficacia protettiva -- non risultano ridotte.
-- Negli uomini trans in terapia con testosterone, non sono state rilevate alterazioni significative dei livelli di tenofovir.
-- Le formulazioni più recenti (cabotegravir iniettabile, tenofovir alafenamide) non mostrano interazioni con la terapia ormonale femminilizzante né mascolinizzante.
-- La PrEP non altera i livelli ormonali né nelle donne trans né negli uomini trans.
+- La PrEP con tenofovir disoproxil fumarato/emtricitabina (TDF/FTC) nelle donne trans può ridurre leggermente le concentrazioni plasmatiche di tenofovir, ma le concentrazioni intracellulari di tenofovir difosfato -- quelle che determinano l'efficacia protettiva -- non risultano ridotte [2].
+- Negli uomini trans in terapia con testosterone, non sono state rilevate alterazioni significative dei livelli di tenofovir [2].
+- Le formulazioni più recenti (cabotegravir iniettabile, tenofovir alafenamide) non mostrano interazioni con la terapia ormonale femminilizzante né mascolinizzante [2].
+- La PrEP non altera i livelli ormonali né nelle donne trans né negli uomini trans [2].
 
-La conclusione degli autori è diretta: la PrEP è efficace e sicura nelle persone trans e dovrebbe essere offerta alle persone ad alto rischio indipendentemente dall'uso di terapia ormonale di affermazione di genere.
+La conclusione degli autori è diretta: la PrEP è efficace e sicura nelle persone trans e dovrebbe essere offerta alle persone ad alto rischio indipendentemente dall'uso di terapia ormonale di affermazione di genere [2].
 
 ### Doxy-PEP: una nuova opzione
 
-Nel 2024, il CDC ha pubblicato le linee guida cliniche sulla profilassi post-esposizione con doxiciclina (doxy-PEP) per la prevenzione delle IST batteriche. Questa strategia prevede l'assunzione di 200 mg di doxiciclina entro 72 ore dal rapporto sessuale non protetto. Tre studi clinici randomizzati di grandi dimensioni hanno dimostrato una riduzione delle infezioni da sifilide e clamidia superiore al 70% e delle infezioni gonococciche di circa il 50%.
+Nel 2024, il CDC ha pubblicato le linee guida cliniche sulla profilassi post-esposizione con doxiciclina (doxy-PEP) per la prevenzione delle IST batteriche [9]. Questa strategia prevede l'assunzione di 200 mg di doxiciclina entro 72 ore dal rapporto sessuale non protetto. Tre studi clinici randomizzati di grandi dimensioni hanno dimostrato una riduzione delle infezioni da sifilide e clamidia superiore al 70% e delle infezioni gonococciche di circa il 50% [9].
 
-Il CDC raccomanda la doxy-PEP per uomini che fanno sesso con uomini (MSM) e donne transgender con una storia di almeno una IST batterica nei 12 mesi precedenti. Si tratta di uno strumento di prevenzione aggiuntivo, non sostitutivo del preservativo.
+Il CDC raccomanda la doxy-PEP per uomini che fanno sesso con uomini (MSM) e donne transgender con una storia di almeno una IST batterica nei 12 mesi precedenti [9]. Si tratta di uno strumento di prevenzione aggiuntivo, non sostitutivo del preservativo.
 
 ## Screening oncologici: cosa serve in base all'anatomia
 
 ### Cervice uterina: uomini trans
 
-Gli uomini trans che conservano la cervice uterina devono seguire le stesse raccomandazioni di screening per il cancro cervicale previste per le donne cisgender. Il testosterone non elimina il rischio di cancro cervicale. Le linee guida dell'UCSF Transgender Care raccomandano il pap test a partire dai 21 anni, con la stessa frequenza prevista per la popolazione generale (ogni 3 anni tra i 21 e i 29 anni; ogni 5 anni con test HPV tra i 30 e i 65 anni).
+Gli uomini trans che conservano la cervice uterina devono seguire le stesse raccomandazioni di screening per il cancro cervicale previste per le donne cisgender [4]. Il testosterone non elimina il rischio di cancro cervicale. Le linee guida dell'UCSF Transgender Care raccomandano il pap test a partire dai 21 anni, con la stessa frequenza prevista per la popolazione generale (ogni 3 anni tra i 21 e i 29 anni; ogni 5 anni con test HPV tra i 30 e i 65 anni) [4].
 
-Un problema pratico è che i pap test negli uomini trans hanno un'incidenza di risultati inadeguati **dieci volte superiore** rispetto alle donne cisgender. Questo è correlato alla durata della terapia con testosterone, che altera la morfologia cellulare. Per ottenere risultati affidabili, è importante che la richiesta di esame indichi esplicitamente l'uso di testosterone e la presenza di amenorrea, in modo che il patologo possa interpretare correttamente le cellule.
+Un problema pratico è che i pap test negli uomini trans hanno un'incidenza di risultati inadeguati **dieci volte superiore** rispetto alle donne cisgender [4]. Questo è correlato alla durata della terapia con testosterone, che altera la morfologia cellulare. Per ottenere risultati affidabili, è importante che la richiesta di esame indichi esplicitamente l'uso di testosterone e la presenza di amenorrea, in modo che il patologo possa interpretare correttamente le cellule.
 
-Un dato preoccupante: secondo uno studio statunitense, solo il 64,3% degli uomini trans risulta in regola con lo screening cervicale, rispetto al 73,5% delle donne cisgender. Le barriere sono molteplici: disagio nell'accedere a un esame percepito come "femminile", mancanza di formazione degli operatori sanitari e, in alcuni casi, assenza di consapevolezza della necessità dello screening.
+Un dato preoccupante: secondo uno studio statunitense, solo il 64,3% degli uomini trans risulta in regola con lo screening cervicale, rispetto al 73,5% delle donne cisgender [10]. Le barriere sono molteplici: disagio nell'accedere a un esame percepito come "femminile", mancanza di formazione degli operatori sanitari e, in alcuni casi, assenza di consapevolezza della necessità dello screening.
 
 ### Prostata: donne trans
 
-Le donne trans mantengono la prostata anche dopo la vaginoplastica. La terapia estrogenica e l'eventuale orchiectomia riducono significativamente il volume prostatico e i livelli di PSA, ma non eliminano il rischio di cancro. Uno studio pubblicato sul *British Journal of Cancer* nel 2023 raccomanda di seguire le stesse indicazioni di screening prostatico previste per gli uomini cisgender, con un'avvertenza: dato che la terapia ormonale abbassa i livelli di PSA, il valore soglia potrebbe dover essere ridotto a 1,0 ng/ml anziché i consueti 4,0 ng/ml.
+Le donne trans mantengono la prostata anche dopo la vaginoplastica. La terapia estrogenica e l'eventuale orchiectomia riducono significativamente il volume prostatico e i livelli di PSA, ma non eliminano il rischio di cancro [5]. Uno studio pubblicato sul *British Journal of Cancer* nel 2023 raccomanda di seguire le stesse indicazioni di screening prostatico previste per gli uomini cisgender, con un'avvertenza: dato che la terapia ormonale abbassa i livelli di PSA, il valore soglia potrebbe dover essere ridotto a 1,0 ng/ml anziché i consueti 4,0 ng/ml [5].
 
-Nelle donne trans che hanno effettuato la vaginoplastica, la prostata si trova anteriormente alla parete neovaginale. L'esame digitale può essere eseguito per via neovaginale o rettale, a seconda della preferenza della paziente e dell'esperienza del medico.
+Nelle donne trans che hanno effettuato la vaginoplastica, la prostata si trova anteriormente alla parete neovaginale. L'esame digitale può essere eseguito per via neovaginale o rettale, a seconda della preferenza della paziente e dell'esperienza del medico [5].
 
 ### Seno: tutte le persone trans
 
-Per le donne trans, lo screening mammografico è raccomandato dopo almeno 5 anni di terapia estrogenica, indipendentemente dall'età. Alcune linee guida suggeriscono di attendere fino a 10 anni di terapia prima di iniziare lo screening, dato che il rischio di cancro al seno nelle donne trans, sebbene presente, risulta inferiore a quello delle donne cisgender ma superiore a quello degli uomini cisgender.
+Per le donne trans, lo screening mammografico è raccomandato dopo almeno 5 anni di terapia estrogenica, indipendentemente dall'età [6]. Alcune linee guida suggeriscono di attendere fino a 10 anni di terapia prima di iniziare lo screening, dato che il rischio di cancro al seno nelle donne trans, sebbene presente, risulta inferiore a quello delle donne cisgender ma superiore a quello degli uomini cisgender [6][10].
 
-Per gli uomini trans, le raccomandazioni dipendono dalla presenza di tessuto mammario residuo. Chi non ha effettuato la mastectomia dovrebbe seguire le linee guida di screening previste per le donne cisgender. Dopo la mastectomia, il rischio si riduce ma non si azzera completamente: una valutazione individuale con il proprio medico resta importante.
+Per gli uomini trans, le raccomandazioni dipendono dalla presenza di tessuto mammario residuo. Chi non ha effettuato la mastectomia dovrebbe seguire le linee guida di screening previste per le donne cisgender [10]. Dopo la mastectomia, il rischio si riduce ma non si azzera completamente: una valutazione individuale con il proprio medico resta importante.
 
 ## Contraccezione
 
-La terapia ormonale riduce fortemente la fertilità, ma **non è un metodo contraccettivo**. Questo vale sia per gli uomini trans in terapia con testosterone sia per le donne trans in terapia estrogenica.
+La terapia ormonale riduce fortemente la fertilità, ma **non è un metodo contraccettivo** [3]. Questo vale sia per gli uomini trans in terapia con testosterone sia per le donne trans in terapia estrogenica.
 
 Gli uomini trans che hanno rapporti vaginali con partner che producono spermatozoi possono rimanere incinti anche durante la terapia con testosterone, soprattutto nei primi mesi o in caso di assunzione irregolare. Il testosterone sopprime l'ovulazione nella maggior parte dei casi, ma non in modo garantito. Chi desidera evitare una gravidanza dovrebbe utilizzare un metodo contraccettivo aggiuntivo: il preservativo (che protegge anche dalle IST), i dispositivi intrauterini (IUD) al rame o ormonali, o altri metodi di barriera.
 
@@ -147,11 +147,11 @@ Questi aspetti non sono "problemi" della persona trans: sono il risultato dell'i
 
 Il supporto psicologico può essere utile per affrontare la relazione tra disforia e sessualità. Come documentato nell'articolo sulla [salute mentale delle persone trans](/wiki/salute-mentale-persone-trans), il disagio psicologico nelle persone trans è legato al contesto sociale, non all'identità in sé. Un ambiente sessuale rispettoso e consapevole è parte di quel contesto.
 
-Gli Standards of Care WPATH versione 8 dedicano un capitolo specifico alla salute sessuale, riconoscendo che il benessere sessuale è una componente essenziale della qualità della vita delle persone trans e gender diverse.
+Gli Standards of Care WPATH versione 8 dedicano un capitolo specifico alla salute sessuale, riconoscendo che il benessere sessuale è una componente essenziale della qualità della vita delle persone trans e gender diverse [3].
 
 ## I dati in Europa
 
-Uno studio pubblicato su *Eurosurveillance* nel 2024 ha analizzato la prevalenza di HIV e IST batteriche tra 452 persone transgender e non-binarie in 20 paesi europei. I risultati mostrano una prevalenza auto-riferita di HIV del 2,8% tra le persone transgender, con tassi di IST recenti del 6,7% per la sifilide, del 15,6% per la gonorrea e del 19,6% per la clamidia.
+Uno studio pubblicato su *Eurosurveillance* nel 2024 ha analizzato la prevalenza di HIV e IST batteriche tra 452 persone transgender e non-binarie in 20 paesi europei [7]. I risultati mostrano una prevalenza auto-riferita di HIV del 2,8% tra le persone transgender, con tassi di IST recenti del 6,7% per la sifilide, del 15,6% per la gonorrea e del 19,6% per la clamidia [7].
 
 Questi dati confermano la necessità di servizi di prevenzione e screening accessibili e non giudicanti, calibrati sulle specificità anatomiche e comportamentali delle persone trans, senza però patologizzare l'identità di genere.
 
@@ -169,7 +169,7 @@ Gli ambulatori per le infezioni sessualmente trasmissibili sono presenti in molt
 
 ### Servizi dedicati alla salute trans
 
-- **Infotrans.it**, il portale dell'Istituto Superiore di Sanità e dell'UNAR, offre una mappa interattiva dei servizi dedicati alle persone transgender su tutto il territorio nazionale, inclusi centri per la salute sessuale
+- **Infotrans.it**, il portale dell'Istituto Superiore di Sanità e dell'UNAR, offre una mappa interattiva dei servizi dedicati alle persone transgender su tutto il territorio nazionale, inclusi centri per la salute sessuale [11]
 - **ONIG (Osservatorio Nazionale sull'Identità di Genere)** elenca i centri italiani specializzati nella salute delle persone trans
 - **Consultorio MIT di Bologna**, convenzionato con l'Ospedale Sant'Orsola Malpighi
 - **Consultorio Transgenere di Torre del Lago Puccini**, progetto pilota della Regione Toscana
@@ -183,6 +183,6 @@ La PrEP è disponibile in Italia dal 2023 tramite il Servizio Sanitario Nazional
 
 La salute sessuale delle persone trans non richiede regole diverse da quelle che valgono per chiunque. Preservativo, test regolari, vaccinazioni e comunicazione con il partner sono gli strumenti fondamentali. Quello che cambia sono alcune specificità legate all'anatomia e alla terapia ormonale: lo screening cervicale per chi ha la cervice, lo screening prostatico per chi ha la prostata, l'attenzione alla lubrificazione in caso di atrofia vaginale, la consapevolezza che la terapia ormonale non è un contraccettivo.
 
-La PrEP funziona ed è sicura per le persone trans in terapia ormonale. Gli screening oncologici vanno calibrati sull'anatomia presente, non sul genere assegnato alla nascita. E la salute sessuale include anche il benessere psicologico: sentirsi rispettati nel proprio corpo e nella propria identità è una condizione necessaria per una vita sessuale sana.
+La PrEP funziona ed è sicura per le persone trans in terapia ormonale [2]. Gli screening oncologici vanno calibrati sull'anatomia presente, non sul genere assegnato alla nascita [10]. E la salute sessuale include anche il benessere psicologico: sentirsi rispettati nel proprio corpo e nella propria identità è una condizione necessaria per una vita sessuale sana [3].
 
 Le risorse esistono, in Italia e a livello internazionale. Il primo passo è sapere che si ha diritto a cure competenti, rispettose e basate sull'evidenza.

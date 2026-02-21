@@ -71,7 +71,7 @@ related:
   - bambini-trans
 ---
 
-La terapia psicologica per le persone trans e spesso percepita in modo ambivalente: da un lato, uno strumento di supporto concreto; dall'altro, un ostacolo burocratico imposto dall'esterno. Questa ambivalenza ha ragioni storiche precise. Per decenni, la psicologia ha trattato l'identita transgender come una patologia da correggere. Oggi le principali organizzazioni scientifiche -- APA, WPATH, OMS -- riconoscono che l'identita trans non e un disturbo mentale e che il ruolo della terapia non e cambiare chi sei, ma supportarti in un percorso che e tuo.
+La terapia psicologica per le persone trans e spesso percepita in modo ambivalente: da un lato, uno strumento di supporto concreto; dall'altro, un ostacolo burocratico imposto dall'esterno. Questa ambivalenza ha ragioni storiche precise. Per decenni, la psicologia ha trattato l'identita transgender come una patologia da correggere. Oggi le principali organizzazioni scientifiche -- APA, WPATH, OMS -- riconoscono che l'identita trans non e un disturbo mentale e che il ruolo della terapia non e cambiare chi sei, ma supportarti in un percorso che e tuo [1][4][5].
 
 Questo articolo spiega cosa significa fare terapia come persona trans nel 2026: quali approcci esistono, come funziona il sistema italiano, come trovare un professionista competente e quando la terapia e una scelta personale e quando e un requisito formale. Per i dati sulla salute mentale delle persone trans e il modello del minority stress, rimandiamo all'articolo dedicato sulla [salute mentale e persone trans](/wiki/salute-mentale-persone-trans).
 
@@ -83,41 +83,41 @@ Il primo punto da chiarire e la funzione della terapia psicologica nel contesto 
 
 Nel modello tradizionale del gatekeeping, lo psicologo o lo psichiatra ha il ruolo di "guardiano": decide se la persona e "abbastanza trans" per accedere alle cure mediche. Questo modello ha dominato la pratica clinica per decenni, e in molti contesti -- incluso quello italiano -- ne restano tracce significative. Il professionista valuta, diagnostica e autorizza. La persona deve dimostrare di soddisfare criteri specifici, spesso rigidi, per ottenere il via libera alla terapia ormonale o alla chirurgia.
 
-Le critiche a questo modello sono documentate nella letteratura. Il gatekeeping crea una dinamica di potere asimmetrica in cui la persona trans deve "convincere" il professionista, producendo incentivi a nascondere dubbi, complessita e sfumature che sarebbero normali in qualsiasi percorso di esplorazione identitaria. Diversi studi hanno documentato come questo modello porti le persone a presentare narrazioni stereotipate ("ho sempre saputo di essere nel corpo sbagliato") per ottenere l'accesso alle cure, indipendentemente dalla complessita della propria esperienza reale.
+Le critiche a questo modello sono documentate nella letteratura [7]. Il gatekeeping crea una dinamica di potere asimmetrica in cui la persona trans deve "convincere" il professionista, producendo incentivi a nascondere dubbi, complessita e sfumature che sarebbero normali in qualsiasi percorso di esplorazione identitaria. Diversi studi hanno documentato come questo modello porti le persone a presentare narrazioni stereotipate ("ho sempre saputo di essere nel corpo sbagliato") per ottenere l'accesso alle cure, indipendentemente dalla complessita della propria esperienza reale.
 
 ### Modello del consenso informato
 
 Il modello del consenso informato, sempre piu adottato a livello internazionale, ribalta la logica. Il professionista sanitario non decide per la persona: fornisce informazioni complete su rischi, benefici e alternative, e la persona prende una decisione autonoma e informata. In questo modello, il ruolo dello psicologo non e autorizzare ma accompagnare. La terapia non e un prerequisito obbligatorio per accedere alle cure, ma una risorsa disponibile per chi la desidera.
 
-I WPATH Standards of Care versione 8 (2022) si collocano in una posizione intermedia: mantengono la raccomandazione di una valutazione da parte di un professionista della salute mentale prima di alcuni interventi medici, ma sottolineano che questa valutazione deve essere un processo collaborativo, non un esame da superare. Gli SOC-8 specificano che il ruolo del professionista e accertare che la persona abbia ricevuto informazioni adeguate e sia in grado di prendere una decisione informata, non giudicare la "legittimita" dell'identita di genere.
+I WPATH Standards of Care versione 8 (2022) si collocano in una posizione intermedia: mantengono la raccomandazione di una valutazione da parte di un professionista della salute mentale prima di alcuni interventi medici, ma sottolineano che questa valutazione deve essere un processo collaborativo, non un esame da superare [4]. Gli SOC-8 specificano che il ruolo del professionista e accertare che la persona abbia ricevuto informazioni adeguate e sia in grado di prendere una decisione informata, non giudicare la "legittimita" dell'identita di genere.
 
 ### Il dibattito in corso
 
-Il dibattito tra gatekeeping e consenso informato non e accademico: ha conseguenze dirette sulla vita delle persone. I dati mostrano che le barriere nell'accesso alle cure sono associate a un peggioramento della salute mentale. Uno studio del 2022 pubblicato su JAMA Network Open ha rilevato che i giovani trans che non riuscivano ad accedere alla terapia ormonale entro 3-6 mesi dal primo contatto clinico mostravano un aumento di 2-3 volte dei sintomi depressivi e dell'ideazione suicidaria. Le liste d'attesa e i percorsi di valutazione lunghi non sono neutri: hanno un costo clinico misurabile.
+Il dibattito tra gatekeeping e consenso informato non e accademico: ha conseguenze dirette sulla vita delle persone. I dati mostrano che le barriere nell'accesso alle cure sono associate a un peggioramento della salute mentale [13]. Uno studio del 2022 pubblicato su JAMA Network Open ha rilevato che i giovani trans che non riuscivano ad accedere alla terapia ormonale entro 3-6 mesi dal primo contatto clinico mostravano un aumento di 2-3 volte dei sintomi depressivi e dell'ideazione suicidaria [12]. Le liste d'attesa e i percorsi di valutazione lunghi non sono neutri: hanno un costo clinico misurabile.
 
 Al tempo stesso, un accompagnamento psicologico competente puo essere una risorsa preziosa, a patto che non diventi uno strumento di controllo. La distinzione e tra terapia come supporto e terapia come filtro.
 
 ## La terapia affermativa: definizione e principi
 
-La terapia affermativa di genere (in inglese *gender-affirming therapy*) e l'approccio raccomandato dalle principali linee guida internazionali. Non si tratta di un singolo modello terapeutico, ma di un orientamento che puo essere applicato all'interno di diversi framework teorici -- cognitivo-comportamentale, psicodinamico, sistemico, umanistico.
+La terapia affermativa di genere (in inglese *gender-affirming therapy*) e l'approccio raccomandato dalle principali linee guida internazionali [1][4]. Non si tratta di un singolo modello terapeutico, ma di un orientamento che puo essere applicato all'interno di diversi framework teorici -- cognitivo-comportamentale, psicodinamico, sistemico, umanistico.
 
 ### Cosa significa "affermativa"
 
 Un approccio affermativo riconosce tre principi fondamentali:
 
-1. **L'identita di genere non e una patologia.** L'identita trans e una variante naturale dell'esperienza umana, non un disturbo da trattare. Questa posizione e condivisa dall'APA, dalla WPATH e dall'OMS, che nell'ICD-11 ha rimosso l'incongruenza di genere dal capitolo sui disturbi mentali.
+1. **L'identita di genere non e una patologia.** L'identita trans e una variante naturale dell'esperienza umana, non un disturbo da trattare. Questa posizione e condivisa dall'APA, dalla WPATH e dall'OMS, che nell'ICD-11 ha rimosso l'incongruenza di genere dal capitolo sui disturbi mentali [1][4][5].
 
-2. **Il disagio nasce dal contesto, non dall'identita.** La disforia di genere, l'ansia e la depressione sperimentate da molte persone trans sono in larga parte il prodotto del minority stress -- discriminazione, rifiuto sociale e familiare, transfobia interiorizzata -- e non una conseguenza intrinseca dell'essere trans.
+2. **Il disagio nasce dal contesto, non dall'identita.** La disforia di genere, l'ansia e la depressione sperimentate da molte persone trans sono in larga parte il prodotto del minority stress -- discriminazione, rifiuto sociale e familiare, transfobia interiorizzata -- e non una conseguenza intrinseca dell'essere trans [13].
 
 3. **Il ruolo del terapeuta e supportare, non dirigere.** Il terapeuta affermativo non ha l'obiettivo di determinare se la persona e "veramente trans" o di guidarla verso una conclusione specifica. Crea uno spazio sicuro per l'esplorazione, rispetta i tempi della persona e la supporta nelle decisioni che sceglie di prendere.
 
-Le linee guida APA del 2015 per la pratica psicologica con persone transgender e di genere non conforme sono organizzate in cinque aree: consapevolezza di base, stigma e discriminazione, sviluppo nel ciclo di vita, valutazione e intervento, formazione professionale. Nel 2024, l'APA ha adottato una dichiarazione formale a sostegno delle cure inclusive basate sull'evidenza.
+Le linee guida APA del 2015 per la pratica psicologica con persone transgender e di genere non conforme sono organizzate in cinque aree: consapevolezza di base, stigma e discriminazione, sviluppo nel ciclo di vita, valutazione e intervento, formazione professionale [1]. Nel 2024, l'APA ha adottato una dichiarazione formale a sostegno delle cure inclusive basate sull'evidenza [2].
 
 ### Come si differenzia dalle terapie di conversione
 
 La distinzione tra terapia affermativa e terapie di conversione (GICE -- *Gender Identity Change Efforts*) e netta e senza ambiguita nella letteratura scientifica.
 
-Le terapie di conversione mirano a modificare l'identita di genere della persona per allinearla al sesso assegnato alla nascita. L'APA, nella risoluzione del 2021, le ha condannate in modo inequivocabile: tentare di cambiare l'identita di genere e "inappropriato" perche l'incongruenza tra sesso e genere "non e un disturbo mentale" e tali tentativi "possono essere dannosi". I danni documentati includono aumento della depressione, dell'ansia, del rischio suicidario e della transfobia interiorizzata.
+Le terapie di conversione mirano a modificare l'identita di genere della persona per allinearla al sesso assegnato alla nascita. L'APA, nella risoluzione del 2021, le ha condannate in modo inequivocabile: tentare di cambiare l'identita di genere e "inappropriato" perche l'incongruenza tra sesso e genere "non e un disturbo mentale" e tali tentativi "possono essere dannosi" [3]. I danni documentati includono aumento della depressione, dell'ansia, del rischio suicidario e della transfobia interiorizzata.
 
 In Italia non esiste ancora una legge che vieti esplicitamente le terapie di conversione, sebbene gli ordini professionali ne scoraggino la pratica. Diversi paesi europei -- tra cui Germania, Francia, Grecia e Spagna -- le hanno vietate per legge.
 
@@ -129,7 +129,7 @@ Non esiste un unico approccio terapeutico per le persone trans, cosi come non ne
 
 ### Terapia cognitivo-comportamentale (CBT)
 
-La CBT e tra gli approcci piu studiati nel contesto della salute mentale trans. Uno studio del 2019 pubblicato su *Clinical Psychology: Science and Practice* ha descritto un modello di CBT affermativa specificamente adattato per le persone transgender e di genere non conforme. Il modello lavora su:
+La CBT e tra gli approcci piu studiati nel contesto della salute mentale trans. Uno studio del 2019 pubblicato su *Clinical Psychology: Science and Practice* ha descritto un modello di CBT affermativa specificamente adattato per le persone transgender e di genere non conforme [6]. Il modello lavora su:
 
 - **Ristrutturazione cognitiva** dei pensieri legati alla transfobia interiorizzata ("Non saro mai abbastanza uomo/donna", "La mia identita non e valida")
 - **Gestione dell'ansia sociale** legata al passing, al misgendering e alle interazioni quotidiane
@@ -160,7 +160,7 @@ L'EMDR lavora sulla rielaborazione dei ricordi traumatici, riducendo l'impatto e
 
 ### Terapia di gruppo
 
-La terapia di gruppo per persone trans offre qualcosa che la terapia individuale non puo replicare: il contatto diretto con pari che condividono esperienze simili. La ricerca sulla resilienza nelle persone trans identifica il supporto tra pari come uno dei fattori protettivi piu efficaci.
+La terapia di gruppo per persone trans offre qualcosa che la terapia individuale non puo replicare: il contatto diretto con pari che condividono esperienze simili. La ricerca sulla resilienza nelle persone trans identifica il supporto tra pari come uno dei fattori protettivi piu efficaci [13].
 
 I gruppi terapeutici possono essere:
 
@@ -174,23 +174,23 @@ Molte associazioni LGBTQ+ in Italia offrono gruppi di supporto tra pari che, pur
 
 L'identita di genere non si vive in isolamento. Per questo, la terapia che coinvolge il sistema relazionale della persona puo essere fondamentale.
 
-**Terapia familiare.** Il supporto familiare e il fattore protettivo piu potente per la salute mentale delle persone trans. Lo studio del Family Acceptance Project ha dimostrato che i giovani LGBT con elevato rifiuto familiare sono 8,4 volte piu a rischio di tentativo di suicidio. La terapia familiare puo aiutare i familiari a elaborare le proprie reazioni, a comprendere l'esperienza della persona trans e a costruire un ambiente supportivo. Per approfondire questo tema, si veda l'articolo [Mio figlio e trans: cosa dice davvero la scienza alle famiglie](/wiki/famiglie-e-persone-trans).
+**Terapia familiare.** Il supporto familiare e il fattore protettivo piu potente per la salute mentale delle persone trans. Lo studio del Family Acceptance Project ha dimostrato che i giovani LGBT con elevato rifiuto familiare sono 8,4 volte piu a rischio di tentativo di suicidio [14]. La terapia familiare puo aiutare i familiari a elaborare le proprie reazioni, a comprendere l'esperienza della persona trans e a costruire un ambiente supportivo. Per approfondire questo tema, si veda l'articolo [Mio figlio e trans: cosa dice davvero la scienza alle famiglie](/wiki/famiglie-e-persone-trans).
 
 **Terapia di coppia.** La transizione puo portare cambiamenti significativi nella dinamica di coppia. La terapia di coppia puo lavorare sulla comunicazione, sull'adattamento ai cambiamenti fisici e relazionali, e sulla rinegoziazione dell'intimita. E importante che il terapeuta di coppia abbia competenze specifiche sulle tematiche trans: un professionista non formato rischia di patologizzare la transizione o di posizionarsi inconsapevolmente dalla parte del partner cisgender.
 
 ## Il percorso di valutazione in Italia: protocolli ONIG
 
-In Italia, il percorso di affermazione di genere e coordinato dall'**ONIG (Osservatorio Nazionale sull'Identita di Genere)**, che riunisce i principali centri specializzati sul territorio. I centri ONIG includono il CIDIGEM di Torino, il centro di Careggi a Firenze, il SAIFIP al San Camillo-Forlanini di Roma, il Policlinico di Bari e altri.
+In Italia, il percorso di affermazione di genere e coordinato dall'**ONIG (Osservatorio Nazionale sull'Identita di Genere)**, che riunisce i principali centri specializzati sul territorio [8]. I centri ONIG includono il CIDIGEM di Torino, il centro di Careggi a Firenze, il SAIFIP al San Camillo-Forlanini di Roma, il Policlinico di Bari e altri [9].
 
 ### Cosa prevede il percorso
 
-Il protocollo ONIG prevede un percorso di valutazione e supporto psicologico articolato in piu fasi.
+Il protocollo ONIG prevede un percorso di valutazione e supporto psicologico articolato in piu fasi [8][11].
 
 **Prima fase: accoglienza e assessment.** La persona viene accolta da un professionista della salute mentale (psicologo o psichiatra) che raccoglie la storia clinica e personale, esplora l'esperienza dell'identita di genere e valuta eventuali condizioni di salute mentale concomitanti. Questa fase non ha lo scopo di determinare se la persona "e davvero trans", ma di comprendere il quadro complessivo e di escludere condizioni che potrebbero influenzare temporaneamente la percezione dell'identita di genere.
 
-**Seconda fase: supporto psicologico continuativo.** Il protocollo ONIG prevede un periodo minimo di sei mesi di supporto psicologico. La frequenza degli incontri varia da centro a centro, ma generalmente prevede sedute quindicinali o mensili. Durante questo periodo, il professionista e la persona lavorano insieme sull'esplorazione dell'identita, sulla gestione del disagio, sulla preparazione alle tappe successive del percorso e sulle risorse personali e sociali disponibili.
+**Seconda fase: supporto psicologico continuativo.** Il protocollo ONIG prevede un periodo minimo di sei mesi di supporto psicologico [8]. La frequenza degli incontri varia da centro a centro, ma generalmente prevede sedute quindicinali o mensili. Durante questo periodo, il professionista e la persona lavorano insieme sull'esplorazione dell'identita, sulla gestione del disagio, sulla preparazione alle tappe successive del percorso e sulle risorse personali e sociali disponibili.
 
-**Terza fase: relazione psicodiagnostica.** Al termine del percorso di valutazione, il professionista redige una relazione che descrive la storia della persona, il percorso effettuato e le conclusioni cliniche. Questa relazione e necessaria per accedere alla terapia ormonale tramite il SSN e, in alcuni contesti, per la chirurgia.
+**Terza fase: relazione psicodiagnostica.** Al termine del percorso di valutazione, il professionista redige una relazione che descrive la storia della persona, il percorso effettuato e le conclusioni cliniche. Questa relazione e necessaria per accedere alla terapia ormonale tramite il SSN e, in alcuni contesti, per la chirurgia [11].
 
 ### Tempi reali
 
@@ -204,7 +204,7 @@ Se ti stai avvicinando a un centro ONIG, ecco cosa aspettarti:
 
 - **Il primo colloquio** e generalmente conoscitivo: il professionista ti chiedera della tua storia, delle tue esperienze e delle tue aspettative. Non devi "dimostrare" nulla.
 - **I colloqui successivi** approfondiscono la tua esperienza di genere, la tua storia familiare e relazionale, le tue risorse e le tue eventuali difficolta.
-- **Non ti verra chiesto di "vivere nel genere desiderato" per un periodo prima di accedere alle cure** (il vecchio "real life test" e stato abbandonato dalla maggior parte dei centri, in linea con i WPATH SOC-8).
+- **Non ti verra chiesto di "vivere nel genere desiderato" per un periodo prima di accedere alle cure** (il vecchio "real life test" e stato abbandonato dalla maggior parte dei centri, in linea con i WPATH SOC-8) [4].
 - **Potranno essere somministrati test psicologici**, come questionari sulla disforia di genere, sulla personalita o sulla salute mentale. Questi strumenti servono a costruire un quadro complessivo, non a "filtrare".
 - **Al termine, riceverai una relazione** che ti permettera di proseguire nel percorso medico, se lo desideri.
 
@@ -218,7 +218,7 @@ Il [coming out](/wiki/coming-out-trans) e un processo, non un evento singolo. La
 
 ### Terapia per giovani trans
 
-La terapia per adolescenti e giovani adulti trans ha caratteristiche specifiche riconosciute nei WPATH SOC-8 e nelle linee guida dell'American Academy of Pediatrics (2018). I temi centrali includono:
+La terapia per adolescenti e giovani adulti trans ha caratteristiche specifiche riconosciute nei WPATH SOC-8 [4] e nelle linee guida dell'American Academy of Pediatrics (2018). I temi centrali includono:
 
 - **Esplorazione dell'identita di genere** in una fase di sviluppo in cui molti aspetti dell'identita sono in evoluzione
 - **Gestione delle dinamiche scolastiche**: bullismo, uso del nome e dei pronomi, spazi sicuri
@@ -246,8 +246,8 @@ Trovare un professionista competente e una delle sfide piu concrete per le perso
 
 ### Dove cercare
 
-- **Centri ONIG**: i centri dell'Osservatorio Nazionale sull'Identita di Genere dispongono di equipe multidisciplinari con psicologi e psichiatri formati. La mappa dei centri e disponibile sul sito ONIG.
-- **Infotrans.it**: il portale dell'Istituto Superiore di Sanita offre una mappa dei servizi dedicati alle persone trans in Italia, inclusi punti di ascolto e supporto psicologico.
+- **Centri ONIG**: i centri dell'Osservatorio Nazionale sull'Identita di Genere dispongono di equipe multidisciplinari con psicologi e psichiatri formati [9]. La mappa dei centri e disponibile sul sito ONIG.
+- **Infotrans.it**: il portale dell'Istituto Superiore di Sanita offre una mappa dei servizi dedicati alle persone trans in Italia, inclusi punti di ascolto e supporto psicologico [10].
 - **Associazioni LGBTQ+**: molte associazioni sul territorio offrono sportelli psicologici con professionisti formati sulle tematiche di genere, spesso a tariffa ridotta o gratuita.
 - **Passaparola nella comunita**: le esperienze dirette di altre persone trans sono spesso la risorsa piu affidabile per identificare professionisti competenti. Forum, gruppi social e associazioni possono essere fonti utili.
 
@@ -257,7 +257,7 @@ Un professionista competente e affermativo:
 
 - **Utilizza i pronomi e il nome scelto** dalla persona fin dal primo incontro, senza resistenza o esitazione
 - **Non mette in discussione l'identita di genere** come punto di partenza. Non chiede "Sei sicuro/a?" in modo che implichi dubbio sulla validita dell'identita
-- **Ha formazione specifica** sulle tematiche trans, o si sta attivamente formando. Conosce le linee guida WPATH e APA
+- **Ha formazione specifica** sulle tematiche trans, o si sta attivamente formando. Conosce le linee guida WPATH e APA [1][4]
 - **Distingue tra identita di genere e salute mentale**: non tratta l'essere trans come la causa del disagio
 - **Rispetta l'autonomia della persona**: non impone tempi, non rallenta il percorso senza motivi clinici documentati, non utilizza la relazione terapeutica come leva di potere
 - **E trasparente sul proprio approccio**: spiega chiaramente come lavora, quali sono i tempi previsti e cosa comporta il percorso di valutazione
@@ -284,15 +284,15 @@ In Italia, il confine tra terapia come scelta personale e terapia come requisito
 
 ### Quando e formalmente richiesta
 
-- **Per accedere alla terapia ormonale tramite SSN**: i centri ONIG richiedono generalmente una relazione psicodiagnostica. La durata minima del percorso e di sei mesi. In regime privato, le prassi variano: alcuni endocrinologi accettano relazioni di professionisti esterni al circuito ONIG, altri richiedono il percorso completo.
-- **Per la chirurgia di affermazione di genere**: i WPATH SOC-8 raccomandano lettere di valutazione da parte di professionisti della salute mentale per gli interventi chirurgici. In Italia, la [chirurgia](/wiki/chirurgia-affermazione-di-genere) richiede generalmente una o due relazioni psicologiche, a seconda del tipo di intervento.
+- **Per accedere alla terapia ormonale tramite SSN**: i centri ONIG richiedono generalmente una relazione psicodiagnostica [8][11]. La durata minima del percorso e di sei mesi. In regime privato, le prassi variano: alcuni endocrinologi accettano relazioni di professionisti esterni al circuito ONIG, altri richiedono il percorso completo.
+- **Per la chirurgia di affermazione di genere**: i WPATH SOC-8 raccomandano lettere di valutazione da parte di professionisti della salute mentale per gli interventi chirurgici [4]. In Italia, la [chirurgia](/wiki/chirurgia-affermazione-di-genere) richiede generalmente una o due relazioni psicologiche, a seconda del tipo di intervento.
 - **Per la rettifica anagrafica**: il percorso legale per il [cambio dei documenti](/wiki/cambio-documenti-trans) puo richiedere documentazione psicologica, sebbene la giurisprudenza sia in evoluzione.
 
 ### Quando e una scelta personale
 
 La terapia e una risorsa, non un obbligo morale. Molte persone trans scelgono di fare terapia indipendentemente dal percorso medico o legale, per:
 
-- Affrontare il minority stress e le sue conseguenze sulla salute mentale
+- Affrontare il minority stress e le sue conseguenze sulla salute mentale [13]
 - Elaborare esperienze di discriminazione o violenza
 - Gestire il coming out e le relazioni familiari
 - Lavorare sull'autostima e sulla transfobia interiorizzata
@@ -334,19 +334,19 @@ In ambito privato, il costo di una seduta di psicoterapia si colloca generalment
 
 ### Il nodo della sostenibilita
 
-Per molte persone trans, il costo della terapia si somma ad altre spese legate al percorso (terapia ormonale, spostamenti verso i centri specializzati, eventuali interventi in regime privato). Questo crea una disparita di accesso basata sulle risorse economiche che e documentata nella letteratura: le persone trans con redditi piu bassi hanno maggiori barriere nell'accesso alla salute mentale, e di conseguenza tassi piu alti di disagio non trattato.
+Per molte persone trans, il costo della terapia si somma ad altre spese legate al percorso (terapia ormonale, spostamenti verso i centri specializzati, eventuali interventi in regime privato). Questo crea una disparita di accesso basata sulle risorse economiche che e documentata nella letteratura: le persone trans con redditi piu bassi hanno maggiori barriere nell'accesso alla salute mentale, e di conseguenza tassi piu alti di disagio non trattato [13].
 
 ## Linee guida internazionali: cosa raccomandano
 
 Le principali organizzazioni scientifiche e professionali hanno prodotto raccomandazioni specifiche sulla terapia psicologica per le persone trans.
 
-**WPATH SOC-8 (2022).** Gli Standards of Care versione 8 dedicano un intero capitolo alla salute mentale. Raccomandano che i professionisti della salute mentale che lavorano con persone trans abbiano competenza specifica sulle tematiche di genere, adottino un approccio affermativo e collaborino con il team multidisciplinare. Specificano che la valutazione psicologica prima degli interventi medici deve essere un processo collaborativo e trasparente, non un esame.
+**WPATH SOC-8 (2022).** Gli Standards of Care versione 8 dedicano un intero capitolo alla salute mentale [4]. Raccomandano che i professionisti della salute mentale che lavorano con persone trans abbiano competenza specifica sulle tematiche di genere, adottino un approccio affermativo e collaborino con il team multidisciplinare. Specificano che la valutazione psicologica prima degli interventi medici deve essere un processo collaborativo e trasparente, non un esame.
 
-**APA (2015, 2024).** Le linee guida APA del 2015 sono il documento di riferimento per la pratica psicologica con persone transgender. La dichiarazione del 2024 rafforza la posizione a favore delle cure inclusive e basate sull'evidenza. L'APA raccomanda esplicitamente che i professionisti riconoscano la propria eventuale incompetenza sulle tematiche trans e si formino adeguatamente prima di lavorare con questa popolazione.
+**APA (2015, 2024).** Le linee guida APA del 2015 sono il documento di riferimento per la pratica psicologica con persone transgender [1]. La dichiarazione del 2024 rafforza la posizione a favore delle cure inclusive e basate sull'evidenza [2]. L'APA raccomanda esplicitamente che i professionisti riconoscano la propria eventuale incompetenza sulle tematiche trans e si formino adeguatamente prima di lavorare con questa popolazione.
 
-**OMS/ICD-11 (2019/2022).** La riclassificazione dell'incongruenza di genere nell'ICD-11 -- fuori dal capitolo dei disturbi mentali -- ha implicazioni dirette per la pratica psicologica. Riconosce che l'identita trans non e una condizione psichiatrica, pur mantenendo la diagnosi per garantire l'accesso alle cure. Questo cambiamento concettuale dovrebbe tradursi in una pratica clinica che non tratta le persone trans come pazienti psichiatrici.
+**OMS/ICD-11 (2019/2022).** La riclassificazione dell'incongruenza di genere nell'ICD-11 -- fuori dal capitolo dei disturbi mentali -- ha implicazioni dirette per la pratica psicologica [5]. Riconosce che l'identita trans non e una condizione psichiatrica, pur mantenendo la diagnosi per garantire l'accesso alle cure. Questo cambiamento concettuale dovrebbe tradursi in una pratica clinica che non tratta le persone trans come pazienti psichiatrici.
 
-**Una revisione sistematica del 2024** sugli esiti degli interventi affermativi per la disforia di genere ha confermato che la maggioranza degli studi riporta miglioramenti significativi della salute mentale, in particolare per quanto riguarda la depressione. Questi dati supportano l'efficacia dell'approccio affermativo e l'importanza dell'accesso tempestivo alle cure.
+**Una revisione sistematica del 2024** sugli esiti degli interventi affermativi per la disforia di genere ha confermato che la maggioranza degli studi riporta miglioramenti significativi della salute mentale, in particolare per quanto riguarda la depressione [15]. Questi dati supportano l'efficacia dell'approccio affermativo e l'importanza dell'accesso tempestivo alle cure.
 
 ## Cosa la terapia non e
 
@@ -354,10 +354,10 @@ Concludiamo con alcune precisazioni su cosa la terapia psicologica per le person
 
 **Non e un tribunale.** Il terapeuta non e un giudice che decide se la tua identita e valida. Se ti senti sottoposto a un esame, qualcosa non sta funzionando.
 
-**Non e una cura per l'essere trans.** L'identita di genere non si "guarisce" perche non e una malattia. Se un professionista, implicitamente o esplicitamente, lavora per cambiare la tua identita di genere, sta praticando una forma di terapia di conversione.
+**Non e una cura per l'essere trans.** L'identita di genere non si "guarisce" perche non e una malattia [3][5]. Se un professionista, implicitamente o esplicitamente, lavora per cambiare la tua identita di genere, sta praticando una forma di terapia di conversione.
 
 **Non e sempre necessaria.** Non tutte le persone trans hanno bisogno di terapia. Quando e richiesta come requisito formale per accedere alle cure, dovrebbe essere un percorso di accompagnamento, non un ostacolo.
 
 **Non e un lusso.** Per chi ne ha bisogno, la terapia e uno strumento di cura. Le barriere economiche e geografiche che ne limitano l'accesso non sono un dato neutro: sono un problema di equita sanitaria che richiede risposte strutturali.
 
-La ricerca e le linee guida internazionali convergono su un punto: quando la terapia e affermativa, competente e rispettosa dell'autonomia della persona, rappresenta una risorsa concreta per il benessere delle persone trans. Quando non lo e, puo diventare parte del problema. La differenza sta nella formazione del professionista, nell'orientamento teorico e nella qualita della relazione terapeutica. Scegliere con cura e un diritto.
+La ricerca e le linee guida internazionali convergono su un punto: quando la terapia e affermativa, competente e rispettosa dell'autonomia della persona, rappresenta una risorsa concreta per il benessere delle persone trans [7][15]. Quando non lo e, puo diventare parte del problema. La differenza sta nella formazione del professionista, nell'orientamento teorico e nella qualita della relazione terapeutica. Scegliere con cura e un diritto.

@@ -77,7 +77,7 @@ La prima cosa da comprendere è che il corpo di una donna trans può avere confi
 
 Molte donne trans scelgono di non sottoporsi a chirurgia genitale. Questa scelta non le rende meno donne, né dice nulla sulle loro preferenze sessuali. Una donna trans non-op ha un'anatomia genitale tipicamente maschile, ma la terapia ormonale -- se intrapresa -- ne modifica profondamente il funzionamento.
 
-Con la terapia estrogenica, il pene diventa meno reattivo, le erezioni spontanee diminuiscono o scompaiono, la pelle si ammorbidisce e la sensibilità cambia. Lo studio longitudinale ENIGI (Defreyne et al., 2020), che ha seguito 401 donne trans nei primi tre anni di terapia ormonale, documenta una trasformazione significativa della risposta sessuale: il piacere diventa meno localizzato nei genitali e più diffuso, coinvolgendo zone erogene nuove come il collo, i capezzoli, l'interno coscia e la schiena.
+Con la terapia estrogenica, il pene diventa meno reattivo, le erezioni spontanee diminuiscono o scompaiono, la pelle si ammorbidisce e la sensibilità cambia. Lo studio longitudinale ENIGI (Defreyne et al., 2020), che ha seguito 401 donne trans nei primi tre anni di terapia ormonale, documenta una trasformazione significativa della risposta sessuale: il piacere diventa meno localizzato nei genitali e più diffuso, coinvolgendo zone erogene nuove come il collo, i capezzoli, l'interno coscia e la schiena [2].
 
 Questo significa che in un rapporto con una donna trans non-op, il pene potrebbe non essere coinvolto affatto, potrebbe essere coinvolto in modo ricettivo, o potrebbe avere un ruolo diverso da quello che ci si aspetta. Non esistono regole fisse. Esiste solo quello che funziona per quella persona specifica.
 
@@ -85,9 +85,9 @@ Questo significa che in un rapporto con una donna trans non-op, il pene potrebbe
 
 Le donne trans che si sono sottoposte a vaginoplastica hanno una neovagina creata chirurgicamente, con vulva, clitoride e canale vaginale. Le tecniche moderne, in particolare l'inversione peniena, preservano la sensibilità nervosa trasferendo il tessuto del glande penieno nella posizione del clitoride. Per i dettagli sulla procedura chirurgica, rimandiamo all'articolo sulla [vaginoplastica](/wiki/vaginoplastica-come-funziona).
 
-Uno studio del 2025 pubblicato sul Journal of Sexual Medicine (Kitic et al.) ha valutato l'impatto della vaginoplastica sulla salute sessuale: l'82% delle pazienti raggiunge l'orgasmo dopo l'intervento, e il 93% rifarebbe la scelta. La revisione sistematica di Kloer et al. (2021) conferma che l'80% delle donne trans operate è soddisfatta della propria funzione sessuale, indipendentemente dalla tecnica chirurgica utilizzata.
+Uno studio del 2025 pubblicato sul Journal of Sexual Medicine (Kitic et al.) ha valutato l'impatto della vaginoplastica sulla salute sessuale: l'82% delle pazienti raggiunge l'orgasmo dopo l'intervento, e il 93% rifarebbe la scelta [4]. La revisione sistematica di Kloer et al. (2021) conferma che l'80% delle donne trans operate è soddisfatta della propria funzione sessuale, indipendentemente dalla tecnica chirurgica utilizzata [3].
 
-In termini pratici, la sessualità di una donna trans post-op è paragonabile a quella di una donna cisgender: rapporti penetrativi ricettivi, stimolazione clitoridea, sesso orale e tutte le altre forme di intimità. La differenza principale riguarda la lubrificazione: la neovagina creata con inversione peniena non produce lubrificazione naturale paragonabile a quella della vagina natale (Wilson et al., 2023), anche se alcune pazienti riportano una produzione parziale di fluido, specialmente quando è stato incorporato tessuto uretrale. L'uso di lubrificante a base d'acqua è generalmente raccomandato.
+In termini pratici, la sessualità di una donna trans post-op è paragonabile a quella di una donna cisgender: rapporti penetrativi ricettivi, stimolazione clitoridea, sesso orale e tutte le altre forme di intimità. La differenza principale riguarda la lubrificazione: la neovagina creata con inversione peniena non produce lubrificazione naturale paragonabile a quella della vagina natale [10], anche se alcune pazienti riportano una produzione parziale di fluido, specialmente quando è stato incorporato tessuto uretrale. L'uso di lubrificante a base d'acqua è generalmente raccomandato.
 
 ### Il punto centrale: non fare supposizioni
 
@@ -99,12 +99,12 @@ La terapia ormonale femminilizzante non si limita a modificare l'aspetto fisico:
 
 ### Cambiamenti nella risposta sessuale
 
-Lo studio ENIGI del 2020 e i dati raccolti dal UCSF Gender Affirming Health Program documentano diversi cambiamenti chiave:
+Lo studio ENIGI del 2020 e i dati raccolti dal UCSF Gender Affirming Health Program documentano diversi cambiamenti chiave [2]:
 
 - **Riduzione delle erezioni spontanee**: già nei primi 3-6 mesi di terapia estrogenica, le erezioni spontanee e notturne diminuiscono significativamente o scompaiono del tutto
-- **Cambiamento del desiderio sessuale**: la libido può calare nelle prime settimane, ma dopo i primi tre anni tende a risalire a livelli superiori al basale per quanto riguarda il desiderio di coppia
+- **Cambiamento del desiderio sessuale**: la libido può calare nelle prime settimane, ma dopo i primi tre anni tende a risalire a livelli superiori al basale per quanto riguarda il desiderio di coppia [2]
 - **Piacere più diffuso**: molte donne trans in terapia ormonale descrivono il piacere come meno concentrato sui genitali e più distribuito sul corpo
-- **Orgasmi qualitativamente diversi**: uno studio del 2020 ha documentato che il 71% delle donne trans senza chirurgia genitale riporta un aumento della soddisfazione sessuale complessiva dopo in media 7,7 mesi di terapia ormonale, con orgasmi descritti come più lunghi e a picchi multipli
+- **Orgasmi qualitativamente diversi**: uno studio del 2020 ha documentato che il 71% delle donne trans senza chirurgia genitale riporta un aumento della soddisfazione sessuale complessiva dopo in media 7,7 mesi di terapia ormonale, con orgasmi descritti come più lunghi e a picchi multipli [5]
 
 ### Nuove zone erogene
 
@@ -112,7 +112,7 @@ Un dato spesso trascurato è l'emergere di nuove zone erogene durante la terapia
 
 ### La sensibilità rimane
 
-È importante chiarire un equivoco comune: la riduzione della funzione erettile non significa riduzione del piacere. La sensibilità genitale viene generalmente preservata dalla terapia ormonale. Il glande rimane una zona con alta densità di terminazioni nervose, capace di produrre piacere intenso anche in assenza di erezione. Lo studio di Gieles et al. (2022) ha confermato che la sensibilità nervosa genitale è preservata nelle donne trans sia con che senza chirurgia.
+È importante chiarire un equivoco comune: la riduzione della funzione erettile non significa riduzione del piacere. La sensibilità genitale viene generalmente preservata dalla terapia ormonale. Il glande rimane una zona con alta densità di terminazioni nervose, capace di produrre piacere intenso anche in assenza di erezione. Lo studio di Gieles et al. (2022) ha confermato che la sensibilità nervosa genitale è preservata nelle donne trans sia con che senza chirurgia [13].
 
 ## Comunicazione e consenso: la base di tutto
 
@@ -126,7 +126,7 @@ La conversazione sulla sessualità non deve avvenire con i vestiti già a terra.
 - **Esplorare i confini.** Chiedere cosa piace e cosa no, quali zone del corpo sono off-limits e quali sono particolarmente piacevoli. Questo non è un interrogatorio medico: è una conversazione intima che costruisce fiducia.
 - **Condividere le proprie aspettative.** La comunicazione è reciproca. Anche il partner ha il diritto e la responsabilità di esprimere desideri e confini.
 
-Il framework per il benessere sessuale proposto da Dickenson, Tebbe e Tellawi (2023) sottolinea come avere partner sicuri e rispettosi sia un fattore protettivo fondamentale per il benessere sessuale delle persone trans, capace di compensare lo stress legato alla discriminazione e all'interiorizzazione della transfobia.
+Il framework per il benessere sessuale proposto da Dickenson, Tebbe e Tellawi (2023) sottolinea come avere partner sicuri e rispettosi sia un fattore protettivo fondamentale per il benessere sessuale delle persone trans, capace di compensare lo stress legato alla discriminazione e all'interiorizzazione della transfobia [9].
 
 ### Durante il rapporto
 
@@ -136,9 +136,9 @@ Il framework per il benessere sessuale proposto da Dickenson, Tebbe e Tellawi (2
 
 ### La disforia è un ospite non invitato
 
-La meta-revisione del 2024 pubblicata su BMC Public Health identifica la disforia corporea come uno degli ostacoli principali alla sessualità soddisfacente per le persone trans. La disforia può manifestarsi in modo imprevedibile: una donna trans può sentirsi perfettamente a proprio agio con il proprio corpo un giorno e provare un profondo disagio il giorno successivo. Questo non dipende dal partner e non è un rifiuto personale.
+La meta-revisione del 2024 pubblicata su BMC Public Health identifica la disforia corporea come uno degli ostacoli principali alla sessualità soddisfacente per le persone trans [11]. La disforia può manifestarsi in modo imprevedibile: una donna trans può sentirsi perfettamente a proprio agio con il proprio corpo un giorno e provare un profondo disagio il giorno successivo. Questo non dipende dal partner e non è un rifiuto personale.
 
-Lo studio ENIGI di Kerckhof et al. (2019) ha misurato la prevalenza di disfunzioni sessuali in 307 donne trans: le difficoltà più comuni sono l'iniziare il contatto sessuale e il raggiungere l'orgasmo, spesso legate alla disforia piuttosto che a problemi fisiologici. Se la partner attraversa un momento di disagio, la risposta corretta è la comprensione, non la frustrazione.
+Lo studio ENIGI di Kerckhof et al. (2019) ha misurato la prevalenza di disfunzioni sessuali in 307 donne trans: le difficoltà più comuni sono l'iniziare il contatto sessuale e il raggiungere l'orgasmo, spesso legate alla disforia piuttosto che a problemi fisiologici [8]. Se la partner attraversa un momento di disagio, la risposta corretta è la comprensione, non la frustrazione.
 
 ## Guida pratica: cosa funziona, concretamente
 
@@ -153,8 +153,8 @@ Dopo aver stabilito il contesto, ecco indicazioni pratiche basate sulla letterat
 
 ### Con una partner post-op (dopo vaginoplastica)
 
-- **Usare sempre il lubrificante.** La neovagina generalmente non produce lubrificazione sufficiente per la penetrazione. Lubrificanti a base d'acqua sono i più indicati.
-- **Il clitoride è il centro del piacere.** Il neoclitoride, ricavato dal tessuto del glande penieno, è la zona più sensibile. Lo studio di Gieles et al. (2022) ha confermato che il 65,5% delle donne trans operate indica la sensibilità clitoridea come il fattore più determinante per la soddisfazione sessuale.
+- **Usare sempre il lubrificante.** La neovagina generalmente non produce lubrificazione sufficiente per la penetrazione [10]. Lubrificanti a base d'acqua sono i più indicati.
+- **Il clitoride è il centro del piacere.** Il neoclitoride, ricavato dal tessuto del glande penieno, è la zona più sensibile. Lo studio di Gieles et al. (2022) ha confermato che il 65,5% delle donne trans operate indica la sensibilità clitoridea come il fattore più determinante per la soddisfazione sessuale [13].
 - **Rispettare i tempi.** La neovagina richiede una progressione delicata durante la penetrazione. Anche dopo la completa guarigione chirurgica, la fretta non è alleata.
 - **Il sesso non si riduce alla penetrazione.** Come per qualsiasi donna, la penetrazione vaginale è solo una delle possibilità. Il sesso orale, la stimolazione manuale e l'intimità corporea complessiva sono altrettanto importanti.
 
@@ -171,9 +171,9 @@ Lo stereotipo più diffuso sulla sessualità delle donne trans è la dicotomia "
 La ricerca mostra chiaramente che:
 
 - **Le preferenze sessuali sono individuali**, non determinate dall'essere trans
-- **La terapia ormonale modifica la funzione erettile**, rendendo spesso impraticabile o non desiderato il ruolo inseritivo
+- **La terapia ormonale modifica la funzione erettile** [2], rendendo spesso impraticabile o non desiderato il ruolo inseritivo
 - **Molte donne trans preferiscono pratiche non penetrative**, concentrandosi su forme di intimità che non coinvolgono i genitali in modo tradizionale
-- **Dopo la vaginoplastica, la domanda perde completamente significato**, perché la sessualità diventa paragonabile a quella di qualsiasi donna cisgender
+- **Dopo la vaginoplastica, la domanda perde completamente significato** [3][4], perché la sessualità diventa paragonabile a quella di qualsiasi donna cisgender
 
 Per un approfondimento completo sulla decostruzione di questi stereotipi, rimandiamo all'articolo sulla [sessualità delle donne trans oltre gli stereotipi](/wiki/donne-trans-sessualita-miti).
 
@@ -183,7 +183,7 @@ I rapporti sessuali con una donna trans richiedono le stesse precauzioni che val
 
 ### Regole generali
 
-Le linee guida CDC (2021) e il programma UCSF Transgender Care raccomandano:
+Le linee guida CDC (2021) e il programma UCSF Transgender Care raccomandano [6][7]:
 
 - **Preservativo esterno** per la penetrazione anale o vaginale (inclusa la neovagina)
 - **Preservativo interno (femidom)** come alternativa per la penetrazione ricettiva
@@ -193,7 +193,7 @@ Le linee guida CDC (2021) e il programma UCSF Transgender Care raccomandano:
 
 ### Specificità per la neovagina
 
-Le linee guida CDC specificano che le donne trans con vaginoplastica dovrebbero sottoporsi a screening per le IST su tutti i siti esposti (orale, anale, vaginale). La neovagina può contrarre infezioni sessualmente trasmissibili attraverso il contatto con mucose. Il preservativo durante la penetrazione vaginale è raccomandato come per qualsiasi rapporto.
+Le linee guida CDC specificano che le donne trans con vaginoplastica dovrebbero sottoporsi a screening per le IST su tutti i siti esposti (orale, anale, vaginale) [6]. La neovagina può contrarre infezioni sessualmente trasmissibili attraverso il contatto con mucose. Il preservativo durante la penetrazione vaginale è raccomandato come per qualsiasi rapporto.
 
 ### Screening oncologico
 
@@ -203,14 +203,14 @@ Un punto spesso trascurato: le donne trans mantengono la prostata anche dopo la 
 
 Uno degli errori più comuni che i partner di donne trans commettono è delegare interamente l'educazione alla donna trans stessa. Aspettarsi che sia lei a spiegare come funziona il suo corpo, cosa fa la terapia ormonale e come gestire l'intimità non è solo pigro: è un peso emotivo che si aggiunge a tutti gli altri che le persone trans portano quotidianamente.
 
-Il framework per il benessere sessuale di Dickenson et al. (2023) sottolinea come la responsabilità dell'educazione debba essere condivisa. Informarsi autonomamente -- leggendo articoli come questo, consultando fonti scientifiche, parlando con professionisti -- è un atto di rispetto concreto. Non significa arrivare al rapporto con un manuale in mano, ma avere un contesto di base che permetta una conversazione più equilibrata e meno asimmetrica.
+Il framework per il benessere sessuale di Dickenson et al. (2023) sottolinea come la responsabilità dell'educazione debba essere condivisa [9]. Informarsi autonomamente -- leggendo articoli come questo, consultando fonti scientifiche, parlando con professionisti -- è un atto di rispetto concreto. Non significa arrivare al rapporto con un manuale in mano, ma avere un contesto di base che permetta una conversazione più equilibrata e meno asimmetrica.
 
-Lo studio ENIGI del 2023 sul piacere sessuale nelle persone trans (Elaut et al.) ha identificato diversi fattori che contribuiscono alla soddisfazione sessuale: tra questi, avere partner informati e rispettosi risulta uno dei più significativi. Il piacere sessuale non nasce in un vuoto: nasce in una relazione, e la qualità della relazione dipende dalla conoscenza reciproca.
+Lo studio ENIGI del 2023 sul piacere sessuale nelle persone trans (Elaut et al.) ha identificato diversi fattori che contribuiscono alla soddisfazione sessuale: tra questi, avere partner informati e rispettosi risulta uno dei più significativi [12]. Il piacere sessuale non nasce in un vuoto: nasce in una relazione, e la qualità della relazione dipende dalla conoscenza reciproca.
 
 ## Ogni persona è diversa
 
 Se c'è un messaggio da portare via da questo articolo, è questo: ogni donna trans è una persona unica con un corpo unico, una storia unica e preferenze uniche. Non esiste una formula per "i rapporti con le donne trans" perché non esiste una donna trans generica. Esistono persone, con tutta la complessità che questo comporta.
 
-La scienza conferma che le donne trans possono avere vite sessuali soddisfacenti e appaganti, con tassi di soddisfazione post-transizione che superano l'80% in diversi studi. Ma la soddisfazione non nasce automaticamente: nasce dalla comunicazione, dal rispetto reciproco e dalla volontà di conoscere l'altra persona per quello che è, non per quello che ci si aspetta che sia.
+La scienza conferma che le donne trans possono avere vite sessuali soddisfacenti e appaganti, con tassi di soddisfazione post-transizione che superano l'80% in diversi studi [3][4]. Ma la soddisfazione non nasce automaticamente: nasce dalla comunicazione, dal rispetto reciproco e dalla volontà di conoscere l'altra persona per quello che è, non per quello che ci si aspetta che sia.
 
 La chiave non è avere tutte le risposte prima di entrare in camera da letto. È avere la disponibilità a fare le domande giuste, ascoltare le risposte e agire di conseguenza. Come in ogni rapporto sessuale che valga la pena avere.

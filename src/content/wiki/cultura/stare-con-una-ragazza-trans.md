@@ -63,7 +63,7 @@ related:
 
 "Com'è stare con una ragazza trans?" Se stai leggendo questo articolo, probabilmente te lo stai chiedendo. Forse hai conosciuto una ragazza e poi hai scoperto che è transgender. Forse stai già insieme a lei e cerchi punti di riferimento. Forse sei semplicemente curioso, e va benissimo così.
 
-La risposta breve è questa: stare con una ragazza trans è stare con una ragazza. Con le sue passioni, le sue insicurezze, le sue giornate buone e quelle storte, le discussioni su dove andare a cena e i momenti in cui tutto sembra al posto giusto. La ricerca scientifica lo conferma: una revisione sistematica del 2020 sulla qualità e soddisfazione delle relazioni romantiche delle persone transgender ha concluso che i livelli di soddisfazione relazionale sono paragonabili a quelli delle coppie cisgender, e che i fattori che determinano il successo della coppia sono gli stessi -- comunicazione, rispetto reciproco, supporto emotivo.
+La risposta breve è questa: stare con una ragazza trans è stare con una ragazza. Con le sue passioni, le sue insicurezze, le sue giornate buone e quelle storte, le discussioni su dove andare a cena e i momenti in cui tutto sembra al posto giusto. La ricerca scientifica lo conferma: una revisione sistematica del 2020 sulla qualità e soddisfazione delle relazioni romantiche delle persone transgender ha concluso che i livelli di soddisfazione relazionale sono paragonabili a quelli delle coppie cisgender, e che i fattori che determinano il successo della coppia sono gli stessi -- comunicazione, rispetto reciproco, supporto emotivo [1].
 
 Detto questo, ci sono aspetti specifici che vale la pena conoscere. Non perché la relazione sia "diversa" nella sostanza, ma perché il contesto sociale in cui vivete può creare sfide particolari. Questo articolo esiste per aiutarti a navigarle con consapevolezza, senza drammi e senza minimizzare.
 
@@ -77,7 +77,7 @@ Le neuroscienze hanno dimostrato che l'[identità di genere ha basi biologiche](
 
 Una delle domande più comuni tra gli uomini che si trovano attratti da una donna trans è: "Sono ancora etero?" La risposta è sì. Se sei un uomo e sei attratto da una donna, la relazione è eterosessuale. Il fatto che la tua partner sia trans non ridefinisce il tuo orientamento.
 
-Uno studio del 2022 pubblicato su Archives of Sexual Behavior ha esplorato cosa accade quando uomini cisgender eterosessuali provano attrazione per donne trans. I ricercatori hanno osservato che molti uomini percepiscono questa attrazione come una "violazione" delle norme sessuali, non perché lo sia realmente, ma perché la società ha costruito un'associazione errata tra l'essere trans e l'essere "in realtà" del sesso assegnato alla nascita. La scienza è chiara: l'attrazione per una donna trans è attrazione per una donna. Punto.
+Uno studio del 2022 pubblicato su Archives of Sexual Behavior ha esplorato cosa accade quando uomini cisgender eterosessuali provano attrazione per donne trans [11]. I ricercatori hanno osservato che molti uomini percepiscono questa attrazione come una "violazione" delle norme sessuali, non perché lo sia realmente, ma perché la società ha costruito un'associazione errata tra l'essere trans e l'essere "in realtà" del sesso assegnato alla nascita. La scienza è chiara: l'attrazione per una donna trans è attrazione per una donna. Punto.
 
 Se senti il bisogno di esplorare questa questione con più profondità, è del tutto legittimo. Non c'è fretta di trovare un'etichetta. Ma sappi che la tua mascolinità e la tua eterosessualità non sono in discussione per il semplice fatto di stare con una donna trans.
 
@@ -85,7 +85,7 @@ Se senti il bisogno di esplorare questa questione con più profondità, è del t
 
 Se c'è un elemento che la ricerca identifica come fondamentale nelle relazioni con donne trans, è la comunicazione. Non stiamo parlando di concetti astratti: ci sono studi specifici su cosa funziona e cosa no.
 
-Alegria, in uno studio qualitativo del 2010 sulle dinamiche relazionali delle coppie che includono donne trans, ha identificato le attività che aiutano le coppie a mantenere e rafforzare la relazione: comunicazione aperta, capacità di mettere le cose in prospettiva, costruzione di reti sociali di supporto, interazioni positive quotidiane e gestione consapevole della dimensione pubblica della coppia.
+Alegria, in uno studio qualitativo del 2010 sulle dinamiche relazionali delle coppie che includono donne trans, ha identificato le attività che aiutano le coppie a mantenere e rafforzare la relazione: comunicazione aperta, capacità di mettere le cose in prospettiva, costruzione di reti sociali di supporto, interazioni positive quotidiane e gestione consapevole della dimensione pubblica della coppia [6].
 
 In pratica, questo significa:
 
@@ -98,7 +98,7 @@ In pratica, questo significa:
 
 La disforia di genere è il disagio che una persona può provare quando il proprio corpo o il modo in cui viene percepita dagli altri non corrisponde alla propria identità di genere. Non tutte le donne trans la vivono allo stesso modo, e non tutte la vivono costantemente. Ma è importante capire cos'è, perché può influenzare momenti specifici della relazione.
 
-Uno studio del 2021 sulla sessualità e l'intimità nelle coppie con un partner transgender ha evidenziato che la disforia è una delle sfide principali nell'esperienza intima, ma che le coppie che ne parlano apertamente riescono a sviluppare strategie pratiche per navigarla. Alcune cose che puoi tenere a mente:
+Uno studio del 2021 sulla sessualità e l'intimità nelle coppie con un partner transgender ha evidenziato che la disforia è una delle sfide principali nell'esperienza intima, ma che le coppie che ne parlano apertamente riescono a sviluppare strategie pratiche per navigarla [5]. Alcune cose che puoi tenere a mente:
 
 - **Non toccarla in modi che non ha esplicitamente detto di gradire**: alcune parti del corpo possono essere fonte di disagio. Chiedi, senza fare pressioni.
 - **Non commentare il suo corpo in relazione alla transizione**: frasi come "non si direbbe nemmeno" o "sei identica a una donna vera" possono sembrare complimenti, ma comunicano il messaggio che essere trans è qualcosa da nascondere o superare.
@@ -108,7 +108,7 @@ Uno studio del 2021 sulla sessualità e l'intimità nelle coppie con un partner 
 
 La vita sessuale con una ragazza trans è, come in qualsiasi coppia, un territorio da esplorare insieme. Ogni persona ha preferenze, desideri e limiti propri -- e questo vale indipendentemente dal fatto che la partner sia cis o trans.
 
-Quello che la ricerca sottolinea è che le coppie con un partner trans che affrontano l'intimità con apertura e curiosità tendono a sviluppare una sessualità più consapevole. Lo studio del 2021 sulle esperienze di coppia durante la transizione ha riportato che molti partner descrivono un miglioramento dell'intimità emotiva e della connessione, anche quando gli aspetti fisici della sessualità cambiano.
+Quello che la ricerca sottolinea è che le coppie con un partner trans che affrontano l'intimità con apertura e curiosità tendono a sviluppare una sessualità più consapevole. Lo studio del 2021 sulle esperienze di coppia durante la transizione ha riportato che molti partner descrivono un miglioramento dell'intimità emotiva e della connessione, anche quando gli aspetti fisici della sessualità cambiano [5].
 
 Alcuni punti pratici:
 
@@ -120,15 +120,15 @@ Per approfondire, puoi leggere i nostri articoli su [sessualità e persone trans
 
 ## Quando gli altri hanno un'opinione (non richiesta)
 
-Viviamo in una società che sta ancora imparando. Uno studio del 2019 di Blair e Hoskin ha mostrato che l'87,5% delle persone intervistate non considererebbe l'idea di uscire con una persona trans, con gli uomini e le donne eterosessuali cisgender tra i più propensi a escludere le persone trans dal proprio pool di potenziali partner. Questo dato non riflette una realtà biologica o emotiva: riflette il peso del pregiudizio sociale.
+Viviamo in una società che sta ancora imparando. Uno studio del 2019 di Blair e Hoskin ha mostrato che l'87,5% delle persone intervistate non considererebbe l'idea di uscire con una persona trans, con gli uomini e le donne eterosessuali cisgender tra i più propensi a escludere le persone trans dal proprio pool di potenziali partner [4]. Questo dato non riflette una realtà biologica o emotiva: riflette il peso del pregiudizio sociale.
 
 Questo significa che potresti ricevere commenti, domande imbarazzanti o reazioni negative da amici, colleghi o familiari. Come gestirlo?
 
 ### Lo stigma relazionale è reale
 
-La ricerca del 2014 di Gamarel e colleghi sullo stress da minoranza nelle coppie formate da donne trans e uomini cisgender ha dimostrato che la discriminazione percepita, lo stigma relazionale e le difficoltà economiche legate alla discriminazione sono associati a livelli più alti di disagio psicologico per entrambi i partner. Non è qualcosa da sottovalutare.
+La ricerca del 2014 di Gamarel e colleghi sullo stress da minoranza nelle coppie formate da donne trans e uomini cisgender ha dimostrato che la discriminazione percepita, lo stigma relazionale e le difficoltà economiche legate alla discriminazione sono associati a livelli più alti di disagio psicologico per entrambi i partner [3]. Non è qualcosa da sottovalutare.
 
-Uno studio del 2019 ha approfondito il ruolo dell'impegno relazionale: per le donne trans, un maggiore impegno nella coppia attenuava l'impatto negativo dello stigma sulla salute mentale. Per i partner cisgender, questo effetto protettivo era meno marcato, il che suggerisce che gli uomini cisgender in queste coppie hanno bisogno di supporto specifico.
+Uno studio del 2019 ha approfondito il ruolo dell'impegno relazionale: per le donne trans, un maggiore impegno nella coppia attenuava l'impatto negativo dello stigma sulla salute mentale [2]. Per i partner cisgender, questo effetto protettivo era meno marcato, il che suggerisce che gli uomini cisgender in queste coppie hanno bisogno di supporto specifico [2].
 
 ### Strategie concrete
 
@@ -139,7 +139,7 @@ Uno studio del 2019 ha approfondito il ruolo dell'impegno relazionale: per le do
 
 ## La famiglia: un capitolo a parte
 
-Le reazioni familiari possono essere tra gli aspetti più difficili. Uno studio del 2023 sul ruolo del supporto familiare nel benessere psicologico delle persone transgender ha concluso che l'accettazione della famiglia e del partner rappresenta un fattore protettivo fondamentale, mentre il rifiuto è associato a maggiore disagio psicologico e relazionale.
+Le reazioni familiari possono essere tra gli aspetti più difficili. Uno studio del 2023 sul ruolo del supporto familiare nel benessere psicologico delle persone transgender ha concluso che l'accettazione della famiglia e del partner rappresenta un fattore protettivo fondamentale, mentre il rifiuto è associato a maggiore disagio psicologico e relazionale [7].
 
 Se la tua famiglia non conosce ancora la situazione:
 
@@ -148,11 +148,11 @@ Se la tua famiglia non conosce ancora la situazione:
 - **Porta informazioni, non solo emozioni**: molte reazioni negative nascono dalla disinformazione. Condividere risorse affidabili può aiutare.
 - **Metti dei confini se necessario**: se un familiare non rispetta la tua partner, hai il diritto -- e il dovere verso la relazione -- di intervenire.
 
-Se la tua famiglia reagisce male, non sei solo. Associazioni come [Agedo](https://www.agedonazionale.org/) offrono supporto anche ai familiari allargati, e il portale [Infotrans.it](https://www.infotrans.it/) dell'Istituto Superiore di Sanità fornisce risorse informative utili per tutta la famiglia.
+Se la tua famiglia reagisce male, non sei solo. Associazioni come [Agedo](https://www.agedonazionale.org/) offrono supporto anche ai familiari allargati, e il portale [Infotrans.it](https://www.infotrans.it/) dell'Istituto Superiore di Sanità fornisce risorse informative utili per tutta la famiglia [12].
 
 ## Quello che fa funzionare la relazione
 
-Uno studio qualitativo del 2021 ha esplorato le esperienze di legame emotivo e equità nelle coppie formate da donne trans e partner cisgender. Il titolo dello studio riassume bene la conclusione: "Siamo solo due persone in una relazione". Le coppie intervistate descrivevano la loro relazione in termini di normalità, sottolineando che i fattori che la rendevano solida erano gli stessi di qualsiasi altra coppia.
+Uno studio qualitativo del 2021 ha esplorato le esperienze di legame emotivo e equità nelle coppie formate da donne trans e partner cisgender. Il titolo dello studio riassume bene la conclusione: "Siamo solo due persone in una relazione" [8]. Le coppie intervistate descrivevano la loro relazione in termini di normalità, sottolineando che i fattori che la rendevano solida erano gli stessi di qualsiasi altra coppia.
 
 Ecco cosa emerge dalla ricerca come ingredienti di una relazione che funziona:
 
@@ -178,7 +178,7 @@ Non sei il suo terapeuta. Il tuo ruolo è essere presente, non risolvere la disf
 
 ### "Potremo avere figli?"
 
-Sì, esistono diverse opzioni. La preservazione della fertilità, la fecondazione assistita e l'adozione sono tutte strade percorribili. Le linee guida WPATH raccomandano di discutere queste opzioni prima di iniziare trattamenti ormonali o chirurgici. Per approfondire, leggi il nostro articolo su [famiglie e persone trans](/wiki/famiglie-e-persone-trans).
+Sì, esistono diverse opzioni. La preservazione della fertilità, la fecondazione assistita e l'adozione sono tutte strade percorribili. Le linee guida WPATH raccomandano di discutere queste opzioni prima di iniziare trattamenti ormonali o chirurgici [9]. Per approfondire, leggi il nostro articolo su [famiglie e persone trans](/wiki/famiglie-e-persone-trans).
 
 ## Non è una relazione "nonostante"
 
@@ -186,11 +186,11 @@ C'è una narrazione, spesso presente anche nei media ben intenzionati, che racco
 
 La realtà è diversa. Stai con una persona che ti piace, che ti attrae, con cui vuoi costruire qualcosa. Il fatto che sia trans è una parte della sua storia, così come ogni persona porta nella relazione la propria storia. Non è il centro della relazione, e non ne è l'ostacolo.
 
-Le coppie intervistate nella ricerca lo dicono con chiarezza: "Siamo solo due persone in una relazione". E questo è tutto ciò che dovete essere.
+Le coppie intervistate nella ricerca lo dicono con chiarezza: "Siamo solo due persone in una relazione" [8]. E questo è tutto ciò che dovete essere.
 
 ## Risorse utili
 
-- **[Infotrans.it](https://www.infotrans.it/)** -- Portale dell'Istituto Superiore di Sanità con informazioni su percorsi, diritti e servizi sul territorio
+- **[Infotrans.it](https://www.infotrans.it/)** -- Portale dell'Istituto Superiore di Sanità con informazioni su percorsi, diritti e servizi sul territorio [12]
 - **[Agedo](https://www.agedonazionale.org/)** -- Associazione di genitori, parenti e amici di persone LGBT+, con 33 sedi territoriali
 - **Gay Help Line: 800 713 713** -- Numero verde nazionale, attivo dal lunedì al sabato (16:00-20:00)
 - **Telefono Amico Italia: 02 2327 2327** -- Attivo ogni giorno (9:00-00:00)

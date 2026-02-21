@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { tick } from 'svelte';
+	import { trackEvent } from '$lib/utils/analytics';
 
 	interface Message {
 		role: 'user' | 'assistant';
@@ -15,11 +16,68 @@
 	let inputEl = $state<HTMLInputElement>();
 	let toggleButton = $state<HTMLButtonElement>();
 
+	// Text selection state
+	let selectedText = $state('');
+	let selectionButtonPos = $state<{ x: number; y: number } | null>(null);
+
 	let currentSlug = $derived(
 		$page.url.pathname.startsWith('/wiki/')
 			? $page.url.pathname.replace('/wiki/', '').replace(/\/$/, '')
 			: null
 	);
+
+	function handleSelectionChange() {
+		if (!currentSlug) return;
+		const selection = document.getSelection();
+		const text = selection?.toString().trim() ?? '';
+		if (text.length > 10 && text.length < 500) {
+			const range = selection!.getRangeAt(0);
+			const rect = range.getBoundingClientRect();
+			selectedText = text;
+			selectionButtonPos = {
+				x: rect.left + rect.width / 2,
+				y: rect.top - 8
+			};
+		} else {
+			selectedText = '';
+			selectionButtonPos = null;
+		}
+	}
+
+	function handleMouseDown(e: MouseEvent) {
+		// Hide selection button when clicking outside it
+		const target = e.target as HTMLElement;
+		if (!target.closest('.selection-ask-btn')) {
+			selectedText = '';
+			selectionButtonPos = null;
+		}
+	}
+
+	async function askAboutSelection() {
+		const text = selectedText;
+		selectedText = '';
+		selectionButtonPos = null;
+		input = `Spiegami: "${text}"`;
+		trackEvent('chat_selection', { page: $page.url.pathname });
+		await openPanel();
+	}
+
+	async function handleAskAI(e: Event) {
+		const detail = (e as CustomEvent<{ query: string; autoSend?: boolean }>).detail;
+		const query = typeof detail === 'string' ? detail : detail.query;
+		const autoSend = typeof detail === 'string' ? false : detail.autoSend;
+		if (!query) return;
+		input = query;
+		await openPanel();
+		if (autoSend) {
+			sendMessage();
+		}
+	}
+
+	$effect(() => {
+		document.addEventListener('ask-ai', handleAskAI);
+		return () => document.removeEventListener('ask-ai', handleAskAI);
+	});
 
 	const ALLOWED_TAGS = new Set(['a', 'strong', 'em', 'br', 'details', 'summary']);
 
@@ -67,7 +125,14 @@
 		return sanitizeHtml(html);
 	}
 
-	async function scrollToBottom() {
+	function isNearBottom(): boolean {
+		if (!messagesContainer) return true;
+		const threshold = 60;
+		return messagesContainer.scrollHeight - messagesContainer.scrollTop - messagesContainer.clientHeight < threshold;
+	}
+
+	async function scrollToBottom(force = false) {
+		if (!force && !isNearBottom()) return;
 		await tick();
 		if (messagesContainer) {
 			messagesContainer.scrollTop = messagesContainer.scrollHeight;
@@ -78,6 +143,7 @@
 		open = true;
 		await tick();
 		inputEl?.focus();
+		trackEvent('chat_open', { page: $page.url.pathname });
 	}
 
 	async function closePanel() {
@@ -99,6 +165,8 @@
 		input = '';
 		messages.push({ role: 'user', content: text });
 		loading = true;
+		await scrollToBottom(true);
+		trackEvent('chat_message', { page: $page.url.pathname, message_length: text.length });
 
 		messages.push({ role: 'assistant', content: '' });
 		const assistantIndex = messages.length - 1;
@@ -147,15 +215,31 @@
 	}
 </script>
 
+<svelte:document onselectionchange={handleSelectionChange} onmousedown={handleMouseDown} />
+
+<!-- Selection ask button -->
+{#if selectionButtonPos && selectedText}
+	<button
+		onclick={askAboutSelection}
+		class="selection-ask-btn fixed z-[60] flex items-center gap-1.5 px-3 py-1.5 bg-primary text-bg text-xs font-medium rounded-full shadow-lg hover:opacity-80 transition-opacity -translate-x-1/2 -translate-y-full"
+		style="left: {selectionButtonPos.x}px; top: {selectionButtonPos.y}px;"
+		aria-label="Chiedi all'AI"
+	>
+		<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+		Chiedi all'AI
+	</button>
+{/if}
+
 <!-- Floating button -->
 {#if !open}
 	<button
 		bind:this={toggleButton}
 		onclick={openPanel}
-		class="fixed bottom-20 right-6 z-40 w-12 h-12 rounded-full bg-primary text-bg flex items-center justify-center shadow-lg hover:opacity-80 transition-opacity"
+		class="fixed bottom-6 right-6 z-40 flex items-center gap-2 px-4 py-2.5 rounded-full bg-primary text-bg shadow-lg hover:opacity-80 transition-opacity text-sm font-medium"
 		aria-label="Apri chat"
 	>
-		<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+		<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+		Chiedi all'AI
 	</button>
 {/if}
 
@@ -166,11 +250,11 @@
 		aria-label="Chat assistente wiki"
 		tabindex="-1"
 		onkeydown={handlePanelKeydown}
-		class="fixed bottom-0 right-0 sm:bottom-6 sm:right-6 z-50 w-full h-full sm:w-[380px] sm:h-[500px] sm:max-w-[calc(100vw-3rem)] bg-bg border border-border sm:rounded-xl shadow-xl flex flex-col"
+		class="fixed bottom-0 right-0 sm:bottom-6 sm:right-6 z-50 w-full h-full sm:w-[440px] sm:h-[600px] sm:max-w-[calc(100vw-3rem)] bg-surface border border-border sm:rounded-xl shadow-xl flex flex-col"
 	>
 		<!-- Header -->
 		<div class="flex items-center justify-between px-4 py-3 border-b border-border sm:rounded-t-xl">
-			<h2 class="text-sm font-semibold tracking-tight">Chiedi al Wiki</h2>
+			<h2 class="text-sm font-semibold tracking-tight text-text">Chiedi al Wiki</h2>
 			<button
 				onclick={closePanel}
 				class="p-1 text-muted hover:text-primary transition-colors"
@@ -193,18 +277,20 @@
 			{/if}
 
 			{#each messages as message}
-				<div class="flex {message.role === 'user' ? 'justify-end' : 'justify-start'}">
-					<div class="max-w-[85%] px-3 py-2 rounded-lg text-sm leading-relaxed {message.role === 'user' ? 'bg-primary text-bg' : 'bg-border/30 text-text'}">
-						{#if message.role === 'assistant'}
-							{@html renderMarkdown(message.content)}
-							{#if loading && message === messages[messages.length - 1] && !message.content}
-								<span class="inline-block w-1.5 h-4 bg-muted animate-pulse rounded-sm"></span>
-							{/if}
-						{:else}
+				{#if message.role === 'user'}
+					<div class="flex justify-end">
+						<div class="max-w-[85%] px-3 py-2 rounded-lg text-sm leading-relaxed bg-primary text-bg">
 							{message.content}
+						</div>
+					</div>
+				{:else}
+					<div class="text-sm leading-relaxed text-text chat-assistant">
+						{@html renderMarkdown(message.content)}
+						{#if loading && message === messages[messages.length - 1] && !message.content}
+							<span class="inline-block w-1.5 h-4 bg-muted animate-pulse rounded-sm"></span>
 						{/if}
 					</div>
-				</div>
+				{/if}
 			{/each}
 		</div>
 
@@ -218,7 +304,7 @@
 					onkeydown={handleKeydown}
 					placeholder="Scrivi una domanda..."
 					disabled={loading}
-					class="flex-1 px-3 py-2 text-sm bg-transparent border border-border rounded-lg focus:outline-none focus:border-primary disabled:opacity-50"
+					class="flex-1 px-3 py-2 text-sm text-text bg-transparent border border-border rounded-lg focus:outline-none focus:border-primary disabled:opacity-50 placeholder:text-muted"
 				/>
 				<button
 					onclick={sendMessage}
@@ -232,3 +318,16 @@
 		</div>
 	</div>
 {/if}
+
+<style>
+	:global(.chat-assistant details) {
+		overflow: hidden;
+	}
+	:global(.chat-assistant details li),
+	:global(.chat-assistant details a) {
+		display: block;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+</style>

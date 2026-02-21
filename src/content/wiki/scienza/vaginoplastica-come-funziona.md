@@ -75,18 +75,18 @@ La vaginoplastica è l'intervento chirurgico di affermazione di genere più rich
 
 ## I prerequisiti: chi può accedere alla vaginoplastica
 
-La vaginoplastica non è un intervento a cui si accede su richiesta. Esistono criteri clinici definiti a livello internazionale, aggiornati nel 2022 con la pubblicazione degli **Standards of Care versione 8 (SOC-8)** della World Professional Association for Transgender Health (WPATH).
+La vaginoplastica non è un intervento a cui si accede su richiesta. Esistono criteri clinici definiti a livello internazionale, aggiornati nel 2022 con la pubblicazione degli **Standards of Care versione 8 (SOC-8)** della World Professional Association for Transgender Health (WPATH) [1].
 
 I requisiti principali includono:
 
 - **Diagnosi documentata di incongruenza di genere**, confermata da professionisti della salute mentale.
-- **Terapia ormonale per almeno 6 mesi** (il SOC-8 ha ridotto il requisito precedente di 12 mesi). Gli estrogeni modificano la distribuzione del grasso, la pelle e i tessuti, influenzando anche la qualità dei risultati chirurgici.
+- **Terapia ormonale per almeno 6 mesi** (il SOC-8 ha ridotto il requisito precedente di 12 mesi) [1]. Gli estrogeni modificano la distribuzione del grasso, la pelle e i tessuti, influenzando anche la qualità dei risultati chirurgici.
 - **Valutazione psicologica**: non per "dimostrare" la propria identità, ma per assicurarsi che la persona sia informata, stabile e supportata. Le condizioni di salute mentale che potrebbero influire negativamente sugli esiti vengono valutate e, se necessario, trattate prima dell'intervento.
-- **Una lettera di raccomandazione** da parte di un professionista della salute mentale qualificato (il SOC-8 ha ridotto il requisito precedente di due lettere a una sola).
+- **Una lettera di raccomandazione** da parte di un professionista della salute mentale qualificato (il SOC-8 ha ridotto il requisito precedente di due lettere a una sola) [1].
 - **Età minima di 18 anni**, con eccezioni possibili in casi specifici e in base alla legislazione locale.
 - **Capacità di consenso informato**, con piena comprensione dei rischi, dei benefici e delle implicazioni irreversibili, inclusa la perdita della fertilità.
 
-In Italia, il percorso passa attraverso i centri di riferimento coordinati dall'ONIG e prevede una valutazione psicologica di almeno sei mesi secondo il protocollo nazionale. Dal 2024, grazie alla sentenza n. 143 della Corte Costituzionale, non è più necessaria l'autorizzazione del tribunale per procedere con l'intervento chirurgico.
+In Italia, il percorso passa attraverso i centri di riferimento coordinati dall'ONIG e prevede una valutazione psicologica di almeno sei mesi secondo il protocollo nazionale [13]. Dal 2024, grazie alla sentenza n. 143 della Corte Costituzionale, non è più necessaria l'autorizzazione del tribunale per procedere con l'intervento chirurgico [12].
 
 ## Le tecniche chirurgiche
 
@@ -94,7 +94,7 @@ Esistono diverse tecniche di vaginoplastica. La scelta dipende dall'anatomia del
 
 ### Inversione peniena (penile inversion vaginoplasty)
 
-È la tecnica più diffusa al mondo e rappresenta lo standard di riferimento. Il principio è relativamente intuitivo: il tessuto del pene e dello scroto viene riutilizzato per creare le strutture della neovagina e della vulva.
+È la tecnica più diffusa al mondo e rappresenta lo standard di riferimento [3]. Il principio è relativamente intuitivo: il tessuto del pene e dello scroto viene riutilizzato per creare le strutture della neovagina e della vulva.
 
 Il procedimento si articola in diverse fasi:
 
@@ -104,42 +104,42 @@ Il procedimento si articola in diverse fasi:
 4. **Costruzione della vulva**: il tessuto scrotale viene utilizzato per creare le grandi e piccole labbra. L'uretra viene accorciata e riposizionata. Il cappuccio clitorideo viene formato con tessuto penieno dorsale.
 5. **Posizionamento del conformatore**: al termine dell'intervento, un conformatore (stent) viene inserito nel canale vaginale e mantenuto in sede per 5-7 giorni, per prevenire il collasso dei tessuti durante la guarigione iniziale.
 
-La profondità media della neovagina con questa tecnica è di circa **9-10 cm**, anche se varia in base alla quantità di tessuto penieno disponibile. In caso di tessuto insufficiente (ad esempio per circoncisione radicale pregressa o uso prolungato di bloccanti della pubertà), si possono utilizzare innesti cutanei aggiuntivi, tipicamente prelevati dallo scroto o dall'inguine.
+La profondità media della neovagina con questa tecnica è di circa **9-10 cm**, anche se varia in base alla quantità di tessuto penieno disponibile [4]. In caso di tessuto insufficiente (ad esempio per circoncisione radicale pregressa o uso prolungato di bloccanti della pubertà), si possono utilizzare innesti cutanei aggiuntivi, tipicamente prelevati dallo scroto o dall'inguine.
 
 L'intervento dura in media **4-6 ore**.
 
 ### Colonvaginoplastica (sigmoid vaginoplasty)
 
-Questa tecnica utilizza un segmento del colon sigmoideo per creare il canale vaginale, al posto della pelle peniena. È un intervento più invasivo perché richiede una procedura addominale (spesso laparoscopica) per prelevare il segmento intestinale.
+Questa tecnica utilizza un segmento del colon sigmoideo per creare il canale vaginale, al posto della pelle peniena [8]. È un intervento più invasivo perché richiede una procedura addominale (spesso laparoscopica) per prelevare il segmento intestinale.
 
 I vantaggi principali sono:
 
-- **Profondità maggiore**: la media è di 13-16 cm, significativamente superiore all'inversione peniena.
+- **Profondità maggiore**: la media è di 13-16 cm, significativamente superiore all'inversione peniena [8].
 - **Autolubrificazione**: la mucosa intestinale produce naturalmente secrezioni, eliminando o riducendo la necessità di lubrificanti durante i rapporti.
 - **Minor rischio di stenosi**: la mucosa intestinale è meno soggetta alla contrazione cicatriziale rispetto alla pelle, riducendo potenzialmente la necessità di dilatazione intensiva.
 
-Gli svantaggi includono un intervento più lungo e invasivo, il rischio di complicanze addominali, e la possibilità di secrezioni con odore caratteristico (che tende a diminuire nei mesi successivi). I tassi di complicanze specifici sono: fistole al 2%, stenosi al 14%, necrosi tissutale all'1% e prolasso al 6%.
+Gli svantaggi includono un intervento più lungo e invasivo, il rischio di complicanze addominali, e la possibilità di secrezioni con odore caratteristico (che tende a diminuire nei mesi successivi). I tassi di complicanze specifici sono: fistole al 2%, stenosi al 14%, necrosi tissutale all'1% e prolasso al 6% [8].
 
-La colonvaginoplastica viene raccomandata in particolare per pazienti con lunghezza peniena stirata inferiore a 11,4 cm, ipoplasia penoscrotale, BMI elevato o come procedura di revisione dopo fallimento dell'inversione peniena.
+La colonvaginoplastica viene raccomandata in particolare per pazienti con lunghezza peniena stirata inferiore a 11,4 cm, ipoplasia penoscrotale, BMI elevato o come procedura di revisione dopo fallimento dell'inversione peniena [8].
 
 ### Vaginoplastica peritoneale (peritoneal pull-through)
 
-È la tecnica più recente e in rapida evoluzione, spesso eseguita con assistenza robotica. Utilizza il peritoneo, la membrana sottile che riveste la cavità addominale, per creare il rivestimento del canale vaginale.
+È la tecnica più recente e in rapida evoluzione, spesso eseguita con assistenza robotica [10]. Utilizza il peritoneo, la membrana sottile che riveste la cavità addominale, per creare il rivestimento del canale vaginale.
 
 Il peritoneo viene prelevato attraverso un approccio laparoscopico o robotico e "tirato" verso il basso per rivestire la cavità neovaginale. Può essere combinato con l'inversione peniena per ottenere maggiore profondità (il lembo peritoneale aggiunge circa 5 cm alla lunghezza).
 
 I vantaggi teorici includono:
 
 - Tessuto sottile e flessibile, con capacità di lubrificazione
-- Profondità media di circa 14 cm
+- Profondità media di circa 14 cm [10]
 - Nessuna necessità di prelevare tessuto intestinale
 - Cicatrici minime a livello addominale
 
-Essendo una tecnica relativamente nuova, i dati a lungo termine sono ancora limitati. I primi risultati sono promettenti, con tassi di stenosi ridotti nelle versioni più recenti della procedura (dal 48% delle prime casistiche al 10% con le tecniche ottimizzate). La comunità chirurgica considera questa tecnica in fase di consolidamento: i risultati migliorano progressivamente man mano che i centri accumulano esperienza.
+Essendo una tecnica relativamente nuova, i dati a lungo termine sono ancora limitati. I primi risultati sono promettenti, con tassi di stenosi ridotti nelle versioni più recenti della procedura (dal 48% delle prime casistiche al 10% con le tecniche ottimizzate) [10]. La comunità chirurgica considera questa tecnica in fase di consolidamento: i risultati migliorano progressivamente man mano che i centri accumulano esperienza.
 
 ### Vaginoplastica con digiuno (jejunum)
 
-Questa tecnica utilizza un segmento del **digiuno** (jejunum), una porzione dell'intestino tenue, per creare il canale neovaginale. Il segmento viene prelevato con il suo peduncolo vascolare intatto, e l'intestino viene riconnesso con un'anastomosi primaria. Il tessuto digiunale viene poi posizionato nella cavità neovaginale, spesso combinato con lembi peritoneali e pelle peniena/scrotale per la vulva esterna.
+Questa tecnica utilizza un segmento del **digiuno** (jejunum), una porzione dell'intestino tenue, per creare il canale neovaginale [15]. Il segmento viene prelevato con il suo peduncolo vascolare intatto, e l'intestino viene riconnesso con un'anastomosi primaria. Il tessuto digiunale viene poi posizionato nella cavità neovaginale, spesso combinato con lembi peritoneali e pelle peniena/scrotale per la vulva esterna.
 
 I vantaggi specifici rispetto alla colonvaginoplastica (che usa il sigma) includono:
 
@@ -148,7 +148,7 @@ I vantaggi specifici rispetto alla colonvaginoplastica (che usa il sigma) includ
 - **Minore produzione di muco**: rispetto al colon sigmoideo, il digiuno tende a produrre meno secrezioni e con meno odore, anche se un certo grado di secrezione costante è presente.
 - **Ridotta necessità di dilatazione**: rispetto all'inversione peniena, la mucosa intestinale è meno soggetta a stenosi.
 
-Gli svantaggi includono la maggiore complessità chirurgica (richiede un approccio addominale, spesso robotico-assistito), il rischio di complicanze intestinali, e il fatto che le secrezioni sono costanti e non legate all'eccitazione, rendendo necessario l'uso di salvaslip. Uno studio del 2024 su sei pazienti ha riportato una profondità media di 7 cm e un diametro di 1,3 cm a 8 mesi dall'intervento, con un tasso di complicanze del 33%.
+Gli svantaggi includono la maggiore complessità chirurgica (richiede un approccio addominale, spesso robotico-assistito), il rischio di complicanze intestinali, e il fatto che le secrezioni sono costanti e non legate all'eccitazione, rendendo necessario l'uso di salvaslip. Uno studio del 2024 su sei pazienti ha riportato una profondità media di 7 cm e un diametro di 1,3 cm a 8 mesi dall'intervento, con un tasso di complicanze del 33% [15].
 
 La tecnica è ancora relativamente poco diffusa nell'ambito della chirurgia di affermazione di genere, ma è stata utilizzata con successo da decenni per la ricostruzione vaginale in donne cisgender con agenesia mulleriana.
 
@@ -158,9 +158,9 @@ La preparazione alla vaginoplastica inizia mesi prima della data dell'operazione
 
 ### Depilazione permanente
 
-Per molte tecniche chirurgiche, la **rimozione permanente dei peli** dal tessuto che verrà utilizzato per creare la neovagina è un passaggio importante della preparazione. Se i follicoli piliferi non vengono eliminati, possono causare crescita di peli all'interno del canale vaginale, con conseguenze che vanno dal disagio alle infezioni croniche, dalla formazione di calcoli piliferi alla dispareunia (dolore durante i rapporti).
+Per molte tecniche chirurgiche, la **rimozione permanente dei peli** dal tessuto che verrà utilizzato per creare la neovagina è un passaggio importante della preparazione. Se i follicoli piliferi non vengono eliminati, possono causare crescita di peli all'interno del canale vaginale, con conseguenze che vanno dal disagio alle infezioni croniche, dalla formazione di calcoli piliferi alla dispareunia (dolore durante i rapporti) [11].
 
-Le opzioni sono l'elettrolisi e la depilazione laser. La letteratura recente indica che il laser risulta più efficiente, meno doloroso e meno costoso rispetto all'elettrolisi, pur raggiungendo risultati comparabili. La maggior parte dei chirurghi raccomanda di iniziare 6-12 mesi prima dell'intervento, con un periodo di attesa di 3 mesi dopo l'ultimo trattamento per verificare l'assenza di ricrescita. La depilazione non va eseguita nelle due settimane precedenti l'intervento.
+Le opzioni sono l'elettrolisi e la depilazione laser. La letteratura recente indica che il laser risulta più efficiente, meno doloroso e meno costoso rispetto all'elettrolisi, pur raggiungendo risultati comparabili [11]. La maggior parte dei chirurghi raccomanda di iniziare 6-12 mesi prima dell'intervento, con un periodo di attesa di 3 mesi dopo l'ultimo trattamento per verificare l'assenza di ricrescita. La depilazione non va eseguita nelle due settimane precedenti l'intervento.
 
 L'area da trattare è principalmente la cute del pene, che verrà invertita per formare il canale vaginale.
 
@@ -181,7 +181,7 @@ Il giorno prima dell'intervento si esegue una **preparazione meccanica del colon
 
 ### Preparazione pratica e logistica
 
-Aspetti spesso sottovalutati ma fondamentali:
+Aspetti spesso sottovalutati ma fondamentali [14]:
 
 - Organizzare almeno 6-8 settimane di assenza dal lavoro
 - Predisporre un ambiente domestico adatto al recupero (letto accessibile, bagno vicino)
@@ -203,7 +203,7 @@ Il ricovero ospedaliero dura in media **5-7 giorni**. Durante questo periodo:
 - Si inizia una mobilizzazione graduale dal secondo o terzo giorno
 - Il catetere vescicale viene rimosso tra il quinto e il settimo giorno
 - Il conformatore viene rimosso e si effettua il primo esame della neovagina
-- Viene insegnata la tecnica di dilatazione
+- Viene insegnata la tecnica di dilatazione [14]
 
 ## Il post-operatorio e la dilatazione
 
@@ -211,13 +211,13 @@ Il post-operatorio della vaginoplastica è un percorso lungo e impegnativo. La d
 
 ### Perché la dilatazione è essenziale
 
-Il corpo umano reagisce a ogni intervento chirurgico con un processo di cicatrizzazione. Nel caso della neovagina, la tendenza naturale dei tessuti è quella di contrarsi e chiudersi. La **dilatazione** contrasta questo processo mantenendo il canale aperto, preservando la profondità e l'ampiezza ottenute in sala operatoria.
+Il corpo umano reagisce a ogni intervento chirurgico con un processo di cicatrizzazione. Nel caso della neovagina, la tendenza naturale dei tessuti è quella di contrarsi e chiudersi. La **dilatazione** contrasta questo processo mantenendo il canale aperto, preservando la profondità e l'ampiezza ottenute in sala operatoria [14].
 
-La perdita di profondità o la chiusura completa del canale (stenosi) rappresenta una delle complicanze più significative: studi recenti riportano un'incidenza cumulativa di perdita completa del canale del 5% ogni sei mesi nel primo anno post-operatorio, con la fatica da dilatazione come principale fattore contribuente.
+La perdita di profondità o la chiusura completa del canale (stenosi) rappresenta una delle complicanze più significative: studi recenti riportano un'incidenza cumulativa di perdita completa del canale del 5% ogni sei mesi nel primo anno post-operatorio, con la fatica da dilatazione come principale fattore contribuente [6].
 
 ### Il protocollo di dilatazione
 
-Il protocollo varia tra i centri, ma segue una struttura simile:
+Il protocollo varia tra i centri, ma segue una struttura simile [14]:
 
 **Settimane 1-6 (fase acuta)**: dilatazione 3-4 volte al giorno, per 20-30 minuti a sessione. Si parte con il dilatatore più piccolo (taglia 0 o 1) e si aumenta gradualmente. Questa è la fase più impegnativa: il tessuto è ancora in fase di guarigione, il disagio è comune e la costanza è fondamentale.
 
@@ -263,7 +263,7 @@ Sono quelle comuni a qualsiasi intervento in anestesia generale: infezioni (gest
 
 ### Complicanze specifiche
 
-Una meta-analisi aggiornata del 2021, che ha analizzato 57 studi per un totale di 4.680 casi, ha riportato i seguenti tassi per la tecnica a inversione peniena:
+Una meta-analisi aggiornata del 2021, che ha analizzato 57 studi per un totale di 4.680 casi, ha riportato i seguenti tassi per la tecnica a inversione peniena [2]:
 
 - **Stenosi vaginale** (restringimento del canale): 10%. È la complicanza più comune. Può essere gestita con dilatazione intensificata o, nei casi severi, con revisione chirurgica.
 - **Necrosi tissutale** (morte parziale del tessuto trapiantato): 5%. Generalmente limitata e gestibile.
@@ -272,7 +272,7 @@ Una meta-analisi aggiornata del 2021, che ha analizzato 57 studi per un totale d
 
 ### Complicanze urologiche
 
-Una revisione sistematica del 2023, che ha analizzato 27 studi su 3.388 pazienti, ha riportato:
+Una revisione sistematica del 2023, che ha analizzato 27 studi su 3.388 pazienti, ha riportato [7]:
 
 - Getto urinario debole o deviato: 11,7%
 - Stenosi del meato urinario: 6,9%
@@ -282,7 +282,7 @@ La maggior parte di queste complicanze è gestibile con trattamenti conservativi
 
 ### Il tasso di re-intervento
 
-Circa il 15-20% delle pazienti richiede una o più revisioni chirurgiche, generalmente per miglioramenti estetici, correzione di stenosi o ottimizzazione funzionale. Le revisioni sono procedure minori rispetto all'intervento originale.
+Circa il 15-20% delle pazienti richiede una o più revisioni chirurgiche, generalmente per miglioramenti estetici, correzione di stenosi o ottimizzazione funzionale [2]. Le revisioni sono procedure minori rispetto all'intervento originale.
 
 È importante contestualizzare: questi tassi di complicanze sono paragonabili a quelli di altre chirurgie ricostruttive complesse e sono in costante miglioramento grazie al perfezionamento delle tecniche.
 
@@ -292,15 +292,15 @@ Circa il 15-20% delle pazienti richiede una o più revisioni chirurgiche, genera
 
 La profondità media della neovagina varia in base alla tecnica:
 
-- **Inversione peniena**: circa 9-10 cm (con variabilità da 7 a 15 cm a seconda del tessuto disponibile)
-- **Peritoneale**: circa 14 cm
-- **Colonvaginoplastica**: circa 13-16 cm
+- **Inversione peniena**: circa 9-10 cm (con variabilità da 7 a 15 cm a seconda del tessuto disponibile) [4]
+- **Peritoneale**: circa 14 cm [10]
+- **Colonvaginoplastica**: circa 13-16 cm [8]
 
 Per confronto, la profondità media della vagina in donne cisgender è di 9-12 cm. La profondità ottenuta con l'inversione peniena è quindi nella maggior parte dei casi sufficiente per i rapporti sessuali.
 
 ### Risultati estetici
 
-I risultati estetici sono migliorati enormemente negli ultimi decenni. Le donne trans dopo vaginoplastica riportano punteggi sulla Female Genital Self-Image Scale (FGSIS) comparabili a quelli delle donne cisgender. L'aspetto della vulva, incluse grandi labbra, piccole labbra, cappuccio clitorideo e meato uretrale, è generalmente naturale, anche se una certa variabilità è inevitabile (così come lo è nelle donne cisgender).
+I risultati estetici sono migliorati enormemente negli ultimi decenni. Le donne trans dopo vaginoplastica riportano punteggi sulla Female Genital Self-Image Scale (FGSIS) comparabili a quelli delle donne cisgender [2]. L'aspetto della vulva, incluse grandi labbra, piccole labbra, cappuccio clitorideo e meato uretrale, è generalmente naturale, anche se una certa variabilità è inevitabile (così come lo è nelle donne cisgender).
 
 Alcuni centri offrono procedure di revisione estetica (labioplastica secondaria, revisione del cappuccio clitorideo) per ottimizzare il risultato.
 
@@ -308,20 +308,20 @@ Alcuni centri offrono procedure di revisione estetica (labioplastica secondaria,
 
 Questo è uno degli aspetti su cui le pazienti hanno più domande e comprensibilmente più preoccupazioni.
 
-La letteratura scientifica è rassicurante. Una revisione sistematica del 2021 ha analizzato la funzione sessuale dopo vaginoplastica e ha rilevato che:
+La letteratura scientifica è rassicurante. Una revisione sistematica del 2021 ha analizzato la funzione sessuale dopo vaginoplastica e ha rilevato che [9]:
 
 - Il **76-90% delle pazienti** riporta la capacità di raggiungere l'orgasmo dopo l'intervento
 - Il clitoride è la zona con maggiore sensibilità riportata (67,7% delle pazienti lo descrive come "sufficientemente sensibile")
 - La stimolazione clitoridea è il metodo principale per raggiungere l'eccitazione e l'orgasmo
 - Il 70% delle pazienti valuta la propria fiducia sessuale post-operatoria con punteggi superiori a 7 su 10
 
-La preservazione della sensibilità dipende in larga misura dalla tecnica chirurgica e dall'esperienza del chirurgo nel preservare il fascio neurovascolare dorsale durante la creazione del neoclitoride. Un breve periodo di ipersensibilità nelle settimane successive all'intervento è normale e si risolve spontaneamente.
+La preservazione della sensibilità dipende in larga misura dalla tecnica chirurgica e dall'esperienza del chirurgo nel preservare il fascio neurovascolare dorsale durante la creazione del neoclitoride [3]. Un breve periodo di ipersensibilità nelle settimane successive all'intervento è normale e si risolve spontaneamente.
 
 ## Soddisfazione complessiva e rimpianto
 
 I dati sulla soddisfazione sono tra i più solidi dell'intera letteratura chirurgica.
 
-La meta-analisi del 2021 riporta una **soddisfazione complessiva del 91%** e un **tasso di rimpianto del 2%**. Questi numeri sono straordinariamente positivi se confrontati con qualsiasi altro intervento chirurgico elettivo. La chirurgia di sostituzione del ginocchio, per esempio, ha tassi di insoddisfazione tra il 6% e il 30%.
+La meta-analisi del 2021 riporta una **soddisfazione complessiva del 91%** e un **tasso di rimpianto del 2%** [2]. Questi numeri sono straordinariamente positivi se confrontati con qualsiasi altro intervento chirurgico elettivo. La chirurgia di sostituzione del ginocchio, per esempio, ha tassi di insoddisfazione tra il 6% e il 30%.
 
 Nei rari casi di rimpianto, i fattori associati non riguardano l'identità di genere ma piuttosto:
 
@@ -336,7 +336,7 @@ In altre parole, il rimpianto è legato quasi sempre a come è andato l'interven
 
 ### Centri di riferimento
 
-In Italia, diversi centri ospedalieri pubblici eseguono vaginoplastiche nell'ambito del Servizio Sanitario Nazionale. I principali includono:
+In Italia, diversi centri ospedalieri pubblici eseguono vaginoplastiche nell'ambito del Servizio Sanitario Nazionale [13]. I principali includono:
 
 - **Roma - Ospedale San Camillo-Forlanini** (SAIFIP): centro storico per la chirurgia di affermazione di genere in Italia
 - **Torino - Città della Salute e della Scienza** (CIDIGem): centro di riferimento piemontese
@@ -349,9 +349,9 @@ I centri sono coordinati dall'**ONIG (Osservatorio Nazionale sull'Identità di G
 
 ### Copertura SSN e tempi di attesa
 
-La vaginoplastica è coperta dal Servizio Sanitario Nazionale. La paziente sostiene solo il costo del ticket, quando previsto. Dal 2024, grazie alla sentenza n. 143 della Corte Costituzionale, non è più necessaria l'autorizzazione del tribunale per accedere all'intervento: la decisione è esclusivamente tra la paziente e il team medico.
+La vaginoplastica è coperta dal Servizio Sanitario Nazionale [13]. La paziente sostiene solo il costo del ticket, quando previsto. Dal 2024, grazie alla sentenza n. 143 della Corte Costituzionale, non è più necessaria l'autorizzazione del tribunale per accedere all'intervento: la decisione è esclusivamente tra la paziente e il team medico [12].
 
-Il problema principale resta la disponibilità: i centri SSN eseguono un numero limitato di interventi all'anno (circa 60 in totale a livello nazionale), e le **liste di attesa vanno da 2 a 5 anni**. Questo dato è importante e va considerato nella pianificazione del proprio percorso.
+Il problema principale resta la disponibilità: i centri SSN eseguono un numero limitato di interventi all'anno (circa 60 in totale a livello nazionale), e le **liste di attesa vanno da 2 a 5 anni** [13]. Questo dato è importante e va considerato nella pianificazione del proprio percorso.
 
 Chi sceglie il percorso privato, in Italia o all'estero, deve mettere in conto costi che variano da 15.000 a oltre 25.000 euro, a seconda del centro e della tecnica utilizzata.
 
@@ -361,7 +361,7 @@ Chi sceglie il percorso privato, in Italia o all'estero, deve mettere in conto c
 
 La vaginoplastica non è una bacchetta magica e non è un orrore. È un intervento chirurgico serio con risultati documentati. Ecco cosa aspettarsi:
 
-**È ragionevole aspettarsi**: una vulva esteticamente naturale, una neovagina funzionale per i rapporti sessuali, la capacità di raggiungere l'orgasmo nella maggior parte dei casi, un significativo miglioramento della disforia e della qualità della vita, la soddisfazione con la propria decisione.
+**È ragionevole aspettarsi**: una vulva esteticamente naturale, una neovagina funzionale per i rapporti sessuali, la capacità di raggiungere l'orgasmo nella maggior parte dei casi [9], un significativo miglioramento della disforia e della qualità della vita [5], la soddisfazione con la propria decisione [2].
 
 **Non è ragionevole aspettarsi**: un risultato perfetto senza alcun compromesso, l'assenza totale di cicatrici, un recupero rapido e indolore, che l'intervento risolva da solo tutti i problemi legati alla disforia o alla salute mentale.
 
