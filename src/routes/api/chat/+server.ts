@@ -10,7 +10,7 @@ import { logChatInteraction } from '$lib/server/chat-analytics';
 
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 const embeddingModel = genAI.getGenerativeModel({ model: 'gemini-embedding-001' });
-const chatModel = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
+const chatModel = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
 
 const MAX_MESSAGE_LENGTH = 500;
 const MAX_HISTORY_LENGTH = 20;
@@ -246,12 +246,18 @@ export const POST: RequestHandler = async ({ request, url, getClientAddress }) =
 						setCachedResponse(normalized, message, validSlug, fullResponse).catch(() => {});
 					}
 
+					// Extract token usage from Gemini response
+					const usage = (await result.response).usageMetadata;
+
 					logChatInteraction({
 						question: message,
 						response: fullResponse || undefined,
 						currentSlug: validSlug,
 						cacheHit: false,
-						responseTimeMs
+						responseTimeMs,
+						promptTokens: usage?.promptTokenCount,
+						completionTokens: usage?.candidatesTokenCount,
+						totalTokens: usage?.totalTokenCount
 					});
 				}
 			}
