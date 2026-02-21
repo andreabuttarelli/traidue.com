@@ -1,38 +1,64 @@
-# sv
+# Tra i Due
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Informazione scientifica sulle tematiche trans, in italiano. Articoli, quiz e glossario basati su fonti peer-reviewed.
 
-## Creating a project
+**[www.traidue.com](https://www.traidue.com)**
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Tech Stack
 
-```sh
-# create a new project in the current directory
-npx sv create
+- **Framework** — SvelteKit con Svelte 5
+- **Styling** — Tailwind CSS v4
+- **Content** — mdsvex (markdown + Svelte)
+- **Deploy** — Vercel (adapter-vercel)
+- **OG Images** — satori + resvg-js (generazione dinamica)
 
-# create a new project in my-app
-npx sv create my-app
+## Contenuti
+
+| Sezione | Quantità |
+|---------|----------|
+| Articoli wiki | 113 |
+| Categorie | 5 (terminologia, scienza, percorsi, cultura, persone) |
+| Quiz | 1 |
+| Termini glossario | 18 |
+
+## Struttura
+
+```
+src/
+├── content/wiki/          # Articoli markdown con frontmatter YAML
+│   ├── terminologia/
+│   ├── scienza/
+│   ├── percorsi/
+│   ├── cultura/
+│   └── persone/
+├── lib/
+│   ├── components/        # Componenti Svelte (SEO, UI, Wiki, Quiz)
+│   ├── data/              # Quiz JSON, dati regioni/comuni
+│   └── utils/             # Utility per wiki, quiz, SEO
+└── routes/
+    ├── wiki/[slug]/       # Pagine articolo
+    ├── quiz/[slug]/       # Pagine quiz
+    ├── glossario/         # Glossario con schema DefinedTermSet
+    ├── og/[slug].png/     # OG image dinamiche
+    ├── giovani/           # Pagina risorse giovani
+    ├── chi-siamo/         # Chi siamo
+    └── sitemap.xml/       # Sitemap dinamica
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Sviluppo
 
 ```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+bun install
+bun run dev
 ```
 
-## Building
-
-To create a production version of your app:
+## Build
 
 ```sh
-npm run build
+bun run build
+bun run preview
 ```
 
-You can preview the production build with `npm run preview`.
+## Licenza
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Tutti i diritti riservati.

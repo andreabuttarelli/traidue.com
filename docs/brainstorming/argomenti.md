@@ -126,3 +126,12 @@ Pillar: `identita-di-genere` (pubblicato)
 - [x] Tecnologia e persone trans: come la tecnologia aiuta (`tecnologia-e-persone-trans`)
 
 - Trans e forze armate
+- Trans e forze civili
+- Dare del 'lui' a una donna trans
+- Misgenderare le persone trans
+- Carceri e persone trans
+- Costi da sostenere per una persona trans
+- Carriera lavorative più efficaci per una persona trans (es. programmatori o carriere nell'ambito tech per salari + apertura mentale del settore)
+- L'importanza di saper programmare per una persona trans
+- Saper usare l'AI per promuovere le tematiche trans
+- Leggi attuale su bagni e spogliatoi, carceri e sport
