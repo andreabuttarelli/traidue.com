@@ -8,7 +8,7 @@ export const GET: RequestHandler = async ({ params }) => {
 	const { token } = params;
 
 	if (!UUID_RE.test(token)) {
-		redirect(303, '/notizie?action=invalid');
+		redirect(303, '/editoriali?action=invalid');
 	}
 
 	const { data, error } = await supabase
@@ -24,8 +24,8 @@ export const GET: RequestHandler = async ({ params }) => {
 		.single();
 
 	if (error || !data) {
-		redirect(303, '/notizie?action=invalid');
+		redirect(303, '/editoriali?action=invalid');
 	}
 
-	redirect(303, `/notizie?action=approved&slug=${encodeURIComponent(data.slug)}`);
+	redirect(303, `/editoriali?action=approved&slug=${encodeURIComponent(data.slug)}`);
 };

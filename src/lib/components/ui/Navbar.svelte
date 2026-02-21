@@ -19,7 +19,7 @@
 
 	const navLinks = [
 		{ href: '/wiki', label: 'Wiki' },
-		{ href: '/notizie', label: 'Notizie' },
+		{ href: '/editoriali', label: 'Opinioni' },
 		{ href: '/quiz', label: 'Quiz' },
 		{ href: '/chi-siamo', label: 'Chi Siamo' }
 	];

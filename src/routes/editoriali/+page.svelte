@@ -11,22 +11,22 @@
 		'@type': 'BreadcrumbList',
 		itemListElement: [
 			{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.traidue.com' },
-			{ '@type': 'ListItem', position: 2, name: 'Notizie', item: 'https://www.traidue.com/notizie' }
+			{ '@type': 'ListItem', position: 2, name: 'Opinioni', item: 'https://www.traidue.com/editoriali' }
 		]
 	};
 
 	let collectionSchema = $derived({
 		'@context': 'https://schema.org',
 		'@type': 'CollectionPage',
-		name: 'Notizie',
-		description: 'Editoriali e approfondimenti su diritti civili, tematiche LGBTQ+, identità di genere e fine vita.',
-		url: 'https://www.traidue.com/notizie',
+		name: 'Opinioni',
+		description: 'Opinioni e approfondimenti su diritti civili, identità di genere e fine vita.',
+		url: 'https://www.traidue.com/editoriali',
 		mainEntity: {
 			'@type': 'ItemList',
 			itemListElement: data.articles.map((a, i) => ({
 				'@type': 'ListItem',
 				position: i + 1,
-				url: `https://www.traidue.com/notizie/${a.slug}`
+				url: `https://www.traidue.com/editoriali/${a.slug}`
 			}))
 		}
 	});
@@ -34,9 +34,9 @@
 	let action = $derived($page.url.searchParams.get('action'));
 	let toastMessage = $derived(
 		action === 'approved'
-			? 'Notizia approvata e pubblicata.'
+			? 'Articolo approvato e pubblicato.'
 			: action === 'rejected'
-				? 'Notizia scartata.'
+				? 'Articolo scartato.'
 				: action === 'invalid'
 					? 'Link non valido o già utilizzato.'
 					: null
@@ -80,9 +80,9 @@
 </script>
 
 <SEO
-	title="Notizie"
-	description="Editoriali e approfondimenti su diritti civili, tematiche LGBTQ+, identità di genere e fine vita."
-	url="https://www.traidue.com/notizie"
+	title="Opinioni"
+	description="Opinioni e approfondimenti su diritti civili, identità di genere e fine vita."
+	url="https://www.traidue.com/editoriali"
 />
 <StructuredData schema={breadcrumbSchema} />
 <StructuredData schema={collectionSchema} />
@@ -96,10 +96,10 @@
 
 	<div class="py-10 sm:py-16 lg:py-20 text-center flex flex-col items-center">
 		<h1 class="text-3xl sm:text-4xl lg:text-5xl font-heading font-semibold tracking-tight text-primary mb-3">
-			Notizie
+			Opinioni
 		</h1>
-		<p class="text-muted mb-6 sm:mb-8 max-w-md">
-			Editoriali e commenti sulle notizie che ci riguardano
+		<p class="text-muted mb-6 sm:mb-8 max-w-xl">
+			Opinioni e approfondimenti su diritti civili e identità di genere
 		</p>
 
 		{#if data.tags.length > 0}
@@ -128,7 +128,7 @@
 
 	<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10 sm:gap-x-8 sm:gap-y-12">
 		{#each data.articles as article}
-			<a href="/notizie/{article.slug}" class="group block">
+			<a href="/editoriali/{article.slug}" class="group block">
 				{#if article.thumb}
 					<div class="aspect-[16/9] overflow-hidden rounded-xl mb-4">
 						<img
@@ -155,7 +155,7 @@
 				</div>
 			</a>
 		{:else}
-			<p class="text-muted">Nessuna notizia pubblicata.</p>
+			<p class="text-muted">Nessun articolo pubblicato.</p>
 		{/each}
 	</div>
 
@@ -163,7 +163,7 @@
 		<nav class="flex justify-center gap-4 py-12">
 			{#if data.currentPage > 1}
 				<a
-					href="/notizie?page={data.currentPage - 1}{data.currentTag ? `&tag=${data.currentTag}` : ''}"
+					href="/editoriali?page={data.currentPage - 1}{data.currentTag ? `&tag=${data.currentTag}` : ''}"
 					class="text-sm text-muted hover:text-primary transition"
 				>
 					Precedente
@@ -174,7 +174,7 @@
 			</span>
 			{#if data.currentPage < data.totalPages}
 				<a
-					href="/notizie?page={data.currentPage + 1}{data.currentTag ? `&tag=${data.currentTag}` : ''}"
+					href="/editoriali?page={data.currentPage + 1}{data.currentTag ? `&tag=${data.currentTag}` : ''}"
 					class="text-sm text-muted hover:text-primary transition"
 				>
 					Successiva

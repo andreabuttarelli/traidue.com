@@ -13,7 +13,7 @@ export async function GET() {
 	const pages = [
 		{ url: '', priority: '1.0', changefreq: 'weekly' },
 		{ url: '/wiki', priority: '0.9', changefreq: 'weekly' },
-		{ url: '/notizie', priority: '0.8', changefreq: 'daily' },
+		{ url: '/editoriali', priority: '0.8', changefreq: 'daily' },
 		{ url: '/giovani', priority: '0.8', changefreq: 'monthly' },
 		{ url: '/quiz', priority: '0.8', changefreq: 'monthly' },
 		{ url: '/glossario', priority: '0.7', changefreq: 'monthly' },
@@ -56,7 +56,7 @@ export async function GET() {
 		.order('published_at', { ascending: false });
 
 	const newsUrls = (newsArticles ?? []).map((n) => ({
-		url: `/notizie/${n.slug}`,
+		url: `/editoriali/${n.slug}`,
 		priority: '0.6',
 		changefreq: 'daily' as const,
 		lastmod: n.published_at?.split('T')[0]

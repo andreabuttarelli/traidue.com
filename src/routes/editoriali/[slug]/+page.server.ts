@@ -12,7 +12,7 @@ export async function load({ params }) {
 		.eq('status', 'published')
 		.single();
 
-	if (!article) error(404, 'Notizia non trovata');
+	if (!article) error(404, 'Articolo non trovato');
 
 	return {
 		article: {
