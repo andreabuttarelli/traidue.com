@@ -72,15 +72,17 @@ export const GET: RequestHandler = async ({ request }) => {
 		}
 
 		// 5. Email digest (failure doesn't lose saved drafts)
+		let emailSent = false;
 		if (drafts.length) {
 			try {
 				await sendNewsDigest(drafts, BASE_URL);
+				emailSent = true;
 			} catch (e) {
 				console.error('Failed to send news digest email:', e);
 			}
 		}
 
-		return json({ ok: true, drafted: drafts.length });
+		return json({ ok: true, drafted: drafts.length, emailSent });
 	} catch (e) {
 		console.error('News cron error:', e);
 		return json({ error: 'Internal error' }, { status: 500 });

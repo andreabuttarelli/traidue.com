@@ -57,14 +57,14 @@ export async function processNewsItems(items: RSSItem[]): Promise<GeneratedArtic
 
 	for (let i = 0; i < items.length; i += BATCH_SIZE) {
 		const batch = items.slice(i, i + BATCH_SIZE);
-		const batchResults = await processBatch(batch, i);
+		const batchResults = await processBatch(batch);
 		generated.push(...batchResults);
 	}
 
 	return generated;
 }
 
-async function processBatch(items: RSSItem[], indexOffset: number): Promise<GeneratedArticle[]> {
+async function processBatch(items: RSSItem[]): Promise<GeneratedArticle[]> {
 	const itemsList = items
 		.map(
 			(item, i) =>
