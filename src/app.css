@@ -234,7 +234,9 @@ article .prose h3:hover .heading-link {
 
 /* Glossary term annotations */
 .glossary-term {
-	text-decoration: underline dotted var(--color-muted) !important;
+	text-decoration-line: underline !important;
+	text-decoration-style: dotted !important;
+	text-decoration-color: var(--color-muted) !important;
 	text-underline-offset: 3px !important;
 	cursor: help;
 }
