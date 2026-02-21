@@ -191,17 +191,11 @@ Il crowdfunding non è una soluzione sistemica e presenta disuguaglianze intrins
 
 ### La burocrazia della rettificazione
 
-Il percorso di [cambio documenti](/wiki/cambio-documenti-trans) per le persone trans in Italia è ancora in larga parte analogico: serve un avvocato, un ricorso in tribunale, documentazione medica cartacea. I tempi variano da 6 a 18 mesi dal deposito del ricorso alla sentenza, a cui si aggiungono le settimane necessarie per l'aggiornamento di tutti i documenti.
-
-La tecnologia sta iniziando a semplificare alcune parti di questo processo, anche se in modo ancora frammentario. I portali online di alcuni tribunali permettono di seguire lo stato del procedimento a distanza. Le comunicazioni tra avvocato e cliente avvengono in larga parte via email. La documentazione medica digitale facilita la raccolta e la trasmissione delle relazioni necessarie.
+Il percorso di [cambio documenti](/wiki/cambio-documenti-trans) per le persone trans in Italia è ancora in larga parte analogico. La tecnologia sta iniziando a semplificare alcune parti: portali online dei tribunali, comunicazioni via email, documentazione medica digitale. Ma i progressi restano frammentari.
 
 ### Carriera alias digitale
 
-Un'area dove la tecnologia ha un impatto più diretto è la **carriera alias** nei contesti lavorativi e scolastici. Come discusso nell'articolo sulla [discriminazione lavorativa](/wiki/discriminazione-lavoro-trans-italia), la carriera alias consente di utilizzare il nome scelto nei sistemi interni dell'organizzazione -- badge, email, registri -- prima ancora della rettificazione anagrafica.
-
-L'implementazione della carriera alias è un processo in gran parte tecnologico: richiede la modifica dei campi nei database del personale, la creazione di alias email, l'aggiornamento dei sistemi di autenticazione. Le aziende e le scuole che adottano sistemi informatici moderni possono implementarla con relativa facilità. Quelle che utilizzano sistemi legacy, progettati con un'architettura binaria rigida, incontrano più difficoltà.
-
-Alcune università italiane hanno implementato la carriera alias nei propri sistemi informatici, permettendo agli studenti trans di vedere il nome scelto nel registro elettronico, nella email istituzionale e nel badge universitario, prima e indipendentemente dalla rettificazione anagrafica legale.
+Un'area dove la tecnologia ha un impatto più diretto è la **carriera alias**. Come discusso nell'articolo sulla [discriminazione lavorativa](/wiki/discriminazione-lavoro-trans-italia), la carriera alias consente di utilizzare il nome scelto nei sistemi interni dell'organizzazione -- badge, email, registri -- prima della rettificazione anagrafica. L'implementazione è un processo tecnologico: modifica dei database, creazione di alias email, aggiornamento dei sistemi di autenticazione. Le organizzazioni con sistemi informatici moderni possono implementarla con relativa facilità; quelle con sistemi legacy incontrano più difficoltà. Diverse università italiane l'hanno già adottata, permettendo agli studenti trans di vedere il nome scelto nel registro elettronico e nella email istituzionale.
 
 ## Visibilità digitale: raccontarsi e farsi vedere
 
