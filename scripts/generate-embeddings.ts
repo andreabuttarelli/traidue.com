@@ -1,6 +1,7 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import { readFileSync, writeFileSync, readdirSync, statSync } from 'fs';
+import { readFileSync, writeFileSync, readdirSync, statSync, existsSync } from 'fs';
 import { join, relative } from 'path';
+import { createHash } from 'crypto';
 
 const WIKI_DIR = 'src/content/wiki';
 const OUTPUT_FILE = 'static/embeddings.json';
@@ -20,6 +21,7 @@ interface ArticleEmbedding {
 	category: string;
 	sources: { title: string; url: string; year: number }[];
 	embedding: number[];
+	hash?: string;
 }
 
 function getMarkdownFiles(dir: string): string[] {
@@ -104,20 +106,73 @@ function extractBody(content: string): string {
 		.slice(0, 8000);
 }
 
+function fileHash(content: string): string {
+	return createHash('md5').update(content).digest('hex');
+}
+
 async function main() {
+	const forceAll = process.argv.includes('--force');
 	const files = getMarkdownFiles(WIKI_DIR);
 	console.log(`Found ${files.length} articles`);
 
-	const embeddings: ArticleEmbedding[] = [];
+	// Load existing embeddings
+	let existing: ArticleEmbedding[] = [];
+	const existingBySlug = new Map<string, ArticleEmbedding>();
+	if (!forceAll && existsSync(OUTPUT_FILE)) {
+		try {
+			existing = JSON.parse(readFileSync(OUTPUT_FILE, 'utf-8'));
+			for (const e of existing) {
+				existingBySlug.set(e.slug, e);
+			}
+			console.log(`Loaded ${existing.length} existing embeddings`);
+		} catch {
+			console.log('Could not parse existing embeddings, regenerating all');
+		}
+	}
+
+	// Determine which files need (re)generation
+	const allSlugs = new Set<string>();
+	const toProcess: { filePath: string; slug: string; content: string }[] = [];
+
+	for (const filePath of files) {
+		const content = readFileSync(filePath, 'utf-8');
+		const slug = filePath.split('/').pop()!.replace('.md', '');
+		allSlugs.add(slug);
+
+		const hash = fileHash(content);
+		const prev = existingBySlug.get(slug);
+
+		if (prev?.hash === hash) {
+			// Content unchanged, skip
+			continue;
+		}
+
+		toProcess.push({ filePath, slug, content });
+	}
+
+	// Remove embeddings for deleted articles
+	const kept = existing.filter(e => allSlugs.has(e.slug) && !toProcess.some(p => p.slug === e.slug));
+
+	if (toProcess.length === 0) {
+		console.log('All embeddings are up to date, nothing to do');
+		// Still write in case deleted articles need to be removed
+		if (kept.length !== existing.length) {
+			writeFileSync(OUTPUT_FILE, JSON.stringify(kept));
+			console.log(`Removed ${existing.length - kept.length} stale embeddings`);
+		}
+		return;
+	}
+
+	console.log(`${toProcess.length} articles need embedding (${files.length - toProcess.length} cached)`);
+
+	const newEmbeddings: ArticleEmbedding[] = [];
 	const batchSize = 10;
 
-	for (let i = 0; i < files.length; i += batchSize) {
-		const batch = files.slice(i, i + batchSize);
+	for (let i = 0; i < toProcess.length; i += batchSize) {
+		const batch = toProcess.slice(i, i + batchSize);
 		const results = await Promise.all(
-			batch.map(async (filePath) => {
-				const content = readFileSync(filePath, 'utf-8');
+			batch.map(async ({ filePath, slug, content }) => {
 				const frontmatter = parseFrontmatter(content);
-				const slug = filePath.split('/').pop()!.replace('.md', '');
 				const category = relative(WIKI_DIR, filePath).split('/')[0];
 				const body = extractBody(content);
 				const textToEmbed = `${frontmatter.title || slug}\n${frontmatter.description || ''}\n${body}`;
@@ -130,17 +185,19 @@ async function main() {
 					title: frontmatter.title || slug,
 					category,
 					sources: Array.isArray(frontmatter.sources) ? frontmatter.sources : [],
-					embedding
+					embedding,
+					hash: fileHash(content)
 				};
 			})
 		);
-		embeddings.push(...results);
-		console.log(`Processed ${Math.min(i + batchSize, files.length)}/${files.length}`);
+		newEmbeddings.push(...results);
+		console.log(`Processed ${Math.min(i + batchSize, toProcess.length)}/${toProcess.length}`);
 	}
 
-	writeFileSync(OUTPUT_FILE, JSON.stringify(embeddings));
-	const sizeMB = (Buffer.byteLength(JSON.stringify(embeddings)) / 1024 / 1024).toFixed(2);
-	console.log(`Saved ${embeddings.length} embeddings to ${OUTPUT_FILE} (${sizeMB} MB)`);
+	const final = [...kept, ...newEmbeddings];
+	writeFileSync(OUTPUT_FILE, JSON.stringify(final));
+	const sizeMB = (Buffer.byteLength(JSON.stringify(final)) / 1024 / 1024).toFixed(2);
+	console.log(`Saved ${final.length} embeddings to ${OUTPUT_FILE} (${sizeMB} MB) — ${newEmbeddings.length} new/updated, ${kept.length} cached`);
 }
 
 main().catch(console.error);
