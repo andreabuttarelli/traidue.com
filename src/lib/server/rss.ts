@@ -1,6 +1,6 @@
 import { supabase } from './supabase';
 
-interface RSSItem {
+export interface RSSItem {
 	title: string;
 	link: string;
 	pubDate: string;
@@ -16,16 +16,24 @@ export async function fetchAllFeeds(): Promise<RSSItem[]> {
 
 	if (!sources?.length) return [];
 
-	const allItems: RSSItem[] = [];
-
-	for (const source of sources) {
-		try {
-			const res = await fetch(source.feed_url);
+	const results = await Promise.allSettled(
+		sources.map(async (source) => {
+			const res = await fetch(source.feed_url, { signal: AbortSignal.timeout(10_000) });
+			if (!res.ok) {
+				throw new Error(`HTTP ${res.status} for ${source.name}`);
+			}
 			const xml = await res.text();
-			const items = parseRSS(xml, source.name);
-			allItems.push(...items);
-		} catch (e) {
-			console.error(`RSS fetch failed for ${source.name}:`, e);
+			return parseRSS(xml, source.name);
+		})
+	);
+
+	const allItems: RSSItem[] = [];
+	for (let i = 0; i < results.length; i++) {
+		const result = results[i];
+		if (result.status === 'fulfilled') {
+			allItems.push(...result.value);
+		} else {
+			console.error(`RSS fetch failed for ${sources[i].name}:`, result.reason);
 		}
 	}
 
@@ -81,10 +89,15 @@ export async function deduplicateItems(items: RSSItem[]): Promise<RSSItem[]> {
 	if (!items.length) return [];
 
 	const urls = items.map((i) => i.link);
-	const { data: existing } = await supabase
+	const { data: existing, error } = await supabase
 		.from('news_articles')
 		.select('source_url')
 		.in('source_url', urls);
+
+	if (error) {
+		console.error('Deduplication query failed:', error.message);
+		return [];
+	}
 
 	const existingUrls = new Set(existing?.map((e) => e.source_url) ?? []);
 	return items.filter((i) => !existingUrls.has(i.link));
