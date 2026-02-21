@@ -158,6 +158,31 @@ article .prose strong {
 	font-weight: 600;
 }
 
+article .prose table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 2rem 0;
+	font-size: 0.9rem;
+}
+
+article .prose th,
+article .prose td {
+	border: 1px solid var(--color-border);
+	padding: 0.6rem 0.85rem;
+	text-align: left;
+	color: var(--color-muted-text);
+}
+
+article .prose th {
+	font-weight: 600;
+	color: var(--color-primary);
+	background-color: var(--color-surface, transparent);
+}
+
+article .prose tr:hover {
+	background-color: color-mix(in srgb, var(--color-border) 30%, transparent);
+}
+
 article .prose blockquote {
 	border-left: 2px solid var(--color-border);
 	padding-left: 1rem;
