@@ -177,9 +177,7 @@ C'è anche un rischio di isolamento: il lavoro da remoto riduce le opportunità 
 
 ### I costi della transizione
 
-I costi del percorso di affermazione di genere variano enormemente, ma possono essere significativi. In Italia, la terapia ormonale è coperta dal SSN dal 2020 e gli interventi chirurgici sono in teoria eseguibili in regime pubblico, ma le liste d'attesa per la chirurgia possono raggiungere i 5-7 anni. Molte persone scelgono il percorso privato per accorciare i tempi, con costi che possono variare da migliaia a decine di migliaia di euro per interventi come la vaginoplastica, la falloplastica, la mastectomia, la femminilizzazione facciale o l'epilazione laser.
-
-A questi si aggiungono costi meno visibili ma altrettanto reali: psicoterapia, voice training, abbigliamento, prodotti per la cura personale, spese legali per la [rettificazione anagrafica](/wiki/cambio-documenti-trans).
+I costi del percorso di affermazione di genere possono essere significativi. In Italia, la terapia ormonale è coperta dal SSN dal 2020 e gli interventi chirurgici sono in teoria eseguibili in regime pubblico, ma le liste d'attesa raggiungono i 5-7 anni. Chi sceglie il percorso privato affronta costi da migliaia a decine di migliaia di euro. A questi si aggiungono psicoterapia, voice training, abbigliamento, spese legali per la [rettificazione anagrafica](/wiki/cambio-documenti-trans).
 
 ### Il crowdfunding come strumento
 
@@ -217,9 +215,7 @@ I podcast e i blog gestiti da persone trans offrono spazi di approfondimento su 
 
 ### Il rischio della visibilità
 
-La visibilità è anche esposizione. I content creator trans sono bersagli frequenti di molestie, minacce e campagne d'odio. La monetizzazione dei contenuti è spesso penalizzata dagli algoritmi delle piattaforme, che classificano i contenuti trans come "sensibili" o "controversi", riducendone la distribuzione e i ricavi pubblicitari. Il GLAAD Social Media Safety Index del 2024 ha documentato che nessuna delle principali piattaforme social raggiunge un livello di sicurezza accettabile per gli utenti LGBTQ+.
-
-La scelta di essere visibili online come persona trans è una decisione personale che comporta rischi reali. Non è un obbligo morale e non dovrebbe essere presentata come tale. Ma per chi la fa, la tecnologia offre strumenti di diffusione che amplificano la portata della propria voce ben oltre i confini geografici e sociali della propria comunità locale.
+La visibilità è anche esposizione. I content creator trans sono bersagli frequenti di molestie e campagne d'odio. La monetizzazione dei contenuti è penalizzata dagli algoritmi che classificano i contenuti trans come "sensibili", riducendone distribuzione e ricavi. Il GLAAD Social Media Safety Index del 2024 ha documentato che nessuna delle principali piattaforme raggiunge un livello di sicurezza accettabile per gli utenti LGBTQ+. La scelta di essere visibili online come persona trans comporta rischi reali -- ma per chi la fa, la tecnologia amplifica la portata della propria voce ben oltre i confini della propria comunità locale.
 
 ## Progetti open source e community tech
 
