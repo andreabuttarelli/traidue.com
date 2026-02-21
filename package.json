@@ -29,6 +29,7 @@
 		"@resvg/resvg-js": "^2.6.2",
 		"@supabase/supabase-js": "^2.97.0",
 		"firebase": "^12.9.0",
+		"marked": "^17.0.3",
 		"resend": "^6.9.2",
 		"satori": "^0.19.2"
 	}
