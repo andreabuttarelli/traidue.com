@@ -6,7 +6,9 @@ import { fetchAllFeeds, deduplicateItems } from '$lib/server/rss';
 import { processNewsItems } from '$lib/server/news-generator';
 import { sendNewsDigest } from '$lib/server/news-email';
 
-export const GET: RequestHandler = async ({ request, url }) => {
+const BASE_URL = 'https://www.traidue.com';
+
+export const GET: RequestHandler = async ({ request }) => {
 	const auth = request.headers.get('authorization');
 	if (auth !== `Bearer ${CRON_SECRET}`) {
 		return json({ error: 'Unauthorized' }, { status: 401 });
@@ -25,42 +27,57 @@ export const GET: RequestHandler = async ({ request, url }) => {
 		const articles = await processNewsItems(newItems);
 		if (!articles.length) return json({ ok: true, message: 'No relevant news' });
 
-		// 4. Salva bozze in DB
+		// 4. Salva bozze in DB con slug collision handling
 		const drafts = [];
 		for (const article of articles) {
-			const { data, error } = await supabase
-				.from('news_articles')
-				.insert({
-					title: article.title,
-					slug: article.slug,
-					summary: article.summary,
-					content: article.content,
-					source_url: article.sourceUrl,
-					source_title: article.sourceTitle,
-					source_date: article.sourceDate || null,
-					tags: article.tags
-				})
-				.select('id, title, summary, source_url, approval_token')
-				.single();
+			let slug = article.slug;
+			let attempt = 0;
 
-			if (error) {
-				console.error(`Failed to insert article "${article.title}":`, error.message);
-				continue;
+			while (attempt < 3) {
+				const insertSlug = attempt === 0 ? slug : `${slug}-${attempt}`;
+				const { data, error } = await supabase
+					.from('news_articles')
+					.insert({
+						title: article.title,
+						slug: insertSlug,
+						summary: article.summary,
+						content: article.content,
+						source_url: article.sourceUrl,
+						source_title: article.sourceTitle,
+						source_date: article.sourceDate || null,
+						tags: article.tags
+					})
+					.select('id, title, summary, source_url, approval_token')
+					.single();
+
+				if (!error && data) {
+					drafts.push({
+						id: data.id,
+						title: data.title,
+						summary: data.summary,
+						sourceUrl: data.source_url,
+						approvalToken: data.approval_token
+					});
+					break;
+				}
+
+				if (error?.code === '23505' && error.message.includes('slug')) {
+					attempt++;
+					continue;
+				}
+
+				console.error(`Failed to insert article "${article.title}":`, error?.message);
+				break;
 			}
-
-			drafts.push({
-				id: data.id,
-				title: data.title,
-				summary: data.summary,
-				sourceUrl: data.source_url,
-				approvalToken: data.approval_token
-			});
 		}
 
-		// 5. Email digest
+		// 5. Email digest (failure doesn't lose saved drafts)
 		if (drafts.length) {
-			const baseUrl = url.origin;
-			await sendNewsDigest(drafts, baseUrl);
+			try {
+				await sendNewsDigest(drafts, BASE_URL);
+			} catch (e) {
+				console.error('Failed to send news digest email:', e);
+			}
 		}
 
 		return json({ ok: true, drafted: drafts.length });

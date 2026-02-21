@@ -11,6 +11,23 @@ interface NewsDraft {
 	approvalToken: string;
 }
 
+function escapeHtml(str: string): string {
+	return str
+		.replace(/&/g, '&amp;')
+		.replace(/</g, '&lt;')
+		.replace(/>/g, '&gt;')
+		.replace(/"/g, '&quot;')
+		.replace(/'/g, '&#39;');
+}
+
+function sanitizeUrl(url: string): string {
+	try {
+		const parsed = new URL(url);
+		if (parsed.protocol === 'https:' || parsed.protocol === 'http:') return url;
+	} catch {}
+	return '#';
+}
+
 export async function sendNewsDigest(drafts: NewsDraft[], baseUrl: string): Promise<void> {
 	if (!drafts.length) return;
 
@@ -18,10 +35,10 @@ export async function sendNewsDigest(drafts: NewsDraft[], baseUrl: string): Prom
 		.map(
 			(d) => `
 <div style="margin-bottom: 32px; padding: 20px; border: 1px solid #e5e5e5; border-radius: 8px;">
-  <h2 style="margin: 0 0 8px; font-size: 18px;">${d.title}</h2>
-  <p style="margin: 0 0 12px; color: #555;">${d.summary}</p>
+  <h2 style="margin: 0 0 8px; font-size: 18px;">${escapeHtml(d.title)}</h2>
+  <p style="margin: 0 0 12px; color: #555;">${escapeHtml(d.summary)}</p>
   <p style="margin: 0 0 16px; font-size: 13px;">
-    <a href="${d.sourceUrl}" style="color: #777;">Fonte originale</a>
+    <a href="${sanitizeUrl(d.sourceUrl)}" style="color: #777;">Fonte originale</a>
   </p>
   <div>
     <a href="${baseUrl}/api/news/approve/${d.approvalToken}"

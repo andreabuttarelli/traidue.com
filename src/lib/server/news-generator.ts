@@ -46,20 +46,38 @@ FORMATO RISPOSTA (JSON):
 
 TAG VALIDI: transgender, lgbtq, diritti-civili, aborto, eutanasia, fine-vita, identita-di-genere, discriminazione, politica, internazionale, italia, sport, salute, cultura
 
-Se una notizia NON è rilevante, includi { "relevant": false, "original_index": N }
+Se una notizia NON è rilevante, includi { "relevant": false, "original_index": N }`;
 
-Rispondi SOLO con JSON valido, nessun testo prima o dopo.`;
+const BATCH_SIZE = 15;
 
 export async function processNewsItems(items: RSSItem[]): Promise<GeneratedArticle[]> {
 	if (!items.length) return [];
 
+	const generated: GeneratedArticle[] = [];
+
+	for (let i = 0; i < items.length; i += BATCH_SIZE) {
+		const batch = items.slice(i, i + BATCH_SIZE);
+		const batchResults = await processBatch(batch, i);
+		generated.push(...batchResults);
+	}
+
+	return generated;
+}
+
+async function processBatch(items: RSSItem[], indexOffset: number): Promise<GeneratedArticle[]> {
 	const itemsList = items
-		.map((item, i) => `[${i}] "${item.title}" — ${item.sourceName}\n${item.description}`)
+		.map(
+			(item, i) =>
+				`[${i}] "${item.title.slice(0, 200)}" — ${item.sourceName}\n${item.description.slice(0, 500)}`
+		)
 		.join('\n\n');
 
 	const result = await model.generateContent({
 		contents: [{ role: 'user', parts: [{ text: `Notizie da analizzare:\n\n${itemsList}` }] }],
-		systemInstruction: { role: 'user', parts: [{ text: SYSTEM_PROMPT }] }
+		systemInstruction: { role: 'user', parts: [{ text: SYSTEM_PROMPT }] },
+		generationConfig: {
+			responseMimeType: 'application/json'
+		}
 	});
 
 	const text = result.response.text();
@@ -77,8 +95,7 @@ export async function processNewsItems(items: RSSItem[]): Promise<GeneratedArtic
 	};
 
 	try {
-		const jsonStr = text.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
-		parsed = JSON.parse(jsonStr);
+		parsed = JSON.parse(text);
 	} catch {
 		console.error('Failed to parse Gemini response:', text.slice(0, 500));
 		return [];
