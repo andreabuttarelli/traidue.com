@@ -171,7 +171,7 @@ Il settore tecnologico, con la sua maggiore adozione del lavoro remoto e flessib
 
 Il lavoro da remoto non risolve la discriminazione: la sposta. Un colloquio in videochiamata non elimina i pregiudizi del selezionatore. Il misgendering avviene anche via email. E molti lavori -- dalla ristorazione alla sanità, dall'edilizia all'insegnamento -- non possono essere svolti da remoto. Le persone trans che lavorano in questi settori non beneficiano dell'effetto equalizzatore del lavoro a distanza.
 
-C'è anche un rischio di isolamento: il lavoro da remoto può ridurre le opportunità di socializzazione e di networking che, per le persone trans, possono essere importanti per costruire alleanze sul posto di lavoro e promuovere il cambiamento culturale dall'interno.
+C'è anche un rischio di isolamento: il lavoro da remoto riduce le opportunità di socializzazione e networking utili per costruire alleanze sul posto di lavoro.
 
 ## Crowdfunding: quando la community finanzia la transizione
 
@@ -187,9 +187,7 @@ Piattaforme come GoFundMe, Ko-fi e PayPal hanno reso possibile una forma di soli
 
 Uno studio pubblicato sull'American Journal of Public Health nel 2019 ha analizzato il fenomeno del crowdfunding per la salute LGBTQ+, documentando come queste campagne servano non solo a raccogliere fondi, ma anche a creare consapevolezza e a costruire reti di supporto. Le campagne di crowdfunding per le cure affermative di genere rappresentano una quota crescente del crowdfunding sanitario complessivo.
 
-Il crowdfunding non è una soluzione sistemica. Non può sostituire un sistema sanitario che funziona. E presenta disuguaglianze intrinseche: le campagne più visibili sono spesso quelle di persone che hanno già un seguito sui social media, che sanno comunicare efficacemente, che rientrano in canoni narrativi specifici. Le persone trans più marginalizzate -- quelle con meno risorse digitali, meno connessioni, meno visibilità -- sono anche quelle che raccolgono meno fondi.
-
-Ma per le persone che ne beneficiano, il crowdfunding può fare la differenza tra aspettare anni e agire ora. E il gesto stesso di contribuire -- anche con piccole somme -- rafforza il senso di comunità e solidarietà.
+Il crowdfunding non è una soluzione sistemica e presenta disuguaglianze intrinseche: le campagne più visibili sono spesso quelle di persone con un seguito sui social media e capacità comunicative. Le persone trans più marginalizzate sono anche quelle che raccolgono meno fondi. Ma per chi ne beneficia, può fare la differenza tra aspettare anni e agire ora.
 
 ## Documentazione digitale e processi burocratici
 
@@ -215,11 +213,7 @@ La visibilità delle persone trans nei media digitali ha un impatto misurabile. 
 
 I media digitali hanno democratizzato questa visibilità. Non servono più un contratto editoriale o un invito in televisione per raccontare la propria storia. Bastano uno smartphone e una connessione internet. Questo ha prodotto un ecosistema di content creator trans che offrono una varietà di narrazioni -- non più la singola storia di transizione "da A a B", ma esperienze diverse per genere, età, etnia, classe sociale, disabilità, orientamento sessuale.
 
-### Podcasting e blogging
-
-I podcast gestiti da persone trans offrono spazi di approfondimento che i social media, con i loro formati brevi, non sempre permettono. Discussioni su terapia ormonale, chirurgia, diritti legali, relazioni, sessualità, [genitorialità](/wiki/genitorialita-trans), spiritualità -- temi che richiedono tempo e sfumature.
-
-I blog e i siti web personali restano uno strumento importante per chi vuole documentare il proprio percorso in modo strutturato e duraturo, senza dipendere dagli algoritmi delle piattaforme social. Alcuni blog di persone trans sono diventati risorse di riferimento per chi cerca informazioni pratiche sulla transizione in Italia -- integrando, e a volte supplendo, la carenza di risorse istituzionali.
+I podcast e i blog gestiti da persone trans offrono spazi di approfondimento su terapia ormonale, chirurgia, diritti legali, relazioni, sessualità, [genitorialità](/wiki/genitorialita-trans) -- temi che richiedono tempo e sfumature che i social media, con i loro formati brevi, non sempre permettono. Alcuni blog sono diventati risorse di riferimento per chi cerca informazioni pratiche sulla transizione in Italia, integrando la carenza di risorse istituzionali.
 
 ### Il rischio della visibilità
 
@@ -235,13 +229,9 @@ Il movimento open source e la community tecnologica hanno prodotto strumenti spe
 
 Progetti come **Pronoun.is** e **PronounDB** offrono strumenti per condividere e visualizzare i pronomi preferiti in contesti digitali -- dalle firme email alle biografie social, dai profili di gaming alle piattaforme di collaborazione. Sono strumenti semplici ma efficaci nel normalizzare la richiesta e il rispetto dei pronomi.
 
-Numerosi hackathon e iniziative tech specificamente orientati alla comunità LGBTQ+ producono prototipi e strumenti che affrontano bisogni concreti: dalla ricerca di professionisti sanitari trans-friendly, alla mappatura di bagni gender-neutral, alla creazione di reti di supporto geolocalizzate.
-
 ### Persone trans nel settore tech
 
-Le persone trans hanno contribuito in modo significativo allo sviluppo tecnologico, spesso in modo invisibile. La storia di [Lynn Conway](/wiki/lynn-conway) -- pioniera dell'architettura dei microprocessori che fu licenziata da IBM nel 1968 dopo aver fatto coming out come donna trans, e la cui identità trans rimase nascosta per decenni -- illustra sia il contributo sia il costo della discriminazione nel settore tech.
-
-Oggi, community come **Trans*H4CK** e le reti di supporto per persone trans nel settore tecnologico offrono spazi di networking, mentorship e advocacy. La presenza di persone trans nei team di sviluppo non è solo una questione di equità: come documentato nella letteratura sull'AI inclusiva, i team diversificati producono tecnologie migliori per tutti -- tecnologie che non presuppongono il binarismo di genere, che rispettano l'autodeterminazione, che non cancellano le identità non conformi.
+Le persone trans hanno contribuito in modo significativo allo sviluppo tecnologico, spesso in modo invisibile. La storia di [Lynn Conway](/wiki/lynn-conway) -- pioniera dell'architettura dei microprocessori licenziata da IBM nel 1968 dopo il coming out -- illustra sia il contributo sia il costo della discriminazione nel settore tech. Oggi, community come **Trans*H4CK** offrono spazi di networking e mentorship. La presenza di persone trans nei team di sviluppo non è solo una questione di equità: i team diversificati producono tecnologie migliori per tutti -- tecnologie che non presuppongono il binarismo di genere e che rispettano l'autodeterminazione.
 
 ## I rischi: doxxing, sorveglianza, censura
 
@@ -253,13 +243,9 @@ Il **doxxing** è forse il rischio più specifico. Per le persone trans, il doxx
 
 La **censura algoritmica** è un problema documentato. Come approfondito nell'articolo su [AI e persone trans](/wiki/ai-e-persone-trans), i contenuti delle persone trans vengono rimossi in modo sproporzionato dalle piattaforme social. Questo non solo limita la visibilità, ma erode la fiducia delle persone trans negli spazi digitali e riduce l'accesso a informazioni e risorse per chi le cerca.
 
-La **sorveglianza statale** rappresenta un rischio crescente in alcuni contesti. Negli Stati Uniti, diversi stati hanno introdotto legislazioni che limitano l'accesso alle cure affermative di genere per i minori e, in alcuni casi, anche per gli adulti. In questi contesti, i dati digitali -- ricerche online, cartelle cliniche elettroniche, dati di geolocalizzazione -- possono essere utilizzati per identificare e perseguire persone trans o i professionisti sanitari che le assistono. Anche in Europa, dove il quadro normativo è più protettivo, la raccolta massiva di dati da parte delle piattaforme tech solleva interrogativi sulla sicurezza delle informazioni legate all'identità di genere.
+La **sorveglianza statale** rappresenta un rischio crescente in alcuni contesti. Negli Stati Uniti, diversi stati hanno introdotto legislazioni restrittive sull'accesso alle cure affermative di genere, e i dati digitali -- ricerche online, cartelle cliniche elettroniche, dati di geolocalizzazione -- possono essere utilizzati per identificare persone trans o i professionisti che le assistono. Anche in Europa, la raccolta massiva di dati da parte delle piattaforme tech solleva interrogativi sulla sicurezza delle informazioni legate all'identità di genere.
 
-### Il paradosso della visibilità
-
-Esiste un paradosso fondamentale: la stessa visibilità che permette alle persone trans di trovare community, rappresentazione e risorse le rende anche più identificabili e vulnerabili. Ogni post, ogni foto, ogni video contribuisce a una traccia digitale che può essere utilizzata sia per connettersi sia per nuocere.
-
-Non esiste una soluzione semplice a questo paradosso. Ma esistono pratiche concrete -- dalla compartimentazione delle identità digitali alla crittografia delle comunicazioni, dalla consapevolezza dei metadati alla scelta informata delle piattaforme -- che permettono di gestire il rischio senza rinunciare completamente ai benefici della connessione digitale.
+Esiste un paradosso fondamentale: la stessa visibilità che permette alle persone trans di trovare community e risorse le rende anche più identificabili e vulnerabili. Non esiste una soluzione semplice, ma esistono pratiche concrete -- dalla compartimentazione delle identità digitali alla crittografia delle comunicazioni -- che permettono di gestire il rischio senza rinunciare ai benefici della connessione digitale.
 
 ## Il ruolo della tecnologia nell'accesso alle informazioni
 
@@ -271,7 +257,7 @@ Questo cambiamento non è banale. Per molte persone trans, la fase più difficil
 
 Il portale **Infotrans.it**, realizzato dall'ISS in collaborazione con l'UNAR, è un esempio di come la tecnologia possa essere utilizzata istituzionalmente per fornire informazioni validate a persone trans, familiari e professionisti. La mappa dei servizi, le schede informative sui percorsi e le risorse per i professionisti sanitari sono disponibili gratuitamente online, accessibili da qualsiasi parte d'Italia.
 
-Le risorse informative basate su tecnologia -- dai chatbot che rispondono a domande di base, ai database di professionisti trans-friendly, alle app che aiutano a tracciare gli effetti della terapia ormonale -- non sostituiscono il rapporto con professionisti qualificati. Ma colmano un vuoto informativo che, per decenni, ha lasciato molte persone trans senza le conoscenze necessarie per prendere decisioni informate sul proprio percorso.
+Chatbot informativi, database di professionisti trans-friendly, app per tracciare gli effetti della terapia ormonale: non sostituiscono il rapporto con professionisti qualificati, ma colmano un vuoto informativo che per decenni ha lasciato molte persone trans senza le conoscenze necessarie per decidere sul proprio percorso.
 
 ## La tecnologia come strumento, non come soluzione
 
@@ -279,8 +265,6 @@ La tecnologia non risolve la transfobia. Non elimina la discriminazione, non can
 
 Ma la tecnologia riduce le distanze -- geografiche, informative, sociali -- che separano le persone trans dalle risorse di cui hanno bisogno. Per chi vive in un contesto isolato, la connessione digitale può essere letteralmente la differenza tra sapere che una possibilità esiste e non saperlo affatto. Una scoping review del 2024 sugli interventi peer-based ha confermato che il supporto tra pari mediato dalla tecnologia contribuisce al benessere delle persone trans sia direttamente sia come protezione contro gli effetti dello stigma.
 
-I rischi sono reali: il doxxing, la sorveglianza, la censura algoritmica, le molestie online. Ma anche la rinuncia alla tecnologia ha un costo: l'isolamento, la mancanza di informazioni, l'impossibilità di accedere a cure e supporto. La scelta non è tra sicurezza e rischio, ma tra diversi tipi di rischio -- e la tecnologia, usata con consapevolezza, inclina la bilancia verso la connessione piuttosto che verso l'isolamento.
+I rischi sono reali: il doxxing, la sorveglianza, la censura algoritmica, le molestie online. Ma anche la rinuncia alla tecnologia ha un costo: l'isolamento, la mancanza di informazioni, l'impossibilità di accedere a cure e supporto. La scelta non è tra sicurezza e rischio, ma tra diversi tipi di rischio.
 
-Quello che serve, in ultima analisi, non è meno tecnologia: è tecnologia migliore. Piattaforme che non censurano i contenuti trans. Sistemi sanitari digitali che non costringono a scegliere tra M e F. Algoritmi che non amplificano l'odio. Strumenti di privacy accessibili a tutti, non solo a chi ha competenze tecniche avanzate. E soprattutto, persone trans coinvolte nella progettazione, nello sviluppo e nella governance delle tecnologie che le riguardano.
-
-La porta è aperta. Il punto è assicurarsi che porti davvero dove serve andare.
+Quello che serve non è meno tecnologia: è tecnologia migliore. Piattaforme che non censurano i contenuti trans. Sistemi sanitari digitali che non costringono a scegliere tra M e F. Algoritmi che non amplificano l'odio. Strumenti di privacy accessibili a tutti. E soprattutto, persone trans coinvolte nella progettazione, nello sviluppo e nella governance delle tecnologie che le riguardano.
