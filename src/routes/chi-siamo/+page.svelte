@@ -82,6 +82,10 @@
 					Questo approccio ci consente di offrire contenuti affidabili e di contribuire a una
 					discussione pubblica informata e basata sui fatti.
 				</p>
+				<p>
+					Per saperne di più sul nostro utilizzo dell'intelligenza artificiale, leggi
+					<a href="/perche-ai" class="text-primary underline hover:no-underline">perché usiamo l'AI</a>.
+				</p>
 			</div>
 		</section>
 
