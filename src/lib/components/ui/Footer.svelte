@@ -7,9 +7,18 @@
 		<div class="grid grid-cols-1 sm:grid-cols-[1fr_auto_auto] gap-8 sm:gap-12">
 			<div class="max-w-sm">
 				<p class="text-lg text-primary mb-2"><Logo /></p>
-				<p class="text-sm text-muted leading-relaxed">
+				<p class="text-sm text-muted leading-relaxed mb-8">
 					Scienza, storie e cultura trans.
 				</p>
+				<p class="text-xs text-muted mb-2">Sponsor</p>
+				<div class="flex items-center gap-5">
+					<a href="https://dalnulla.com" target="_blank" rel="noopener noreferrer" aria-label="dalnulla.com">
+						<img src="/images/logos/dalnulla-com-extended.svg" alt="dalnulla.com" class="h-7 invert dark:invert-0 opacity-60 hover:opacity-90 transition-opacity" />
+					</a>
+					<a href="https://teta.so" target="_blank" rel="noopener noreferrer" aria-label="teta.so">
+						<img src="/images/logos/teta-so.svg" alt="teta.so" class="h-6 invert dark:invert-0 opacity-60 hover:opacity-90 transition-opacity" />
+					</a>
+				</div>
 			</div>
 
 			<div>

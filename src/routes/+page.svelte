@@ -121,6 +121,7 @@
 				bind:value={heroSearch}
 				articles={data.allArticles}
 				quizzes={data.allQuizzes}
+				variant="filled"
 				placeholder="Cos'è la disforia? Chi è Laverne Cox?"
 				onsubmit={handleSearch}
 			/>

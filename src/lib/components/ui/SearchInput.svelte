@@ -8,6 +8,7 @@
 		quizzes = [],
 		placeholder = 'Cerca...',
 		size = 'base',
+		variant = 'default',
 		onsubmit
 	}: {
 		value?: string;
@@ -15,6 +16,7 @@
 		quizzes?: { slug: string; title: string; description: string; category: string }[];
 		placeholder?: string;
 		size?: 'sm' | 'base';
+		variant?: 'default' | 'filled';
 		onsubmit?: () => void;
 	} = $props();
 
@@ -147,7 +149,7 @@
 				onfocus={handleFocus}
 				onblur={handleBlur}
 				onkeydown={handleKeydown}
-				class="w-full {sizeClasses} rounded-full border border-border bg-transparent dark:bg-white/5 text-text shadow-sm focus:outline-none focus:border-primary"
+				class="w-full {sizeClasses} rounded-full border border-border {variant === 'filled' ? 'bg-black/5 dark:bg-white/5' : 'bg-transparent dark:bg-white/5'} text-text shadow-sm focus:outline-none focus:border-primary"
 			/>
 			{#if value.trim()}
 				<button

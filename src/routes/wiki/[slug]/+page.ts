@@ -1,5 +1,11 @@
-import { getArticleBySlug } from '$lib/utils/wiki';
+import { getAllArticles, getArticleBySlug } from '$lib/utils/wiki';
 import { error } from '@sveltejs/kit';
+
+export function entries() {
+	return getAllArticles().map((a) => ({ slug: a.slug }));
+}
+
+export const prerender = true;
 
 export function load({ params }) {
 	const article = getArticleBySlug(params.slug);

@@ -1,8 +1,6 @@
 import { getAllArticles } from '$lib/utils/wiki';
 import { getAllQuizzes } from '$lib/utils/quiz';
 import { supabase } from '$lib/server/supabase';
-import comuni from '$lib/data/comuni.json';
-import regioni from '$lib/data/regioni.json';
 
 export const prerender = false;
 
@@ -37,18 +35,6 @@ export async function GET() {
 		changefreq: 'monthly' as const
 	}));
 
-	const comuniUrls = comuni.map((c) => ({
-		url: `/citta/${c.slug}`,
-		priority: '0.3',
-		changefreq: 'monthly' as const
-	}));
-
-	const regioniUrls = regioni.map((r) => ({
-		url: `/regione/${r.slug}`,
-		priority: '0.4',
-		changefreq: 'monthly' as const
-	}));
-
 	// News articles from Supabase
 	const { data: newsArticles } = await supabase
 		.from('news_articles')
@@ -67,9 +53,7 @@ export async function GET() {
 		...pages,
 		...articleUrls,
 		...quizUrls,
-		...newsUrls,
-		...regioniUrls,
-		...comuniUrls
+		...newsUrls
 	];
 
 	const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
