@@ -2,6 +2,7 @@ import { error } from '@sveltejs/kit';
 import { getAllArticles } from '$lib/utils/wiki';
 import { getAllQuizzes } from '$lib/utils/quiz';
 import regioni from '$lib/data/regioni.json';
+import { regioniDettaglio } from '$lib/data/regioni-dettaglio';
 
 export const prerender = true;
 
@@ -16,12 +17,26 @@ export function load({ params }) {
 		error(404, 'Regione non trovata');
 	}
 
+	const dettaglio = regioniDettaglio.get(params.slug);
 	const articles = getAllArticles();
 	const quizzes = getAllQuizzes();
 
+	const regionArticles = dettaglio
+		? dettaglio.articoli_correlati
+				.map((slug) => articles.find((a) => a.slug === slug))
+				.filter((a): a is NonNullable<typeof a> => !!a)
+		: articles.slice(0, 6);
+
+	const altreRegioni = regioni.filter(
+		(r) => r.slug !== params.slug && regioniDettaglio.has(r.slug)
+	);
+
 	return {
 		regione,
-		articles: articles.slice(0, 6),
-		featuredQuiz: quizzes[0] ?? null
+		dettaglio: dettaglio ?? null,
+		articles: regionArticles,
+		altreRegioni,
+		featuredQuiz: quizzes[0] ?? null,
+		isRich: !!dettaglio
 	};
 }

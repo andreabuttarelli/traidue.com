@@ -27,6 +27,7 @@
 					<a href="/wiki" class="text-sm text-muted hover:text-primary transition-colors">Wiki</a>
 					<a href="/quiz" class="text-sm text-muted hover:text-primary transition-colors">Quiz</a>
 					<a href="/glossario" class="text-sm text-muted hover:text-primary transition-colors">Glossario</a>
+					<a href="/regioni" class="text-sm text-muted hover:text-primary transition-colors">Regioni</a>
 					<a href="/chi-siamo" class="text-sm text-muted hover:text-primary transition-colors">Chi Siamo</a>
 					<a href="/perche-ai" class="text-sm text-muted hover:text-primary transition-colors">Perché l'AI</a>
 					<a href="https://github.com/andreabuttarelli/traidue.com" target="_blank" rel="noopener noreferrer" class="text-sm text-muted hover:text-primary transition-colors">GitHub</a>

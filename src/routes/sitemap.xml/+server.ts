@@ -1,6 +1,8 @@
 import { getAllArticles } from '$lib/utils/wiki';
 import { getAllQuizzes } from '$lib/utils/quiz';
 import { supabase } from '$lib/server/supabase';
+import regioni from '$lib/data/regioni.json';
+import { regioniDettaglio } from '$lib/data/regioni-dettaglio';
 
 export const prerender = false;
 
@@ -15,6 +17,7 @@ export async function GET() {
 		{ url: '/giovani', priority: '0.8', changefreq: 'monthly' },
 		{ url: '/quiz', priority: '0.8', changefreq: 'monthly' },
 		{ url: '/glossario', priority: '0.7', changefreq: 'monthly' },
+		{ url: '/regioni', priority: '0.7', changefreq: 'monthly' },
 		{ url: '/chi-siamo', priority: '0.5', changefreq: 'monthly' },
 		{ url: '/perche-ai', priority: '0.5', changefreq: 'monthly' },
 		{ url: '/cookie', priority: '0.3', changefreq: 'yearly' },
@@ -49,11 +52,21 @@ export async function GET() {
 		lastmod: n.published_at?.split('T')[0]
 	}));
 
+	const regionUrls = regioni
+		.filter((r) => regioniDettaglio.has(r.slug))
+		.map((r) => ({
+			url: `/regione/${r.slug}`,
+			priority: '0.7',
+			changefreq: 'monthly' as const,
+			lastmod: regioniDettaglio.get(r.slug)!.ultimoAggiornamento
+		}));
+
 	const allUrls = [
 		...pages,
 		...articleUrls,
 		...quizUrls,
-		...newsUrls
+		...newsUrls,
+		...regionUrls
 	];
 
 	const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
