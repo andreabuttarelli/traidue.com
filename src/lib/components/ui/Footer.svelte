@@ -7,10 +7,13 @@
 		<div class="grid grid-cols-1 sm:grid-cols-[1fr_auto_auto] gap-8 sm:gap-12">
 			<div class="max-w-sm">
 				<p class="text-lg text-primary mb-2"><Logo /></p>
-				<p class="text-sm text-muted leading-relaxed mb-8">
+				<p class="text-sm text-muted leading-relaxed mb-4">
 					Scienza, storie e cultura trans.
 				</p>
-				<p class="text-xs text-muted mb-2">Sponsor</p>
+				<a href="https://instagram.com/tra.i.due" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="inline-block text-muted hover:text-primary transition-colors mb-8">
+					<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+				</a>
+				<!-- <p class="text-xs text-muted mb-2">Sponsor</p>
 				<div class="flex items-center gap-5">
 					<a href="https://dalnulla.com" target="_blank" rel="noopener noreferrer" aria-label="dalnulla.com">
 						<img src="/images/logos/dalnulla-com-extended.svg" alt="dalnulla.com" class="h-7 invert dark:invert-0 opacity-60 hover:opacity-90 transition-opacity" />
@@ -18,7 +21,7 @@
 					<a href="https://teta.so" target="_blank" rel="noopener noreferrer" aria-label="teta.so">
 						<img src="/images/logos/teta-so.svg" alt="teta.so" class="h-6 invert dark:invert-0 opacity-60 hover:opacity-90 transition-opacity" />
 					</a>
-				</div>
+				</div> -->
 			</div>
 
 			<div>

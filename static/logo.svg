@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 24" width="400" height="48">
+	<rect x="0" y="1.5" width="11.2" height="14.4" rx="1.6" fill="#5BCEFA"/>
+	<text x="16" y="15.5" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" letter-spacing="-0.02em" fill="#111111">Tra i Due</text>
+	<rect x="114.8" y="1.5" width="11.2" height="14.4" rx="1.6" fill="#F5A9B8"/>
+</svg>
