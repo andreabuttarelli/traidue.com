@@ -160,7 +160,7 @@ const dati: RegioneDettaglio[] = [
 			}
 		],
 		iter_sanitario: {
-			intro: 'In Lombardia il percorso di affermazione di genere passa attraverso le ATS (Agenzie di Tutela della Salute), che hanno sostituito le ASL. Il sistema e ben strutturato, con centri di riferimento riconosciuti a livello nazionale.',
+			intro: 'In Lombardia il percorso di affermazione di genere passa attraverso le ATS (Agenzie di Tutela della Salute), che hanno sostituito le ASL. Il sistema è ben strutturato, con centri di riferimento riconosciuti a livello nazionale.',
 			passi: [
 				{
 					ordine: 1,
@@ -199,8 +199,8 @@ const dati: RegioneDettaglio[] = [
 				}
 			],
 			note_importanti: [
-				'In Lombardia le ATS hanno sostituito le ASL: il funzionamento e simile ma la denominazione e diversa.',
-				'Il CIG del Niguarda e il centro di riferimento regionale: accetta pazienti da tutta la Lombardia.',
+				'In Lombardia le ATS hanno sostituito le ASL: il funzionamento è simile ma la denominazione è diversa.',
+				'Il CIG del Niguarda è il centro di riferimento regionale: accetta pazienti da tutta la Lombardia.',
 				'La terapia ormonale è gratuita con il SSN tramite esenzione specifica.',
 				'Per la rettificazione anagrafica non è obbligatorio l\'intervento chirurgico dal 2015.'
 			]
@@ -238,15 +238,15 @@ const dati: RegioneDettaglio[] = [
 		faq: [
 			{
 				domanda: 'Come si accede al percorso di transizione in Lombardia?',
-				risposta: 'Il primo passo e chiedere al medico di base un\'impegnativa per il CIG dell\'Ospedale Niguarda o il Policlinico Ca\' Granda di Milano. Da li si avvia un percorso multidisciplinare (psicologico, endocrinologico, eventualmente chirurgico) coperto dal SSN.'
+				risposta: 'Il primo passo è chiedere al medico di base un\'impegnativa per il CIG dell\'Ospedale Niguarda o il Policlinico Ca\' Granda di Milano. Da lì si avvia un percorso multidisciplinare (psicologico, endocrinologico, eventualmente chirurgico) coperto dal SSN.'
 			},
 			{
-				domanda: 'Qual e la differenza tra ATS e ASL in Lombardia?',
+				domanda: 'Qual è la differenza tra ATS e ASL in Lombardia?',
 				risposta: 'Le ATS (Agenzie di Tutela della Salute) hanno sostituito le ASL in Lombardia dal 2016. Svolgono le stesse funzioni ma con una struttura organizzativa diversa. Per il percorso di transizione, ci si rivolge ai centri ospedalieri specializzati piuttosto che direttamente all\'ATS.'
 			},
 			{
 				domanda: 'La terapia ormonale è gratuita in Lombardia?',
-				risposta: 'Si, la terapia ormonale sostitutiva per la disforia di genere è coperta dal Servizio Sanitario Nazionale. E necessaria la prescrizione di un endocrinologo del centro gender e l\'esenzione specifica.'
+				risposta: 'Sì, la terapia ormonale sostitutiva per la disforia di genere è coperta dal Servizio Sanitario Nazionale. È necessaria la prescrizione di un endocrinologo del centro gender e l\'esenzione specifica.'
 			},
 			{
 				domanda: 'Quanto tempo richiede il percorso di rettificazione anagrafica in Lombardia?',
@@ -254,7 +254,7 @@ const dati: RegioneDettaglio[] = [
 			},
 			{
 				domanda: 'Esistono gruppi di supporto per famiglie di persone trans in Lombardia?',
-				risposta: 'Si, AGEDO Lombardia organizza gruppi di sostegno per genitori e familiari. ALA Milano offre anche gruppi di auto-mutuo-aiuto aperti a famiglie e partner.'
+				risposta: 'Sì, AGEDO Lombardia organizza gruppi di sostegno per genitori e familiari. ALA Milano offre anche gruppi di auto-mutuo-aiuto aperti a famiglie e partner.'
 			},
 			{
 				domanda: 'Ci sono servizi per persone trans migranti in Lombardia?',
@@ -275,7 +275,7 @@ const dati: RegioneDettaglio[] = [
 		slug: 'lazio',
 		nome: 'Lazio',
 		capoluogo: 'Roma',
-		intro: `Il Lazio e Roma sono al centro della vita politica e culturale italiana, e questo si riflette anche nei servizi e nella storia dei diritti delle persone transgender. Roma ospita il SAIFIP, il servizio dell'Ospedale Umberto I che dal 1992 rappresenta un punto di riferimento nazionale per i percorsi di affermazione di genere. L'associazionismo romano e vivace e radicato: il Circolo di Cultura Omosessuale Mario Mieli, fondato nel 1983, e una delle realtà LGBTQ+ più grandi d'Italia e offre servizi specifici per persone trans. Il Lazio ha un significato simbolico particolare per il movimento trans italiano: e qui che nel 1982 fu approvata la legge 164 che consente la rettificazione anagrafica, e Roma è stata la città di Marcella Di Folco, prima donna trans eletta in un consiglio comunale italiano. Il Roma Pride e uno degli eventi più partecipati d'Italia.`,
+		intro: `Il Lazio e Roma sono al centro della vita politica e culturale italiana, e questo si riflette anche nei servizi e nella storia dei diritti delle persone transgender. Roma ospita il SAIFIP, il servizio dell'Ospedale Umberto I che dal 1992 rappresenta un punto di riferimento nazionale per i percorsi di affermazione di genere. L'associazionismo romano è vivace e radicato: il Circolo di Cultura Omosessuale Mario Mieli, fondato nel 1983, è una delle realtà LGBTQ+ più grandi d'Italia e offre servizi specifici per persone trans. Il Lazio ha un significato simbolico particolare per il movimento trans italiano: è qui che nel 1982 fu approvata la legge 164 che consente la rettificazione anagrafica, e Roma è stata la città di Marcella Di Folco, prima donna trans eletta in un consiglio comunale italiano. Il Roma Pride è uno degli eventi più partecipati d'Italia.`,
 		metaDescription: 'Guida completa alle risorse trans nel Lazio: SAIFIP Umberto I, associazioni a Roma, iter ASL e storia del movimento trans.',
 		centri_gender: [
 			{
@@ -353,7 +353,7 @@ const dati: RegioneDettaglio[] = [
 			}
 		],
 		iter_sanitario: {
-			intro: 'Nel Lazio il percorso di affermazione di genere fa riferimento al sistema delle ASL e ai centri ospedalieri specializzati. Il SAIFIP dell\'Umberto I e il principale punto di riferimento regionale e nazionale.',
+			intro: 'Nel Lazio il percorso di affermazione di genere fa riferimento al sistema delle ASL e ai centri ospedalieri specializzati. Il SAIFIP dell\'Umberto I è il principale punto di riferimento regionale e nazionale.',
 			passi: [
 				{
 					ordine: 1,
@@ -392,7 +392,7 @@ const dati: RegioneDettaglio[] = [
 				}
 			],
 			note_importanti: [
-				'Il SAIFIP è attivo dal 1992 ed e uno dei centri con più esperienza in Italia.',
+				'Il SAIFIP è attivo dal 1992 ed è uno dei centri con più esperienza in Italia.',
 				'L\'accesso ai servizi è gratuito tramite SSN con impegnativa del medico di base.',
 				'È possibile rivolgersi anche al San Camillo-Forlanini per la parte endocrinologica.',
 				'Le associazioni come il Mario Mieli possono aiutare nell\'orientamento ai servizi.'
@@ -440,7 +440,7 @@ const dati: RegioneDettaglio[] = [
 			},
 			{
 				domanda: 'Quanto costa il percorso di transizione nel Lazio?',
-				risposta: 'Il percorso presso il SAIFIP e i centri pubblici e coperto dal Servizio Sanitario Nazionale. Si paga solo il ticket per le visite specialistiche, con possibilità di esenzione.'
+				risposta: 'Il percorso presso il SAIFIP e i centri pubblici è coperto dal Servizio Sanitario Nazionale. Si paga solo il ticket per le visite specialistiche, con possibilità di esenzione.'
 			},
 			{
 				domanda: 'Ci sono tempi di attesa lunghi al SAIFIP?',
@@ -456,7 +456,7 @@ const dati: RegioneDettaglio[] = [
 			},
 			{
 				domanda: 'Il Roma Pride include la comunità trans?',
-				risposta: 'Si, il Roma Pride e uno degli eventi LGBTQ+ più inclusivi d\'Italia. La comunità trans ha sempre avuto un ruolo centrale nell\'organizzazione e nella partecipazione.'
+				risposta: 'Sì, il Roma Pride è uno degli eventi LGBTQ+ più inclusivi d\'Italia. La comunità trans ha sempre avuto un ruolo centrale nell\'organizzazione e nella partecipazione.'
 			}
 		],
 		articoli_correlati: [
@@ -473,7 +473,7 @@ const dati: RegioneDettaglio[] = [
 		slug: 'campania',
 		nome: 'Campania',
 		capoluogo: 'Napoli',
-		intro: `La Campania ha una relazione antica e complessa con le identità di genere non conformi, radicata nella tradizione culturale partenopea dei femminielli, figure che rappresentano una delle più antiche espressioni di varianza di genere in Europa. Oggi Napoli e il principale centro di servizi per le persone trans nella regione, con l'AOU Federico II che offre percorsi di affermazione di genere e l'ASL Napoli 1 Centro come punto di riferimento territoriale. L'associazionismo campano è attivo e combattivo, con realtà come Arcigay Napoli e l'ATN (Associazione Transessuale Napoli) che forniscono supporto concreto in un contesto sociale che presenta sfide specifiche. I tempi dei percorsi sanitari in Campania tendono a essere più lunghi rispetto al Nord Italia, ma la rete di supporto sta crescendo e le risorse si stanno consolidando.`,
+		intro: `La Campania ha una relazione antica e complessa con le identità di genere non conformi, radicata nella tradizione culturale partenopea dei femminielli, figure che rappresentano una delle più antiche espressioni di varianza di genere in Europa. Oggi Napoli è il principale centro di servizi per le persone trans nella regione, con l'AOU Federico II che offre percorsi di affermazione di genere e l'ASL Napoli 1 Centro come punto di riferimento territoriale. L'associazionismo campano è attivo e combattivo, con realtà come Arcigay Napoli e l'ATN (Associazione Transessuale Napoli) che forniscono supporto concreto in un contesto sociale che presenta sfide specifiche. I tempi dei percorsi sanitari in Campania tendono a essere più lunghi rispetto al Nord Italia, ma la rete di supporto sta crescendo e le risorse si stanno consolidando.`,
 		metaDescription: 'Guida completa alle risorse trans in Campania: centri gender a Napoli, associazioni, iter sanitario ASL e tradizione dei femminielli.',
 		centri_gender: [
 			{
@@ -553,7 +553,7 @@ const dati: RegioneDettaglio[] = [
 				{
 					ordine: 2,
 					titolo: 'Valutazione psicologica',
-					descrizione: 'Colloqui di valutazione presso il servizio di psicologia dell\'AOU Federico II. Il percorso e orientato all\'accompagnamento e alla comprensione dell\'identità di genere.',
+					descrizione: 'Colloqui di valutazione presso il servizio di psicologia dell\'AOU Federico II. Il percorso è orientato all\'accompagnamento e alla comprensione dell\'identità di genere.',
 					ente: 'AOU Federico II — Psicologia',
 					tempiStimati: '3-8 mesi'
 				},
@@ -620,11 +620,11 @@ const dati: RegioneDettaglio[] = [
 		faq: [
 			{
 				domanda: 'Come si accede ai servizi trans in Campania?',
-				risposta: 'Il primo passo e ottenere un\'impegnativa dal medico di base per l\'AOU Federico II di Napoli. Le associazioni come Arcigay Napoli e l\'ATN possono aiutare nell\'orientamento ai servizi.'
+				risposta: 'Il primo passo è ottenere un\'impegnativa dal medico di base per l\'AOU Federico II di Napoli. Le associazioni come Arcigay Napoli e l\'ATN possono aiutare nell\'orientamento ai servizi.'
 			},
 			{
 				domanda: 'I tempi di attesa in Campania sono più lunghi?',
-				risposta: 'Si, i tempi di attesa per visite specialistiche e chirurgia tendono a essere più lunghi rispetto a Lombardia e Lazio. Per la chirurgia, molte persone scelgono di rivolgersi a centri fuori regione.'
+				risposta: 'Sì, i tempi di attesa per visite specialistiche e chirurgia tendono a essere più lunghi rispetto a Lombardia e Lazio. Per la chirurgia, molte persone scelgono di rivolgersi a centri fuori regione.'
 			},
 			{
 				domanda: 'Chi sono i femminielli napoletani?',
@@ -640,7 +640,7 @@ const dati: RegioneDettaglio[] = [
 			},
 			{
 				domanda: 'Esistono gruppi di supporto per persone trans a Napoli?',
-				risposta: 'Si, Arcigay Napoli offre uno sportello trans con gruppi di auto-mutuo-aiuto. L\'ATN organizza incontri di supporto tra pari e l\'AGEDO Campania accoglie famiglie di persone LGBTQ+.'
+				risposta: 'Sì, Arcigay Napoli offre uno sportello trans con gruppi di auto-mutuo-aiuto. L\'ATN organizza incontri di supporto tra pari e l\'AGEDO Campania accoglie famiglie di persone LGBTQ+.'
 			}
 		],
 		articoli_correlati: [
@@ -657,7 +657,7 @@ const dati: RegioneDettaglio[] = [
 		slug: 'piemonte',
 		nome: 'Piemonte',
 		capoluogo: 'Torino',
-		intro: `Il Piemonte e Torino in particolare rappresentano una realtà di primo piano per le persone transgender in Italia. La città sabauda vanta una lunga tradizione di apertura e impegno sui diritti civili, e questo si riflette nella qualità dei servizi disponibili. Il Centro di Riferimento per la Disforia di Genere presso la Città della Salute e della Scienza (Molinette) e uno dei principali poli nazionali, offrendo un percorso multidisciplinare completo che comprende supporto psicologico, endocrinologico e chirurgico. L\'associazionismo torinese è tra i più strutturati d\'Italia, con realtà come il Circolo Maurice e Arcigay Torino che offrono servizi concreti di supporto, consulenza e socializzazione. Il Piemonte si distingue anche per le politiche comunali di inclusione: Torino è stata tra le prime città italiane a istituire il registro delle unioni civili e a promuovere attivamente politiche contro la discriminazione basata sull\'identità di genere. La regione offre inoltre un contesto universitario particolarmente sensibile, con l\'Università di Torino che ha introdotto la carriera alias fin dai primi anni.`,
+		intro: `Il Piemonte e Torino in particolare rappresentano una realtà di primo piano per le persone transgender in Italia. La città sabauda vanta una lunga tradizione di apertura e impegno sui diritti civili, e questo si riflette nella qualità dei servizi disponibili. Il Centro di Riferimento per la Disforia di Genere presso la Città della Salute e della Scienza (Molinette) è uno dei principali poli nazionali, offrendo un percorso multidisciplinare completo che comprende supporto psicologico, endocrinologico e chirurgico. L\'associazionismo torinese è tra i più strutturati d\'Italia, con realtà come il Circolo Maurice e Arcigay Torino che offrono servizi concreti di supporto, consulenza e socializzazione. Il Piemonte si distingue anche per le politiche comunali di inclusione: Torino è stata tra le prime città italiane a istituire il registro delle unioni civili e a promuovere attivamente politiche contro la discriminazione basata sull\'identità di genere. La regione offre inoltre un contesto universitario particolarmente sensibile, con l\'Università di Torino che ha introdotto la carriera alias fin dai primi anni.`,
 		metaDescription: 'Guida alle risorse trans in Piemonte: centro gender alle Molinette di Torino, associazioni, iter sanitario ASL e storia del movimento.',
 		centri_gender: [
 			{
@@ -729,7 +729,7 @@ const dati: RegioneDettaglio[] = [
 			}
 		],
 		iter_sanitario: {
-			intro: 'In Piemonte il percorso di affermazione di genere fa riferimento al sistema delle ASL regionali e al centro specializzato della Città della Salute e della Scienza di Torino (Molinette). Il sistema e ben organizzato e il centro torinese è tra i più riconosciuti a livello nazionale.',
+			intro: 'In Piemonte il percorso di affermazione di genere fa riferimento al sistema delle ASL regionali e al centro specializzato della Città della Salute e della Scienza di Torino (Molinette). Il sistema è ben organizzato e il centro torinese è tra i più riconosciuti a livello nazionale.',
 			passi: [
 				{
 					ordine: 1,
@@ -741,7 +741,7 @@ const dati: RegioneDettaglio[] = [
 				{
 					ordine: 2,
 					titolo: 'Valutazione psicologica',
-					descrizione: 'Colloqui con l\'equipe psicologica del centro gender delle Molinette per l\'inquadramento e l\'accompagnamento. L\'approccio e centrato sulla persona e non giudicante.',
+					descrizione: 'Colloqui con l\'equipe psicologica del centro gender delle Molinette per l\'inquadramento e l\'accompagnamento. L\'approccio è centrato sulla persona e non giudicante.',
 					ente: 'Città della Salute — Molinette',
 					tempiStimati: '2-6 mesi'
 				},
@@ -807,19 +807,19 @@ const dati: RegioneDettaglio[] = [
 		faq: [
 			{
 				domanda: 'Come si accede al percorso di transizione in Piemonte?',
-				risposta: 'Il primo passo e chiedere al medico di base un\'impegnativa per il Centro Disforia di Genere delle Molinette a Torino. Da li si avvia un percorso multidisciplinare coperto dal SSN.'
+				risposta: 'Il primo passo è chiedere al medico di base un\'impegnativa per il Centro Disforia di Genere delle Molinette a Torino. Da lì si avvia un percorso multidisciplinare coperto dal SSN.'
 			},
 			{
 				domanda: 'Il centro delle Molinette accetta pazienti da fuori Torino?',
-				risposta: 'Si, il centro e di riferimento regionale e accoglie pazienti da tutte le province del Piemonte. E sufficiente un\'impegnativa del medico di base della propria ASL.'
+				risposta: 'Sì, il centro è di riferimento regionale e accoglie pazienti da tutte le province del Piemonte. È sufficiente un\'impegnativa del medico di base della propria ASL.'
 			},
 			{
 				domanda: 'La terapia ormonale è gratuita in Piemonte?',
-				risposta: 'Si, la terapia ormonale sostitutiva per la disforia di genere è coperta dal Servizio Sanitario Nazionale con esenzione specifica. Serve la prescrizione dell\'endocrinologo del centro gender.'
+				risposta: 'Sì, la terapia ormonale sostitutiva per la disforia di genere è coperta dal Servizio Sanitario Nazionale con esenzione specifica. Serve la prescrizione dell\'endocrinologo del centro gender.'
 			},
 			{
 				domanda: 'Esistono gruppi di supporto per persone trans a Torino?',
-				risposta: 'Si, il Circolo Maurice organizza gruppi di auto-mutuo-aiuto e sportelli di ascolto per persone trans. Anche Arcigay Torino offre servizi di supporto e socializzazione.'
+				risposta: 'Sì, il Circolo Maurice organizza gruppi di auto-mutuo-aiuto e sportelli di ascolto per persone trans. Anche Arcigay Torino offre servizi di supporto e socializzazione.'
 			},
 			{
 				domanda: 'Quanto tempo richiede la rettificazione anagrafica in Piemonte?',
@@ -844,7 +844,7 @@ const dati: RegioneDettaglio[] = [
 		slug: 'liguria',
 		nome: 'Liguria',
 		capoluogo: 'Genova',
-		intro: `La Liguria, con il suo capoluogo Genova, offre un tessuto di servizi per le persone transgender che si concentra principalmente nel capoluogo regionale. L\'Ospedale Policlinico San Martino di Genova e il punto di riferimento per i percorsi di affermazione di genere nella regione, con un ambulatorio dedicato che fornisce supporto endocrinologico e psicologico. La città di Genova ha una tradizione di apertura e accoglienza legata alla sua storia portuale e cosmopolita, e questo si riflette in un associazionismo LGBTQ+ attivo e presente, guidato da Arcigay Genova e dal Coordinamento Liguria Rainbow. Nonostante le dimensioni relativamente contenute della regione, i servizi sono accessibili e il percorso sanitario e strutturato in modo chiaro attraverso le ASL liguri. Le province di Savona, La Spezia e Imperia fanno riferimento ai servizi genovesi per i percorsi specializzati, ma i medici di base locali possono avviare l\'iter e fornire le impegnative necessarie. La comunità trans ligure, pur essendo numericamente piccola, e coesa e supportata da una rete associativa solidale.`,
+		intro: `La Liguria, con il suo capoluogo Genova, offre un tessuto di servizi per le persone transgender che si concentra principalmente nel capoluogo regionale. L\'Ospedale Policlinico San Martino di Genova è il punto di riferimento per i percorsi di affermazione di genere nella regione, con un ambulatorio dedicato che fornisce supporto endocrinologico e psicologico. La città di Genova ha una tradizione di apertura e accoglienza legata alla sua storia portuale e cosmopolita, e questo si riflette in un associazionismo LGBTQ+ attivo e presente, guidato da Arcigay Genova e dal Coordinamento Liguria Rainbow. Nonostante le dimensioni relativamente contenute della regione, i servizi sono accessibili e il percorso sanitario è strutturato in modo chiaro attraverso le ASL liguri. Le province di Savona, La Spezia e Imperia fanno riferimento ai servizi genovesi per i percorsi specializzati, ma i medici di base locali possono avviare l\'iter e fornire le impegnative necessarie. La comunità trans ligure, pur essendo numericamente piccola, è coesa e supportata da una rete associativa solidale.`,
 		metaDescription: 'Guida alle risorse trans in Liguria: centro gender al San Martino di Genova, associazioni, iter ASL e storia del movimento.',
 		centri_gender: [
 			{
@@ -900,7 +900,7 @@ const dati: RegioneDettaglio[] = [
 			}
 		],
 		iter_sanitario: {
-			intro: 'In Liguria il percorso di affermazione di genere passa attraverso le ASL regionali e il Policlinico San Martino di Genova come centro specializzato. Il sistema e accessibile e il percorso e ben definito, anche se le risorse sono concentrate nel capoluogo.',
+			intro: 'In Liguria il percorso di affermazione di genere passa attraverso le ASL regionali e il Policlinico San Martino di Genova come centro specializzato. Il sistema è accessibile e il percorso è ben definito, anche se le risorse sono concentrate nel capoluogo.',
 			passi: [
 				{
 					ordine: 1,
@@ -941,7 +941,7 @@ const dati: RegioneDettaglio[] = [
 			note_importanti: [
 				'I servizi specializzati sono concentrati a Genova, ma l\'impegnativa può essere rilasciata da qualsiasi medico di base ligure.',
 				'La terapia ormonale è coperta dal SSN con esenzione specifica anche in Liguria.',
-				'Per la chirurgia e generalmente necessario rivolgersi a centri fuori regione (Milano o Roma).',
+				'Per la chirurgia è generalmente necessario rivolgersi a centri fuori regione (Milano o Roma).',
 				'Le associazioni locali come Arcigay Genova possono aiutare nell\'orientamento ai servizi.'
 			]
 		},
@@ -968,11 +968,11 @@ const dati: RegioneDettaglio[] = [
 		faq: [
 			{
 				domanda: 'Come si accede al percorso trans in Liguria?',
-				risposta: 'Il primo passo e chiedere al medico di base un\'impegnativa per l\'ambulatorio del Policlinico San Martino di Genova. Da li parte un percorso multidisciplinare coperto dal SSN.'
+				risposta: 'Il primo passo è chiedere al medico di base un\'impegnativa per l\'ambulatorio del Policlinico San Martino di Genova. Da lì parte un percorso multidisciplinare coperto dal SSN.'
 			},
 			{
 				domanda: 'Devo per forza andare a Genova per il percorso di transizione?',
-				risposta: 'Per la valutazione iniziale e il percorso specializzato si, il San Martino di Genova e il centro di riferimento regionale. Però il medico di base locale può avviare l\'iter e i controlli ormonali periodici possono essere gestiti anche a livello territoriale.'
+				risposta: 'Per la valutazione iniziale e il percorso specializzato sì, il San Martino di Genova è il centro di riferimento regionale. Però il medico di base locale può avviare l\'iter e i controlli ormonali periodici possono essere gestiti anche a livello territoriale.'
 			},
 			{
 				domanda: 'È possibile fare la chirurgia in Liguria?',
@@ -980,11 +980,11 @@ const dati: RegioneDettaglio[] = [
 			},
 			{
 				domanda: 'La terapia ormonale è gratuita in Liguria?',
-				risposta: 'Si, la terapia ormonale sostitutiva è coperta dal Servizio Sanitario Nazionale con esenzione specifica, come in tutte le regioni italiane.'
+				risposta: 'Sì, la terapia ormonale sostitutiva è coperta dal Servizio Sanitario Nazionale con esenzione specifica, come in tutte le regioni italiane.'
 			},
 			{
 				domanda: 'Esistono gruppi di supporto per persone trans a Genova?',
-				risposta: 'Si, Arcigay Genova offre uno sportello di ascolto e gruppi di supporto. Il Coordinamento Liguria Rainbow organizza anche eventi e iniziative per la comunità trans ligure.'
+				risposta: 'Sì, Arcigay Genova offre uno sportello di ascolto e gruppi di supporto. Il Coordinamento Liguria Rainbow organizza anche eventi e iniziative per la comunità trans ligure.'
 			},
 			{
 				domanda: 'Le province liguri hanno servizi trans dedicati?',
@@ -1005,7 +1005,7 @@ const dati: RegioneDettaglio[] = [
 		slug: 'emilia-romagna',
 		nome: 'Emilia Romagna',
 		capoluogo: 'Bologna',
-		intro: `L\'Emilia Romagna e Bologna in particolare rappresentano un punto di riferimento nazionale per i diritti e i servizi dedicati alle persone transgender. Bologna vanta una tradizione di apertura e inclusione che pochi centri italiani possono eguagliare: e qui che Marcella Di Folco, prima donna trans eletta in un consiglio comunale italiano, ha operato per anni. Il Policlinico Sant\'Orsola-Malpighi ospita un centro gender riconosciuto a livello nazionale, con un\'equipe multidisciplinare che offre percorsi completi di affermazione di genere. L\'associazionismo emiliano-romagnolo è tra i più vivaci d\'Italia: il MIT (Movimento Identità Trans), fondato a Bologna nel 1979, e la più antica associazione trans italiana ancora attiva, e il Cassero LGBTI+ Center e uno dei centri LGBTQ+ più grandi d\'Europa. La regione si distingue per politiche sanitarie inclusive e un sistema di AUSL efficienti che facilitano l\'accesso ai servizi. Anche città come Modena, Parma e Reggio Emilia offrono supporto attraverso sportelli e associazioni locali, rendendo l\'Emilia Romagna una delle regioni più accoglienti per le persone trans in Italia.`,
+		intro: `L\'Emilia Romagna e Bologna in particolare rappresentano un punto di riferimento nazionale per i diritti e i servizi dedicati alle persone transgender. Bologna vanta una tradizione di apertura e inclusione che pochi centri italiani possono eguagliare: è qui che Marcella Di Folco, prima donna trans eletta in un consiglio comunale italiano, ha operato per anni. Il Policlinico Sant\'Orsola-Malpighi ospita un centro gender riconosciuto a livello nazionale, con un\'equipe multidisciplinare che offre percorsi completi di affermazione di genere. L\'associazionismo emiliano-romagnolo è tra i più vivaci d\'Italia: il MIT (Movimento Identità Trans), fondato a Bologna nel 1979, è la più antica associazione trans italiana ancora attiva, e il Cassero LGBTI+ Center è uno dei centri LGBTQ+ più grandi d\'Europa. La regione si distingue per politiche sanitarie inclusive e un sistema di AUSL efficienti che facilitano l\'accesso ai servizi. Anche città come Modena, Parma e Reggio Emilia offrono supporto attraverso sportelli e associazioni locali, rendendo l\'Emilia Romagna una delle regioni più accoglienti per le persone trans in Italia.`,
 		metaDescription: 'Guida alle risorse trans in Emilia Romagna: centro gender al Sant\'Orsola di Bologna, MIT, Cassero, iter AUSL e storia del movimento.',
 		centri_gender: [
 			{
@@ -1032,7 +1032,7 @@ const dati: RegioneDettaglio[] = [
 				citta: 'Bologna',
 				indirizzo: 'Via Polese 22, 40122 Bologna',
 				sito: 'https://www.mit-italia.it',
-				descrizione: 'Fondata nel 1979, e la più antica associazione trans italiana ancora attiva. Offre sportello di ascolto, accompagnamento ai servizi, supporto legale e casa di accoglienza per persone trans in difficoltà.'
+				descrizione: 'Fondata nel 1979, è la più antica associazione trans italiana ancora attiva. Offre sportello di ascolto, accompagnamento ai servizi, supporto legale e casa di accoglienza per persone trans in difficoltà.'
 			},
 			{
 				nome: 'Cassero LGBTI+ Center',
@@ -1139,7 +1139,7 @@ const dati: RegioneDettaglio[] = [
 				{
 					anno: 1995,
 					titolo: 'Marcella Di Folco eletta in consiglio comunale',
-					descrizione: 'Marcella Di Folco, presidente del MIT, viene eletta nel consiglio comunale di Bologna. E la prima donna trans a ricoprire una carica elettiva in Italia e in Europa.'
+					descrizione: 'Marcella Di Folco, presidente del MIT, viene eletta nel consiglio comunale di Bologna. È la prima donna trans a ricoprire una carica elettiva in Italia e in Europa.'
 				},
 				{
 					anno: 2012,
@@ -1156,11 +1156,11 @@ const dati: RegioneDettaglio[] = [
 		faq: [
 			{
 				domanda: 'Come si accede al percorso di transizione in Emilia Romagna?',
-				risposta: 'Il primo passo e chiedere al medico di base un\'impegnativa per il Centro per la Disforia di Genere del Sant\'Orsola-Malpighi a Bologna. Il MIT può aiutare nell\'orientamento ai servizi.'
+				risposta: 'Il primo passo è chiedere al medico di base un\'impegnativa per il Centro per la Disforia di Genere del Sant\'Orsola-Malpighi a Bologna. Il MIT può aiutare nell\'orientamento ai servizi.'
 			},
 			{
-				domanda: 'Cos\'e il MIT e che servizi offre?',
-				risposta: 'Il MIT (Movimento Identità Trans) e la più antica associazione trans italiana, fondata a Bologna nel 1979. Offre sportello di ascolto, accompagnamento ai servizi sanitari e legali, sportello lavoro e una casa di accoglienza per persone trans in difficoltà.'
+				domanda: 'Cos\'è il MIT e che servizi offre?',
+				risposta: 'Il MIT (Movimento Identità Trans) è la più antica associazione trans italiana, fondata a Bologna nel 1979. Offre sportello di ascolto, accompagnamento ai servizi sanitari e legali, sportello lavoro e una casa di accoglienza per persone trans in difficoltà.'
 			},
 			{
 				domanda: 'I tempi di attesa a Bologna sono lunghi?',
@@ -1168,7 +1168,7 @@ const dati: RegioneDettaglio[] = [
 			},
 			{
 				domanda: 'Ci sono servizi anche fuori Bologna?',
-				risposta: 'Si, l\'AOU di Modena offre supporto endocrinologico e ci sono sportelli LGBTQ+ in diverse città emiliano-romagnole. Per il percorso specializzato completo, però, il riferimento resta il Sant\'Orsola di Bologna.'
+				risposta: 'Sì, l\'AOU di Modena offre supporto endocrinologico e ci sono sportelli LGBTQ+ in diverse città emiliano-romagnole. Per il percorso specializzato completo, però, il riferimento resta il Sant\'Orsola di Bologna.'
 			},
 			{
 				domanda: 'La chirurgia di affermazione di genere si fa a Bologna?',
@@ -1176,7 +1176,7 @@ const dati: RegioneDettaglio[] = [
 			},
 			{
 				domanda: 'Esistono risorse per famiglie di persone trans in Emilia Romagna?',
-				risposta: 'Si, AGEDO Emilia Romagna organizza gruppi di sostegno per genitori e familiari in diverse città della regione. Anche il Cassero e il MIT possono orientare le famiglie verso i servizi di supporto.'
+				risposta: 'Sì, AGEDO Emilia Romagna organizza gruppi di sostegno per genitori e familiari in diverse città della regione. Anche il Cassero e il MIT possono orientare le famiglie verso i servizi di supporto.'
 			}
 		],
 		articoli_correlati: [
@@ -1193,7 +1193,7 @@ const dati: RegioneDettaglio[] = [
 		slug: 'toscana',
 		nome: 'Toscana',
 		capoluogo: 'Firenze',
-		intro: `La Toscana offre un panorama di servizi per le persone transgender che combina la tradizione culturale di apertura della regione con strutture sanitarie di qualità. Firenze e il centro nevralgico dei servizi, con l\'AOU Careggi che ospita un ambulatorio dedicato alla disforia di genere e un\'equipe endocrinologica tra le più competenti del Centro Italia. L\'associazionismo toscano e radicato e diversificato, con realtà come IREOS e Arcigay Firenze che offrono supporto concreto alle persone trans, e il movimento LGBTQ+ toscano ha una storia ricca che si intreccia con la tradizione progressista della regione. La Toscana si distingue per le politiche regionali di inclusione: è stata tra le prime regioni italiane ad approvare una legge regionale contro le discriminazioni basate sull\'orientamento sessuale e l\'identità di genere. Il sistema delle ASL toscane e efficiente e garantisce un buon accesso ai servizi anche dalle province più periferiche. Anche Pisa, con la sua università e il suo ospedale, offre un supporto significativo per i percorsi di affermazione di genere.`,
+		intro: `La Toscana offre un panorama di servizi per le persone transgender che combina la tradizione culturale di apertura della regione con strutture sanitarie di qualità. Firenze è il centro nevralgico dei servizi, con l\'AOU Careggi che ospita un ambulatorio dedicato alla disforia di genere e un\'equipe endocrinologica tra le più competenti del Centro Italia. L\'associazionismo toscano è radicato e diversificato, con realtà come IREOS e Arcigay Firenze che offrono supporto concreto alle persone trans, e il movimento LGBTQ+ toscano ha una storia ricca che si intreccia con la tradizione progressista della regione. La Toscana si distingue per le politiche regionali di inclusione: è stata tra le prime regioni italiane ad approvare una legge regionale contro le discriminazioni basate sull\'orientamento sessuale e l\'identità di genere. Il sistema delle ASL toscane è efficiente e garantisce un buon accesso ai servizi anche dalle province più periferiche. Anche Pisa, con la sua università e il suo ospedale, offre un supporto significativo per i percorsi di affermazione di genere.`,
 		metaDescription: 'Guida alle risorse trans in Toscana: centro gender a Careggi Firenze, associazioni, iter sanitario ASL e storia del movimento.',
 		centri_gender: [
 			{
@@ -1277,7 +1277,7 @@ const dati: RegioneDettaglio[] = [
 				{
 					ordine: 2,
 					titolo: 'Valutazione psicologica',
-					descrizione: 'Colloqui con l\'equipe psicologica di Careggi per l\'accompagnamento nel percorso di affermazione di genere. L\'approccio e centrato sulla persona.',
+					descrizione: 'Colloqui con l\'equipe psicologica di Careggi per l\'accompagnamento nel percorso di affermazione di genere. L\'approccio è centrato sulla persona.',
 					ente: 'AOU Careggi — Psicologia',
 					tempiStimati: '2-6 mesi'
 				},
@@ -1305,7 +1305,7 @@ const dati: RegioneDettaglio[] = [
 			],
 			note_importanti: [
 				'La Toscana ha una legge regionale contro le discriminazioni basate sull\'identità di genere.',
-				'L\'AOU Careggi e il centro di riferimento regionale e accetta pazienti da tutta la Toscana.',
+				'L\'AOU Careggi è il centro di riferimento regionale e accetta pazienti da tutta la Toscana.',
 				'La terapia ormonale è coperta dal SSN con esenzione specifica.',
 				'Le associazioni come IREOS offrono un supporto pratico importante nell\'orientamento ai servizi.'
 			]
@@ -1343,27 +1343,27 @@ const dati: RegioneDettaglio[] = [
 		faq: [
 			{
 				domanda: 'Come si accede al percorso di transizione in Toscana?',
-				risposta: 'Il primo passo e chiedere al medico di base un\'impegnativa per l\'ambulatorio di disforia di genere dell\'AOU Careggi a Firenze. Le associazioni come IREOS possono aiutare nell\'orientamento.'
+				risposta: 'Il primo passo è chiedere al medico di base un\'impegnativa per l\'ambulatorio di disforia di genere dell\'AOU Careggi a Firenze. Le associazioni come IREOS possono aiutare nell\'orientamento.'
 			},
 			{
 				domanda: 'L\'AOU Careggi accetta pazienti da fuori Firenze?',
-				risposta: 'Si, il centro e di riferimento regionale e accoglie pazienti da tutte le province della Toscana. E sufficiente un\'impegnativa del medico di base della propria ASL.'
+				risposta: 'Sì, il centro è di riferimento regionale e accoglie pazienti da tutte le province della Toscana. È sufficiente un\'impegnativa del medico di base della propria ASL.'
 			},
 			{
 				domanda: 'La Toscana ha leggi specifiche contro la discriminazione trans?',
-				risposta: 'Si, la Toscana ha una legge regionale del 2004 contro le discriminazioni basate sull\'orientamento sessuale e l\'identità di genere, tra le prime in Italia.'
+				risposta: 'Sì, la Toscana ha una legge regionale del 2004 contro le discriminazioni basate sull\'orientamento sessuale e l\'identità di genere, tra le prime in Italia.'
 			},
 			{
 				domanda: 'Ci sono servizi trans anche a Pisa?',
-				risposta: 'Si, l\'AOU Pisana offre supporto endocrinologico per la terapia ormonale. Per il percorso completo il riferimento resta Careggi a Firenze, ma i controlli possono essere gestiti anche a Pisa.'
+				risposta: 'Sì, l\'AOU Pisana offre supporto endocrinologico per la terapia ormonale. Per il percorso completo il riferimento resta Careggi a Firenze, ma i controlli possono essere gestiti anche a Pisa.'
 			},
 			{
 				domanda: 'Esistono gruppi di supporto per persone trans a Firenze?',
-				risposta: 'Si, IREOS offre sportello psicologico e gruppi di auto-mutuo-aiuto per persone trans. Arcigay Firenze organizza anche eventi e attività di socializzazione per la comunità LGBTQ+.'
+				risposta: 'Sì, IREOS offre sportello psicologico e gruppi di auto-mutuo-aiuto per persone trans. Arcigay Firenze organizza anche eventi e attività di socializzazione per la comunità LGBTQ+.'
 			},
 			{
 				domanda: 'La terapia ormonale è gratuita in Toscana?',
-				risposta: 'Si, la terapia ormonale sostitutiva è coperta dal Servizio Sanitario Nazionale con esenzione specifica, come in tutte le regioni italiane.'
+				risposta: 'Sì, la terapia ormonale sostitutiva è coperta dal Servizio Sanitario Nazionale con esenzione specifica, come in tutte le regioni italiane.'
 			}
 		],
 		articoli_correlati: [
@@ -1380,7 +1380,7 @@ const dati: RegioneDettaglio[] = [
 		slug: 'veneto',
 		nome: 'Veneto',
 		capoluogo: 'Venezia',
-		intro: `Il Veneto rappresenta una realtà importante per i servizi dedicati alle persone transgender nel Nord-Est italiano. Padova e il principale polo di riferimento, grazie all\'Azienda Ospedaliera Universitaria che ospita un ambulatorio dedicato alla disforia di genere con una lunga tradizione di ricerca e cura in ambito endocrinologico. L\'Università di Padova è stata pioniera negli studi sull\'identità di genere in Italia, e il suo dipartimento di endocrinologia e riconosciuto a livello internazionale. L\'associazionismo veneto è attivo e diversificato, con sedi di Arcigay presenti nelle principali città della regione e realtà specifiche come il Gruppo Identità di Genere di Padova. Il contesto sociale veneto presenta sfide specifiche, con un tessuto culturale tradizionalmente conservatore che convive con sacche di apertura e innovazione, soprattutto nei contesti universitari e urbani. Le ULSS venete garantiscono l\'accesso ai servizi su tutto il territorio regionale, anche se i centri specializzati sono concentrati a Padova e, in misura minore, a Verona. La comunità trans veneta, pur affrontando le sfide di un contesto non sempre facile, può contare su strutture sanitarie di eccellenza e su un tessuto associativo in crescita.`,
+		intro: `Il Veneto rappresenta una realtà importante per i servizi dedicati alle persone transgender nel Nord-Est italiano. Padova è il principale polo di riferimento, grazie all\'Azienda Ospedaliera Universitaria che ospita un ambulatorio dedicato alla disforia di genere con una lunga tradizione di ricerca e cura in ambito endocrinologico. L\'Università di Padova è stata pioniera negli studi sull\'identità di genere in Italia, e il suo dipartimento di endocrinologia è riconosciuto a livello internazionale. L\'associazionismo veneto è attivo e diversificato, con sedi di Arcigay presenti nelle principali città della regione e realtà specifiche come il Gruppo Identità di Genere di Padova. Il contesto sociale veneto presenta sfide specifiche, con un tessuto culturale tradizionalmente conservatore che convive con sacche di apertura e innovazione, soprattutto nei contesti universitari e urbani. Le ULSS venete garantiscono l\'accesso ai servizi su tutto il territorio regionale, anche se i centri specializzati sono concentrati a Padova e, in misura minore, a Verona. La comunità trans veneta, pur affrontando le sfide di un contesto non sempre facile, può contare su strutture sanitarie di eccellenza e su un tessuto associativo in crescita.`,
 		metaDescription: 'Guida alle risorse trans in Veneto: centro gender a Padova, associazioni, iter sanitario ULSS e storia del movimento.',
 		centri_gender: [
 			{
@@ -1463,7 +1463,7 @@ const dati: RegioneDettaglio[] = [
 				{
 					ordine: 3,
 					titolo: 'Avvio terapia ormonale',
-					descrizione: 'L\'endocrinologo dell\'AOU di Padova o dell\'AOUI di Verona prescrive la terapia ormonale sostitutiva con controlli periodici. Il dipartimento padovano e un\'eccellenza nazionale in questo ambito.',
+					descrizione: 'L\'endocrinologo dell\'AOU di Padova o dell\'AOUI di Verona prescrive la terapia ormonale sostitutiva con controlli periodici. Il dipartimento padovano è un\'eccellenza nazionale in questo ambito.',
 					ente: 'AOU Padova / AOUI Verona — Endocrinologia',
 					tempiStimati: '1-3 mesi dalla valutazione'
 				},
@@ -1485,7 +1485,7 @@ const dati: RegioneDettaglio[] = [
 			note_importanti: [
 				'L\'AOU di Padova ha uno dei dipartimenti di endocrinologia più rinomati d\'Italia per i percorsi di affermazione di genere.',
 				'La terapia ormonale è coperta dal SSN con esenzione specifica anche in Veneto.',
-				'Per la chirurgia e generalmente necessario rivolgersi a centri fuori regione.',
+				'Per la chirurgia è generalmente necessario rivolgersi a centri fuori regione.',
 				'I tempi della rettificazione anagrafica in Veneto possono variare significativamente a seconda del Tribunale competente.'
 			]
 		},
@@ -1522,15 +1522,15 @@ const dati: RegioneDettaglio[] = [
 		faq: [
 			{
 				domanda: 'Come si accede al percorso di transizione in Veneto?',
-				risposta: 'Il primo passo e chiedere al medico di base un\'impegnativa per l\'AOU di Padova, centro di riferimento regionale. Da li si avvia un percorso multidisciplinare coperto dal SSN.'
+				risposta: 'Il primo passo è chiedere al medico di base un\'impegnativa per l\'AOU di Padova, centro di riferimento regionale. Da lì si avvia un percorso multidisciplinare coperto dal SSN.'
 			},
 			{
 				domanda: 'Ci sono servizi anche a Verona?',
-				risposta: 'Si, l\'AOUI di Verona offre supporto endocrinologico per la terapia ormonale. Per il percorso completo il riferimento resta l\'AOU di Padova, ma i controlli possono essere gestiti anche a Verona.'
+				risposta: 'Sì, l\'AOUI di Verona offre supporto endocrinologico per la terapia ormonale. Per il percorso completo il riferimento resta l\'AOU di Padova, ma i controlli possono essere gestiti anche a Verona.'
 			},
 			{
 				domanda: 'La terapia ormonale è gratuita in Veneto?',
-				risposta: 'Si, la terapia ormonale sostitutiva è coperta dal Servizio Sanitario Nazionale con esenzione specifica, come in tutte le regioni italiane.'
+				risposta: 'Sì, la terapia ormonale sostitutiva è coperta dal Servizio Sanitario Nazionale con esenzione specifica, come in tutte le regioni italiane.'
 			},
 			{
 				domanda: 'I tempi di rettificazione anagrafica in Veneto sono lunghi?',
@@ -1541,7 +1541,7 @@ const dati: RegioneDettaglio[] = [
 				risposta: 'Attualmente il Veneto non ha un centro chirurgico dedicato per gli interventi di affermazione di genere. La maggior parte delle persone si rivolge al Niguarda (Milano) o al SAIFIP (Roma) con copertura SSN.'
 			},
 			{
-				domanda: 'Come e il contesto sociale per le persone trans in Veneto?',
+				domanda: 'Com\'è il contesto sociale per le persone trans in Veneto?',
 				risposta: 'Il contesto varia: le città universitarie come Padova sono generalmente più accoglienti, mentre in aree più piccole possono esserci maggiori difficoltà. Le associazioni locali offrono supporto e spazi sicuri.'
 			}
 		],
@@ -1559,7 +1559,7 @@ const dati: RegioneDettaglio[] = [
 		slug: 'friuli-venezia-giulia',
 		nome: 'Friuli Venezia Giulia',
 		capoluogo: 'Trieste',
-		intro: `Il Friuli Venezia Giulia e una regione a statuto speciale del Nord-Est italiano che offre servizi per le persone transgender concentrati principalmente nelle città di Trieste e Udine. L\'Azienda Sanitaria Universitaria Giuliano Isontina (ASUGI) di Trieste e il punto di riferimento regionale per i percorsi di affermazione di genere, con un ambulatorio che opera in collaborazione con i servizi di salute mentale del territorio. La regione si distingue per una tradizione di attenzione alla salute mentale ereditata dall\'esperienza basagliana: Trieste e la città dove Franco Basaglia ha rivoluzionato la psichiatria italiana, e questo approccio centrato sulla persona si riflette anche nei servizi per le persone trans. L\'associazionismo e presente con sedi di Arcigay a Trieste e a Udine, e con realtà locali che offrono supporto e spazi di socializzazione. Il contesto transfrontaliero della regione, al confine con Slovenia e Austria, aggiunge una dimensione internazionale al dibattito sui diritti e all\'accesso ai servizi. Le Aziende Sanitarie regionali (ASUGI per l\'area giuliana e ASUFC per l\'area friulana) garantiscono l\'accesso ai percorsi su tutto il territorio.`,
+		intro: `Il Friuli Venezia Giulia è una regione a statuto speciale del Nord-Est italiano che offre servizi per le persone transgender concentrati principalmente nelle città di Trieste e Udine. L\'Azienda Sanitaria Universitaria Giuliano Isontina (ASUGI) di Trieste è il punto di riferimento regionale per i percorsi di affermazione di genere, con un ambulatorio che opera in collaborazione con i servizi di salute mentale del territorio. La regione si distingue per una tradizione di attenzione alla salute mentale ereditata dall\'esperienza basagliana: Trieste è la città dove Franco Basaglia ha rivoluzionato la psichiatria italiana, e questo approccio centrato sulla persona si riflette anche nei servizi per le persone trans. L\'associazionismo è presente con sedi di Arcigay a Trieste e a Udine, e con realtà locali che offrono supporto e spazi di socializzazione. Il contesto transfrontaliero della regione, al confine con Slovenia e Austria, aggiunge una dimensione internazionale al dibattito sui diritti e all\'accesso ai servizi. Le Aziende Sanitarie regionali (ASUGI per l\'area giuliana e ASUFC per l\'area friulana) garantiscono l\'accesso ai percorsi su tutto il territorio.`,
 		metaDescription: 'Guida alle risorse trans in Friuli Venezia Giulia: servizi a Trieste e Udine, associazioni, iter sanitario ASUGI e storia del movimento.',
 		centri_gender: [
 			{
@@ -1627,7 +1627,7 @@ const dati: RegioneDettaglio[] = [
 				{
 					ordine: 2,
 					titolo: 'Valutazione psicologica',
-					descrizione: 'Colloqui con l\'equipe psicologica del servizio di riferimento per l\'accompagnamento nel percorso. L\'approccio e ispirato alla tradizione basagliana di centralita della persona.',
+					descrizione: 'Colloqui con l\'equipe psicologica del servizio di riferimento per l\'accompagnamento nel percorso. L\'approccio è ispirato alla tradizione basagliana di centralita della persona.',
 					ente: 'ASUGI Trieste / ASUFC Udine',
 					tempiStimati: '2-6 mesi'
 				},
@@ -1655,7 +1655,7 @@ const dati: RegioneDettaglio[] = [
 			],
 			note_importanti: [
 				'Il Friuli Venezia Giulia ha due aziende sanitarie principali: ASUGI (Trieste-Gorizia) e ASUFC (Udine-Pordenone).',
-				'La tradizione basagliana di Trieste favorisce un approccio accogliente e centrato sulla persona nei servizi di salute mentale.',
+				'La tradizione basagliana di Trieste favorisce un approccio accogliente è centrato sulla persona nei servizi di salute mentale.',
 				'La terapia ormonale è coperta dal SSN con esenzione specifica.',
 				'Per la chirurgia è necessario rivolgersi a centri fuori regione, con copertura SSN tramite autorizzazione preventiva.'
 			]
@@ -1666,7 +1666,7 @@ const dati: RegioneDettaglio[] = [
 				{
 					anno: 1978,
 					titolo: 'Legge Basaglia e salute mentale',
-					descrizione: 'Trieste e al centro della rivoluzione psichiatrica di Franco Basaglia, che porta alla legge 180/1978. Questo approccio centrato sulla persona influenzerà positivamente anche l\'accoglienza delle persone trans nei servizi sanitari.'
+					descrizione: 'Trieste è al centro della rivoluzione psichiatrica di Franco Basaglia, che porta alla legge 180/1978. Questo approccio centrato sulla persona influenzerà positivamente anche l\'accoglienza delle persone trans nei servizi sanitari.'
 				},
 				{
 					anno: 1985,
@@ -1693,15 +1693,15 @@ const dati: RegioneDettaglio[] = [
 		faq: [
 			{
 				domanda: 'Come si accede al percorso di transizione in Friuli Venezia Giulia?',
-				risposta: 'Il primo passo e chiedere al medico di base un\'impegnativa per l\'ASUGI di Trieste o l\'ASUFC di Udine. Da li si avvia un percorso multidisciplinare coperto dal SSN.'
+				risposta: 'Il primo passo è chiedere al medico di base un\'impegnativa per l\'ASUGI di Trieste o l\'ASUFC di Udine. Da lì si avvia un percorso multidisciplinare coperto dal SSN.'
 			},
 			{
-				domanda: 'Qual e la differenza tra ASUGI e ASUFC?',
+				domanda: 'Qual è la differenza tra ASUGI e ASUFC?',
 				risposta: 'ASUGI (Azienda Sanitaria Universitaria Giuliano Isontina) copre l\'area di Trieste e Gorizia, mentre ASUFC (Azienda Sanitaria Universitaria Friuli Centrale) copre l\'area di Udine e Pordenone. Entrambe offrono servizi per le persone trans.'
 			},
 			{
 				domanda: 'La terapia ormonale è gratuita in Friuli Venezia Giulia?',
-				risposta: 'Si, la terapia ormonale sostitutiva è coperta dal Servizio Sanitario Nazionale con esenzione specifica, come in tutte le regioni italiane.'
+				risposta: 'Sì, la terapia ormonale sostitutiva è coperta dal Servizio Sanitario Nazionale con esenzione specifica, come in tutte le regioni italiane.'
 			},
 			{
 				domanda: 'È possibile fare la chirurgia nella regione?',
@@ -1709,11 +1709,11 @@ const dati: RegioneDettaglio[] = [
 			},
 			{
 				domanda: 'Cosa c\'entra Basaglia con i servizi per le persone trans?',
-				risposta: 'La rivoluzione basagliana ha lasciato a Trieste un\'eredita di approccio centrato sulla persona nei servizi di salute mentale. Questo si traduce in un\'accoglienza generalmente attenta e rispettosa anche nei percorsi per le persone trans.'
+				risposta: 'La rivoluzione basagliana ha lasciato a Trieste un\'eredità di approccio centrato sulla persona nei servizi di salute mentale. Questo si traduce in un\'accoglienza generalmente attenta e rispettosa anche nei percorsi per le persone trans.'
 			},
 			{
 				domanda: 'Esistono gruppi di supporto per persone trans nella regione?',
-				risposta: 'Si, Arcigay ha sedi a Trieste e Udine con sportelli di ascolto e gruppi di supporto. AGEDO Friuli Venezia Giulia offre sostegno alle famiglie di persone LGBTQ+.'
+				risposta: 'Sì, Arcigay ha sedi a Trieste e Udine con sportelli di ascolto e gruppi di supporto. AGEDO Friuli Venezia Giulia offre sostegno alle famiglie di persone LGBTQ+.'
 			}
 		],
 		articoli_correlati: [

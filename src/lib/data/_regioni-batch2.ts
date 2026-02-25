@@ -10,7 +10,7 @@ export const batch2: RegioneDettaglio[] = [
 		centri_gender: [
 			{
 				nome: 'Ambulatorio di Endocrinologia e Disforia di Genere — Policlinico di Bari',
-				città: 'Bari',
+				citta: 'Bari',
 				indirizzo: 'Piazza Giulio Cesare 11, 70124 Bari',
 				telefono: '080 559 2111',
 				sito: 'https://www.policlinico.ba.it',
@@ -18,7 +18,7 @@ export const batch2: RegioneDettaglio[] = [
 			},
 			{
 				nome: 'U.O.C. Endocrinologia — Ospedale Vito Fazzi',
-				città: 'Lecce',
+				citta: 'Lecce',
 				indirizzo: 'Piazzetta Filippo Muratore 1, 73100 Lecce',
 				telefono: '0832 661 111',
 				sito: 'https://www.sanita.puglia.it',
@@ -29,20 +29,20 @@ export const batch2: RegioneDettaglio[] = [
 			{
 				nome: 'Arcigay Bari',
 				tipo: 'lgbtq',
-				città: 'Bari',
+				citta: 'Bari',
 				sito: 'https://www.arcigaybari.it',
 				descrizione: 'Sezione barese di Arcigay. Offre sportello di ascolto, consulenza legale e organizza eventi culturali e il Bari Pride.'
 			},
 			{
 				nome: 'Associazione LGBTI Ferrante Ferranti',
 				tipo: 'lgbtq',
-				città: 'Lecce',
+				citta: 'Lecce',
 				descrizione: 'Realtà leccese attiva per i diritti LGBTQ+ nel Salento. Organizza eventi, incontri di sensibilizzazione e offre supporto tra pari per persone trans.'
 			},
 			{
 				nome: 'AGEDO Puglia',
 				tipo: 'genitori',
-				città: 'Bari',
+				citta: 'Bari',
 				sito: 'https://www.agedo.org',
 				descrizione: 'Gruppi di sostegno per genitori e familiari di persone LGBTQ+ in Puglia. Incontri periodici a Bari e supporto telefonico.'
 			}
@@ -52,7 +52,7 @@ export const batch2: RegioneDettaglio[] = [
 				nome: 'Sportello di Ascolto LGBTQ+ — Arcigay Bari',
 				tipo: 'psicologico',
 				ente: 'Arcigay Bari',
-				città: 'Bari',
+				citta: 'Bari',
 				orari: 'Mercoledì 17:00-19:00',
 				note: 'Ascolto, orientamento ai servizi sanitari e legali per persone trans e LGBTQ+.'
 			},
@@ -60,7 +60,7 @@ export const batch2: RegioneDettaglio[] = [
 				nome: 'Sportello Antidiscriminazione — Comune di Bari',
 				tipo: 'antidiscriminazione',
 				ente: 'Comune di Bari',
-				città: 'Bari',
+				citta: 'Bari',
 				note: 'Segnalazione di episodi di discriminazione basati su identità di genere e orientamento sessuale.'
 			}
 		],
@@ -180,7 +180,7 @@ export const batch2: RegioneDettaglio[] = [
 		centri_gender: [
 			{
 				nome: 'Ambulatorio Disforia di Genere — Policlinico Paolo Giaccone',
-				città: 'Palermo',
+				citta: 'Palermo',
 				indirizzo: 'Via del Vespro 129, 90127 Palermo',
 				telefono: '091 655 2111',
 				sito: 'https://www.policlinico.pa.it',
@@ -188,7 +188,7 @@ export const batch2: RegioneDettaglio[] = [
 			},
 			{
 				nome: 'U.O.C. Endocrinologia — AOU Policlinico di Catania',
-				città: 'Catania',
+				citta: 'Catania',
 				indirizzo: 'Via Santa Sofia 78, 95123 Catania',
 				telefono: '095 378 1111',
 				sito: 'https://www.policlinico.unict.it',
@@ -199,28 +199,28 @@ export const batch2: RegioneDettaglio[] = [
 			{
 				nome: 'Arcigay Palermo',
 				tipo: 'lgbtq',
-				città: 'Palermo',
+				citta: 'Palermo',
 				sito: 'https://www.arcigaypalermo.it',
 				descrizione: 'Sezione palermitana di Arcigay. Offre sportello di ascolto, consulenza legale, gruppi di supporto e organizza il Palermo Pride.'
 			},
 			{
 				nome: 'Arcigay Catania',
 				tipo: 'lgbtq',
-				città: 'Catania',
+				citta: 'Catania',
 				sito: 'https://www.arcigaycatania.it',
 				descrizione: 'Sezione catanese di Arcigay. Attiva con sportelli, eventi culturali e supporto per persone LGBTQ+ nella Sicilia orientale.'
 			},
 			{
 				nome: 'AGEDO Sicilia',
 				tipo: 'genitori',
-				città: 'Palermo',
+				citta: 'Palermo',
 				sito: 'https://www.agedo.org',
 				descrizione: 'Gruppi di sostegno per genitori e familiari di persone LGBTQ+ in Sicilia. Incontri a Palermo e Catania.'
 			},
 			{
 				nome: 'Famiglie Arcobaleno Sicilia',
 				tipo: 'genitori',
-				città: 'Palermo',
+				citta: 'Palermo',
 				descrizione: 'Associazione che sostiene le famiglie LGBTQ+ in Sicilia, offrendo supporto e promuovendo la visibilità delle famiglie con genitori trans.'
 			}
 		],
@@ -229,7 +229,7 @@ export const batch2: RegioneDettaglio[] = [
 				nome: 'Sportello Trans — Arcigay Palermo',
 				tipo: 'psicologico',
 				ente: 'Arcigay Palermo',
-				città: 'Palermo',
+				citta: 'Palermo',
 				orari: 'Giovedì 16:00-18:00',
 				note: 'Ascolto, orientamento ai servizi sanitari e legali, supporto tra pari per persone trans.'
 			},
@@ -237,7 +237,7 @@ export const batch2: RegioneDettaglio[] = [
 				nome: 'Sportello Legale LGBTQ+ — Arcigay Catania',
 				tipo: 'legale',
 				ente: 'Arcigay Catania',
-				città: 'Catania',
+				citta: 'Catania',
 				orari: 'Su appuntamento',
 				note: 'Consulenza legale gratuita su rettificazione anagrafica e discriminazione.'
 			}
@@ -363,7 +363,7 @@ export const batch2: RegioneDettaglio[] = [
 		centri_gender: [
 			{
 				nome: 'U.O.C. Endocrinologia — AOU di Cagliari (Policlinico Duilio Casula)',
-				città: 'Cagliari',
+				citta: 'Cagliari',
 				indirizzo: 'SS 554, Bivio per Sestu, 09042 Monserrato (CA)',
 				telefono: '070 609 5200',
 				sito: 'https://www.aoucagliari.it',
@@ -371,7 +371,7 @@ export const batch2: RegioneDettaglio[] = [
 			},
 			{
 				nome: 'Clinica Endocrinologica — AOU di Sassari',
-				città: 'Sassari',
+				citta: 'Sassari',
 				indirizzo: 'Viale San Pietro 8, 07100 Sassari',
 				telefono: '079 228 000',
 				sito: 'https://www.aousassari.it',
@@ -382,20 +382,20 @@ export const batch2: RegioneDettaglio[] = [
 			{
 				nome: 'Arcigay Cagliari',
 				tipo: 'lgbtq',
-				città: 'Cagliari',
+				citta: 'Cagliari',
 				sito: 'https://www.arcigaycagliari.it',
 				descrizione: 'Sezione cagliaritana di Arcigay. Offre sportello di ascolto, consulenza legale e organizza il Sardegna Pride.'
 			},
 			{
 				nome: 'ARC — Associazione Radicale Catena Ferraro Sassari',
 				tipo: 'lgbtq',
-				città: 'Sassari',
+				citta: 'Sassari',
 				descrizione: 'Associazione attiva per i diritti LGBTQ+ nella Sardegna settentrionale. Organizza eventi culturali, incontri di sensibilizzazione e offre supporto tra pari.'
 			},
 			{
 				nome: 'AGEDO Sardegna',
 				tipo: 'genitori',
-				città: 'Cagliari',
+				citta: 'Cagliari',
 				sito: 'https://www.agedo.org',
 				descrizione: 'Gruppi di sostegno per genitori e familiari di persone LGBTQ+ in Sardegna. Incontri periodici a Cagliari.'
 			}
@@ -405,7 +405,7 @@ export const batch2: RegioneDettaglio[] = [
 				nome: 'Sportello di Ascolto LGBTQ+ — Arcigay Cagliari',
 				tipo: 'psicologico',
 				ente: 'Arcigay Cagliari',
-				città: 'Cagliari',
+				citta: 'Cagliari',
 				orari: 'Martedì 17:00-19:00',
 				note: 'Ascolto, orientamento ai servizi sanitari e legali, supporto tra pari per persone trans.'
 			}
@@ -526,7 +526,7 @@ export const batch2: RegioneDettaglio[] = [
 		centri_gender: [
 			{
 				nome: 'U.O.C. Endocrinologia — AO Pugliese-Ciaccio',
-				città: 'Catanzaro',
+				citta: 'Catanzaro',
 				indirizzo: 'Viale Pio X, 88100 Catanzaro',
 				telefono: '0961 883 111',
 				sito: 'https://www.aocatanzaro.it',
@@ -534,7 +534,7 @@ export const batch2: RegioneDettaglio[] = [
 			},
 			{
 				nome: 'U.O.C. Endocrinologia — AO di Cosenza',
-				città: 'Cosenza',
+				citta: 'Cosenza',
 				indirizzo: 'Via Felice Migliori, 87100 Cosenza',
 				telefono: '0984 681 111',
 				sito: 'https://www.aocosenza.it',
@@ -545,20 +545,20 @@ export const batch2: RegioneDettaglio[] = [
 			{
 				nome: 'Arcigay Cosenza',
 				tipo: 'lgbtq',
-				città: 'Cosenza',
+				citta: 'Cosenza',
 				sito: 'https://www.arcigaycosenza.it',
 				descrizione: 'Sezione cosentina di Arcigay. Offre sportello di ascolto, consulenza e organizza il Cosenza Pride. Punto di riferimento per le persone LGBTQ+ dell\'area.'
 			},
 			{
 				nome: 'Arcigay Reggio Calabria — I Due Mari',
 				tipo: 'lgbtq',
-				città: 'Reggio Calabria',
+				citta: 'Reggio Calabria',
 				descrizione: 'Sezione reggina di Arcigay. Attiva con sportelli, eventi culturali e supporto per persone LGBTQ+ nella Calabria meridionale.'
 			},
 			{
 				nome: 'AGEDO Calabria',
 				tipo: 'genitori',
-				città: 'Cosenza',
+				citta: 'Cosenza',
 				sito: 'https://www.agedo.org',
 				descrizione: 'Gruppo di sostegno per genitori e familiari di persone LGBTQ+ in Calabria. Incontri periodici e supporto telefonico.'
 			}
@@ -568,7 +568,7 @@ export const batch2: RegioneDettaglio[] = [
 				nome: 'Sportello di Ascolto LGBTQ+ — Arcigay Cosenza',
 				tipo: 'psicologico',
 				ente: 'Arcigay Cosenza',
-				città: 'Cosenza',
+				citta: 'Cosenza',
 				orari: 'Venerdì 16:00-18:00',
 				note: 'Ascolto, orientamento ai servizi e supporto tra pari. Attivo anche per persone trans.'
 			}
@@ -689,7 +689,7 @@ export const batch2: RegioneDettaglio[] = [
 		centri_gender: [
 			{
 				nome: 'U.O.C. Endocrinologia — Ospedale San Salvatore',
-				città: "L'Aquila",
+				citta: "L'Aquila",
 				indirizzo: 'Via Lorenzo Natali 1, 67100 L\'Aquila',
 				telefono: '0862 368 111',
 				sito: 'https://www.asl1abruzzo.it',
@@ -697,7 +697,7 @@ export const batch2: RegioneDettaglio[] = [
 			},
 			{
 				nome: 'U.O.C. Endocrinologia — Ospedale Spirito Santo',
-				città: 'Pescara',
+				citta: 'Pescara',
 				indirizzo: 'Via Renato Paolini 47, 65124 Pescara',
 				telefono: '085 425 2111',
 				sito: 'https://www.asl.pe.it',
@@ -708,20 +708,20 @@ export const batch2: RegioneDettaglio[] = [
 			{
 				nome: 'Arcigay Chieti-Pescara — Sylvia Rivera',
 				tipo: 'lgbtq',
-				città: 'Pescara',
+				citta: 'Pescara',
 				sito: 'https://www.arcigaypescara.it',
 				descrizione: 'Sezione di Arcigay per le province di Chieti e Pescara. Offre sportello di ascolto, consulenza legale e organizza il Pride abruzzese.'
 			},
 			{
 				nome: 'Arcigay Teramo',
 				tipo: 'lgbtq',
-				città: 'Teramo',
+				citta: 'Teramo',
 				descrizione: 'Sezione teramana di Arcigay. Attiva con sportelli di ascolto, eventi culturali e supporto per persone LGBTQ+ nella provincia.'
 			},
 			{
 				nome: 'AGEDO Abruzzo',
 				tipo: 'genitori',
-				città: 'Pescara',
+				citta: 'Pescara',
 				sito: 'https://www.agedo.org',
 				descrizione: 'Gruppi di sostegno per genitori e familiari di persone LGBTQ+ in Abruzzo. Incontri periodici a Pescara e supporto telefonico.'
 			}
@@ -731,7 +731,7 @@ export const batch2: RegioneDettaglio[] = [
 				nome: 'Sportello di Ascolto LGBTQ+ — Arcigay Chieti-Pescara',
 				tipo: 'psicologico',
 				ente: 'Arcigay Chieti-Pescara',
-				città: 'Pescara',
+				citta: 'Pescara',
 				orari: 'Mercoledì 17:00-19:00',
 				note: 'Ascolto, orientamento ai servizi sanitari e legali, supporto tra pari per persone trans e LGBTQ+.'
 			},
@@ -739,7 +739,7 @@ export const batch2: RegioneDettaglio[] = [
 				nome: 'Sportello Legale LGBTQ+',
 				tipo: 'legale',
 				ente: 'Arcigay Chieti-Pescara',
-				città: 'Pescara',
+				citta: 'Pescara',
 				orari: 'Su appuntamento',
 				note: 'Consulenza legale gratuita su rettificazione anagrafica, discriminazione e diritto del lavoro.'
 			}
@@ -860,7 +860,7 @@ export const batch2: RegioneDettaglio[] = [
 		centri_gender: [
 			{
 				nome: 'U.O.C. Endocrinologia — AOU Ospedali Riuniti di Ancona',
-				città: 'Ancona',
+				citta: 'Ancona',
 				indirizzo: 'Via Conca 71, 60126 Ancona',
 				telefono: '071 596 3582',
 				sito: 'https://www.ospedaliriuniti.marche.it',
@@ -868,7 +868,7 @@ export const batch2: RegioneDettaglio[] = [
 			},
 			{
 				nome: 'Ambulatorio di Endocrinologia — Ospedale di Pesaro',
-				città: 'Pesaro',
+				citta: 'Pesaro',
 				indirizzo: 'Piazzale Cinelli 4, 61121 Pesaro',
 				telefono: '0721 361 111',
 				sito: 'https://www.ospedalemarchemord.it',
@@ -879,27 +879,27 @@ export const batch2: RegioneDettaglio[] = [
 			{
 				nome: 'Arcigay Comunitas Ancona',
 				tipo: 'lgbtq',
-				città: 'Ancona',
+				citta: 'Ancona',
 				sito: 'https://www.arcigayancona.it',
 				descrizione: 'Sezione anconetana di Arcigay. Offre sportello di ascolto, consulenza legale e organizza il Marche Pride.'
 			},
 			{
 				nome: 'Arcigay Agorà Pesaro-Urbino',
 				tipo: 'lgbtq',
-				città: 'Pesaro',
+				citta: 'Pesaro',
 				descrizione: 'Sezione pesarese di Arcigay. Attiva con sportelli, eventi culturali e supporto per persone LGBTQ+ nella provincia di Pesaro-Urbino.'
 			},
 			{
 				nome: 'AGEDO Marche',
 				tipo: 'genitori',
-				città: 'Ancona',
+				citta: 'Ancona',
 				sito: 'https://www.agedo.org',
 				descrizione: 'Gruppi di sostegno per genitori e familiari di persone LGBTQ+ nelle Marche. Incontri periodici ad Ancona e supporto telefonico.'
 			},
 			{
 				nome: 'Rete Lenford — referenti Marche',
 				tipo: 'legale',
-				città: 'Ancona',
+				citta: 'Ancona',
 				sito: 'https://www.retelenford.it',
 				descrizione: 'Avvocati della Rete Lenford nelle Marche. Consulenza gratuita su rettificazione anagrafica, discriminazione e diritti LGBTQ+.'
 			}
@@ -909,7 +909,7 @@ export const batch2: RegioneDettaglio[] = [
 				nome: 'Sportello di Ascolto LGBTQ+ — Arcigay Ancona',
 				tipo: 'psicologico',
 				ente: 'Arcigay Comunitas Ancona',
-				città: 'Ancona',
+				citta: 'Ancona',
 				orari: 'Giovedì 17:00-19:00',
 				note: 'Ascolto, orientamento ai servizi sanitari e legali, supporto tra pari per persone trans e LGBTQ+.'
 			},
@@ -917,7 +917,7 @@ export const batch2: RegioneDettaglio[] = [
 				nome: 'Sportello Legale LGBTQ+',
 				tipo: 'legale',
 				ente: 'Arcigay Comunitas Ancona',
-				città: 'Ancona',
+				citta: 'Ancona',
 				orari: 'Su appuntamento',
 				note: 'Consulenza legale gratuita su rettificazione anagrafica e diritti delle persone trans.'
 			}

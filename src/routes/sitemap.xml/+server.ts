@@ -3,6 +3,8 @@ import { getAllQuizzes } from '$lib/utils/quiz';
 import { supabase } from '$lib/server/supabase';
 import regioni from '$lib/data/regioni.json';
 import { regioniDettaglio } from '$lib/data/regioni-dettaglio';
+import comuni from '$lib/data/comuni.json';
+import { cittaDettaglio } from '$lib/data/citta-dettaglio';
 
 export const prerender = false;
 
@@ -61,12 +63,22 @@ export async function GET() {
 			lastmod: regioniDettaglio.get(r.slug)!.ultimoAggiornamento
 		}));
 
+	const cittaUrls = comuni
+		.filter((c) => cittaDettaglio.has(c.slug))
+		.map((c) => ({
+			url: `/citta/${c.slug}`,
+			priority: '0.7',
+			changefreq: 'monthly' as const,
+			lastmod: cittaDettaglio.get(c.slug)!.ultimoAggiornamento
+		}));
+
 	const allUrls = [
 		...pages,
 		...articleUrls,
 		...quizUrls,
 		...newsUrls,
-		...regionUrls
+		...regionUrls,
+		...cittaUrls
 	];
 
 	const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
