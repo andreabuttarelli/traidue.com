@@ -175,16 +175,16 @@
 	</div>
 
 	<!-- Layout testata giornalistica adattata -->
-	<div class="pb-12 border-t border-border pt-8">
+	<div class="pb-12 pt-8">
 		{#if data.articles.length > 0}
-			<!-- Layout per la prima pagina senza filtri: articolo in evidenza + articoli spalla -->
+			<!-- Layout per la prima pagina senza filtri: articolo in evidenza + griglia restanti -->
 			{#if data.currentPage === 1 && !data.currentTag && data.articles[0]}
-				<div class="grid lg:grid-cols-3 gap-8 lg:gap-12 mb-12 border-b border-border pb-12">
-					<!-- Articolo in evidenza (Occupa 2 colonne su schermi grandi) -->
-					<div class="lg:col-span-2 group block">
-						<a href="/editoriali/{data.articles[0].slug}" class="block h-full flex flex-col">
+				<div class="mb-12 pb-12">
+					<!-- Articolo in evidenza (Occupa tutta la larghezza) -->
+					<div class="group block">
+						<a href="/editoriali/{data.articles[0].slug}" class="block h-full flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
 							{#if data.articles[0].thumb}
-								<div class="aspect-[16/9] overflow-hidden rounded-xl mb-5 bg-surface">
+								<div class="w-full lg:w-2/3 aspect-[16/9] overflow-hidden rounded-xl bg-surface flex-shrink-0">
 									<img
 										src={data.articles[0].thumb}
 										alt={data.articles[0].title}
@@ -196,53 +196,30 @@
 									/>
 								</div>
 							{/if}
-							<div class="flex flex-col flex-grow">
-								<h2 class="text-2xl sm:text-3xl lg:text-4xl font-heading font-semibold text-primary mb-3 leading-tight group-hover:underline underline-offset-4">
+							<div class="flex flex-col flex-grow w-full lg:w-1/3">
+								<h2 class="text-2xl sm:text-3xl lg:text-4xl font-heading font-semibold text-primary mb-4 leading-tight group-hover:underline underline-offset-4">
 									{data.articles[0].title}
 								</h2>
-								<p class="text-base text-muted mb-4 line-clamp-3 leading-relaxed">
+								<p class="text-base text-muted mb-6 line-clamp-4 leading-relaxed">
 									{data.articles[0].summary}
 								</p>
-								<div class="flex items-center gap-3 text-sm text-muted mt-auto pt-2 border-t border-border">
+								<div class="flex items-center gap-3 text-sm text-muted mt-auto pt-4">
 									{#if data.articles[0].published_at}
 										<time datetime={data.articles[0].published_at}>{formatDate(data.articles[0].published_at)}</time>
 									{/if}
-									<span>·</span>
-									<span class="font-medium">{data.articles[0].source_title}</span>
 								</div>
 							</div>
 						</a>
 					</div>
-					
-					<!-- Articoli "spalla" -->
-					<div class="lg:col-span-1 flex flex-col gap-8">
-						{#each data.articles.slice(1, 4) as article}
-							<a href="/editoriali/{article.slug}" class="group block border-b border-border border-opacity-50 pb-8 last:border-0 last:pb-0">
-								<h3 class="text-lg sm:text-xl font-heading font-semibold text-primary mb-2 leading-snug group-hover:underline underline-offset-4">
-									{article.title}
-								</h3>
-								<p class="text-sm text-muted mb-3 line-clamp-2">
-									{article.summary}
-								</p>
-								<div class="flex items-center gap-2 text-xs text-muted">
-									{#if article.published_at}
-										<time datetime={article.published_at}>{formatDate(article.published_at)}</time>
-									{/if}
-									<span>·</span>
-									<span class="font-medium">{article.source_title}</span>
-								</div>
-							</a>
-						{/each}
-					</div>
 				</div>
 				
 				<!-- Griglia per i restanti articoli -->
-				{#if data.articles.length > 4}
+				{#if data.articles.length > 1}
 					<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10 sm:gap-x-8 sm:gap-y-12">
-						{#each data.articles.slice(4) as article}
+						{#each data.articles.slice(1) as article}
 							<a href="/editoriali/{article.slug}" class="group block flex flex-col h-full">
 								{#if article.thumb}
-									<div class="aspect-[16/9] overflow-hidden rounded-xl mb-4 bg-surface">
+									<div class="aspect-[16/9] overflow-hidden rounded-xl mb-4 bg-surface flex-shrink-0">
 										<img
 											src={article.thumb}
 											alt={article.title}
@@ -257,15 +234,13 @@
 								<h3 class="text-lg font-heading font-semibold text-primary group-hover:underline underline-offset-4 mb-2 leading-snug">
 									{article.title}
 								</h3>
-								<p class="text-sm text-muted mb-3 line-clamp-3 flex-grow">
+								<p class="text-sm text-muted mb-4 line-clamp-3 flex-grow">
 									{article.summary}
 								</p>
-								<div class="flex items-center gap-2 text-xs text-muted mt-auto pt-3 border-t border-border border-opacity-50">
+								<div class="flex items-center gap-2 text-xs text-muted mt-auto">
 									{#if article.published_at}
 										<time datetime={article.published_at}>{formatDate(article.published_at)}</time>
 									{/if}
-									<span>·</span>
-									<span class="font-medium">{article.source_title}</span>
 								</div>
 							</a>
 						{/each}
@@ -277,7 +252,7 @@
 					{#each data.articles as article}
 						<a href="/editoriali/{article.slug}" class="group block flex flex-col h-full">
 							{#if article.thumb}
-								<div class="aspect-[16/9] overflow-hidden rounded-xl mb-4 bg-surface">
+								<div class="aspect-[16/9] overflow-hidden rounded-xl mb-4 bg-surface flex-shrink-0">
 									<img
 										src={article.thumb}
 										alt={article.title}
@@ -292,15 +267,13 @@
 							<h3 class="text-lg font-heading font-semibold text-primary group-hover:underline underline-offset-4 mb-2 leading-snug">
 								{article.title}
 							</h3>
-							<p class="text-sm text-muted mb-3 line-clamp-3 flex-grow">
+							<p class="text-sm text-muted mb-4 line-clamp-3 flex-grow">
 								{article.summary}
 							</p>
-							<div class="flex items-center gap-2 text-xs text-muted mt-auto pt-3 border-t border-border border-opacity-50">
+							<div class="flex items-center gap-2 text-xs text-muted mt-auto">
 								{#if article.published_at}
 									<time datetime={article.published_at}>{formatDate(article.published_at)}</time>
 								{/if}
-								<span>·</span>
-								<span class="font-medium">{article.source_title}</span>
 							</div>
 						</a>
 					{/each}
@@ -314,7 +287,7 @@
 	</div>
 
 	{#if data.totalPages > 1}
-		<nav class="flex justify-center gap-4 py-8 mb-4 border-t border-border">
+		<nav class="flex justify-center gap-4 py-8 mb-4">
 			{#if data.currentPage > 1}
 				<a
 					href="/editoriali?page={data.currentPage - 1}{data.currentTag ? `&tag=${data.currentTag}` : ''}"
