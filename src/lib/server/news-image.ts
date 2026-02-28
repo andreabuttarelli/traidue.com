@@ -62,20 +62,44 @@ export async function processNewsImage(
 const MAX_RETRIES = 3;
 const RETRY_DELAY_MS = 2000;
 
+const STYLE_REFERENCE_URL =
+	'https://vkasizlzkcvvuykoguek.supabase.co/storage/v1/object/public/news-images/generated_ref_1772026325362_0.png.jpeg';
+
+let cachedReferenceImage: string | null = null;
+
+async function getReferenceImage(): Promise<string | null> {
+	if (cachedReferenceImage) return cachedReferenceImage;
+	try {
+		const res = await fetch(STYLE_REFERENCE_URL, { signal: AbortSignal.timeout(10_000) });
+		if (!res.ok) return null;
+		const buf = Buffer.from(await res.arrayBuffer());
+		cachedReferenceImage = buf.toString('base64');
+		return cachedReferenceImage;
+	} catch {
+		return null;
+	}
+}
+
 async function generateImage(title: string, tags: string[]): Promise<Buffer | null> {
 	const tagHint = tags.slice(0, 3).join(', ');
-	const prompt = `Abstract impasto oil painting on dark canvas inspired by: "${title}". Themes: ${tagHint}. STYLE: thick palette knife strokes, heavy paint texture, dark moody background with vivid color splashes and gold/orange accents scattered across, abstract forms that vaguely evoke the theme without being literal, paint drips and splatters, full canvas coverage edge to edge. MUST NOT include: any text, words, letters, labels, captions, borders, frames, empty space, realistic human faces or photographs.`;
+	const prompt = `Generate an image in the EXACT same style as the reference image provided. Abstract impasto oil painting on dark canvas inspired by: "${title}". Themes: ${tagHint}. Match the reference style: thick palette knife strokes, heavy paint texture, dark moody background with vivid color splashes and gold/orange accents scattered across, abstract forms that vaguely evoke the theme without being literal, paint drips and splatters, full canvas coverage edge to edge. MUST NOT include: any text, words, letters, labels, captions, borders, frames, empty space, realistic human faces or photographs.`;
+
+	const referenceBase64 = await getReferenceImage();
 
 	for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
 		try {
+			const parts: Array<{ text: string } | { inlineData: { mimeType: string; data: string } }> = [];
+
+			if (referenceBase64) {
+				parts.push({
+					inlineData: { mimeType: 'image/jpeg', data: referenceBase64 }
+				});
+			}
+			parts.push({ text: prompt });
+
 			const result = await genai.models.generateContent({
 				model: IMAGE_MODEL,
-				contents: [
-					{
-						role: 'user',
-						parts: [{ text: prompt }]
-					}
-				],
+				contents: [{ role: 'user', parts }],
 				config: {
 					responseModalities: ['IMAGE'],
 					imageConfig: {
