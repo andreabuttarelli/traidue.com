@@ -126,36 +126,6 @@ FORMATO RISPOSTA (JSON):
 
 TAG VALIDI: transgender, lgbtq, diritti-civili, aborto, eutanasia, fine-vita, identita-di-genere, discriminazione, politica, internazionale, italia, usa, europa, sport, salute, cultura, sondaggi, intelligenza-artificiale, diritti-riproduttivi, buone-notizie`;
 
-export async function processNewsItems(items: RSSItem[]): Promise<GeneratedArticle[]> {
-	if (!items.length) return [];
-
-	// Fetch recent articles from DB to avoid duplicates across runs
-	const recentTitles = await getRecentArticleTitles();
-
-	// Phase 1: rank all items (with context of already-published articles)
-	const ranked = await rankItems(items, recentTitles);
-	if (!ranked.length) return [];
-
-	// Take top N
-	const topItems = ranked.slice(0, MAX_ARTICLES_PER_RUN);
-	console.log(
-		`[News] Ranked ${ranked.length} relevant items. Generating editorials for top ${topItems.length}:`,
-		topItems.map((r) => `#${r.originalIndex} (score ${r.score}): ${r.reason}`).join(' | ')
-	);
-
-	// Phase 2: generate editorial for each top item (one by one for better quality)
-	const generated: GeneratedArticle[] = [];
-	for (const ranked of topItems) {
-		const item = items[ranked.originalIndex];
-		if (!item) continue;
-
-		const article = await generateEditorial(item);
-		if (article) generated.push(article);
-	}
-
-	return generated;
-}
-
 export interface RankedItem {
 	originalIndex: number;
 	score: number;
