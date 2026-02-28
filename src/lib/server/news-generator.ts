@@ -1,10 +1,10 @@
 import { GEMINI_API_KEY } from '$env/static/private';
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import { GoogleGenAI } from '@google/genai';
 import type { RSSItem } from './rss';
 import { supabase } from './supabase';
 
-const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
-const model = genAI.getGenerativeModel({ model: 'gemini-3.1-pro-preview' });
+const genai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
+const MODEL = 'gemini-3.1-pro-preview';
 
 export interface GeneratedArticle {
 	title: string;
@@ -202,10 +202,13 @@ async function rankItems(items: RSSItem[], recentTitles: string[]): Promise<Rank
 		? `\n\nARTICOLI GIÀ PUBBLICATI SULLA PIATTAFORMA:\n${recentTitles.map((t) => `- "${t}"`).join('\n')}`
 		: '';
 
-	const result = await model.generateContent({
+	const result = await genai.models.generateContent({
+		model: MODEL,
 		contents: [{ role: 'user', parts: [{ text: `Notizie da classificare:\n\n${itemsList}${alreadyPublished}` }] }],
-		systemInstruction: { role: 'user', parts: [{ text: RANKING_PROMPT }] },
-		generationConfig: { responseMimeType: 'application/json' }
+		config: {
+			systemInstruction: RANKING_PROMPT,
+			responseMimeType: 'application/json'
+		}
 	});
 
 	let parsed: {
@@ -214,9 +217,9 @@ async function rankItems(items: RSSItem[], recentTitles: string[]): Promise<Rank
 	};
 
 	try {
-		parsed = JSON.parse(result.response.text());
+		parsed = JSON.parse(result.text ?? '');
 	} catch {
-		console.error('Failed to parse ranking response:', result.response.text().slice(0, 500));
+		console.error('Failed to parse ranking response:', (result.text ?? '').slice(0, 500));
 		return [];
 	}
 
@@ -241,10 +244,14 @@ export async function generateSingleEditorial(item: RSSItem): Promise<GeneratedA
 async function generateEditorial(item: RSSItem): Promise<GeneratedArticle | null> {
 	const input = `Notizia da commentare:\n\n"${item.title.slice(0, 200)}" — ${item.sourceName}\n${item.description.slice(0, 500)}`;
 
-	const result = await model.generateContent({
+	const result = await genai.models.generateContent({
+		model: MODEL,
 		contents: [{ role: 'user', parts: [{ text: input }] }],
-		systemInstruction: { role: 'user', parts: [{ text: EDITORIAL_PROMPT }] },
-		generationConfig: { responseMimeType: 'application/json' }
+		config: {
+			systemInstruction: EDITORIAL_PROMPT,
+			responseMimeType: 'application/json',
+			tools: [{ googleSearch: {} }]
+		}
 	});
 
 	let parsed: {
@@ -256,9 +263,9 @@ async function generateEditorial(item: RSSItem): Promise<GeneratedArticle | null
 	};
 
 	try {
-		parsed = JSON.parse(result.response.text());
+		parsed = JSON.parse(result.text ?? '');
 	} catch {
-		console.error('Failed to parse editorial response:', result.response.text().slice(0, 500));
+		console.error('Failed to parse editorial response:', (result.text ?? '').slice(0, 500));
 		return null;
 	}
 

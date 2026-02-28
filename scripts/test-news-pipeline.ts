@@ -454,7 +454,7 @@ for (const article of articles) {
 // =============================================
 console.log('\n=== STEP 7: Generating images ===');
 
-const IMAGE_MODEL = 'gemini-2.5-flash-image';
+const IMAGE_MODEL = 'gemini-3.1-flash-image-preview';
 const BUCKET = 'news-images';
 
 for (const draft of drafts) {

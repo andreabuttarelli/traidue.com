@@ -21,7 +21,7 @@ const prompt = `Abstract impasto oil painting on dark canvas inspired by: "${tit
 
 console.log('Generating image...');
 const result = await genai.models.generateContent({
-	model: 'gemini-2.5-flash-image',
+	model: 'gemini-3.1-flash-image-preview',
 	contents: [{ role: 'user', parts: [{ text: prompt }] }],
 	config: {
 		responseModalities: ['IMAGE'],

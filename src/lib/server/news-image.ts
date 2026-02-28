@@ -9,7 +9,7 @@ const FULL_HEIGHT = 768;
 const THUMB_WIDTH = 672;
 const THUMB_HEIGHT = 378;
 
-const IMAGE_MODEL = 'gemini-2.5-flash-image';
+const IMAGE_MODEL = 'gemini-3.1-flash-image-preview';
 
 const genai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 
@@ -82,7 +82,16 @@ async function getReferenceImage(): Promise<string | null> {
 
 async function generateImage(title: string, tags: string[]): Promise<Buffer | null> {
 	const tagHint = tags.slice(0, 3).join(', ');
-	const prompt = `Generate an image in the EXACT same style as the reference image provided. Abstract impasto oil painting on dark canvas inspired by: "${title}". Themes: ${tagHint}. Match the reference style: thick palette knife strokes, heavy paint texture, dark moody background with vivid color splashes and gold/orange accents scattered across, abstract forms that vaguely evoke the theme without being literal, paint drips and splatters, full canvas coverage edge to edge. MUST NOT include: any text, words, letters, labels, captions, borders, frames, empty space, realistic human faces or photographs.`;
+	const prompt = `Use the reference image as a STYLE GUIDE ONLY — match its soft digital painting technique: bokeh light effects, soft blurred brushwork, silhouettes and semi-abstract human figures. DO NOT copy the specific subject or composition of the reference.
+
+Create a NEW illustration for this news headline: "${title}". Themes: ${tagHint}.
+
+IMPORTANT — MOOD MUST MATCH THE CONTENT:
+- If the news is negative (discrimination, attacks on rights, violence, bans, restrictions): use darker, desaturated tones, cold blues, grays, deep purples, shadows, isolated or oppressed figures, dramatic lighting, tension and weight. Evoke sadness, injustice, or struggle.
+- If the news is positive (victories, new rights, inclusion, milestones): use warm, luminous pastels, glowing light, people together, hope and celebration.
+- If the news is neutral/informational: balanced palette, neither too dark nor too bright.
+
+The subject of the image should LOOSELY represent the topic — not literally, but evocatively. Use silhouettes, semi-abstract human figures, and symbolic visual metaphors. MUST NOT include: any text, words, letters, labels, captions, borders, frames, realistic detailed faces, or photographs.`;
 
 	const referenceBase64 = await getReferenceImage();
 
