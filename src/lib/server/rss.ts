@@ -40,8 +40,8 @@ export async function fetchAllFeeds(): Promise<RSSItem[]> {
 		}
 	}
 
-	// Keep only items from the last 48 hours
-	const cutoff = Date.now() - 48 * 60 * 60 * 1000;
+	// Keep only items from the last 72 hours
+	const cutoff = Date.now() - 72 * 60 * 60 * 1000;
 	return allItems.filter((item) => {
 		if (!item.pubDate) return true; // no date = keep (let Gemini decide)
 		const parsed = new Date(item.pubDate).getTime();

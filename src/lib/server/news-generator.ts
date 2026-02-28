@@ -17,22 +17,34 @@ export interface GeneratedArticle {
 	sourceDate: string;
 }
 
-const MAX_ARTICLES_PER_RUN = 3;
+const MAX_ARTICLES_PER_RUN = 5;
 
 // --- Phase 1: Ranking ---
 
 const RANKING_PROMPT = `Sei un caporedattore esperto di diritti civili e tematiche LGBTQ+ per traidue.com, un sito informativo italiano.
 
 COMPITO: Ricevi una lista di notizie. Devi:
-1. Filtrare solo quelle RILEVANTI (transgender, LGBTQ+, diritti civili, aborto, eutanasia, fine vita, identità di genere)
+1. Filtrare solo quelle RILEVANTI per la community e le community affini
 2. Classificarle per URGENZA e IMPATTO — dalla più importante alla meno importante
+
+TEMI RILEVANTI:
+- Transgender, LGBTQ+, diritti civili, identità di genere, disforia di genere
+- Aborto, eutanasia, fine vita, diritti riproduttivi
+- Sondaggi politici e polls sui diritti civili/LGBTQ+
+- Situazione legale negli USA: leggi anti-trans, executive orders, sentenze SCOTUS, dichiarazioni del presidente USA contro persone LGBT
+- Elezioni e politica europea: risultati elettorali, nuove leggi, diritti in Europa
+- Diritti riproduttivi in Europa e nel mondo
+- Intelligenza artificiale: novità, regolamentazioni, impatti sulla società, bias e discriminazione algoritmica
+- Buone notizie per la community: vittorie legali, riconoscimenti, traguardi
 
 CRITERI DI RANKING (dal più al meno prioritario):
 - Nuove leggi, sentenze, o provvedimenti che impattano direttamente i diritti delle persone
-- Dichiarazioni ufficiali di politici, istituzioni, o figure di rilievo
+- Dichiarazioni ufficiali di politici, istituzioni, o figure di rilievo (es. presidente USA, leader europei)
+- Sondaggi e polls rilevanti per la community (opinione pubblica su diritti, elezioni)
 - Episodi di discriminazione, violenza, o ingiustizia documentati
-- Avanzamenti significativi nei diritti (nuove tutele, riconoscimenti)
-- Notizie internazionali con implicazioni dirette per l'Italia
+- Avanzamenti significativi nei diritti (nuove tutele, riconoscimenti, vittorie legali)
+- Notizie internazionali con implicazioni dirette per l'Italia o la community globale
+- Novità rilevanti sull'intelligenza artificiale (regolamentazioni, bias, impatti sociali)
 - Ricerche scientifiche o accademiche rilevanti
 - Notizie culturali, editoriali, o di costume
 
@@ -108,7 +120,7 @@ FORMATO RISPOSTA (JSON):
   "tags": ["transgender", "diritti-civili"]
 }
 
-TAG VALIDI: transgender, lgbtq, diritti-civili, aborto, eutanasia, fine-vita, identita-di-genere, discriminazione, politica, internazionale, italia, sport, salute, cultura`;
+TAG VALIDI: transgender, lgbtq, diritti-civili, aborto, eutanasia, fine-vita, identita-di-genere, discriminazione, politica, internazionale, italia, usa, europa, sport, salute, cultura, sondaggi, intelligenza-artificiale, diritti-riproduttivi, buone-notizie`;
 
 export async function processNewsItems(items: RSSItem[]): Promise<GeneratedArticle[]> {
 	if (!items.length) return [];
@@ -140,10 +152,26 @@ export async function processNewsItems(items: RSSItem[]): Promise<GeneratedArtic
 	return generated;
 }
 
-interface RankedItem {
+export interface RankedItem {
 	originalIndex: number;
 	score: number;
 	reason: string;
+}
+
+export async function rankNewsItems(items: RSSItem[]): Promise<RankedItem[]> {
+	if (!items.length) return [];
+
+	const recentTitles = await getRecentArticleTitles();
+	const ranked = await rankItems(items, recentTitles);
+	if (!ranked.length) return [];
+
+	const topItems = ranked.slice(0, MAX_ARTICLES_PER_RUN);
+	console.log(
+		`[News] Ranked ${ranked.length} relevant items. Dispatching top ${topItems.length}:`,
+		topItems.map((r) => `#${r.originalIndex} (score ${r.score}): ${r.reason}`).join(' | ')
+	);
+
+	return topItems;
 }
 
 async function getRecentArticleTitles(): Promise<string[]> {
@@ -204,6 +232,10 @@ async function rankItems(items: RSSItem[], recentTitles: string[]): Promise<Rank
 			score: r.relevance_score,
 			reason: r.reason
 		}));
+}
+
+export async function generateSingleEditorial(item: RSSItem): Promise<GeneratedArticle | null> {
+	return generateEditorial(item);
 }
 
 async function generateEditorial(item: RSSItem): Promise<GeneratedArticle | null> {
