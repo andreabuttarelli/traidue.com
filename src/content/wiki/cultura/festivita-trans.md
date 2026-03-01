@@ -61,6 +61,8 @@ faq:
   - question: "Perché esistono giornate dedicate alle persone trans?"
     answer: "Le giornate dedicate alle persone trans servono a sensibilizzare l'opinione pubblica, commemorare le vittime della violenza transfobica, celebrare i traguardi raggiunti e promuovere il dialogo sui diritti ancora da conquistare. Queste ricorrenze creano spazi di visibilità in una società che spesso marginalizza le esperienze trans."
 related:
+  - tdor
+  - tdov
   - storia-movimento-trans
   - allies-guida
   - diritti-trans-nel-mondo
@@ -69,6 +71,8 @@ related:
 Le persone trans hanno le proprie giornate, le proprie settimane di consapevolezza, i propri mesi di orgoglio. Non sono date scelte a caso: ognuna nasce da una storia precisa, spesso da un lutto, talvolta da un atto di ribellione, sempre dalla volontà di una comunità di non essere dimenticata. Conoscere queste ricorrenze significa comprendere la storia delle persone transgender -- le battaglie combattute, le vite perdute e quelle celebrate.
 
 ## Transgender Day of Remembrance (20 novembre)
+
+*Approfondimento: [Transgender Day of Remembrance (TDoR)](/wiki/tdor)*
 
 ### L'omicidio di Rita Hester
 
@@ -91,6 +95,8 @@ I numeri restano allarmanti. Tra ottobre 2024 e settembre 2025, sono stati docum
 In Italia, il TDoR viene commemorato in numerose città con fiaccolate, veglie e letture pubbliche organizzate da associazioni come **Arcigay**, il **MIT** (Movimento Identità Trans) e i collettivi trans locali. A Torino, ogni 20 novembre si tiene una manifestazione in Piazza Castello; a Napoli e Roma, le commemorazioni si svolgono in luoghi simbolici legati alla violenza transfobica.
 
 ## Transgender Day of Visibility (31 marzo)
+
+*Approfondimento: [Transgender Day of Visibility (TDoV)](/wiki/tdov)*
 
 ### Perché non bastava il TDoR
 
