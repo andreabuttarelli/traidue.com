@@ -294,10 +294,10 @@ const dati: CittaDettaglio[] = [
 		provincia: 'BO',
 		intro: 'Bologna è storicamente una delle città più progressiste d\'Italia per i diritti delle persone transgender. Sede nazionale del MIT (Movimento Identità Trans), fondato nel 1982, la città rappresenta un punto di riferimento per l\'attivismo e i servizi dedicati alle persone trans in tutto il Paese. La presenza dell\'Università di Bologna e del Cassero LGBTQ+ Center contribuisce a creare un tessuto sociale particolarmente inclusivo e attento alle tematiche di genere. Il Policlinico Sant\'Orsola-Malpighi offre un percorso di affermazione di genere strutturato e multidisciplinare, riconosciuto a livello nazionale.',
 		metaDescription: 'Guida completa alle risorse trans a Bologna: centri gender al Sant\'Orsola, MIT, Cassero LGBTQ+, sportelli, iter sanitario e storia queer della città.',
-		contesto_locale: '',
-		centri_gender_intro: '',
-		associazioni_intro: '',
-		sportelli_intro: '',
+		contesto_locale: 'Bologna occupa un posto unico nella storia dei diritti delle persone transgender in Italia. Qui ha sede il MIT (Movimento Identità Trans), fondato nel 1979 come Movimento Italiano Transessuali e attivo nella sede bolognese dal 1988 — l\'unico nucleo MIT ancora operativo a livello nazionale. Nel 1994 il Comune di Bologna concesse al MIT una sede propria in via Polese 22, dando vita al primo consultorio al mondo gestito direttamente da persone trans. Nel 1995 Marcella Di Folco, presidente del MIT, fu eletta consigliera comunale di Bologna con i Verdi, diventando la prima donna trans al mondo a ricoprire una carica elettiva. Nel 2023 il Comune di Bologna ha introdotto la carriera alias per dipendenti comunali e cittadini, primo comune in Italia a farlo sia per il personale sia per chi accede ai servizi pubblici. La rete sanitaria fa perno sul Policlinico Sant\'Orsola-Malpighi, centro di riferimento regionale dell\'Emilia-Romagna, e sul consultorio MIT convenzionato con l\'AUSL di Bologna, che offre supporto psicologico, endocrinologico e accompagnamento ai servizi sanitari tramite SSN.',
+		centri_gender_intro: 'A Bologna il percorso di affermazione di genere è coordinato dal Centro per la Salute delle Persone Trans del Policlinico Sant\'Orsola-Malpighi, centro di riferimento regionale. L\'accesso avviene tramite impegnativa del medico di base per visita psicologica clinica; l\'équipe multidisciplinare include endocrinologi, psicologi, chirurghi plastici e urologi. L\'AUSL di Bologna offre inoltre un ambulatorio dedicato all\'identità di genere in via Altura. I tempi di attesa per il primo appuntamento al Sant\'Orsola possono variare da 2 a 6 mesi, e tutte le prestazioni sono coperte dal SSN.',
+		associazioni_intro: 'Il MIT (Movimento Identità Trans) è il principale punto di riferimento per le persone trans a Bologna e in tutta Italia, con servizi gratuiti di sportello di ascolto, supporto legale, accompagnamento sanitario, accoglienza abitativa e inserimento lavorativo. Il Cassero LGBTQ+ Center offre sportello legale, gruppi di auto-mutuo-aiuto e attività culturali dedicate anche alle persone trans e non binarie. Il Gruppo Trans APS, anch\'esso attivo a Bologna, gestisce lo Sportello APAG per l\'accompagnamento al percorso di affermazione di genere e il servizio nutrizionale Nutra in collaborazione con l\'AUSL.',
+		sportelli_intro: 'Il Comune di Bologna ha sottoscritto un Patto di Collaborazione LGBTQIA+ che coinvolge oltre 20 associazioni e prevede 104 progetti su servizi, formazione e cultura. Lo Sportello Antidiscriminazioni (SPAD), gestito dal Comune presso il Centro Interculturale Zonarelli, accoglie e orienta vittime o testimoni di discriminazioni, comprese quelle basate sull\'identità di genere. Il Cassero LGBTQ+ Center gestisce inoltre un centro antidiscriminazione con sportello legale, sportello psicologico e il servizio Telefono Amico Cassero.',
 		image: '/images/citta/bologna.webp',
 		centri_gender: [
 			{
@@ -500,6 +500,26 @@ const dati: CittaDettaglio[] = [
 			{
 				domanda: 'Bologna offre servizi per minori transgender?',
 				risposta: 'Sì, dal 2023 l\'AUSL Bologna ha attivato un percorso dedicato ai minori transgender presso il servizio di Neuropsichiatria dell\'Infanzia e dell\'Adolescenza, con un\'équipe che include neuropsichiatra, psicologo e pediatra endocrinologo. Anche il MIT offre supporto e orientamento per famiglie con minori trans.'
+			},
+			{
+				domanda: 'Cos\'è il centro per la disforia di genere a Bologna e come si accede?',
+				risposta: 'Il Centro per la Salute delle Persone Trans al Policlinico Sant\'Orsola-Malpighi è il centro di riferimento regionale dell\'Emilia-Romagna per i percorsi di affermazione di genere. L\'accesso avviene tramite impegnativa del medico di base per visita psicologica clinica. L\'équipe multidisciplinare comprende psicologi, endocrinologi, chirurghi plastici e urologi. Il percorso è interamente coperto dal Servizio Sanitario Nazionale. In alternativa, è possibile rivolgersi al consultorio del MIT, convenzionato con AUSL e Sant\'Orsola, che offre supporto psicoterapeutico ed endocrinologico.'
+			},
+			{
+				domanda: 'Quali sono i tempi di attesa per la transizione a Bologna?',
+				risposta: 'I tempi di attesa per il primo appuntamento al Centro del Policlinico Sant\'Orsola-Malpighi possono variare da 2 a 6 mesi. La fase di valutazione psicologica richiede generalmente dai 6 ai 12 mesi, dopo i quali si può accedere alla terapia ormonale sostitutiva (1-2 mesi dalla valutazione). Per gli eventuali interventi chirurgici, la lista d\'attesa può essere di 1-2 anni. Nel frattempo, è consigliabile rivolgersi al MIT per supporto e accompagnamento durante l\'attesa.'
+			},
+			{
+				domanda: 'Cos\'è il MIT di Bologna e cosa offre alle persone trans?',
+				risposta: 'Il MIT (Movimento Identità Trans) è la più antica associazione trans d\'Italia, fondata nel 1979 e con sede operativa a Bologna dal 1988 in via Polese 22. Offre gratuitamente sportello di ascolto, consultorio psicologico convenzionato con l\'AUSL, supporto legale, accompagnamento ai servizi sanitari, accoglienza abitativa per persone in emergenza, e progetti di inserimento lavorativo. Il MIT ha anche un ruolo storico: ha contribuito all\'approvazione della Legge 164/1982 e nel 1994 ha aperto il primo consultorio al mondo gestito da persone trans.'
+			},
+			{
+				domanda: 'Esistono servizi di supporto per le famiglie di persone trans a Bologna?',
+				risposta: 'Sì, a Bologna AGEDO Emilia-Romagna (con sede presso il Cassero, via Don Minzoni 18) organizza gruppi di sostegno mensili per genitori, parenti e amici di persone LGBTQ+, incluse le famiglie di persone trans. Il consultorio del MIT offre supporto psicologico dedicato alle coppie e alle famiglie. Il Patto di Collaborazione LGBTQIA+ del Comune prevede inoltre incontri di community building aperti a persone transgender e ai loro familiari, organizzati dal Gruppo Trans APS.'
+			},
+			{
+				domanda: 'Come si inizia il percorso di transizione a Bologna?',
+				risposta: 'Per iniziare il percorso a Bologna ci sono diverse opzioni. La via principale è richiedere al proprio medico di base un\'impegnativa per il Centro per la Salute delle Persone Trans al Sant\'Orsola-Malpighi. È anche possibile contattare l\'Ambulatorio Identità di Genere dell\'AUSL Bologna (via Altura 3) tramite CUP, oppure il consultorio del MIT (051 271666) che offre orientamento e accompagnamento gratuiti. Il MIT è spesso il primo punto di contatto consigliato, poiché può guidarti nella scelta del percorso più adatto e ridurre i tempi di attesa attraverso l\'accompagnamento ai servizi.'
 			}
 		],
 		articoli_correlati: [
