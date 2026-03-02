@@ -150,6 +150,7 @@
 		: `Risorse trans a ${data.comune.nome}`}
 	description={data.dettaglio?.metaDescription ?? `Informazioni sulle tematiche trans per le persone di ${data.comune.nome}, ${data.comune.regione}. Articoli scientifici, risorse e supporto.`}
 	url="https://www.traidue.com/citta/{data.comune.slug}"
+	image={data.dettaglio?.image ? `https://www.traidue.com${data.dettaglio.image}` : undefined}
 	noindex={!data.isRich}
 />
 
@@ -180,6 +181,14 @@
 			<article class="min-w-0 flex-1">
 				<!-- 1. Hero / Intro -->
 				<header class="mb-10 sm:mb-14">
+					{#if data.dettaglio.image}
+						<img
+							src={data.dettaglio.image}
+							alt="Risorse trans a {data.comune.nome}"
+							class="w-full h-48 sm:h-64 object-cover rounded-xl mb-6"
+							loading="eager"
+						/>
+					{/if}
 					<h1 class="text-2xl sm:text-3xl lg:text-4xl font-heading font-semibold tracking-tight text-primary mb-4">
 						Risorse trans a {data.comune.nome}
 					</h1>
@@ -192,12 +201,28 @@
 					</div>
 				</header>
 
+				{#if data.dettaglio.contesto_locale}
+					<section class="mb-12 sm:mb-16">
+						<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-4">
+							La situazione a {data.comune.nome}
+						</h2>
+						<p class="text-base text-primary/80 leading-relaxed max-w-3xl">
+							{data.dettaglio.contesto_locale}
+						</p>
+					</section>
+				{/if}
+
 				<!-- 2. Centri di identità di genere -->
 				{#if data.dettaglio.centri_gender.length > 0}
 					<section class="mb-12 sm:mb-16">
 						<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-6">
 							Centri di identità di genere
 						</h2>
+						{#if data.dettaglio.centri_gender_intro}
+							<p class="text-base text-primary/80 leading-relaxed mb-6 max-w-3xl">
+								{data.dettaglio.centri_gender_intro}
+							</p>
+						{/if}
 						<div class="grid sm:grid-cols-2 gap-4 sm:gap-6">
 							{#each data.dettaglio.centri_gender as centro}
 								<div class="p-5 rounded-xl border border-border">
@@ -226,6 +251,11 @@
 						<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-6">
 							Associazioni e supporto
 						</h2>
+						{#if data.dettaglio.associazioni_intro}
+							<p class="text-base text-primary/80 leading-relaxed mb-6 max-w-3xl">
+								{data.dettaglio.associazioni_intro}
+							</p>
+						{/if}
 						{#each gruppiAssociazioni as [tipo, lista]}
 							{#if lista}
 								<h3 class="text-base font-semibold text-primary mb-3 mt-6 first:mt-0">{tipiAssociazione[tipo] ?? tipo}</h3>
@@ -260,6 +290,11 @@
 						<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-6">
 							Sportelli e servizi
 						</h2>
+						{#if data.dettaglio.sportelli_intro}
+							<p class="text-base text-primary/80 leading-relaxed mb-6 max-w-3xl">
+								{data.dettaglio.sportelli_intro}
+							</p>
+						{/if}
 						{#each gruppiSportelli as [tipo, lista]}
 							{#if lista}
 								<h3 class="text-base font-semibold text-primary mb-3 mt-6 first:mt-0">{tipiSportello[tipo] ?? tipo}</h3>
