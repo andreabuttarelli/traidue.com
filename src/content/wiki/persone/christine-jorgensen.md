@@ -1,10 +1,10 @@
 ---
 title: "Christine Jorgensen: la donna che cambiò il mondo"
-seoTitle: "Chi era Christine Jorgensen?"
+seoTitle: "Christine Jorgensen: chi era, storia e perché è importante"
 slug: "christine-jorgensen"
-description: "Biografia di Christine Jorgensen (1926-1989), la prima persona trans americana a diventare famosa a livello mondiale dopo il suo intervento chirurgico nel 1952."
+description: "Christine Jorgensen (1926-1989), prima donna transgender americana famosa nel mondo. La sua transizione nel 1952 cambiò la percezione pubblica."
 category: "persone"
-tags: ["storia", "chirurgia", "Stati Uniti", "anni '50", "visibilità trans"]
+tags: ["storia", "chirurgia", "Stati Uniti", "anni '50", "visibilità trans", "prima donna trans famosa", "America", "New York", "media"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/christine-jorgensen.webp"

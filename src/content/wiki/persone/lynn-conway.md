@@ -1,10 +1,10 @@
 ---
 title: "Lynn Conway: la scienziata che rivoluzionò l'informatica"
-seoTitle: "Chi era Lynn Conway?"
+seoTitle: "Lynn Conway: chi era, storia e perché è importante"
 slug: "lynn-conway"
-description: "Biografia di Lynn Conway (1938-2024), scienziata informatica e ingegnera che rivoluzionò la progettazione dei microchip, licenziata da IBM per la sua transizione."
+description: "Lynn Conway (1938-2024), scienziata informatica transgender che rivoluzionò la microelettronica VLSI. Licenziata da IBM, divenne pioniera."
 category: "persone"
-tags: ["scienza", "informatica", "IBM", "VLSI", "discriminazione"]
+tags: ["scienza", "informatica", "IBM", "VLSI", "discriminazione", "microelettronica", "Michigan", "innovazione"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/lynn-conway.webp"

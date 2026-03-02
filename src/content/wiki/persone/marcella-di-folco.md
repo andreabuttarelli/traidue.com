@@ -1,10 +1,10 @@
 ---
 title: "Marcella Di Folco: da Fellini alla politica"
-seoTitle: "Chi era Marcella Di Folco?"
+seoTitle: "Marcella Di Folco: chi era, storia e perché è importante"
 slug: "marcella-di-folco"
-description: "Biografia di Marcella Di Folco (1943-2010), attrice, attivista e prima donna trans al mondo eletta a una carica pubblica."
+description: "Marcella Di Folco (1943-2010), attrice e attivista transgender italiana. Prima donna trans eletta a carica pubblica, presidente del MIT Bologna."
 category: "persone"
-tags: ["Italia", "politica", "MIT", "attivismo", "Bologna", "Fellini"]
+tags: ["Italia", "politica", "MIT", "attivismo", "Bologna", "Fellini", "attivismo italiano"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/marcella-di-folco.webp"

@@ -1,10 +1,10 @@
 ---
 title: "Sylvia Rivera: la voce dei più vulnerabili"
-seoTitle: "Chi era Sylvia Rivera?"
+seoTitle: "Sylvia Rivera: chi era, storia e perché è importante"
 slug: "sylvia-rivera"
-description: "Biografia di Sylvia Rivera (1951-2002), attivista trans latina, co-fondatrice di STAR e pioniera della lotta per i diritti delle persone trans più emarginate."
+description: "Sylvia Rivera (1951-2002), attivista transgender latina e co-fondatrice di STAR. Pioniera dei diritti trans, protagonista dei moti di Stonewall."
 category: "persone"
-tags: ["attivismo", "STAR", "Stonewall", "Marsha P. Johnson", "diritti trans", "storia LGBTQ+"]
+tags: ["attivismo", "STAR", "Stonewall", "Marsha P. Johnson", "diritti trans", "storia LGBTQ+", "latina", "New York"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/sylvia-rivera.webp"

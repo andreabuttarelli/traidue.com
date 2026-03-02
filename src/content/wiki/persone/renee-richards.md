@@ -1,10 +1,10 @@
 ---
 title: "Renée Richards: la tennista che sfidò le regole"
-seoTitle: "Chi era Renée Richards?"
+seoTitle: "Renée Richards: chi era, storia e perché è importante"
 slug: "renee-richards"
-description: "Biografia di Renée Richards (1934-), oftalmologo e tennista americana che sfidò il divieto per le persone trans di competere nello sport femminile."
+description: "Renée Richards (1934-), tennista transgender americana e pioniera. Vinse in tribunale il diritto di competere agli US Open nel 1977."
 category: "persone"
-tags: ["sport", "tennis", "diritti", "Stati Uniti", "sentenza"]
+tags: ["sport", "tennis", "diritti", "Stati Uniti", "sentenza", "pioniera", "tribunale", "US Open", "1977"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/renee-richards.webp"

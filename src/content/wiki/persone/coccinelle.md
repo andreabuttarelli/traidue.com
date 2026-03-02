@@ -1,10 +1,10 @@
 ---
 title: "Coccinelle: la stella del Carrousel de Paris"
-seoTitle: "Chi era Coccinelle?"
+seoTitle: "Coccinelle: chi era, storia e perché è importante"
 slug: "coccinelle"
-description: "Biografia di Coccinelle (1931-2006), nata Jacqueline Charlotte Dufresnoy, icona francese dello spettacolo e pioniera della visibilità trans in Europa."
+description: "Coccinelle (1931-2006), artista transgender francese e stella del Carrousel de Paris. Pioniera della visibilità trans in Europa negli anni '60."
 category: "persone"
-tags: ["Francia", "spettacolo", "Casablanca", "Georges Burou", "cabaret"]
+tags: ["Francia", "spettacolo", "Casablanca", "Georges Burou", "cabaret", "Parigi", "anni '60", "Carrousel de Paris"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/coccinelle.webp"

@@ -1,10 +1,10 @@
 ---
 title: "Valentina Petrillo: l'atleta che ha fatto la storia"
-seoTitle: "Chi è Valentina Petrillo?"
+seoTitle: "Valentina Petrillo: chi è, storia e perché è importante"
 slug: "valentina-petrillo"
-description: "Biografia di Valentina Petrillo (1973-), atleta paralimpica italiana, prima donna trans a partecipare ai Giochi Paralimpici a Parigi 2024."
+description: "Valentina Petrillo (1973-), velocista transgender italiana e prima donna trans alle Paralimpiadi di Parigi 2024. Atleta paralimpica nella T12."
 category: "persone"
-tags: ["sport", "Paralimpiadi", "Italia", "Napoli", "atletica"]
+tags: ["sport", "Paralimpiadi", "Italia", "Napoli", "atletica", "paralimpiadi", "velocista"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/valentina-petrillo.webp"

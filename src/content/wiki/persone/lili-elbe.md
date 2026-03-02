@@ -1,10 +1,10 @@
 ---
 title: "Lili Elbe: la pioniera della transizione medica"
-seoTitle: "Chi era Lili Elbe? Biografia della pioniera transgender"
+seoTitle: "Lili Elbe: chi era, storia e perché è importante"
 slug: "lili-elbe"
-description: "Biografia di Lili Elbe (1882-1931), pittrice danese e una delle prime persone conosciute a sottoporsi a interventi chirurgici di affermazione di genere."
+description: "Lili Elbe (1882-1931), pittrice danese transgender e pioniera della prima transizione medica. La sua storia ha ispirato il film The Danish Girl."
 category: "persone"
-tags: ["storia", "chirurgia", "Danimarca", "arte", "pioniera"]
+tags: ["storia", "chirurgia", "Danimarca", "arte", "pioniera", "The Danish Girl", "prima transizione", "1930"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/lili-elbe.webp"

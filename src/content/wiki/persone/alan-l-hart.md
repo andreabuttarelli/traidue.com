@@ -1,10 +1,10 @@
 ---
 title: "Alan L. Hart: il medico che salvò migliaia di vite"
-seoTitle: "Chi era Alan L. Hart?"
+seoTitle: "Alan L. Hart: chi era, storia e perché è importante"
 slug: "alan-l-hart"
-description: "Biografia di Alan L. Hart (1890-1962), uomo trans, medico e pioniere della diagnosi precoce della tubercolosi tramite raggi X."
+description: "Alan L. Hart (1890-1962), medico transgender e pioniere dei raggi X per la tubercolosi. Uno dei primi uomini trans nella storia americana."
 category: "persone"
-tags: ["uomo trans", "medicina", "tubercolosi", "raggi X", "Stati Uniti"]
+tags: ["uomo trans", "medicina", "tubercolosi", "raggi X", "Stati Uniti", "pioniere", "Oregon", "1900"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/alan-l-hart.webp"

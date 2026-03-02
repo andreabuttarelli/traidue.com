@@ -1,10 +1,10 @@
 ---
 title: "Marsha P. Johnson: icona dell'attivismo trans"
-seoTitle: "Chi era Marsha P. Johnson?"
+seoTitle: "Marsha P. Johnson: chi era, storia e perché è importante"
 slug: "marsha-p-johnson"
-description: "La vita e l'eredità di Marsha P. Johnson, attivista trans afroamericana, performer e figura centrale dei moti di Stonewall del 1969."
+description: "Marsha P. Johnson, attivista transgender afroamericana e icona di Stonewall 1969. Co-fondatrice di STAR, la sua eredità vive nel movimento trans."
 category: "persone"
-tags: ["Stonewall", "attivismo", "STAR", "Sylvia Rivera", "diritti trans", "storia LGBTQ+"]
+tags: ["Stonewall", "attivismo", "STAR", "Sylvia Rivera", "diritti trans", "storia LGBTQ+", "New York", "storia LGBT", "1969"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/marsha-p-johnson.webp"

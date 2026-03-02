@@ -1,10 +1,10 @@
 ---
 title: "Frances Thompson: la donna trans che testimoniò davanti al Congresso"
-seoTitle: "Chi era Frances Thompson?"
+seoTitle: "Frances Thompson: chi era, storia e perché è importante"
 slug: "frances-thompson"
-description: "La storia di Frances Thompson, donna trans nera che nel 1866 fu la prima persona transgender a testimoniare davanti al Congresso degli Stati Uniti dopo il massacro di Memphis."
+description: "Frances Thompson, donna transgender nera che nel 1866 testimoniò al Congresso USA dopo il massacro di Memphis. Pioniera dei diritti civili."
 category: "persone"
-tags: ["storia trans", "diritti civili", "Ricostruzione", "Memphis", "violenza razziale", "Congresso USA"]
+tags: ["storia trans", "diritti civili", "Ricostruzione", "Memphis", "violenza razziale", "Congresso USA", "storia", "Guerra Civile", "attivismo", "1866"]
 date: "2026-03-02"
 updated: "2026-03-02"
 image: "/images/wiki/frances-thompson.webp"
