@@ -2,9 +2,9 @@
 title: "Risultati della vaginoplastica: cosa aspettarsi"
 seoTitle: "La vagina di una donna trans è uguale a quella di una donna cis?"
 slug: "vaginoplastica-risultati"
-description: "Cosa aspettarsi dai risultati della vaginoplastica: aspetto, sensibilità, profondità, lubrificazione. Confronto obiettivo tra neovagina e vagina cisgender basato sulla letteratura scientifica."
+description: "Vaginoplastica prima e dopo: risultati reali su profondità, sensibilità e soddisfazione. Confronto scientifico tra neovagina e vagina cisgender."
 category: "scienza"
-tags: ["vaginoplastica", "risultati", "chirurgia", "neovagina", "sensibilità"]
+tags: ["vaginoplastica", "risultati", "chirurgia", "neovagina", "sensibilità", "prima e dopo", "profondità", "soddisfazione"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/vaginoplastica-risultati.webp"

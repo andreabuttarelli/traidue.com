@@ -1,9 +1,10 @@
 ---
 title: "Persone trans nello sport: regolamenti, scienza e dibattito"
+seoTitle: "Persone trans nello sport: è davvero un vantaggio? Cosa dice la scienza"
 slug: "sport-e-persone-trans"
-description: "Regolamenti sportivi, evidenze scientifiche e dibattito sull'inclusione delle persone transgender nello sport agonistico e amatoriale."
+description: "Atleti trans nello sport femminile: esiste un vantaggio fisico? Le regole del CIO, le evidenze scientifiche e il dibattito sui regolamenti sportivi."
 category: "scienza"
-tags: ["sport", "regolamenti", "testosterone", "inclusione", "competizione"]
+tags: ["sport", "regolamenti", "testosterone", "inclusione", "competizione", "atleti trans", "olimpiadi", "CIO", "vantaggio fisico"]
 date: "2026-02-18"
 updated: "2026-02-18"
 image: "/images/wiki/sport-e-persone-trans.webp"

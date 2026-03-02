@@ -2,9 +2,9 @@
 title: "Rapporti sessuali con un uomo trans"
 seoTitle: "Come funzionano i rapporti con un uomo trans?"
 slug: "rapporti-sessuali-uomo-trans"
-description: "Guida rispettosa e scientifica ai rapporti sessuali con uomini transgender: anatomia, effetti del testosterone, piacere, comunicazione e sicurezza."
+description: "Rapporti sessuali con un uomo trans: anatomia, effetti del testosterone, piacere, comunicazione e sicurezza. Guida rispettosa basata sulla scienza."
 category: "scienza"
-tags: ["sessualità", "uomini trans", "rapporti sessuali", "educazione sessuale"]
+tags: ["sessualità", "uomini trans", "rapporti sessuali", "educazione sessuale", "testosterone", "piacere", "intimità"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/rapporti-sessuali-uomo-trans.webp"

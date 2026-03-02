@@ -2,9 +2,9 @@
 title: "Teoria gender: cosa dice la scienza"
 seoTitle: "La teoria gender esiste davvero?"
 slug: "teoria-gender"
-description: "Cosa si intende per 'teoria gender', da dove nasce questa espressione e cosa dice realmente la ricerca scientifica su identità di genere e sesso biologico."
+description: "L'ideologia gender esiste? Cos'è la bufala della teoria gender, da dove nasce e cosa dice la scienza. Gender nelle scuole e gender studies spiegati."
 category: "scienza"
-tags: ["teoria gender", "identità di genere", "propaganda", "scienza", "miti"]
+tags: ["teoria gender", "identità di genere", "propaganda", "scienza", "miti", "ideologia gender", "scuola", "bufala", "gender studies"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/teoria-gender.webp"

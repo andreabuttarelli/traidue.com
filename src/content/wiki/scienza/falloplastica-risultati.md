@@ -2,9 +2,9 @@
 title: "Falloplastica e metoidioplastica: risultati e cosa aspettarsi"
 seoTitle: "Come è fatto il pene di un uomo trans?"
 slug: "falloplastica-risultati"
-description: "Risultati della falloplastica e della metoidioplastica: aspetto, sensibilità, funzionalità, tassi di soddisfazione. Guida basata sulla letteratura scientifica."
+description: "Falloplastica risultati: aspetto, sensibilità e soddisfazione. Metoidioplastica vs falloplastica a confronto con lembo radiale e complicanze documentate."
 category: "scienza"
-tags: ["falloplastica", "metoidioplastica", "risultati", "chirurgia", "uomini trans"]
+tags: ["falloplastica", "metoidioplastica", "risultati", "chirurgia", "uomini trans", "lembo radiale", "complicanze", "soddisfazione"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/falloplastica-risultati.webp"

@@ -1,9 +1,10 @@
 ---
 title: "Transizione medica: cosa cambia nel corpo"
+seoTitle: "Transizione medica: cosa cambia nel corpo e nella vita?"
 slug: "transizione-medica-cosa-cambia"
-description: "Gli effetti della terapia ormonale sul corpo: cosa cambia realmente durante una transizione medica e cosa resta invariato, secondo la letteratura scientifica."
+description: "Transizione medica transgender: cosa cambia nel corpo con terapia ormonale e chirurgia, cosa resta invariato e cosa dice la scienza sui cambiamenti reali."
 category: "scienza"
-tags: ["transizione", "terapia ormonale", "endocrinologia", "corpo", "HRT"]
+tags: ["transizione", "terapia ormonale", "endocrinologia", "corpo", "HRT", "cambiamenti", "chirurgia"]
 date: "2026-02-18"
 updated: "2026-02-18"
 image: "/images/wiki/transizione-medica-cosa-cambia.webp"

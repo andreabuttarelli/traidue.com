@@ -2,9 +2,9 @@
 title: "La vaginoplastica: procedura e recupero"
 seoTitle: "Come funziona la vaginoplastica?"
 slug: "vaginoplastica-come-funziona"
-description: "Come funziona l'operazione di vaginoplastica per le donne trans: tecniche chirurgiche, preparazione, recupero, rischi e risultati secondo la letteratura scientifica."
+description: "Vaginoplastica transgender: come funziona la procedura, tempi di recupero, complicanze, dilatazione e tecniche (lembo peno-scrotale e colonvaginoplastica)."
 category: "scienza"
-tags: ["vaginoplastica", "chirurgia", "donne trans", "transizione", "GRS"]
+tags: ["vaginoplastica", "chirurgia", "donne trans", "transizione", "GRS", "procedura", "recupero", "dilatazione", "lembo peno-scrotale", "colonvaginoplastica"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/vaginoplastica-come-funziona.webp"

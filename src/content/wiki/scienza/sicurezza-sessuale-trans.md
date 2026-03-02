@@ -2,9 +2,9 @@
 title: "Salute sessuale per persone trans"
 seoTitle: "Come proteggersi durante i rapporti con persone trans?"
 slug: "sicurezza-sessuale-trans"
-description: "Guida alla salute sessuale per persone trans e i loro partner: prevenzione IST, contraccezione, screening e risorse sanitarie in Italia."
+description: "Salute sessuale trans: prevenzione IST, PrEP, contraccezione, screening oncologico e risorse sanitarie per persone transgender e partner in Italia."
 category: "scienza"
-tags: ["salute sessuale", "prevenzione", "IST", "contraccezione", "screening"]
+tags: ["salute sessuale", "prevenzione", "IST", "contraccezione", "screening", "PrEP", "HIV", "protezione"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/sicurezza-sessuale-trans.webp"

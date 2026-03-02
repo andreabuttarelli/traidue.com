@@ -1,9 +1,10 @@
 ---
 title: "Salute mentale e persone trans: cosa dice davvero la ricerca"
+seoTitle: "Come sta la salute mentale delle persone trans? Dati e fattori di rischio"
 slug: "salute-mentale-persone-trans"
-description: "Depressione, ansia e rischio suicidario nelle persone trans non sono causati dall'identità di genere, ma dalla discriminazione. Ecco cosa dicono i dati sul minority stress, i fattori protettivi, le cure basate sull'evidenza e l'accesso ai servizi in Italia."
+description: "Depressione, ansia e suicidio nelle persone trans: dati, statistiche e il ruolo del minority stress. I fattori di rischio non sono l'identità ma la discriminazione."
 category: "scienza"
-tags: ["salute mentale", "depressione", "ansia", "minority stress", "supporto", "terapia"]
+tags: ["salute mentale", "depressione", "ansia", "minority stress", "supporto", "terapia", "suicidio", "statistiche"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/salute-mentale-persone-trans.webp"

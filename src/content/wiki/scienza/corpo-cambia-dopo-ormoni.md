@@ -2,9 +2,9 @@
 title: "Cambiamenti fisici della terapia ormonale"
 seoTitle: "Come cambia il corpo con la terapia ormonale?"
 slug: "corpo-cambia-dopo-ormoni"
-description: "Tutti i cambiamenti fisici della terapia ormonale per persone trans: timeline, effetti degli estrogeni e del testosterone, cosa aspettarsi e cosa dice la ricerca scientifica."
+description: "Effetti del testosterone FTM e degli estrogeni MTF: timeline dei cambiamenti fisici, prima e dopo la terapia ormonale e cosa aspettarsi dalla ricerca."
 category: "scienza"
-tags: ["terapia ormonale", "HRT", "estrogeni", "testosterone", "cambiamenti fisici", "transizione"]
+tags: ["terapia ormonale", "HRT", "estrogeni", "testosterone", "cambiamenti fisici", "transizione", "timeline", "prima e dopo", "mtf", "ftm"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/corpo-cambia-dopo-ormoni.webp"

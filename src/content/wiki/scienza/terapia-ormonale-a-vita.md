@@ -2,9 +2,9 @@
 title: "Terapia ormonale: durata e gestione"
 seoTitle: "La terapia ormonale è per sempre?"
 slug: "terapia-ormonale-a-vita"
-description: "La terapia ormonale per le persone trans è per tutta la vita? Cosa succede se si interrompe, come si gestisce nel tempo e cosa dice la ricerca scientifica sulla sicurezza a lungo termine."
+description: "La terapia ormonale transgender è a vita? Rischi a lungo termine, effetti collaterali, cosa succede se si interrompe e sicurezza secondo la ricerca scientifica."
 category: "scienza"
-tags: ["terapia ormonale", "HRT", "durata", "lungo termine", "sicurezza", "gestione"]
+tags: ["terapia ormonale", "HRT", "durata", "lungo termine", "sicurezza", "gestione", "rischi", "effetti collaterali"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/terapia-ormonale-a-vita.webp"

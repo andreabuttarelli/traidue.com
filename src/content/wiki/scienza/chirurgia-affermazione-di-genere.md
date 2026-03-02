@@ -1,9 +1,10 @@
 ---
 title: "Chirurgia di affermazione di genere: cosa esiste davvero"
+seoTitle: "Chirurgia di affermazione di genere: tipi, percorso e cosa aspettarsi"
 slug: "chirurgia-affermazione-di-genere"
-description: "Panoramica completa sulle opzioni chirurgiche di affermazione di genere: top surgery, bottom surgery, FFS, accesso in Italia tramite SSN, tassi di soddisfazione e cosa aspettarsi realmente."
+description: "Operazione cambio sesso: tutti i tipi di chirurgia transgender in Italia, accesso tramite SSN, soddisfazione e cosa aspettarsi realmente dal percorso."
 category: "scienza"
-tags: ["chirurgia", "transizione", "vaginoplastica", "falloplastica", "mastectomia", "corpo"]
+tags: ["chirurgia", "transizione", "vaginoplastica", "falloplastica", "mastectomia", "corpo", "operazione", "cambio sesso", "Italia", "SSN", "tipi di intervento"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/chirurgia-affermazione-di-genere.webp"

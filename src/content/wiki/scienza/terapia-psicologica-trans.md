@@ -2,9 +2,9 @@
 title: "Terapia psicologica per persone trans: guida completa"
 seoTitle: "Terapia psicologica per persone trans: tipi, accesso e cosa aspettarsi"
 slug: "terapia-psicologica-trans"
-description: "Cosa significa fare terapia come persona trans: tipi di psicoterapia, terapia affermativa vs terapie di conversione, il percorso di valutazione in Italia con i protocolli ONIG, come trovare un terapeuta competente, costi e copertura SSN. Con fonti scientifiche e linee guida APA, WPATH e OMS."
+description: "Terapia psicologica per persone trans: terapia affermativa, percorso ONIG in Italia, come trovare un terapeuta competente, costi e copertura SSN."
 category: "scienza"
-tags: ["terapia", "psicologia", "supporto", "salute mentale", "affermazione di genere", "ONIG", "WPATH"]
+tags: ["terapia", "psicologia", "supporto", "salute mentale", "affermazione di genere", "ONIG", "WPATH", "terapeuta", "SSN", "terapia affermativa"]
 date: "2026-02-21"
 updated: "2026-02-21"
 image: "/images/wiki/terapia-psicologica-trans.webp"

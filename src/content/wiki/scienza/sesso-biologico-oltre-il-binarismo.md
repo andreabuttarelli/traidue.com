@@ -1,9 +1,10 @@
 ---
 title: "Il sesso biologico è binario? Cosa dice la scienza"
+seoTitle: "Il sesso biologico è davvero binario? Lo spettro biologico oltre XX e XY"
 slug: "sesso-biologico-oltre-il-binarismo"
-description: "Il sesso biologico è un sistema complesso di caratteristiche che non sempre si allineano in modo binario: cromosomi, ormoni, anatomia e neurologia possono seguire percorsi diversi."
+description: "Il sesso biologico è uno spettro? Oltre il binarismo XX e XY: variazioni intersex, cromosomiche e ormonali che mostrano la complessità della biologia umana."
 category: "scienza"
-tags: ["sesso biologico", "biologia", "intersex", "cromosomi", "ormoni"]
+tags: ["sesso biologico", "biologia", "intersex", "cromosomi", "ormoni", "spettro", "variazioni"]
 date: "2026-02-18"
 updated: "2026-02-18"
 image: "/images/wiki/sesso-biologico-oltre-il-binarismo.webp"

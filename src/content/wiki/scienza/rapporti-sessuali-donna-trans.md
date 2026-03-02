@@ -2,9 +2,9 @@
 title: "Rapporti sessuali con una donna trans"
 seoTitle: "Come funzionano i rapporti con una donna trans?"
 slug: "rapporti-sessuali-donna-trans"
-description: "Guida rispettosa e basata sulla scienza ai rapporti sessuali con donne transgender: anatomia, piacere, comunicazione, sicurezza e come superare i pregiudizi."
+description: "Rapporti sessuali con una donna trans: guida scientifica su anatomia, piacere, comunicazione, sicurezza e come vivere l'intimità senza pregiudizi."
 category: "scienza"
-tags: ["sessualità", "donne trans", "rapporti sessuali", "educazione sessuale"]
+tags: ["sessualità", "donne trans", "rapporti sessuali", "educazione sessuale", "piacere", "intimità", "comunicazione"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/rapporti-sessuali-donna-trans.webp"

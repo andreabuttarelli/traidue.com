@@ -2,9 +2,9 @@
 title: "Anatomia delle donne trans"
 seoTitle: "Che genitali ha una donna trans?"
 slug: "genitali-donna-trans"
-description: "Che genitali ha una donna trans? Come cambiano con la terapia ormonale e la chirurgia? Spiegazione scientifica dell'anatomia transgender femminile, dalla terapia ormonale alla vaginoplastica."
+description: "Anatomia delle donne trans: come cambiano i genitali con la terapia ormonale e la vaginoplastica. Spiegazione scientifica chiara e rispettosa."
 category: "scienza"
-tags: ["anatomia", "donne trans", "genitali", "vaginoplastica", "terapia ormonale", "corpo"]
+tags: ["anatomia", "donne trans", "genitali", "vaginoplastica", "terapia ormonale", "corpo", "neovagina", "cambiamenti"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/genitali-donna-trans.webp"

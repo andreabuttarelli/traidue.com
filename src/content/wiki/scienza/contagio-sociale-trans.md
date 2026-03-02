@@ -2,9 +2,9 @@
 title: "Contagio sociale trans e ROGD"
 seoTitle: "Il contagio sociale trans esiste?"
 slug: "contagio-sociale-trans"
-description: "Il contagio sociale trans e la ROGD (Rapid Onset Gender Dysphoria) sono teorie scientifiche? Analisi delle evidenze, degli studi e del consenso scientifico internazionale."
+description: "Il contagio sociale trans è un mito? Cosa dice la scienza sulla ROGD di Littman, le evidenze contrarie e il debunking del contagio sociale transgender."
 category: "scienza"
-tags: ["contagio sociale", "ROGD", "disforia di genere", "miti", "scienza"]
+tags: ["contagio sociale", "ROGD", "disforia di genere", "miti", "scienza", "Littman", "debunking"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/contagio-sociale-trans.webp"

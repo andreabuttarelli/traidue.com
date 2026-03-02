@@ -2,9 +2,9 @@
 title: "Chirurgia di affermazione di genere MTF: guida completa"
 seoTitle: "Tutti gli interventi chirurgici per donne trans (MTF): guida completa"
 slug: "chirurgia-mtf"
-description: "Guida completa a tutti gli interventi chirurgici di affermazione di genere per donne trans (MTF): vaginoplastica, mammoplastica, FFS, chirurgia vocale, orchiectomia, body contouring. Costi, tempi, centri in Italia ed Europa."
+description: "Chirurgia MTF in Italia: vaginoplastica, orchiectomia, femminilizzazione viso (FFS), mammoplastica additiva. Costi, centri, tempi di recupero e soddisfazione."
 category: "scienza"
-tags: ["chirurgia", "donne trans", "MTF", "vaginoplastica", "mammoplastica", "FFS", "chirurgia vocale", "orchiectomia", "transizione"]
+tags: ["chirurgia", "donne trans", "MTF", "vaginoplastica", "mammoplastica", "FFS", "chirurgia vocale", "orchiectomia", "transizione", "mastoplastica additiva", "Italia", "tipi intervento"]
 date: "2026-02-21"
 updated: "2026-02-21"
 image: "/images/wiki/chirurgia-mtf.webp"

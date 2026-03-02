@@ -2,9 +2,9 @@
 title: "Sicurezza della transizione medica"
 seoTitle: "La transizione medica è sicura?"
 slug: "sicurezza-transizione"
-description: "La transizione medica per le persone trans è sicura? Rischi, benefici, dati sulla soddisfazione e cosa dicono le meta-analisi e le organizzazioni mediche internazionali."
+description: "La transizione di genere è sicura? Rischi della terapia ormonale, evidenze scientifiche, studi e meta-analisi sulla sicurezza della transizione medica."
 category: "scienza"
-tags: ["sicurezza", "transizione", "rischi", "benefici", "evidenze", "meta-analisi"]
+tags: ["sicurezza", "transizione", "rischi", "benefici", "evidenze", "meta-analisi", "studi"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/sicurezza-transizione.webp"

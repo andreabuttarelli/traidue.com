@@ -2,9 +2,9 @@
 title: "Storia della medicina transgender"
 seoTitle: "Come è nata la medicina per le persone trans?"
 slug: "storia-medicina-trans"
-description: "Dalla clinica di Magnus Hirschfeld agli Standards of Care WPATH: la storia della medicina transgender, le pioniere, le scoperte e l'evoluzione degli approcci clinici."
+description: "Storia della medicina transgender: da Magnus Hirschfeld a Harry Benjamin, fino agli Standards of Care WPATH. Pionieri, scoperte e evoluzione clinica."
 category: "scienza"
-tags: ["storia", "medicina", "Hirschfeld", "WPATH", "chirurgia", "ormoni"]
+tags: ["storia", "medicina", "Hirschfeld", "WPATH", "chirurgia", "ormoni", "Harry Benjamin", "Christine Jorgensen", "pionieri"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/storia-medicina-trans.webp"

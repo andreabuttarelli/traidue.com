@@ -1,9 +1,10 @@
 ---
 title: "Le ultime ricerche sull'identità di genere (2022-2026)"
+seoTitle: "Le ultime ricerche scientifiche sull'identità di genere"
 slug: "ricerche-recenti-identita-genere"
-description: "Panoramica delle ricerche scientifiche più recenti sull'identità di genere: neuroimaging, genetica, terapia ormonale, desistenza e Cass Review."
+description: "Studi recenti sull'identità di genere: le ricerche peer-reviewed 2024-2025 su neuroimaging, genetica transgender, terapia ormonale e Cass Review."
 category: "scienza"
-tags: ["ricerca", "neuroscienze", "studi recenti", "identità di genere"]
+tags: ["ricerca", "neuroscienze", "studi recenti", "identità di genere", "2024", "2025", "peer-reviewed"]
 date: "2026-02-18"
 updated: "2026-02-18"
 image: "/images/wiki/ricerche-recenti-identita-genere.webp"

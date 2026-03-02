@@ -2,9 +2,9 @@
 title: "Sessualità delle donne trans: oltre gli stereotipi"
 seoTitle: "Le donne trans sono attive o passive?"
 slug: "donne-trans-sessualita-miti"
-description: "Le donne trans sono attive o passive nei rapporti sessuali? Sfatiamo gli stereotipi sulla sessualità delle donne transgender con dati scientifici e la realtà delle esperienze."
+description: "Sessualità delle donne trans oltre gli stereotipi: cosa dice la scienza su desiderio, piacere, ruoli sessuali e feticizzazione delle donne transgender."
 category: "scienza"
-tags: ["donne trans", "sessualità", "stereotipi", "miti", "intimità"]
+tags: ["donne trans", "sessualità", "stereotipi", "miti", "intimità", "desiderio", "piacere", "feticizzazione"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/donne-trans-sessualita-miti.webp"

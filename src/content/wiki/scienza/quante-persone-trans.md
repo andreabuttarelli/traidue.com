@@ -2,9 +2,9 @@
 title: "Dati demografici sulle persone trans"
 seoTitle: "Quante sono le persone trans? Sono aumentate?"
 slug: "quante-persone-trans"
-description: "Quante sono le persone transgender nel mondo e in Italia? Perché il numero sembra aumentare? Dati, statistiche e spiegazioni scientifiche."
+description: "Quante persone trans ci sono in Italia e nel mondo? Percentuale transgender, statistiche aggiornate e perché il numero sembra aumentare."
 category: "scienza"
-tags: ["dati", "statistiche", "demografia", "prevalenza", "aumento"]
+tags: ["dati", "statistiche", "demografia", "prevalenza", "aumento", "Italia", "percentuale", "nel mondo"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/quante-persone-trans.webp"

@@ -1,9 +1,10 @@
 ---
 title: "Detransizione: cosa dicono davvero i dati"
+seoTitle: "Quante persone detransizionano? Dati, cause e percentuali reali"
 slug: "detransizione"
-description: "Detransizione, desistenza e rimpianto non sono la stessa cosa. Ecco cosa dice la ricerca peer-reviewed su tassi, cause e narrazioni mediatiche, con rispetto per tutte le esperienze."
+description: "Qual è la reale percentuale di detransizione? Dati peer-reviewed su chi è pentito del cambio sesso, cause della detransizione e differenza con desistenza e rimpianto."
 category: "scienza"
-tags: ["detransizione", "rimpianto", "ricerca", "transizione", "dati"]
+tags: ["detransizione", "rimpianto", "ricerca", "transizione", "dati", "percentuale", "pentiti", "ritransizione"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/detransizione.webp"

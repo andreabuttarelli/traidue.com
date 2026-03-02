@@ -1,9 +1,10 @@
 ---
 title: "Le basi biologiche dell'identità di genere"
+seoTitle: "Esistono basi biologiche dell'identità di genere? Cosa dice la scienza"
 slug: "basi-biologiche-identita-di-genere"
-description: "Cosa dicono genetica, neuroscienze ed endocrinologia sulle basi biologiche dell'identità di genere: studi sui gemelli, neuroimaging ed epigenetica."
+description: "Si nasce trans? Le basi biologiche dell'identità di genere spiegate dalla scienza: studi sul cervello transgender, genetica, gemelli, neuroimaging ed epigenetica."
 category: "scienza"
-tags: ["biologia", "neuroscienze", "genetica", "identità di genere"]
+tags: ["biologia", "neuroscienze", "genetica", "identità di genere", "cervello", "epigenetica", "gemelli", "neuroimaging", "si nasce trans"]
 date: "2026-02-18"
 updated: "2026-02-18"
 image: "/images/wiki/basi-biologiche-identita-di-genere.webp"

@@ -2,9 +2,9 @@
 title: "Guida completa alla terapia ormonale"
 seoTitle: "Terapia ormonale per persone trans: la guida completa"
 slug: "terapia-ormonale-guida"
-description: "Guida completa alla terapia ormonale (HRT) per persone trans: farmaci utilizzati, dosaggi, protocolli, timeline dei cambiamenti, esami del sangue, come iniziare in Italia, costi e opzioni per persone non binarie."
+description: "Come iniziare la terapia ormonale transgender (TOS) in Italia: farmaci, dosaggi, accesso gratuito via SSN, nota AIFA, estradiolo, testosterone e timeline."
 category: "scienza"
-tags: ["terapia ormonale", "HRT", "GAHT", "estrogeni", "testosterone", "anti-androgeni", "dosaggi", "guida", "Italia"]
+tags: ["terapia ormonale", "HRT", "GAHT", "estrogeni", "testosterone", "anti-androgeni", "dosaggi", "guida", "Italia", "TOS", "estradiolo", "SSN", "gratuita", "AIFA", "come iniziare"]
 date: "2026-02-21"
 updated: "2026-02-21"
 image: "/images/wiki/terapia-ormonale-guida.webp"

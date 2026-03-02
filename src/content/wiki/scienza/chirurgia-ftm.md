@@ -2,7 +2,7 @@
 title: "Chirurgia di affermazione di genere FTM: guida completa"
 seoTitle: "Chirurgia FTM: tutti gli interventi per uomini trans"
 slug: "chirurgia-ftm"
-description: "Guida completa alla chirurgia di affermazione di genere per uomini trans: mastectomia, isterectomia, metoidioplastica, falloplastica, costi, recupero, centri in Italia e tassi di soddisfazione."
+description: "Mastectomia FTM, top surgery, metoidioplastica e falloplastica: tutti gli interventi chirurgici per uomini trans, costi, centri in Italia e soddisfazione."
 category: "scienza"
 tags: ["chirurgia", "uomini trans", "mastectomia", "falloplastica", "metoidioplastica", "isterectomia", "top surgery", "transizione"]
 date: "2026-02-21"

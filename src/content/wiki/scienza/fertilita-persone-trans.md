@@ -2,9 +2,9 @@
 title: "Fertilità e persone trans"
 seoTitle: "Le persone trans possono avere figli?"
 slug: "fertilita-persone-trans"
-description: "Le persone transgender possono avere figli? Opzioni di preservazione della fertilità, effetti della terapia ormonale, adozione e PMA per persone trans in Italia."
+description: "Preservazione della fertilità transgender: crioconservazione di ovociti e sperma, gravidanza uomo trans e opzioni di PMA per persone trans in Italia."
 category: "scienza"
-tags: ["fertilità", "figli", "preservazione", "PMA", "adozione", "terapia ormonale"]
+tags: ["fertilità", "figli", "preservazione", "PMA", "adozione", "terapia ormonale", "crioconservazione", "ovociti", "sperma", "gravidanza", "trapianto utero"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/fertilita-persone-trans.webp"

@@ -2,9 +2,9 @@
 title: "Sessualità e persone trans"
 seoTitle: "Come funziona la sessualità per le persone trans?"
 slug: "sessualita-persone-trans"
-description: "Come vivono la sessualità le persone transgender: desiderio, intimità, orientamento sessuale e cambiamenti durante la transizione. Dati scientifici e indicazioni pratiche."
+description: "Come cambia la sessualità durante la transizione: desiderio, orientamento, orgasmo e soddisfazione delle persone trans secondo gli studi scientifici."
 category: "scienza"
-tags: ["sessualità", "intimità", "orientamento sessuale", "transizione", "corpo"]
+tags: ["sessualità", "intimità", "orientamento sessuale", "transizione", "corpo", "desiderio", "orgasmo", "soddisfazione"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/sessualita-persone-trans.webp"
