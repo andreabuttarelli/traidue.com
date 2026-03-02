@@ -782,10 +782,10 @@ const dati: CittaDettaglio[] = [
 		provincia: 'NA',
 		intro: 'Napoli rappresenta il principale punto di riferimento per le persone transgender nel Sud Italia. Il Centro di Identità di Genere presso l\'AOU Federico II offre percorsi multidisciplinari di affermazione di genere che comprendono endocrinologia, psicologia clinica e supporto chirurgico. L\'associazionismo napoletano è particolarmente vivace, con realtà storiche come Arcigay Napoli Antinoo e l\'Associazione Trans Napoli (ATN) che forniscono supporto diretto alla comunità. La città ha un rapporto unico con le identità di genere non conformi, radicato nella tradizione secolare dei femminielli, figure riconosciute nella cultura popolare napoletana.',
 		metaDescription: 'Guida completa alle risorse trans a Napoli: Centro Gender Federico II, associazioni, sportelli, iter sanitario ASL e storia del movimento.',
-		contesto_locale: '',
-		centri_gender_intro: '',
-		associazioni_intro: '',
-		sportelli_intro: '',
+		contesto_locale: 'Napoli ha un rapporto unico con le identità di genere non conformi, radicato nella tradizione secolare dei femminielli: figure storicamente integrate nella vita dei quartieri popolari, riconosciute nella cultura partenopea fin dal Cinquecento (già nel 1586 Giovanni Battista Della Porta ne documentava la presenza). Il 29 giugno 1996 Napoli ospitò il primo Pride del Sud Italia, intitolato Jesce Sole, con oltre ventimila partecipanti e l\'intervento dell\'allora sindaco Antonio Bassolino con la fascia tricolore. Dal 2009 il Napoli Pride si tiene ogni anno senza interruzione, unico Pride in Europa a non essersi fermato nemmeno durante la pandemia. Sul piano sanitario, il Centro di Identità di Genere dell\'AOU Federico II rappresenta il polo di riferimento per la Campania e gran parte del Mezzogiorno, con attività clinica e di ricerca sulla varianza di genere attive dal 1997. L\'Università Federico II è stata tra le prime in Italia ad attivare la carriera alias nel 2014. L\'associazionismo napoletano è vivace: l\'ATN (Associazione Transessuale Napoli, fondata nel 2007) e Arcigay Napoli Antinoo offrono supporto diretto, mentre la Casa delle Culture e dell\'Accoglienza LGBTQI+, prima struttura comunale del Sud Italia dedicata alle persone LGBTQI+, fornisce ospitalità e servizi antidiscriminazione.',
+		centri_gender_intro: 'Il Centro di Identità di Genere dell\'AOU Federico II è il principale riferimento regionale per i percorsi di affermazione di genere. L\'accesso avviene tramite impegnativa del medico di base, con un percorso multidisciplinare che comprende psicologia clinica, endocrinologia e chirurgia, interamente coperto dal SSN. Per l\'età evolutiva, il programma di Endocrinologia Pediatrica della Federico II segue minori con sviluppo atipico dell\'identità di genere, con un primo colloquio psicologico prenotabile inviando l\'impegnativa all\'indirizzo endoped.aou@unina.it.',
+		associazioni_intro: 'Napoli dispone di una rete associativa consolidata a supporto delle persone trans. L\'ATN (Associazione Transessuale Napoli), fondata nel 2007, opera come sportello unico offrendo consulenza legale e psicologica, orientamento lavorativo, accompagnamento ai percorsi sanitari e gestione di una casa di accoglienza per vittime di violenza omotransfobica. Arcigay Napoli Antinoo organizza il Napoli Pride e gestisce lo sportello trans con ascolto e orientamento, mentre AGEDO Campania offre gruppi di sostegno per le famiglie.',
+		sportelli_intro: 'Il Comune di Napoli gestisce la Casa delle Culture e dell\'Accoglienza delle persone LGBTQI+ in Via Parco Carelli 8C, prima struttura municipale del Sud Italia dedicata alla tutela delle persone LGBTQI+. Al suo interno operano sportelli di consulenza legale, psicologica e di orientamento lavorativo gratuiti, oltre a un servizio di ospitalità per persone in emergenza abitativa. È inoltre attivo il progetto Napoli DiverCity, promosso dal Comune e realizzato dal Centro SinapSi della Federico II insieme ad Arcigay Napoli, che offre ascolto e consulenza gratuita presso Via Porta di Massa 1.',
 		image: '/images/citta/napoli.webp',
 		centri_gender: [
 			{
@@ -954,6 +954,26 @@ const dati: CittaDettaglio[] = [
 			{
 				domanda: 'Quanto tempo richiede la rettificazione anagrafica a Napoli?',
 				risposta: 'I tempi variano da 8 a 18 mesi presso il Tribunale Civile di Napoli. Non è più necessario l\'intervento chirurgico dal 2015. La Rete Lenford offre consulenze gratuite.'
+			},
+			{
+				domanda: 'Cos\'è il centro per la disforia di genere a Napoli e come si accede?',
+				risposta: 'Il centro di riferimento è il Centro di Identità di Genere dell\'AOU Federico II, in Via Sergio Pansini 5. L\'attività clinica e di ricerca sulla varianza di genere è attiva dal 1997. Per accedere serve un\'impegnativa del medico di base per visita endocrinologica o psicologica. Il Centro offre un percorso multidisciplinare che comprende psicologia clinica, endocrinologia e chirurgia, tutto coperto dal SSN. Accoglie pazienti da tutta la Campania e dal Sud Italia.'
+			},
+			{
+				domanda: 'Quali sono i tempi per la transizione di genere a Napoli?',
+				risposta: 'I tempi del percorso di affermazione di genere a Napoli dipendono dalla fase. La valutazione psicologica presso il Centro di Identità di Genere della Federico II richiede generalmente 3-8 mesi. L\'avvio della terapia ormonale può avvenire entro 1-3 mesi dalla valutazione. Per la rettificazione anagrafica al Tribunale Civile di Napoli i tempi variano tra 8 e 18 mesi. Per gli interventi chirurgici le liste d\'attesa possono raggiungere 1-3 anni. Le associazioni locali come ATN e Arcigay Napoli possono aiutare a orientarsi nei passaggi burocratici.'
+			},
+			{
+				domanda: 'Quali associazioni supportano le persone trans a Napoli?',
+				risposta: 'Le principali realtà sono l\'ATN (Associazione Transessuale Napoli), fondata nel 2007, che offre consulenza legale e psicologica, orientamento lavorativo, accompagnamento ai servizi sanitari e una casa di accoglienza per vittime di violenza omotransfobica. Arcigay Napoli Antinoo gestisce uno sportello trans (giovedì 16-19) con ascolto e orientamento ai servizi. AGEDO Campania organizza gruppi di sostegno per le famiglie. Il collettivo transfemminista Le Maree promuove attività culturali e di visibilità per persone trans e non binarie.'
+			},
+			{
+				domanda: 'Il percorso di transizione a Napoli è coperto dal SSN?',
+				risposta: 'Sì, l\'intero percorso di affermazione di genere presso il Centro di Identità di Genere della Federico II è coperto dal Servizio Sanitario Nazionale. La valutazione psicologica, le visite endocrinologiche e gli interventi chirurgici sono erogati in regime SSN con il pagamento del solo ticket. La terapia ormonale sostitutiva è gratuita con esenzione specifica e ricetta rossa. Per interventi chirurgici non disponibili a Napoli, il SSN copre i costi anche presso centri fuori regione (come il CIG Niguarda a Milano) con autorizzazione della ASL. La rettificazione anagrafica può essere gratuita con il gratuito patrocinio.'
+			},
+			{
+				domanda: 'Come si inizia un percorso di transizione a Napoli?',
+				risposta: 'Il primo passo è rivolgersi al proprio medico di medicina generale per ottenere un\'impegnativa per visita endocrinologica o psicologica indirizzata al Centro di Identità di Genere dell\'AOU Federico II. Con l\'impegnativa si prenota la prima visita presso il Centro, in Via Sergio Pansini 5. In parallelo, è molto utile contattare un\'associazione come l\'ATN o Arcigay Napoli Antinoo: possono offrire orientamento, accompagnamento ai servizi e supporto tra pari. Non è necessario avere una diagnosi preventiva per accedere al primo colloquio. La Casa delle Culture LGBTQI+ del Comune di Napoli offre ulteriori servizi di accoglienza e orientamento.'
 			}
 		],
 		articoli_correlati: [
