@@ -2,9 +2,9 @@
 title: "Obblighi legali di disclosure"
 seoTitle: "Nascondere di essere trans è reato?"
 slug: "nascondere-essere-trans"
-description: "È obbligatorio rivelare di essere transgender? Cosa dice la legge italiana e internazionale sulla disclosure dell'identità di genere nei rapporti personali, lavorativi e sessuali."
+description: "Stealth transgender e passing: vivere senza dire di essere trans è reato? Cosa dice la legge italiana sulla disclosure nei rapporti personali e lavorativi."
 category: "percorsi"
-tags: ["legge", "disclosure", "privacy", "diritti", "reato"]
+tags: ["legge", "disclosure", "privacy", "diritti", "reato", "stealth", "passing", "segreto", "sicurezza"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/nascondere-essere-trans.webp"

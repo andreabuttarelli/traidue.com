@@ -2,9 +2,9 @@
 title: "Sanità e persone trans in Italia"
 seoTitle: "Come funziona la sanità per le persone trans in Italia?"
 slug: "trans-e-sanita"
-description: "Come funziona il percorso sanitario per le persone trans in Italia: SSN, centri specializzati, tempi di attesa, costi, terapia ormonale, chirurgia e diritti del paziente."
+description: "Discriminazione transgender in sanità e accesso cure trans in Italia: SSN, centri specializzati, liste attesa, terapia ormonale e diritti del paziente."
 category: "percorsi"
-tags: ["sanità", "SSN", "centri specializzati", "percorso sanitario", "Italia"]
+tags: ["sanità", "SSN", "centri specializzati", "percorso sanitario", "Italia", "accesso cure", "discriminazione sanitaria", "liste attesa"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/trans-e-sanita.webp"

@@ -2,9 +2,9 @@
 title: "Transizione sociale senza medicalizzazione"
 seoTitle: "Cos'è la transizione sociale?"
 slug: "transizione-sociale"
-description: "Cos'è la transizione sociale per le persone trans: vivere nel genere sentito senza interventi medici. Nome, pronomi, abbigliamento, relazioni e aspetti pratici in Italia."
+description: "Transizione di genere senza operazione: coming out, nome scelto, pronomi, abbigliamento e aspetti pratici della transizione sociale in Italia."
 category: "percorsi"
-tags: ["transizione sociale", "nome", "pronomi", "non medica", "espressione di genere"]
+tags: ["transizione sociale", "nome", "pronomi", "non medica", "espressione di genere", "senza operazione", "nome scelto", "coming out", "vita quotidiana"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/transizione-sociale.webp"

@@ -2,9 +2,9 @@
 title: "Diritti trans mancanti in Italia: le battaglie future"
 seoTitle: "Quali sono i diritti trans mancanti e le battaglie future?"
 slug: "diritti-trans-mancanti"
-description: "I diritti che le persone trans non hanno ancora in Italia: autodeterminazione di genere, tutela dalla discriminazione, accesso alla sanità, genitorialità e le proposte di legge in discussione."
+description: "Autodeterminazione di genere in Italia: diritti mancanti trans, riforme necessarie, DDL Zan e proposte di legge su sanità, genitorialità e discriminazione."
 category: "percorsi"
-tags: ["diritti", "Italia", "proposte di legge", "autodeterminazione", "discriminazione"]
+tags: ["diritti", "Italia", "proposte di legge", "autodeterminazione", "discriminazione", "legge mancante", "riforma", "DDL Zan"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/diritti-trans-mancanti.webp"

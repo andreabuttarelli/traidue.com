@@ -1,9 +1,10 @@
 ---
 title: "Privacy e identità di genere: normative e tutele"
+seoTitle: "Privacy e identità di genere: come sono protetti i dati delle persone trans?"
 slug: "privacy-identita-di-genere"
-description: "Guida completa su privacy e identità di genere: GDPR, deadnaming, documenti e tutele legali per le persone trans in Italia e in Europa."
+description: "GDPR e persone trans: protezione dati sensibili, deadnaming, documenti e tutele legali per l'identità di genere in Italia e in Europa."
 category: "percorsi"
-tags: ["privacy", "GDPR", "deadnaming", "documenti", "tutele"]
+tags: ["privacy", "GDPR", "deadnaming", "documenti", "tutele", "dati sensibili", "protezione", "outing"]
 date: "2026-02-18"
 updated: "2026-02-18"
 image: "/images/wiki/privacy-identita-di-genere.webp"

@@ -2,9 +2,9 @@
 title: "Iniziare la transizione in Italia"
 seoTitle: "Come si inizia la transizione in Italia?"
 slug: "iniziare-transizione"
-description: "Guida pratica per iniziare la transizione di genere in Italia: primi passi, medico di base, centri specializzati, terapia ormonale, tempi e costi nel sistema sanitario nazionale."
+description: "Come iniziare la transizione di genere in Italia: primi passi, fasi del cambio sesso, centri specializzati, terapia ormonale, tempi e costi nel SSN."
 category: "percorsi"
-tags: ["transizione", "Italia", "SSN", "terapia ormonale", "percorso", "guida"]
+tags: ["transizione", "Italia", "SSN", "terapia ormonale", "percorso", "guida", "cambio sesso", "primi passi", "fasi", "tempi", "come iniziare", "costi"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/iniziare-transizione.webp"

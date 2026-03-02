@@ -2,9 +2,9 @@
 title: "DDL Disforia: cosa prevede e cosa cambia"
 seoTitle: "Cos'è il DDL Disforia e cosa prevede?"
 slug: "ddl-disforia"
-description: "Il disegno di legge sulla disforia di genere in Italia: cosa prevede, chi lo ha proposto, cosa cambierebbe per le persone trans e a che punto è l'iter parlamentare."
+description: "DDL Disforia: bloccanti pubertà in Italia, legislazione su minori trans, triptorelina e iter parlamentare. Cosa prevede e cosa cambierebbe."
 category: "percorsi"
-tags: ["DDL Disforia", "legge", "Italia", "Parlamento", "disforia di genere"]
+tags: ["DDL Disforia", "legge", "Italia", "Parlamento", "disforia di genere", "bloccanti", "pubertà", "minori", "legislazione", "triptorelina"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/ddl-disforia.webp"

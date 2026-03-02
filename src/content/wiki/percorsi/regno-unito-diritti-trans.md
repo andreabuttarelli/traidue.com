@@ -1,9 +1,10 @@
 ---
 title: "Regno Unito: cosa sta succedendo ai diritti delle persone trans"
+seoTitle: "Diritti trans nel Regno Unito: dal Gender Recognition Act al Cass Review"
 slug: "regno-unito-diritti-trans"
-description: "Dalla Cass Review al divieto dei bloccanti della pubertà, fino alla sentenza della Corte Suprema: cronologia ragionata di un paese che sta riscrivendo le regole."
+description: "Diritti trans UK: GRA, Cass Review, NHS e divieto bloccanti pubertà. Dal Gender Recognition Act alla sentenza della Corte Suprema, cronologia aggiornata."
 category: "percorsi"
-tags: ["regno unito", "cass review", "diritti", "legislazione", "NHS"]
+tags: ["regno unito", "cass review", "diritti", "legislazione", "NHS", "GRA", "Cass Review", "UK", "Gender Recognition Act"]
 date: "2026-02-18"
 updated: "2026-02-18"
 image: "/images/wiki/regno-unito-diritti-trans.webp"

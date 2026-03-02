@@ -2,9 +2,9 @@
 title: "Costituzione italiana e diritti delle persone trans"
 seoTitle: "Cosa dice la Costituzione italiana sui diritti trans?"
 slug: "costituzione-diritti-trans"
-description: "Cosa dice la Costituzione italiana sui diritti delle persone transgender: articoli rilevanti, sentenze della Corte Costituzionale, principi di uguaglianza e dignità."
+description: "Costituzione italiana e persone trans: articoli su identità, uguaglianza e diritto alla salute. Sentenze della Corte Costituzionale e principi di dignità."
 category: "percorsi"
-tags: ["Costituzione", "diritti", "Corte Costituzionale", "uguaglianza", "dignità"]
+tags: ["Costituzione", "diritti", "Corte Costituzionale", "uguaglianza", "dignità", "articoli", "diritto alla salute"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/costituzione-diritti-trans.webp"

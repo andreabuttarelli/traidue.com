@@ -1,9 +1,10 @@
 ---
 title: "La legge 164/1982: rettificazione di genere in Italia"
+seoTitle: "Legge 164/1982: come funziona la rettificazione di genere in Italia?"
 slug: "legge-164-italia"
-description: "Storia, contenuti e iter della legge 164/1982 sulla rettificazione di genere in Italia: dalla approvazione alle riforme, confronto europeo."
+description: "Legge 164/1982: rettifica sesso senza intervento, cambio genere senza operazione. Storia, iter, sentenze della Corte Costituzionale e confronto europeo."
 category: "percorsi"
-tags: ["legge 164", "rettificazione", "Italia", "diritti", "tribunale"]
+tags: ["legge 164", "rettificazione", "Italia", "diritti", "tribunale", "rettificazione anagrafica", "cambio sesso", "senza operazione", "sentenza", "Corte Costituzionale"]
 date: "2026-02-18"
 updated: "2026-02-18"
 image: "/images/wiki/legge-164-italia.webp"

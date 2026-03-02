@@ -1,9 +1,10 @@
 ---
 title: "Stati Uniti: l'ondata legislativa contro le persone trans"
+seoTitle: "Diritti delle persone trans negli Stati Uniti: leggi, restrizioni e battaglie"
 slug: "stati-uniti-diritti-trans"
-description: "Oltre 3.000 proposte di legge anti-trans dal 2021 a oggi. Dai divieti sanitari ai bagni, dalla Corte Suprema agli stati-scudo: la mappa di una battaglia in corso."
+description: "Diritti trans USA: leggi anti-trans, divieti sanitari, Corte Suprema e stati-scudo. Oltre 3.000 proposte di legge dal 2021 a oggi in una mappa aggiornata."
 category: "percorsi"
-tags: ["stati uniti", "legislazione", "diritti", "corte suprema", "sport"]
+tags: ["stati uniti", "legislazione", "diritti", "corte suprema", "sport", "USA", "leggi anti-trans", "stati", "restrizioni"]
 date: "2026-02-18"
 updated: "2026-02-18"
 image: "/images/wiki/stati-uniti-diritti-trans.webp"

@@ -1,9 +1,10 @@
 ---
 title: "Diritti delle persone trans nel mondo: una mappa globale"
+seoTitle: "Diritti delle persone trans nel mondo: la mappa aggiornata"
 slug: "diritti-trans-internazionali"
-description: "Panoramica globale dei diritti delle persone trans: legislazioni, riconoscimento giuridico, autodeterminazione e restrizioni paese per paese."
+description: "Diritti trans in Europa e nel mondo: mappa aggiornata, confronto internazionale, autodeterminazione e riconoscimento giuridico paese per paese."
 category: "percorsi"
-tags: ["diritti", "legislazione", "internazionale", "riconoscimento giuridico"]
+tags: ["diritti", "legislazione", "internazionale", "riconoscimento giuridico", "Europa", "mappa", "confronto", "autodeterminazione"]
 date: "2026-02-18"
 updated: "2026-02-18"
 image: "/images/wiki/diritti-trans-internazionali.webp"

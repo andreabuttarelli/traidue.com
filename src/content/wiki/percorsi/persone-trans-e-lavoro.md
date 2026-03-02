@@ -2,9 +2,9 @@
 title: "Persone trans e lavoro"
 seoTitle: "Le persone trans possono lavorare liberamente?"
 slug: "persone-trans-e-lavoro"
-description: "Le persone trans possono lavorare liberamente in Italia? Diritti, discriminazione, leggi, dati sulla disoccupazione e consigli pratici per il mondo del lavoro."
+description: "Discriminazione lavoro trans in Italia: curriculum transgender, colloquio, diritti lavorativi, dati sulla disoccupazione e consigli pratici."
 category: "percorsi"
-tags: ["lavoro", "discriminazione", "diritti", "occupazione", "inclusione", "Italia"]
+tags: ["lavoro", "discriminazione", "diritti", "occupazione", "inclusione", "Italia", "colloquio", "curriculum", "diritti lavorativi"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/persone-trans-e-lavoro.webp"

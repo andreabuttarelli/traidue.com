@@ -2,9 +2,9 @@
 title: "Cambio documenti e rettificazione anagrafica"
 seoTitle: "Come si cambia nome e documenti se si è trans?"
 slug: "cambio-documenti-trans"
-description: "Guida completa alla rettificazione anagrafica in Italia per persone trans: come cambiare nome, sesso sui documenti, carta d'identità, codice fiscale, laurea e tutti gli altri documenti."
+description: "Cambio nome transgender e rettifica anagrafica in Italia: come cambiare codice fiscale, carta d'identità, patente, passaporto e tutti i documenti."
 category: "percorsi"
-tags: ["documenti", "rettificazione", "nome", "legge", "burocrazia", "Italia"]
+tags: ["documenti", "rettificazione", "nome", "legge", "burocrazia", "Italia", "codice fiscale", "carta identità", "patente", "passaporto", "anagrafe", "rettifica"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/cambio-documenti-trans.webp"
