@@ -127,6 +127,30 @@
 			: []
 	);
 
+	let associazioneSchemas = $derived(
+		data.dettaglio
+			? data.dettaglio.associazioni
+					.filter((a) => a.indirizzo)
+					.map((a) => ({
+						'@context': 'https://schema.org',
+						'@type': 'LocalBusiness',
+						'@additionalType': 'https://schema.org/NGO',
+						name: a.nome,
+						description: a.descrizione,
+						address: {
+							'@type': 'PostalAddress',
+							streetAddress: a.indirizzo,
+							addressLocality: a.citta,
+							addressRegion: data.dettaglio!.regione,
+							addressCountry: 'IT'
+						},
+						...(a.telefono ? { telephone: a.telefono } : {}),
+						...(a.email ? { email: a.email } : {}),
+						...(a.sito ? { url: a.sito } : {})
+					}))
+			: []
+	);
+
 	const gruppiAssociazioni = $derived(
 		data.dettaglio ? Object.entries(Object.groupBy(data.dettaglio.associazioni, (a) => a.tipo)) : []
 	);
@@ -158,6 +182,9 @@
 <StructuredData schema={breadcrumbSchema} />
 <StructuredData schema={faqSchema} />
 {#each clinicSchemas as schema}
+	<StructuredData {schema} />
+{/each}
+{#each associazioneSchemas as schema}
 	<StructuredData {schema} />
 {/each}
 
