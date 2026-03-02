@@ -1413,10 +1413,10 @@ const dati: CittaDettaglio[] = [
 		provincia: 'PA',
 		intro: 'Palermo è il principale punto di riferimento in Sicilia per le persone transgender e non binarie, pur in un contesto regionale dove i servizi strutturati restano limitati. L\'ARNAS Civico ospita un ambulatorio dedicato all\'identità di genere che rappresenta l\'unico servizio specializzato dell\'isola. Nel 2015 il sindaco Leoluca Orlando ha proclamato Palermo "città dei diritti umani", promuovendo politiche di inclusione per le persone LGBTQ+. L\'associazionismo palermitano, con Arcigay Palermo in prima linea, svolge un ruolo fondamentale di orientamento e supporto per le persone trans di tutta la Sicilia.',
 		metaDescription: 'Risorse trans a Palermo: ambulatorio identità di genere ARNAS Civico, associazioni LGBTQ+, sportelli, iter sanitario ASP e storia del movimento in Sicilia.',
-		contesto_locale: '',
-		centri_gender_intro: '',
-		associazioni_intro: '',
-		sportelli_intro: '',
+		contesto_locale: 'Palermo è il principale punto di riferimento per le persone transgender in Sicilia, pur in un contesto regionale dove i servizi strutturati restano limitati rispetto al Centro-Nord. Nel 2013 l\'ARNAS Civico ha aperto il primo ambulatorio in Sicilia dedicato alle persone trans, mentre il Policlinico Universitario Paolo Giaccone ha avviato nel 2019 il Progetto T.U.T.T.O. (Tutela Umana dei Transessuali e Transgender in ambito Ospedaliero), un percorso multidisciplinare che integra psichiatria, endocrinologia e chirurgia plastica. A livello politico, nel 2015 il sindaco Leoluca Orlando ha promosso la Carta di Palermo, dichiarando la città luogo di accoglienza e diritti umani. Nel 2010 Palermo ha ospitato per la prima volta il Sicilia Pride, e nel 2013 è stata scelta come sede del Pride nazionale, con oltre 100.000 partecipanti. L\'associazionismo locale, guidato da Arcigay Palermo presso le Officine Arcobaleno, svolge un ruolo cruciale di orientamento e supporto: dal 2016 offre un servizio di accompagnamento alla transizione e gestisce il Centro Antidiscriminazioni Protego, primo in Sicilia occidentale. Per la chirurgia di affermazione di genere, tuttavia, è ancora necessario rivolgersi a centri fuori regione.',
+		centri_gender_intro: 'A Palermo i servizi per l\'identità di genere fanno capo a due strutture principali: l\'ARNAS Civico, che dal 2013 ospita un ambulatorio dedicato, e il Policlinico Universitario Paolo Giaccone, sede del Progetto T.U.T.T.O. con un\'équipe multidisciplinare che include psichiatria, endocrinologia e chirurgia plastica. L\'accesso avviene tramite impegnativa del medico di base; i tempi di attesa possono essere significativi, essendo le uniche strutture di riferimento per tutta la Sicilia occidentale.',
+		associazioni_intro: 'Arcigay Palermo, con sede alle Officine Arcobaleno in via della Rosa alla Gioiamia 2/4, è il principale punto di riferimento per le persone trans in Sicilia. Dal 2016 offre uno sportello psicologico dedicato alla transizione, consulenza legale attiva dal 2010, e il Gruppo Trans*, uno spazio di socializzazione e confronto per persone trans e gender non-conforming. Sul territorio operano anche Famiglie Arcobaleno Sicilia, AGEDO Sicilia e il coordinamento Palermo Pride.',
+		sportelli_intro: 'Il Centro Antidiscriminazioni Protego, gestito da Arcigay Palermo in collaborazione con il Comune di Palermo e il Comune di Trapani, è il primo sportello contro le discriminazioni basate su orientamento sessuale e identità di genere nella Sicilia occidentale. Offre accoglienza, consulenza psicologica, legale e di mediazione familiare. È inoltre attivo il nodo palermitano dello Sportello UNAR, raggiungibile tramite il numero verde 800 901 010.',
 		image: '/images/citta/palermo.webp',
 		centri_gender: [
 			{
@@ -1581,6 +1581,26 @@ const dati: CittaDettaglio[] = [
 			{
 				domanda: 'L\'Università di Palermo offre la carriera alias?',
 				risposta: 'Sì, l\'Università di Palermo ha attivato la carriera alias per studenti transgender e non binari, consentendo l\'uso del nome elettivo nei registri, nel badge e nella documentazione interna dell\'ateneo.'
+			},
+			{
+				domanda: 'Esiste un centro per la disforia di genere a Palermo e in Sicilia?',
+				risposta: 'Sì, a Palermo operano due strutture pubbliche. L\'ARNAS Civico ha aperto nel 2013 il primo ambulatorio in Sicilia dedicato alle persone trans. Il Policlinico Paolo Giaccone ospita il Progetto T.U.T.T.O. (Tutela Umana dei Transessuali e Transgender in ambito Ospedaliero), attivo dal 2019, con un\'équipe che integra psichiatria, endocrinologia e chirurgia plastica e ha seguito circa 50 pazienti.'
+			},
+			{
+				domanda: 'Quali sono i tempi del percorso di transizione a Palermo?',
+				risposta: 'I tempi variano in base alla struttura e al percorso individuale. La valutazione psicologica richiede generalmente 4-8 mesi, seguita da 2-4 mesi per l\'avvio della terapia ormonale. La rettificazione anagrafica presso il Tribunale Civile di Palermo può richiedere 10-20 mesi. Per la chirurgia, che richiede centri fuori regione come il Niguarda a Milano, le liste d\'attesa arrivano a 1-3 anni. I tempi complessivi possono essere più lunghi rispetto ai centri del Nord, poiché le strutture palermitane sono punto di riferimento per tutta la Sicilia occidentale.'
+			},
+			{
+				domanda: 'Quali associazioni supportano le persone trans a Palermo?',
+				risposta: 'Arcigay Palermo, con sede alle Officine Arcobaleno, è il principale punto di riferimento: dal 2016 offre accompagnamento alla transizione tramite il suo sportello psicologico, consulenza legale attiva dal 2010 e il Gruppo Trans* per socializzazione e confronto. Gestisce anche il Centro Antidiscriminazioni Protego, primo in Sicilia occidentale. AGEDO Sicilia offre gruppi di sostegno per familiari, mentre il coordinamento Palermo Pride promuove visibilità e sensibilizzazione durante tutto l\'anno.'
+			},
+			{
+				domanda: 'Il percorso di transizione a Palermo è coperto dal SSN?',
+				risposta: 'Sì, il percorso di transizione a Palermo è coperto dal Servizio Sanitario Nazionale. Dal 2020, due determine AIFA garantiscono la copertura dei farmaci ormonali per la terapia di virilizzazione e femminilizzazione su tutto il territorio nazionale, previa diagnosi di un\'équipe multidisciplinare. L\'ARNAS Civico e il Policlinico Giaccone offrono valutazione e monitoraggio gratuiti. Per la chirurgia fuori regione, il SSN copre i costi tramite autorizzazione della ASP siciliana.'
+			},
+			{
+				domanda: 'Come posso iniziare il percorso di transizione a Palermo?',
+				risposta: 'Il primo passo è rivolgersi al proprio medico di base per ottenere un\'impegnativa per l\'Ambulatorio Identità di Genere dell\'ARNAS Civico o per il Progetto T.U.T.T.O. del Policlinico Paolo Giaccone. Arcigay Palermo offre un primo orientamento gratuito e accompagnamento nel percorso tramite lo sportello psicologico (attivo dal 2016) e la consulenza legale. È possibile contattare Arcigay Palermo all\'indirizzo palermo@arcigay.it per fissare un primo colloquio.'
 			}
 		],
 		articoli_correlati: [
@@ -1590,7 +1610,7 @@ const dati: CittaDettaglio[] = [
 			'situazione-trans-italia',
 			'salute-mentale-persone-trans'
 		],
-		ultimoAggiornamento: '2026-02-25'
+		ultimoAggiornamento: '2026-03-02'
 	},
 	{
 		slug: 'trieste',
