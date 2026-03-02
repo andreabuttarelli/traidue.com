@@ -43,10 +43,10 @@ const dati: CittaDettaglio[] = [
 		provincia: 'MI',
 		intro: 'Milano è il principale polo italiano per i percorsi di affermazione di genere, grazie alla presenza del CIG (Centro Interdipartimentale per l\'Incongruenza di Genere) dell\'Ospedale Niguarda, punto di riferimento nazionale. La città vanta un tessuto associativo tra i più ricchi d\'Italia, con decine di realtà che offrono supporto legale, psicologico e sociale alle persone trans e non binarie. Nel 2002 Milano ha ospitato il primo Trans Pride italiano, segnando un momento storico per la visibilità della comunità transgender nel Paese. L\'ampia rete di servizi pubblici e del terzo settore rende Milano una delle città più accessibili per chi intraprende un percorso di transizione.',
 		metaDescription: 'Guida completa ai servizi per persone trans a Milano: CIG Niguarda, associazioni, sportelli, iter sanitario e FAQ sul percorso di transizione in Lombardia.',
-		contesto_locale: '',
-		centri_gender_intro: '',
-		associazioni_intro: '',
-		sportelli_intro: '',
+		contesto_locale: 'Milano rappresenta il principale punto di riferimento in Italia per i percorsi di affermazione di genere. Il cuore di questa rete è il CIG (Centro Interdipartimentale per l\'Incongruenza di Genere) dell\'Ospedale Niguarda, l\'unico centro in Lombardia interamente finanziato dal Servizio Sanitario Nazionale per questo tipo di percorsi. Secondo un reportage di Sky TG24 del 2023, il CIG segue oltre 500 pazienti. La città vanta un tessuto associativo tra i più densi d\'Italia: al Milano Pride partecipano regolarmente oltre 90 organizzazioni LGBTQ+. Milano è stata anche la prima grande città italiana ad adottare un registro di genere comunale nel 2022, che consente alle persone trans di ottenere documenti comunali (tessere ATM, badge, carte biblioteca) con il nome corrispondente alla propria identità di genere. Nel 2024 il Comune ha esteso la carriera alias anche ai propri dipendenti. Il 4 maggio 2025, in occasione dell\'anniversario della Legge 164/1982, si è tenuta la prima edizione del Trans Pride Milano.',
+		centri_gender_intro: 'Per accedere ai centri per l\'incongruenza di genere a Milano serve un\'impegnativa del medico di base, solitamente per "visita psicologica clinica". Il CIG Niguarda offre un percorso multidisciplinare completo: valutazione psicodiagnostica, terapia ormonale (endocrinologia) e chirurgia di affermazione di genere, tutto coperto dal SSN. I tempi di attesa per il primo colloquio possono essere di diversi mesi a causa dell\'alta domanda — il centro ha una lista d\'attesa di circa 140 persone (dato 2023).',
+		associazioni_intro: 'Milano dispone di una rete associativa ampia e diversificata a supporto delle persone trans e non binarie. Le realtà presenti coprono ogni tipo di bisogno: dallo sportello trans di ALA Milano (che offre supporto psicologico, legale e orientamento lavorativo) alla consulenza legale specializzata di Rete Lenford, dai gruppi di auto-mutuo-aiuto di Arcigay Milano all\'accompagnamento tra pari del MIT. Per le famiglie, AGEDO Milano organizza incontri mensili dedicati ai genitori di persone trans.',
+		sportelli_intro: 'Il Comune di Milano mette a disposizione diversi servizi pubblici gratuiti per le persone transgender. Lo Sportello Trans comunale offre orientamento su percorsi sanitari, documenti e mediazione con servizi pubblici. Alla Casa dei Diritti è attivo un Help Center antidiscriminazione che accoglie segnalazioni di discriminazioni legate all\'identità di genere, offrendo ascolto, orientamento e consulenza legale gratuita. È inoltre operativo il nodo milanese dello Sportello UNAR, raggiungibile tramite il numero verde 800 901 010.',
 		image: '/images/citta/milano.webp',
 		centri_gender: [
 			{
@@ -255,6 +255,26 @@ const dati: CittaDettaglio[] = [
 			{
 				domanda: 'È possibile scegliere un medico di base trans-friendly a Milano?',
 				risposta: 'Non esiste una lista ufficiale, ma le associazioni milanesi come ALA Milano e Arcigay possono suggerire medici di medicina generale sensibili alle tematiche di genere. Se il proprio medico di base rifiuta l\'impegnativa, si può segnalare il caso all\'Ordine dei Medici di Milano.'
+			},
+			{
+				domanda: 'Cos\'è il centro per la disforia di genere a Milano e come si accede?',
+				risposta: 'Il principale centro di riferimento è il CIG (Centro Interdipartimentale per l\'Incongruenza di Genere) dell\'Ospedale Niguarda. Per accedere serve un\'impegnativa del medico di base per "visita psicologica clinica", con cui si prenota la prima visita tramite il CUP regionale (800 638 638) o gli sportelli ASST Niguarda. Non serve una diagnosi preventiva. Il CIG offre un percorso completo: valutazione psicodiagnostica, endocrinologia, logopedia e chirurgia, tutto all\'interno del SSN.'
+			},
+			{
+				domanda: 'Quali sono i tempi di attesa per iniziare la transizione a Milano?',
+				risposta: 'I tempi variano in base al servizio richiesto. Per il primo colloquio psicodiagnostico al CIG Niguarda la lista d\'attesa è significativa: nel 2023 risultavano circa 140 persone in attesa. La fase di valutazione dura generalmente 3-8 mesi (inclusa l\'attesa). Dopo la relazione psicodiagnostica, l\'avvio della terapia ormonale richiede 1-2 mesi. I tempi complessivi dipendono molto dal momento in cui si presenta la richiesta. Rivolgersi alle associazioni locali come ALA Milano può aiutare a orientarsi e velocizzare i passaggi burocratici.'
+			},
+			{
+				domanda: 'Il percorso di transizione a Milano è a carico del SSN o a pagamento?',
+				risposta: 'Il percorso presso il CIG Niguarda è coperto dal Servizio Sanitario Nazionale. La valutazione psicodiagnostica, le visite endocrinologiche e gli interventi chirurgici sono erogati in regime SSN con il pagamento del solo ticket (dove previsto). Dal 1 ottobre 2020, grazie a due determine AIFA, anche i farmaci per la terapia ormonale (testosterone, estrogeni, antiandrogeni) sono completamente a carico del SSN, con ricetta rossa e codice di esenzione. La rettificazione anagrafica presso il Tribunale ha costi legali che possono essere azzerati con il gratuito patrocinio (ISEE sotto i 12.838,01 euro).'
+			},
+			{
+				domanda: 'Esistono associazioni a Milano che supportano le famiglie di persone trans?',
+				risposta: 'Sì, la realtà principale è AGEDO Milano (Associazione di Genitori, Parenti e Amici di persone LGBT+), che organizza incontri mensili di confronto per genitori e familiari di persone trans. Negli ultimi anni AGEDO ha accolto un numero crescente di genitori di giovani transgender e non binari. Anche Arcigay Milano offre gruppi dedicati alle famiglie, e il CIG Niguarda prevede colloqui di supporto psicologico per i familiari delle persone in percorso.'
+			},
+			{
+				domanda: 'Come si inizia un percorso di transizione a Milano?',
+				risposta: 'Il primo passo è rivolgersi al proprio medico di medicina generale per ottenere un\'impegnativa per "visita psicologica clinica" indirizzata al CIG dell\'Ospedale Niguarda. Con l\'impegnativa si prenota la prima visita tramite CUP regionale o sportelli ASST. In parallelo, è molto utile contattare un\'associazione come ALA Milano o Arcigay Milano: possono offrire orientamento, supporto tra pari e aiutarti a capire cosa aspettarti dal percorso. Non è necessario avere una diagnosi preventiva né aver già iniziato alcun trattamento.'
 			}
 		],
 		articoli_correlati: [
