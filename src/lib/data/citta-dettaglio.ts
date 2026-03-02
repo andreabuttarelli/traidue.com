@@ -993,10 +993,10 @@ const dati: CittaDettaglio[] = [
 		provincia: 'TO',
 		intro: 'Torino è una delle città più importanti in Italia per i servizi dedicati alle persone transgender, grazie alla presenza del CIDIGEM (Centro Interdipartimentale Disturbi di Identità di Genere) presso l\'Ospedale CTO-Molinette, uno dei centri più antichi e autorevoli del Paese. La forte tradizione universitaria torinese ha contribuito alla ricerca clinica e alla formazione di professionisti specializzati. Il tessuto associativo è ricco e radicato: il Centro LGBTQ Maurice, attivo dal 1996, rappresenta un punto di riferimento per l\'intera comunità.',
 		metaDescription: 'Guida completa alle risorse trans a Torino: CIDIGEM Molinette, associazioni, sportelli, iter sanitario ASL e storia del movimento.',
-		contesto_locale: '',
-		centri_gender_intro: '',
-		associazioni_intro: '',
-		sportelli_intro: '',
+		contesto_locale: 'Torino occupa un ruolo di primo piano in Italia per i diritti e i servizi dedicati alle persone transgender. Nel 2001 il Comune ha istituito il Servizio LGBT, primo esempio in Italia di un servizio pubblico inserito in un\'amministrazione comunale per il superamento delle discriminazioni legate all\'identità di genere e all\'orientamento sessuale. Nel 2005 nasce il CIDIGEM (Centro Interdipartimentale Disturbi di Identità di Genere) presso le Molinette, riconosciuto dalla Regione Piemonte nel 2008 come Centro di Riferimento Regionale: ad oggi segue oltre 700 pazienti tra i servizi psicologico ed endocrinologico. Il tessuto associativo torinese è tra i più radicati d\'Italia, con realtà come il Centro LGBTQ Maurice (attivo dal 1985), Arcigay Torino "Ottavio Mai" e CasArcobaleno, polo che dal 2014 riunisce oltre 20 associazioni in via Bernardino Lanino. Nel 2006 Torino ha ospitato il Pride nazionale con oltre 20.000 partecipanti, e sempre nel 2006 è nata in città la rete RE.A.DY, network di oltre 300 enti pubblici contro le discriminazioni.',
+		centri_gender_intro: 'Il CIDIGEM presso l\'Ospedale CTO-Molinette (AOU Città della Salute e della Scienza) è il centro di riferimento regionale per la disforia di genere in Piemonte, attivo dal 2005. Offre un percorso multidisciplinare completo — valutazione psicologica, terapia ormonale e chirurgia di affermazione di genere — interamente coperto dal SSN. I tempi di attesa per il primo colloquio possono superare i 12 mesi a causa dell\'alta domanda e della carenza di personale; il servizio endocrinologico collabora anche con l\'AOU San Luigi Gonzaga di Orbassano per il monitoraggio ormonale.',
+		associazioni_intro: 'Torino dispone di una rete associativa LGBTQ+ ampia e consolidata. Il Centro LGBTQ Maurice, fondato nel 1985, offre uno sportello trans settimanale (Spo-T) con ascolto, orientamento e gruppi di supporto tra pari. CasArcobaleno, inaugurata nel 2014 per iniziativa di Arcigay Torino "Ottavio Mai", riunisce oltre 20 associazioni in un unico spazio in via Bernardino Lanino 3/a, con servizi che includono accoglienza, test rapidi HIV e sifilide gratuiti, e gruppi di socializzazione. AGEDO Piemonte organizza incontri mensili per le famiglie di persone trans.',
+		sportelli_intro: 'Il Comune di Torino mette a disposizione il Servizio LGBT, istituito nel 2001, che svolge attività di formazione per dipendenti comunali, ASL e operatori sociali, e promuove normative antidiscriminazione. È inoltre attivo il centro PorTO Sicuro, primo centro antidiscriminazioni LGBTQIA+ sul territorio metropolitano, gestito da Arcigay Torino, AGEDO, Maurice e Almaterra, con tre sedi (CasArcobaleno, Maurice e Almaterra) e accesso garantito cinque giorni a settimana.',
 		image: '/images/citta/torino.webp',
 		centri_gender: [
 			{
@@ -1168,6 +1168,26 @@ const dati: CittaDettaglio[] = [
 			{
 				domanda: 'Quanto tempo richiede la rettificazione anagrafica a Torino?',
 				risposta: 'I tempi variano da 6 a 14 mesi presso il Tribunale Civile di Torino. Non è più necessario l\'intervento chirurgico dal 2015. La Rete Lenford offre consulenze legali gratuite.'
+			},
+			{
+				domanda: 'Cos\'è il CIDIGEM e come funziona il centro per la disforia di genere a Torino?',
+				risposta: 'Il CIDIGEM (Centro Interdipartimentale Disturbi di Identità di Genere) è il centro di riferimento regionale per la disforia di genere in Piemonte, attivo dal 2005 presso l\'Ospedale CTO-Molinette (AOU Città della Salute e della Scienza di Torino). Offre un percorso multidisciplinare che include valutazione psicologica, terapia ormonale e chirurgia di affermazione di genere, tutto coperto dal SSN. Il servizio psicologico segue attualmente 286 pazienti, mentre quello endocrinologico ne ha in carico 424.'
+			},
+			{
+				domanda: 'Quali sono i tempi di attesa per iniziare la transizione a Torino?',
+				risposta: 'I tempi di attesa al CIDIGEM per il primo colloquio psicologico possono superare i 12 mesi, a causa dell\'alta domanda e della carenza di personale dedicato. Dopo la valutazione psicologica (2-6 mesi), l\'avvio della terapia ormonale richiede 1-3 mesi aggiuntivi. Per la chirurgia di affermazione di genere le liste d\'attesa variano da 1 a 2 anni. Il Centro Maurice può orientare nell\'attesa con supporto tra pari e consulenza.'
+			},
+			{
+				domanda: 'Quali associazioni supportano le persone trans a Torino?',
+				risposta: 'Le principali realtà sono: il Centro LGBTQ Maurice (dal 1985, con sportello trans Spo-T settimanale), CasArcobaleno (polo di oltre 20 associazioni in via Bernardino Lanino 3/a, con accoglienza e servizi gratuiti), Arcigay Torino "Ottavio Mai" (consulenza legale e progetti inclusivi), il Coordinamento Torino Pride (visibilità e campagne) e AGEDO Piemonte (gruppi mensili per famiglie con figli trans).'
+			},
+			{
+				domanda: 'Il percorso di transizione a Torino è coperto dal Servizio Sanitario Nazionale?',
+				risposta: 'Sì, il percorso presso il CIDIGEM alle Molinette è interamente coperto dal SSN: la valutazione psicologica, la terapia ormonale sostitutiva (con esenzione specifica) e la chirurgia di affermazione di genere sono gratuite. Serve un\'impegnativa del medico di base per accedere al centro. Il monitoraggio ormonale può essere effettuato anche presso l\'AOU San Luigi Gonzaga di Orbassano.'
+			},
+			{
+				domanda: 'Come si inizia il percorso di transizione a Torino?',
+				risposta: 'Il primo passo è rivolgersi al medico di medicina generale per ottenere un\'impegnativa per il CIDIGEM presso l\'Ospedale CTO-Molinette. Il centro avvierà una valutazione psicologica personalizzata, seguita dalla terapia ormonale e, se desiderato, dalla chirurgia. Per un supporto iniziale gratuito ci si può rivolgere allo Sportello Trans del Centro Maurice (mercoledì 17:00-19:00) o al Welcome Desk di CasArcobaleno.'
 			}
 		],
 		articoli_correlati: [
@@ -1178,7 +1198,7 @@ const dati: CittaDettaglio[] = [
 			'salute-mentale-persone-trans',
 			'storia-movimento-trans'
 		],
-		ultimoAggiornamento: '2026-02-25'
+		ultimoAggiornamento: '2026-03-02'
 	},
 	{
 		slug: 'firenze',
