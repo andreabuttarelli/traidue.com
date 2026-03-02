@@ -4,7 +4,7 @@ seoTitle: "Sono trans? Come capire se si è transgender"
 slug: "sono-trans"
 description: "Come capire se si è transgender: segnali, esperienze comuni, domande da farsi e risorse. Una guida basata sulla ricerca scientifica per chi si sta facendo delle domande."
 category: "cultura"
-tags: ["identità di genere", "esplorazione", "disforia", "questioning", "giovani"]
+tags: ["identità di genere", "esplorazione", "disforia", "questioning", "giovani", "come capire", "test", "segnali", "dubbi", "esplorare"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/sono-trans.webp"

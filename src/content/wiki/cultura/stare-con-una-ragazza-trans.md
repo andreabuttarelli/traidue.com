@@ -4,7 +4,7 @@ seoTitle: "Com'è stare insieme a una ragazza trans?"
 slug: "stare-con-una-ragazza-trans"
 description: "Com'è stare insieme a una ragazza transgender: cosa aspettarsi, come comportarsi, intimità, famiglia e società. Esperienze reali e consigli pratici basati sulla ricerca."
 category: "cultura"
-tags: ["relazioni", "ragazza trans", "coppia", "intimità", "partner"]
+tags: ["relazioni", "ragazza trans", "coppia", "intimità", "partner", "la mia ragazza è trans", "consigli", "sessualità"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/stare-con-una-ragazza-trans.webp"

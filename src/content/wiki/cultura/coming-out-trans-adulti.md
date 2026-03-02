@@ -4,7 +4,7 @@ seoTitle: "Si può fare coming out trans da adulti?"
 slug: "coming-out-trans-adulti"
 description: "Si può fare coming out come trans da adulti? Esperienze, sfide specifiche, lavoro, famiglia, relazioni e perché non è mai troppo tardi per vivere autenticamente."
 category: "cultura"
-tags: ["coming out", "adulti", "transizione tardiva", "lavoro", "famiglia"]
+tags: ["coming out", "adulti", "transizione tardiva", "lavoro", "famiglia", "tardi", "30 anni", "40 anni"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/coming-out-trans-adulti.webp"

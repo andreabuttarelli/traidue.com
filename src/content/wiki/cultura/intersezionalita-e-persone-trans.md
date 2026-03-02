@@ -4,7 +4,7 @@ seoTitle: "Cosa significa essere trans e appartenere ad altre minoranze?"
 slug: "intersezionalita-e-persone-trans"
 description: "Come l'essere trans si intreccia con razza, disabilità, classe sociale, status migratorio e età. Dati sulla discriminazione multipla, il contesto italiano e gli approcci intersezionali al supporto."
 category: "cultura"
-tags: ["intersezionalità", "discriminazione", "razza", "disabilità", "migrazione", "classe sociale", "diritti"]
+tags: ["intersezionalità", "discriminazione", "razza", "disabilità", "migrazione", "classe sociale", "diritti", "Crenshaw"]
 date: "2026-02-21"
 updated: "2026-02-21"
 image: "/images/wiki/intersezionalita-e-persone-trans.webp"

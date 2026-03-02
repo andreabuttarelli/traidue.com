@@ -4,7 +4,7 @@ seoTitle: "Cos'è il Transgender Day of Visibility e perché si celebra il 31 ma
 slug: "tdov"
 description: "Il Transgender Day of Visibility (TDoV) è la giornata internazionale che celebra le persone trans viventi, i loro successi e la loro resilienza. Si celebra ogni 31 marzo dal 2009."
 category: "cultura"
-tags: ["TDOV", "ricorrenze", "visibilità", "31 marzo", "celebrazione"]
+tags: ["TDOV", "ricorrenze", "visibilità", "31 marzo", "celebrazione", "giornata della visibilità"]
 date: "2026-03-01"
 updated: "2026-03-01"
 image: "/images/wiki/festivita-trans.webp"

@@ -4,7 +4,7 @@ seoTitle: "Le donne trans sono donne? Cosa dice la scienza"
 slug: "donne-trans-sono-donne"
 description: "Le donne trans sono donne? Cosa dicono neuroscienze, psicologia, endocrinologia e le principali organizzazioni mediche internazionali sull'identità di genere femminile delle donne transgender."
 category: "cultura"
-tags: ["donne trans", "identità di genere", "femminilità", "scienza", "neuroscienze"]
+tags: ["donne trans", "identità di genere", "femminilità", "scienza", "neuroscienze", "validità", "femminismo", "sesso biologico", "identità"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/donne-trans-sono-donne.webp"

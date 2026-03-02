@@ -4,7 +4,7 @@ seoTitle: "Come vivevano le persone trans prima del 1982?"
 slug: "condizione-trans-prima-1982"
 description: "Prima della legge 164/1982, le persone trans in Italia vivevano senza riconoscimento legale, criminalizzate e marginalizzate. Storia di un'Italia che ha cambiato le sue leggi."
 category: "cultura"
-tags: ["storia", "legge 164", "Italia", "diritti", "prima del 1982"]
+tags: ["storia", "legge 164", "Italia", "diritti", "prima del 1982", "prima della legge", "repressione"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/condizione-trans-prima-1982.webp"

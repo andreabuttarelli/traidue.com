@@ -1,9 +1,10 @@
 ---
 title: "5 nanomoli: il documentario su Valentina Petrillo e il sogno olimpico"
+seoTitle: "5 nanomoli: il documentario italiano su Valentina Petrillo"
 slug: "cinque-nanomoli"
-description: "5 nanomoli (2023): il documentario italiano su Valentina Petrillo, prima atleta trans alle Paralimpiadi. Sinossi, temi e impatto del film."
+description: "5 nanomoli (2023): il documentario su Valentina Petrillo, prima atleta trans alle Paralimpiadi. Trama, temi e impatto del memoir filmico italiano."
 category: "cultura"
-tags: ["documentario", "sport", "Valentina Petrillo", "Paralimpiadi", "Italia"]
+tags: ["documentario", "sport", "Valentina Petrillo", "Paralimpiadi", "Italia", "libro", "memoir", "transizione"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/cinque-nanomoli.webp"

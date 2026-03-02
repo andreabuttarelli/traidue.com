@@ -4,7 +4,7 @@ seoTitle: "Jules di Euphoria: perché è importante per la rappresentazione tran
 slug: "euphoria-serie-tv"
 description: "Jules Vaughn in Euphoria, interpretata da Hunter Schafer, è una delle rappresentazioni trans più complesse nella TV. Analisi del personaggio e impatto."
 category: "cultura"
-tags: ["serie", "HBO", "Hunter Schafer", "giovani", "identità", "rappresentazione"]
+tags: ["serie", "HBO", "Hunter Schafer", "giovani", "identità", "rappresentazione", "Jules", "recensione", "streaming"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/euphoria-serie-tv.webp"

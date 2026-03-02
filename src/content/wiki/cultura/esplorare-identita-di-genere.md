@@ -1,9 +1,10 @@
 ---
 title: "Esplorare la propria identità di genere: quello che nessuno ti dice"
+seoTitle: "Come esplorare la propria identità di genere in sicurezza"
 slug: "esplorare-identita-di-genere"
-description: "Guida basata sulla scienza per giovani che si interrogano sulla propria identità di genere: cosa è normale, cosa dice la ricerca, quali opzioni esistono e dove trovare supporto in Italia."
+description: "Come esplorare la propria identità di genere: cosa è normale, cosa dice la ricerca, quali opzioni esistono e dove trovare supporto in Italia."
 category: "cultura"
-tags: ["giovani", "esplorazione", "identità di genere", "coming out", "supporto"]
+tags: ["giovani", "esplorazione", "identità di genere", "coming out", "supporto", "questioning", "sicurezza", "risorse"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/esplorare-identita-di-genere.webp"

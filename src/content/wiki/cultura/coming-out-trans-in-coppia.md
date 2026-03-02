@@ -4,7 +4,7 @@ seoTitle: "Cosa succede se il mio partner fa coming out trans?"
 slug: "coming-out-trans-in-coppia"
 description: "Cosa fare quando il partner fa coming out come trans: emozioni, cambiamenti nella relazione, intimità, figli e come affrontare insieme il percorso. Basato su ricerca e esperienze."
 category: "cultura"
-tags: ["coming out", "coppia", "partner", "relazione", "matrimonio", "transizione"]
+tags: ["coming out", "coppia", "partner", "relazione", "matrimonio", "transizione", "dire al partner"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/coming-out-trans-in-coppia.webp"

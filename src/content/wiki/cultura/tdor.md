@@ -4,7 +4,7 @@ seoTitle: "Cos'è il Transgender Day of Remembrance e perché si celebra il 20 n
 slug: "tdor"
 description: "Il Transgender Day of Remembrance (TDoR) è la giornata internazionale dedicata alla memoria delle persone trans vittime di violenza. Ogni 20 novembre, veglie in tutto il mondo ricordano chi non c'è più."
 category: "cultura"
-tags: ["TDOR", "ricorrenze", "violenza", "memoria", "20 novembre"]
+tags: ["TDOR", "ricorrenze", "violenza", "memoria", "20 novembre", "giornata della memoria", "vittime"]
 date: "2026-03-01"
 updated: "2026-03-01"
 image: "/images/wiki/festivita-trans.webp"

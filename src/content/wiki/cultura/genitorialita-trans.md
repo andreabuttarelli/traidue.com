@@ -4,7 +4,7 @@ seoTitle: "Le persone trans possono avere una famiglia?"
 slug: "genitorialita-trans"
 description: "Le persone transgender possono avere una famiglia? Adozione, PMA, gravidanza, co-genitorialità: tutte le opzioni per le persone trans che vogliono diventare genitori in Italia."
 category: "cultura"
-tags: ["genitorialità", "famiglia", "adozione", "PMA", "figli", "gravidanza"]
+tags: ["genitorialità", "famiglia", "adozione", "PMA", "figli", "gravidanza", "gravidanza uomo trans", "genitore trans"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/genitorialita-trans.webp"

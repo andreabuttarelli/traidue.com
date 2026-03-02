@@ -4,7 +4,7 @@ seoTitle: "Come vivono le persone trans a scuola?"
 slug: "trans-e-scuola"
 description: "La realtà delle persone trans nella scuola italiana: bullismo, alias di carriera, diritti degli studenti transgender, cosa possono fare insegnanti e genitori."
 category: "cultura"
-tags: ["scuola", "bullismo", "alias di carriera", "studenti trans", "educazione"]
+tags: ["scuola", "bullismo", "alias di carriera", "studenti trans", "educazione", "insegnanti", "diritti", "Italia"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/trans-e-scuola.webp"

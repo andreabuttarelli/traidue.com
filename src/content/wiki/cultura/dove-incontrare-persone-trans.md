@@ -4,7 +4,7 @@ seoTitle: "Dove si incontrano altre persone trans?"
 slug: "dove-incontrare-persone-trans"
 description: "Dove incontrare altre persone trans in Italia: associazioni, gruppi di supporto, community online, eventi e spazi sicuri per persone transgender."
 category: "cultura"
-tags: ["community", "associazioni", "supporto", "spazi sicuri", "incontri"]
+tags: ["community", "associazioni", "supporto", "spazi sicuri", "incontri", "app", "social", "comunità", "eventi"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/dove-incontrare-persone-trans.webp"

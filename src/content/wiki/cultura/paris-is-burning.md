@@ -4,7 +4,7 @@ seoTitle: "Paris Is Burning (1990): ball culture, voguing e comunita trans"
 slug: "paris-is-burning"
 description: "Paris Is Burning (1990) di Jennie Livingston: il documentario sulla ball culture newyorkese degli anni '80, tra voguing, case e comunita trans e queer."
 category: "cultura"
-tags: ["documentario", "ball culture", "New York", "anni '80", "voguing", "Jennie Livingston"]
+tags: ["documentario", "ball culture", "New York", "anni '80", "voguing", "Jennie Livingston", "ballroom culture", "1990"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/paris-is-burning.webp"

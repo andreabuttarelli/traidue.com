@@ -4,7 +4,7 @@ seoTitle: "È necessaria una certificazione per definirsi trans?"
 slug: "certificazione-trans"
 description: "L'identità trans non richiede una certificazione medica per essere valida. Ecco cosa dice la scienza, cosa prevede la legge italiana e perché il modello del consenso informato sta sostituendo il gatekeeping."
 category: "cultura"
-tags: ["certificazione", "diagnosi", "gatekeeping", "consenso informato", "autodeterminazione"]
+tags: ["certificazione", "diagnosi", "gatekeeping", "consenso informato", "autodeterminazione", "patologizzazione", "ICD", "DSM", "storia"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/certificazione-trans.webp"

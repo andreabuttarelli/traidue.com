@@ -4,7 +4,7 @@ seoTitle: "L'AI è un'opportunità o un pericolo per le persone trans?"
 slug: "ai-e-persone-trans"
 description: "Come l'intelligenza artificiale impatta le persone trans: bias nei sistemi di riconoscimento, moderazione dei contenuti, risorse informative, telemedicina e i rischi della disinformazione automatizzata."
 category: "cultura"
-tags: ["intelligenza artificiale", "AI", "tecnologia", "bias", "riconoscimento facciale"]
+tags: ["intelligenza artificiale", "AI", "tecnologia", "bias", "riconoscimento facciale", "algoritmi"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/ai-e-persone-trans.webp"

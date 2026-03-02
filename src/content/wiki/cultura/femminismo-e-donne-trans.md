@@ -4,7 +4,7 @@ seoTitle: "Il femminismo include le donne trans?"
 slug: "femminismo-e-donne-trans"
 description: "Il femminismo include le donne trans? Storia del dibattito, posizioni delle femministe, argomenti scientifici e perché il femminismo intersezionale è inclusivo per definizione."
 category: "cultura"
-tags: ["femminismo", "donne trans", "intersezionalità", "TERF", "inclusione"]
+tags: ["femminismo", "donne trans", "intersezionalità", "TERF", "inclusione", "trans escludente", "transfemminismo", "gender critical"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/femminismo-e-donne-trans.webp"

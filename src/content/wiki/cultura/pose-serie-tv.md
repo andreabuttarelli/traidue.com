@@ -4,7 +4,7 @@ seoTitle: "Pose serie TV: trama, cast trans e impatto culturale"
 slug: "pose-serie-tv"
 description: "Pose (2018-2021) è la serie FX con il più grande cast trans della storia della TV. Ball culture, AIDS e New York: trama, impatto e legacy."
 category: "cultura"
-tags: ["serie", "ball culture", "New York", "Ryan Murphy", "AIDS", "anni '80", "rappresentazione"]
+tags: ["serie", "ball culture", "New York", "Ryan Murphy", "AIDS", "anni '80", "rappresentazione", "FX", "ballroom", "MJ Rodriguez", "streaming"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/pose-serie-tv.webp"

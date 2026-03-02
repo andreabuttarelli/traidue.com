@@ -4,7 +4,7 @@ seoTitle: "The Death and Life of Marsha P. Johnson: documentario Netflix 2017"
 slug: "morte-e-vita-marsha-p-johnson"
 description: "The Death and Life of Marsha P. Johnson (2017) di David France indaga sulla morte misteriosa di Marsha P. Johnson e racconta la sua eredita attivista."
 category: "cultura"
-tags: ["documentario", "Netflix", "Marsha P. Johnson", "Stonewall", "attivismo", "Victoria Cruz", "STAR"]
+tags: ["documentario", "Netflix", "Marsha P. Johnson", "Stonewall", "attivismo", "Victoria Cruz", "STAR", "David France", "diritti civili"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/morte-e-vita-marsha-p-johnson.webp"

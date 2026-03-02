@@ -1,9 +1,10 @@
 ---
 title: "La situazione delle persone trans in Italia oggi"
+seoTitle: "Qual è la situazione dei diritti trans in Italia oggi?"
 slug: "situazione-trans-italia"
-description: "Dati, statistiche e analisi sulla condizione delle persone trans in Italia: sanità, discriminazione, diritti, lavoro e risorse disponibili."
+description: "La situazione delle persone trans in Italia: dati ISTAT su discriminazione, sanità, lavoro, diritti e risorse disponibili aggiornate."
 category: "cultura"
-tags: ["Italia", "discriminazione", "sanità", "diritti", "associazioni"]
+tags: ["Italia", "discriminazione", "sanità", "diritti", "associazioni", "ISTAT", "dati", "statistiche"]
 date: "2026-02-18"
 updated: "2026-02-18"
 image: "/images/wiki/situazione-trans-italia.webp"

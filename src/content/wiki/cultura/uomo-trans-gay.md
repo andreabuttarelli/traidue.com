@@ -4,7 +4,7 @@ seoTitle: "Si può essere uomo trans e gay?"
 slug: "uomo-trans-gay"
 description: "Si può essere un uomo trans e gay? Orientamento sessuale e identità di genere sono indipendenti. Esperienze, dati e comunità degli uomini trans gay."
 category: "cultura"
-tags: ["uomo trans", "gay", "orientamento sessuale", "identità di genere", "LGBTQ+"]
+tags: ["uomo trans", "gay", "orientamento sessuale", "identità di genere", "LGBTQ+", "validità"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/uomo-trans-gay.webp"

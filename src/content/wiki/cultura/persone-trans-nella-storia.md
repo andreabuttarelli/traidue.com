@@ -4,7 +4,7 @@ seoTitle: "Le persone trans sono sempre esistite?"
 slug: "persone-trans-nella-storia"
 description: "Le persone trans esistono da sempre: dall'antica Roma all'imperatore Elagabalo, dai Two-Spirit nativi americani alle Hijra indiane, fino alle figure trans dell'Europa moderna."
 category: "cultura"
-tags: ["storia", "antichità", "culture", "Two-Spirit", "Hijra", "Elagabalo"]
+tags: ["storia", "antichità", "culture", "Two-Spirit", "Hijra", "Elagabalo", "terzo genere", "pre-moderno"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/persone-trans-nella-storia.webp"

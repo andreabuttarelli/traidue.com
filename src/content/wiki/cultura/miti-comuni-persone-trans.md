@@ -1,9 +1,10 @@
 ---
 title: "Miti comuni sulle persone trans"
+seoTitle: "I miti più comuni sulle persone trans: cosa dice la scienza"
 slug: "miti-comuni-persone-trans"
-description: "Analisi scientifica dei miti più diffusi sulle persone transgender: dalla presunta 'innaturalità' alla semplificazione della biologia binaria."
+description: "I miti più diffusi sulle persone transgender smontati dalla scienza: innaturalità, biologia binaria, pentimento e contagio sociale."
 category: "cultura"
-tags: ["miti", "disinformazione", "scienza", "biologia", "identità di genere"]
+tags: ["miti", "disinformazione", "scienza", "biologia", "identità di genere", "fake news", "stereotipi", "debunking"]
 date: "2026-02-18"
 updated: "2026-02-18"
 image: "/images/wiki/miti-comuni-persone-trans.webp"

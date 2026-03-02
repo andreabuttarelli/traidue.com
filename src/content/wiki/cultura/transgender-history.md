@@ -1,9 +1,10 @@
 ---
 title: "Transgender History di Susan Stryker: la storia che non ci hanno raccontato"
+seoTitle: "Transgender History di Susan Stryker: il manuale di storia trans"
 slug: "transgender-history"
-description: "Transgender History di Susan Stryker (2008, 2017): il testo di riferimento sulla storia del movimento trans negli USA, dal XIX secolo a oggi. Contenuti e impatto."
+description: "Transgender History di Susan Stryker (2008, 2017): il testo accademico di riferimento sulla storia del movimento trans negli USA, dal XIX secolo a oggi."
 category: "cultura"
-tags: ["libro", "storia", "Susan Stryker", "movimento trans", "USA"]
+tags: ["libro", "storia", "Susan Stryker", "movimento trans", "USA", "accademia", "manuale"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/transgender-history.webp"

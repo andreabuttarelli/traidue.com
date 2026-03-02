@@ -1,9 +1,10 @@
 ---
 title: "La politica italiana e i diritti delle persone trans"
+seoTitle: "Come si posizionano i partiti italiani sui diritti trans?"
 slug: "politica-italiana-diritti-trans"
-description: "Dal DDL Zan affossato in Senato al decreto Schillaci-Roccella: come la politica italiana affronta — o evita — i diritti delle persone trans."
+description: "DDL Zan, decreto Schillaci-Roccella e posizioni dei partiti: come la politica italiana affronta i diritti delle persone transgender."
 category: "cultura"
-tags: ["italia", "politica", "DDL Zan", "governo Meloni", "legislazione"]
+tags: ["italia", "politica", "DDL Zan", "governo Meloni", "legislazione", "partiti", "Senato", "diritti civili"]
 date: "2026-02-18"
 updated: "2026-02-18"
 image: "/images/wiki/politica-italiana-diritti-trans.webp"

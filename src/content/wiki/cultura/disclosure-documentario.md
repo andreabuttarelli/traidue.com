@@ -4,7 +4,7 @@ seoTitle: "Disclosure: Trans Lives on Screen - documentario Netflix 2020"
 slug: "disclosure-documentario"
 description: "Disclosure: Trans Lives on Screen (2020) di Sam Feder e Laverne Cox analizza un secolo di rappresentazione trans nei media, dal cinema muto a oggi."
 category: "cultura"
-tags: ["documentario", "Netflix", "rappresentazione", "media", "Laverne Cox", "stereotipi", "cinema"]
+tags: ["documentario", "Netflix", "rappresentazione", "media", "Laverne Cox", "stereotipi", "cinema", "rappresentazione mediatica", "Hollywood"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/disclosure-documentario.webp"

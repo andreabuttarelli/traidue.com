@@ -4,7 +4,7 @@ seoTitle: "Le favolose (2022): film sulle femminielli di Napoli, trama e signifi
 slug: "le-favolose"
 description: "Le favolose (2022) di Roberta Torre: il film sulle donne trans napoletane degli anni '80, la tradizione dei femminielli e la visibilita trans nel cinema italiano."
 category: "cultura"
-tags: ["film", "Italia", "Napoli", "anni '80", "cinema italiano", "femminielli"]
+tags: ["film", "Italia", "Napoli", "anni '80", "cinema italiano", "femminielli", "documentario", "Porpora Marcasciano", "MIT"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/le-favolose.webp"

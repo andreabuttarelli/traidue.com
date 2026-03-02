@@ -4,7 +4,7 @@ seoTitle: "Quanta discriminazione subiscono le persone trans al lavoro?"
 slug: "discriminazione-lavoro-trans-italia"
 description: "Dati, storie e analisi sulla discriminazione che le persone transgender subiscono nel mondo del lavoro in Italia: assunzioni, mobbing, licenziamenti e tutele legali."
 category: "cultura"
-tags: ["discriminazione", "lavoro", "Italia", "diritti", "mobbing"]
+tags: ["discriminazione", "lavoro", "Italia", "diritti", "mobbing", "ISTAT", "dati", "legge", "tutele"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/discriminazione-lavoro-trans-italia.webp"

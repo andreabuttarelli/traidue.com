@@ -1,9 +1,10 @@
 ---
 title: "Redefining Realness di Janet Mock: un memoir che ha fatto storia"
+seoTitle: "Redefining Realness di Janet Mock: memoir di una donna trans"
 slug: "redefining-realness"
-description: "Redefining Realness di Janet Mock (2014): il memoir bestseller sulla vita di una donna trans afroamericana. Temi, impatto culturale e intersezionalità."
+description: "Redefining Realness di Janet Mock (2014): il memoir bestseller sulla vita di una donna trans afroamericana. Temi, impatto e intersezionalità."
 category: "cultura"
-tags: ["libro", "memoir", "Janet Mock", "intersezionalità"]
+tags: ["libro", "memoir", "Janet Mock", "intersezionalità", "donna trans", "afroamericana", "bestseller"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/redefining-realness.webp"

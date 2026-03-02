@@ -1,9 +1,10 @@
 ---
 title: "Il mio partner è trans: cosa sapere per vivere la relazione con consapevolezza"
+seoTitle: "Relazione con persona trans: cosa sapere e come viverla"
 slug: "partner-trans"
-description: "Cosa significa avere un partner transgender: dalla gestione del coming out ai figli, dalla discriminazione al supporto di coppia. Dati scientifici, risorse e indicazioni pratiche."
+description: "Relazione con una persona trans: consigli su comunicazione, intimità, coming out e supporto di coppia. Dati scientifici e risorse pratiche."
 category: "cultura"
-tags: ["partner", "coppia", "famiglie", "coming out", "discriminazione", "figli"]
+tags: ["partner", "coppia", "famiglie", "coming out", "discriminazione", "figli", "consigli", "comunicazione"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/partner-trans.webp"

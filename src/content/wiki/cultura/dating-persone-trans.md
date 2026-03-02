@@ -4,7 +4,7 @@ seoTitle: "Com'è il dating da persona trans?"
 slug: "dating-persone-trans"
 description: "Com'è il dating da persona trans in Italia: app di incontri, sicurezza, disclosure, discriminazione e consigli pratici basati su esperienze reali e ricerca."
 category: "cultura"
-tags: ["dating", "incontri", "relazioni", "app", "sicurezza", "discriminazione"]
+tags: ["dating", "incontri", "relazioni", "app", "sicurezza", "discriminazione", "app incontri", "come conoscere", "dating online"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/dating-persone-trans.webp"

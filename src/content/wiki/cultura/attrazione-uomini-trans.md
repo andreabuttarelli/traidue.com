@@ -4,7 +4,7 @@ seoTitle: "Perché mi piacciono gli uomini trans?"
 slug: "attrazione-uomini-trans"
 description: "Perché alcune persone sono attratte dagli uomini trans? Orientamento sessuale, stigma, differenza tra attrazione e feticismo e cosa dice la scienza."
 category: "cultura"
-tags: ["attrazione", "uomini trans", "orientamento sessuale", "stigma"]
+tags: ["attrazione", "uomini trans", "orientamento sessuale", "stigma", "mi piacciono gli uomini trans", "nome"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/attrazione-uomini-trans.webp"

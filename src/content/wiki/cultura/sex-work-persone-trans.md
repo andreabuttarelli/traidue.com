@@ -4,7 +4,7 @@ seoTitle: "È vero che le persone trans lavorano tutte nel sesso?"
 slug: "sex-work-persone-trans"
 description: "Lo stereotipo che le persone trans lavorino tutte nel sesso è falso. Ecco cosa dicono i dati sulla realtà del sex work nella comunità trans e perché esiste questo pregiudizio."
 category: "cultura"
-tags: ["sex work", "stereotipi", "lavoro", "discriminazione"]
+tags: ["sex work", "stereotipi", "lavoro", "discriminazione", "lavoro sessuale", "Italia", "marginalità", "diritti"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/sex-work-persone-trans.webp"

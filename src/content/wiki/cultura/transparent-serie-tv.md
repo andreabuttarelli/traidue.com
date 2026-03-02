@@ -4,7 +4,7 @@ seoTitle: "Transparent serie TV: trama, controversie e impatto culturale"
 slug: "transparent-serie-tv"
 description: "Transparent (2014-2019) è la serie Amazon sul coming out trans in età adulta. Trama, temi, controversie su Jeffrey Tambor e impatto culturale."
 category: "cultura"
-tags: ["serie", "Amazon", "famiglia", "transizione tardiva", "coming out", "controversie"]
+tags: ["serie", "Amazon", "famiglia", "transizione tardiva", "coming out", "controversie", "Jeffrey Tambor", "streaming"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/transparent-serie-tv.webp"

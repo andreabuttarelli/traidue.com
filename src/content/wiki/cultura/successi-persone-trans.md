@@ -4,7 +4,7 @@ seoTitle: "Quali persone trans hanno avuto successo nel lavoro?"
 slug: "successi-persone-trans"
 description: "Da Laverne Cox a Elliot Page, da Marcella Di Folco a Vladimir Luxuria: storie di persone trans che hanno raggiunto il successo nella politica, nell'arte, nella scienza e nello sport."
 category: "cultura"
-tags: ["successo", "persone trans famose", "lavoro", "rappresentazione"]
+tags: ["successo", "persone trans famose", "lavoro", "rappresentazione", "celebrità", "modelli", "ispirazione"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/successi-persone-trans.webp"

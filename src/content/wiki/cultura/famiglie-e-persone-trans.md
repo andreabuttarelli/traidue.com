@@ -1,9 +1,10 @@
 ---
 title: "Mio figlio è trans: cosa dice davvero la scienza alle famiglie"
+seoTitle: "Famiglie e persone trans: come supportare chi ami"
 slug: "famiglie-e-persone-trans"
-description: "Cosa sappiamo dall'evidenza scientifica sul supporto familiare alle persone trans: dati, protocolli medici, impatto sulla salute mentale e risorse pratiche per genitori e famiglie in Italia."
+description: "Come supportare un familiare trans: dati scientifici su accettazione, salute mentale e risorse pratiche per genitori, fratelli e famiglie in Italia."
 category: "cultura"
-tags: ["famiglie", "genitori", "accettazione", "supporto", "salute mentale"]
+tags: ["famiglie", "genitori", "accettazione", "supporto", "salute mentale", "AGEDO", "fratelli"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/famiglie-e-persone-trans.webp"

@@ -4,7 +4,7 @@ seoTitle: "Uomini trans italiani: esperienze, visibilità e sfide"
 slug: "uomini-trans-italiani"
 description: "Cosa significa essere un uomo trans in Italia: esperienze, visibilità, sfide specifiche, mascolinità, percorsi e figure di riferimento. Una panoramica completa."
 category: "cultura"
-tags: ["uomini trans", "FtM", "trans italiani", "mascolinità", "visibilità"]
+tags: ["uomini trans", "FtM", "trans italiani", "mascolinità", "visibilità", "Italia", "esperienze", "percorsi"]
 date: "2026-03-01"
 updated: "2026-03-01"
 image: "/images/wiki/situazione-trans-italia.webp"

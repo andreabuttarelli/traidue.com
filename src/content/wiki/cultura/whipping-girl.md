@@ -1,9 +1,10 @@
 ---
 title: "Whipping Girl di Julia Serano: il manifesto transfemminista"
+seoTitle: "Whipping Girl di Julia Serano: il libro sulla transmisoginia"
 slug: "whipping-girl"
-description: "Whipping Girl di Julia Serano (2007): il libro che ha coniato il termine transmisoginia e ha fondato il transfemminismo contemporaneo. Tesi, concetti e impatto."
+description: "Whipping Girl di Julia Serano (2007): il libro che ha coniato il termine transmisoginia e fondato il transfemminismo contemporaneo. Tesi e impatto."
 category: "cultura"
-tags: ["libro", "transfemminismo", "Julia Serano", "teoria", "transmisoginia"]
+tags: ["libro", "transfemminismo", "Julia Serano", "teoria", "transmisoginia", "femminismo"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/whipping-girl.webp"

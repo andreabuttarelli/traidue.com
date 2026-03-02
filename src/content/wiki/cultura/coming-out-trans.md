@@ -1,9 +1,10 @@
 ---
 title: "Coming out trans: quello che la ricerca dice davvero"
+seoTitle: "Coming out trans: come farlo, quando e cosa aspettarsi"
 slug: "coming-out-trans"
-description: "Cosa sappiamo sul coming out delle persone transgender: evidenze su salute mentale, reazioni familiari, disclosure selettiva, sicurezza e tutele legali in Italia. Guida per chi esce allo scoperto e per chi riceve la notizia."
+description: "Come fare coming out trans: consigli su quando dirlo, a chi e cosa aspettarsi. Evidenze su salute mentale, reazioni familiari e sicurezza in Italia."
 category: "cultura"
-tags: ["coming out", "famiglie", "relazioni", "salute mentale", "supporto"]
+tags: ["coming out", "famiglie", "relazioni", "salute mentale", "supporto", "famiglia", "lavoro", "consigli", "paura"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/coming-out-trans.webp"

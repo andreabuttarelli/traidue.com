@@ -4,7 +4,7 @@ seoTitle: "Una donna fantastica (2017): trama, Daniela Vega e Oscar"
 slug: "una-donna-fantastica"
 description: "Una donna fantastica (2017) di Sebastian Lelio con Daniela Vega: Oscar miglior film straniero, prima attrice trans protagonista a presentare agli Oscar."
 category: "cultura"
-tags: ["film", "Oscar", "Cile", "Daniela Vega", "Sebastian Lelio"]
+tags: ["film", "Oscar", "Cile", "Daniela Vega", "Sebastian Lelio", "miglior film straniero"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/una-donna-fantastica.webp"

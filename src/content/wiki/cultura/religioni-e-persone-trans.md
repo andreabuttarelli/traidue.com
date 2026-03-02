@@ -1,9 +1,10 @@
 ---
 title: "Religioni e persone trans: cosa dicono davvero le fedi"
+seoTitle: "Cosa dicono le religioni sulle persone transgender?"
 slug: "religioni-e-persone-trans"
-description: "Cristianesimo, islam, ebraismo, induismo, buddhismo: le posizioni reali delle grandi religioni sulle persone trans, tra teologia, tradizione e cambiamento."
+description: "Cosa dicono cristianesimo, islam, ebraismo, induismo e buddhismo sulle persone trans: posizioni ufficiali, teologia e cambiamenti in corso."
 category: "cultura"
-tags: ["religione", "fede", "chiesa", "islam", "ebraismo", "teologia"]
+tags: ["religione", "fede", "chiesa", "islam", "ebraismo", "teologia", "Papa Francesco", "buddhismo", "induismo"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/religioni-e-persone-trans.webp"

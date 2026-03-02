@@ -1,9 +1,10 @@
 ---
 title: "Storia del movimento trans: dalle rivolte di Stonewall a oggi"
+seoTitle: "La storia del movimento transgender: dalle origini a oggi"
 slug: "storia-movimento-trans"
-description: "La storia del movimento trans dal 1919 a oggi: Hirschfeld, Stonewall, legge 164, depatologizzazione e le sfide contemporanee per i diritti delle persone trans."
+description: "La storia del movimento trans: da Magnus Hirschfeld a Stonewall, dalla legge 164 alla depatologizzazione. Le tappe fondamentali del movimento transgender."
 category: "cultura"
-tags: ["storia", "movimento", "Stonewall", "attivismo", "diritti"]
+tags: ["storia", "movimento", "Stonewall", "attivismo", "diritti", "Hirschfeld", "legge 164", "depatologizzazione"]
 date: "2026-02-18"
 updated: "2026-02-18"
 image: "/images/wiki/storia-movimento-trans.webp"

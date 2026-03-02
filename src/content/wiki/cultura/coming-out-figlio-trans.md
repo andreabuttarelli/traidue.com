@@ -4,7 +4,7 @@ seoTitle: "Come reagire se mio figlio fa coming out trans?"
 slug: "coming-out-figlio-trans"
 description: "Come reagire quando un figlio o una figlia fa coming out come transgender: emozioni dei genitori, errori da evitare, come comunicare e dove trovare supporto. Basato sulla ricerca scientifica."
 category: "cultura"
-tags: ["coming out", "genitori", "famiglia", "accettazione", "reazione", "supporto"]
+tags: ["coming out", "genitori", "famiglia", "accettazione", "reazione", "supporto", "mio figlio", "AGEDO"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/coming-out-figlio-trans.webp"

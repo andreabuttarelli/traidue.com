@@ -4,7 +4,7 @@ seoTitle: "Come la tecnologia aiuta le persone trans?"
 slug: "tecnologia-e-persone-trans"
 description: "Come la tecnologia aiuta le persone trans a costruire comunità, accedere alle cure, proteggersi e diventare visibili: dalle community online alla telemedicina, dal voice training al crowdfunding per la transizione."
 category: "cultura"
-tags: ["tecnologia", "community online", "telemedicina", "voice training", "privacy digitale", "lavoro remoto", "crowdfunding"]
+tags: ["tecnologia", "community online", "telemedicina", "voice training", "privacy digitale", "lavoro remoto", "crowdfunding", "social media", "app", "comunità online"]
 date: "2026-02-21"
 updated: "2026-02-21"
 image: "/images/wiki/tecnologia-e-persone-trans.webp"

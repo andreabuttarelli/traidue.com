@@ -4,7 +4,7 @@ seoTitle: "Mio figlio è trans: cosa devo fare?"
 slug: "figlio-trans-cosa-fare"
 description: "Cosa fare se tuo figlio o tua figlia è transgender: come reagire, come supportarlo, cosa dice la scienza sull'accettazione familiare e dove trovare aiuto in Italia."
 category: "cultura"
-tags: ["genitori", "famiglia", "figli", "accettazione", "supporto", "coming out"]
+tags: ["genitori", "famiglia", "figli", "accettazione", "supporto", "coming out", "mio figlio è trans", "mia figlia è trans", "accettare", "AGEDO"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/figlio-trans-cosa-fare.webp"

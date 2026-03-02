@@ -4,7 +4,7 @@ seoTitle: "Perché mi piacciono le donne trans?"
 slug: "attrazione-donne-trans"
 description: "Perché alcune persone sono attratte dalle donne trans? È normale? Cosa dice la scienza sull'attrazione, lo stigma, la differenza tra preferenza e feticismo."
 category: "cultura"
-tags: ["attrazione", "donne trans", "orientamento sessuale", "stigma", "feticismo"]
+tags: ["attrazione", "donne trans", "orientamento sessuale", "stigma", "feticismo", "mi piacciono le donne trans", "nome", "normale"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/attrazione-donne-trans.webp"

@@ -1,9 +1,10 @@
 ---
 title: "Come capire se una persona è trans?"
+seoTitle: "Si può capire se una persona è transgender dall'aspetto?"
 slug: "come-capire-se-persona-trans"
-description: "Non si può sapere se qualcuno è trans dall'aspetto. L'identità di genere non si indovina: si rispetta. Ecco cosa dice la scienza e perché la domanda stessa va ripensata."
+description: "Si può capire se qualcuno è trans dall'aspetto? No. L'identità di genere non si indovina: ecco cosa dice la scienza su passing, privacy e rispetto."
 category: "cultura"
-tags: ["transgender", "passing", "privacy", "identità di genere", "rispetto", "disclosure"]
+tags: ["transgender", "passing", "privacy", "identità di genere", "rispetto", "disclosure", "aspetto fisico", "riconoscere"]
 date: "2026-03-02"
 updated: "2026-03-02"
 image: "/images/wiki/come-capire-se-persona-trans.webp"

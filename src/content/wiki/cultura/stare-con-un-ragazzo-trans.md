@@ -4,7 +4,7 @@ seoTitle: "Com'è stare insieme a un ragazzo trans?"
 slug: "stare-con-un-ragazzo-trans"
 description: "Com'è stare insieme a un ragazzo transgender: cosa aspettarsi, intimità, comunicazione, famiglia e società. Esperienze reali e consigli pratici basati sulla ricerca."
 category: "cultura"
-tags: ["relazioni", "ragazzo trans", "coppia", "intimità", "partner", "uomini trans"]
+tags: ["relazioni", "ragazzo trans", "coppia", "intimità", "partner", "uomini trans", "il mio ragazzo è trans", "consigli", "sessualità"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/stare-con-un-ragazzo-trans.webp"

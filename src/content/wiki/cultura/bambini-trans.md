@@ -4,7 +4,7 @@ seoTitle: "Come vive un bambino trans e come si può aiutare?"
 slug: "bambini-trans"
 description: "La prospettiva dei bambini transgender: cosa provano, come si manifesta l'identità di genere nell'infanzia, cosa dice la ricerca e come genitori e scuola possono supportarli."
 category: "cultura"
-tags: ["bambini trans", "infanzia", "genitori", "sviluppo", "supporto"]
+tags: ["bambini trans", "infanzia", "genitori", "sviluppo", "supporto", "disforia di genere bambini", "come capire", "età"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/bambini-trans.webp"

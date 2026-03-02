@@ -4,7 +4,7 @@ seoTitle: "Giovani trans in Italia: esperienze, sfide e risorse"
 slug: "adolescenti-trans"
 description: "Cosa significa essere un adolescente transgender in Italia oggi: scuola, amicizie, social media, salute mentale e risorse disponibili per i giovani trans e le loro famiglie."
 category: "cultura"
-tags: ["giovani trans", "adolescenti", "scuola", "salute mentale", "Italia"]
+tags: ["giovani trans", "adolescenti", "scuola", "salute mentale", "Italia", "disforia adolescenti", "pubertà"]
 date: "2026-03-01"
 updated: "2026-03-01"
 image: "/images/wiki/bambini-trans.webp"

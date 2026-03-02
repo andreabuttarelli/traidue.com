@@ -4,7 +4,7 @@ seoTitle: "The Danish Girl (2015): trama, storia vera e controversie"
 slug: "the-danish-girl"
 description: "The Danish Girl (2015) di Tom Hooper con Eddie Redmayne e Alicia Vikander: la storia di Lili Elbe, premi Oscar, controversie sul casting e impatto culturale."
 category: "cultura"
-tags: ["film", "Lili Elbe", "Oscar", "Tom Hooper", "Eddie Redmayne", "Alicia Vikander"]
+tags: ["film", "Lili Elbe", "Oscar", "Tom Hooper", "Eddie Redmayne", "Alicia Vikander", "storia vera"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/the-danish-girl.webp"

@@ -4,7 +4,7 @@ seoTitle: "Si può essere donna trans e lesbica?"
 slug: "donna-trans-lesbica"
 description: "Si può essere una donna trans e lesbica? Orientamento sessuale e identità di genere sono cose diverse. Esperienze, scienza e comunità delle donne trans lesbiche."
 category: "cultura"
-tags: ["donna trans", "lesbica", "orientamento sessuale", "identità di genere", "LGBTQ+"]
+tags: ["donna trans", "lesbica", "orientamento sessuale", "identità di genere", "LGBTQ+", "validità"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/donna-trans-lesbica.webp"

@@ -1,9 +1,10 @@
 ---
 title: "Gender Trouble di Judith Butler: il libro che ha cambiato la teoria di genere"
+seoTitle: "Gender Trouble di Judith Butler: perché è ancora importante"
 slug: "gender-trouble"
-description: "Gender Trouble di Judith Butler (1990): il testo filosofico che ha introdotto la performativita di genere e rivoluzionato gli studi di genere e il femminismo."
+description: "Gender Trouble di Judith Butler (1990): il testo che ha introdotto la performativita di genere e rivoluzionato gli studi di genere e il femminismo."
 category: "cultura"
-tags: ["libro", "filosofia", "Judith Butler", "teoria di genere", "performativita"]
+tags: ["libro", "filosofia", "Judith Butler", "teoria di genere", "performativita", "queer theory", "femminismo"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/gender-trouble.webp"

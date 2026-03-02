@@ -4,7 +4,7 @@ seoTitle: "Donne trans italiane: storie, sfide e protagoniste"
 slug: "donne-trans-italiane"
 description: "La storia e il presente delle donne transgender in Italia: dalle pioniere del movimento alle sfide contemporanee, tra visibilità, discriminazione e conquiste."
 category: "cultura"
-tags: ["donne trans", "trans italiane", "MtF", "visibilità", "Italia"]
+tags: ["donne trans", "trans italiane", "MtF", "visibilità", "Italia", "Marcella Di Folco", "Vladimir Luxuria", "pioniere", "storia"]
 date: "2026-03-01"
 updated: "2026-03-01"
 image: "/images/wiki/situazione-trans-italia.webp"

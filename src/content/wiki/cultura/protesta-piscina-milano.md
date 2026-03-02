@@ -4,7 +4,7 @@ seoTitle: "Cos'è successo alla piscina di Milano?"
 slug: "protesta-piscina-milano"
 description: "La vicenda della piscina di Milano che ha sollevato il dibattito sui diritti delle persone trans negli spazi pubblici: cosa è successo, le reazioni e le implicazioni."
 category: "cultura"
-tags: ["Milano", "protesta", "spazi pubblici", "diritti", "discriminazione"]
+tags: ["Milano", "protesta", "spazi pubblici", "diritti", "discriminazione", "1979", "MIT", "attivismo", "storia italiana"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/protesta-piscina-milano.webp"

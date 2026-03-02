@@ -4,7 +4,7 @@ seoTitle: "Quali sono le giornate dedicate alle persone trans?"
 slug: "festivita-trans"
 description: "Tutte le giornate dedicate alle persone transgender: dal Transgender Day of Remembrance al Trans Day of Visibility, le date, le origini e il significato di ogni ricorrenza."
 category: "cultura"
-tags: ["festività", "TDOR", "TDOV", "ricorrenze", "visibilità"]
+tags: ["festività", "TDOR", "TDOV", "ricorrenze", "visibilità", "pride", "giornate", "calendario"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/festivita-trans.webp"

@@ -4,7 +4,7 @@ seoTitle: "Come posso supportare una persona trans?"
 slug: "allies-guida"
 description: "Come essere un buon alleato delle persone trans: pronomi, linguaggio, errori da evitare, come supportare colleghi, amici e familiari transgender."
 category: "cultura"
-tags: ["alleati", "supporto", "pronomi", "linguaggio", "inclusione"]
+tags: ["alleati", "supporto", "pronomi", "linguaggio", "inclusione", "come essere alleato", "azioni concrete"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/allies-guida.webp"

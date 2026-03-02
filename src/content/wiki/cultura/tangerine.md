@@ -4,7 +4,7 @@ seoTitle: "Tangerine (2015): film trans girato con iPhone 5s, trama e impatto"
 slug: "tangerine"
 description: "Tangerine (2015) di Sean Baker: il film girato con iPhone 5s su due donne trans a Hollywood. Kitana Kiki Rodriguez, Mya Taylor e la rivoluzione del cinema indie."
 category: "cultura"
-tags: ["film", "Hollywood", "Sean Baker", "indie", "iPhone"]
+tags: ["film", "Hollywood", "Sean Baker", "indie", "iPhone", "Los Angeles"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/tangerine.webp"

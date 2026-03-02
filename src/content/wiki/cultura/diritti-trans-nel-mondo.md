@@ -1,9 +1,10 @@
 ---
 title: "Diritti trans nel mondo: chi avanza e chi arretra"
+seoTitle: "Diritti delle persone trans nel mondo: la mappa aggiornata"
 slug: "diritti-trans-nel-mondo"
-description: "23 paesi con autodeterminazione di genere, 13 che criminalizzano le persone trans. La mappa globale dei diritti, paese per paese."
+description: "Mappa aggiornata dei diritti trans nel mondo: 23 paesi con autodeterminazione di genere, 13 che criminalizzano. La situazione paese per paese."
 category: "cultura"
-tags: ["diritti internazionali", "autodeterminazione", "legislazione", "mappa globale"]
+tags: ["diritti internazionali", "autodeterminazione", "legislazione", "mappa globale", "TGEU", "ILGA", "Europa"]
 date: "2026-02-18"
 updated: "2026-02-18"
 image: "/images/wiki/diritti-trans-nel-mondo.webp"
