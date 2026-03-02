@@ -280,32 +280,6 @@
 			</div>
 		</div>
 		<h1 class="text-2xl sm:text-3xl lg:text-4xl font-heading font-semibold tracking-tight text-primary mb-3">{title}</h1>
-		<div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted mt-1">
-			<span>
-				{#if updated && updated !== date}
-					Aggiornato {relativeDate(updated)}
-				{:else}
-					Pubblicato {relativeDate(date)}
-				{/if}
-			</span>
-			{#if sources.length > 0}
-				<span>&middot;</span>
-				<span>{sources.length} fonti citate</span>
-			{/if}
-			<span class="inline-flex items-center gap-1 text-xs px-2 py-0.5 rounded-full bg-surface text-muted border border-border">
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-3 h-3">
-					<path d="M8 1a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 8 1ZM10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0ZM12.95 4.11a.75.75 0 1 0-1.06-1.06l-1.062 1.06a.75.75 0 0 0 1.061 1.062l1.06-1.062ZM15 8a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 15 8ZM11.828 11.828a.75.75 0 1 0-1.06-1.06l-1.062 1.06a.75.75 0 1 0 1.061 1.062l1.06-1.062ZM8 13.25a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0V14a.75.75 0 0 1 .75-.75ZM4.172 11.828a.75.75 0 1 0 1.06-1.06l1.062 1.06a.75.75 0 1 0-1.061 1.062l-1.06-1.062ZM1 8a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5h-1.5A.75.75 0 0 1 1 8ZM4.172 4.172a.75.75 0 0 0 1.06 1.06L4.17 4.17a.75.75 0 0 0-1.061-1.06l1.06 1.061Z" />
-				</svg>
-				Generato con AI
-			</span>
-		</div>
-		{#if tags.length > 0}
-			<div class="flex flex-wrap gap-2 mt-3">
-				{#each tags as tag}
-					<span class="text-xs text-muted px-2.5 py-1 rounded-full border border-border">{tag}</span>
-				{/each}
-			</div>
-		{/if}
 	</header>
 
 	{#if image}
@@ -365,6 +339,35 @@
 			</ul>
 		</div>
 	{/if}
+
+	<div class="mt-12 pt-8 border-t border-border">
+		<div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted">
+			<span>
+				{#if updated && updated !== date}
+					Aggiornato {relativeDate(updated)}
+				{:else}
+					Pubblicato {relativeDate(date)}
+				{/if}
+			</span>
+			{#if sources.length > 0}
+				<span>&middot;</span>
+				<span>{sources.length} fonti citate</span>
+			{/if}
+			<span class="inline-flex items-center gap-1 text-xs px-2 py-0.5 rounded-full bg-surface text-muted border border-border">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-3 h-3">
+					<path d="M8 1a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 8 1ZM10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0ZM12.95 4.11a.75.75 0 1 0-1.06-1.06l-1.062 1.06a.75.75 0 0 0 1.061 1.062l1.06-1.062ZM15 8a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 15 8ZM11.828 11.828a.75.75 0 1 0-1.06-1.06l-1.062 1.06a.75.75 0 1 0 1.061 1.062l1.06-1.062ZM8 13.25a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0V14a.75.75 0 0 1 .75-.75ZM4.172 11.828a.75.75 0 1 0 1.06-1.06l1.062 1.06a.75.75 0 1 0-1.061 1.062l-1.06-1.062ZM1 8a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5h-1.5A.75.75 0 0 1 1 8ZM4.172 4.172a.75.75 0 0 0 1.06 1.06L4.17 4.17a.75.75 0 0 0-1.061-1.06l1.06 1.061Z" />
+				</svg>
+				Generato con AI
+			</span>
+		</div>
+		{#if tags.length > 0}
+			<div class="flex flex-wrap gap-2 mt-3">
+				{#each tags as tag}
+					<span class="text-xs text-muted px-2.5 py-1 rounded-full border border-border">{tag}</span>
+				{/each}
+			</div>
+		{/if}
+	</div>
 
 	<!-- Email CTA -->
 	<div class="mt-12 pt-8 border-t border-border">

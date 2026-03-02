@@ -133,41 +133,6 @@
 	</div>
 </section>
 
-<!-- Miti e Quiz -->
-<section>
-	<div class="w-full px-4 sm:px-6 lg:px-12 py-10 sm:py-16">
-		<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-2">Ecco cosa dicono. Ecco cosa dice la scienza.</h2>
-		<p class="text-muted text-sm mb-6 sm:mb-8">I miti più diffusi, smontati con le evidenze.</p>
-		<div class="grid gap-6 lg:grid-cols-2">
-			<!-- Colonna miti -->
-			<div class="grid gap-3 sm:gap-4 content-start">
-				{#each myths as myth}
-					<div class="p-5 rounded-xl border border-border">
-						<p class="text-sm font-medium text-muted line-through mb-3">&laquo;{myth.claim}&raquo;</p>
-						<p class="text-sm text-primary leading-relaxed">{myth.truth}</p>
-					</div>
-				{/each}
-				<a href="/wiki/miti-comuni-persone-trans" class="text-sm text-muted hover:text-primary transition mt-1">Leggi tutti i falsi miti smontati &rarr;</a>
-			</div>
-			<!-- Colonna quiz -->
-			{#if data.featuredQuizzes.length > 0}
-				<div class="flex flex-col justify-center p-6 sm:p-8 rounded-xl border border-border">
-					<p class="text-sm text-muted uppercase tracking-wide mb-2">Mettiti alla prova</p>
-					<h3 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-3">E tu quanto ne sai?</h3>
-					<p class="text-muted text-sm mb-6">
-						{data.featuredQuizzes[0].questions.length} domande, risposte basate sulla ricerca scientifica. Scopri se sai distinguere i fatti dai miti.
-					</p>
-					<a
-						href="/quiz/{data.featuredQuizzes[0].slug}"
-						class="inline-block px-6 py-2.5 rounded-full bg-primary text-bg text-sm font-medium hover:bg-primary/80 transition self-start"
-					>
-						Inizia il quiz &rarr;
-					</a>
-				</div>
-			{/if}
-		</div>
-	</div>
-</section>
 
 <!-- Da leggere -->
 {#if data.featuredArticles.length > 0}

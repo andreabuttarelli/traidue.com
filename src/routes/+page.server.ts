@@ -20,7 +20,6 @@ export function load() {
 	return {
 		featuredArticles: shuffle(articles).slice(0, 6),
 		personArticles: articles.filter((a) => a.category === 'persone'),
-		featuredQuizzes: quizzes.slice(0, 2),
 		stats: {
 			articles: totalContent,
 			sources: totalSources,
