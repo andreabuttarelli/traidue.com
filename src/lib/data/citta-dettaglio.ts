@@ -13,6 +13,11 @@ export interface CittaDettaglio {
 	provincia: string;
 	intro: string;
 	metaDescription: string;
+	contesto_locale: string;
+	centri_gender_intro: string;
+	associazioni_intro: string;
+	sportelli_intro: string;
+	image: string;
 	centri_gender: CentroGender[];
 	associazioni: Associazione[];
 	sportelli: Sportello[];
@@ -38,6 +43,11 @@ const dati: CittaDettaglio[] = [
 		provincia: 'MI',
 		intro: 'Milano è il principale polo italiano per i percorsi di affermazione di genere, grazie alla presenza del CIG (Centro Interdipartimentale per l\'Incongruenza di Genere) dell\'Ospedale Niguarda, punto di riferimento nazionale. La città vanta un tessuto associativo tra i più ricchi d\'Italia, con decine di realtà che offrono supporto legale, psicologico e sociale alle persone trans e non binarie. Nel 2002 Milano ha ospitato il primo Trans Pride italiano, segnando un momento storico per la visibilità della comunità transgender nel Paese. L\'ampia rete di servizi pubblici e del terzo settore rende Milano una delle città più accessibili per chi intraprende un percorso di transizione.',
 		metaDescription: 'Guida completa ai servizi per persone trans a Milano: CIG Niguarda, associazioni, sportelli, iter sanitario e FAQ sul percorso di transizione in Lombardia.',
+		contesto_locale: '',
+		centri_gender_intro: '',
+		associazioni_intro: '',
+		sportelli_intro: '',
+		image: '/images/citta/milano.webp',
 		centri_gender: [
 			{
 				nome: 'CIG — Centro Interdipartimentale per l\'Incongruenza di Genere, Ospedale Niguarda',
@@ -264,6 +274,11 @@ const dati: CittaDettaglio[] = [
 		provincia: 'BO',
 		intro: 'Bologna è storicamente una delle città più progressiste d\'Italia per i diritti delle persone transgender. Sede nazionale del MIT (Movimento Identità Trans), fondato nel 1982, la città rappresenta un punto di riferimento per l\'attivismo e i servizi dedicati alle persone trans in tutto il Paese. La presenza dell\'Università di Bologna e del Cassero LGBTQ+ Center contribuisce a creare un tessuto sociale particolarmente inclusivo e attento alle tematiche di genere. Il Policlinico Sant\'Orsola-Malpighi offre un percorso di affermazione di genere strutturato e multidisciplinare, riconosciuto a livello nazionale.',
 		metaDescription: 'Guida completa alle risorse trans a Bologna: centri gender al Sant\'Orsola, MIT, Cassero LGBTQ+, sportelli, iter sanitario e storia queer della città.',
+		contesto_locale: '',
+		centri_gender_intro: '',
+		associazioni_intro: '',
+		sportelli_intro: '',
+		image: '/images/citta/bologna.webp',
 		centri_gender: [
 			{
 				nome: 'Centro per la Salute delle Persone Trans e di Genere Non Conforme',
@@ -484,6 +499,11 @@ const dati: CittaDettaglio[] = [
 		provincia: 'RM',
 		intro: 'Roma ospita il SAIFIP (Servizio di Adeguamento tra Identità Fisica e Identità Psichica) presso il Policlinico Umberto I, attivo dal 1992 e punto di riferimento nazionale per i percorsi di affermazione di genere. Il Circolo di Cultura Omosessuale Mario Mieli è uno dei più grandi centri LGBTQ+ d\'Italia, offrendo servizi dedicati anche alle persone trans. Roma è stata la città di Marcella Di Folco, figura storica del movimento trans italiano, e ha ospitato il World Pride nel 2000. Il Roma Pride raccoglie ogni anno centinaia di migliaia di partecipanti, confermando la capitale come epicentro delle lotte per i diritti civili in Italia.',
 		metaDescription: 'Guida completa alle risorse trans a Roma: SAIFIP al Policlinico Umberto I, Circolo Mario Mieli, associazioni, sportelli e iter sanitario nel Lazio.',
+		contesto_locale: '',
+		centri_gender_intro: '',
+		associazioni_intro: '',
+		sportelli_intro: '',
+		image: '/images/citta/roma.webp',
 		centri_gender: [
 			{
 				nome: 'SAIFIP — Policlinico Umberto I',
@@ -702,6 +722,11 @@ const dati: CittaDettaglio[] = [
 		provincia: 'NA',
 		intro: 'Napoli rappresenta il principale punto di riferimento per le persone transgender nel Sud Italia. Il Centro di Identità di Genere presso l\'AOU Federico II offre percorsi multidisciplinari di affermazione di genere che comprendono endocrinologia, psicologia clinica e supporto chirurgico. L\'associazionismo napoletano è particolarmente vivace, con realtà storiche come Arcigay Napoli Antinoo e l\'Associazione Trans Napoli (ATN) che forniscono supporto diretto alla comunità. La città ha un rapporto unico con le identità di genere non conformi, radicato nella tradizione secolare dei femminielli, figure riconosciute nella cultura popolare napoletana.',
 		metaDescription: 'Guida completa alle risorse trans a Napoli: Centro Gender Federico II, associazioni, sportelli, iter sanitario ASL e storia del movimento.',
+		contesto_locale: '',
+		centri_gender_intro: '',
+		associazioni_intro: '',
+		sportelli_intro: '',
+		image: '/images/citta/napoli.webp',
 		centri_gender: [
 			{
 				nome: 'Centro di Identità di Genere — AOU Federico II',
@@ -888,6 +913,11 @@ const dati: CittaDettaglio[] = [
 		provincia: 'TO',
 		intro: 'Torino è una delle città più importanti in Italia per i servizi dedicati alle persone transgender, grazie alla presenza del CIDIGEM (Centro Interdipartimentale Disturbi di Identità di Genere) presso l\'Ospedale CTO-Molinette, uno dei centri più antichi e autorevoli del Paese. La forte tradizione universitaria torinese ha contribuito alla ricerca clinica e alla formazione di professionisti specializzati. Il tessuto associativo è ricco e radicato: il Centro LGBTQ Maurice, attivo dal 1996, rappresenta un punto di riferimento per l\'intera comunità.',
 		metaDescription: 'Guida completa alle risorse trans a Torino: CIDIGEM Molinette, associazioni, sportelli, iter sanitario ASL e storia del movimento.',
+		contesto_locale: '',
+		centri_gender_intro: '',
+		associazioni_intro: '',
+		sportelli_intro: '',
+		image: '/images/citta/torino.webp',
 		centri_gender: [
 			{
 				nome: 'CIDIGEM — Centro Interdipartimentale Disturbi di Identità di Genere, CTO-Molinette',
@@ -1077,6 +1107,11 @@ const dati: CittaDettaglio[] = [
 		provincia: 'FI',
 		intro: 'Firenze offre alle persone transgender un contesto tra i più inclusivi d\'Italia, grazie alla combinazione di servizi sanitari strutturati, un associazionismo radicato e politiche regionali progressive. L\'AOU Careggi ospita l\'Ambulatorio Identità di Genere, centro di riferimento per tutta la Toscana. IREOS, centro servizi LGBTQ+ attivo dal 1998, rappresenta un punto di riferimento per ascolto, orientamento e supporto. La Toscana è tra le regioni con la normativa antidiscriminazione più avanzata in Italia.',
 		metaDescription: 'Risorse trans a Firenze: ambulatorio identità di genere Careggi, IREOS, associazioni, sportelli, iter sanitario e storia LGBTQ+ in Toscana.',
+		contesto_locale: '',
+		centri_gender_intro: '',
+		associazioni_intro: '',
+		sportelli_intro: '',
+		image: '/images/citta/firenze.webp',
 		centri_gender: [
 			{
 				nome: 'Ambulatorio Identità di Genere — AOU Careggi',
@@ -1258,6 +1293,11 @@ const dati: CittaDettaglio[] = [
 		provincia: 'PA',
 		intro: 'Palermo è il principale punto di riferimento in Sicilia per le persone transgender e non binarie, pur in un contesto regionale dove i servizi strutturati restano limitati. L\'ARNAS Civico ospita un ambulatorio dedicato all\'identità di genere che rappresenta l\'unico servizio specializzato dell\'isola. Nel 2015 il sindaco Leoluca Orlando ha proclamato Palermo "città dei diritti umani", promuovendo politiche di inclusione per le persone LGBTQ+. L\'associazionismo palermitano, con Arcigay Palermo in prima linea, svolge un ruolo fondamentale di orientamento e supporto per le persone trans di tutta la Sicilia.',
 		metaDescription: 'Risorse trans a Palermo: ambulatorio identità di genere ARNAS Civico, associazioni LGBTQ+, sportelli, iter sanitario ASP e storia del movimento in Sicilia.',
+		contesto_locale: '',
+		centri_gender_intro: '',
+		associazioni_intro: '',
+		sportelli_intro: '',
+		image: '/images/citta/palermo.webp',
 		centri_gender: [
 			{
 				nome: 'Ambulatorio Identità di Genere — ARNAS Civico',
@@ -1439,6 +1479,11 @@ const dati: CittaDettaglio[] = [
 		provincia: 'TS',
 		intro: 'Trieste, città di confine con una profonda tradizione mitteleuropea, offre alle persone transgender e non binarie un contesto più aperto rispetto a molte realtà del Nordest. L\'ASUGI (Azienda Sanitaria Universitaria Giuliano Isontina) ospita servizi endocrinologici e psicologici che supportano i percorsi di affermazione di genere. Pur essendo una città di dimensioni contenute, Trieste si distingue per una tradizione di apertura culturale e per la presenza dell\'Università degli Studi, che contribuisce con ricerca accademica e politiche inclusive.',
 		metaDescription: 'Risorse trans a Trieste: servizi ASUGI, associazioni LGBTQ+, sportelli, iter sanitario e storia del movimento nel Friuli-Venezia Giulia.',
+		contesto_locale: '',
+		centri_gender_intro: '',
+		associazioni_intro: '',
+		sportelli_intro: '',
+		image: '/images/citta/trieste.webp',
 		centri_gender: [
 			{
 				nome: 'Ambulatorio di Endocrinologia — ASUGI',
