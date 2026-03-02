@@ -6,7 +6,7 @@ import { rankNewsItems } from '$lib/server/news-generator';
 
 export const config = { maxDuration: 300 };
 
-export const GET: RequestHandler = async ({ request, url }) => {
+export const GET: RequestHandler = async ({ request, url, platform }) => {
 	const auth = request.headers.get('authorization');
 	if (auth !== `Bearer ${CRON_SECRET}`) {
 		return json({ error: 'Unauthorized' }, { status: 401 });
@@ -25,47 +25,49 @@ export const GET: RequestHandler = async ({ request, url }) => {
 		const ranked = await rankNewsItems(newItems);
 		if (!ranked.length) return json({ ok: true, message: 'No relevant news' });
 
-		// 4. Dispatch each article to /generate in parallel and await results
+		// 4. Dispatch each article to /generate in background
 		const generateUrl = `${url.origin}/api/cron/news/generate`;
+		const dispatched: string[] = [];
+		const itemsToDispatch: { item: typeof newItems[0]; info: string }[] = [];
 
-		const promises = ranked.map(async (r) => {
+		for (const r of ranked) {
 			const item = newItems[r.originalIndex];
-			if (!item) return { status: 'skipped' as const, reason: `#${r.originalIndex}: no item` };
+			if (!item) continue;
+			const info = `#${r.originalIndex} (score ${r.score}): ${r.reason}`;
+			dispatched.push(info);
+			itemsToDispatch.push({ item, info });
+		}
 
-			try {
-				const resp = await fetch(generateUrl, {
-					method: 'POST',
-					headers: {
-						'Authorization': `Bearer ${CRON_SECRET}`,
-						'Content-Type': 'application/json'
-					},
-					body: JSON.stringify(item)
-				});
-				const body = await resp.json();
-				return {
-					status: resp.ok ? 'ok' as const : 'error' as const,
-					index: r.originalIndex,
-					score: r.score,
-					title: item.title,
-					body
-				};
-			} catch (e) {
-				return {
-					status: 'error' as const,
-					index: r.originalIndex,
-					title: item.title,
-					error: String(e)
-				};
+		// Use waitUntil to dispatch in background after returning response
+		const dispatchWork = async () => {
+			for (const { item, info } of itemsToDispatch) {
+				try {
+					const resp = await fetch(generateUrl, {
+						method: 'POST',
+						headers: {
+							'Authorization': `Bearer ${CRON_SECRET}`,
+							'Content-Type': 'application/json'
+						},
+						body: JSON.stringify(item)
+					});
+					console.log(`[News] Dispatched ${info}: ${resp.status}`);
+				} catch (e) {
+					console.error(`[News] Dispatch failed for ${info}:`, e);
+				}
 			}
-		});
+		};
 
-		const results = await Promise.allSettled(promises);
+		const ctx = (platform as Record<string, unknown>)?.context as
+			| { waitUntil?: (p: Promise<unknown>) => void }
+			| undefined;
+		if (ctx?.waitUntil) {
+			ctx.waitUntil(dispatchWork());
+		} else {
+			// Fallback for local dev: fire-and-forget
+			dispatchWork().catch((e) => console.error('[News] Dispatch error:', e));
+		}
 
-		const summary = results.map((r) =>
-			r.status === 'fulfilled' ? r.value : { status: 'rejected', error: String(r.reason) }
-		);
-
-		return json({ ok: true, dispatched: summary.length, results: summary });
+		return json({ ok: true, dispatched: dispatched.length, items: dispatched });
 	} catch (e) {
 		console.error('News cron error:', e);
 		return json({ error: 'Internal error' }, { status: 500 });
