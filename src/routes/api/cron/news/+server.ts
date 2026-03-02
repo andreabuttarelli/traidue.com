@@ -4,6 +4,8 @@ import type { RequestHandler } from './$types';
 import { fetchAllFeeds, deduplicateItems } from '$lib/server/rss';
 import { rankNewsItems } from '$lib/server/news-generator';
 
+export const config = { maxDuration: 300 };
+
 export const GET: RequestHandler = async ({ request, url }) => {
 	const auth = request.headers.get('authorization');
 	if (auth !== `Bearer ${CRON_SECRET}`) {

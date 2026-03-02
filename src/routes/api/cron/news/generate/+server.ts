@@ -9,6 +9,8 @@ import { generateAndProcessNewsImage } from '$lib/server/news-image';
 
 const BASE_URL = 'https://www.traidue.com';
 
+export const config = { maxDuration: 300 };
+
 export const POST: RequestHandler = async ({ request, platform }) => {
 	const auth = request.headers.get('authorization');
 	if (auth !== `Bearer ${CRON_SECRET}`) {
