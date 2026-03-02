@@ -2,9 +2,9 @@
 title: "Linguaggio inclusivo per le persone trans"
 seoTitle: "Come si usa il linguaggio inclusivo?"
 slug: "linguaggio-inclusivo"
-description: "Guida pratica al linguaggio inclusivo in italiano per le persone trans e non binarie: pronomi, schwa, asterisco, nomi, errori comuni e come correggersi."
+description: "Linguaggio inclusivo in italiano: schwa, pronomi neutri italiano, come rivolgersi a persone trans e non binarie. Guida pratica con esempi."
 category: "terminologia"
-tags: ["linguaggio inclusivo", "pronomi", "schwa", "non binario", "comunicazione"]
+tags: ["linguaggio inclusivo", "pronomi", "schwa", "non binario", "comunicazione", "pronomi neutri", "italiano inclusivo", "scrittura inclusiva", "come rivolgersi"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/linguaggio-inclusivo.webp"

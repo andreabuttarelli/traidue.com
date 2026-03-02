@@ -1,9 +1,10 @@
 ---
 title: "Identità di genere: cos'è e cosa sappiamo"
+seoTitle: "Cos'è l'identità di genere? Significato e differenza con il sesso biologico"
 slug: "identita-di-genere"
-description: "Cos'è l'identità di genere, come si differenzia dal sesso biologico, cosa dice la scienza e quali sono le posizioni delle principali istituzioni."
+description: "Identità di genere: significato, differenza con sesso biologico e orientamento sessuale, come si forma e cosa dice la scienza. Guida completa."
 category: "terminologia"
-tags: ["identità di genere", "definizioni", "sesso biologico", "spettro di genere", "disforia"]
+tags: ["identità di genere", "significato", "definizione", "sesso biologico", "spettro di genere", "disforia", "orientamento sessuale", "come si forma", "transgender"]
 date: "2026-02-18"
 updated: "2026-02-18"
 image: "/images/wiki/identita-di-genere.webp"

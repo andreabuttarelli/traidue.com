@@ -2,9 +2,9 @@
 title: "Il genere: oltre il binarismo"
 seoTitle: "Che cos'è il genere?"
 slug: "che-cose-il-genere"
-description: "Cos'è il genere e come si distingue dal sesso biologico: identità di genere, espressione di genere, ruoli sociali e cosa dice la scienza moderna."
+description: "Differenza tra sesso e genere: identità di genere, espressione di genere, ruolo di genere e cosa dice la scienza moderna. Guida completa."
 category: "terminologia"
-tags: ["genere", "identità di genere", "espressione di genere", "ruoli di genere", "binarismo"]
+tags: ["genere", "identità di genere", "espressione di genere", "ruoli di genere", "binarismo", "differenza sesso genere", "ruolo di genere", "costruzione sociale"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/che-cose-il-genere.webp"

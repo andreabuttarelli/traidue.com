@@ -2,9 +2,9 @@
 title: "Persone non binarie"
 seoTitle: "Cosa significa essere non binario?"
 slug: "persone-non-binarie"
-description: "Cosa significa essere non binario o non-binary? Definizione, identità, pronomi, esperienze e cosa dice la ricerca scientifica sulle identità di genere al di fuori del binarismo."
+description: "Non binary significato: cos'è, come capire se sono non binario, pronomi, identità genderqueer e agender. Guida scientifica completa."
 category: "terminologia"
-tags: ["non binario", "non-binary", "genderqueer", "identità di genere", "pronomi", "terminologia"]
+tags: ["non binario", "non-binary", "genderqueer", "identità di genere", "pronomi", "terminologia", "agender", "enby"]
 date: "2026-02-19"
 updated: "2026-02-19"
 image: "/images/wiki/persone-non-binarie.webp"

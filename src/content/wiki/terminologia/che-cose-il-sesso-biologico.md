@@ -2,9 +2,9 @@
 title: "Il sesso biologico: una realtà complessa"
 seoTitle: "Che cos'è il sesso biologico?"
 slug: "che-cose-il-sesso-biologico"
-description: "Cos'è il sesso biologico, come viene determinato, perché non è binario come si crede: cromosomi, ormoni, gonadi, anatomia e le variazioni naturali che esistono."
+description: "Sesso biologico: cos'è, quanti sessi biologici esistono, cromosomi XX e XY, dimorfismo sessuale e variazioni intersex. Guida scientifica."
 category: "terminologia"
-tags: ["sesso biologico", "cromosomi", "intersex", "biologia", "binarismo"]
+tags: ["sesso biologico", "cromosomi", "intersex", "biologia", "binarismo", "XX XY", "dimorfismo sessuale", "determinazione del sesso"]
 date: "2026-02-20"
 updated: "2026-02-20"
 image: "/images/wiki/che-cose-il-sesso-biologico.webp"
