@@ -5,6 +5,33 @@ import { supabase } from './supabase';
 
 const genai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 const MODEL = 'gemini-3.1-pro-preview';
+const FALLBACK_MODEL = 'gemini-2.5-pro';
+
+async function geminiGenerate(
+	options: Parameters<typeof genai.models.generateContent>[0],
+	retryDelay = 20_000
+): ReturnType<typeof genai.models.generateContent> {
+	try {
+		return await genai.models.generateContent(options);
+	} catch (err: unknown) {
+		const status = (err as { status?: number }).status;
+		if (status === 503 || status === 429) {
+			console.log(`[News] ${options.model} returned ${status}, retrying in ${retryDelay / 1000}s...`);
+			await new Promise((r) => setTimeout(r, retryDelay));
+			try {
+				return await genai.models.generateContent(options);
+			} catch (retryErr: unknown) {
+				const retryStatus = (retryErr as { status?: number }).status;
+				if (retryStatus === 503 || retryStatus === 429) {
+					console.log(`[News] Retry failed (${retryStatus}), falling back to ${FALLBACK_MODEL}`);
+					return await genai.models.generateContent({ ...options, model: FALLBACK_MODEL });
+				}
+				throw retryErr;
+			}
+		}
+		throw err;
+	}
+}
 
 export interface GeneratedArticle {
 	title: string;
@@ -176,7 +203,7 @@ async function rankItems(items: RSSItem[], recentTitles: string[]): Promise<Rank
 		? `\n\nARTICOLI GIÀ PUBBLICATI SULLA PIATTAFORMA:\n${recentTitles.map((t) => `- "${t}"`).join('\n')}`
 		: '';
 
-	const result = await genai.models.generateContent({
+	const result = await geminiGenerate({
 		model: MODEL,
 		contents: [{ role: 'user', parts: [{ text: `Notizie da classificare:\n\n${itemsList}${alreadyPublished}` }] }],
 		config: {
@@ -218,7 +245,7 @@ export async function generateSingleEditorial(item: RSSItem): Promise<GeneratedA
 async function generateEditorial(item: RSSItem): Promise<GeneratedArticle | null> {
 	const input = `Notizia da commentare:\n\n"${item.title.slice(0, 200)}" — ${item.sourceName}\n${item.description.slice(0, 500)}`;
 
-	const result = await genai.models.generateContent({
+	const result = await geminiGenerate({
 		model: MODEL,
 		contents: [{ role: 'user', parts: [{ text: input }] }],
 		config: {
