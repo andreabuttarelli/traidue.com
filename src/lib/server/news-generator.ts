@@ -5,7 +5,7 @@ import { supabase } from './supabase';
 
 const genai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 const MODEL = 'gemini-3.1-pro-preview';
-const FALLBACK_MODEL = 'gemini-2.5-pro';
+const FALLBACK_MODEL = 'gemini-3-flash-preview';
 
 async function geminiGenerate(
 	options: Parameters<typeof genai.models.generateContent>[0],
