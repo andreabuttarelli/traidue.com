@@ -5,6 +5,7 @@
 		url,
 		image = 'https://www.traidue.com/images/wiki/identita-di-genere.webp',
 		type = 'website',
+		noindex = false,
 		article
 	}: {
 		title: string;
@@ -12,6 +13,7 @@
 		url: string;
 		image?: string;
 		type?: string;
+		noindex?: boolean;
 		article?: {
 			publishedTime?: string;
 			modifiedTime?: string;
@@ -24,6 +26,9 @@
 <svelte:head>
 	<title>{title} | Tra i Due</title>
 	<meta name="description" content={description} />
+	{#if noindex}
+		<meta name="robots" content="noindex, follow" />
+	{/if}
 	<link rel="canonical" href={url} />
 	<link rel="alternate" hreflang="it" href={url} />
 	<link rel="alternate" hreflang="x-default" href={url} />

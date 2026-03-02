@@ -150,6 +150,7 @@
 		: `Risorse trans a ${data.comune.nome}`}
 	description={data.dettaglio?.metaDescription ?? `Informazioni sulle tematiche trans per le persone di ${data.comune.nome}, ${data.comune.regione}. Articoli scientifici, risorse e supporto.`}
 	url="https://www.traidue.com/citta/{data.comune.slug}"
+	noindex={!data.isRich}
 />
 
 <StructuredData schema={pageSchema} />
