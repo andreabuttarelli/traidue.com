@@ -1619,10 +1619,10 @@ const dati: CittaDettaglio[] = [
 		provincia: 'TS',
 		intro: 'Trieste, città di confine con una profonda tradizione mitteleuropea, offre alle persone transgender e non binarie un contesto più aperto rispetto a molte realtà del Nordest. L\'ASUGI (Azienda Sanitaria Universitaria Giuliano Isontina) ospita servizi endocrinologici e psicologici che supportano i percorsi di affermazione di genere. Pur essendo una città di dimensioni contenute, Trieste si distingue per una tradizione di apertura culturale e per la presenza dell\'Università degli Studi, che contribuisce con ricerca accademica e politiche inclusive.',
 		metaDescription: 'Risorse trans a Trieste: servizi ASUGI, associazioni LGBTQ+, sportelli, iter sanitario e storia del movimento nel Friuli-Venezia Giulia.',
-		contesto_locale: '',
-		centri_gender_intro: '',
-		associazioni_intro: '',
-		sportelli_intro: '',
+		contesto_locale: 'Trieste è un caso unico nel panorama italiano per l\'assistenza alle persone transgender. La città ospita il CEDIG (Centro per la Diagnosi e la Cura della Disforia di Genere), attivo dal 1995 presso l\'Ospedale di Cattinara, riconosciuto come centro d\'eccellenza nazionale per la chirurgia di affermazione di genere: dal 1995 vi sono stati eseguiti circa 300 interventi chirurgici. L\'ASUGI (Azienda Sanitaria Universitaria Giuliano Isontina) integra i servizi endocrinologici e psicologici, mentre l\'IRCCS Burlo Garofolo ha attivato nel 2015 l\'APEVAGE, un ambulatorio pediatrico multidisciplinare per la varianza di genere, tra i pochi in Italia. Sul piano politico, il contesto regionale presenta criticità: nel 2018 la giunta Fedriga ha ritirato il Friuli-Venezia Giulia dalla rete RE.A.DY contro le discriminazioni per orientamento sessuale e identità di genere. Nonostante ciò, il tessuto associativo locale resta attivo: Arcigay Arcobaleno opera dal 1994 e l\'associazione Euphoria Trans FVG offre supporto specifico per le persone trans. Il FVG Pride, nato nel 2016, ha portato la sua prima edizione a Udine nel 2017 con 7.000 partecipanti, e nel 2019 a Trieste con 10.000 persone in corteo.',
+		centri_gender_intro: 'Trieste offre un\'infrastruttura sanitaria articolata per i percorsi di affermazione di genere. Il CEDIG presso l\'Ospedale di Cattinara fornisce diagnosi, terapia ormonale e chirurgia, mentre il Servizio di Psicologia Clinica dell\'ASUGI si occupa della valutazione e dell\'accompagnamento psicologico. L\'accesso avviene tramite impegnativa del medico di base. Per i minori, l\'IRCCS Burlo Garofolo dispone dell\'APEVAGE, ambulatorio pediatrico dedicato alla varianza di genere con un\'équipe composta da endocrinologo pediatrico, psicologo, neuropsichiatra infantile e bioeticista.',
+		associazioni_intro: 'Le principali realtà associative di Trieste e del Friuli-Venezia Giulia coprono diversi ambiti di supporto. Arcigay Arcobaleno, attiva dal 1994, offre sportello legale, ascolto, orientamento ai percorsi di affermazione di genere e servizi per persone migranti LGBTQ+. Euphoria Trans FVG APS, con sede presso la Casa Internazionale delle Donne, è dedicata specificamente alle persone trans con informazione sui percorsi di transizione e supporto contro le discriminazioni.',
+		sportelli_intro: 'A Trieste sono disponibili servizi di ascolto e orientamento tramite le associazioni del territorio. Lo sportello di Arcigay Arcobaleno offre accoglienza, consulenza legale e orientamento ai servizi sanitari per le persone LGBTQ+. A livello regionale, il Garante dei diritti della persona del Friuli-Venezia Giulia, istituito con legge regionale 9/2014, raccoglie segnalazioni di discriminazione fondate sull\'identità di genere e promuove iniziative di contrasto. Il nodo regionale UNAR è raggiungibile tramite il numero verde 800 901 010.',
 		image: '/images/citta/trieste.webp',
 		centri_gender: [
 			{
@@ -1772,6 +1772,26 @@ const dati: CittaDettaglio[] = [
 			{
 				domanda: 'L\'Università di Trieste offre la carriera alias?',
 				risposta: 'Sì, l\'Università di Trieste ha attivato la carriera alias per studenti transgender e non binari, permettendo l\'uso del nome elettivo nei registri accademici, nella posta elettronica e nel badge universitario.'
+			},
+			{
+				domanda: 'Cos\'è il CEDIG di Trieste e come funziona il percorso di transizione in Friuli-Venezia Giulia?',
+				risposta: 'Il CEDIG (Centro per la Diagnosi e la Cura della Disforia di Genere) è attivo dal 1995 presso l\'Ospedale di Cattinara a Trieste ed è un centro d\'eccellenza nazionale per la chirurgia di affermazione di genere. Il percorso prevede una valutazione psicologica, la terapia ormonale sostitutiva e, se desiderato, gli interventi chirurgici. L\'accesso avviene tramite impegnativa del medico di base per i servizi dell\'ASUGI.'
+			},
+			{
+				domanda: 'Quali sono i tempi di attesa per la transizione a Trieste?',
+				risposta: 'I tempi variano in base al servizio richiesto. Per la valutazione psicologica presso l\'ASUGI si stimano 3-6 mesi; per l\'avvio della terapia ormonale, 1-3 mesi dopo la valutazione. Per la chirurgia di affermazione di genere presso il CEDIG di Cattinara le liste d\'attesa sono attualmente molto lunghe, con tempi che possono raggiungere diversi anni. È consigliabile contattare direttamente l\'ASUGI per informazioni aggiornate.'
+			},
+			{
+				domanda: 'Quali associazioni supportano le persone trans a Trieste e in Friuli-Venezia Giulia?',
+				risposta: 'Le principali realtà sono Arcigay Arcobaleno (attiva dal 1994, con sportello legale, ascolto e orientamento ai servizi), Euphoria Trans FVG APS (con sede presso la Casa Internazionale delle Donne, dedicata specificamente alle persone trans con informazione e supporto) e AGEDO FVG (gruppi di sostegno per genitori e familiari). Arcigay Arcobaleno si trova in via Pondares 8 a Trieste, Euphoria Trans FVG in via Pisoni 3.'
+			},
+			{
+				domanda: 'Il percorso di transizione a Trieste è coperto dal Servizio Sanitario Nazionale?',
+				risposta: 'Sì, i servizi dell\'ASUGI per la valutazione psicologica e la terapia ormonale sostitutiva sono erogati tramite il SSN con impegnativa del medico di base. Anche la chirurgia di affermazione di genere presso il CEDIG di Cattinara è coperta dal SSN con autorizzazione dell\'azienda sanitaria. I farmaci ormonali vengono prescritti dall\'endocrinologo e sono ritirabili in farmacia con ricetta del SSN.'
+			},
+			{
+				domanda: 'Come si inizia il percorso di transizione a Trieste?',
+				risposta: 'Il primo passo è rivolgersi al proprio medico di base per ottenere un\'impegnativa per i servizi dell\'ASUGI (endocrinologia o psicologia clinica). In alternativa, è possibile contattare Arcigay Arcobaleno (tel. 347 133 4052) o Euphoria Trans FVG (tel. 328 007 2110) per un primo orientamento gratuito. Queste associazioni possono accompagnare nella navigazione dei servizi sanitari e offrire supporto tra pari durante il percorso.'
 			}
 		],
 		articoli_correlati: [
