@@ -539,10 +539,10 @@ const dati: CittaDettaglio[] = [
 		provincia: 'RM',
 		intro: 'Roma ospita il SAIFIP (Servizio di Adeguamento tra Identità Fisica e Identità Psichica) presso il Policlinico Umberto I, attivo dal 1992 e punto di riferimento nazionale per i percorsi di affermazione di genere. Il Circolo di Cultura Omosessuale Mario Mieli è uno dei più grandi centri LGBTQ+ d\'Italia, offrendo servizi dedicati anche alle persone trans. Roma è stata la città di Marcella Di Folco, figura storica del movimento trans italiano, e ha ospitato il World Pride nel 2000. Il Roma Pride raccoglie ogni anno centinaia di migliaia di partecipanti, confermando la capitale come epicentro delle lotte per i diritti civili in Italia.',
 		metaDescription: 'Guida completa alle risorse trans a Roma: SAIFIP al Policlinico Umberto I, Circolo Mario Mieli, associazioni, sportelli e iter sanitario nel Lazio.',
-		contesto_locale: '',
-		centri_gender_intro: '',
-		associazioni_intro: '',
-		sportelli_intro: '',
+		contesto_locale: 'Roma è il cuore istituzionale e storico dei diritti delle persone transgender in Italia. Il SAIFIP (Servizio per l\'Adeguamento tra Identità Fisica e Identità Psichica), istituito nel 1992 presso l\'Ospedale San Camillo-Forlanini, è stato il primo servizio pubblico italiano dedicato ai percorsi di affermazione di genere e resta un punto di riferimento nazionale. Dal 2024, il SAIFIP afferisce alla UOSD Area per la Cura delle Relazioni dello stesso ospedale. Il Policlinico Umberto I offre un ambulatorio di endocrinologia e andrologia che segue pazienti con incongruenza di genere. Roma ospita inoltre la sede dell\'UNAR (Ufficio Nazionale Antidiscriminazioni Razziali), organo della Presidenza del Consiglio che raccoglie segnalazioni di discriminazione basate anche sull\'identità di genere tramite il numero verde 800 901 010. Il primo Roma Pride si è tenuto il 2 luglio 1994, organizzato dal Circolo Mario Mieli, con la partecipazione di circa 10.000 persone. Nel 2000 Roma ha ospitato il primo World Pride della storia. Il Circolo di Cultura Omosessuale Mario Mieli, fondato nel 1983, è una delle più grandi organizzazioni LGBTQ+ italiane e dal 1994 organizza la parata annuale del Pride nella capitale.',
+		centri_gender_intro: 'A Roma i servizi per l\'incongruenza di genere fanno perno sul SAIFIP dell\'Ospedale San Camillo-Forlanini, attivo dal 1992, che offre un percorso multidisciplinare con psicologi, psicoterapeuti, endocrinologi e chirurghi. L\'accesso avviene tramite impegnativa del medico di base; lo sportello informativo del SAIFIP è attivo il lunedì (14:00-17:00) e il mercoledì (9:00-11:00). Il Policlinico Umberto I dispone inoltre di un ambulatorio di endocrinologia che segue pazienti in terapia ormonale per incongruenza di genere.',
+		associazioni_intro: 'Roma dispone di una rete associativa solida e diversificata. Il Circolo di Cultura Omosessuale Mario Mieli, fondato nel 1983, offre Sportello Trans, consulenza legale, supporto psicologico e organizza il Roma Pride dal 1994. L\'Associazione Libellula, attiva dal 1997, è specificamente dedicata al supporto delle persone trans con sportello psicologico, accompagnamento nei percorsi di affermazione di genere e unità di strada. Arcigay Roma, Di\' Gay Project e AGEDO Lazio completano la rete di servizi con sportello legale, prevenzione sanitaria e supporto alle famiglie.',
+		sportelli_intro: 'Roma offre diversi servizi pubblici e convenzionati di supporto e contrasto alle discriminazioni. Il progetto Welcome4Rainbow, finanziato dall\'UNAR e gestito dal Circolo Mario Mieli con le associazioni Libellula, Cirses e Rete Lenford, garantisce accoglienza 24 ore su 24 tramite la RainbowLine e sportelli di ascolto in diversi Municipi della città. L\'UNAR, con sede a Largo Chigi, raccoglie segnalazioni di discriminazione attraverso il numero verde gratuito 800 901 010 (lunedì-venerdì, 8:00-17:00) e tramite il sito unar.it.',
 		image: '/images/citta/roma.webp',
 		centri_gender: [
 			{
@@ -743,6 +743,26 @@ const dati: CittaDettaglio[] = [
 			{
 				domanda: 'Esistono risorse per minori trans a Roma?',
 				risposta: 'Sì, il SAIFIP del Policlinico Umberto I offre un percorso dedicato ai minorenni con incongruenza di genere, che coinvolge la famiglia e prevede supporto psicologico specializzato. AGEDO Lazio offre inoltre supporto specifico per i genitori e le famiglie.'
+			},
+			{
+				domanda: 'Cos\'è il centro per la disforia di genere a Roma e dove si trova?',
+				risposta: 'Il principale centro per la disforia di genere (oggi chiamata incongruenza di genere) a Roma è il SAIFIP (Servizio per l\'Adeguamento tra Identità Fisica e Identità Psichica), istituito nel 1992 presso l\'Ospedale San Camillo-Forlanini in Via Bernardino Ramazzini 68, padiglione Maroncelli. L\'équipe multidisciplinare comprende psicologi, psicoterapeuti, endocrinologi e chirurghi. Il Policlinico Umberto I offre inoltre un ambulatorio di endocrinologia che segue pazienti con incongruenza di genere. Entrambi i servizi sono accessibili tramite il Servizio Sanitario Nazionale.'
+			},
+			{
+				domanda: 'Quali sono i tempi per la transizione di genere a Roma?',
+				risposta: 'I tempi di attesa per il primo appuntamento al SAIFIP possono superare i 6 mesi. La fase di valutazione psicodiagnostica dura generalmente dai 6 ai 12 mesi. Dopo la valutazione, l\'avvio della terapia ormonale richiede 1-2 mesi. Per la rettifica anagrafica presso il Tribunale di Roma i tempi vanno dai 6 ai 18 mesi. Per eventuali interventi chirurgici, la lista d\'attesa può essere di 1-3 anni. Durante l\'attesa, è consigliabile rivolgersi al Circolo Mario Mieli o a Libellula per supporto e orientamento.'
+			},
+			{
+				domanda: 'Come si accede al SAIFIP a Roma per iniziare il percorso di affermazione di genere?',
+				risposta: 'Per accedere al SAIFIP occorre un\'impegnativa del medico di base per visita relativa a incongruenza di genere. Lo sportello informativo del SAIFIP, gestito dall\'équipe psicologica, è attivo il lunedì dalle 14:00 alle 17:00 e il mercoledì dalle 9:00 alle 11:00, presso la sede di Via Bernardino Ramazzini 68. È possibile contattare lo sportello ai numeri 06 5870 3700 o 06 5870 2527, oppure via email a saifip@scamilloforlanini.rm.it. Il servizio offre colloqui psicologici, psicoterapia individuale e di gruppo, valutazione psicodiagnostica e sportello dei Peer Navigator per l\'accompagnamento tra pari.'
+			},
+			{
+				domanda: 'Quali associazioni supportano le persone trans a Roma?',
+				risposta: 'Le principali associazioni a Roma sono il Circolo di Cultura Omosessuale Mario Mieli (fondato nel 1983, offre Sportello Trans, consulenza legale e psicologica), l\'Associazione Libellula (attiva dal 1997, dedicata specificamente alle persone trans con sportello psicologico e accompagnamento ai percorsi di affermazione di genere), Arcigay Roma (sportello legale e psicologico), Di\' Gay Project (prevenzione sanitaria, test HIV e IST, consulenza tra pari) e AGEDO Lazio (supporto a genitori e familiari). Il progetto Welcome4Rainbow, finanziato dall\'UNAR, offre accoglienza 24/7 tramite la RainbowLine.'
+			},
+			{
+				domanda: 'Come iniziare il percorso di transizione a Roma?',
+				risposta: 'Per iniziare il percorso a Roma, il primo passo è rivolgersi al proprio medico di base per ottenere un\'impegnativa per il SAIFIP dell\'Ospedale San Camillo-Forlanini. In parallelo, è consigliabile contattare lo Sportello Trans del Circolo Mario Mieli (mercoledì 17:00-19:00, su appuntamento) o l\'Associazione Libellula per ricevere orientamento gratuito e accompagnamento ai servizi. Il SAIFIP offre l\'intero percorso multidisciplinare: valutazione psicologica, terapia ormonale e coordinamento chirurgico, tutto coperto dal SSN con impegnativa. Durante i tempi di attesa, le associazioni offrono gruppi di mutuo aiuto e supporto psicologico.'
 			}
 		],
 		articoli_correlati: [
