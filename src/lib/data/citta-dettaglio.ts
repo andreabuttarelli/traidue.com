@@ -1207,10 +1207,10 @@ const dati: CittaDettaglio[] = [
 		provincia: 'FI',
 		intro: 'Firenze offre alle persone transgender un contesto tra i più inclusivi d\'Italia, grazie alla combinazione di servizi sanitari strutturati, un associazionismo radicato e politiche regionali progressive. L\'AOU Careggi ospita l\'Ambulatorio Identità di Genere, centro di riferimento per tutta la Toscana. IREOS, centro servizi LGBTQ+ attivo dal 1998, rappresenta un punto di riferimento per ascolto, orientamento e supporto. La Toscana è tra le regioni con la normativa antidiscriminazione più avanzata in Italia.',
 		metaDescription: 'Risorse trans a Firenze: ambulatorio identità di genere Careggi, IREOS, associazioni, sportelli, iter sanitario e storia LGBTQ+ in Toscana.',
-		contesto_locale: '',
-		centri_gender_intro: '',
-		associazioni_intro: '',
-		sportelli_intro: '',
+		contesto_locale: 'Firenze è uno dei principali poli italiani per i percorsi di affermazione di genere, grazie alla SOD di Andrologia, Endocrinologia Femminile e Incongruenza di Genere dell\'AOU Careggi, coordinatrice della rete regionale CRIG istituita con delibera regionale 907 del 2018 — la prima rete di questo tipo in Italia. La Toscana è stata anche la prima regione italiana ad approvare una legge contro le discriminazioni basate su orientamento sessuale e identità di genere, la Legge Regionale 63 del 2004. Il tessuto associativo fiorentino è ricco e radicato: IREOS, centro servizi queer fondato nel 1997, gestisce da oltre vent\'anni un consultorio della salute e dal 2003 organizza il Florence Queer Festival, uno dei principali festival di cultura queer in Italia. Il Toscana Pride, nato nel 2016 come progetto itinerante tra le città della regione, ha portato complessivamente 150.000 persone in piazza, con Firenze città ospitante nel 2016 e nel 2023. Azione Gay e Lesbica, attiva a Firenze da oltre trent\'anni, gestisce uno sportello antidiscriminazione e antiviolenza per persone LGBTQ+.',
+		centri_gender_intro: 'L\'AOU Careggi ospita la SOD di Andrologia, Endocrinologia Femminile e Incongruenza di Genere, diretta dalla professoressa Linda Vignozzi. L\'équipe multidisciplinare comprende endocrinologi, psicologi, psichiatri e collabora con ginecologi, urologi, chirurghi plastici e logopedisti. L\'accesso avviene tramite impegnativa del medico di base con prenotazione al CUP regionale (telefono 055 545454); il percorso segue le linee guida internazionali WPATH e della Endocrine Society.',
+		associazioni_intro: 'Firenze dispone di una rete associativa consolidata a supporto delle persone trans e non binarie. IREOS, centro servizi queer autogestito fondato nel 1997, offre consultorio della salute, gruppi di auto-mutuo aiuto, counseling e test HIV anonimo e gratuito. Arcigay Firenze, Azione Gay e Lesbica (attiva dal 1989) e AGEDO Toscana completano il panorama con supporto legale, psicologico, eventi culturali e gruppi per le famiglie.',
+		sportelli_intro: 'A Firenze sono disponibili diversi sportelli gratuiti per le persone transgender. IREOS gestisce uno sportello di ascolto e orientamento con colloqui gratuiti condotti da psicologhe specializzate. Lo Sportello Antidiscriminazione del Comune di Firenze, attivo presso la Direzione Diritti e Inclusione, raccoglie segnalazioni di discriminazioni legate all\'identità di genere. Azione Gay e Lesbica offre inoltre uno sportello antiviolenza con supporto psicologico e legale.',
 		image: '/images/citta/firenze.webp',
 		centri_gender: [
 			{
@@ -1375,6 +1375,26 @@ const dati: CittaDettaglio[] = [
 			{
 				domanda: 'L\'Università di Firenze offre la carriera alias?',
 				risposta: 'Sì, l\'Università di Firenze ha attivato la carriera alias per studenti transgender e non binari. La procedura consente l\'uso del nome elettivo nel badge, nei registri e nella posta elettronica dell\'ateneo.'
+			},
+			{
+				domanda: 'Cos\'è il centro per la disforia di genere di Careggi a Firenze?',
+				risposta: 'L\'AOU Careggi ospita la SOD di Andrologia, Endocrinologia Femminile e Incongruenza di Genere, centro di riferimento regionale per la Toscana istituito con delibera 907/2018. L\'équipe multidisciplinare include endocrinologi, psicologi, psichiatri e collabora con ginecologi, urologi, chirurghi plastici e logopedisti. Segue le linee guida internazionali WPATH e della Endocrine Society. Nel 2023 il centro ha registrato 150 accessi con 26 prescrizioni di trattamento farmacologico.'
+			},
+			{
+				domanda: 'Quali sono i tempi per la transizione di genere a Firenze?',
+				risposta: 'Dopo aver ottenuto l\'impegnativa dal medico di base, si prenota al CUP regionale (055 545454). La fase di valutazione psicologica presso Careggi dura circa un anno, al termine della quale l\'équipe multidisciplinare conferma la diagnosi e avvia il percorso. La terapia ormonale viene prescritta dall\'endocrinologo con controlli ogni 3-6 mesi. Per la rettificazione anagrafica al Tribunale di Firenze si stimano 6-14 mesi. Per gli interventi chirurgici le liste d\'attesa possono raggiungere 1-2 anni.'
+			},
+			{
+				domanda: 'Quali associazioni supportano le persone trans a Firenze?',
+				risposta: 'Le principali associazioni sono: IREOS, centro servizi queer autogestito fondato nel 1997 che offre consultorio della salute, gruppi di auto-mutuo aiuto e counseling; Arcigay Firenze, con eventi culturali e consulenza legale; Azione Gay e Lesbica, attiva dal 1989 con sportello antidiscriminazione e antiviolenza; AGEDO Toscana, con gruppi di sostegno per famiglie di persone trans; Consultoria Queer Firenze, collettivo transfemminista con sportello di ascolto e spazi di confronto per persone non binarie.'
+			},
+			{
+				domanda: 'Il percorso di transizione a Firenze è coperto dal SSN in Toscana?',
+				risposta: 'Sì, il percorso di affermazione di genere presso l\'AOU Careggi è coperto dal Servizio Sanitario Nazionale. La Toscana ha istituito la rete CRIG (delibera 907/2018) per coordinare l\'assistenza alle persone con incongruenza di genere. Si pagano i ticket per visite ed esami, con possibilità di esenzione per reddito. La terapia ormonale sostitutiva è a carico del SSN. La Regione Toscana prevede inoltre un codice regionale di esenzione specifico per le prestazioni legate alla disforia di genere.'
+			},
+			{
+				domanda: 'Come iniziare il percorso di transizione a Firenze passo per passo?',
+				risposta: 'Il percorso inizia dal medico di base, che rilascia l\'impegnativa per l\'Ambulatorio Identità di Genere dell\'AOU Careggi. Si prenota tramite CUP regionale al 055 545454. IREOS (Via dei Serragli 3) può offrire un primo orientamento gratuito. A Careggi si avvia la valutazione psicologica (circa un anno), seguita dalla presa in carico endocrinologica per la terapia ormonale. Per la rettificazione anagrafica ci si rivolge al Tribunale Civile di Firenze. Gli interventi chirurgici possono essere effettuati a Careggi o presso altri centri nazionali con copertura SSN.'
 			}
 		],
 		articoli_correlati: [
@@ -1384,7 +1404,7 @@ const dati: CittaDettaglio[] = [
 			'cambio-documenti-trans',
 			'salute-mentale-persone-trans'
 		],
-		ultimoAggiornamento: '2026-02-25'
+		ultimoAggiornamento: '2026-03-02'
 	},
 	{
 		slug: 'palermo',
