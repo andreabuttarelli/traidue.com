@@ -23,27 +23,47 @@ export const GET: RequestHandler = async ({ request, url }) => {
 		const ranked = await rankNewsItems(newItems);
 		if (!ranked.length) return json({ ok: true, message: 'No relevant news' });
 
-		// 4. Fire-and-forget: dispatch each article to /generate
+		// 4. Dispatch each article to /generate in parallel and await results
 		const generateUrl = `${url.origin}/api/cron/news/generate`;
-		const dispatched: string[] = [];
 
-		for (const r of ranked) {
+		const promises = ranked.map(async (r) => {
 			const item = newItems[r.originalIndex];
-			if (!item) continue;
+			if (!item) return { status: 'skipped' as const, reason: `#${r.originalIndex}: no item` };
 
-			fetch(generateUrl, {
-				method: 'POST',
-				headers: {
-					'Authorization': `Bearer ${CRON_SECRET}`,
-					'Content-Type': 'application/json'
-				},
-				body: JSON.stringify(item)
-			}).catch((e) => console.error(`Dispatch failed for "${item.title}":`, e));
+			try {
+				const resp = await fetch(generateUrl, {
+					method: 'POST',
+					headers: {
+						'Authorization': `Bearer ${CRON_SECRET}`,
+						'Content-Type': 'application/json'
+					},
+					body: JSON.stringify(item)
+				});
+				const body = await resp.json();
+				return {
+					status: resp.ok ? 'ok' as const : 'error' as const,
+					index: r.originalIndex,
+					score: r.score,
+					title: item.title,
+					body
+				};
+			} catch (e) {
+				return {
+					status: 'error' as const,
+					index: r.originalIndex,
+					title: item.title,
+					error: String(e)
+				};
+			}
+		});
 
-			dispatched.push(`#${r.originalIndex} (score ${r.score}): ${r.reason}`);
-		}
+		const results = await Promise.allSettled(promises);
 
-		return json({ ok: true, dispatched: dispatched.length, items: dispatched });
+		const summary = results.map((r) =>
+			r.status === 'fulfilled' ? r.value : { status: 'rejected', error: String(r.reason) }
+		);
+
+		return json({ ok: true, dispatched: summary.length, results: summary });
 	} catch (e) {
 		console.error('News cron error:', e);
 		return json({ error: 'Internal error' }, { status: 500 });
