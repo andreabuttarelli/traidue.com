@@ -4,7 +4,7 @@ seoTitle: "Cos'è la disforia di genere? Significato, sintomi e differenza con l
 slug: "disforia-di-genere"
 description: "Cos'è la disforia di genere, come si manifesta, criteri del DSM-5, differenza con l'incongruenza di genere ICD-11 e perché non è una malattia mentale."
 category: "terminologia"
-tags: ["disforia di genere", "significato", "sintomi", "diagnosi", "DSM-5", "incongruenza di genere", "ICD-11", "identità di genere", "come capire", "definizione"]
+tags: ["disforia di genere", "significato", "sintomi", "diagnosi", "DSM-5", "incongruenza di genere", "ICD-11", "identità di genere", "come capire", "definizione", "disforia di genere bambini", "disforia di genere adolescenti", "ROGD", "segnali disforia bambini", "disforia genere fase"]
 date: "2026-03-02"
 updated: "2026-03-02"
 image: "/images/wiki/disforia-di-genere.webp"
@@ -39,6 +39,15 @@ sources:
   - title: "Epigenetics Is Implicated in the Basis of Gender Incongruence"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8418298/"
     year: 2021
+  - title: "Gender Identity 5 Years After Social Transition (Olson et al.)"
+    url: "https://publications.aap.org/pediatrics/article/150/2/e2021056082/186992"
+    year: 2022
+  - title: "Rapid-Onset Gender Dysphoria in Adolescents and Young Adults: A Study of Parental Reports (Littman)"
+    url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0202330"
+    year: 2018
+  - title: "Gestione dell'incongruenza di genere in eta' evolutiva — Societa' Italiana di Pediatria"
+    url: "https://sip.it/2024/01/linee-guida-incongruenza-di-genere/"
+    year: 2024
 faq:
   - question: "Cos'è la disforia di genere?"
     answer: "La disforia di genere è la sofferenza che una persona può provare quando il genere assegnato alla nascita non corrisponde alla propria identità di genere. Non è una malattia mentale: dal 2019 l'OMS la classifica come 'incongruenza di genere' nel capitolo salute sessuale dell'ICD-11."
@@ -52,6 +61,14 @@ faq:
     answer: "Il DSM-5-TR richiede una marcata incongruenza tra genere sentito e genere assegnato, della durata di almeno sei mesi, associata a sofferenza clinicamente significativa. La diagnosi viene fatta da professionisti della salute mentale esperti in identità di genere."
   - question: "La disforia di genere si può curare?"
     answer: "La disforia non si 'cura' nel senso di eliminarla forzatamente. I percorsi di affermazione di genere (transizione sociale, terapia ormonale, chirurgia) sono gli interventi riconosciuti dalla comunità scientifica per alleviare la sofferenza. Le terapie di conversione sono considerate dannose e non etiche."
+  - question: "La disforia di genere nei bambini è solo una fase?"
+    answer: "In alcuni casi l'incongruenza di genere infantile si attenua con la crescita, ma quando e' persistente, coerente e insistente nel tempo e' molto piu' probabile che continui. Uno studio longitudinale di Olson et al. (2022) ha rilevato che il 94% dei bambini che avevano effettuato una transizione sociale manteneva la propria identita' di genere a cinque anni di distanza. Per questo motivo, liquidare l'esperienza di un bambino come 'solo una fase' puo' essere dannoso."
+  - question: "Come si riconosce la disforia di genere nei bambini?"
+    answer: "I segnali includono: identificazione persistente con un genere diverso da quello assegnato, forte preferenza per ruoli, abbigliamento e compagni di gioco tipicamente associati al genere sentito, disagio verso il proprio corpo o verso il genere assegnato. E' importante distinguere la disforia dalla semplice non conformita' di genere nel gioco: un bambino che gioca con giochi non tipici del proprio genere non ha necessariamente disforia di genere."
+  - question: "La disforia di genere a insorgenza rapida (ROGD) esiste?"
+    answer: "La ROGD (Rapid-Onset Gender Dysphoria) non e' una diagnosi riconosciuta nel DSM-5 ne' nell'ICD-11. Lo studio originale di Littman (2018) si basava esclusivamente su questionari compilati dai genitori reclutati da siti web critici verso le persone transgender, presentando problemi metodologici significativi. Nessuno studio successivo condotto direttamente sui giovani ha confermato l'esistenza di questa categoria. Per approfondire, si veda l'articolo sul contagio sociale trans."
+  - question: "I casi di disforia di genere stanno aumentando?"
+    answer: "Le segnalazioni ai servizi specialistici sono effettivamente aumentate negli ultimi anni, sia in Italia che a livello globale. Questo aumento e' attribuibile principalmente alla riduzione dello stigma, alla maggiore consapevolezza sociale e a criteri diagnostici piu' ampi — un fenomeno simile all'aumento delle persone mancine dopo la fine delle politiche che costringevano a usare la mano destra. Non esistono evidenze scientifiche a sostegno della teoria del 'contagio sociale'."
 related:
   - identita-di-genere
   - iniziare-transizione
@@ -194,3 +211,53 @@ Il primo passo e' generalmente rivolgersi al proprio medico di base o contattare
 Per informazioni dettagliate sui centri disponibili e sui passaggi concreti da seguire, si rimanda agli articoli sui [centri transgender in Italia](/wiki/centri-transgender-italia) e su [come iniziare la transizione](/wiki/iniziare-transizione).
 
 La legge italiana di riferimento e' la **legge 164 del 1982**, che consente la rettificazione del sesso nei documenti anagrafici. Negli ultimi anni, la giurisprudenza ha progressivamente riconosciuto la possibilita' di ottenere il cambio anagrafico anche senza interventi chirurgici, un'evoluzione significativa nel panorama dei diritti delle persone transgender in Italia.
+
+## Disforia di genere nei bambini e negli adolescenti
+
+La disforia di genere si manifesta in modo diverso a seconda dell'eta'. Comprendere queste differenze e' essenziale per evitare sia di sottovalutare un disagio reale sia di patologizzare la normale variabilita' nell'espressione di genere.
+
+### Nei bambini in eta' prepuberale
+
+Nei bambini piu' piccoli, la disforia di genere si esprime tipicamente attraverso affermazioni verbali ("io sono una bambina", "io sono un bambino"), una preferenza marcata e persistente per abbigliamento, giochi e compagni di gioco tipicamente associati al genere sentito, e un disagio verso la propria anatomia. E' fondamentale distinguere tra **comportamento non conforme al genere** e **disforia di genere**: un bambino che gioca con bambole o una bambina che preferisce giochi considerati maschili non ha necessariamente disforia di genere. La disforia si caratterizza per la persistenza, la coerenza e l'insistenza con cui il bambino esprime un'identita' diversa da quella assegnata [1][13].
+
+Uno studio longitudinale di Olson e colleghi, pubblicato nel 2022, ha seguito bambini che avevano effettuato una transizione sociale e ha rilevato che il 94% manteneva la propria identita' di genere a cinque anni di distanza [11]. Questo dato contraddice la narrazione secondo cui la disforia di genere nei bambini sarebbe quasi sempre "solo una fase".
+
+### Negli adolescenti
+
+L'adolescenza rappresenta spesso un momento critico per la disforia di genere. La puberta' porta cambiamenti corporei che possono intensificare il disagio in modo significativo: lo sviluppo del seno, la crescita di peli sul viso, il cambiamento della voce, le mestruazioni -- ognuno di questi cambiamenti puo' diventare fonte di sofferenza intensa per un adolescente la cui identita' di genere non corrisponde al sesso assegnato. Alcuni adolescenti descrivono la puberta' come un "tradimento" del proprio corpo.
+
+Non tutti gli adolescenti che sperimentano disforia l'hanno manifestata fin dall'infanzia. Alcune persone diventano consapevoli della propria incongruenza di genere solo in adolescenza, e questo non rende la loro esperienza meno valida. L'identita' di genere puo' emergere con chiarezza in momenti diversi della vita.
+
+### Cosa dicono le linee guida italiane
+
+La Societa' Italiana di Pediatria (SIP), nelle sue linee guida del 2024 sulla gestione dell'incongruenza di genere in eta' evolutiva, raccomanda un approccio multidisciplinare e individualizzato [13]. Il punto centrale e' l'ascolto del minore: ogni bambino o adolescente merita di essere preso sul serio nella propria esperienza, senza che questa venga minimizzata o, al contrario, forzata in una direzione.
+
+### Quando chiedere aiuto
+
+Il framework utilizzato dagli esperti per valutare l'incongruenza di genere nei bambini si basa su tre criteri: **persistente** (l'identificazione con un genere diverso dura nel tempo, non e' episodica), **coerente** (si manifesta in contesti diversi -- a casa, a scuola, con gli amici) e **insistente** (il bambino esprime la propria identita' con convinzione e disagio quando non viene riconosciuta) [11][13].
+
+Se un bambino o un adolescente mostra questi segnali, e' consigliabile rivolgersi a un professionista della salute mentale con esperienza in identita' di genere, non per "confermare" o "smentire" la disforia, ma per offrire uno spazio sicuro di esplorazione e supporto.
+
+Per approfondire il tema dei bambini e degli adolescenti transgender, si vedano gli articoli [mio figlio e' trans: cosa fare?](/wiki/mio-figlio-trans) e [espressione di genere nei bambini](/wiki/espressione-genere-bambini).
+
+## L'aumento delle diagnosi
+
+Negli ultimi dieci-quindici anni, il numero di persone che si rivolgono ai servizi specialistici per incongruenza di genere e' aumentato in modo significativo in tutto il mondo, Italia compresa. Questo dato e' reale e merita di essere compreso nel suo contesto, senza allarmismi ne' minimizzazioni.
+
+### I numeri
+
+A livello globale, le cliniche specializzate hanno registrato un incremento delle segnalazioni, in particolare tra gli adolescenti. In Italia, i centri per l'identita' di genere hanno osservato un aumento costante degli accessi negli ultimi anni. Si e' registrato anche un cambiamento nel profilo demografico delle persone che si presentano ai servizi: mentre in passato la maggioranza era costituita da donne trans (persone assegnate maschio alla nascita), oggi si osserva un numero crescente di uomini trans e persone non binarie (persone assegnate femmina alla nascita) tra gli adolescenti [13].
+
+### Perche' i numeri aumentano
+
+L'aumento delle diagnosi non significa necessariamente che ci siano "piu' persone trans" rispetto al passato. Il parallelo piu' efficace e' quello con il **mancinismo**: quando le scuole smisero di costringere i bambini mancini a scrivere con la destra, la percentuale di mancini nella popolazione aumento' rapidamente, per poi stabilizzarsi. Non c'erano piu' mancini di prima -- semplicemente, le persone potevano finalmente essere se stesse.
+
+Allo stesso modo, l'aumento delle segnalazioni ai servizi per l'identita' di genere riflette con ogni probabilita' una combinazione di fattori: la **riduzione dello stigma** sociale, una **maggiore consapevolezza** dell'esistenza delle identita' transgender grazie all'informazione e alla visibilita' mediatica, l'**ampliamento dei criteri diagnostici** (l'ICD-11, per esempio, ha una definizione piu' ampia rispetto al passato), e una **maggiore accessibilita'** dei servizi [2].
+
+### La teoria del "contagio sociale"
+
+Di fronte a questo aumento, alcune voci hanno proposto la teoria del "contagio sociale": l'idea che i giovani "diventino trans" per influenza dei pari o dei social media. Questa ipotesi, spesso associata al concetto di ROGD (Rapid-Onset Gender Dysphoria) proposto da Littman nel 2018, non e' supportata dalle evidenze scientifiche [12]. Lo studio originale presentava limiti metodologici importanti -- si basava esclusivamente su report di genitori reclutati da siti web apertamente critici verso le persone transgender -- e la ROGD non e' riconosciuta come diagnosi ne' dal DSM-5 ne' dall'ICD-11.
+
+Studi successivi condotti direttamente sui giovani transgender non hanno trovato evidenze di un "contagio sociale". L'identita' di genere non e' qualcosa che si "contagia": e' un aspetto profondo dell'esperienza umana, con basi biologiche documentate [9][10].
+
+Per un'analisi approfondita della teoria del contagio sociale e delle evidenze che la smentiscono, si veda l'articolo dedicato al [contagio sociale trans](/wiki/contagio-sociale-trans).

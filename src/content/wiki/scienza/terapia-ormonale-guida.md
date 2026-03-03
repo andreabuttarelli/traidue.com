@@ -4,7 +4,7 @@ seoTitle: "Terapia ormonale per persone trans: la guida completa"
 slug: "terapia-ormonale-guida"
 description: "Come iniziare la terapia ormonale transgender (TOS) in Italia: farmaci, dosaggi, accesso gratuito via SSN, nota AIFA, estradiolo, testosterone e timeline."
 category: "scienza"
-tags: ["terapia ormonale", "HRT", "GAHT", "estrogeni", "testosterone", "anti-androgeni", "dosaggi", "guida", "Italia", "TOS", "estradiolo", "SSN", "gratuita", "AIFA", "come iniziare"]
+tags: ["terapia ormonale", "HRT", "GAHT", "estrogeni", "testosterone", "anti-androgeni", "dosaggi", "guida", "Italia", "TOS", "estradiolo", "SSN", "gratuita", "AIFA", "come iniziare", "terapia ormonale pericoli", "effetti collaterali ormoni trans", "ormoni trans fertilità", "terapia ormonale minori"]
 date: "2026-02-21"
 updated: "2026-03-02"
 image: "/images/wiki/terapia-ormonale-guida.webp"
@@ -54,6 +54,12 @@ sources:
   - title: "Self-Medication with Hormones Among Transgender People: A Survey of Knowledge, Risk and Harm Reduction Approaches (Metastasio et al.)"
     url: "https://pubmed.ncbi.nlm.nih.gov/29730985/"
     year: 2018
+  - title: "Mental Health Outcomes in Transgender and Nonbinary Youths Receiving Gender-Affirming Care (Tordoff et al.)"
+    url: "https://pubmed.ncbi.nlm.nih.gov/35212746/"
+    year: 2022
+  - title: "Fertility Preservation for Transgender Individuals: A Review (Armuand et al.)"
+    url: "https://pubmed.ncbi.nlm.nih.gov/28245927/"
+    year: 2017
 faq:
   - question: "Quali farmaci si usano nella terapia ormonale per persone trans?"
     answer: "Per le donne trans si usano estrogeni (estradiolo in compresse, cerotti o iniezioni) combinati con anti-androgeni (ciproterone acetato, spironolattone o agonisti del GnRH). Per gli uomini trans si usa testosterone in forma iniettabile (enantato o cipionato), gel transdermico o cerotti."
@@ -65,6 +71,12 @@ faq:
     answer: "I principali sono: livelli di estradiolo e testosterone, emocromo completo, funzionalità epatica, profilo lipidico, glicemia. Per le donne trans anche prolattina e potassio (se si usa spironolattone). Per gli uomini trans, particolare attenzione all'ematocrito."
   - question: "La terapia ormonale a basso dosaggio è un'opzione per le persone non binarie?"
     answer: "Sì. Le linee guida WPATH SOC-8 riconoscono esplicitamente che alcune persone non binarie possono desiderare una mascolinizzazione o femminilizzazione parziale. I protocolli a basso dosaggio o a durata limitata sono opzioni valide, da concordare con l'endocrinologo."
+  - question: "La terapia ormonale trans è pericolosa?"
+    answer: "Come ogni trattamento medico, la terapia ormonale comporta rischi reali ma monitorabili. Gli estrogeni possono aumentare il rischio di trombosi venosa (soprattutto per via orale; la via transdermica è molto più sicura) e, raramente, di prolattinoma. Il testosterone può causare policitemia (aumento eccessivo dei globuli rossi) e acne. Tutti questi rischi sono gestibili con esami del sangue regolari e supervisione endocrinologica. Il profilo di sicurezza della terapia ormonale, con monitoraggio adeguato, è considerato accettabile dalle principali società mediche internazionali."
+  - question: "La terapia ormonale rende sterili?"
+    answer: "La terapia ormonale può ridurre la fertilità, ma gli effetti variano. Gli estrogeni riducono la produzione di spermatozoi (oligospermia), un effetto che può essere parzialmente reversibile dopo la sospensione della terapia. Il testosterone può sopprimere l'ovulazione, ma non sempre in modo permanente: alcune persone hanno avuto gravidanze dopo anni di terapia con testosterone. In entrambi i casi, la preservazione della fertilità (crioconservazione di spermatozoi o ovociti) è un'opzione che andrebbe discussa prima di iniziare la terapia."
+  - question: "I minori possono prendere ormoni in Italia?"
+    answer: "In Italia, la terapia ormonale di affermazione di genere può essere prescritta a minori tra i 16 e i 18 anni, con il consenso dei genitori o tutori legali e l'approvazione di un team multidisciplinare (endocrinologo, psicologo, neuropsichiatra infantile). È necessaria l'autorizzazione AIFA per l'uso dei farmaci in questa fascia di età. Non è una procedura di routine: ogni caso viene valutato individualmente, seguendo protocolli specifici. Prima dei 16 anni, l'unica opzione disponibile è la sospensione della pubertà con agonisti del GnRH, anch'essa soggetta a valutazione multidisciplinare rigorosa."
 changelog:
   - date: "2026-03-02"
     changes:
@@ -395,6 +407,69 @@ Per chi si trova nella situazione di automedicarsi, le seguenti indicazioni poss
 - **Cercare comunque un medico:** anche se si è già in automedicazione, è possibile rivolgersi a un medico (generalista o endocrinologo) comunicando apertamente la situazione. Molti professionisti preferiranno prendere in carico la persona piuttosto che lasciarla senza supervisione.
 
 L'obiettivo non è normalizzare l'automedicazione, ma riconoscere che le barriere all'accesso alla terapia ormonale regolare sono una delle cause principali del fenomeno [15]. Ridurre le barriere è la strategia più efficace per ridurre l'automedicazione.
+
+## Rischi e monitoraggio: cosa dice la scienza
+
+La terapia ormonale, come ogni trattamento farmacologico a lungo termine, comporta rischi specifici che vanno conosciuti, monitorati e gestiti. Minimizzarli sarebbe disonesto; ingigantirli sarebbe altrettanto scorretto. Questa sezione li affronta uno per uno, con i dati della letteratura scientifica.
+
+### Rischi cardiovascolari
+
+Il rischio principale associato alla terapia estrogenica è il tromboembolismo venoso (TEV), che include trombosi venosa profonda ed embolia polmonare. Questo rischio è dose-dipendente e fortemente influenzato dalla via di somministrazione: gli estrogeni orali aumentano la produzione epatica di fattori della coagulazione, mentre la via transdermica (cerotti, gel) bypassa il fegato e non comporta un aumento significativo del rischio tromboembolico [5]. Per le persone con fattori di rischio (età superiore ai 40 anni, fumo, obesità, storia personale o familiare di trombosi), la via transdermica è fortemente raccomandata [1].
+
+Per la terapia con testosterone, il profilo cardiovascolare è diverso: il testosterone può modificare il profilo lipidico (riduzione dell'HDL, aumento dell'LDL) e aumentare la viscosità del sangue per via della policitemia. Il monitoraggio regolare del profilo lipidico e dell'ematocrito è essenziale [3].
+
+### Rischi ematologici
+
+Il testosterone stimola l'eritropoiesi (produzione di globuli rossi). Un ematocrito superiore al 54% è considerato una soglia di allarme: a quel livello il sangue diventa più viscoso, aumentando il rischio di eventi trombotici [1]. La gestione prevede una riduzione del dosaggio o un aumento dell'intervallo tra le somministrazioni. In rari casi può essere necessario un salasso terapeutico. La policitemia è il rischio ematologico più comune della terapia con testosterone ed è interamente gestibile con il monitoraggio.
+
+### Impatto sulla fertilità
+
+La terapia ormonale può compromettere la fertilità, ma non in modo universale né sempre irreversibile. La terapia estrogenica riduce la produzione di spermatozoi (oligospermia fino ad azoospermia), un effetto che può essere parzialmente reversibile dopo la sospensione, anche se non vi sono garanzie. Il testosterone può sopprimere l'ovulazione, ma la letteratura riporta casi di gravidanze avvenute durante o dopo la terapia con testosterone [17]. Chi desidera mantenere la possibilità di avere figli biologici dovrebbe discutere la preservazione della fertilità prima di iniziare la terapia. Una trattazione dettagliata si trova nella sezione dedicata più avanti e nell'articolo sulla [fertilità delle persone trans](/wiki/fertilita-persone-trans).
+
+### Fegato
+
+Sia gli estrogeni che il testosterone possono influenzare la funzionalità epatica. Il ciproterone acetato, in particolare ad alte dosi, è stato associato a epatotossicità [7]. Per questo motivo, la funzionalità epatica (AST, ALT, GGT) fa parte del pannello standard di monitoraggio, con controlli ogni 3 mesi nel primo anno e ogni 6-12 mesi successivamente [1][3]. Nella grande maggioranza dei casi, le alterazioni epatiche sono lievi e reversibili con l'aggiustamento della terapia.
+
+### Densità ossea
+
+Gli ormoni sessuali sono fondamentali per il mantenimento della densità ossea. Una terapia ormonale adeguata, che mantenga i livelli ormonali nell'intervallo fisiologico, protegge le ossa. Il rischio di osteoporosi emerge quando i livelli ormonali sono insufficienti -- per esempio in caso di dosaggi troppo bassi, scarsa aderenza alla terapia o dopo una gonadectomia senza adeguata sostituzione ormonale [1]. La densitometria ossea (DEXA) è raccomandata per le persone con fattori di rischio aggiuntivi.
+
+### Effetti sulla salute mentale
+
+La letteratura scientifica è coerente nel documentare un effetto positivo della terapia ormonale sulla salute mentale delle persone trans. Lo studio di Tordoff et al. (2022) ha dimostrato che le persone transgender e non binarie che ricevono la terapia di affermazione di genere mostrano una riduzione significativa della depressione (riduzione del 60%) e della suicidalità nei 12 mesi successivi all'inizio del trattamento [16]. Questi dati si aggiungono a quelli di Colizzi et al. (2014), che avevano documentato una riduzione dei marcatori biologici di stress [9], e alla revisione sistematica di Aldridge et al. (2020) [10].
+
+Questo non significa che la terapia ormonale sia una soluzione a tutti i problemi di salute mentale. Le persone trans possono avere condizioni psicologiche preesistenti o concomitanti che richiedono un trattamento indipendente. Ma i dati sono chiari: per le persone con incongruenza di genere, la terapia ormonale riduce la sofferenza psicologica in modo misurabile e replicabile.
+
+### Supervisione medica vs. automedicazione
+
+Il fattore che più influenza la sicurezza della terapia ormonale non è il farmaco in sé, ma la qualità del monitoraggio. Con esami regolari e supervisione endocrinologica, i rischi descritti sopra sono gestibili e le complicanze gravi sono rare. Senza monitoraggio -- come nel caso dell'automedicazione -- gli stessi rischi diventano significativamente più pericolosi [15]. Un ematocrito elevato non rilevato, un'iperkaliemia da spironolattone non monitorata, o un dosaggio di ciproterone troppo alto possono avere conseguenze serie. La supervisione medica non è un lusso: è parte integrante della sicurezza del trattamento.
+
+## Fertilità e preservazione
+
+L'impatto della terapia ormonale sulla fertilità è una delle preoccupazioni più importanti per molte persone trans e per le loro famiglie. Affrontare questo tema in modo chiaro e completo è fondamentale, soprattutto perché la decisione sulla preservazione va presa idealmente prima di iniziare la terapia.
+
+### Terapia estrogenica e fertilità
+
+Gli estrogeni sopprimono l'asse ipotalamo-ipofisi-testicolo, riducendo progressivamente la produzione di spermatozoi. Con il proseguire della terapia, si può arrivare a oligospermia severa o azoospermia (assenza totale di spermatozoi nell'eiaculato). Questo effetto può essere parzialmente reversibile dopo la sospensione della terapia: alcuni studi riportano un recupero della spermatogenesi dopo mesi di interruzione, ma il recupero completo non è garantito, soprattutto dopo terapie prolungate [17]. L'orchiectomia rende la sterilità permanente.
+
+La crioconservazione degli spermatozoi è l'opzione di preservazione più accessibile e consolidata. Idealmente va effettuata prima dell'inizio della terapia ormonale, quando la qualità dello sperma è ottimale. Tuttavia, anche durante la terapia -- previa sospensione temporanea e valutazione seminologica -- può essere possibile raccogliere e conservare campioni utilizzabili.
+
+### Terapia con testosterone e fertilità
+
+Il testosterone sopprime l'ovulazione attraverso il feedback negativo sull'asse ipotalamo-ipofisi-ovaio. Tuttavia, questa soppressione non è sempre completa né permanente: la letteratura riporta gravidanze avvenute sia durante la terapia con testosterone sia dopo la sua sospensione [17]. Il testosterone non è un contraccettivo affidabile.
+
+La crioconservazione degli ovociti (congelamento degli ovuli) è l'opzione principale di preservazione per gli uomini trans. Richiede un ciclo di stimolazione ovarica con iniezioni quotidiane di gonadotropine per circa 10-14 giorni, seguito da un prelievo ovocitario in sedazione. Questo processo può essere emotivamente difficile per chi sperimenta disforia legata agli organi riproduttivi. Va discusso apertamente con il team medico.
+
+### Informazioni pratiche per l'Italia
+
+In Italia, la preservazione della fertilità è possibile presso i centri di Procreazione Medicalmente Assistita (PMA) presenti su tutto il territorio. Alcuni punti pratici:
+
+- **Crioconservazione degli spermatozoi:** procedura semplice (raccolta del campione tramite masturbazione), costo contenuto (100-300 euro per la raccolta, più un canone annuale di conservazione di circa 150-300 euro).
+- **Crioconservazione degli ovociti:** procedura più complessa e costosa (stimolazione ormonale + prelievo ovocitario), con costi che variano da 1.500 a 4.000 euro, più il canone annuale di conservazione.
+- **Accesso SSN:** la copertura da parte del SSN per la preservazione della fertilità nelle persone trans varia per regione. Alcune regioni la includono, altre no. È consigliabile informarsi presso il proprio centro di riferimento.
+- **Tempistica:** la preservazione va idealmente effettuata prima dell'inizio della terapia ormonale. Se la terapia è già in corso, una sospensione temporanea (almeno 3-6 mesi) può consentire un recupero sufficiente della funzione gonadica per procedere alla raccolta.
+
+La decisione sulla preservazione della fertilità è personale: non tutte le persone trans desiderano avere figli biologici, e non tutte hanno le risorse economiche o emotive per affrontare la procedura. L'importante è che la scelta sia informata e che venga offerta la possibilità di discuterne prima di iniziare la terapia [2][17].
 
 ## Conclusione
 
