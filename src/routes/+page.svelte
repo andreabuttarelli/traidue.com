@@ -96,7 +96,7 @@
 </script>
 
 <SEO
-	title="Scienza, storie e cultura trans"
+	title="Tra i Due — Scienza, storie e cultura trans"
 	description="Tra i Due è la risorsa in italiano più completa sulle tematiche trans: fatti scientifici, storie di successo e cultura. {data.stats.articles} articoli, {data.stats.sources} fonti peer-reviewed."
 	url="https://www.traidue.com"
 />

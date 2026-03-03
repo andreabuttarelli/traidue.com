@@ -6,7 +6,11 @@ description: "Storia della medicina transgender: da Magnus Hirschfeld a Harry Be
 category: "scienza"
 tags: ["storia", "medicina", "Hirschfeld", "WPATH", "chirurgia", "ormoni", "Harry Benjamin", "Christine Jorgensen", "pionieri"]
 date: "2026-02-20"
-updated: "2026-02-20"
+updated: "2026-03-02"
+changelog:
+  - date: "2026-03-02"
+    changes:
+      - "Riformulata lista dei Paesi pionieri nella sezione Legge 164/1982: rimossi Danimarca (1929) e Cile (1974), dati storicamente dubbi"
 image: "/images/wiki/storia-medicina-trans.webp"
 sources:
   - title: "The Forgotten History of the World's First Trans Clinic"
@@ -161,7 +165,7 @@ L'Italia ha una propria storia nella medicina transgender, meno conosciuta ma si
 
 ### La Legge 164/1982
 
-Il 14 aprile 1982, il Parlamento italiano approvo la Legge 164, che riconobbe il diritto alla rettificazione anagrafica del sesso [12]. L'Italia divenne il sesto Paese al mondo a dotarsi di una legislazione specifica, dopo Danimarca (1929), Svezia (1972), Cile (1974), Norvegia (1979) e Germania Ovest (1980). La legge fu il risultato di anni di attivismo da parte del movimento trans italiano, particolarmente attivo dalla fine degli anni Settanta [12].
+Il 14 aprile 1982, il Parlamento italiano approvo la Legge 164, che riconobbe il diritto alla rettificazione anagrafica del sesso [12]. L'Italia fu tra i primi Paesi al mondo a dotarsi di una legislazione specifica, dopo Svezia (1972), Germania Ovest (1980) e alcuni altri stati che avevano introdotto normative simili negli anni precedenti. La legge fu il risultato di anni di attivismo da parte del movimento trans italiano, particolarmente attivo dalla fine degli anni Settanta [12].
 
 Il percorso previsto dalla legge era strutturato in due fasi: prima l'autorizzazione del tribunale per l'intervento chirurgico, poi -- dopo l'operazione -- la richiesta di rettifica anagrafica. La chirurgia era dunque un requisito obbligatorio per il riconoscimento legale della propria identita [12].
 

@@ -6,7 +6,7 @@ description: "Rapporti sessuali con un uomo trans: anatomia, effetti del testost
 category: "scienza"
 tags: ["sessualità", "uomini trans", "rapporti sessuali", "educazione sessuale", "testosterone", "piacere", "intimità"]
 date: "2026-02-20"
-updated: "2026-02-20"
+updated: "2026-03-02"
 image: "/images/wiki/rapporti-sessuali-uomo-trans.webp"
 sources:
   - title: "Testosterone use and sexual function among transgender men and gender diverse people assigned female at birth"
@@ -57,6 +57,10 @@ faq:
     answer: "Sì, in diversi modi. Un uomo trans può avere rapporti vaginali ricettivi, usare protesi sessuali, oppure -- se ha effettuato la metoidioplastica o la falloplastica -- utilizzare il neopene per la penetrazione."
   - question: "Serve il preservativo nei rapporti con un uomo trans?"
     answer: "Sì, come in qualsiasi rapporto sessuale. Il preservativo protegge dalle infezioni sessualmente trasmissibili. È particolarmente importante durante i rapporti vaginali, poiché il testosterone assottiglia le pareti vaginali aumentando il rischio di micro-lesioni."
+changelog:
+  - date: "2026-03-02"
+    changes:
+      - "Corretto range crescita clitoridea: '4-5 cm' portato a '2-5 cm' per coerenza con la letteratura clinica"
 related:
   - sessualita-persone-trans
   - corpo-cambia-dopo-ormoni
@@ -72,7 +76,7 @@ Il corpo degli uomini trans è vario quanto quello di qualsiasi altra persona. L
 
 ### Gli effetti del testosterone sull'anatomia genitale
 
-Il testosterone produce cambiamenti significativi a livello genitale. L'effetto più rilevante per la sessualità è la crescita del clitoride, clinicamente nota come clitoromegalia. Secondo lo studio di Grimstad et al. (2021), pubblicato su Andrology, il testosterone stimola il tessuto clitorideo -- che è composto da tessuto erettile analogo a quello penieno -- attraverso i recettori androgenici presenti in alta densità nell'area genitale [2]. L'effetto è una crescita che può raggiungere i 4-5 cm nella maggior parte dei casi, con il clitoride che assume progressivamente un aspetto e un comportamento simili a quelli di un piccolo pene: diventa più prominente, si erige durante l'eccitazione e acquisisce una sensibilità aumentata [2].
+Il testosterone produce cambiamenti significativi a livello genitale. L'effetto più rilevante per la sessualità è la crescita del clitoride, clinicamente nota come clitoromegalia. Secondo lo studio di Grimstad et al. (2021), pubblicato su Andrology, il testosterone stimola il tessuto clitorideo -- che è composto da tessuto erettile analogo a quello penieno -- attraverso i recettori androgenici presenti in alta densità nell'area genitale [2]. L'effetto è una crescita che può raggiungere i 2-5 cm, con il clitoride che assume progressivamente un aspetto e un comportamento simili a quelli di un piccolo pene: diventa più prominente, si erige durante l'eccitazione e acquisisce una sensibilità aumentata [2].
 
 Questo cambiamento -- spesso chiamato "bottom growth" dalla comunità transmasculine -- è uno degli effetti più precoci della terapia ormonale. I primi segnali (formicolio, sensibilità aumentata, lieve indolenzimento) compaiono già nelle prime settimane. La crescita più significativa avviene nei primi 6-12 mesi e raggiunge il massimo entro 1-2 anni. È un cambiamento irreversibile o quasi: anche interrompendo il testosterone, le dimensioni si riducono solo in minima parte.
 

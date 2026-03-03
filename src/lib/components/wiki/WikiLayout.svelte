@@ -13,6 +13,7 @@
 		image,
 		sources = [],
 		media = [],
+		changelog = [],
 		related = [],
 		children
 	} = $props();
@@ -337,6 +338,34 @@
 					</li>
 				{/each}
 			</ul>
+		</div>
+	{/if}
+
+	{#if changelog.length > 0}
+		<div class="mt-12 pt-8 border-t border-border">
+			<details class="group">
+				<summary class="flex items-center gap-2 cursor-pointer text-sm text-muted hover:text-primary transition select-none list-none [&::-webkit-details-marker]:hidden">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 shrink-0">
+						<path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1ZM5.404 4.343a.75.75 0 0 0 0 1.06L6.94 6.94 5.404 8.475a.75.75 0 1 0 1.06 1.06l2.122-2.12a.75.75 0 0 0 0-1.062L6.464 4.343a.75.75 0 0 0-1.06 0Z" clip-rule="evenodd" />
+					</svg>
+					<span>Cronologia modifiche ({changelog.length})</span>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-3 h-3 transition-transform group-open:rotate-90">
+						<path fill-rule="evenodd" d="M6.22 4.22a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06l-3.25 3.25a.75.75 0 0 1-1.06-1.06L8.94 8 6.22 5.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+					</svg>
+				</summary>
+				<div class="mt-3 space-y-3 pl-6">
+					{#each changelog as entry}
+						<div>
+							<time class="text-xs font-medium text-muted">{new Date(entry.date).toLocaleDateString('it-IT', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
+							<ul class="mt-1 space-y-0.5">
+								{#each entry.changes as change}
+									<li class="text-sm text-muted">&mdash; {change}</li>
+								{/each}
+							</ul>
+						</div>
+					{/each}
+				</div>
+			</details>
 		</div>
 	{/if}
 

@@ -24,7 +24,7 @@
 </script>
 
 <svelte:head>
-	<title>{title} | Tra i Due</title>
+	<title>{title}</title>
 	<meta name="description" content={description} />
 	{#if noindex}
 		<meta name="robots" content="noindex, follow" />

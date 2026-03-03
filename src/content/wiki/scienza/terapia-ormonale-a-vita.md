@@ -6,7 +6,11 @@ description: "La terapia ormonale transgender è a vita? Rischi a lungo termine,
 category: "scienza"
 tags: ["terapia ormonale", "HRT", "durata", "lungo termine", "sicurezza", "gestione", "rischi", "effetti collaterali"]
 date: "2026-02-19"
-updated: "2026-02-19"
+updated: "2026-03-02"
+changelog:
+  - date: "2026-03-02"
+    changes:
+      - "Aggiunta fonte Getahun et al. (2018) sugli eventi cardiovascolari, citata nel testo ma assente dalle fonti"
 image: "/images/wiki/terapia-ormonale-a-vita.webp"
 sources:
   - title: "Endocrine Treatment of Gender-Dysphoric/Gender-Incongruent Persons: An Endocrine Society Clinical Practice Guideline"
@@ -45,6 +49,9 @@ sources:
   - title: "Guidelines for the Primary and Gender-Affirming Care of Transgender and Gender Nonbinary People (UCSF)"
     url: "https://transcare.ucsf.edu/guidelines"
     year: 2016
+  - title: "Cross-sex Hormones and Acute Cardiovascular Events in Transgender Persons (Getahun et al.)"
+    url: "https://pubmed.ncbi.nlm.nih.gov/29776375/"
+    year: 2018
 faq:
   - question: "La terapia ormonale è per sempre?"
     answer: "Nella maggior parte dei casi sì, specialmente dopo la gonadectomia (rimozione di ovaie o testicoli). Senza gonadi, il corpo non produce ormoni sessuali sufficienti e la terapia sostitutiva è necessaria per la salute ossea, cardiovascolare e metabolica."
@@ -137,7 +144,7 @@ Il rischio cardiovascolare è l'area che richiede maggiore attenzione. Una meta-
 
 Per gli uomini trans in terapia con testosterone, il profilo di rischio cardiovascolare non appare significativamente diverso da quello degli uomini cisgender [11]. Il monitoraggio dell'ematocrito è importante, poiché il testosterone stimola l'eritropoiesi e un ematocrito elevato aumenta la viscosità del sangue.
 
-Getahun et al. (2018) e altri hanno sottolineato come i fattori di rischio modificabili (fumo, obesità, sedentarietà) abbiano un impatto molto maggiore sul rischio cardiovascolare rispetto alla terapia ormonale in sé.
+Getahun et al. (2018) e altri hanno sottolineato come i fattori di rischio modificabili (fumo, obesità, sedentarietà) abbiano un impatto molto maggiore sul rischio cardiovascolare rispetto alla terapia ormonale in sé [13].
 
 ### Rischio oncologico
 

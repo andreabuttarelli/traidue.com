@@ -6,7 +6,7 @@ description: "Falloplastica risultati: aspetto, sensibilità e soddisfazione. Me
 category: "scienza"
 tags: ["falloplastica", "metoidioplastica", "risultati", "chirurgia", "uomini trans", "lembo radiale", "complicanze", "soddisfazione"]
 date: "2026-02-20"
-updated: "2026-02-20"
+updated: "2026-03-02"
 image: "/images/wiki/falloplastica-risultati.webp"
 sources:
   - title: "Gender-Affirming Phalloplasty: A Comprehensive Review"
@@ -52,11 +52,15 @@ faq:
   - question: "Qual e la differenza principale tra falloplastica e metoidioplastica?"
     answer: "La metoidioplastica utilizza il clitoride ingrandito dal testosterone per creare un microfallo di 5-9 cm, preservando al 100% la sensibilita erogena. La falloplastica costruisce un neofallo di dimensioni standard (12-16 cm) usando tessuto prelevato dall'avambraccio o dalla coscia, con un percorso chirurgico piu lungo e complesso. La scelta dipende dalle priorita individuali: sensibilita e semplicita versus dimensioni e possibilita di penetrazione."
   - question: "Un uomo trans puo avere un orgasmo dopo la falloplastica?"
-    answer: "Si. Le revisioni sistematiche indicano che circa il 50% dei pazienti riporta la capacita di raggiungere l'orgasmo dopo falloplastica con lembo radiale. Dopo metoidioplastica la percentuale e piu alta, prossima al 100%, perche il tessuto clitorideo nativo mantiene intatta la sensibilita erogena."
+    answer: "Si. La revisione piu ampia indica che circa il 61% dei pazienti con protesi erettile raggiunge l'orgasmo dopo falloplastica con lembo radiale. Dopo metoidioplastica la percentuale e piu alta, prossima al 100%, perche il tessuto clitorideo nativo mantiene intatta la sensibilita erogena."
   - question: "Quali sono le complicanze piu comuni della falloplastica?"
     answer: "Le complicanze uretrali sono le piu frequenti. Le fistole uretrocutanee si verificano nel 17-40% dei casi, le stenosi uretrali nel 21-51%. Molte fistole si risolvono spontaneamente, ma una parte richiede revisione chirurgica. I centri con maggiore esperienza riportano tassi di complicanze significativamente piu bassi."
   - question: "Come funziona l'erezione dopo la falloplastica?"
     answer: "Il neofallo non possiede tessuto erettile proprio, quindi per ottenere la rigidita necessaria alla penetrazione si inserisce una protesi erettile in una fase chirurgica successiva. I dispositivi piu comuni sono le protesi semirigide (malleabili) e quelle gonfiabili. Circa il 77% dei pazienti con protesi riferisce la capacita di avere rapporti penetrativi, con una soddisfazione complessiva dell'88%."
+changelog:
+  - date: "2026-03-02"
+    changes:
+      - "Armonizzato dato orgasmo nella FAQ (50% portato a 61%) per coerenza con il dato nel testo, basato sulla casistica di 104 pazienti [1]"
 related: ["chirurgia-affermazione-di-genere", "corpo-cambia-dopo-ormoni", "sessualita-persone-trans"]
 ---
 

@@ -6,7 +6,7 @@ description: "Terapia psicologica per persone trans: terapia affermativa, percor
 category: "scienza"
 tags: ["terapia", "psicologia", "supporto", "salute mentale", "affermazione di genere", "ONIG", "WPATH", "terapeuta", "SSN", "terapia affermativa"]
 date: "2026-02-21"
-updated: "2026-02-21"
+updated: "2026-03-02"
 image: "/images/wiki/terapia-psicologica-trans.webp"
 sources:
   - title: "Guidelines for Psychological Practice With Transgender and Gender Nonconforming People (APA)"
@@ -54,6 +54,9 @@ sources:
   - title: "Systematic Review of Prospective Adult Mental Health Outcomes Following Affirmative Interventions for Gender Dysphoria"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12312132/"
     year: 2024
+  - title: "Ensuring Comprehensive Care and Support for Transgender and Gender-Diverse Children and Adolescents (AAP)"
+    url: "https://publications.aap.org/pediatrics/article/142/4/e20182162/37381/Ensuring-Comprehensive-Care-and-Support-for"
+    year: 2018
 faq:
   - question: "Serve lo psicologo per iniziare la transizione in Italia?"
     answer: "I protocolli italiani coordinati dall'ONIG prevedono generalmente un percorso di valutazione e supporto psicologico, della durata minima di sei mesi. Questo non ha lo scopo di 'autorizzare' la transizione, ma di accompagnare la persona nell'esplorazione e nella preparazione alle scelte successive. Per la terapia ormonale e la chirurgia vengono richieste relazioni psicologiche specifiche."
@@ -63,6 +66,10 @@ faq:
     answer: "La terapia affermativa supporta la persona nell'esplorazione e nell'espressione della propria identita di genere, riconoscendola come una variante naturale dell'esperienza umana. La terapia di conversione tenta di modificare l'identita di genere per allinearla al sesso assegnato alla nascita. L'APA, la WPATH e l'OMS condannano le terapie di conversione come dannose e prive di basi scientifiche."
   - question: "Quanto costa la terapia psicologica per persone trans in Italia?"
     answer: "Il supporto psicologico offerto dai centri pubblici ONIG e dalle ASL e gratuito o prevede il pagamento del ticket. In ambito privato, le sedute costano generalmente tra 50 e 100 euro ciascuna. Alcune associazioni LGBTQ+ e consultori offrono sportelli psicologici gratuiti o a tariffa ridotta. Il bonus psicologo, quando disponibile, puo coprire parte dei costi."
+changelog:
+  - date: "2026-03-02"
+    changes:
+      - "Aggiunta fonte AAP 2018 (Ensuring Comprehensive Care for Transgender Youth) al frontmatter"
 related:
   - salute-mentale-persone-trans
   - iniziare-transizione
@@ -218,7 +225,7 @@ Il [coming out](/wiki/coming-out-trans) e un processo, non un evento singolo. La
 
 ### Terapia per giovani trans
 
-La terapia per adolescenti e giovani adulti trans ha caratteristiche specifiche riconosciute nei WPATH SOC-8 [4] e nelle linee guida dell'American Academy of Pediatrics (2018). I temi centrali includono:
+La terapia per adolescenti e giovani adulti trans ha caratteristiche specifiche riconosciute nei WPATH SOC-8 [4] e nelle linee guida dell'American Academy of Pediatrics (2018) [15]. I temi centrali includono:
 
 - **Esplorazione dell'identita di genere** in una fase di sviluppo in cui molti aspetti dell'identita sono in evoluzione
 - **Gestione delle dinamiche scolastiche**: bullismo, uso del nome e dei pronomi, spazi sicuri

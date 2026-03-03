@@ -6,7 +6,11 @@ description: "Studi recenti sull'identità di genere: le ricerche peer-reviewed 
 category: "scienza"
 tags: ["ricerca", "neuroscienze", "studi recenti", "identità di genere", "2024", "2025", "peer-reviewed"]
 date: "2026-02-18"
-updated: "2026-02-18"
+updated: "2026-03-02"
+changelog:
+  - date: "2026-03-02"
+    changes:
+      - "Corretto link fonte [11] Cass Review: da Wikipedia al sito ufficiale NHS"
 image: "/images/wiki/ricerche-recenti-identita-genere.webp"
 sources:
   - title: "ENIGMA Transgender Persons Working Group — Mega-Analytic Findings"
@@ -40,7 +44,7 @@ sources:
     url: "https://pubmed.ncbi.nlm.nih.gov/39855724/"
     year: 2025
   - title: "The Cass Review — Final Report"
-    url: "https://en.wikipedia.org/wiki/Cass_Review"
+    url: "https://cass.independent-review.uk/home/publications/final-report/"
     year: 2024
   - title: "Biological and psychosocial evidence in the Cass Review: A critical commentary"
     url: "https://www.tandfonline.com/doi/full/10.1080/26895269.2024.2362304"

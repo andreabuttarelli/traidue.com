@@ -6,7 +6,11 @@ description: "Il sesso biologico è uno spettro? Oltre il binarismo XX e XY: var
 category: "scienza"
 tags: ["sesso biologico", "biologia", "intersex", "cromosomi", "ormoni", "spettro", "variazioni"]
 date: "2026-02-18"
-updated: "2026-02-18"
+updated: "2026-03-02"
+changelog:
+  - date: "2026-03-02"
+    changes:
+      - "Sostituito 'sesso neurologico' con 'correlati neurobiologici': il termine originale non e una categoria scientifica standard"
 image: "/images/wiki/sesso-biologico-oltre-il-binarismo.webp"
 sources:
   - title: "Sex redefined: the idea of 2 sexes is overly simplistic"
@@ -59,7 +63,7 @@ Quando si parla di "sesso biologico" si fa spesso riferimento a un concetto unit
 - **Sesso ormonale**: i livelli di estrogeni e testosterone circolanti
 - **Sesso anatomico**: i genitali interni ed esterni
 - **Caratteri sessuali secondari**: seno, distribuzione del grasso, peluria, voce
-- **Sesso neurologico**: le caratteristiche strutturali e funzionali del cervello
+- **Correlati neurobiologici**: le caratteristiche strutturali e funzionali del cervello associate al sesso
 
 Come evidenziato da un articolo su Nature nel 2015, queste componenti non sono sempre allineate, e il confine tra "maschio" e "femmina" è meno netto di quanto si assuma comunemente [1].
 

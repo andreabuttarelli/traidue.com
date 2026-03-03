@@ -6,7 +6,7 @@ description: "Si nasce trans? Le basi biologiche dell'identità di genere spiega
 category: "scienza"
 tags: ["biologia", "neuroscienze", "genetica", "identità di genere", "cervello", "epigenetica", "gemelli", "neuroimaging", "si nasce trans"]
 date: "2026-02-18"
-updated: "2026-02-18"
+updated: "2026-03-02"
 image: "/images/wiki/basi-biologiche-identita-di-genere.webp"
 sources:
   - title: "The Biological Contributions to Gender Identity and Gender Diversity: Bringing Data to the Table"
@@ -51,6 +51,10 @@ sources:
   - title: "Using twin data to examine heritable and intrauterine hormonal influences on transgender and gender diverse identities"
     url: "https://www.nature.com/articles/s41598-025-06265-6"
     year: 2025
+changelog:
+  - date: "2026-03-02"
+    changes:
+      - "Aggiunta nota sulla controversia della stima 1,7% intersex (Fausto-Sterling vs Sax)"
 related: ["identita-di-genere"]
 ---
 
@@ -70,7 +74,7 @@ Il modello scolastico che associa il sesso biologico a due sole configurazioni c
 
 Le **differenze dello sviluppo sessuale** (DSD, dall'inglese *Differences of Sex Development*), comunemente indicate anche con il termine **[intersex](/wiki/sesso-biologico-oltre-il-binarismo)**, comprendono un'ampia gamma di condizioni. La sindrome di Klinefelter (47,XXY) interessa circa 1 persona su 600 assegnata maschio alla nascita e comporta una configurazione con un cromosoma X aggiuntivo. La sindrome di Turner (45,X), in cui manca uno dei due cromosomi sessuali, riguarda circa 1 su 2.500 persone assegnate femmina alla nascita. Esistono poi mosaicismi (45,X/46,XY), chimere (46,XX/46,XY) e altre combinazioni meno frequenti.
 
-Secondo le stime più citate nella letteratura scientifica, circa l'1,7% della popolazione nasce con caratteristiche che non rientrano nelle definizioni convenzionali di "maschio" o "femmina", anche se molte di queste variazioni non sono visibili alla nascita e vengono scoperte solo in seguito.
+Secondo le stime più citate nella letteratura scientifica (Fausto-Sterling, 2000), circa l'1,7% della popolazione nasce con caratteristiche che non rientrano nelle definizioni convenzionali di "maschio" o "femmina", anche se molte di queste variazioni non sono visibili alla nascita e vengono scoperte solo in seguito. Questa stima è tuttavia discussa: Sax (2002) ha proposto una cifra più conservativa dello 0,018% limitandosi ai casi con genitali ambigui alla nascita, mentre stime intermedie si collocano intorno allo 0,5-1%. La forbice dipende in larga misura da quali condizioni vengono incluse nella definizione di "intersex".
 
 ### Implicazioni per l'identità di genere
 

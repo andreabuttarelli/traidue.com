@@ -6,7 +6,11 @@ description: "Vaginoplastica transgender: come funziona la procedura, tempi di r
 category: "scienza"
 tags: ["vaginoplastica", "chirurgia", "donne trans", "transizione", "GRS", "procedura", "recupero", "dilatazione", "lembo peno-scrotale", "colonvaginoplastica"]
 date: "2026-02-19"
-updated: "2026-02-19"
+updated: "2026-03-02"
+changelog:
+  - date: "2026-03-02"
+    changes:
+      - "Aggiornata FAQ sulla copertura SSN: rimosso riferimento all'autorizzazione del tribunale, non piu necessaria dopo la sentenza 143/2024"
 image: "/images/wiki/vaginoplastica-come-funziona.webp"
 sources:
   - title: "Standards of Care for the Health of Transgender and Gender Diverse People, Version 8 (WPATH SOC-8)"
@@ -64,7 +68,7 @@ faq:
   - question: "Quali sono i rischi della vaginoplastica?"
     answer: "Come ogni intervento chirurgico, i rischi includono infezioni, sanguinamento e complicazioni anestesiologiche. Rischi specifici: stenosi vaginale, fistole, granulazione. I centri specializzati riportano tassi di complicanze sempre piu bassi."
   - question: "Si puo fare la vaginoplastica in Italia?"
-    answer: "Si. Diversi centri italiani eseguono vaginoplastiche, tra cui ospedali pubblici. L'intervento e coperto dal SSN dopo l'autorizzazione del tribunale per la rettificazione di genere."
+    answer: "Si. Diversi centri italiani eseguono vaginoplastiche, tra cui ospedali pubblici. L'intervento e coperto dal SSN. Dal 2024, grazie alla sentenza n. 143 della Corte Costituzionale, non e piu necessaria l'autorizzazione del tribunale."
 related:
   - chirurgia-affermazione-di-genere
   - transizione-medica-cosa-cambia

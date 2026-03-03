@@ -6,7 +6,7 @@ description: "Come iniziare la terapia ormonale transgender (TOS) in Italia: far
 category: "scienza"
 tags: ["terapia ormonale", "HRT", "GAHT", "estrogeni", "testosterone", "anti-androgeni", "dosaggi", "guida", "Italia", "TOS", "estradiolo", "SSN", "gratuita", "AIFA", "come iniziare"]
 date: "2026-02-21"
-updated: "2026-02-21"
+updated: "2026-03-02"
 image: "/images/wiki/terapia-ormonale-guida.webp"
 sources:
   - title: "Endocrine Treatment of Gender-Dysphoric/Gender-Incongruent Persons: An Endocrine Society Clinical Practice Guideline (Hembree et al.)"
@@ -65,6 +65,10 @@ faq:
     answer: "I principali sono: livelli di estradiolo e testosterone, emocromo completo, funzionalità epatica, profilo lipidico, glicemia. Per le donne trans anche prolattina e potassio (se si usa spironolattone). Per gli uomini trans, particolare attenzione all'ematocrito."
   - question: "La terapia ormonale a basso dosaggio è un'opzione per le persone non binarie?"
     answer: "Sì. Le linee guida WPATH SOC-8 riconoscono esplicitamente che alcune persone non binarie possono desiderare una mascolinizzazione o femminilizzazione parziale. I protocolli a basso dosaggio o a durata limitata sono opzioni valide, da concordare con l'endocrinologo."
+changelog:
+  - date: "2026-03-02"
+    changes:
+      - "Precisato riferimento OMS: l'OMS ha depatologizzato l'incongruenza di genere (ICD-11) ma non pubblica linee guida cliniche specifiche sulla terapia ormonale"
 related:
   - corpo-cambia-dopo-ormoni
   - terapia-ormonale-a-vita
@@ -85,7 +89,7 @@ La terapia ormonale non crea qualcosa di artificiale. Induce gli stessi cambiame
 
 I dati scientifici sulla sua efficacia sono solidi. Una revisione sistematica di Aldridge et al. (2020) ha confermato che la terapia ormonale è associata a una riduzione significativa della depressione e dell'ansia nelle persone trans [10]. Colizzi et al. (2014) hanno dimostrato una riduzione dei livelli di cortisolo e dei marcatori di stress psicobiologico dopo 12 mesi di trattamento [9]. Questi benefici non sono puramente soggettivi: sono misurabili e replicabili.
 
-La terapia ormonale è raccomandata da tutte le principali organizzazioni mediche internazionali -- Endocrine Society, WPATH, APA, OMS -- come trattamento sicuro ed efficace per le persone con incongruenza di genere che la desiderano.
+La terapia ormonale è raccomandata da tutte le principali organizzazioni mediche internazionali -- Endocrine Society, WPATH e APA -- come trattamento sicuro ed efficace per le persone con incongruenza di genere che la desiderano. L'OMS, dal canto suo, ha depatologizzato l'incongruenza di genere con l'ICD-11 (2022), pur non pubblicando linee guida cliniche specifiche sulla terapia ormonale.
 
 ## Terapia femminilizzante (donne trans)
 

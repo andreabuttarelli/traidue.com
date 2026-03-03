@@ -6,7 +6,11 @@ description: "Rapporti sessuali con una donna trans: guida scientifica su anatom
 category: "scienza"
 tags: ["sessualità", "donne trans", "rapporti sessuali", "educazione sessuale", "piacere", "intimità", "comunicazione"]
 date: "2026-02-20"
-updated: "2026-02-20"
+updated: "2026-03-02"
+changelog:
+  - date: "2026-03-02"
+    changes:
+      - "Corretta attribuzione anno fonte [5]: 2020 era errato, lo studio di Jiang et al. e del 2023"
 image: "/images/wiki/rapporti-sessuali-donna-trans.webp"
 sources:
   - title: "Standards of Care for the Health of Transgender and Gender Diverse People, Version 8 (WPATH SOC-8)"
@@ -104,7 +108,7 @@ Lo studio ENIGI del 2020 e i dati raccolti dal UCSF Gender Affirming Health Prog
 - **Riduzione delle erezioni spontanee**: già nei primi 3-6 mesi di terapia estrogenica, le erezioni spontanee e notturne diminuiscono significativamente o scompaiono del tutto
 - **Cambiamento del desiderio sessuale**: la libido può calare nelle prime settimane, ma dopo i primi tre anni tende a risalire a livelli superiori al basale per quanto riguarda il desiderio di coppia [2]
 - **Piacere più diffuso**: molte donne trans in terapia ormonale descrivono il piacere come meno concentrato sui genitali e più distribuito sul corpo
-- **Orgasmi qualitativamente diversi**: uno studio del 2020 ha documentato che il 71% delle donne trans senza chirurgia genitale riporta un aumento della soddisfazione sessuale complessiva dopo in media 7,7 mesi di terapia ormonale, con orgasmi descritti come più lunghi e a picchi multipli [5]
+- **Orgasmi qualitativamente diversi**: uno studio del 2023 ha documentato che il 71% delle donne trans senza chirurgia genitale riporta un aumento della soddisfazione sessuale complessiva dopo in media 7,7 mesi di terapia ormonale, con orgasmi descritti come più lunghi e a picchi multipli [5]
 
 ### Nuove zone erogene
 

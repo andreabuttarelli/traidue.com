@@ -10,6 +10,7 @@ export interface WikiArticle {
 	sources: { title: string; url: string; year: number }[];
 	faq?: { question: string; answer: string }[];
 	media?: { type: string; title: string; url?: string; year?: number }[];
+	changelog?: { date: string; changes: string[] }[];
 	related: string[];
 }
 
