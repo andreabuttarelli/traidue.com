@@ -100,7 +100,7 @@ Keyword ad alto volume dove ProVita/GenerAzioneD dominano e la disinformazione �
 | triptorelina bambini trans | ALTA | quotidianosanita, garanteinfanzia | Stessa pagina |
 | triptorelina disforia genere pericoli | MEDIA | bioetica.governo, ProVita | Stessa pagina |
 | bloccanti pubertà reversibili | ALTA | quotidianosanita, GenerAzioneD | Stessa pagina — sezione dedicata |
-| Cass Review italia bloccanti | ALTA | ilpost, ilfoglio | **"Cass Review: cosa dice davvero"** |
+| Cass Review bloccanti | ALTA | ilpost, ilfoglio | **"Cass Review: cosa dice davvero"** |
 | UK vieta bloccanti pubertà | ALTA | ilpost | Sezione nell'articolo Cass Review |
 | bloccanti pubertà vietati italia 2025 | MEDIA | leggo, ilpost | Sezione aggiornamento legislativo |
 | Svezia Finlandia cambiano approccio trans | MEDIA | lanuovabq, ProVita | Sezione nell'articolo Cass Review |
@@ -234,7 +234,7 @@ Keyword ad alto volume dove ProVita/GenerAzioneD dominano e la disinformazione �
 | 2 | `ideologia-gender` | A | ~15 keyword "teoria/ideologia gender" | CRITICA |
 | 3 | `contagio-sociale-transgender` | C | ~12 keyword ROGD/contagio | CRITICA |
 | 4 | `detransizione` | E | ~10 keyword detransizione/pentimento | CRITICA |
-| 5 | `cass-review-italia` | D | ~8 keyword Cass Review/Nordic | CRITICA |
+| 5 | `cass-review` | D | ~8 keyword Cass Review/Nordic | CRITICA |
 | 6 | `gender-nelle-scuole` | F | ~12 keyword scuola/educazione | ALTA |
 | 7 | `trans-sport` | G | ~10 keyword sport/olimpiadi | ALTA |
 | 8 | `caso-careggi` | H | ~6 keyword Careggi | ALTA |
@@ -256,24 +256,23 @@ Keyword ad alto volume dove ProVita/GenerAzioneD dominano e la disinformazione �
 
 ---
 
-## Strategia SEO per battere ProVita
+## Strategia SEO
 
 ### 1. Struttura contenuto
-- **Titoli che intercettano la ricerca**: usare le stesse parole che cercano i genitori preoccupati ("mio figlio dice di essere trans", non "supporto familiare transgender")
+- **Titoli che intercettano la ricerca**: usare le stesse parole che cercano le persone ("mio figlio dice di essere trans", non "supporto familiare transgender")
 - **FAQ schema su ogni articolo**: Google premia le FAQ con featured snippet
-- **Lunghezza**: 2.500-3.500 parole — più lunghi di ProVita
+- **Lunghezza**: 2.500-3.500 parole
 - **Fonti verificate**: citare studi originali, non riassunti di terzi
 
 ### 2. Approccio editoriale
-- **Non attaccare ProVita direttamente**: scrivere contenuto migliore, non polemico
+- **Mai riferirsi ad altre piattaforme o organizzazioni**: facciamo il nostro contenuto e basta
 - **Tono empatico**: i genitori che cercano "mio figlio trans" hanno paura — validare l'emozione, offrire informazione
-- **Fact-checking gentile**: "Alcuni siti affermano X. I dati mostrano invece Y" — senza nomi
-- **Citare le stesse fonti che cita la destra, ma correttamente**: Cass Review, studi nordici, ROGD — spiegare cosa dicono davvero
+- **Basarsi sui dati**: presentare le evidenze scientifiche in modo chiaro e accessibile
+- **Niente polemiche**: l'obiettivo è informare, non litigare
 
 ### 3. Link building interno
 - Ogni nuovo articolo deve linkare a 3-5 articoli wiki esistenti
 - Creare un hub "Genitori" con link a tutte le guide
-- Creare un hub "Fact-checking" con link a tutti gli articoli di debunking
 
 ### 4. Frequenza pubblicazione
 - 2-3 articoli/settimana per i primi 2 mesi
@@ -282,9 +281,7 @@ Keyword ad alto volume dove ProVita/GenerAzioneD dominano e la disinformazione �
 
 ---
 
-## Fonti "armi segrete" da citare nei counter-articoli
-
-Queste sono le fonti che smontano le narrative di ProVita ma che ProVita non cita mai:
+## Fonti scientifiche chiave
 
 | Fonte | Cosa dice | Utile per |
 |-------|-----------|-----------|
@@ -297,6 +294,5 @@ Queste sono le fonti che smontano le narrative di ProVita ma che ProVita non cit
 | **Cass Review 2024 — testo completo** | Non dice "vietare i bloccanti", dice "servono studi migliori" | Cass Review |
 | **WPATH SOC8 (2022)** | Standard internazionali per cure trans | Tutti gli articoli medici |
 | **SIP (Società Italiana di Pediatria) 2024** | Supporta approccio clinico prudente ma non negante | Bloccanti, genitori |
-| **Studio Littman 2018/2019** | Metodologia criticata, campione reclutato su siti anti-trans | Debunking ROGD |
-| **Restar 2020** | Critica metodologica formale a ROGD | Debunking ROGD |
-| **Ashley 2020** | ROGD non è una diagnosi clinica riconosciuta | Debunking ROGD |
+| **Restar 2020** | Critica metodologica formale a ROGD | ROGD |
+| **Ashley 2020** | ROGD non è una diagnosi clinica riconosciuta | ROGD |

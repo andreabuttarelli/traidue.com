@@ -28,8 +28,12 @@ async function geminiGenerate(
 		return await withTimeout(genai.models.generateContent(options), GEMINI_TIMEOUT_MS, label);
 	} catch (err: unknown) {
 		const status = (err as { status?: number }).status;
-		if (status === 503 || status === 429) {
-			console.log(`[News] ${label} returned ${status}, retrying in ${retryDelay / 1000}s...`);
+		const isRetryable = status === 503 || status === 429;
+		const isTimeout = err instanceof Error && err.message.includes('Timeout');
+
+		if (isRetryable || isTimeout) {
+			const reason = isTimeout ? 'timeout' : `HTTP ${status}`;
+			console.log(`[News] ${label} failed (${reason}), retrying in ${retryDelay / 1000}s...`);
 			await new Promise((r) => setTimeout(r, retryDelay));
 			try {
 				return await withTimeout(
@@ -38,16 +42,12 @@ async function geminiGenerate(
 					`${label}-retry`
 				);
 			} catch (retryErr: unknown) {
-				const retryStatus = (retryErr as { status?: number }).status;
-				if (retryStatus === 503 || retryStatus === 429) {
-					console.log(`[News] Retry failed (${retryStatus}), falling back to ${FALLBACK_MODEL}`);
-					return await withTimeout(
-						genai.models.generateContent({ ...options, model: FALLBACK_MODEL }),
-						GEMINI_TIMEOUT_MS,
-						FALLBACK_MODEL
-					);
-				}
-				throw retryErr;
+				console.log(`[News] Retry failed, falling back to ${FALLBACK_MODEL}`);
+				return await withTimeout(
+					genai.models.generateContent({ ...options, model: FALLBACK_MODEL }),
+					GEMINI_TIMEOUT_MS,
+					FALLBACK_MODEL
+				);
 			}
 		}
 		throw err;
