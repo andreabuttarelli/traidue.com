@@ -87,6 +87,31 @@ const IMAGES_TO_GENERATE = [
 		slug: 'mio-figlio-trans',
 		prompt:
 			'An abstract painting about family embrace and unconditional love: warm protective forms cradling a smaller luminous shape, rich amber, deep blue and gentle rose tones blending together, a sense of safety and acceptance, thick expressive brushstrokes, oil paint texture'
+	},
+	{
+		slug: 'gender-nelle-scuole',
+		prompt:
+			'An abstract painting of a classroom scene reimagined: open books with pages flowing upward like birds, warm sunlight streaming through windows onto diverse geometric shapes representing students, soft yellows, warm oranges and calm blues, thick expressive brushstrokes, oil paint texture'
+	},
+	{
+		slug: 'caso-careggi',
+		prompt:
+			'An abstract painting of a hospital building with warm light inside contrasting with dark storm clouds gathering outside, a sense of sanctuary under pressure, terracotta, warm white and deep grey-blue tones, thick impasto brushstrokes, oil paint texture'
+	},
+	{
+		slug: 'espressione-genere-bambini',
+		prompt:
+			'An abstract painting of children playing freely: colorful organic shapes in motion suggesting joyful movement, scattered toys and flowers, bright rainbow pastels blending with warm gold sunlight, a sense of innocence and freedom, thick expressive brushstrokes, oil paint texture'
+	},
+	{
+		slug: 'ddl-zan',
+		prompt:
+			'An abstract painting about law and justice denied: a broken gavel or scales tilted to one side, torn paper forms suggesting legislation, somber deep blues and muted reds against warm amber, a sense of incompleteness, thick impasto brushstrokes, oil paint texture'
+	},
+	{
+		slug: 'chirurgia-minori-trans-italia',
+		prompt:
+			'An abstract painting about protection and boundaries: a gentle shield-like form over smaller figures, clear defined lines suggesting rules and safeguards, soft clinical whites with warm protective amber and teal accents, thick visible brushstrokes, oil paint texture'
 	}
 ];
 
