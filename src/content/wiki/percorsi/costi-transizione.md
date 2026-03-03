@@ -9,71 +9,75 @@ date: "2026-03-02"
 updated: "2026-03-02"
 image: "/images/wiki/costi-transizione.webp"
 sources:
-	- title: "Infotrans - Il trattamento ormonale di affermazione di genere"
-	  url: "https://www.infotrans.it/it-schede-11-trattamento_ormonale_transgender"
-	  year: 2024
-	- title: "Ass. Con-Te-Stare - Terapia ormonale sostitutiva gratuita per persone trans: facciamo chiarezza"
-	  url: "https://con-te-stare-transgender.it/terapia-ormonale-sostitutiva-gratuita-per-persone-trans-facciamo-chiarezza/"
-	  year: 2020
-	- title: "Osservatorio Diritti - Terapia ormonale transgender: in Italia diventa gratis"
-	  url: "https://www.osservatoriodiritti.it/2020/10/13/terapia-ormonale-transgender-cos-e-gratuita-italia-gratis/"
-	  year: 2020
-	- title: "SIAMS - Determina AIFA sulla terapia ormonale di affermazione di genere"
-	  url: "https://www.siams.info/determina-aifa-sulla-terapia-ormonale-di-affermazione-di-genere-per-le-persone-transgender/"
-	  year: 2020
-	- title: "Infotrans - Il procedimento di rettifica del genere in Italia"
-	  url: "https://www.infotrans.it/po-schede-39-rettifica_genere_italia"
-	  year: 2024
-	- title: "Blog Simiula - Quanto costa essere trans donna (MtF)"
-	  url: "https://blog.simiula.com/blog/2024/04/11/quanto-costa-essere-trans-donna-mtf-c-terzo-anno-dopo-rettifica-documenti/"
-	  year: 2024
-	- title: "GayPress - Essere trans in Italia: i costi eccessivi"
-	  url: "https://gaypress.it/quanto-costa-cambiare-sesso-italia/"
-	  year: 2024
-	- title: "Lo Sbuffo - I costi della transizione: quanto costa essere se stessi"
-	  url: "https://www.losbuffo.com/2021/06/10/i-costi-della-transizione-quanto-costa-essere-se-stessi/"
-	  year: 2021
-	- title: "Now Coming Out - Gratuito patrocinio 2025 per persone transgender"
-	  url: "https://nowcomingout.it/blog/cambio-sesso-e-genere-sui-documenti/gratuito-patrocinio-2025-persone-transgender/"
-	  year: 2025
-	- title: "Blog Simiula - Transizione: epilazione viso e corpo per donne transgender"
-	  url: "https://blog.simiula.com/blog/2022/08/07/transizione-epilazione-viso-e-corpo-per-donne-transgender/"
-	  year: 2022
-	- title: "Blog Simiula - Transizione: logopedia e voce transgender"
-	  url: "https://blog.simiula.com/blog/2022/08/06/transizione-logopedia-voce-transgender/"
-	  year: 2022
-	- title: "Ministero della Giustizia - Contributo unificato per giudizi di rettificazione"
-	  url: "https://www.giustizia.it/giustizia/it/mg_1_40_0.page?contentId=IGC449429"
-	  year: 2016
-	- title: "Dott.ssa Giulia Lo Russo - Creazione torace maschile"
-	  url: "https://giulialorusso.com/interventi/creazione-torace-maschile/"
-	  year: 2024
+  - title: "Infotrans - Il trattamento ormonale di affermazione di genere"
+    url: "https://www.infotrans.it/it-schede-11-trattamento_ormonale_transgender"
+    year: 2024
+  - title: "Ass. Con-Te-Stare - Terapia ormonale sostitutiva gratuita per persone trans: facciamo chiarezza"
+    url: "https://con-te-stare-transgender.it/terapia-ormonale-sostitutiva-gratuita-per-persone-trans-facciamo-chiarezza/"
+    year: 2020
+  - title: "Osservatorio Diritti - Terapia ormonale transgender: in Italia diventa gratis"
+    url: "https://www.osservatoriodiritti.it/2020/10/13/terapia-ormonale-transgender-cos-e-gratuita-italia-gratis/"
+    year: 2020
+  - title: "SIAMS - Determina AIFA sulla terapia ormonale di affermazione di genere"
+    url: "https://www.siams.info/determina-aifa-sulla-terapia-ormonale-di-affermazione-di-genere-per-le-persone-transgender/"
+    year: 2020
+  - title: "Infotrans - Il procedimento di rettifica del genere in Italia"
+    url: "https://www.infotrans.it/po-schede-39-rettifica_genere_italia"
+    year: 2024
+  - title: "Blog Simiula - Quanto costa essere trans donna (MtF)"
+    url: "https://blog.simiula.com/blog/2024/04/11/quanto-costa-essere-trans-donna-mtf-c-terzo-anno-dopo-rettifica-documenti/"
+    year: 2024
+  - title: "GayPress - Essere trans in Italia: i costi eccessivi"
+    url: "https://gaypress.it/quanto-costa-cambiare-sesso-italia/"
+    year: 2024
+  - title: "Lo Sbuffo - I costi della transizione: quanto costa essere se stessi"
+    url: "https://www.losbuffo.com/2021/06/10/i-costi-della-transizione-quanto-costa-essere-se-stessi/"
+    year: 2021
+  - title: "Now Coming Out - Gratuito patrocinio 2025 per persone transgender"
+    url: "https://nowcomingout.it/blog/cambio-sesso-e-genere-sui-documenti/gratuito-patrocinio-2025-persone-transgender/"
+    year: 2025
+  - title: "Blog Simiula - Transizione: epilazione viso e corpo per donne transgender"
+    url: "https://blog.simiula.com/blog/2022/08/07/transizione-epilazione-viso-e-corpo-per-donne-transgender/"
+    year: 2022
+  - title: "Blog Simiula - Transizione: logopedia e voce transgender"
+    url: "https://blog.simiula.com/blog/2022/08/06/transizione-logopedia-voce-transgender/"
+    year: 2022
+  - title: "Ministero della Giustizia - Contributo unificato per giudizi di rettificazione"
+    url: "https://www.giustizia.it/giustizia/it/mg_1_40_0.page?contentId=IGC449429"
+    year: 2016
+  - title: "Dott.ssa Giulia Lo Russo - Creazione torace maschile"
+    url: "https://giulialorusso.com/interventi/creazione-torace-maschile/"
+    year: 2024
 faq:
-	- question: "Quanto costa la terapia ormonale transgender in Italia?"
-	  answer: "Dal 2020, la terapia ormonale per la transizione di genere è erogabile a carico del SSN grazie alle determine AIFA n. 104272/2020 e n. 104273/2020. I farmaci sono dispensati dalle farmacie ospedaliere. Privatamente, i costi variano indicativamente tra 30 e 80 euro al mese, più le visite endocrinologiche."
-	- question: "La transizione di genere è gratuita in Italia?"
-	  answer: "Parzialmente. Il SSN copre la terapia ormonale, il percorso psicologico nei centri pubblici e la chirurgia. Restano a carico del paziente: ticket, eventuali visite private, spese legali per la rettificazione anagrafica e interventi estetici non coperti."
-	- question: "Quanto costa l'avvocato per la rettificazione anagrafica?"
-	  answer: "I costi legali variano indicativamente da 1.500 a 3.000 euro, comprensivi di contributo unificato e spese. È possibile accedere al gratuito patrocinio con un reddito personale fino a 13.659,64 euro annui."
-	- question: "Quanto costa un intervento chirurgico per la transizione?"
-	  answer: "Nel SSN gli interventi sono coperti con tempi di attesa variabili. Nel privato, i costi variano molto: una mastectomia FTM costa circa 7.000-8.000 euro, una vaginoplastica tra 15.000 e 22.000 euro."
+  - question: "Quanto costa la terapia ormonale transgender in Italia?"
+    answer: "Dal 2020, la terapia ormonale per la transizione di genere è erogabile a carico del SSN grazie alle determine AIFA n. 104272/2020 e n. 104273/2020. I farmaci sono dispensati dalle farmacie ospedaliere. Privatamente, i costi variano indicativamente tra 30 e 80 euro al mese, più le visite endocrinologiche."
+  - question: "La transizione di genere è gratuita in Italia?"
+    answer: "Parzialmente. Il SSN copre la terapia ormonale, il percorso psicologico nei centri pubblici e la chirurgia. Restano a carico del paziente: ticket, eventuali visite private, spese legali per la rettificazione anagrafica e interventi estetici non coperti."
+  - question: "Quanto costa l'avvocato per la rettificazione anagrafica?"
+    answer: "I costi legali variano indicativamente da 1.500 a 3.000 euro, comprensivi di contributo unificato e spese. È possibile accedere al gratuito patrocinio con un reddito personale fino a 13.659,64 euro annui."
+  - question: "Quanto costa un intervento chirurgico per la transizione?"
+    answer: "Nel SSN gli interventi sono coperti con tempi di attesa variabili. Nel privato, i costi variano molto: una mastectomia FTM costa circa 7.000-8.000 euro, una vaginoplastica tra 15.000 e 22.000 euro."
+changelog:
+  - date: "2026-03-02"
+    changes:
+      - "Corretti accenti mancanti in tutto l'articolo"
 related:
-	- iniziare-transizione
-	- terapia-ormonale-guida
-	- chirurgia-affermazione-di-genere
-	- cambio-documenti-trans
-	- centri-transgender-italia
+  - iniziare-transizione
+  - terapia-ormonale-guida
+  - chirurgia-affermazione-di-genere
+  - cambio-documenti-trans
+  - centri-transgender-italia
 ---
 
-Affrontare una transizione di genere in Italia comporta costi che variano enormemente a seconda delle scelte individuali, della regione di residenza e della possibilita di accedere al Servizio Sanitario Nazionale. Il SSN copre gran parte del percorso medico, dalla terapia ormonale alla chirurgia, ma permangono spese significative per chi sceglie il privato, per le procedure legali e per una serie di trattamenti complementari non inclusi nella copertura pubblica. Questa guida analizza nel dettaglio ogni voce di costo, distinguendo chiaramente tra cio che e gratuito tramite il SSN e cio che resta a carico della persona.
+Affrontare una transizione di genere in Italia comporta costi che variano enormemente a seconda delle scelte individuali, della regione di residenza e della possibilità di accedere al Servizio Sanitario Nazionale. Il SSN copre gran parte del percorso medico, dalla terapia ormonale alla chirurgia, ma permangono spese significative per chi sceglie il privato, per le procedure legali e per una serie di trattamenti complementari non inclusi nella copertura pubblica. Questa guida analizza nel dettaglio ogni voce di costo, distinguendo chiaramente tra ciò che è gratuito tramite il SSN e ciò che resta a carico della persona.
 
 ## Introduzione
 
-Una delle domande piu frequenti da parte di chi sta considerando un percorso di affermazione di genere e: quanto costa? La risposta non e semplice, perche i costi dipendono da molti fattori. Tuttavia, e possibile fare chiarezza su cosa copre il SSN e quali sono le spese prevedibili per ogni fase del percorso.
+Una delle domande più frequenti da parte di chi sta considerando un percorso di affermazione di genere è: quanto costa? La risposta non è semplice, perché i costi dipendono da molti fattori. Tuttavia, è possibile fare chiarezza su cosa copre il SSN e quali sono le spese prevedibili per ogni fase del percorso.
 
-In Italia, dal 2020, la situazione e migliorata significativamente grazie alle determine AIFA che hanno reso la terapia ormonale erogabile gratuitamente tramite il SSN [1][2][3]. La chirurgia di affermazione di genere e coperta dal servizio pubblico, anche se con tempi di attesa lunghi. Il percorso psicologico e disponibile nei centri pubblici. La rettificazione anagrafica, invece, comporta sempre costi legali, che possono essere azzerati tramite il gratuito patrocinio per chi ha redditi bassi [9].
+In Italia, dal 2020, la situazione è migliorata significativamente grazie alle determine AIFA che hanno reso la terapia ormonale erogabile gratuitamente tramite il SSN [1][2][3]. La chirurgia di affermazione di genere è coperta dal servizio pubblico, anche se con tempi di attesa lunghi. Il percorso psicologico è disponibile nei centri pubblici. La rettificazione anagrafica, invece, comporta sempre costi legali, che possono essere azzerati tramite il gratuito patrocinio per chi ha redditi bassi [9].
 
-Complessivamente, chi segue interamente il percorso pubblico puo affrontare la transizione con costi relativamente contenuti. Chi opta per il privato, invece, deve mettere in conto una spesa che secondo diverse fonti puo variare tra i 20.000 e i 40.000 euro complessivi [7].
+Complessivamente, chi segue interamente il percorso pubblico può affrontare la transizione con costi relativamente contenuti. Chi opta per il privato, invece, deve mettere in conto una spesa che secondo diverse fonti può variare tra i 20.000 e i 40.000 euro complessivi [7].
 
 ## Cosa copre il Servizio Sanitario Nazionale
 
@@ -103,7 +107,7 @@ Dal 1 ottobre 2020, i farmaci per la terapia ormonale di affermazione di genere 
 - **Determina n. 104272/2020** (23 settembre 2020): copre il testosterone e i suoi esteri per il processo di virilizzazione (percorsi FTM)
 - **Determina n. 104273/2020** (23 settembre 2020): copre estradiolo, estradiolo emiidrato, estradiolo valerato, ciproterone acetato, spironolattone, leuprolide acetato e triptorelina per il processo di femminilizzazione (percorsi MTF)
 
-I farmaci sono classificati in **Fascia H**, il che significa che vengono dispensati esclusivamente dalle farmacie ospedaliere, non dalle farmacie di comunita [2]. Per accedervi serve una diagnosi di disforia di genere o incongruenza di genere (secondo i criteri DSM-5 o ICD-11) formulata da un'equipe multidisciplinare e specialistica dedicata [1].
+I farmaci sono classificati in **Fascia H**, il che significa che vengono dispensati esclusivamente dalle farmacie ospedaliere, non dalle farmacie di comunità [2]. Per accedervi serve una diagnosi di disforia di genere o incongruenza di genere (secondo i criteri DSM-5 o ICD-11) formulata da un'équipe multidisciplinare e specialistica dedicata [1].
 
 La prescrizione deve essere effettuata tramite piano terapeutico da specialisti che operano in team multidisciplinari con comprovata esperienza [1][4].
 
@@ -113,7 +117,7 @@ Chi non riesce ad accedere ai centri pubblici o preferisce rivolgersi a un endoc
 
 - **Visita endocrinologica privata**: 100-200 euro a seduta
 - **Farmaci ormonali senza copertura SSN**: indicativamente 30-80 euro al mese
-- **Esami del sangue di monitoraggio**: 30-100 euro (coperti con ticket nel pubblico, piu costosi nel privato)
+- **Esami del sangue di monitoraggio**: 30-100 euro (coperti con ticket nel pubblico, più costosi nel privato)
 
 Per approfondire gli effetti e il funzionamento della terapia ormonale, rimandiamo alla [guida sulla terapia ormonale](/wiki/terapia-ormonale-guida).
 
@@ -121,13 +125,13 @@ Per approfondire gli effetti e il funzionamento della terapia ormonale, rimandia
 
 ### Nel pubblico
 
-I centri pubblici specializzati in identita di genere offrono il percorso psicologico con il solo pagamento del ticket. I costi sono contenuti:
+I centri pubblici specializzati in identità di genere offrono il percorso psicologico con il solo pagamento del ticket. I costi sono contenuti:
 
 - **Ticket per seduta**: circa 30-36 euro [7][8]
 - **Relazione psicodiagnostica** (quando richiesta): circa 500 euro al SAIFIP [8]
 - **Sedute di gruppo** (dove disponibili): circa 15 euro a seduta [8]
 
-I tempi possono essere lunghi: la durata del percorso varia da caso a caso e l'attesa per il primo appuntamento puo raggiungere diversi mesi.
+I tempi possono essere lunghi: la durata del percorso varia da caso a caso e l'attesa per il primo appuntamento può raggiungere diversi mesi.
 
 ### Nel privato
 
@@ -138,11 +142,11 @@ Chi sceglie un percorso privato deve considerare:
 - **Percorso tipico** (5-15 sedute): 250-1.200 euro complessivi
 - **Consulente tecnico d'ufficio (CTU)**, se disposto dal tribunale: 300-600 euro [7]
 
-Uno psicologo o psicoterapeuta specializzato in identita di genere puo avere tariffe piu elevate, soprattutto nelle grandi citta. Per un approfondimento sul percorso psicologico, si rimanda all'articolo sulla [terapia psicologica](/wiki/terapia-psicologica-trans).
+Uno psicologo o psicoterapeuta specializzato in identità di genere può avere tariffe più elevate, soprattutto nelle grandi città. Per un approfondimento sul percorso psicologico, si rimanda all'articolo sulla [terapia psicologica](/wiki/terapia-psicologica-trans).
 
 ## Chirurgia
 
-La chirurgia di affermazione di genere e coperta dal SSN, ma i tempi di attesa sono spesso molto lunghi e i chirurghi specializzati sono pochi [6]. Chi ha la possibilita economica puo rivolgersi al privato, in Italia o all'estero, con costi significativi. Per una panoramica completa degli interventi, si rimanda alla nostra guida sulla [chirurgia di affermazione di genere](/wiki/chirurgia-affermazione-di-genere).
+La chirurgia di affermazione di genere è coperta dal SSN, ma i tempi di attesa sono spesso molto lunghi e i chirurghi specializzati sono pochi [6]. Chi ha la possibilità economica può rivolgersi al privato, in Italia o all'estero, con costi significativi. Per una panoramica completa degli interventi, si rimanda alla nostra guida sulla [chirurgia di affermazione di genere](/wiki/chirurgia-affermazione-di-genere).
 
 ### Vaginoplastica (MTF)
 
@@ -184,7 +188,7 @@ Alcuni interventi non sono generalmente coperti dal SSN e restano a totale caric
 
 ## Rettificazione anagrafica
 
-La rettificazione di attribuzione di sesso richiede un procedimento giudiziario presso il Tribunale civile, disciplinato dalla [legge 164/1982](/wiki/legge-164-italia) e dal D.lgs. 150/2011 [5]. I costi legali rappresentano una delle voci di spesa piu significative per molte persone in transizione.
+La rettificazione di attribuzione di sesso richiede un procedimento giudiziario presso il Tribunale civile, disciplinato dalla [legge 164/1982](/wiki/legge-164-italia) e dal D.lgs. 150/2011 [5]. I costi legali rappresentano una delle voci di spesa più significative per molte persone in transizione.
 
 ### Costi del procedimento
 
@@ -195,21 +199,21 @@ La rettificazione di attribuzione di sesso richiede un procedimento giudiziario 
 
 ### Gratuito patrocinio
 
-Chi ha un reddito personale annuo non superiore a **13.659,64 euro** (soglia aggiornata al 2025) puo accedere al gratuito patrocinio [9]. In questo caso:
+Chi ha un reddito personale annuo non superiore a **13.659,64 euro** (soglia aggiornata al 2025) può accedere al gratuito patrocinio [9]. In questo caso:
 
-- L'avvocato e pagato dallo Stato (deve essere iscritto nelle liste per il patrocinio a spese dello Stato)
-- Il contributo unificato non e dovuto
+- L'avvocato è pagato dallo Stato (deve essere iscritto nelle liste per il patrocinio a spese dello Stato)
+- Il contributo unificato non è dovuto
 - Le spese di registrazione della sentenza sono coperte
 
-E importante sapere che per la rettificazione anagrafica si considera il **reddito personale** della persona richiedente, non quello del nucleo familiare [9]. Questo e un aspetto fondamentale per chi vive ancora in famiglia o ha un coniuge con reddito elevato.
+È importante sapere che per la rettificazione anagrafica si considera il **reddito personale** della persona richiedente, non quello del nucleo familiare [9]. Questo è un aspetto fondamentale per chi vive ancora in famiglia o ha un coniuge con reddito elevato.
 
 Con il gratuito patrocinio, il costo della rettificazione scende a circa 200 euro complessivi, tra marche da bollo e spese varie [6].
 
 ### Aggiornamento documenti dopo la sentenza
 
-Dopo la sentenza, e necessario aggiornare tutti i documenti. Alcuni aggiornamenti sono gratuiti, altri comportano costi:
+Dopo la sentenza, è necessario aggiornare tutti i documenti. Alcuni aggiornamenti sono gratuiti, altri comportano costi:
 
-- **Carta d'identita, tessera sanitaria, codice fiscale**: gratuiti o con costi minimi
+- **Carta d'identità, tessera sanitaria, codice fiscale**: gratuiti o con costi minimi
 - **Patente di guida e libretto auto**: circa 400 euro complessivi [6]
 - **Modifica rogito immobiliare** (se proprietari di casa): circa 800 euro [6]
 - **Passaporto**: costo standard di rinnovo
@@ -222,7 +226,7 @@ Oltre alle voci principali, esistono diverse spese complementari che molte perso
 
 ### Epilazione laser
 
-Per le donne trans, l'epilazione del viso e del corpo e spesso una delle spese piu consistenti. I costi variano enormemente in base al tipo di laser e al centro scelto [10]:
+Per le donne trans, l'epilazione del viso e del corpo è spesso una delle spese più consistenti. I costi variano enormemente in base al tipo di laser e al centro scelto [10]:
 
 | Tipo di laser | Costo per seduta (indicativo) |
 |---|---|
@@ -240,7 +244,7 @@ La femminilizzazione della voce tramite logopedia ha costi contenuti ma non tras
 - **Costo per seduta**: circa 60 euro
 - **Percorso tipico**: 10-15 sedute
 - **Costo totale**: circa 600-900 euro
-- **Detraibilita fiscale**: le spese di logopedia sono detraibili al 19% come spese sanitarie
+- **Detraibilità fiscale**: le spese di logopedia sono detraibili al 19% come spese sanitarie
 
 ### Binder e protesi
 
@@ -256,7 +260,7 @@ Per le persone MTF:
 
 ### Guardaroba e cura personale
 
-Rinnovare il proprio guardaroba e adattare la cura personale alla propria identita e una spesa spesso sottovalutata, ma concreta, che varia enormemente da persona a persona.
+Rinnovare il proprio guardaroba e adattare la cura personale alla propria identità è una spesa spesso sottovalutata, ma concreta, che varia enormemente da persona a persona.
 
 ## Come ridurre i costi
 
@@ -264,11 +268,11 @@ Esistono diverse strategie per contenere le spese della transizione:
 
 ### Seguire il percorso pubblico
 
-Il SSN copre terapia ormonale, percorso psicologico e chirurgia. Scegliere il percorso pubblico significa spese minime (solo ticket), anche se con tempi piu lunghi. Per iniziare, si puo consultare la guida su [come iniziare la transizione](/wiki/iniziare-transizione).
+Il SSN copre terapia ormonale, percorso psicologico e chirurgia. Scegliere il percorso pubblico significa spese minime (solo ticket), anche se con tempi più lunghi. Per iniziare, si può consultare la guida su [come iniziare la transizione](/wiki/iniziare-transizione).
 
 ### Accedere al gratuito patrocinio
 
-Per la rettificazione anagrafica, chi ha un reddito personale entro i 13.659,64 euro annui puo ottenere il gratuito patrocinio [9]. E consigliabile informarsi presso un'associazione o un avvocato specializzato.
+Per la rettificazione anagrafica, chi ha un reddito personale entro i 13.659,64 euro annui può ottenere il gratuito patrocinio [9]. È consigliabile informarsi presso un'associazione o un avvocato specializzato.
 
 ### Rivolgersi alle associazioni
 
@@ -291,7 +295,7 @@ Molte spese del percorso di transizione sono detraibili come spese sanitarie al 
 
 ### Bonus psicologo
 
-Per chi ha difficolta economiche, il bonus psicologo dell'INPS puo coprire fino a 1.500 euro di spese per sedute di psicoterapia, con un contributo fino a 50 euro per seduta. E disponibile per chi ha un ISEE entro determinati limiti.
+Per chi ha difficoltà economiche, il bonus psicologo dell'INPS può coprire fino a 1.500 euro di spese per sedute di psicoterapia, con un contributo fino a 50 euro per seduta. È disponibile per chi ha un ISEE entro determinati limiti.
 
 ## Riepilogo dei costi
 
@@ -311,8 +315,8 @@ La tabella seguente riassume le principali voci di costo, distinguendo tra perco
 
 ## Conclusioni
 
-La transizione di genere in Italia non e gratuita, ma il SSN copre una porzione significativa del percorso medico. Le determine AIFA del 2020 hanno rappresentato un passo avanti importante rendendo la terapia ormonale accessibile a tutti [1][2][3]. La chirurgia e coperta, anche se i tempi di attesa restano il principale ostacolo.
+La transizione di genere in Italia non è gratuita, ma il SSN copre una porzione significativa del percorso medico. Le determine AIFA del 2020 hanno rappresentato un passo avanti importante rendendo la terapia ormonale accessibile a tutti [1][2][3]. La chirurgia è coperta, anche se i tempi di attesa restano il principale ostacolo.
 
-Le spese piu rilevanti per chi segue il percorso pubblico sono la rettificazione anagrafica (azzerabile con il gratuito patrocinio), l'epilazione laser e la logopedia. Chi sceglie il privato deve mettere in conto un investimento significativo, che diverse fonti stimano tra i 20.000 e i 40.000 euro complessivi [7].
+Le spese più rilevanti per chi segue il percorso pubblico sono la rettificazione anagrafica (azzerabile con il gratuito patrocinio), l'epilazione laser e la logopedia. Chi sceglie il privato deve mettere in conto un investimento significativo, che diverse fonti stimano tra i 20.000 e i 40.000 euro complessivi [7].
 
-In ogni caso, informarsi bene, rivolgersi a un [centro specializzato](/wiki/centri-transgender-italia) e contattare le associazioni del territorio sono i primi passi per affrontare il percorso nel modo piu efficace e sostenibile possibile.
+In ogni caso, informarsi bene, rivolgersi a un [centro specializzato](/wiki/centri-transgender-italia) e contattare le associazioni del territorio sono i primi passi per affrontare il percorso nel modo più efficace e sostenibile possibile.

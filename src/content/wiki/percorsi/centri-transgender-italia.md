@@ -9,54 +9,54 @@ date: "2026-03-02"
 updated: "2026-03-02"
 image: "/images/wiki/centri-transgender-italia.webp"
 sources:
-	- title: "Infotrans - Mappa dei servizi dedicati alle persone transgender in Italia"
-	  url: "https://www.infotrans.it/it-schede-3-mappa_servizi_transgender"
-	  year: 2024
-	- title: "Infotrans - Il percorso di affermazione di genere in pillole"
-	  url: "https://www.infotrans.it/it-schede-7-percorso_affermazione_genere_transgender"
-	  year: 2024
-	- title: "SICPRE - Disforia di genere, i centri italiani"
-	  url: "https://www.sicpre.it/disforia-di-genere-i-centri-italiani/"
-	  year: 2018
-	- title: "FIMP - Centri pediatrici d'identità di genere e disforia di genere in Italia"
-	  url: "https://www.fimp.pro/area-scientifica/aree-tematiche/adolescenza-e-transizione/centri-pediatrici-d-identita-di-genere-e-disforia-di-genere-in-italia"
-	  year: 2024
-	- title: "WPATH Standards of Care for the Health of Transgender and Gender Diverse People, Version 8"
-	  url: "https://www.tandfonline.com/doi/full/10.1080/26895269.2022.2100644"
-	  year: 2022
-	- title: "AIFA - Farmaci ormonali per le transizioni di genere erogabili a carico del SSN"
-	  url: "https://www.aifa.gov.it/"
-	  year: 2020
-	- title: "Infotrans - Associazioni transgender"
-	  url: "https://www.infotrans.it/it-schede-5-associazioni_transgender"
-	  year: 2024
-	- title: "Legge 14 aprile 1982, n. 164 - Norme in materia di rettificazione di attribuzione di sesso"
-	  url: "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=1982-04-19&atto.codiceRedazionale=082U0164"
-	  year: 1982
-	- title: "ISS - Infotrans.it, il portale istituzionale dedicato al benessere e alla salute delle persone transgender"
-	  url: "https://www.iss.it/en/aggregatoretemi/-/asset_publisher/B2AxZDvn4FqF/content/infotrans.it-il-portale-istituzionale-dedicato-al-benessere-e-alla-salute-delle-persone-transgender"
-	  year: 2023
-	- title: "Quotidiano Sanità - Disforia di genere. Pubblicato il primo elenco dei centri pubblici"
-	  url: "https://www.quotidianosanita.it/scienza-e-farmaci/articolo.php?articolo_id=61335"
-	  year: 2018
+  - title: "Infotrans - Mappa dei servizi dedicati alle persone transgender in Italia"
+    url: "https://www.infotrans.it/it-schede-3-mappa_servizi_transgender"
+    year: 2024
+  - title: "Infotrans - Il percorso di affermazione di genere in pillole"
+    url: "https://www.infotrans.it/it-schede-7-percorso_affermazione_genere_transgender"
+    year: 2024
+  - title: "SICPRE - Disforia di genere, i centri italiani"
+    url: "https://www.sicpre.it/disforia-di-genere-i-centri-italiani/"
+    year: 2018
+  - title: "FIMP - Centri pediatrici d'identità di genere e disforia di genere in Italia"
+    url: "https://www.fimp.pro/area-scientifica/aree-tematiche/adolescenza-e-transizione/centri-pediatrici-d-identita-di-genere-e-disforia-di-genere-in-italia"
+    year: 2024
+  - title: "WPATH Standards of Care for the Health of Transgender and Gender Diverse People, Version 8"
+    url: "https://www.tandfonline.com/doi/full/10.1080/26895269.2022.2100644"
+    year: 2022
+  - title: "AIFA - Farmaci ormonali per le transizioni di genere erogabili a carico del SSN"
+    url: "https://www.aifa.gov.it/"
+    year: 2020
+  - title: "Infotrans - Associazioni transgender"
+    url: "https://www.infotrans.it/it-schede-5-associazioni_transgender"
+    year: 2024
+  - title: "Legge 14 aprile 1982, n. 164 - Norme in materia di rettificazione di attribuzione di sesso"
+    url: "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=1982-04-19&atto.codiceRedazionale=082U0164"
+    year: 1982
+  - title: "ISS - Infotrans.it, il portale istituzionale dedicato al benessere e alla salute delle persone transgender"
+    url: "https://www.iss.it/en/aggregatoretemi/-/asset_publisher/B2AxZDvn4FqF/content/infotrans.it-il-portale-istituzionale-dedicato-al-benessere-e-alla-salute-delle-persone-transgender"
+    year: 2023
+  - title: "Quotidiano Sanità - Disforia di genere. Pubblicato il primo elenco dei centri pubblici"
+    url: "https://www.quotidianosanita.it/scienza-e-farmaci/articolo.php?articolo_id=61335"
+    year: 2018
 faq:
-	- question: "Dove posso iniziare la transizione in Italia?"
-	  answer: "In Italia esistono centri pubblici specializzati in identità di genere. I principali sono il SAIFIP a Roma, il CIDIGem a Torino e il centro di Careggi a Firenze. Si può accedere tramite il medico di base o direttamente, a seconda del centro."
-	- question: "I centri per la disforia di genere sono gratuiti?"
-	  answer: "I centri pubblici del SSN offrono percorsi gratuiti o con ticket. I tempi di attesa possono variare. In alternativa, esistono professionisti privati specializzati con costi a carico del paziente."
-	- question: "Serve l'impegnativa del medico di base?"
-	  answer: "Dipende dal centro. Alcuni accettano accesso diretto, altri richiedono impegnativa. È consigliabile contattare il centro scelto per informazioni aggiornate."
-	- question: "Esistono centri per minori transgender in Italia?"
-	  answer: "Sì. Alcuni centri hanno percorsi dedicati ai minori, come il servizio di Careggi a Firenze e il SAIFIP a Roma. L'accesso per i minori richiede generalmente il coinvolgimento dei genitori."
+  - question: "Dove posso iniziare la transizione in Italia?"
+    answer: "In Italia esistono centri pubblici specializzati in identità di genere. I principali sono il SAIFIP a Roma, il CIDIGem a Torino e il centro di Careggi a Firenze. Si può accedere tramite il medico di base o direttamente, a seconda del centro."
+  - question: "I centri per la disforia di genere sono gratuiti?"
+    answer: "I centri pubblici del SSN offrono percorsi gratuiti o con ticket. I tempi di attesa possono variare. In alternativa, esistono professionisti privati specializzati con costi a carico del paziente."
+  - question: "Serve l'impegnativa del medico di base?"
+    answer: "Dipende dal centro. Alcuni accettano accesso diretto, altri richiedono impegnativa. È consigliabile contattare il centro scelto per informazioni aggiornate."
+  - question: "Esistono centri per minori transgender in Italia?"
+    answer: "Sì. Alcuni centri hanno percorsi dedicati ai minori, come il servizio di Careggi a Firenze e il SAIFIP a Roma. L'accesso per i minori richiede generalmente il coinvolgimento dei genitori."
 related:
-	- iniziare-transizione
-	- terapia-ormonale-guida
-	- cambio-documenti-trans
-	- trans-e-sanita
+  - iniziare-transizione
+  - terapia-ormonale-guida
+  - cambio-documenti-trans
+  - trans-e-sanita
 media:
-	- type: libro
-	  title: "Redefining Realness"
-	  year: 2014
+  - type: libro
+    title: "Redefining Realness"
+    year: 2014
 ---
 
 Trovare il centro giusto per iniziare un percorso di affermazione di genere in Italia non è semplice. Le informazioni sono disperse tra siti istituzionali, passaparola e gruppi online, e non sempre sono aggiornate. Le liste d'attesa variano enormemente, i protocolli cambiano da centro a centro e il divario tra Nord e Sud rimane significativo. Questa guida raccoglie in un unico luogo le informazioni verificate sui principali centri pubblici italiani, regione per regione, insieme a indicazioni pratiche su come accedere ai servizi e su quali risorse di supporto sono disponibili.
