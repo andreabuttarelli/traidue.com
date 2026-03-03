@@ -38,23 +38,28 @@ export const GET: RequestHandler = async ({ request, url, platform }) => {
 			itemsToDispatch.push({ item, info });
 		}
 
-		// Use waitUntil to dispatch in background after returning response
+		// Dispatch all articles in parallel for faster execution
 		const dispatchWork = async () => {
-			for (const { item, info } of itemsToDispatch) {
-				try {
-					const resp = await fetch(generateUrl, {
-						method: 'POST',
-						headers: {
-							'Authorization': `Bearer ${CRON_SECRET}`,
-							'Content-Type': 'application/json'
-						},
-						body: JSON.stringify(item)
-					});
-					console.log(`[News] Dispatched ${info}: ${resp.status}`);
-				} catch (e) {
-					console.error(`[News] Dispatch failed for ${info}:`, e);
-				}
-			}
+			const results = await Promise.allSettled(
+				itemsToDispatch.map(async ({ item, info }) => {
+					try {
+						const resp = await fetch(generateUrl, {
+							method: 'POST',
+							headers: {
+								'Authorization': `Bearer ${CRON_SECRET}`,
+								'Content-Type': 'application/json'
+							},
+							body: JSON.stringify(item),
+							signal: AbortSignal.timeout(10_000)
+						});
+						console.log(`[News] Dispatched ${info}: ${resp.status}`);
+					} catch (e) {
+						console.error(`[News] Dispatch failed for ${info}:`, e);
+					}
+				})
+			);
+			const failed = results.filter((r) => r.status === 'rejected').length;
+			if (failed) console.error(`[News] ${failed}/${results.length} dispatches failed`);
 		};
 
 		const ctx = (platform as Record<string, unknown>)?.context as

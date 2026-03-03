@@ -7,24 +7,45 @@ const genai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 const MODEL = 'gemini-3.1-pro-preview';
 const FALLBACK_MODEL = 'gemini-3-flash-preview';
 
+const GEMINI_TIMEOUT_MS = 60_000;
+const RETRY_DELAY_MS = 5_000;
+
+function withTimeout<T>(promise: Promise<T>, ms: number, label: string): Promise<T> {
+	return Promise.race([
+		promise,
+		new Promise<never>((_, reject) =>
+			setTimeout(() => reject(new Error(`[News] Timeout: ${label} exceeded ${ms}ms`)), ms)
+		)
+	]);
+}
+
 async function geminiGenerate(
 	options: Parameters<typeof genai.models.generateContent>[0],
-	retryDelay = 20_000
+	retryDelay = RETRY_DELAY_MS
 ): ReturnType<typeof genai.models.generateContent> {
+	const label = String(options.model || MODEL);
 	try {
-		return await genai.models.generateContent(options);
+		return await withTimeout(genai.models.generateContent(options), GEMINI_TIMEOUT_MS, label);
 	} catch (err: unknown) {
 		const status = (err as { status?: number }).status;
 		if (status === 503 || status === 429) {
-			console.log(`[News] ${options.model} returned ${status}, retrying in ${retryDelay / 1000}s...`);
+			console.log(`[News] ${label} returned ${status}, retrying in ${retryDelay / 1000}s...`);
 			await new Promise((r) => setTimeout(r, retryDelay));
 			try {
-				return await genai.models.generateContent(options);
+				return await withTimeout(
+					genai.models.generateContent(options),
+					GEMINI_TIMEOUT_MS,
+					`${label}-retry`
+				);
 			} catch (retryErr: unknown) {
 				const retryStatus = (retryErr as { status?: number }).status;
 				if (retryStatus === 503 || retryStatus === 429) {
 					console.log(`[News] Retry failed (${retryStatus}), falling back to ${FALLBACK_MODEL}`);
-					return await genai.models.generateContent({ ...options, model: FALLBACK_MODEL });
+					return await withTimeout(
+						genai.models.generateContent({ ...options, model: FALLBACK_MODEL }),
+						GEMINI_TIMEOUT_MS,
+						FALLBACK_MODEL
+					);
 				}
 				throw retryErr;
 			}

@@ -29,13 +29,18 @@ export const POST: RequestHandler = async ({ request, platform }) => {
 	}
 
 	const work = async () => {
+		const t0 = Date.now();
+		const elapsed = () => `${((Date.now() - t0) / 1000).toFixed(1)}s`;
+
 		try {
 			// 1. Generate editorial
+			console.log(`[Generate] Starting editorial for "${item.title}"`);
 			const article = await generateSingleEditorial(item);
 			if (!article) {
-				console.log(`Generation filtered for "${item.title}"`);
+				console.log(`[Generate] Filtered "${item.title}" at ${elapsed()}`);
 				return;
 			}
+			console.log(`[Generate] Editorial done at ${elapsed()}: "${article.title}"`);
 
 			// 2. Save draft to DB with slug collision handling
 			let draft: {
@@ -84,16 +89,17 @@ export const POST: RequestHandler = async ({ request, platform }) => {
 				}
 
 				if (error?.code === '23505' && error.message.includes('slug')) continue;
-				console.error(`Failed to insert article "${article.title}":`, error?.message);
+				console.error(`[Generate] DB insert failed for "${article.title}":`, error?.message);
 				return;
 			}
 
 			if (!draft) {
-				console.error(`Slug collision for "${article.title}"`);
+				console.error(`[Generate] Slug collision for "${article.title}"`);
 				return;
 			}
+			console.log(`[Generate] DB saved at ${elapsed()}: id=${draft.id}`);
 
-			// 3. Generate image
+			// 3. Generate image (non-blocking — email sent even if this fails)
 			try {
 				const imageResult = await generateAndProcessNewsImage(
 					draft.title,
@@ -107,21 +113,25 @@ export const POST: RequestHandler = async ({ request, platform }) => {
 						.eq('id', draft.id);
 					draft.image = imageResult.image;
 					draft.thumb = imageResult.thumb;
+					console.log(`[Generate] Image done at ${elapsed()}`);
+				} else {
+					console.log(`[Generate] Image skipped (no result) at ${elapsed()}`);
 				}
 			} catch (e) {
-				console.error(`Image generation failed for "${draft.title}":`, e);
+				console.error(`[Generate] Image failed at ${elapsed()} for "${draft.title}":`, e);
 			}
 
 			// 4. Send email
 			try {
 				await sendNewsDigest([draft], BASE_URL);
+				console.log(`[Generate] Email sent at ${elapsed()} for "${draft.title}"`);
 			} catch (e) {
-				console.error(`Email failed for "${draft.title}":`, e);
+				console.error(`[Generate] Email failed at ${elapsed()} for "${draft.title}":`, e);
 			}
 
-			console.log(`Generated editorial: "${draft.title}"`);
+			console.log(`[Generate] Complete at ${elapsed()}: "${draft.title}"`);
 		} catch (e) {
-			console.error(`Generate error for "${item.title}":`, e);
+			console.error(`[Generate] Error at ${elapsed()} for "${item.title}":`, e);
 		}
 	};
 

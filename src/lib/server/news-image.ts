@@ -61,6 +61,7 @@ export async function processNewsImage(
 
 const MAX_RETRIES = 3;
 const RETRY_DELAY_MS = 2000;
+const IMAGE_TIMEOUT_MS = 45_000;
 
 const STYLE_REFERENCE_URL =
 	'https://vkasizlzkcvvuykoguek.supabase.co/storage/v1/object/public/news-images/generated_ref_1772026325362_0.png.jpeg';
@@ -106,16 +107,24 @@ The subject of the image should LOOSELY represent the topic — not literally, b
 			}
 			parts.push({ text: prompt });
 
-			const result = await genai.models.generateContent({
-				model: IMAGE_MODEL,
-				contents: [{ role: 'user', parts }],
-				config: {
-					responseModalities: ['IMAGE'],
-					imageConfig: {
-						aspectRatio: '16:9'
+			const result = await Promise.race([
+				genai.models.generateContent({
+					model: IMAGE_MODEL,
+					contents: [{ role: 'user', parts }],
+					config: {
+						responseModalities: ['IMAGE'],
+						imageConfig: {
+							aspectRatio: '16:9'
+						}
 					}
-				}
-			});
+				}),
+				new Promise<never>((_, reject) =>
+					setTimeout(
+						() => reject(new Error(`Image generation timeout (${IMAGE_TIMEOUT_MS}ms)`)),
+						IMAGE_TIMEOUT_MS
+					)
+				)
+			]);
 
 			const imageBytes = result.candidates?.[0]?.content?.parts?.[0]?.inlineData?.data;
 			if (!imageBytes) {
