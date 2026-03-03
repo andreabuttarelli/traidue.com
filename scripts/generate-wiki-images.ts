@@ -72,6 +72,21 @@ const IMAGES_TO_GENERATE = [
 		slug: 'persone-trans-anziane',
 		prompt:
 			'An abstract painting about aging with dignity and resilience: layered weathered textures suggesting the passage of time, warm amber, silver and deep purple tones, strength through endurance, a sense of quiet pride, thick impasto brushstrokes, oil paint texture'
+	},
+	{
+		slug: 'cass-review',
+		prompt:
+			'An abstract painting about examination and scrutiny: a large magnifying lens shape hovering over layered documents and medical symbols, cool clinical blues and warm amber tones in tension, analytical yet human, thick visible brushstrokes, oil paint texture'
+	},
+	{
+		slug: 'ideologia-gender',
+		prompt:
+			'An abstract painting about language and manipulation: words dissolving into paint, distorted text shapes being unraveled by flowing organic forms revealing truth beneath, warm golds breaking through dark greys, thick impasto brushstrokes, oil paint texture'
+	},
+	{
+		slug: 'mio-figlio-trans',
+		prompt:
+			'An abstract painting about family embrace and unconditional love: warm protective forms cradling a smaller luminous shape, rich amber, deep blue and gentle rose tones blending together, a sense of safety and acceptance, thick expressive brushstrokes, oil paint texture'
 	}
 ];
 
