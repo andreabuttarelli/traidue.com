@@ -79,7 +79,7 @@ Il punto di partenza è semplice e verificabile: **l'Italia non ha un programma 
 
 Quello che le scuole italiane sono tenute a fare, per legge, è un'altra cosa. La **Legge 107/2015** (la cosiddetta "Buona Scuola"), al comma 16 dell'articolo 1, stabilisce che il piano triennale dell'offerta formativa deve "assicurare l'attuazione dei principi di pari opportunità, promuovendo nelle scuole di ogni ordine e grado l'educazione alla parità tra i sessi, la prevenzione della violenza di genere e di tutte le forme di discriminazione" [1].
 
-Non si parla di educazione sessuale. Non si parla di "teoria del gender". Si parla di **pari opportunità, rispetto e prevenzione della violenza**. Questi sono i temi previsti dalla legge.
+Non si parla di educazione sessuale. Non si parla di "[teoria del gender](/wiki/teoria-gender)". Si parla di **pari opportunità, rispetto e prevenzione della violenza**. Questi sono i temi previsti dalla legge.
 
 ### La nota del MIUR del 2015
 
@@ -93,7 +93,7 @@ Nel 2017, il MIUR pubblicò le **Linee Guida Nazionali "Educare al rispetto"**, 
 
 - **Educazione alla parità tra i sessi**, per contrastare stereotipi e pregiudizi legati al genere
 - **Prevenzione della violenza di genere**, in coerenza con il Piano straordinario contro la violenza sessuale e di genere
-- **Contrasto di tutte le forme di discriminazione**, comprese quelle basate sull'orientamento sessuale e l'identità di genere
+- **Contrasto di tutte le forme di discriminazione**, comprese quelle basate sull'orientamento sessuale e l'[identità di genere](/wiki/identita-di-genere)
 
 Le Linee Guida si inseriscono nel quadro dell'educazione civica e delle competenze di cittadinanza. Non prevedono una materia separata, ma un approccio trasversale che pervade l'intera relazione educativa. In altre parole: insegnare il rispetto e la non-discriminazione fa parte del compito educativo della scuola, come previsto dall'articolo 3 della Costituzione italiana.
 
@@ -106,14 +106,14 @@ Cosa contengono concretamente questi programmi? Non ciò che la narrazione allar
 - **Lettura di albi illustrati** che presentano modelli familiari diversi (famiglie monoparentali, famiglie allargate, famiglie con genitori dello stesso sesso) per riflettere sulla pluralità delle esperienze
 - **Laboratori sugli stereotipi di genere**, dove i bambini esplorano perché certi giochi, colori o professioni vengono associati a un genere specifico
 - **Attività sulla gestione delle emozioni**, sull'empatia e sul riconoscimento dei propri sentimenti
-- **Percorsi di prevenzione del bullismo**, con attenzione specifica al bullismo omofobico e transfobico
+- **Percorsi di prevenzione del bullismo**, con attenzione specifica al [bullismo omofobico e transfobico](/wiki/trans-e-scuola)
 - **Educazione al consenso e al rispetto dei confini personali**, fondamentale anche per la prevenzione degli abusi
 
 Queste attività non "insegnano ai bambini a cambiare sesso" e non propongono alcuna "dottrina". Insegnano che le differenze esistono, che meritano rispetto e che la violenza e la discriminazione non sono accettabili. Sono principi educativi, non ideologici.
 
 ### I libri incriminati
 
-Periodicamente, titoli come *Piccolo uovo* di Francesca Pardi o *E con Tango siamo in tre* di Richardson e Parnell vengono indicati come strumenti di "propaganda gender". Si tratta di albi illustrati che raccontano famiglie diverse o personaggi che non si conformano agli stereotipi di genere.
+Periodicamente, titoli come *Piccolo uovo* di Francesca Pardi o *E con Tango siamo in tre* di Richardson e Parnell vengono indicati come strumenti di "propaganda gender". Si tratta di albi illustrati che raccontano famiglie diverse o personaggi che [non si conformano agli stereotipi di genere](/wiki/espressione-genere-bambini).
 
 Questi libri non fanno parte di alcun programma ministeriale obbligatorio. Quando vengono utilizzati, lo sono nell'ambito di progetti extracurricolari approvati dai consigli di istituto. La loro presenza in una biblioteca scolastica non equivale a "indottrinamento": equivale a offrire ai bambini rappresentazioni plurali della realtà in cui vivono.
 
@@ -135,7 +135,7 @@ Gli Standard raccomandano un approccio graduale: per i bambini più piccoli (0-6
 
 ## Le campagne anti-gender nelle scuole italiane
 
-A partire dal 2013-2014, il dibattito sulla cosiddetta "ideologia gender" nelle scuole è esploso in Italia, alimentato da una serie di campagne mediatiche e politiche.
+A partire dal 2013-2014, il dibattito sulla cosiddetta "[ideologia gender](/wiki/ideologia-gender)" nelle scuole è esploso in Italia, alimentato da una serie di campagne mediatiche e politiche.
 
 ### Il contesto: 2013-2016
 
@@ -232,7 +232,7 @@ Il tema del consenso dei genitori merita un approfondimento, perché è al centr
 
 Anche prima del DDL Valditara, le scuole italiane non operavano in un vuoto normativo. Le attività extracurricolari -- compresi i progetti di educazione alle differenze, gli incontri con esperti esterni e i laboratori su temi specifici -- vengono approvate dal **Consiglio di Istituto**, un organo collegiale di cui fanno parte anche i rappresentanti dei genitori.
 
-In molti istituti, per le attività su temi sensibili era già prassi informare le famiglie e, in alcuni casi, offrire la possibilità di esonero. Il principio del coinvolgimento delle famiglie non è quindi una novità: era già parte della prassi scolastica, anche se in forme diverse e non uniformi su tutto il territorio nazionale.
+In molti istituti, per le attività su temi sensibili (come la [carriera alias](/wiki/carriera-alias)) era già prassi informare le famiglie e, in alcuni casi, offrire la possibilità di esonero. Il principio del coinvolgimento delle famiglie non è quindi una novità: era già parte della prassi scolastica, anche se in forme diverse e non uniformi su tutto il territorio nazionale.
 
 ### Cosa cambia con il DDL Valditara
 

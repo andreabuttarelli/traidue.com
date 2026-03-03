@@ -63,7 +63,7 @@ related:
   - terapia-ormonale-guida
 ---
 
-La **Cass Review** è il rapporto di revisione indipendente sui servizi di identità di genere per bambini e adolescenti commissionato dall'NHS England nel 2020 e pubblicato nella versione finale il **10 aprile 2024**. È diventato rapidamente uno dei documenti più citati -- e più fraintesi -- nel dibattito internazionale sulle cure per i minori con disforia di genere. In Italia è stato usato come argomento da posizioni politiche opposte, spesso citando selettivamente le sue conclusioni. In questo articolo esaminiamo cosa dice realmente il rapporto, come è stato condotto, quali critiche ha ricevuto dalla comunità scientifica e cosa è cambiato concretamente in seguito alla sua pubblicazione.
+La **Cass Review** è il rapporto di revisione indipendente sui servizi di identità di genere per bambini e adolescenti commissionato dall'NHS England nel 2020 e pubblicato nella versione finale il **10 aprile 2024**. È diventato rapidamente uno dei documenti più citati -- e più fraintesi -- nel dibattito internazionale sulle cure per i minori con [disforia di genere](/wiki/disforia-di-genere). In Italia è stato usato come argomento da posizioni politiche opposte, spesso citando selettivamente le sue conclusioni. In questo articolo esaminiamo cosa dice realmente il rapporto, come è stato condotto, quali critiche ha ricevuto dalla comunità scientifica e cosa è cambiato concretamente in seguito alla sua pubblicazione.
 
 ## Chi è Hilary Cass e perché è stato commissionato il rapporto
 
@@ -78,7 +78,7 @@ Il mandato della revisione era di esaminare l'intera struttura dei servizi -- no
 La Cass Review non era una revisione sistematica della letteratura scientifica nel senso tecnico del termine. Era una **revisione indipendente dei servizi**, che includeva:
 
 - Audizioni con centinaia di clinici, pazienti, famiglie e ricercatori
-- Una serie di **revisioni sistematiche** della letteratura commissionate all'Università di York, su: linee guida internazionali, transizione sociale, bloccanti della pubertà, terapia ormonale, trattamenti psicosociali
+- Una serie di **revisioni sistematiche** della letteratura commissionate all'Università di York, su: linee guida internazionali, transizione sociale, [bloccanti della pubertà](/wiki/bloccanti-puberta), terapia ormonale, trattamenti psicosociali
 - Un'analisi del dataset clinico del GIDS
 - Una mappatura dei servizi in altri paesi
 
@@ -145,7 +145,7 @@ Va segnalato che esistono anche difensori del rapporto nella comunità scientifi
 
 ## Cosa è cambiato nel Regno Unito dopo il rapporto
 
-Le conseguenze istituzionali della Cass Review nel Regno Unito sono state immediate e significative.
+Le conseguenze istituzionali della Cass Review nel [Regno Unito](/wiki/regno-unito-diritti-trans) sono state immediate e significative.
 
 **Il GIDS ha chiuso** nel marzo 2024, prima ancora della pubblicazione del rapporto finale. Al suo posto, l'NHS England ha aperto due nuovi servizi regionali: uno nel nord-ovest (con sedi presso il Alder Hey Children's NHS Foundation Trust a Liverpool e il Royal Manchester Children's Hospital) e uno nel sud (con sedi presso il Great Ormond Street Hospital, l'Evelina London Children's Hospital e il South London and Maudsley NHS Foundation Trust). L'obiettivo è espandere la rete fino a otto servizi regionali.
 
@@ -171,17 +171,17 @@ Un'analisi pubblicata nel 2025 su una rivista accademica nordica documenta che i
 
 In Italia, la Cass Review ha avuto un impatto significativo sul dibattito politico e istituzionale, anche se il contesto di partenza era diverso da quello britannico.
 
-L'Italia non aveva mai avuto un servizio centralizzato paragonabile al GIDS, né un protocollo nazionale codificato. I centri specializzati -- come quello dell'Ospedale Careggi di Firenze, che è stato al centro di un'indagine della procura -- operavano in modo relativamente autonomo. L'AIFA aveva autorizzato l'uso della triptorelina per la disforia di genere con la Determina n. 21756 del 2019, limitandola a centri specializzati con equipe multidisciplinare.
+L'Italia non aveva mai avuto un servizio centralizzato paragonabile al GIDS, né un protocollo nazionale codificato. I centri specializzati -- come quello dell'[Ospedale Careggi di Firenze](/wiki/caso-careggi), che è stato al centro di un'indagine della procura -- operavano in modo relativamente autonomo. L'AIFA aveva autorizzato l'uso della triptorelina per la disforia di genere con la Determina n. 21756 del 2019, limitandola a centri specializzati con equipe multidisciplinare.
 
 Nel **maggio 2024** il Ministero della Salute ha istituito un tavolo tecnico con 29 esperti per approfondire la questione. Il **22 novembre 2024** il **Comitato Nazionale per la Bioetica (CNB)** ha risposto a un quesito ministeriale sull'uso etico della triptorelina, approvando un parere con 29 voti a favore, 2 astensioni e 1 contrario. Il parere raccomanda che la prescrizione avvenga solo dopo la documentata inefficacia di percorsi psicologici e psicoterapeutici, che sia preceduta da valutazione multidisciplinare, e che l'Italia finanzi studi clinici indipendenti per colmare le lacune nelle evidenze. Il CNB non ha raccomandato un divieto, ma criteri più stringenti.
 
-Nel **agosto 2025** il Consiglio dei Ministri ha approvato il **DDL 2575**, proposto dai ministri Schillaci e Roccella. Il disegno di legge prevede l'istituzione di un registro nazionale gestito da AIFA per monitorare le prescrizioni di triptorelina e ormoni per la disforia di genere nei minori, la subordinazione della prescrizione a diagnosi da parte di un team multidisciplinare e a percorsi psicologici documentati, e la prescrizione esclusivamente attraverso farmacie ospedaliere. Otto società scientifiche italiane hanno espresso preoccupazione che il DDL possa ritardare o bloccare l'accesso a cure necessarie, violando le indicazioni europee. Il dibattito parlamentare è in corso.
+Nel **agosto 2025** il Consiglio dei Ministri ha approvato il **[DDL 2575](/wiki/ddl-disforia)**, proposto dai ministri Schillaci e Roccella. Il disegno di legge prevede l'istituzione di un registro nazionale gestito da AIFA per monitorare le prescrizioni di triptorelina e ormoni per la disforia di genere nei minori, la subordinazione della prescrizione a diagnosi da parte di un team multidisciplinare e a percorsi psicologici documentati, e la prescrizione esclusivamente attraverso farmacie ospedaliere. Otto società scientifiche italiane hanno espresso preoccupazione che il DDL possa ritardare o bloccare l'accesso a cure necessarie, violando le indicazioni europee. Il dibattito parlamentare è in corso.
 
 La Cass Review viene citata esplicitamente in documenti istituzionali italiani come riferimento per giustificare un approccio più cauto, sebbene il rapporto si riferisca specificamente al contesto del NHS England e non contenga raccomandazioni vincolanti per altri paesi.
 
 ## Cosa resta aperto
 
-La Cass Review ha messo in luce un problema reale: la base di evidenza per le cure pediatriche di genere è meno solida di quanto fosse spesso rappresentato, e necessita di investimenti in ricerca longitudinale di qualità. Su questo punto c'è ampio accordo anche tra chi critica il rapporto.
+La Cass Review ha messo in luce un problema reale: la base di evidenza per le [cure pediatriche di genere](/wiki/chirurgia-minori-trans-italia) è meno solida di quanto fosse spesso rappresentato, e necessita di investimenti in ricerca longitudinale di qualità. Su questo punto c'è ampio accordo anche tra chi critica il rapporto.
 
 Il disaccordo riguarda soprattutto tre questioni:
 

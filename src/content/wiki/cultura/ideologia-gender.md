@@ -62,7 +62,7 @@ faq:
 related: ["che-cose-il-genere", "che-cose-il-sesso-biologico", "disforia-di-genere", "carriera-alias"]
 ---
 
-"Ideologia gender", "teoria del gender", "indottrinamento gender nelle scuole": queste espressioni ricorrono con frequenza nel dibattito pubblico italiano, nei comunicati politici, nelle discussioni sui social. Ma cosa significano esattamente? E cosa dice la scienza?
+"Ideologia gender", "[teoria del gender](/wiki/teoria-gender)", "indottrinamento gender nelle scuole": queste espressioni ricorrono con frequenza nel dibattito pubblico italiano, nei comunicati politici, nelle discussioni sui social. Ma cosa significano esattamente? E cosa dice la scienza?
 
 Questo articolo analizza l'origine del termine, le discipline accademiche a cui si riferisce, le posizioni delle principali organizzazioni scientifiche e il contesto italiano in cui il dibattito si è sviluppato.
 
@@ -98,7 +98,7 @@ Il contesto di partenza è la diplomazia internazionale. Nel 1994, la Conferenza
 
 È in questo contesto che la giornalista cattolica americana Dale O'Leary, che aveva partecipato alla conferenza di Pechino alla testa della *Women's Coalition for the Family*, distribuì ai delegati un pamphlet critico verso l'uso del termine *gender*. Nel 1997 pubblicò *The Gender Agenda* [7], uno dei testi fondatori del movimento anti-gender, in cui descriveva il *gender* come uno strumento di un'agenda femminista internazionale volta a destabilizzare la famiglia naturale.
 
-All'interno della Santa Sede, l'allora cardinale Joseph Ratzinger elaborò questa critica in termini teologici. Nel 2004, la Congregazione per la Dottrina della Fede da lui guidata pubblicò la "Lettera ai Vescovi della Chiesa Cattolica sulla collaborazione tra uomo e donna" [6], che criticava quelle correnti femministe che, secondo il documento, tendevano a cancellare la differenza sessuale. Nel 2019, la Congregazione per l'Educazione Cattolica pubblicò il documento *"Maschio e femmina li creò"* [5], che individuava nelle "varie forme di una ideologia che viene indicata con il nome generale di 'teoria del gender'" una minaccia per l'educazione e contestava esplicitamente le politiche scolastiche di educazione all'identità di genere.
+All'interno della Santa Sede, l'allora cardinale Joseph Ratzinger elaborò questa critica in termini teologici. Nel 2004, la Congregazione per la Dottrina della Fede da lui guidata pubblicò la "Lettera ai Vescovi della Chiesa Cattolica sulla collaborazione tra uomo e donna" [6], che criticava quelle correnti femministe che, secondo il documento, tendevano a cancellare la differenza sessuale. Nel 2019, la Congregazione per l'Educazione Cattolica pubblicò il documento *"Maschio e femmina li creò"* [5], che individuava nelle "varie forme di una ideologia che viene indicata con il nome generale di 'teoria del gender'" una minaccia per l'educazione e contestava esplicitamente le politiche scolastiche di educazione all'[identità di genere](/wiki/identita-di-genere).
 
 Il termine "ideologia gender" (con l'anglicismo *gender* al posto dell'italiano *genere*) non è, quindi, una descrizione neutra di un campo di studi: è una costruzione retorica deliberata. L'uso dell'anglicismo serve, come hanno osservato i critici, a creare l'effetto di qualcosa di estraneo e anomalo, distinto dalla normalità [12]. Il termine accorpa insieme discipline accademiche legittime, politiche educative di prevenzione del bullismo e rivendicazioni dei movimenti LGBTQ+ in un'unica categoria vaga e minacciosa.
 
@@ -114,11 +114,11 @@ La posizione dell'AIP è coerente con quella di altre organizzazioni scientifich
 
 ## Cosa si insegna nelle scuole italiane
 
-Uno degli argomenti più ricorrenti nel dibattito italiano è l'idea che nelle scuole venga insegnata la "teoria del gender". Cosa prevede effettivamente la normativa italiana?
+Uno degli argomenti più ricorrenti nel dibattito italiano è l'idea che nelle scuole venga insegnata la "teoria del gender". Ne parliamo in dettaglio nell'articolo sul [gender nelle scuole](/wiki/gender-nelle-scuole). Cosa prevede effettivamente la normativa italiana?
 
 L'educazione sessuale e affettiva **non è mai stata inserita come materia obbligatoria** nei programmi scolastici italiani. Dall'Unità d'Italia a oggi, nessuna delle numerose proposte legislative in materia è diventata legge: sedici proposte sono state presentate e respinte nel corso dei decenni. Quando vengono organizzati progetti di educazione affettiva o interventi di prevenzione del bullismo omofobico e transfobico, questi avvengono su base volontaria, spesso con il coinvolgimento di esperti sanitari o associazioni accreditate, e riguardano nella maggior parte dei casi la prevenzione delle malattie sessualmente trasmissibili e delle gravidanze indesiderate -- non "teorie" sull'identità di genere.
 
-In questo vuoto normativo, il dibattito politico si è concentrato su iniziative sporadiche: alcuni istituti che hanno adottato la carriera alias per studenti transgender, progetti di educazione alle differenze finanziati da comuni o regioni, materiali didattici che includono famiglie non tradizionali. Queste iniziative, spesso presentate come prove di una "agenda gender", sono misure episodiche e non sistematiche.
+In questo vuoto normativo, il dibattito politico si è concentrato su iniziative sporadiche: alcuni istituti che hanno adottato la [carriera alias](/wiki/carriera-alias) per studenti transgender, progetti di educazione alle differenze finanziati da comuni o regioni, materiali didattici che includono famiglie non tradizionali. Queste iniziative, spesso presentate come prove di una "agenda gender", sono misure episodiche e non sistematiche.
 
 Nel dicembre 2025, la Camera dei Deputati ha approvato un disegno di legge che introduce l'obbligo del consenso dei genitori per qualsiasi attività di educazione affettiva nelle scuole, con un vincolo aggiuntivo per le scuole primarie: i contenuti dovranno limitarsi agli aspetti biologici e riproduttivi. Il provvedimento era in attesa di approvazione definitiva al Senato.
 
@@ -132,7 +132,7 @@ La diffusione del termine "ideologia gender" in Italia è un fenomeno databile e
 
 **2016.** Dopo l'approvazione della legge Cirinnà sulle unioni civili, il Family Day del 30 gennaio 2016 a Roma vede la partecipazione di centinaia di migliaia di persone, con il tema del "gender nelle scuole" come uno degli argomenti centrali.
 
-**2020-2021.** Il DDL Zan, proposta di legge contro l'omotransfobia approvata dalla Camera nel novembre 2020, torna a far circolare il tema. Gli oppositori sostengono che l'articolo 7 -- che prevede iniziative di sensibilizzazione nelle scuole il 17 maggio, giornata contro l'omofobia -- costituisca un'introduzione della "teoria del gender". Il testo della legge non contiene alcun riferimento all'insegnamento di teorie di genere: la proposta è affossata al Senato nel 2021 [12].
+**2020-2021.** Il [DDL Zan](/wiki/ddl-zan), proposta di legge contro l'omotransfobia approvata dalla Camera nel novembre 2020, torna a far circolare il tema. Gli oppositori sostengono che l'articolo 7 -- che prevede iniziative di sensibilizzazione nelle scuole il 17 maggio, giornata contro l'omofobia -- costituisca un'introduzione della "teoria del gender". Il testo della legge non contiene alcun riferimento all'insegnamento di teorie di genere: la proposta è affossata al Senato nel 2021 [12].
 
 **2022-2025.** Con il governo Meloni, il tema acquisisce rilevanza istituzionale. Nel marzo 2023, la presidente del Consiglio afferma che "l'ideologia gender" è una minaccia per le donne. Massimo Gandolfini, figura di spicco del Family Day, viene nominato consulente ministeriale. Il ministro dell'Istruzione Valditara promuove un'educazione "alle relazioni" con obbligo di consenso genitoriale, approvata alla Camera nel 2025.
 

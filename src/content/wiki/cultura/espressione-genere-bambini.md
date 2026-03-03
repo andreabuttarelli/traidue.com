@@ -129,7 +129,7 @@ Questo è il punto più importante di questo articolo, e merita la massima chiar
 
 **La non conformità di genere riguarda cosa un bambino fa.** Giocare con certi giocattoli, preferire certi vestiti, scegliere certi amici, avere certi interessi. È un comportamento. È estremamente comune. Non indica, di per sé, nulla sull'identità del bambino.
 
-**La disforia di genere riguarda chi un bambino sente di essere.** Non è una preferenza per certi giocattoli, ma un disagio profondo e persistente legato al fatto che il proprio corpo, il proprio nome, il modo in cui il mondo ti tratta, non corrispondono a chi sai di essere. La disforia di genere coinvolge una percentuale molto più piccola di bambini.
+**La [disforia di genere](/wiki/disforia-di-genere) riguarda chi un bambino sente di essere.** Non è una preferenza per certi giocattoli, ma un disagio profondo e persistente legato al fatto che il proprio corpo, il proprio nome, il modo in cui il mondo ti tratta, non corrispondono a chi sai di essere. La disforia di genere coinvolge una percentuale molto più piccola di bambini.
 
 ### Come si manifesta la differenza nella pratica
 
@@ -147,7 +147,7 @@ Questo è un dato che va presentato con onestà, perché è importante per i gen
 
 La ricerca più recente e metodologicamente solida offre un quadro sfumato. Lo studio longitudinale di Olson e colleghi del 2022 ha seguito 317 bambini che avevano effettuato una transizione sociale (quindi bambini che si identificavano attivamente come transgender) per cinque anni [4]. Di questi, il 97,5% continuava a identificarsi con un genere diverso da quello assegnato alla nascita (il 94% come transgender, il 3,5% come non binario). Solo il 2,5% era tornato a identificarsi con il genere assegnato [4].
 
-Tuttavia, questo studio riguardava bambini con un'identità transgender già consolidata al punto da aver effettuato una transizione sociale. Per i bambini con comportamenti non conformi al genere -- che rappresentano un gruppo molto più ampio -- la situazione è diversa. La grande maggioranza di questi bambini crescerà identificandosi con il genere assegnato alla nascita. Alcuni di loro si riveleranno omosessuali o bisessuali. Alcuni si identificheranno come non binari. E alcuni saranno effettivamente transgender.
+Tuttavia, questo studio riguardava [bambini con un'identità transgender](/wiki/bambini-trans) già consolidata al punto da aver effettuato una transizione sociale. Per i bambini con comportamenti non conformi al genere -- che rappresentano un gruppo molto più ampio -- la situazione è diversa. La grande maggioranza di questi bambini crescerà identificandosi con il genere assegnato alla nascita. Alcuni di loro si riveleranno omosessuali o bisessuali. Alcuni si identificheranno come non binari. E alcuni saranno effettivamente transgender.
 
 ### Il problema degli studi sulla "desistenza"
 
@@ -155,7 +155,7 @@ Vale la pena sapere che gli studi più citati sulla cosiddetta "desistenza" -- q
 
 ### Il messaggio pratico per i genitori
 
-Se vostro figlio o vostra figlia mostra preferenze o comportamenti non conformi al genere, la probabilità statistica è che si tratti di un bambino con interessi diversi dagli stereotipi, non di un bambino transgender. Non c'è bisogno di medicalizzare l'esplorazione. Ma se il bambino esprime un'identità di genere diversa in modo persistente, consistente e insistente, allora è importante ascoltare e, se necessario, chiedere il supporto di un professionista.
+Se vostro figlio o vostra figlia mostra preferenze o comportamenti non conformi al genere, la probabilità statistica è che si tratti di un bambino con interessi diversi dagli stereotipi, non di un bambino transgender. Non c'è bisogno di medicalizzare l'esplorazione. Ma se il bambino esprime un'[identità di genere](/wiki/identita-di-genere) diversa in modo persistente, consistente e insistente, allora è importante ascoltare e, se necessario, chiedere il supporto di un professionista.
 
 ## Quando è il momento di parlare con un professionista
 
@@ -180,7 +180,7 @@ Questi comportamenti sono parte dello sviluppo normale e non richiedono interven
 
 ### A chi rivolgersi
 
-Il professionista giusto è uno psicologo o neuropsichiatra infantile con esperienza specifica nell'identità di genere in età evolutiva. Non un generico "psicologo per bambini", ma qualcuno formato su questi temi specifici. Il ruolo di questo professionista non è decidere cosa sia il bambino, né cambiarlo: è ascoltarlo con gli strumenti giusti e aiutare la famiglia a comprendere e supportare.
+Il professionista giusto è uno psicologo o neuropsichiatra infantile con esperienza specifica nell'identità di genere in età evolutiva. Non un generico "psicologo per bambini", ma qualcuno formato su questi temi specifici. Il ruolo di questo professionista non è decidere cosa sia il bambino, né cambiarlo: è ascoltarlo con gli strumenti giusti e [aiutare la famiglia a comprendere e supportare](/wiki/mio-figlio-trans).
 
 Le linee guida dell'American Academy of Pediatrics e del WPATH raccomandano un approccio esplorativo e affermativo: creare uno spazio in cui il bambino possa esprimere liberamente chi è, senza pressioni in nessuna direzione [6][8].
 
@@ -246,7 +246,7 @@ Se sentite il bisogno di parlare con qualcuno o di approfondire, ecco le risorse
 
 ### Supporto psicologico specializzato
 
-In Italia, i centri specializzati nella varianza di genere in età evolutiva fanno capo alla rete coordinata dall'ONIG (Osservatorio Nazionale sull'Identità di Genere), che dal 2008 si occupa di bambini e adolescenti con varianza di genere [11]. Questi centri sono presenti in diverse città italiane e offrono percorsi di supporto psicologico per il bambino e per la famiglia. Il modello italiano prevede esclusivamente percorsi psicologici per i bambini, senza alcun intervento medico, e l'eventuale accesso a trattamenti farmacologici è previsto solo in adolescenza e con il coinvolgimento della famiglia [11].
+In Italia, i [centri specializzati nella varianza di genere](/wiki/centri-transgender-italia) in età evolutiva fanno capo alla rete coordinata dall'ONIG (Osservatorio Nazionale sull'Identità di Genere), che dal 2008 si occupa di bambini e adolescenti con varianza di genere [11]. Questi centri sono presenti in diverse città italiane e offrono percorsi di supporto psicologico per il bambino e per la famiglia. Il modello italiano prevede esclusivamente percorsi psicologici per i bambini, senza alcun intervento medico, e l'eventuale accesso a trattamenti farmacologici è previsto solo in adolescenza e con il coinvolgimento della famiglia [11].
 
 Per trovare i centri più vicini, potete consultare il portale Infotrans.it, il sito istituzionale dell'Istituto Superiore di Sanità dedicato alle persone transgender e alle loro famiglie [13].
 
