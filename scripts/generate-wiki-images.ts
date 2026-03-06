@@ -112,6 +112,36 @@ const IMAGES_TO_GENERATE = [
 		slug: 'chirurgia-minori-trans-italia',
 		prompt:
 			'An abstract painting about protection and boundaries: a gentle shield-like form over smaller figures, clear defined lines suggesting rules and safeguards, soft clinical whites with warm protective amber and teal accents, thick visible brushstrokes, oil paint texture'
+	},
+	{
+		slug: 'sterilizzazione-forzata-diritti-riproduttivi-trans',
+		prompt:
+			'An abstract painting about broken chains and bodily autonomy: shattered metallic chain links falling away from organic body-like forms that are blooming and growing free, deep crimson and warm gold tones against cool steel grey fragments, a sense of liberation from institutional violence, thick impasto brushstrokes, oil paint texture'
+	},
+	{
+		slug: 'project-2025-trans',
+		prompt:
+			'An abstract painting of a massive dark blueprint document casting long shadows over small vulnerable figures below, authoritarian geometric shapes pressing down on organic flowing forms, deep navy blue and blood red against muted gold, a sense of institutional power and resistance, thick impasto brushstrokes, oil paint texture'
+	},
+	{
+		slug: 'sentenza-skrmetti',
+		prompt:
+			'An abstract painting of a judicial gavel striking down with ripple waves spreading outward across a landscape, the impact creating fracture lines in warm protective layers, dark judicial black and cold marble grey against warm amber and soft rose tones suggesting youth, thick impasto brushstrokes, oil paint texture'
+	},
+	{
+		slug: 'ordini-esecutivi-trump-trans',
+		prompt:
+			'An abstract painting of presidential seals and executive documents cascading down like dominoes, each one extinguishing a small warm light below, stark contrast between cold institutional white and deep authoritarian navy, scattered fragments of warm color resisting, thick impasto brushstrokes, oil paint texture'
+	},
+	{
+		slug: 'tennessee-laboratorio-anti-trans',
+		prompt:
+			'An abstract painting of a laboratory flask or beaker containing a turbulent mixture of dark legislation-like scrolls and restrictive geometric shapes, set against a map outline suggesting a US state, ominous dark reds and institutional greys with small sparks of defiant warm gold, thick impasto brushstrokes, oil paint texture'
+	},
+	{
+		slug: 'bathroom-bill',
+		prompt:
+			'An abstract painting of a door with a divided symbol splitting into two rigid halves, a figure caught between the halves unable to pass through, cold institutional tile blues and sterile whites contrasted with warm human amber tones, a sense of exclusion and absurdity, thick impasto brushstrokes, oil paint texture'
 	}
 ];
 
