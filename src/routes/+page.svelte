@@ -9,42 +9,6 @@
 	let { data } = $props();
 
 	let heroSearch = $state('');
-	let trackEl: HTMLDivElement | undefined;
-	let paused = false;
-	let offset = 0;
-	let totalWidth = 0;
-
-	function initAutoScroll(node: HTMLDivElement) {
-		trackEl = node;
-		let raf: number;
-		function measure() {
-			totalWidth = node.scrollWidth / 2;
-		}
-		measure();
-		function tick() {
-			if (!paused && totalWidth > 0) {
-				offset -= 0.5;
-				if (Math.abs(offset) >= totalWidth) offset += totalWidth;
-				node.style.transform = `translateX(${offset}px)`;
-			}
-			raf = requestAnimationFrame(tick);
-		}
-		raf = requestAnimationFrame(tick);
-		const ro = new ResizeObserver(measure);
-		ro.observe(node);
-		return { destroy() { cancelAnimationFrame(raf); ro.disconnect(); } };
-	}
-
-	function scrollCarousel(dir: number) {
-		paused = true;
-		if (!trackEl || totalWidth <= 0) return;
-		offset += dir * 400;
-		if (Math.abs(offset) >= totalWidth) offset += totalWidth;
-		if (offset > 0) offset -= totalWidth;
-		trackEl.style.transition = 'transform 0.4s ease';
-		trackEl.style.transform = `translateX(${offset}px)`;
-		setTimeout(() => { if (trackEl) trackEl.style.transition = ''; }, 400);
-	}
 
 	function handleSearch() {
 		const q = heroSearch.trim();
@@ -158,13 +122,68 @@
 </section>
 
 
+<!-- Personas -->
+<section>
+	<div class="w-full px-4 sm:px-6 lg:px-12 py-10 sm:py-16">
+		<div class="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-6">
+			<a href="/famiglie" class="group relative rounded-2xl overflow-hidden aspect-[2/1] sm:aspect-[4/3]">
+				<img
+					src="/images/wiki/mio-figlio-trans-thumb.webp"
+					alt="Genitore o familiare"
+					width="672"
+					height="378"
+					loading="lazy"
+					decoding="async"
+					class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+				/>
+				<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+				<div class="absolute bottom-0 left-0 right-0 p-4 sm:p-6">
+					<h3 class="text-white text-base sm:text-xl font-heading font-semibold mb-0.5 sm:mb-1">Sei un genitore o familiare</h3>
+					<p class="text-white/80 text-xs sm:text-sm leading-relaxed">Come supportare tuo figlio o una persona cara nel suo percorso.</p>
+				</div>
+			</a>
+			<a href="/giovani" class="group relative rounded-2xl overflow-hidden aspect-[2/1] sm:aspect-[4/3]">
+				<img
+					src="/images/wiki/bambini-trans-thumb.webp"
+					alt="Adolescente"
+					width="672"
+					height="378"
+					loading="lazy"
+					decoding="async"
+					class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+				/>
+				<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+				<div class="absolute bottom-0 left-0 right-0 p-4 sm:p-6">
+					<h3 class="text-white text-base sm:text-xl font-heading font-semibold mb-0.5 sm:mb-1">Sei un/a adolescente</h3>
+					<p class="text-white/80 text-xs sm:text-sm leading-relaxed">Risorse pensate per te: informazioni chiare, senza giudizio.</p>
+				</div>
+			</a>
+			<a href="/wiki?category=scienza" class="group relative rounded-2xl overflow-hidden aspect-[2/1] sm:aspect-[4/3]">
+				<img
+					src="/images/wiki/basi-biologiche-identita-di-genere-thumb.webp"
+					alt="Professionista"
+					width="672"
+					height="378"
+					loading="lazy"
+					decoding="async"
+					class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+				/>
+				<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+				<div class="absolute bottom-0 left-0 right-0 p-4 sm:p-6">
+					<h3 class="text-white text-base sm:text-xl font-heading font-semibold mb-0.5 sm:mb-1">Sei un/a professionista</h3>
+					<p class="text-white/80 text-xs sm:text-sm leading-relaxed">Evidenze scientifiche e fonti peer-reviewed per il tuo lavoro.</p>
+				</div>
+			</a>
+		</div>
+	</div>
+</section>
+
 <!-- Da leggere -->
 {#if data.featuredArticles.length > 0}
 	<section>
 		<div class="w-full px-4 sm:px-6 lg:px-12 py-10 sm:py-16">
 			<div class="flex items-center justify-between mb-4 sm:mb-6">
 				<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary">Da leggere</h2>
-				<a href="/wiki" class="text-sm text-muted hover:text-primary transition">Tutti gli articoli &rarr;</a>
 			</div>
 			<div class="hidden sm:flex gap-4 flex-wrap mb-8 sm:mb-12">
 				<a href="/wiki" class="text-sm text-primary font-medium transition">Tutti</a>
@@ -177,6 +196,11 @@
 					<ArticleCard {article} />
 				{/each}
 			</div>
+			<div class="flex justify-center mt-10 sm:mt-14">
+				<a href="/wiki" class="inline-flex items-center gap-2 px-6 py-2.5 rounded-full text-sm font-medium bg-primary text-bg hover:opacity-90 transition">
+					Tutti gli articoli &rarr;
+				</a>
+			</div>
 		</div>
 	</section>
 {/if}
@@ -185,59 +209,23 @@
 {#if data.personArticles.length > 0}
 	<section>
 		<div class="w-full px-4 sm:px-6 lg:px-12 py-10 sm:py-16">
-			<div class="text-center mb-8 sm:mb-10">
-				<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-3">Imprenditori, artisti, avvocati, scienziati. E molto altro.</h2>
-				<p class="text-muted max-w-lg mx-auto mb-4">
-					Le persone trans stanno ricoprendo ruoli chiave nella società. Noi raccontiamo le loro storie, con i fatti.
-				</p>
-				<a href="/wiki?category=persone" class="text-sm text-primary font-medium hover:underline transition">Inizia dalla Wiki &rarr;</a>
-			</div>
-			<div
-				class="relative overflow-hidden"
-				onmouseenter={() => { paused = true; }}
-				onmouseleave={() => { paused = false; }}
-			>
-				<button
-					onclick={() => scrollCarousel(1)}
-					class="absolute left-2 top-[37%] -translate-y-1/2 z-20 w-10 h-10 flex items-center justify-center rounded-full bg-bg/80 backdrop-blur border border-border shadow-sm hover:border-primary/30 transition text-primary text-lg"
-					aria-label="Scorri a sinistra"
-				>
-					&lsaquo;
-				</button>
-				<button
-					onclick={() => scrollCarousel(-1)}
-					class="absolute right-2 top-[37%] -translate-y-1/2 z-20 w-10 h-10 flex items-center justify-center rounded-full bg-bg/80 backdrop-blur border border-border shadow-sm hover:border-primary/30 transition text-primary text-lg"
-					aria-label="Scorri a destra"
-				>
-					&rsaquo;
-				</button>
-				<div
-					use:initAutoScroll
-					class="flex gap-6 pb-4 will-change-transform"
-				>
-					{#each [...data.personArticles, ...data.personArticles] as article}
-						<a
-							href="/wiki/{article.slug}"
-							class="group flex-shrink-0 w-[calc(100vw-2rem)] sm:w-[540px] lg:w-[640px]"
-						>
-							{#if article.image}
-								<div class="aspect-[16/9] overflow-hidden rounded-xl mb-3">
-									<img
-										src={article.image.replace(/\.webp$/, '-thumb.webp')}
-										alt={article.title}
-										width="672"
-										height="378"
-										decoding="async"
-										loading="lazy"
-										class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-									/>
-								</div>
-							{/if}
-							<h3 class="text-base font-heading font-semibold text-primary mb-1.5 group-hover:underline">{article.title}</h3>
-							<p class="text-muted text-sm leading-relaxed line-clamp-2">{article.description}</p>
-						</a>
-					{/each}
+			<div class="flex items-center justify-between mb-4 sm:mb-6">
+				<div>
+					<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-1">Imprenditori, artisti, avvocati, scienziati. E molto altro.</h2>
+					<p class="text-muted text-sm sm:text-base">
+						Le persone trans stanno ricoprendo ruoli chiave nella società. Noi raccontiamo le loro storie, con i fatti.
+					</p>
 				</div>
+			</div>
+			<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-14 sm:gap-x-8 sm:gap-y-16">
+				{#each data.personArticles.slice(0, 6) as article}
+					<ArticleCard {article} />
+				{/each}
+			</div>
+			<div class="flex justify-center mt-10 sm:mt-14">
+				<a href="/wiki?category=persone" class="inline-flex items-center gap-2 px-6 py-2.5 rounded-full text-sm font-medium bg-primary text-bg hover:opacity-90 transition">
+					Tutte le storie &rarr;
+				</a>
 			</div>
 		</div>
 	</section>

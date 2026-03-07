@@ -19,6 +19,7 @@ export async function GET() {
 		{ url: '/wiki', priority: '0.9', changefreq: 'weekly', lastmod: today },
 		{ url: '/editoriali', priority: '0.8', changefreq: 'daily', lastmod: today },
 		{ url: '/giovani', priority: '0.8', changefreq: 'monthly', lastmod: '2026-02-25' },
+		{ url: '/famiglie', priority: '0.8', changefreq: 'monthly', lastmod: today },
 		{ url: '/quiz', priority: '0.8', changefreq: 'monthly', lastmod: '2026-02-20' },
 		{ url: '/glossario', priority: '0.7', changefreq: 'monthly', lastmod: '2026-02-20' },
 		{ url: '/regioni', priority: '0.7', changefreq: 'monthly', lastmod: '2026-02-25' },
