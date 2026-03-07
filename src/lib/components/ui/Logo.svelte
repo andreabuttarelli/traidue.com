@@ -39,7 +39,7 @@
 	}
 
 	.logo-text {
-		opacity: 0;
+		opacity: 0.01;
 		animation: text-fade 0.6s ease-out 0.15s forwards;
 	}
 
@@ -82,7 +82,7 @@
 
 	@keyframes text-fade {
 		from {
-			opacity: 0;
+			opacity: 0.01;
 		}
 		to {
 			opacity: 1;

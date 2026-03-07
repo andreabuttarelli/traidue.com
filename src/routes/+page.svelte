@@ -67,6 +67,29 @@
 		}
 	};
 
+	const organizationSchema = {
+		'@context': 'https://schema.org',
+		'@type': 'Organization',
+		name: 'Tra i Due',
+		url: 'https://www.traidue.com',
+		logo: {
+			'@type': 'ImageObject',
+			url: 'https://www.traidue.com/favicon.png'
+		},
+		description: 'Informazione evidence-based sulle tematiche trans: identità di genere, scienza, percorsi e cultura.',
+		email: 'andrea@teta.so',
+		founder: {
+			'@type': 'Person',
+			name: 'Andrea Buttarelli',
+			url: 'https://www.traidue.com/chi-siamo'
+		},
+		sameAs: [
+			'https://github.com/andreabuttarelli/traidue.com',
+			'https://www.instagram.com/tra.i.due'
+		],
+		inLanguage: 'it'
+	};
+
 	const categories = [
 		{ name: 'Terminologia', href: '/wiki?category=terminologia' },
 		{ name: 'Scienza', href: '/wiki?category=scienza' },
@@ -102,6 +125,7 @@
 />
 
 <StructuredData schema={websiteSchema} />
+<StructuredData schema={organizationSchema} />
 <StructuredData schema={homeFaqSchema} />
 
 <!-- Hero -->

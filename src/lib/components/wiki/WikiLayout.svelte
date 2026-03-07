@@ -13,6 +13,7 @@
 		image,
 		sources = [],
 		media = [],
+		faq = [],
 		changelog = [],
 		related = [],
 		children
@@ -27,6 +28,14 @@
 	};
 
 	let proseEl: HTMLDivElement;
+	let readingTime = $state(0);
+
+	$effect(() => {
+		if (!proseEl) return;
+		const text = proseEl.textContent ?? '';
+		const words = text.trim().split(/\s+/).length;
+		readingTime = Math.max(1, Math.ceil(words / 200));
+	});
 
 	$effect(() => {
 		if (!proseEl) return;
@@ -300,6 +309,27 @@
 		{@render children()}
 	</div>
 
+	{#if faq.length > 0}
+		<div class="mt-12 pt-8 border-t border-border">
+			<h2 class="text-xl font-heading font-semibold text-primary mb-4">Domande frequenti</h2>
+			<div class="space-y-3">
+				{#each faq as item}
+					<details class="group border border-border rounded-lg">
+						<summary class="flex items-center justify-between cursor-pointer px-4 py-3 text-sm font-medium text-primary select-none list-none [&::-webkit-details-marker]:hidden">
+							<span>{item.question}</span>
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 shrink-0 text-muted transition-transform group-open:rotate-90">
+								<path fill-rule="evenodd" d="M6.22 4.22a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06l-3.25 3.25a.75.75 0 0 1-1.06-1.06L8.94 8 6.22 5.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+							</svg>
+						</summary>
+						<div class="px-4 pb-4 text-sm text-muted leading-relaxed">
+							{item.answer}
+						</div>
+					</details>
+				{/each}
+			</div>
+		</div>
+	{/if}
+
 	{#if sources.length > 0}
 		<footer class="mt-12 pt-8 border-t border-border">
 			<h2 class="text-xl font-heading font-semibold text-primary mb-4">Fonti</h2>
@@ -378,6 +408,10 @@
 					Pubblicato {relativeDate(date)}
 				{/if}
 			</span>
+			{#if readingTime > 0}
+				<span>&middot;</span>
+				<span>{readingTime} min di lettura</span>
+			{/if}
 			{#if sources.length > 0}
 				<span>&middot;</span>
 				<span>{sources.length} fonti citate</span>

@@ -24,6 +24,7 @@
 		url: `https://www.traidue.com/editoriali/${article.slug}`,
 		...(article.image && { image: article.image }),
 		datePublished: article.published_at,
+		dateModified: article.updated_at || article.published_at,
 		author: {
 			'@type': 'Person',
 			name: 'Andrea Buttarelli',

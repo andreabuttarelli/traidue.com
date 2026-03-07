@@ -5,19 +5,16 @@
 
 	let { data } = $props();
 
-	function extractResearchers(sources: { title: string; url: string; year?: number }[]): string[] {
-		const names = new Set<string>();
-		for (const s of sources) {
-			const match = s.title.match(/^(.+?)\s*-\s*/);
-			if (match) {
-				const raw = match[1].replace(/\s+et al\.?$/, '').trim();
-				if (raw && raw.length > 3 && raw.length < 60) names.add(raw);
-			}
-		}
-		return [...names];
+	function extractCitations(sources: { title: string; url: string; year?: number }[]) {
+		return sources.filter((s) => s.title.includes(' - ')).map((s) => {
+			const [rawAuthor, ...rest] = s.title.split(' - ');
+			const author = rawAuthor.replace(/\s+et al\.?$/, '').trim();
+			const name = rest.join(' - ').trim();
+			return { author, name, url: s.url, year: s.year };
+		}).filter((c) => c.author.length > 3 && c.author.length < 60);
 	}
 
-	let citedResearchers = $derived(extractResearchers(data.metadata.sources ?? []));
+	let citations = $derived(extractCitations(data.metadata.sources ?? []));
 
 	let articleSchema = $derived({
 		'@context': 'https://schema.org',
@@ -53,10 +50,20 @@
 			'@type': 'WebPage',
 			'@id': `https://www.traidue.com/wiki/${data.metadata.slug}`
 		},
-		...(citedResearchers.length > 0 && {
-			citation: citedResearchers.map((name) => ({
+		speakable: {
+			'@type': 'SpeakableSpecification',
+			cssSelector: ['article header h1', '.prose > p:first-of-type']
+		},
+		about: data.metadata.tags?.length
+			? data.metadata.tags.map((t: string) => ({ '@type': 'Thing', name: t }))
+			: undefined,
+		...(citations.length > 0 && {
+			citation: citations.map((c) => ({
 				'@type': 'ScholarlyArticle',
-				author: { '@type': 'Person', name }
+				name: c.name,
+				url: c.url,
+				...(c.year && { datePublished: String(c.year) }),
+				author: { '@type': 'Person', name: c.author }
 			}))
 		})
 	});
@@ -94,6 +101,16 @@
 />
 
 <StructuredData schema={articleSchema} />
+
+<StructuredData schema={{
+	'@context': 'https://schema.org',
+	'@type': 'BreadcrumbList',
+	itemListElement: [
+		{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.traidue.com' },
+		{ '@type': 'ListItem', position: 2, name: 'Wiki', item: 'https://www.traidue.com/wiki' },
+		{ '@type': 'ListItem', position: 3, name: data.metadata.title }
+	]
+}} />
 
 {#if faqSchema}
 	<StructuredData schema={faqSchema} />

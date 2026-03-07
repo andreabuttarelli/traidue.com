@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import SEO from '$lib/components/seo/SEO.svelte';
+	import StructuredData from '$lib/components/seo/StructuredData.svelte';
 	import SearchInput from '$lib/components/ui/SearchInput.svelte';
 	import ArticleCard from '$lib/components/wiki/ArticleCard.svelte';
 	import QuizCard from '$lib/components/quiz/QuizCard.svelte';
@@ -37,10 +38,42 @@
 </script>
 
 <SEO
-	title="Wiki"
+	title="Wiki Trans: {data.articles.length}+ Articoli Scientifici"
 	description="Esplora la nostra wiki: articoli su identità di genere, scienza, percorsi e cultura trans."
 	url="https://www.traidue.com/wiki"
 />
+
+<StructuredData schema={{
+	'@context': 'https://schema.org',
+	'@type': 'CollectionPage',
+	name: 'Wiki',
+	description: 'Esplora la nostra wiki: articoli su identità di genere, scienza, percorsi e cultura trans.',
+	url: 'https://www.traidue.com/wiki',
+	inLanguage: 'it',
+	isPartOf: {
+		'@type': 'WebSite',
+		name: 'Tra i Due',
+		url: 'https://www.traidue.com'
+	},
+	mainEntity: {
+		'@type': 'ItemList',
+		numberOfItems: data.articles.length,
+		itemListElement: data.articles.slice(0, 30).map((a, i) => ({
+			'@type': 'ListItem',
+			position: i + 1,
+			url: `https://www.traidue.com/wiki/${a.slug}`
+		}))
+	}
+}} />
+
+<StructuredData schema={{
+	'@context': 'https://schema.org',
+	'@type': 'BreadcrumbList',
+	itemListElement: [
+		{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.traidue.com' },
+		{ '@type': 'ListItem', position: 2, name: 'Wiki' }
+	]
+}} />
 
 <div class="w-full px-4 sm:px-6 lg:px-12">
 	<div class="py-10 sm:py-16 lg:py-20 text-center flex flex-col items-center">

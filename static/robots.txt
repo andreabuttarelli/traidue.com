@@ -1,5 +1,28 @@
 User-agent: *
 Allow: /
 
+# AI Search Crawlers (allowed for citations)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# AI Training Crawlers (allowed — open source project, Apache 2.0)
+User-agent: CCBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
 Sitemap: https://www.traidue.com/sitemap.xml
 Sitemap: https://www.traidue.com/news-sitemap.xml

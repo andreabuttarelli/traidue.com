@@ -12,19 +12,22 @@ export async function GET() {
 	const articles = getAllArticles();
 	const quizzes = getAllQuizzes();
 
+	const today = new Date().toISOString().split('T')[0];
+
 	const pages = [
-		{ url: '', priority: '1.0', changefreq: 'weekly' },
-		{ url: '/wiki', priority: '0.9', changefreq: 'weekly' },
-		{ url: '/editoriali', priority: '0.8', changefreq: 'daily' },
-		{ url: '/giovani', priority: '0.8', changefreq: 'monthly' },
-		{ url: '/quiz', priority: '0.8', changefreq: 'monthly' },
-		{ url: '/glossario', priority: '0.7', changefreq: 'monthly' },
-		{ url: '/regioni', priority: '0.7', changefreq: 'monthly' },
-		{ url: '/chi-siamo', priority: '0.5', changefreq: 'monthly' },
-		{ url: '/perche-ai', priority: '0.5', changefreq: 'monthly' },
-		{ url: '/cookie', priority: '0.3', changefreq: 'yearly' },
-		{ url: '/privacy', priority: '0.3', changefreq: 'yearly' },
-		{ url: '/termini', priority: '0.3', changefreq: 'yearly' }
+		{ url: '', priority: '1.0', changefreq: 'weekly', lastmod: today },
+		{ url: '/wiki', priority: '0.9', changefreq: 'weekly', lastmod: today },
+		{ url: '/editoriali', priority: '0.8', changefreq: 'daily', lastmod: today },
+		{ url: '/giovani', priority: '0.8', changefreq: 'monthly', lastmod: '2026-02-25' },
+		{ url: '/quiz', priority: '0.8', changefreq: 'monthly', lastmod: '2026-02-20' },
+		{ url: '/glossario', priority: '0.7', changefreq: 'monthly', lastmod: '2026-02-20' },
+		{ url: '/regioni', priority: '0.7', changefreq: 'monthly', lastmod: '2026-02-25' },
+		{ url: '/chi-siamo', priority: '0.5', changefreq: 'monthly', lastmod: today },
+		{ url: '/perche-ai', priority: '0.5', changefreq: 'monthly', lastmod: '2026-02-20' },
+		{ url: '/newsletter', priority: '0.5', changefreq: 'monthly', lastmod: '2026-02-20' },
+		{ url: '/cookie', priority: '0.3', changefreq: 'yearly', lastmod: '2026-02-18' },
+		{ url: '/privacy', priority: '0.3', changefreq: 'yearly', lastmod: '2026-02-18' },
+		{ url: '/termini', priority: '0.3', changefreq: 'yearly', lastmod: '2026-02-18' }
 	];
 
 	const articleUrls = articles.map((a) => ({

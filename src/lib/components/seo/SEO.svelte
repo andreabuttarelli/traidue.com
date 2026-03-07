@@ -28,6 +28,8 @@
 	<meta name="description" content={description} />
 	{#if noindex}
 		<meta name="robots" content="noindex, follow" />
+	{:else}
+		<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 	{/if}
 	<link rel="canonical" href={url} />
 	<link rel="alternate" hreflang="it" href={url} />

@@ -63,7 +63,11 @@
 	}
 
 	if (browser && localStorage.getItem(CONSENT_KEY) === 'accepted') {
-		loadAnalytics();
+		if ('requestIdleCallback' in window) {
+			requestIdleCallback(() => loadAnalytics());
+		} else {
+			setTimeout(() => loadAnalytics(), 3000);
+		}
 	}
 </script>
 
