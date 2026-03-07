@@ -1,6 +1,6 @@
 ---
 title: "Transizione di genere dopo i 40 anni: è possibile?"
-seoTitle: "Transizione di genere dopo i 40 anni: guida completa e cosa aspettarsi"
+seoTitle: "Transizione di genere dopo i 40: cosa aspettarsi"
 slug: "transizione-dopo-i-40"
 description: "Si può fare la transizione dopo i 40 o 50 anni? Sì. Guida completa su terapia ormonale, chirurgia e percorso sociale per chi inizia la transizione in età adulta."
 category: "percorsi"

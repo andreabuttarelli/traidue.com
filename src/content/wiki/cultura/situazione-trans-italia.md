@@ -1,6 +1,6 @@
 ---
 title: "La situazione delle persone trans in Italia oggi"
-seoTitle: "Qual è la situazione dei diritti trans in Italia oggi?"
+seoTitle: "Persone trans in Italia: diritti, dati e risorse (2026)"
 slug: "situazione-trans-italia"
 description: "La situazione delle persone trans in Italia: dati ISTAT su discriminazione, sanità, lavoro, diritti e risorse disponibili aggiornate."
 category: "cultura"
@@ -54,7 +54,12 @@ sources:
   - title: "Quotidiano Sanità – Al via indagine sulla popolazione transgender (Careggi, ISS, The Bridge)"
     url: "https://www.quotidianosanita.it/scienza-e-farmaci/articolo.php?articolo_id=80135"
     year: 2022
-related: ["legge-164-italia", "diritti-trans-internazionali"]
+related:
+  - legge-164-italia
+  - diritti-trans-internazionali
+  - discriminazione-lavoro-trans-italia
+  - centri-transgender-italia
+  - quante-persone-trans
 media:
   - type: libro
     title: "Le parole per dirlo"

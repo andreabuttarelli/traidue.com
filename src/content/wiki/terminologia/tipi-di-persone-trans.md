@@ -1,6 +1,6 @@
 ---
 title: "Quanti tipi di persone trans ci sono?"
-seoTitle: "Quanti tipi di persone trans esistono? MTF, FTM e identità non binarie"
+seoTitle: "Tipi di persone trans: MTF, FTM, non binario e oltre"
 slug: "tipi-di-persone-trans"
 description: "Tipi di persone trans: donna trans (MTF), uomo trans (FTM), non binario e altre identità. Differenza transgender transessuale e significati."
 category: "terminologia"
@@ -36,8 +36,9 @@ sources:
 related:
   - identita-di-genere
   - persone-non-binarie
+  - disforia-di-genere
   - cosa-significa-essere-trans
-  - che-cose-il-genere
+  - linguaggio-inclusivo
 faq:
   - question: "Quanti tipi di persone trans ci sono?"
     answer: "Le identità trans principali includono donne trans, uomini trans e persone non binarie. All'interno di queste categorie esistono molte sfumature: genderqueer, genderfluid, agender, bigender e altre. Non si tratta di categorie rigide ma di uno spettro di esperienze."

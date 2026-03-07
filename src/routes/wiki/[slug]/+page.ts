@@ -12,8 +12,16 @@ export function load({ params }) {
 	if (!article) {
 		error(404, 'Articolo non trovato');
 	}
+
+	const allArticles = getAllArticles();
+	const relatedArticles = (article.metadata.related ?? [])
+		.map((slug: string) => allArticles.find((a) => a.slug === slug))
+		.filter((a): a is NonNullable<typeof a> => a != null)
+		.map(({ slug, title, description, category, image, sources }) => ({ slug, title, description, category, image, sources }));
+
 	return {
 		metadata: article.metadata,
-		Content: article.default
+		Content: article.default,
+		relatedArticles
 	};
 }

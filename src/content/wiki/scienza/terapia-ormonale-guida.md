@@ -1,10 +1,16 @@
 ---
 title: "Guida completa alla terapia ormonale"
-seoTitle: "Terapia ormonale per persone trans: la guida completa"
+seoTitle: "Terapia ormonale trans: come iniziare e accesso SSN"
 slug: "terapia-ormonale-guida"
 description: "Come iniziare la terapia ormonale transgender (TOS) in Italia: farmaci, dosaggi, accesso gratuito via SSN, nota AIFA, estradiolo, testosterone e timeline."
 category: "scienza"
 tags: ["terapia ormonale", "HRT", "GAHT", "estrogeni", "testosterone", "anti-androgeni", "dosaggi", "guida", "Italia", "TOS", "estradiolo", "SSN", "gratuita", "AIFA", "come iniziare", "terapia ormonale pericoli", "effetti collaterali ormoni trans", "ormoni trans fertilità", "terapia ormonale minori"]
+related:
+  - iniziare-transizione
+  - corpo-cambia-dopo-ormoni
+  - terapia-ormonale-a-vita
+  - bloccanti-puberta
+  - fertilita-persone-trans
 date: "2026-02-21"
 updated: "2026-03-02"
 image: "/images/wiki/terapia-ormonale-guida.webp"

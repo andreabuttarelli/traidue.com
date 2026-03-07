@@ -1,6 +1,6 @@
 ---
 title: "Disforia di genere: cos'è, sintomi e diagnosi"
-seoTitle: "Cos'è la disforia di genere? Significato, sintomi e differenza con l'incongruenza di genere"
+seoTitle: "Disforia di genere: cos'è, sintomi e diagnosi (DSM-5)"
 slug: "disforia-di-genere"
 description: "Cos'è la disforia di genere, come si manifesta, criteri del DSM-5, differenza con l'incongruenza di genere ICD-11 e perché non è una malattia mentale."
 category: "terminologia"
@@ -72,9 +72,9 @@ faq:
 related:
   - identita-di-genere
   - iniziare-transizione
+  - terapia-ormonale-guida
   - bambini-trans
   - salute-mentale-persone-trans
-  - basi-biologiche-identita-di-genere
 media:
   - type: libro
     title: "Gender Trouble"

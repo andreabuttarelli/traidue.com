@@ -34,21 +34,24 @@
 
 	const founderSchema = {
 		'@context': 'https://schema.org',
-		'@type': 'Person',
-		name: 'Andrea Buttarelli',
-		url: 'https://www.traidue.com/chi-siamo',
-		jobTitle: 'Founder',
-		description: 'Docente IED, imprenditrice tech e AI. Founder di Tra i Due.',
-		worksFor: {
-			'@type': 'Organization',
-			name: 'Tra i Due',
-			url: 'https://www.traidue.com'
-		},
-		sameAs: [
-			'https://www.instagram.com/andrea_buttarelli',
-			'https://www.linkedin.com/in/andreabuttarelli/',
-			'https://github.com/andreabuttarelli'
-		]
+		'@type': 'ProfilePage',
+		mainEntity: {
+			'@type': 'Person',
+			name: 'Andrea Buttarelli',
+			url: 'https://www.traidue.com/chi-siamo',
+			jobTitle: 'Founder',
+			description: 'Docente IED, imprenditrice tech e AI. Founder di Tra i Due.',
+			worksFor: {
+				'@type': 'Organization',
+				name: 'Tra i Due',
+				url: 'https://www.traidue.com'
+			},
+			sameAs: [
+				'https://www.instagram.com/andrea_buttarelli',
+				'https://www.linkedin.com/in/andreabuttarelli/',
+				'https://github.com/andreabuttarelli'
+			]
+		}
 	};
 </script>
 

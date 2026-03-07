@@ -2,6 +2,7 @@
 	import SEO from '$lib/components/seo/SEO.svelte';
 	import StructuredData from '$lib/components/seo/StructuredData.svelte';
 	import TOC from '$lib/components/wiki/TOC.svelte';
+	import ArticleCard from '$lib/components/wiki/ArticleCard.svelte';
 
 	let { data } = $props();
 
@@ -120,5 +121,16 @@
 	<TOC />
 	<div class="flex-1 min-w-0">
 		<data.Content />
+
+		{#if data.relatedArticles.length > 0}
+			<nav class="mt-12 pt-8 border-t border-border" aria-label="Articoli correlati">
+				<h2 class="text-xl font-heading font-semibold text-primary mb-6">Continua a leggere</h2>
+				<div class="grid sm:grid-cols-2 gap-x-6 gap-y-10 sm:gap-x-8 sm:gap-y-12">
+					{#each data.relatedArticles as article}
+						<ArticleCard {article} />
+					{/each}
+				</div>
+			</nav>
+		{/if}
 	</div>
 </div>
