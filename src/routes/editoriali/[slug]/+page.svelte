@@ -25,9 +25,15 @@
 		...(article.image && { image: article.image }),
 		datePublished: article.published_at,
 		author: {
-			'@type': 'Organization',
-			name: 'Tra i Due',
-			url: 'https://www.traidue.com'
+			'@type': 'Person',
+			name: 'Andrea Buttarelli',
+			url: 'https://www.traidue.com/chi-siamo',
+			jobTitle: 'Founder',
+			sameAs: [
+				'https://www.instagram.com/andrea_buttarelli',
+				'https://www.linkedin.com/in/andreabuttarelli/',
+				'https://github.com/andreabuttarelli'
+			]
 		},
 		publisher: {
 			'@type': 'Organization',
@@ -98,7 +104,9 @@
 
 			<div class="flex items-center justify-between">
 				<div class="flex items-center gap-3 text-sm text-muted">
+					<a href="/chi-siamo" class="hover:text-primary transition">Andrea Buttarelli</a>
 					{#if article.published_at}
+						<span>&middot;</span>
 						<time datetime={article.published_at}>{formatDate(article.published_at)}</time>
 					{/if}
 					<span class="inline-flex items-center gap-1 text-xs px-2 py-0.5 rounded-full bg-surface text-muted border border-border">

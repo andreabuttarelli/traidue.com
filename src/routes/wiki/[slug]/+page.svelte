@@ -5,15 +5,60 @@
 
 	let { data } = $props();
 
+	function extractResearchers(sources: { title: string; url: string; year?: number }[]): string[] {
+		const names = new Set<string>();
+		for (const s of sources) {
+			const match = s.title.match(/^(.+?)\s*-\s*/);
+			if (match) {
+				const raw = match[1].replace(/\s+et al\.?$/, '').trim();
+				if (raw && raw.length > 3 && raw.length < 60) names.add(raw);
+			}
+		}
+		return [...names];
+	}
+
+	let citedResearchers = $derived(extractResearchers(data.metadata.sources ?? []));
+
 	let articleSchema = $derived({
 		'@context': 'https://schema.org',
 		'@type': 'Article',
 		headline: data.metadata.title,
 		description: data.metadata.description,
+		url: `https://www.traidue.com/wiki/${data.metadata.slug}`,
+		image: `https://www.traidue.com/images/wiki/${data.metadata.slug}.webp`,
+		inLanguage: 'it',
 		datePublished: data.metadata.date,
 		dateModified: data.metadata.updated || data.metadata.date,
-		author: { '@type': 'Organization', name: 'Tra i Due' },
-		publisher: { '@type': 'Organization', name: 'Tra i Due' }
+		author: {
+			'@type': 'Person',
+			name: 'Andrea Buttarelli',
+			url: 'https://www.traidue.com/chi-siamo',
+			jobTitle: 'Founder',
+			sameAs: [
+				'https://www.instagram.com/andrea_buttarelli',
+				'https://www.linkedin.com/in/andreabuttarelli/',
+				'https://github.com/andreabuttarelli'
+			]
+		},
+		publisher: {
+			'@type': 'Organization',
+			name: 'Tra i Due',
+			url: 'https://www.traidue.com',
+			logo: {
+				'@type': 'ImageObject',
+				url: 'https://www.traidue.com/favicon.png'
+			}
+		},
+		mainEntityOfPage: {
+			'@type': 'WebPage',
+			'@id': `https://www.traidue.com/wiki/${data.metadata.slug}`
+		},
+		...(citedResearchers.length > 0 && {
+			citation: citedResearchers.map((name) => ({
+				'@type': 'ScholarlyArticle',
+				author: { '@type': 'Person', name }
+			}))
+		})
 	});
 
 	let faqSchema = $derived(
