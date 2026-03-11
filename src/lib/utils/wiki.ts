@@ -85,7 +85,7 @@ export function getTranslations(translationKey: string): Record<string, WikiArti
 	const result: Record<string, WikiArticle> = {};
 
 	for (const [path, module] of Object.entries(modules)) {
-		if (module.metadata.translationKey === translationKey) {
+		if (module.metadata?.translationKey === translationKey) {
 			const lang = getLangFromPath(path);
 			const slug = path.split('/').pop()?.replace('.md', '') ?? '';
 			result[lang] = { ...module.metadata, slug, lang };
