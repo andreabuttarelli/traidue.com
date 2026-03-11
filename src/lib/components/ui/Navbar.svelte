@@ -2,7 +2,9 @@
 	import { goto } from '$app/navigation';
 	import { page } from '$app/state';
 	import type { WikiArticle } from '$lib/utils/wiki';
+	import * as m from '$lib/paraglide/messages';
 	import Logo from './Logo.svelte';
+	import LanguageSwitcher from './LanguageSwitcher.svelte';
 	import SearchInput from './SearchInput.svelte';
 	import ThemeToggle from './ThemeToggle.svelte';
 
@@ -17,12 +19,12 @@
 	let mobileMenuOpen = $state(false);
 	let navSearch = $state('');
 
-	const navLinks = [
-		{ href: '/wiki', label: 'Wiki' },
-		{ href: '/editoriali', label: 'Opinioni' },
-		{ href: '/quiz', label: 'Quiz' },
-		{ href: '/chi-siamo', label: 'Chi Siamo' }
-	];
+	const navLinks = $derived([
+		{ href: '/wiki', label: m.nav_wiki() },
+		{ href: '/editoriali', label: m.nav_opinions() },
+		{ href: '/quiz', label: m.nav_quiz() },
+		{ href: '/chi-siamo', label: m.nav_about() }
+	]);
 
 	function isActive(href: string): boolean {
 		const pathname = page.url.pathname;
@@ -58,7 +60,7 @@
 			<button
 				class="flex flex-col justify-center items-center w-10 h-10 gap-1.5"
 				onclick={toggleMenu}
-				aria-label={mobileMenuOpen ? 'Chiudi menu' : 'Apri menu'}
+				aria-label={mobileMenuOpen ? m.menu_close() : m.menu_open()}
 				aria-expanded={mobileMenuOpen}
 			>
 				<span
@@ -84,7 +86,7 @@
 					bind:value={navSearch}
 					{articles}
 					{quizzes}
-					placeholder="Cerca nel sito..."
+					placeholder={m.search_placeholder()}
 					size="sm"
 					onsubmit={handleSearch}
 				/>
@@ -101,6 +103,7 @@
 						{link.label}
 					</a>
 				{/each}
+				<LanguageSwitcher />
 				<ThemeToggle />
 			</div>
 		</div>
@@ -122,7 +125,7 @@
 						bind:value={navSearch}
 						{articles}
 						{quizzes}
-						placeholder="Cerca nel sito..."
+						placeholder={m.search_placeholder()}
 						size="base"
 						onsubmit={handleSearch}
 					/>
@@ -138,7 +141,8 @@
 						{link.label}
 					</a>
 				{/each}
-				<div class="pt-3">
+				<div class="flex items-center justify-between pt-3">
+					<LanguageSwitcher />
 					<ThemeToggle variant="segmented" />
 				</div>
 			</div>

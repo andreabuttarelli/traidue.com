@@ -1,4 +1,5 @@
 <script lang="ts">
+	import * as m from '$lib/paraglide/messages';
 	import Logo from './Logo.svelte';
 </script>
 
@@ -8,7 +9,7 @@
 			<div class="max-w-sm">
 				<p class="text-lg text-primary mb-2"><Logo /></p>
 				<p class="text-sm text-muted leading-relaxed mb-4">
-					Scienza, storie e cultura trans.
+					{m.footer_tagline()}
 				</p>
 				<a href="https://instagram.com/tra.i.due" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="inline-block text-muted hover:text-primary transition-colors mb-8">
 					<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
@@ -25,32 +26,32 @@
 			</div>
 
 			<div>
-				<p class="text-sm font-medium text-primary mb-3">Navigazione</p>
+				<p class="text-sm font-medium text-primary mb-3">{m.footer_navigation()}</p>
 				<nav class="flex flex-col gap-2">
-					<a href="/wiki" class="text-sm text-muted hover:text-primary transition-colors">Wiki</a>
-					<a href="/quiz" class="text-sm text-muted hover:text-primary transition-colors">Quiz</a>
-					<a href="/glossario" class="text-sm text-muted hover:text-primary transition-colors">Glossario</a>
-					<a href="/regioni" class="text-sm text-muted hover:text-primary transition-colors">Regioni</a>
-					<a href="/chi-siamo" class="text-sm text-muted hover:text-primary transition-colors">Chi Siamo</a>
-					<a href="/perche-ai" class="text-sm text-muted hover:text-primary transition-colors">Perché l'AI</a>
+					<a href="/wiki" class="text-sm text-muted hover:text-primary transition-colors">{m.nav_wiki()}</a>
+					<a href="/quiz" class="text-sm text-muted hover:text-primary transition-colors">{m.nav_quiz()}</a>
+					<a href="/glossario" class="text-sm text-muted hover:text-primary transition-colors">{m.nav_glossary()}</a>
+					<a href="/regioni" class="text-sm text-muted hover:text-primary transition-colors">{m.nav_regions()}</a>
+					<a href="/chi-siamo" class="text-sm text-muted hover:text-primary transition-colors">{m.nav_about()}</a>
+					<a href="/perche-ai" class="text-sm text-muted hover:text-primary transition-colors">{m.nav_why_ai()}</a>
 					<a href="https://github.com/andreabuttarelli/traidue.com" target="_blank" rel="noopener noreferrer" class="text-sm text-muted hover:text-primary transition-colors">GitHub</a>
 				</nav>
 			</div>
 
 			<div>
-				<p class="text-sm font-medium text-primary mb-3">Legale</p>
+				<p class="text-sm font-medium text-primary mb-3">{m.footer_legal()}</p>
 				<div class="flex flex-col gap-2">
-					<p class="text-sm text-muted">&copy; 2026 Tra i Due</p>
-					<a href="/privacy" class="text-sm text-muted hover:text-primary transition-colors">Privacy Policy</a>
-					<a href="/cookie" class="text-sm text-muted hover:text-primary transition-colors">Cookie Policy</a>
-					<a href="/termini" class="text-sm text-muted hover:text-primary transition-colors">Termini di Utilizzo</a>
+					<p class="text-sm text-muted">{m.footer_copyright()}</p>
+					<a href="/privacy" class="text-sm text-muted hover:text-primary transition-colors">{m.footer_privacy()}</a>
+					<a href="/cookie" class="text-sm text-muted hover:text-primary transition-colors">{m.footer_cookie()}</a>
+					<a href="/termini" class="text-sm text-muted hover:text-primary transition-colors">{m.footer_terms()}</a>
 					<a
 						href="https://www.apache.org/licenses/LICENSE-2.0"
 						target="_blank"
 						rel="noopener noreferrer"
 						class="text-sm text-muted hover:text-primary transition-colors"
 					>
-						Licenza Apache 2.0
+						{m.footer_license()}
 					</a>
 				</div>
 			</div>
@@ -58,14 +59,14 @@
 		<!-- Newsletter CTA -->
 		<div class="border-t border-border mt-8 sm:mt-12 pt-8 sm:pt-12 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
 			<div>
-				<p class="text-sm font-medium text-primary mb-1">Resta aggiornato</p>
-				<p class="text-sm text-muted">Nuovi articoli e aggiornamenti. Niente spam, solo fatti.</p>
+				<p class="text-sm font-medium text-primary mb-1">{m.footer_newsletter_title()}</p>
+				<p class="text-sm text-muted">{m.footer_newsletter_desc()}</p>
 			</div>
 			<a
 				href="/newsletter"
 				class="inline-block px-5 py-2.5 rounded-full text-sm font-medium bg-primary text-bg hover:bg-primary/80 transition self-start sm:self-center"
 			>
-				Iscriviti &rarr;
+				{m.footer_newsletter_cta()} &rarr;
 			</a>
 		</div>
 	</div>
