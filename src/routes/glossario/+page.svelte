@@ -2,9 +2,12 @@
 	import SEO from '$lib/components/seo/SEO.svelte';
 	import StructuredData from '$lib/components/seo/StructuredData.svelte';
 	import Breadcrumb from '$lib/components/ui/Breadcrumb.svelte';
-	import { glossaryTerms as terms } from '$lib/data/glossary';
+	import { getGlossaryTerms } from '$lib/data/glossary';
+	import { getLocale } from '$lib/paraglide/runtime';
 
-	const definedTermsSchema = {
+	const terms = $derived(getGlossaryTerms(getLocale()));
+
+	const definedTermsSchema = $derived({
 		'@context': 'https://schema.org',
 		'@type': 'DefinedTermSet',
 		name: 'Glossario sulle tematiche trans',
@@ -15,7 +18,7 @@
 			name: t.term,
 			description: t.definition
 		}))
-	};
+	});
 </script>
 
 <SEO

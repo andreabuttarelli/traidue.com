@@ -21,13 +21,22 @@ export interface Quiz {
 	levels: QuizLevel[];
 }
 
-export function getAllQuizzes(): Quiz[] {
-	const modules = import.meta.glob<{ default: Quiz }>('/src/lib/data/quiz/*.json', { eager: true });
-	return Object.values(modules).map(m => m.default);
+const allModules = import.meta.glob<{ default: Quiz }>('/src/lib/data/quiz/**/*.json', { eager: true });
+
+function getLangFromQuizPath(path: string): string {
+	// path: /src/lib/data/quiz/{lang}/{slug}.json
+	const parts = path.split('/');
+	return parts[5] ?? 'it';
 }
 
-export function getQuizBySlug(slug: string): Quiz | null {
-	const quizzes = getAllQuizzes();
+export function getAllQuizzes(lang: string = 'it'): Quiz[] {
+	return Object.entries(allModules)
+		.filter(([path]) => getLangFromQuizPath(path) === lang)
+		.map(([, m]) => m.default);
+}
+
+export function getQuizBySlug(slug: string, lang: string = 'it'): Quiz | null {
+	const quizzes = getAllQuizzes(lang);
 	return quizzes.find(q => q.slug === slug) ?? null;
 }
 

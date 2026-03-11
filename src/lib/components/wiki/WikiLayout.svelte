@@ -1,8 +1,10 @@
 <script lang="ts">
 	import ShareButtons from '$lib/components/ui/ShareButtons.svelte';
-	import { glossaryTerms } from '$lib/data/glossary';
+	import { getGlossaryTerms } from '$lib/data/glossary';
 	import * as m from '$lib/paraglide/messages';
 	import { getLocale } from '$lib/paraglide/runtime';
+
+	const glossaryTerms = $derived(getGlossaryTerms(getLocale()));
 
 	let {
 		title,

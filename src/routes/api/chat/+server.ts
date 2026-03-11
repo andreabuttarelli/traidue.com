@@ -4,7 +4,7 @@ import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { findRelevantArticles, type StoredEmbedding } from '$lib/utils/embeddings';
 import { getRawArticleBySlug } from '$lib/utils/wiki';
-import { glossaryTerms } from '$lib/data/glossary';
+import { getGlossaryTerms } from '$lib/data/glossary';
 import { normalizeQuestion, getCachedResponse, setCachedResponse } from '$lib/server/chat-cache';
 import { logChatInteraction } from '$lib/server/chat-analytics';
 
@@ -194,7 +194,7 @@ export const POST: RequestHandler = async ({ request, url, getClientAddress }) =
 		}
 
 		// Build glossary context
-		const glossaryContext = glossaryTerms
+		const glossaryContext = getGlossaryTerms()
 			.map((t) => `- **${t.term}**: ${t.definition}${t.link ? ` [Approfondisci](${t.link})` : ''}`)
 			.join('\n');
 

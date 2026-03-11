@@ -5,7 +5,7 @@ import { getLocale } from '$lib/paraglide/runtime';
 export function load() {
 	const lang = getLocale();
 	const articles = getAllArticles(lang);
-	const quizzes = getAllQuizzes();
+	const quizzes = getAllQuizzes(lang);
 	return {
 		allArticles: articles,
 		allQuizzes: quizzes,
