@@ -1,7 +1,13 @@
 <script lang="ts">
 	import SEO from '$lib/components/seo/SEO.svelte';
 	import Breadcrumb from '$lib/components/ui/Breadcrumb.svelte';
+	import * as m from '$lib/paraglide/messages';
+	import { locales, localizeHref } from '$lib/paraglide/runtime';
 	import { onMount } from 'svelte';
+
+	const alternateUrls = Object.fromEntries(
+		locales.map(l => [l, `https://www.traidue.com${localizeHref('/newsletter', { locale: l })}`])
+	);
 
 	onMount(() => {
 		if (typeof (window as any).Tally !== 'undefined') {
@@ -15,18 +21,19 @@
 </svelte:head>
 
 <SEO
-	title="Newsletter"
-	description="Iscriviti alla newsletter di Tra i Due: nuovi articoli, aggiornamenti e approfondimenti sulle tematiche trans. Niente spam, solo fatti."
+	title={m.newsletter_page_title()}
+	description={m.newsletter_seo_desc()}
 	url="https://www.traidue.com/newsletter"
+	{alternateUrls}
 />
 
 <div class="w-full px-4 sm:px-6 lg:px-12 py-8 sm:py-12">
-	<Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Newsletter' }]} />
+	<Breadcrumb items={[{ label: m.common_home(), href: '/' }, { label: m.newsletter_page_title() }]} />
 
 	<header class="mb-10 sm:mb-16 max-w-xl">
-		<h1 class="text-2xl sm:text-3xl lg:text-4xl font-heading font-semibold tracking-tight text-primary mb-4">Resta aggiornato</h1>
+		<h1 class="text-2xl sm:text-3xl lg:text-4xl font-heading font-semibold tracking-tight text-primary mb-4">{m.newsletter_title()}</h1>
 		<p class="text-lg text-muted leading-relaxed">
-			Nuovi articoli e aggiornamenti sulle tematiche trans. Niente spam, solo fatti.
+			{m.newsletter_desc()}
 		</p>
 	</header>
 

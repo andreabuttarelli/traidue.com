@@ -5,8 +5,22 @@
 	import SearchInput from '$lib/components/ui/SearchInput.svelte';
 	import ArticleCard from '$lib/components/wiki/ArticleCard.svelte';
 	import QuizCard from '$lib/components/quiz/QuizCard.svelte';
+	import * as m from '$lib/paraglide/messages';
+	import { locales, localizeHref } from '$lib/paraglide/runtime';
 
 	let { data } = $props();
+
+	const alternateUrls = Object.fromEntries(
+		locales.map(l => [l, `https://www.traidue.com${localizeHref('/wiki', { locale: l })}`])
+	);
+
+	const categoryLabels: Record<string, () => string> = {
+		terminologia: m.cat_terminologia,
+		scienza: m.cat_scienza,
+		percorsi: m.cat_percorsi,
+		cultura: m.cat_cultura,
+		persone: m.cat_persone
+	};
 
 	let search = $state($page.url.searchParams.get('q') ?? '');
 	let selectedCategory = $state($page.url.searchParams.get('category') ?? '');
@@ -38,16 +52,17 @@
 </script>
 
 <SEO
-	title="Wiki Trans: {data.articles.length}+ Articoli Scientifici"
-	description="Esplora la nostra wiki: articoli su identità di genere, scienza, percorsi e cultura trans."
+	title={m.wiki_page_title({ count: data.articles.length })}
+	description={m.wiki_page_desc()}
 	url="https://www.traidue.com/wiki"
+	{alternateUrls}
 />
 
 <StructuredData schema={{
 	'@context': 'https://schema.org',
 	'@type': 'CollectionPage',
 	name: 'Wiki',
-	description: 'Esplora la nostra wiki: articoli su identità di genere, scienza, percorsi e cultura trans.',
+	description: m.wiki_page_desc(),
 	url: 'https://www.traidue.com/wiki',
 	inLanguage: 'it',
 	isPartOf: {
@@ -70,7 +85,7 @@
 	'@context': 'https://schema.org',
 	'@type': 'BreadcrumbList',
 	itemListElement: [
-		{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.traidue.com' },
+		{ '@type': 'ListItem', position: 1, name: m.common_home(), item: 'https://www.traidue.com' },
 		{ '@type': 'ListItem', position: 2, name: 'Wiki' }
 	]
 }} />
@@ -78,13 +93,13 @@
 <div class="w-full px-4 sm:px-6 lg:px-12">
 	<div class="py-10 sm:py-16 lg:py-20 text-center flex flex-col items-center">
 		<h1 class="text-3xl sm:text-4xl lg:text-5xl font-heading font-semibold tracking-tight text-primary mb-3">Wiki</h1>
-		<p class="text-muted mb-6 sm:mb-8 max-w-md">Esplora i nostri articoli su tematiche trans</p>
+		<p class="text-muted mb-6 sm:mb-8 max-w-md">{m.wiki_page_subtitle()}</p>
 		<div class="w-full max-w-xl">
 			<SearchInput
 				bind:value={search}
 				articles={data.articles}
 				quizzes={data.quizzes}
-				placeholder="Identità di genere, coming out, sport..."
+				placeholder={m.search_placeholder_wiki()}
 			/>
 		</div>
 		<div class="flex gap-4 flex-wrap justify-center mt-6">
@@ -94,7 +109,7 @@
 					: 'text-muted hover:text-primary'}"
 				onclick={() => (selectedCategory = '')}
 			>
-				Tutti
+				{m.wiki_filter_all()}
 			</button>
 			{#each data.categories as category}
 				<button
@@ -103,7 +118,7 @@
 						: 'text-muted hover:text-primary'}"
 					onclick={() => (selectedCategory = category)}
 				>
-					{category}
+					{categoryLabels[category]?.() ?? category}
 				</button>
 			{/each}
 		</div>
@@ -114,7 +129,7 @@
 			<ArticleCard {article} />
 		{:else}
 			{#if filteredQuizzes.length === 0}
-				<p class="text-muted">Nessun risultato trovato.</p>
+				<p class="text-muted">{m.wiki_no_results()}</p>
 			{/if}
 		{/each}
 	</div>

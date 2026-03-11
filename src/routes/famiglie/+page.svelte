@@ -2,15 +2,20 @@
 	import SEO from '$lib/components/seo/SEO.svelte';
 	import StructuredData from '$lib/components/seo/StructuredData.svelte';
 	import ArticleCard from '$lib/components/wiki/ArticleCard.svelte';
+	import * as m from '$lib/paraglide/messages';
+	import { locales, localizeHref } from '$lib/paraglide/runtime';
 
 	let { data } = $props();
+
+	const alternateUrls = Object.fromEntries(
+		locales.map(l => [l, `https://www.traidue.com${localizeHref('/famiglie', { locale: l })}`])
+	);
 
 	const pageSchema = {
 		'@context': 'https://schema.org',
 		'@type': 'WebPage',
-		name: 'Risorse per famiglie di persone trans',
-		description:
-			'Guida per genitori e famiglie di persone trans: come supportare tuo figlio, cosa dice la scienza, risposte alle domande più comuni.',
+		name: m.family_seo_title(),
+		description: m.family_seo_desc(),
 		url: 'https://www.traidue.com/famiglie',
 		inLanguage: 'it',
 		isPartOf: {
@@ -26,84 +31,58 @@
 		mainEntity: [
 			{
 				'@type': 'Question',
-				name: 'Come faccio a sapere se mio figlio è trans?',
-				acceptedAnswer: {
-					'@type': 'Answer',
-					text: "Non esiste un test definitivo. L'identità di genere è un'esperienza personale. Il modo migliore è ascoltare, creare uno spazio sicuro e, se necessario, rivolgersi a un professionista specializzato."
-				}
+				name: m.family_faq_1_q(),
+				acceptedAnswer: { '@type': 'Answer', text: m.family_faq_1_a() }
 			},
 			{
 				'@type': 'Question',
-				name: 'È solo una fase?',
-				acceptedAnswer: {
-					'@type': 'Answer',
-					text: "La ricerca mostra che l'identità di genere si consolida tra i 3 e i 5 anni. Gli adolescenti che esprimono un'identità trans in modo persistente e coerente raramente cambiano idea. Il supporto familiare è il fattore più importante per il loro benessere."
-				}
+				name: m.family_faq_2_q(),
+				acceptedAnswer: { '@type': 'Answer', text: m.family_faq_2_a() }
 			},
 			{
 				'@type': 'Question',
-				name: 'Cosa posso fare come genitore?',
-				acceptedAnswer: {
-					'@type': 'Answer',
-					text: "Ascoltare senza giudicare, usare il nome e i pronomi richiesti, informarsi da fonti scientifiche e cercare il supporto di professionisti esperti. Il sostegno familiare riduce drasticamente il rischio di depressione e ansia."
-				}
+				name: m.family_faq_3_q(),
+				acceptedAnswer: { '@type': 'Answer', text: m.family_faq_3_a() }
 			},
 			{
 				'@type': 'Question',
-				name: 'Mio figlio dovrà per forza fare interventi medici?',
-				acceptedAnswer: {
-					'@type': 'Answer',
-					text: "No. La transizione è un percorso personale e non prevede necessariamente interventi medici o chirurgici. Ogni persona sceglie il proprio percorso. Per i minori, nessun protocollo prevede interventi irreversibili."
-				}
+				name: m.family_faq_4_q(),
+				acceptedAnswer: { '@type': 'Answer', text: m.family_faq_4_a() }
 			},
 			{
 				'@type': 'Question',
-				name: 'Come devo comportarmi con il nome e i pronomi?',
-				acceptedAnswer: {
-					'@type': 'Answer',
-					text: "Usare il nome e i pronomi scelti da tuo figlio è uno dei gesti più importanti che puoi fare. La ricerca dimostra che il rispetto dell'identità riduce significativamente ansia e depressione. Se sbagli, correggiti senza drammatizzare e vai avanti."
-				}
+				name: m.family_faq_5_q(),
+				acceptedAnswer: { '@type': 'Answer', text: m.family_faq_5_a() }
 			},
 			{
 				'@type': 'Question',
-				name: 'Devo dirlo alla scuola?',
-				acceptedAnswer: {
-					'@type': 'Answer',
-					text: "La decisione spetta a tuo figlio. Molte scuole italiane hanno protocolli per l'uso del nome alias. Parlane insieme e, se decidete di procedere, chiedete un incontro con il dirigente scolastico. La legge italiana tutela la privacy dell'identità di genere."
-				}
+				name: m.family_faq_6_q(),
+				acceptedAnswer: { '@type': 'Answer', text: m.family_faq_6_a() }
 			},
 			{
 				'@type': 'Question',
-				name: 'È colpa mia se mio figlio è trans?',
-				acceptedAnswer: {
-					'@type': 'Answer',
-					text: "No. L'identità di genere non è causata dall'educazione, dall'ambiente familiare o da esperienze traumatiche. La ricerca scientifica indica una forte componente biologica, con fattori genetici e ormonali prenatali. Non è colpa di nessuno: è semplicemente parte di chi è tuo figlio."
-				}
+				name: m.family_faq_7_q(),
+				acceptedAnswer: { '@type': 'Answer', text: m.family_faq_7_a() }
 			},
 			{
 				'@type': 'Question',
-				name: 'A chi posso rivolgermi per un supporto professionale?',
-				acceptedAnswer: {
-					'@type': 'Answer',
-					text: "Cerca psicologi o psicoterapeuti con esperienza in identità di genere. In Italia esistono centri specializzati in diverse regioni (ONIG, consultori pubblici, centri universitari). Anche le associazioni di genitori di persone trans possono offrire supporto tra pari e orientamento."
-				}
+				name: m.family_faq_8_q(),
+				acceptedAnswer: { '@type': 'Answer', text: m.family_faq_8_a() }
 			},
 			{
 				'@type': 'Question',
-				name: 'E se poi cambia idea?',
-				acceptedAnswer: {
-					'@type': 'Answer',
-					text: "Il tasso di detransizione è inferiore al 2-3% secondo le meta-analisi più recenti, e nella maggior parte dei casi è dovuto a pressioni sociali, non a un cambiamento dell'identità. I percorsi per minori sono graduali e reversibili: si parte dall'ascolto e dal supporto psicologico, senza fretta."
-				}
+				name: m.family_faq_9_q(),
+				acceptedAnswer: { '@type': 'Answer', text: m.family_faq_9_a() }
 			}
 		]
 	};
 </script>
 
 <SEO
-	title="Risorse per famiglie di persone trans | Tra i Due"
-	description="Tuo figlio ti ha detto di essere trans? Guida basata sulla scienza per genitori e famiglie: come supportare, cosa aspettarsi, risposte alle domande più comuni."
+	title={m.family_seo_title()}
+	description={m.family_seo_desc()}
 	url="https://www.traidue.com/famiglie"
+	{alternateUrls}
 />
 
 <StructuredData schema={pageSchema} />
@@ -113,13 +92,13 @@
 <section>
 	<div class="w-full px-4 sm:px-6 lg:px-12 py-16 sm:py-24 lg:py-32 text-center flex flex-col items-center">
 		<h1 class="text-3xl sm:text-4xl lg:text-5xl font-heading font-semibold tracking-tight text-primary mb-4 sm:mb-6 max-w-3xl">
-			Tuo figlio ti ha detto di essere trans? Sei nel posto giusto.
+			{m.family_hero_title()}
 		</h1>
 		<p class="text-base sm:text-lg text-primary/80 mb-3 max-w-2xl leading-relaxed">
-			È normale avere domande, dubbi, paura. Quello che conta è informarsi.
+			{m.family_hero_subtitle()}
 		</p>
 		<p class="text-sm sm:text-base text-muted max-w-xl leading-relaxed">
-			Abbiamo raccolto le risorse scientifiche più importanti per aiutarti a capire, supportare e accompagnare tuo figlio nel suo percorso.
+			{m.family_hero_desc()}
 		</p>
 	</div>
 </section>
@@ -128,8 +107,8 @@
 {#if data.primiPassi.length > 0}
 	<section>
 		<div class="w-full px-4 sm:px-6 lg:px-12 py-10 sm:py-16">
-			<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-2">Da dove partire</h2>
-			<p class="text-muted text-sm mb-6 sm:mb-8">Le risorse essenziali per chi si trova ad affrontare questa situazione per la prima volta.</p>
+			<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-2">{m.family_first_steps_title()}</h2>
+			<p class="text-muted text-sm mb-6 sm:mb-8">{m.family_first_steps_desc()}</p>
 			<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-14 sm:gap-x-8 sm:gap-y-16">
 				{#each data.primiPassi as article}
 					<ArticleCard {article} />
@@ -142,62 +121,44 @@
 <!-- FAQ -->
 <section>
 	<div class="w-full px-4 sm:px-6 lg:px-12 py-10 sm:py-16">
-		<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-2">Domande frequenti</h2>
-		<p class="text-muted text-sm mb-6 sm:mb-8">Le domande che si fanno tutti i genitori. Risposte basate sulla ricerca scientifica.</p>
+		<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-2">{m.family_faq_title()}</h2>
+		<p class="text-muted text-sm mb-6 sm:mb-8">{m.family_faq_desc()}</p>
 		<div class="grid sm:grid-cols-2 gap-x-8 sm:gap-x-12 gap-y-6 sm:gap-y-8">
 			<div>
-				<h3 class="text-primary font-medium text-sm sm:text-base mb-1.5">Come faccio a sapere se mio figlio è trans?</h3>
-				<p class="text-muted text-sm leading-relaxed">
-					Non esiste un test definitivo. L'identità di genere è un'esperienza personale. Il modo migliore è ascoltare, creare uno spazio sicuro e, se necessario, rivolgersi a un professionista specializzato.
-				</p>
+				<h3 class="text-primary font-medium text-sm sm:text-base mb-1.5">{m.family_faq_1_q()}</h3>
+				<p class="text-muted text-sm leading-relaxed">{m.family_faq_1_a()}</p>
 			</div>
 			<div>
-				<h3 class="text-primary font-medium text-sm sm:text-base mb-1.5">È solo una fase?</h3>
-				<p class="text-muted text-sm leading-relaxed">
-					La ricerca mostra che l'identità di genere si consolida tra i 3 e i 5 anni. Gli adolescenti che esprimono un'identità trans in modo persistente e coerente raramente cambiano idea. Il supporto familiare è il fattore più importante per il loro benessere.
-				</p>
+				<h3 class="text-primary font-medium text-sm sm:text-base mb-1.5">{m.family_faq_2_q()}</h3>
+				<p class="text-muted text-sm leading-relaxed">{m.family_faq_2_a()}</p>
 			</div>
 			<div>
-				<h3 class="text-primary font-medium text-sm sm:text-base mb-1.5">Cosa posso fare come genitore?</h3>
-				<p class="text-muted text-sm leading-relaxed">
-					Ascoltare senza giudicare, usare il nome e i pronomi richiesti, informarsi da fonti scientifiche e cercare il supporto di professionisti esperti. Il sostegno familiare riduce drasticamente il rischio di depressione e ansia.
-				</p>
+				<h3 class="text-primary font-medium text-sm sm:text-base mb-1.5">{m.family_faq_3_q()}</h3>
+				<p class="text-muted text-sm leading-relaxed">{m.family_faq_3_a()}</p>
 			</div>
 			<div>
-				<h3 class="text-primary font-medium text-sm sm:text-base mb-1.5">Mio figlio dovrà per forza fare interventi medici?</h3>
-				<p class="text-muted text-sm leading-relaxed">
-					No. La transizione è un percorso personale e non prevede necessariamente interventi medici o chirurgici. Ogni persona sceglie il proprio percorso. Per i minori, nessun protocollo prevede interventi irreversibili.
-				</p>
+				<h3 class="text-primary font-medium text-sm sm:text-base mb-1.5">{m.family_faq_4_q()}</h3>
+				<p class="text-muted text-sm leading-relaxed">{m.family_faq_4_a()}</p>
 			</div>
 			<div>
-				<h3 class="text-primary font-medium text-sm sm:text-base mb-1.5">Come devo comportarmi con il nome e i pronomi?</h3>
-				<p class="text-muted text-sm leading-relaxed">
-					Usare il nome e i pronomi scelti da tuo figlio è uno dei gesti più importanti che puoi fare. La ricerca dimostra che il rispetto dell'identità riduce significativamente ansia e depressione. Se sbagli, correggiti senza drammatizzare e vai avanti.
-				</p>
+				<h3 class="text-primary font-medium text-sm sm:text-base mb-1.5">{m.family_faq_5_q()}</h3>
+				<p class="text-muted text-sm leading-relaxed">{m.family_faq_5_a()}</p>
 			</div>
 			<div>
-				<h3 class="text-primary font-medium text-sm sm:text-base mb-1.5">Devo dirlo alla scuola?</h3>
-				<p class="text-muted text-sm leading-relaxed">
-					La decisione spetta a tuo figlio. Molte scuole italiane hanno protocolli per l'uso del nome alias. Parlane insieme e, se decidete di procedere, chiedete un incontro con il dirigente scolastico. La legge italiana tutela la privacy dell'identità di genere.
-				</p>
+				<h3 class="text-primary font-medium text-sm sm:text-base mb-1.5">{m.family_faq_6_q()}</h3>
+				<p class="text-muted text-sm leading-relaxed">{m.family_faq_6_a()}</p>
 			</div>
 			<div>
-				<h3 class="text-primary font-medium text-sm sm:text-base mb-1.5">È colpa mia se mio figlio è trans?</h3>
-				<p class="text-muted text-sm leading-relaxed">
-					No. L'identità di genere non è causata dall'educazione, dall'ambiente familiare o da esperienze traumatiche. La ricerca scientifica indica una forte componente biologica, con fattori genetici e ormonali prenatali. Non è colpa di nessuno: è semplicemente parte di chi è tuo figlio.
-				</p>
+				<h3 class="text-primary font-medium text-sm sm:text-base mb-1.5">{m.family_faq_7_q()}</h3>
+				<p class="text-muted text-sm leading-relaxed">{m.family_faq_7_a()}</p>
 			</div>
 			<div>
-				<h3 class="text-primary font-medium text-sm sm:text-base mb-1.5">A chi posso rivolgermi per un supporto professionale?</h3>
-				<p class="text-muted text-sm leading-relaxed">
-					Cerca psicologi o psicoterapeuti con esperienza in identità di genere. In Italia esistono centri specializzati in diverse regioni (ONIG, consultori pubblici, centri universitari). Anche le associazioni di genitori di persone trans possono offrire supporto tra pari e orientamento.
-				</p>
+				<h3 class="text-primary font-medium text-sm sm:text-base mb-1.5">{m.family_faq_8_q()}</h3>
+				<p class="text-muted text-sm leading-relaxed">{m.family_faq_8_a()}</p>
 			</div>
 			<div>
-				<h3 class="text-primary font-medium text-sm sm:text-base mb-1.5">E se poi cambia idea?</h3>
-				<p class="text-muted text-sm leading-relaxed">
-					Il tasso di detransizione è inferiore al 2-3% secondo le meta-analisi più recenti, e nella maggior parte dei casi è dovuto a pressioni sociali, non a un cambiamento dell'identità. I percorsi per minori sono graduali e reversibili: si parte dall'ascolto e dal supporto psicologico, senza fretta.
-				</p>
+				<h3 class="text-primary font-medium text-sm sm:text-base mb-1.5">{m.family_faq_9_q()}</h3>
+				<p class="text-muted text-sm leading-relaxed">{m.family_faq_9_a()}</p>
 			</div>
 		</div>
 	</div>
@@ -207,8 +168,8 @@
 {#if data.approfondimenti.length > 0}
 	<section>
 		<div class="w-full px-4 sm:px-6 lg:px-12 py-10 sm:py-16">
-			<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-2">Per approfondire</h2>
-			<p class="text-muted text-sm mb-6 sm:mb-8">Cosa dice la scienza: articoli con fonti peer-reviewed su identità, transizione e benessere.</p>
+			<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-2">{m.family_deep_dive_title()}</h2>
+			<p class="text-muted text-sm mb-6 sm:mb-8">{m.family_deep_dive_desc()}</p>
 			<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-14 sm:gap-x-8 sm:gap-y-16">
 				{#each data.approfondimenti as article}
 					<ArticleCard {article} />
@@ -223,16 +184,16 @@
 	<section>
 		<div class="w-full px-4 sm:px-6 lg:px-12 py-10 sm:py-16">
 			<div class="p-6 sm:p-8 rounded-xl border border-border">
-				<p class="text-sm text-muted uppercase tracking-wide mb-2">Mettiti alla prova</p>
-				<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-3">Quanto ne sai davvero?</h2>
+				<p class="text-sm text-muted uppercase tracking-wide mb-2">{m.quiz_cta_label()}</p>
+				<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-3">{m.quiz_cta_title()}</h2>
 				<p class="text-muted text-sm mb-6 max-w-lg">
-					{data.featuredQuiz.questions.length} domande basate sulla ricerca scientifica. Scopri cosa sai e cosa credevi di sapere.
+					{m.quiz_cta_desc({ count: data.featuredQuiz.questions.length })}
 				</p>
 				<a
 					href="/quiz/{data.featuredQuiz.slug}"
 					class="inline-block px-6 py-2.5 rounded-full bg-primary text-bg text-sm font-medium hover:bg-primary/80 transition"
 				>
-					Inizia il quiz &rarr;
+					{m.quiz_cta_start()} &rarr;
 				</a>
 			</div>
 		</div>
@@ -242,12 +203,12 @@
 <!-- CTA -->
 <section>
 	<div class="w-full px-4 sm:px-6 lg:px-12 py-14 sm:py-20 text-center flex flex-col items-center">
-		<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-3">Non sei solo/a</h2>
+		<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-3">{m.family_cta_title()}</h2>
 		<p class="text-muted mb-6 max-w-lg">
-			Migliaia di famiglie stanno affrontando lo stesso percorso. Resta aggiornato con le ultime risorse scientifiche.
+			{m.family_cta_desc()}
 		</p>
 		<a href="/newsletter" class="inline-block px-6 py-2.5 rounded-full bg-primary text-bg text-sm font-medium hover:bg-primary/80 transition">
-			Iscriviti alla newsletter &rarr;
+			{m.family_cta_newsletter()} &rarr;
 		</a>
 	</div>
 </section>
@@ -255,7 +216,7 @@
 <!-- Esplora tutto -->
 <section>
 	<div class="w-full px-4 sm:px-6 lg:px-12 py-10 sm:py-16 text-center">
-		<p class="text-muted mb-4">Vuoi esplorare tutti gli argomenti?</p>
-		<a href="/wiki" class="text-sm text-primary font-medium hover:underline transition">Vai alla Wiki &rarr;</a>
+		<p class="text-muted mb-4">{m.family_explore_all()}</p>
+		<a href="/wiki" class="text-sm text-primary font-medium hover:underline transition">{m.family_explore_wiki()} &rarr;</a>
 	</div>
 </section>

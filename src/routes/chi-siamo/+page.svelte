@@ -2,6 +2,12 @@
 	import SEO from '$lib/components/seo/SEO.svelte';
 	import StructuredData from '$lib/components/seo/StructuredData.svelte';
 	import Breadcrumb from '$lib/components/ui/Breadcrumb.svelte';
+	import * as m from '$lib/paraglide/messages';
+	import { locales, localizeHref } from '$lib/paraglide/runtime';
+
+	const alternateUrls = Object.fromEntries(
+		locales.map(l => [l, `https://www.traidue.com${localizeHref('/chi-siamo', { locale: l })}`])
+	);
 
 	const organizationSchema = {
 		'@context': 'https://schema.org',
@@ -56,29 +62,29 @@
 </script>
 
 <SEO
-	title="Chi Siamo"
-	description="Scopri la missione di Tra i Due: raccontare le tematiche trans con rigore scientifico, storie di successo e una wiki tematica tra le più complete in italiano."
+	title={m.about_page_title()}
+	description={m.about_seo_desc()}
 	url="https://www.traidue.com/chi-siamo"
+	{alternateUrls}
 />
 
 <StructuredData schema={organizationSchema} />
 <StructuredData schema={founderSchema} />
 
 <div class="w-full max-w-3xl mx-auto px-4 sm:px-6 lg:px-12 py-8 sm:py-12">
-	<Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Chi Siamo' }]} />
+	<Breadcrumb items={[{ label: m.common_home(), href: '/' }, { label: m.about_page_title() }]} />
 
 	<header class="mb-10 sm:mb-16">
-		<h1 class="text-2xl sm:text-3xl lg:text-4xl font-heading font-semibold tracking-tight text-primary mb-4">Chi Siamo</h1>
+		<h1 class="text-2xl sm:text-3xl lg:text-4xl font-heading font-semibold tracking-tight text-primary mb-4">{m.about_page_title()}</h1>
 		<p class="text-lg text-muted leading-relaxed max-w-xl">
-			<strong class="text-primary">Tra i Due</strong> nasce con l'obiettivo di offrire informazione chiara e scientificamente
-			rigorosa sulle tematiche trans, raccontare storie di successo e costruire la risorsa tematica più completa in italiano.
+			{@html m.about_intro()}
 		</p>
 	</header>
 
 	<div class="rounded-xl overflow-hidden mb-10 sm:mb-16">
 		<img
 			src="/images/wiki/successi-persone-trans.webp"
-			alt="Chi Siamo — Tra i Due"
+			alt="{m.about_page_title()} — Tra i Due"
 			width="1344"
 			height="768"
 			decoding="async"
@@ -89,79 +95,34 @@
 	<article>
 		<div class="prose prose-lg max-w-none space-y-10 sm:space-y-16">
 		<section>
-			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">Missione</h2>
+			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">{m.about_mission_title()}</h2>
 			<div>
-				<p>
-					Il nostro progetto si propone di <strong>informare</strong> su tematiche legate
-					all'identità di genere con rigore scientifico, rendendo accessibili contenuti spesso
-					confinati alla letteratura accademica o frammentati in fonti poco affidabili.
-				</p>
-				<p>
-					Crediamo che la <strong>narrazione dominante</strong> sulle persone trans sia incompleta. Si parla
-					di difficoltà, raramente di successi. Imprenditori, artisti, avvocati, scienziati: le persone
-					trans stanno ricoprendo ruoli chiave nella società. Noi siamo qui per raccontare anche queste
-					storie, sempre con le fonti alla mano.
-				</p>
-				<p>
-					Vogliamo essere una <strong>risorsa accessibile</strong> tanto per le persone trans quanto
-					per le persone cisgender che desiderano comprendere meglio queste tematiche, in un
-					linguaggio chiaro e rispettoso.
-				</p>
-				<p>
-					Il progetto è fondato e curato da <strong>Andrea Buttarelli</strong>, docente presso
-					<strong>IED</strong> (Istituto Europeo di Design) e imprenditrice nel settore tech e AI.
-					Ogni articolo è scritto, verificato e curato a partire da fonti peer-reviewed, con
-					l'obiettivo di mettere competenze tecniche a disposizione della comunità trans. Stiamo
-					organizzando con associazioni trans e LGBT dei workshop tecnici su AI, programmazione
-					e marketing.
-				</p>
+				<p>{@html m.about_mission_p1()}</p>
+				<p>{@html m.about_mission_p2()}</p>
+				<p>{@html m.about_mission_p3()}</p>
+				<p>{@html m.about_mission_p4()}</p>
 			</div>
 		</section>
 
 		<section>
-			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">Metodologia</h2>
+			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">{m.about_methodology_title()}</h2>
 			<div>
-				<p>
-					La qualità dell'informazione dipende dalle sue fonti. Per questo adottiamo un approccio
-					rigoroso nella selezione e nella citazione dei riferimenti bibliografici.
-				</p>
+				<p>{@html m.about_methodology_p1()}</p>
 				<ul>
-					<li>
-						Ogni articolo cita <strong>fonti peer-reviewed</strong>, ovvero pubblicazioni
-						sottoposte a revisione da parte della comunità scientifica.
-					</li>
-					<li>
-						I contenuti vengono <strong>aggiornati regolarmente</strong> per riflettere le evidenze
-						più recenti e le evoluzioni nel campo della ricerca.
-					</li>
-					<li>
-						Manteniamo piena <strong>trasparenza sui metodi</strong>: ogni affermazione rilevante
-						include il riferimento alla fonte originale, consultabile direttamente.
-					</li>
+					<li>{@html m.about_methodology_li1()}</li>
+					<li>{@html m.about_methodology_li2()}</li>
+					<li>{@html m.about_methodology_li3()}</li>
 				</ul>
-				<p>
-					Questo approccio ci consente di offrire contenuti affidabili e di contribuire a una
-					discussione pubblica informata e basata sui fatti.
-				</p>
-				<p>
-					Per saperne di più sul nostro utilizzo dell'intelligenza artificiale, leggi
-					<a href="/perche-ai" class="text-primary underline hover:no-underline">perché usiamo l'AI</a>.
-				</p>
+				<p>{@html m.about_methodology_p2()}</p>
+				<p>{@html m.about_methodology_p3()}</p>
 			</div>
 		</section>
 
 		<section>
-			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">Open Source</h2>
+			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">{m.about_opensource_title()}</h2>
 			<div>
-				<p>
-					Tra i Due è un progetto <strong>open source</strong>. Il codice sorgente, gli articoli e
-					tutti i contenuti sono pubblici e consultabili su GitHub.
-				</p>
-				<p>
-					Chiunque può contribuire: segnalare errori, proporre miglioramenti, aggiungere fonti o
-					scrivere nuovi articoli. La trasparenza non riguarda solo le fonti che citiamo, ma il
-					progetto stesso.
-				</p>
+				<p>{@html m.about_opensource_p1()}</p>
+				<p>{@html m.about_opensource_p2()}</p>
 				<p>
 					<a
 						href="https://github.com/andreabuttarelli/traidue.com"
@@ -176,11 +137,9 @@
 		</section>
 
 		<section>
-			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">Contatti</h2>
+			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">{m.about_contacts_title()}</h2>
 			<div>
-				<p>
-					Per domande, suggerimenti o collaborazioni:
-				</p>
+				<p>{m.about_contacts_intro()}</p>
 				<p class="flex flex-wrap gap-x-4 gap-y-1">
 					<a href="mailto:andrea@teta.so" class="text-primary underline hover:no-underline">andrea@teta.so</a>
 					<a href="https://www.instagram.com/tra.i.due" target="_blank" rel="noopener noreferrer" class="text-primary underline hover:no-underline">Instagram</a>
@@ -191,14 +150,11 @@
 		</section>
 
 		<section class="border-t border-border pt-10 sm:pt-16">
-			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">Per associazioni e professionisti</h2>
+			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">{m.about_associations_title()}</h2>
 			<div>
+				<p>{@html m.about_associations_p1()}</p>
 				<p>
-					Sei un'<strong>associazione</strong>, un'<strong>organizzazione</strong> o un <strong>professionista</strong> che lavora con persone trans?
-					Ci piacerebbe collaborare: segnalaci risorse, proponi contenuti o aiutaci a raggiungere chi ha bisogno di informazione accessibile.
-				</p>
-				<p>
-					Scrivici a
+					{m.about_associations_p2()}
 					<a href="mailto:andrea@teta.so" class="text-primary underline hover:no-underline">andrea@teta.so</a>
 				</p>
 			</div>

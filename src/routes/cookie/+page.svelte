@@ -1,60 +1,60 @@
 <script lang="ts">
 	import SEO from '$lib/components/seo/SEO.svelte';
 	import Breadcrumb from '$lib/components/ui/Breadcrumb.svelte';
+	import * as m from '$lib/paraglide/messages';
+	import { locales, localizeHref } from '$lib/paraglide/runtime';
+
+	const alternateUrls = Object.fromEntries(
+		locales.map(l => [l, `https://www.traidue.com${localizeHref('/cookie', { locale: l })}`])
+	);
 </script>
 
 <SEO
-	title="Cookie Policy"
-	description="Informativa sull'uso dei cookie su Tra i Due: quali cookie utilizziamo, perché e come gestire le tue preferenze."
+	title={m.legal_cookie_title()}
+	description={m.legal_cookie_seo_desc()}
 	url="https://www.traidue.com/cookie"
+	{alternateUrls}
 />
 
 <div class="w-full px-4 sm:px-6 lg:px-12 py-8 sm:py-12">
-	<Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Cookie Policy' }]} />
+	<Breadcrumb items={[{ label: m.common_home(), href: '/' }, { label: m.legal_cookie_title() }]} />
 
 	<header class="mb-10 sm:mb-16">
-		<h1 class="text-2xl sm:text-3xl lg:text-4xl font-heading font-semibold tracking-tight text-primary mb-4">Cookie Policy</h1>
-		<p class="text-sm text-muted">Ultimo aggiornamento: 21 febbraio 2026</p>
+		<h1 class="text-2xl sm:text-3xl lg:text-4xl font-heading font-semibold tracking-tight text-primary mb-4">{m.legal_cookie_title()}</h1>
+		<p class="text-sm text-muted">{m.legal_last_updated()}</p>
 	</header>
 
 	<div class="max-w-prose space-y-10 sm:space-y-16">
 		<section>
-			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">Cosa sono i cookie</h2>
+			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">{m.legal_cookie_what_title()}</h2>
 			<div class="space-y-4 text-text leading-relaxed">
-				<p>
-					I cookie sono piccoli file di testo che i siti web salvano sul tuo dispositivo durante
-					la navigazione. Vengono utilizzati per far funzionare il sito, migliorare l'esperienza
-					di navigazione e raccogliere informazioni aggregate sull'utilizzo.
-				</p>
+				<p>{m.legal_cookie_what_p1()}</p>
 			</div>
 		</section>
 
 		<section>
-			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">Cookie tecnici</h2>
+			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">{m.legal_cookie_technical_title()}</h2>
 			<div class="space-y-4 text-text leading-relaxed">
-				<p>
-					Questi cookie sono strettamente necessari al funzionamento del sito e non richiedono
-					il tuo consenso ai sensi dell'art. 122 del Codice Privacy.
-				</p>
+				<p>{m.legal_cookie_technical_p1()}</p>
 				<div class="overflow-x-auto">
 					<table class="w-full text-sm border border-border">
 						<thead>
 							<tr class="bg-card">
-								<th class="text-left p-3 border-b border-border font-semibold">Nome</th>
-								<th class="text-left p-3 border-b border-border font-semibold">Finalità</th>
-								<th class="text-left p-3 border-b border-border font-semibold">Durata</th>
+								<th class="text-left p-3 border-b border-border font-semibold">{m.legal_cookie_table_name()}</th>
+								<th class="text-left p-3 border-b border-border font-semibold">{m.legal_cookie_table_purpose()}</th>
+								<th class="text-left p-3 border-b border-border font-semibold">{m.legal_cookie_table_duration()}</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<td class="p-3 border-b border-border font-mono text-xs">theme</td>
-								<td class="p-3 border-b border-border">Memorizza la preferenza tema chiaro/scuro</td>
-								<td class="p-3 border-b border-border">Permanente</td>
+								<td class="p-3 border-b border-border">{m.legal_cookie_theme_purpose()}</td>
+								<td class="p-3 border-b border-border">{m.legal_cookie_theme_duration()}</td>
 							</tr>
 							<tr>
 								<td class="p-3 border-b border-border font-mono text-xs">traidue-cookie-consent</td>
-								<td class="p-3 border-b border-border">Memorizza la tua scelta sui cookie</td>
-								<td class="p-3 border-b border-border">Permanente</td>
+								<td class="p-3 border-b border-border">{m.legal_cookie_consent_purpose()}</td>
+								<td class="p-3 border-b border-border">{m.legal_cookie_consent_duration()}</td>
 							</tr>
 						</tbody>
 					</table>
@@ -63,58 +63,42 @@
 		</section>
 
 		<section>
-			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">Cookie analitici</h2>
+			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">{m.legal_cookie_analytics_title()}</h2>
 			<div class="space-y-4 text-text leading-relaxed">
-				<p>
-					Questi cookie vengono attivati <strong>solo dopo il tuo consenso esplicito</strong> tramite
-					il banner mostrato alla prima visita. Servono a raccogliere dati anonimi e aggregati su come
-					viene utilizzato il sito (pagine visitate, durata delle sessioni, dispositivo utilizzato),
-					per aiutarci a migliorare i contenuti e l'esperienza di navigazione.
-				</p>
-				<p>Utilizziamo i seguenti servizi di analisi:</p>
+				<p>{@html m.legal_cookie_analytics_p1()}</p>
+				<p>{m.legal_cookie_analytics_services()}</p>
 				<ul class="list-disc list-inside space-y-2 pl-2">
 					<li>
-						<strong>Google Analytics / Firebase</strong> (Google LLC) &mdash; raccoglie statistiche
-						di utilizzo in forma aggregata e anonimizzata.
+						{@html m.legal_cookie_analytics_google()}
 						<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" class="text-primary underline hover:no-underline">Privacy Policy di Google</a>.
 					</li>
 					<li>
-						<strong>Datafast</strong> &mdash; analytics leggero e rispettoso della privacy.
+						{@html m.legal_cookie_analytics_datafast()}
 						<a href="https://datafa.st/privacy" target="_blank" rel="noopener noreferrer" class="text-primary underline hover:no-underline">Privacy Policy di Datafast</a>.
 					</li>
 				</ul>
-				<p>
-					Nessun dato viene utilizzato per profilazione pubblicitaria o condiviso con terze parti
-					per finalità di marketing.
-				</p>
+				<p>{m.legal_cookie_analytics_no_profiling()}</p>
 			</div>
 		</section>
 
 		<section>
-			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">Gestire le tue preferenze</h2>
+			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">{m.legal_cookie_manage_title()}</h2>
 			<div class="space-y-4 text-text leading-relaxed">
-				<p>
-					Puoi modificare la tua scelta sui cookie in qualsiasi momento:
-				</p>
+				<p>{m.legal_cookie_manage_p1()}</p>
 				<ul class="list-disc list-inside space-y-2 pl-2">
-					<li>Cancellando i dati del sito dal browser (il banner verrà mostrato nuovamente)</li>
-					<li>Utilizzando le impostazioni del tuo browser per bloccare o eliminare i cookie</li>
+					<li>{m.legal_cookie_manage_li1()}</li>
+					<li>{m.legal_cookie_manage_li2()}</li>
 				</ul>
-				<p>
-					La disattivazione dei cookie analitici non influisce sulla navigazione del sito.
-				</p>
+				<p>{m.legal_cookie_manage_p2()}</p>
 			</div>
 		</section>
 
 		<section>
-			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">Maggiori informazioni</h2>
+			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">{m.legal_cookie_more_title()}</h2>
 			<div class="space-y-4 text-text leading-relaxed">
+				<p>{@html m.legal_cookie_more_p1()}</p>
 				<p>
-					Per informazioni complete sul trattamento dei dati personali, consulta la nostra
-					<a href="/privacy" class="text-primary underline hover:no-underline">Privacy Policy</a>.
-				</p>
-				<p>
-					Per qualsiasi domanda:
+					{m.legal_cookie_more_contact()}
 					<a href="mailto:info@traidue.com" class="text-primary underline hover:no-underline">info@traidue.com</a>
 				</p>
 			</div>

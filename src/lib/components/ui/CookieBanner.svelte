@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
+	import * as m from '$lib/paraglide/messages';
 	import {
 		PUBLIC_FIREBASE_API_KEY,
 		PUBLIC_FIREBASE_AUTH_DOMAIN,
@@ -75,21 +76,21 @@
 	<div class="fixed bottom-0 left-0 right-0 sm:right-auto z-50 p-4 sm:p-6">
 		<div class="max-w-lg bg-card border border-border rounded-xl shadow-lg p-5 sm:p-6">
 			<p class="text-sm text-text leading-relaxed mb-4">
-				Questo sito utilizza cookie per migliorare la tua esperienza di navigazione.
-				<a href="/cookie" class="text-primary underline hover:no-underline">Scopri di più</a>
+				{m.cookie_message()}
+				<a href="/cookie" class="text-primary underline hover:no-underline">{m.cookie_learn_more()}</a>
 			</p>
 			<div class="flex gap-3">
 				<button
 					onclick={accept}
 					class="flex-1 px-4 py-2.5 rounded-lg bg-primary text-bg text-sm font-medium hover:bg-primary/80 transition"
 				>
-					Accetta
+					{m.cookie_accept()}
 				</button>
 				<button
 					onclick={reject}
 					class="flex-1 px-4 py-2.5 rounded-lg border border-border text-sm font-medium text-text hover:border-primary/30 transition"
 				>
-					Rifiuta
+					{m.cookie_reject()}
 				</button>
 			</div>
 		</div>
