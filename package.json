@@ -28,6 +28,7 @@
 	"dependencies": {
 		"@google/genai": "^1.42.0",
 		"@google/generative-ai": "^0.24.1",
+		"@inlang/paraglide-js": "^2.14.0",
 		"@resvg/resvg-js": "^2.6.2",
 		"@supabase/supabase-js": "^2.97.0",
 		"firebase": "^12.9.0",
