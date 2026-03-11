@@ -5,6 +5,8 @@
 	import Logo from '$lib/components/ui/Logo.svelte';
 	import SearchInput from '$lib/components/ui/SearchInput.svelte';
 	import ArticleCard from '$lib/components/wiki/ArticleCard.svelte';
+	import * as m from '$lib/paraglide/messages';
+	import { getLocale, locales, localizeHref } from '$lib/paraglide/runtime';
 
 	let { data } = $props();
 
@@ -17,21 +19,39 @@
 		}
 	}
 
-	const websiteSchema = {
+	const alternateUrls = Object.fromEntries(
+		locales.map(l => [l, `https://www.traidue.com${localizeHref('/', { locale: l })}`])
+	);
+
+	const categories = $derived([
+		{ name: m.cat_terminologia(), href: '/wiki?category=terminologia' },
+		{ name: m.cat_scienza(), href: '/wiki?category=scienza' },
+		{ name: m.cat_percorsi(), href: '/wiki?category=percorsi' },
+		{ name: m.cat_cultura(), href: '/wiki?category=cultura' },
+		{ name: m.cat_persone(), href: '/wiki?category=persone' }
+	]);
+
+	const myths = $derived([
+		{ claim: m.myth_1_claim(), truth: m.myth_1_truth() },
+		{ claim: m.myth_2_claim(), truth: m.myth_2_truth() },
+		{ claim: m.myth_3_claim(), truth: m.myth_3_truth() }
+	]);
+
+	const websiteSchema = $derived({
 		'@context': 'https://schema.org',
 		'@type': 'WebSite',
 		name: 'Tra i Due',
 		url: 'https://www.traidue.com',
-		description: 'Informazione sulle tematiche trans: terminologia, scienza, percorsi e cultura.',
-		inLanguage: 'it',
+		description: m.home_seo_desc({ articles: data.stats.articles, sources: data.stats.sources }),
+		inLanguage: getLocale(),
 		potentialAction: {
 			'@type': 'SearchAction',
 			target: 'https://www.traidue.com/wiki?q={search_term_string}',
 			'query-input': 'required name=search_term_string'
 		}
-	};
+	});
 
-	const organizationSchema = {
+	const organizationSchema = $derived({
 		'@context': 'https://schema.org',
 		'@type': 'Organization',
 		name: 'Tra i Due',
@@ -40,7 +60,7 @@
 			'@type': 'ImageObject',
 			url: 'https://www.traidue.com/favicon.png'
 		},
-		description: 'Informazione evidence-based sulle tematiche trans: identità di genere, scienza, percorsi e cultura.',
+		description: m.home_seo_desc({ articles: data.stats.articles, sources: data.stats.sources }),
 		email: 'andrea@teta.so',
 		founder: {
 			'@type': 'Person',
@@ -51,41 +71,28 @@
 			'https://github.com/andreabuttarelli/traidue.com',
 			'https://www.instagram.com/tra.i.due'
 		],
-		inLanguage: 'it'
-	};
+		inLanguage: getLocale()
+	});
 
-	const categories = [
-		{ name: 'Terminologia', href: '/wiki?category=terminologia' },
-		{ name: 'Scienza', href: '/wiki?category=scienza' },
-		{ name: 'Percorsi', href: '/wiki?category=percorsi' },
-		{ name: 'Cultura', href: '/wiki?category=cultura' },
-		{ name: 'Persone', href: '/wiki?category=persone' }
-	];
-
-	const myths = [
-		{ claim: 'L\'identità di genere è una moda recente', truth: 'Documentata da secoli in culture di tutto il mondo. La scienza moderna la studia dagli anni \'60.' },
-		{ claim: 'I bambini sono troppo piccoli per sapere chi sono', truth: 'L\'identità di genere si consolida tra i 3 e i 5 anni. Nessun protocollo medico prevede interventi prima della pubertà.' },
-		{ claim: 'Le persone trans se ne pentono', truth: 'Il tasso di rimpianto post-transizione è inferiore al 2% secondo le meta-analisi più recenti.' }
-	];
-
-	const homeFaqSchema = {
+	const homeFaqSchema = $derived({
 		'@context': 'https://schema.org',
 		'@type': 'FAQPage',
-		mainEntity: myths.map((m) => ({
+		mainEntity: myths.map((myth) => ({
 			'@type': 'Question',
-			name: `È vero che ${m.claim.toLowerCase()}?`,
+			name: myth.claim,
 			acceptedAnswer: {
 				'@type': 'Answer',
-				text: m.truth
+				text: myth.truth
 			}
 		}))
-	};
+	});
 </script>
 
 <SEO
-	title="Tra i Due — Scienza, storie e cultura trans"
-	description="Tra i Due è la risorsa in italiano più completa sulle tematiche trans: fatti scientifici, storie di successo e cultura. {data.stats.articles} articoli, {data.stats.sources} fonti peer-reviewed."
+	title={m.home_seo_title()}
+	description={m.home_seo_desc({ articles: data.stats.articles, sources: data.stats.sources })}
 	url="https://www.traidue.com"
+	{alternateUrls}
 />
 
 <StructuredData schema={websiteSchema} />
@@ -99,10 +106,10 @@
 			<Logo animated />
 		</h1>
 		<p class="text-base sm:text-lg lg:text-xl text-primary/80 mb-3 max-w-2xl leading-relaxed font-medium">
-			Fatti scientifici e storie di chi sta cambiando il mondo.
+			{m.home_hero_subtitle()}
 		</p>
 		<p class="text-sm sm:text-base text-muted mb-6 sm:mb-8 max-w-xl leading-relaxed">
-			{data.stats.articles} articoli, {data.stats.sources}+ fonti scientifiche. La risorsa in italiano più completa sulle tematiche trans.
+			{m.home_hero_desc({ articles: data.stats.articles, sources: data.stats.sources })}
 		</p>
 		<div class="mb-6 sm:mb-8 w-full max-w-xl">
 			<SearchInput
@@ -110,13 +117,13 @@
 				articles={data.allArticles}
 				quizzes={data.allQuizzes}
 				variant="filled"
-				placeholder="Cos'è la disforia? Chi è Laverne Cox?"
+				placeholder={m.search_placeholder_hero()}
 				onsubmit={handleSearch}
 			/>
 		</div>
 		<div class="flex gap-6 text-sm">
-			<a href="/wiki" class="text-primary font-medium hover:underline transition">Esplora gli articoli &rarr;</a>
-			<a href="/quiz" class="text-muted hover:text-primary transition">Mettiti alla prova &rarr;</a>
+			<a href="/wiki" class="text-primary font-medium hover:underline transition">{m.home_cta_articles()} &rarr;</a>
+			<a href="/quiz" class="text-muted hover:text-primary transition">{m.home_cta_quiz()} &rarr;</a>
 		</div>
 	</div>
 </section>
@@ -129,7 +136,7 @@
 			<a href="/famiglie" class="group relative rounded-2xl overflow-hidden aspect-[2/1] sm:aspect-[4/3]">
 				<img
 					src="/images/wiki/mio-figlio-trans-thumb.webp"
-					alt="Genitore o familiare"
+					alt={m.home_persona_family_alt()}
 					width="672"
 					height="378"
 					loading="lazy"
@@ -138,14 +145,14 @@
 				/>
 				<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
 				<div class="absolute bottom-0 left-0 right-0 p-4 sm:p-6">
-					<h3 class="text-white text-base sm:text-xl font-heading font-semibold mb-0.5 sm:mb-1">Sei un genitore o familiare</h3>
-					<p class="text-white/80 text-xs sm:text-sm leading-relaxed">Come supportare tuo figlio o una persona cara nel suo percorso.</p>
+					<h3 class="text-white text-base sm:text-xl font-heading font-semibold mb-0.5 sm:mb-1">{m.home_persona_family_title()}</h3>
+					<p class="text-white/80 text-xs sm:text-sm leading-relaxed">{m.home_persona_family_desc()}</p>
 				</div>
 			</a>
 			<a href="/giovani" class="group relative rounded-2xl overflow-hidden aspect-[2/1] sm:aspect-[4/3]">
 				<img
 					src="/images/wiki/bambini-trans-thumb.webp"
-					alt="Adolescente"
+					alt={m.home_persona_youth_alt()}
 					width="672"
 					height="378"
 					loading="lazy"
@@ -154,14 +161,14 @@
 				/>
 				<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
 				<div class="absolute bottom-0 left-0 right-0 p-4 sm:p-6">
-					<h3 class="text-white text-base sm:text-xl font-heading font-semibold mb-0.5 sm:mb-1">Sei un/a adolescente</h3>
-					<p class="text-white/80 text-xs sm:text-sm leading-relaxed">Risorse pensate per te: informazioni chiare, senza giudizio.</p>
+					<h3 class="text-white text-base sm:text-xl font-heading font-semibold mb-0.5 sm:mb-1">{m.home_persona_youth_title()}</h3>
+					<p class="text-white/80 text-xs sm:text-sm leading-relaxed">{m.home_persona_youth_desc()}</p>
 				</div>
 			</a>
 			<a href="/wiki?category=scienza" class="group relative rounded-2xl overflow-hidden aspect-[2/1] sm:aspect-[4/3]">
 				<img
 					src="/images/wiki/basi-biologiche-identita-di-genere-thumb.webp"
-					alt="Professionista"
+					alt={m.home_persona_pro_alt()}
 					width="672"
 					height="378"
 					loading="lazy"
@@ -170,8 +177,8 @@
 				/>
 				<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
 				<div class="absolute bottom-0 left-0 right-0 p-4 sm:p-6">
-					<h3 class="text-white text-base sm:text-xl font-heading font-semibold mb-0.5 sm:mb-1">Sei un/a professionista</h3>
-					<p class="text-white/80 text-xs sm:text-sm leading-relaxed">Evidenze scientifiche e fonti peer-reviewed per il tuo lavoro.</p>
+					<h3 class="text-white text-base sm:text-xl font-heading font-semibold mb-0.5 sm:mb-1">{m.home_persona_pro_title()}</h3>
+					<p class="text-white/80 text-xs sm:text-sm leading-relaxed">{m.home_persona_pro_desc()}</p>
 				</div>
 			</a>
 		</div>
@@ -183,10 +190,10 @@
 	<section>
 		<div class="w-full px-4 sm:px-6 lg:px-12 py-10 sm:py-16">
 			<div class="flex items-center justify-between mb-4 sm:mb-6">
-				<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary">Da leggere</h2>
+				<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary">{m.home_section_featured()}</h2>
 			</div>
 			<div class="hidden sm:flex gap-4 flex-wrap mb-8 sm:mb-12">
-				<a href="/wiki" class="text-sm text-primary font-medium transition">Tutti</a>
+				<a href="/wiki" class="text-sm text-primary font-medium transition">{m.wiki_filter_all()}</a>
 				{#each categories as cat}
 					<a href={cat.href} class="text-sm text-muted hover:text-primary capitalize transition">{cat.name}</a>
 				{/each}
@@ -198,7 +205,7 @@
 			</div>
 			<div class="flex justify-center mt-10 sm:mt-14">
 				<a href="/wiki" class="inline-flex items-center gap-2 px-6 py-2.5 rounded-full text-sm font-medium bg-primary text-bg hover:opacity-90 transition">
-					Tutti gli articoli &rarr;
+					{m.home_section_all_articles()} &rarr;
 				</a>
 			</div>
 		</div>
@@ -211,9 +218,9 @@
 		<div class="w-full px-4 sm:px-6 lg:px-12 py-10 sm:py-16">
 			<div class="flex items-center justify-between mb-4 sm:mb-6">
 				<div>
-					<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-1">Imprenditori, artisti, avvocati, scienziati. E molto altro.</h2>
+					<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary mb-1">{m.home_section_people_title()}</h2>
 					<p class="text-muted text-sm sm:text-base">
-						Le persone trans stanno ricoprendo ruoli chiave nella società. Noi raccontiamo le loro storie, con i fatti.
+						{m.home_section_people_desc()}
 					</p>
 				</div>
 			</div>
@@ -224,7 +231,7 @@
 			</div>
 			<div class="flex justify-center mt-10 sm:mt-14">
 				<a href="/wiki?category=persone" class="inline-flex items-center gap-2 px-6 py-2.5 rounded-full text-sm font-medium bg-primary text-bg hover:opacity-90 transition">
-					Tutte le storie &rarr;
+					{m.home_section_all_stories()} &rarr;
 				</a>
 			</div>
 		</div>

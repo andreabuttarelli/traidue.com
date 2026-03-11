@@ -2,6 +2,7 @@ import { getAllArticles } from '$lib/utils/wiki';
 import { getAllQuizzes } from '$lib/utils/quiz';
 import { regioniDettaglio } from '$lib/data/regioni-dettaglio';
 import { cittaDettaglio } from '$lib/data/citta-dettaglio';
+import { getLocale } from '$lib/paraglide/runtime';
 
 function shuffle<T>(array: T[]): T[] {
 	const shuffled = [...array];
@@ -13,7 +14,8 @@ function shuffle<T>(array: T[]): T[] {
 }
 
 export function load() {
-	const articles = getAllArticles();
+	const lang = getLocale();
+	const articles = getAllArticles(lang);
 	const quizzes = getAllQuizzes();
 	const totalSources = articles.reduce((sum, a) => sum + (a.sources?.length ?? 0), 0);
 	const totalContent = articles.length + regioniDettaglio.size + cittaDettaglio.size;
