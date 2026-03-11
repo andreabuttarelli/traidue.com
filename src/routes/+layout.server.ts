@@ -1,11 +1,14 @@
 import { getAllArticles } from '$lib/utils/wiki';
 import { getAllQuizzes } from '$lib/utils/quiz';
+import { getLocale } from '$lib/paraglide/runtime';
 
 export function load() {
-	const articles = getAllArticles();
+	const lang = getLocale();
+	const articles = getAllArticles(lang);
 	const quizzes = getAllQuizzes();
 	return {
 		allArticles: articles,
-		allQuizzes: quizzes
+		allQuizzes: quizzes,
+		lang
 	};
 }

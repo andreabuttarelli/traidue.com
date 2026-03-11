@@ -1,6 +1,8 @@
 <script lang="ts">
 	import ShareButtons from '$lib/components/ui/ShareButtons.svelte';
 	import { glossaryTerms } from '$lib/data/glossary';
+	import * as m from '$lib/paraglide/messages';
+	import { getLocale } from '$lib/paraglide/runtime';
 
 	let {
 		title,
@@ -19,13 +21,13 @@
 		children
 	} = $props();
 
-	const mediaLabels: Record<string, string> = {
-		libro: 'Libro',
-		film: 'Film',
-		serie: 'Serie TV',
-		documentario: 'Documentario',
-		podcast: 'Podcast'
-	};
+	const mediaLabels = $derived<Record<string, string>>({
+		libro: m.media_libro(),
+		film: m.media_film(),
+		serie: m.media_serie(),
+		documentario: m.media_documentario(),
+		podcast: m.media_podcast()
+	});
 
 	let proseEl: HTMLDivElement;
 	let readingTime = $state(0);
@@ -47,7 +49,7 @@
 			const btn = document.createElement('a');
 			btn.href = `#${id}`;
 			btn.className = 'heading-link';
-			btn.title = 'Copia link alla sezione';
+			btn.title = m.wiki_copy_section_link();
 			btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>';
 			btn.onclick = (e) => {
 				e.preventDefault();
@@ -154,7 +156,7 @@
 
 		let html = `<p style="margin:0">${definition}</p>`;
 		if (link) {
-			html += `<a href="${link}" class="glossary-popover-link">Approfondisci &rarr;</a>`;
+			html += `<a href="${link}" class="glossary-popover-link">${m.wiki_glossary_read_more()} &rarr;</a>`;
 		}
 		popover.innerHTML = html;
 
@@ -211,11 +213,11 @@
 			if (isInsideSkippedTag(textNode)) continue;
 			const text = textNode.textContent ?? '';
 			const matches: { index: number; num: number; length: number }[] = [];
-			let m;
-			while ((m = citationRegex.exec(text)) !== null) {
-				const num = parseInt(m[1], 10);
+			let match;
+			while ((match = citationRegex.exec(text)) !== null) {
+				const num = parseInt(match[1], 10);
 				if (num >= 1 && num <= sources.length) {
-					matches.push({ index: m.index, num, length: m[0].length });
+					matches.push({ index: match.index, num, length: match[0].length });
 				}
 			}
 			if (matches.length > 0) {
@@ -258,14 +260,17 @@
 		const diffMs = now.getTime() - d.getTime();
 		const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
 
-		if (diffDays === 0) return 'oggi';
-		if (diffDays === 1) return 'ieri';
-		if (diffDays < 7) return `${diffDays} giorni fa`;
-		if (diffDays < 14) return 'una settimana fa';
-		if (diffDays < 30) return `${Math.floor(diffDays / 7)} settimane fa`;
-		if (diffDays < 60) return 'un mese fa';
-		if (diffDays < 365) return `${Math.floor(diffDays / 30)} mesi fa`;
-		return d.toLocaleDateString('it-IT', { year: 'numeric', month: 'long', day: 'numeric' });
+		if (diffDays === 0) return m.relative_today();
+		if (diffDays === 1) return m.relative_yesterday();
+		if (diffDays < 7) return m.relative_days_ago({ days: diffDays });
+		if (diffDays < 14) return m.relative_one_week_ago();
+		if (diffDays < 30) return m.relative_weeks_ago({ weeks: Math.floor(diffDays / 7) });
+		if (diffDays < 60) return m.relative_one_month_ago();
+		if (diffDays < 365) return m.relative_months_ago({ months: Math.floor(diffDays / 30) });
+
+		const locale = getLocale();
+		const localeMap: Record<string, string> = { it: 'it-IT', en: 'en-US', es: 'es-ES', pt: 'pt-BR' };
+		return d.toLocaleDateString(localeMap[locale] ?? 'it-IT', { year: 'numeric', month: 'long', day: 'numeric' });
 	}
 </script>
 
@@ -273,7 +278,7 @@
 	<header class="mb-6 sm:mb-8">
 		<div class="flex items-center justify-between mb-3">
 			<div class="flex items-center gap-2 text-sm text-muted">
-				<a href="/wiki" class="hover:text-primary transition">Wiki</a>
+				<a href="/wiki" class="hover:text-primary transition">{m.wiki_breadcrumb()}</a>
 				<span>/</span>
 				<span class="capitalize">{category}</span>
 			</div>
@@ -283,7 +288,7 @@
 					href="/wiki/{slug}/raw"
 					target="_blank"
 					class="text-xs sm:text-sm text-muted hover:text-primary transition px-2.5 sm:px-3.5 py-1 sm:py-1.5 rounded-full border border-border"
-					title="Visualizza come markdown (per LLM e AI agent)"
+					title={m.wiki_llm_title()}
 				>
 					LLM
 				</a>
@@ -311,7 +316,7 @@
 
 	{#if faq.length > 0}
 		<div class="mt-12 pt-8 border-t border-border">
-			<h2 class="text-xl font-heading font-semibold text-primary mb-4">Domande frequenti</h2>
+			<h2 class="text-xl font-heading font-semibold text-primary mb-4">{m.wiki_faq_title()}</h2>
 			<div class="grid sm:grid-cols-2 gap-x-8 sm:gap-x-12 gap-y-6 sm:gap-y-8">
 				{#each faq as item}
 					<div>
@@ -325,7 +330,7 @@
 
 	{#if sources.length > 0}
 		<footer class="mt-12 pt-8 border-t border-border">
-			<h2 class="text-xl font-heading font-semibold text-primary mb-4">Fonti</h2>
+			<h2 class="text-xl font-heading font-semibold text-primary mb-4">{m.wiki_sources_title()}</h2>
 			<ol class="space-y-2 list-decimal list-inside">
 				{#each sources as source, i}
 					<li id="fonte-{i + 1}">
@@ -343,7 +348,7 @@
 
 	{#if media.length > 0}
 		<div class="mt-12 pt-8 border-t border-border">
-			<h2 class="text-xl font-heading font-semibold text-primary mb-4">Approfondimenti</h2>
+			<h2 class="text-xl font-heading font-semibold text-primary mb-4">{m.wiki_media_title()}</h2>
 			<ul class="space-y-2">
 				{#each media as item}
 					<li>
@@ -371,7 +376,7 @@
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 shrink-0">
 						<path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1ZM5.404 4.343a.75.75 0 0 0 0 1.06L6.94 6.94 5.404 8.475a.75.75 0 1 0 1.06 1.06l2.122-2.12a.75.75 0 0 0 0-1.062L6.464 4.343a.75.75 0 0 0-1.06 0Z" clip-rule="evenodd" />
 					</svg>
-					<span>Cronologia modifiche ({changelog.length})</span>
+					<span>{m.wiki_changelog_title()} ({changelog.length})</span>
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-3 h-3 transition-transform group-open:rotate-90">
 						<path fill-rule="evenodd" d="M6.22 4.22a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06l-3.25 3.25a.75.75 0 0 1-1.06-1.06L8.94 8 6.22 5.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
 					</svg>
@@ -379,7 +384,7 @@
 				<div class="mt-3 space-y-3 pl-6">
 					{#each changelog as entry}
 						<div>
-							<time class="text-xs font-medium text-muted">{new Date(entry.date).toLocaleDateString('it-IT', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
+							<time class="text-xs font-medium text-muted">{new Date(entry.date).toLocaleDateString(({ it: 'it-IT', en: 'en-US', es: 'es-ES', pt: 'pt-BR' } as Record<string, string>)[getLocale()] ?? 'it-IT', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
 							<ul class="mt-1 space-y-0.5">
 								{#each entry.changes as change}
 									<li class="text-sm text-muted">&mdash; {change}</li>
@@ -396,24 +401,24 @@
 		<div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted">
 			<span>
 				{#if updated && updated !== date}
-					Aggiornato {relativeDate(updated)}
+					{m.wiki_updated({ date: relativeDate(updated) })}
 				{:else}
-					Pubblicato {relativeDate(date)}
+					{m.wiki_published({ date: relativeDate(date) })}
 				{/if}
 			</span>
 			{#if readingTime > 0}
 				<span>&middot;</span>
-				<span>{readingTime} min di lettura</span>
+				<span>{m.wiki_reading_time({ minutes: readingTime })}</span>
 			{/if}
 			{#if sources.length > 0}
 				<span>&middot;</span>
-				<span>{sources.length} fonti citate</span>
+				<span>{m.wiki_sources_cited({ count: sources.length })}</span>
 			{/if}
 			<span class="inline-flex items-center gap-1 text-xs px-2 py-0.5 rounded-full bg-surface text-muted border border-border">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-3 h-3">
 					<path d="M8 1a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 8 1ZM10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0ZM12.95 4.11a.75.75 0 1 0-1.06-1.06l-1.062 1.06a.75.75 0 0 0 1.061 1.062l1.06-1.062ZM15 8a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 15 8ZM11.828 11.828a.75.75 0 1 0-1.06-1.06l-1.062 1.06a.75.75 0 1 0 1.061 1.062l1.06-1.062ZM8 13.25a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0V14a.75.75 0 0 1 .75-.75ZM4.172 11.828a.75.75 0 1 0 1.06-1.06l1.062 1.06a.75.75 0 1 0-1.061 1.062l-1.06-1.062ZM1 8a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5h-1.5A.75.75 0 0 1 1 8ZM4.172 4.172a.75.75 0 0 0 1.06 1.06L4.17 4.17a.75.75 0 0 0-1.061-1.06l1.06 1.061Z" />
 				</svg>
-				Generato con AI
+				{m.wiki_ai_badge()}
 			</span>
 		</div>
 		{#if tags.length > 0}
@@ -427,13 +432,13 @@
 
 	<!-- Email CTA -->
 	<div class="mt-12 pt-8 border-t border-border">
-		<p class="text-sm font-medium text-primary mb-1">Ti è stato utile?</p>
-		<p class="text-sm text-muted mb-4">Nuovi articoli e aggiornamenti. Niente spam, solo fatti.</p>
+		<p class="text-sm font-medium text-primary mb-1">{m.wiki_email_cta_title()}</p>
+		<p class="text-sm text-muted mb-4">{m.wiki_email_cta_desc()}</p>
 		<a
 			href="/newsletter"
 			class="inline-block px-4 py-2 rounded-full text-sm font-medium bg-primary text-bg hover:bg-primary/80 transition"
 		>
-			Resta aggiornato
+			{m.wiki_email_cta_button()}
 		</a>
 	</div>
 </article>
