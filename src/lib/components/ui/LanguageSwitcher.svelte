@@ -39,7 +39,6 @@
 			{#each locales as locale}
 				<a
 					href={localizeHref(page.url.pathname, { locale })}
-					data-sveltekit-reload
 					onclick={close}
 					class="block px-3 py-1.5 text-sm transition-colors {locale === getLocale() ? 'text-primary font-medium' : 'text-muted hover:text-primary'}"
 				>
