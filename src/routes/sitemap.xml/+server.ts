@@ -101,17 +101,17 @@ export async function GET() {
 		{ url: '', priority: '1.0', changefreq: 'weekly', lastmod: today },
 		{ url: '/wiki', priority: '0.9', changefreq: 'weekly', lastmod: today },
 		{ url: '/editoriali', priority: '0.8', changefreq: 'daily', lastmod: today },
-		{ url: '/giovani', priority: '0.8', changefreq: 'monthly', lastmod: '2026-02-25' },
+		{ url: '/giovani', priority: '0.8', changefreq: 'monthly', lastmod: today },
 		{ url: '/famiglie', priority: '0.8', changefreq: 'monthly', lastmod: today },
-		{ url: '/quiz', priority: '0.8', changefreq: 'monthly', lastmod: '2026-02-20' },
-		{ url: '/glossario', priority: '0.7', changefreq: 'monthly', lastmod: '2026-02-20' },
-		{ url: '/regioni', priority: '0.7', changefreq: 'monthly', lastmod: '2026-02-25' },
+		{ url: '/quiz', priority: '0.8', changefreq: 'monthly', lastmod: today },
+		{ url: '/glossario', priority: '0.7', changefreq: 'monthly', lastmod: today },
+		{ url: '/regioni', priority: '0.7', changefreq: 'monthly', lastmod: today },
 		{ url: '/chi-siamo', priority: '0.5', changefreq: 'monthly', lastmod: today },
-		{ url: '/perche-ai', priority: '0.5', changefreq: 'monthly', lastmod: '2026-02-20' },
-		{ url: '/newsletter', priority: '0.5', changefreq: 'monthly', lastmod: '2026-02-20' },
-		{ url: '/cookie', priority: '0.3', changefreq: 'yearly', lastmod: '2026-02-18' },
-		{ url: '/privacy', priority: '0.3', changefreq: 'yearly', lastmod: '2026-02-18' },
-		{ url: '/termini', priority: '0.3', changefreq: 'yearly', lastmod: '2026-02-18' }
+		{ url: '/perche-ai', priority: '0.5', changefreq: 'monthly', lastmod: today },
+		{ url: '/newsletter', priority: '0.5', changefreq: 'monthly', lastmod: today },
+		{ url: '/cookie', priority: '0.3', changefreq: 'yearly', lastmod: today },
+		{ url: '/privacy', priority: '0.3', changefreq: 'yearly', lastmod: today },
+		{ url: '/termini', priority: '0.3', changefreq: 'yearly', lastmod: today }
 	];
 
 	const quizUrls: SitemapUrl[] = quizzes.map((q) => ({
@@ -134,32 +134,29 @@ export async function GET() {
 		lastmod: n.published_at?.split('T')[0]
 	}));
 
-	// Region and city pages (Italian only for now — no xhtml alternates)
-	const regionUrls = regioni
-		.filter((r) => regioniDettaglio.has(r.slug))
-		.map((r) => ({
-			url: `/regione/${r.slug}`,
-			priority: '0.7',
-			changefreq: 'monthly' as const,
-			lastmod: regioniDettaglio.get(r.slug)!.ultimoAggiornamento
-		}));
+	// Region pages (all 20 regions, with localized versions)
+	const allRegioniUrls = regioni.map((r) => ({
+		url: `/regione/${r.slug}`,
+		priority: regioniDettaglio.has(r.slug) ? '0.7' : '0.5',
+		changefreq: 'monthly' as const,
+		lastmod: regioniDettaglio.get(r.slug)?.ultimoAggiornamento ?? today
+	}));
 
-	const cittaUrls = comuni
-		.filter((c) => cittaDettaglio.has(c.slug))
-		.map((c) => ({
-			url: `/citta/${c.slug}`,
-			priority: '0.7',
-			changefreq: 'monthly' as const,
-			lastmod: cittaDettaglio.get(c.slug)!.ultimoAggiornamento
-		}));
+	// City pages (all 7896 comuni, with localized versions)
+	const allComuniUrls = comuni.map((c) => ({
+		url: `/citta/${c.slug}`,
+		priority: cittaDettaglio.has(c.slug) ? '0.7' : '0.5',
+		changefreq: 'monthly' as const,
+		lastmod: cittaDettaglio.get(c.slug)?.ultimoAggiornamento ?? today
+	}));
 
-	// Italian-only URLs (regioni, citta, news) — no language alternates
-	const italianOnlyUrls = [...newsUrls, ...regionUrls, ...cittaUrls];
+	// Italian-only URLs (news editorials) — no language alternates
+	const italianOnlyUrls = [...newsUrls];
 
 	const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-${renderUrlEntries([...staticPages, ...quizUrls])}
+${renderUrlEntries([...staticPages, ...quizUrls, ...allRegioniUrls, ...allComuniUrls])}
 ${renderArticleEntries(articles)}
 ${italianOnlyUrls
 	.map(
