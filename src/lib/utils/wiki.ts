@@ -81,6 +81,20 @@ export function getRawArticleBySlug(slug: string, lang: string = 'it'): string |
 	return null;
 }
 
+export function getTranslationSlugMap(lang: string): Record<string, string> {
+	const map: Record<string, string> = {};
+	for (const [path, module] of Object.entries(modules)) {
+		const fileLang = getLangFromPath(path);
+		if (fileLang !== lang) continue;
+		const slug = path.split('/').pop()?.replace('.md', '') ?? '';
+		const key = module.metadata?.translationKey;
+		if (key) {
+			map[key] = slug;
+		}
+	}
+	return map;
+}
+
 export function getTranslations(translationKey: string): Record<string, WikiArticle> {
 	const result: Record<string, WikiArticle> = {};
 

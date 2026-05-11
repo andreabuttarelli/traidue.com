@@ -1,5 +1,7 @@
 <script lang="ts">
 	import type { WikiArticle } from '$lib/utils/wiki';
+	import * as m from '$lib/paraglide/messages';
+	import { localizeHref } from '$lib/paraglide/runtime';
 
 	let { article }: { article: WikiArticle } = $props();
 
@@ -9,7 +11,7 @@
 </script>
 
 <a
-	href="/wiki/{article.slug}"
+	href={localizeHref('/wiki/' + article.slug)}
 	class="group block transition-all"
 >
 	{#if article.image}
@@ -30,7 +32,7 @@
 			{article.category}
 		</span>
 		{#if article.sources?.length}
-			<span class="text-xs text-muted">{article.sources.length} fonti</span>
+			<span class="text-xs text-muted">{m.wiki_sources_label({ count: article.sources.length })}</span>
 		{/if}
 	</div>
 	<h2 class="text-base font-heading font-semibold text-primary mb-1.5 group-hover:underline">{article.title}</h2>

@@ -7,7 +7,6 @@
   "nav_regions": "Regioni",
   "nav_why_ai": "Perché l'AI",
   "nav_github": "GitHub",
-
   "search_placeholder": "Cerca nel sito...",
   "search_placeholder_hero": "Cos'è la disforia? Chi è Laverne Cox?",
   "search_placeholder_wiki": "Identità di genere, coming out, sport...",
@@ -15,7 +14,6 @@
   "search_ask_ai": "Chiedi all'AI: ",
   "menu_open": "Apri menu",
   "menu_close": "Chiudi menu",
-
   "footer_tagline": "Scienza, storie e cultura trans.",
   "footer_navigation": "Navigazione",
   "footer_legal": "Legale",
@@ -27,7 +25,6 @@
   "footer_newsletter_title": "Resta aggiornato",
   "footer_newsletter_desc": "Nuovi articoli e aggiornamenti. Niente spam, solo fatti.",
   "footer_newsletter_cta": "Iscriviti",
-
   "wiki_breadcrumb": "Wiki",
   "wiki_faq_title": "Domande frequenti",
   "wiki_sources_title": "Fonti",
@@ -51,7 +48,6 @@
   "wiki_filter_all": "Tutti",
   "wiki_no_results": "Nessun risultato trovato.",
   "wiki_questions_count": "{count} domande",
-
   "home_seo_title": "Tra i Due — Scienza, storie e cultura trans",
   "home_seo_desc": "Tra i Due è la risorsa in italiano più completa sulle tematiche trans: fatti scientifici, storie di successo e cultura. {articles} articoli, {sources} fonti peer-reviewed.",
   "home_hero_subtitle": "Fatti scientifici e storie di chi sta cambiando il mondo.",
@@ -72,20 +68,17 @@
   "home_section_people_title": "Imprenditori, artisti, avvocati, scienziati. E molto altro.",
   "home_section_people_desc": "Le persone trans stanno ricoprendo ruoli chiave nella società. Noi raccontiamo le loro storie, con i fatti.",
   "home_section_all_stories": "Tutte le storie",
-
   "cat_terminologia": "Terminologia",
   "cat_scienza": "Scienza",
   "cat_percorsi": "Percorsi",
   "cat_cultura": "Cultura",
   "cat_persone": "Persone",
-
   "myth_1_claim": "L'identità di genere è una moda recente",
   "myth_1_truth": "Documentata da secoli in culture di tutto il mondo. La scienza moderna la studia dagli anni '60.",
   "myth_2_claim": "I bambini sono troppo piccoli per sapere chi sono",
   "myth_2_truth": "L'identità di genere si consolida tra i 3 e i 5 anni. Nessun protocollo medico prevede interventi prima della pubertà.",
   "myth_3_claim": "Le persone trans se ne pentono",
   "myth_3_truth": "Il tasso di rimpianto post-transizione è inferiore al 2% secondo le meta-analisi più recenti.",
-
   "relative_today": "oggi",
   "relative_yesterday": "ieri",
   "relative_days_ago": "{days} giorni fa",
@@ -93,25 +86,21 @@
   "relative_weeks_ago": "{weeks} settimane fa",
   "relative_one_month_ago": "un mese fa",
   "relative_months_ago": "{months} mesi fa",
-
   "media_libro": "Libro",
   "media_film": "Film",
   "media_serie": "Serie TV",
   "media_documentario": "Documentario",
   "media_podcast": "Podcast",
-
   "share_x": "Condividi su X",
   "share_whatsapp": "Condividi su WhatsApp",
   "share_telegram": "Condividi su Telegram",
   "share_copy": "Copia link",
   "share_copied": "Copiato!",
   "share_result": "Condividi il tuo risultato",
-
   "cookie_message": "Questo sito utilizza cookie per migliorare la tua esperienza di navigazione.",
   "cookie_learn_more": "Scopri di più",
   "cookie_accept": "Accetta",
   "cookie_reject": "Rifiuta",
-
   "quiz_page_title": "Quiz",
   "quiz_page_desc": "Metti alla prova le tue conoscenze sulle tematiche trans con i nostri quiz interattivi.",
   "quiz_page_subtitle": "Metti alla prova le tue conoscenze sulle tematiche trans. Ogni quiz ti darà un punteggio e suggerimenti per approfondire.",
@@ -131,14 +120,12 @@
   "quiz_cta_title": "Quanto ne sai davvero?",
   "quiz_cta_desc": "{count} domande basate sulla ricerca scientifica. Scopri cosa sai e cosa credevi di sapere.",
   "quiz_cta_start": "Inizia il quiz",
-
   "glossary_page_title": "Glossario",
   "glossary_seo_desc": "Glossario completo con 35 termini sulle tematiche trans: identità di genere, disforia, AMAB/AFAB, deadnaming, transizione, non binario e altri. Definizioni chiare basate sulle fonti scientifiche.",
   "glossary_intro": "Le parole contano. Ecco i termini principali, definiti a partire dalle fonti scientifiche.",
   "glossary_col_term": "Termine",
   "glossary_col_definition": "Definizione",
   "glossary_read_more": "Approfondisci",
-
   "about_page_title": "Chi Siamo",
   "about_seo_desc": "Scopri la missione di Tra i Due: raccontare le tematiche trans con rigore scientifico, storie di successo e una wiki tematica tra le più complete in italiano.",
   "about_intro": "<strong>Tra i Due</strong> nasce con l'obiettivo di offrire informazione chiara e scientificamente rigorosa sulle tematiche trans, raccontare storie di successo e costruire la risorsa tematica più completa in italiano.",
@@ -162,7 +149,6 @@
   "about_associations_title": "Per associazioni e professionisti",
   "about_associations_p1": "Sei un'<strong>associazione</strong>, un'<strong>organizzazione</strong> o un <strong>professionista</strong> che lavora con persone trans? Ci piacerebbe collaborare: segnalaci risorse, proponi contenuti o aiutaci a raggiungere chi ha bisogno di informazione accessibile.",
   "about_associations_p2": "Scrivici a",
-
   "family_seo_title": "Risorse per famiglie di persone trans | Tra i Due",
   "family_seo_desc": "Tuo figlio ti ha detto di essere trans? Guida basata sulla scienza per genitori e famiglie: come supportare, cosa aspettarsi, risposte alle domande più comuni.",
   "family_hero_title": "Tuo figlio ti ha detto di essere trans? Sei nel posto giusto.",
@@ -197,7 +183,6 @@
   "family_cta_newsletter": "Iscriviti alla newsletter",
   "family_explore_all": "Vuoi esplorare tutti gli argomenti?",
   "family_explore_wiki": "Vai alla Wiki",
-
   "youth_seo_title": "Risorse trans per giovani",
   "youth_seo_desc": "Stai esplorando la tua identità di genere? Informazioni scientifiche, articoli e risorse per giovani trans o in esplorazione. Ogni dato è verificabile.",
   "youth_hero_title": "Stai esplorando la tua identità? Sei nel posto giusto.",
@@ -210,12 +195,10 @@
   "youth_cta_newsletter": "Iscriviti alla newsletter",
   "youth_explore_all": "Vuoi esplorare tutti gli argomenti?",
   "youth_explore_wiki": "Vai alla Wiki",
-
   "newsletter_page_title": "Newsletter",
   "newsletter_seo_desc": "Iscriviti alla newsletter di Tra i Due: nuovi articoli, aggiornamenti e approfondimenti sulle tematiche trans. Niente spam, solo fatti.",
   "newsletter_title": "Resta aggiornato",
   "newsletter_desc": "Nuovi articoli e aggiornamenti sulle tematiche trans. Niente spam, solo fatti.",
-
   "ai_page_title": "Perché usiamo l'AI",
   "ai_seo_desc": "Come e perché Tra i Due utilizza l'intelligenza artificiale per creare contenuti verificati e accessibili sulle tematiche trans.",
   "ai_intro": "L'intelligenza artificiale è uno strumento. Come ogni strumento, il suo valore dipende da come viene utilizzato. Qui spieghiamo come lo usiamo noi, e perché.",
@@ -250,9 +233,7 @@
   "ai_commitment_li3": "<strong>Verifica continua</strong>: aggiorniamo i contenuti quando emergono nuove evidenze o ci vengono segnalati errori.",
   "ai_commitment_li4": "<strong>Accessibilità</strong>: tutto è gratuito, senza paywall, senza pubblicità.",
   "ai_commitment_contact": "Se hai domande, suggerimenti o vuoi segnalare un'imprecisione, scrivici a",
-
   "legal_last_updated": "Ultimo aggiornamento: 21 febbraio 2026",
-
   "legal_cookie_title": "Cookie Policy",
   "legal_cookie_seo_desc": "Informativa sull'uso dei cookie su Tra i Due: quali cookie utilizziamo, perché e come gestire le tue preferenze.",
   "legal_cookie_what_title": "Cosa sono i cookie",
@@ -280,7 +261,6 @@
   "legal_cookie_more_title": "Maggiori informazioni",
   "legal_cookie_more_p1": "Per informazioni complete sul trattamento dei dati personali, consulta la nostra <a href=\"/privacy\">Privacy Policy</a>.",
   "legal_cookie_more_contact": "Per qualsiasi domanda:",
-
   "legal_privacy_title": "Privacy Policy",
   "legal_privacy_seo_desc": "Informativa sulla privacy di Tra i Due: quali dati raccogliamo, come li utilizziamo e i tuoi diritti.",
   "legal_privacy_controller_title": "Titolare del trattamento",
@@ -315,7 +295,6 @@
   "legal_privacy_rights_p1": "Poiché Tra i Due non raccoglie dati personali identificativi, nella pratica questi diritti si applicano in misura limitata. Per qualsiasi richiesta:",
   "legal_privacy_changes_title": "Modifiche",
   "legal_privacy_changes_p1": "Questa informativa può essere aggiornata. La data dell'ultimo aggiornamento è indicata in cima alla pagina. Le modifiche sono tracciabili nel repository GitHub del progetto.",
-
   "legal_terms_title": "Termini di Utilizzo",
   "legal_terms_seo_desc": "Termini e condizioni di utilizzo del sito Tra i Due: licenza dei contenuti, limitazioni di responsabilità e contributi.",
   "legal_terms_acceptance_title": "Accettazione dei termini",
@@ -359,7 +338,6 @@
   "legal_terms_law_p1": "I presenti termini sono regolati dalla legge italiana. Per qualsiasi controversia sarà competente il foro del luogo di residenza del consumatore, ai sensi dell'art. 66-bis del Codice del Consumo.",
   "legal_terms_changes_title": "Modifiche",
   "legal_terms_changes_p1": "Ci riserviamo il diritto di aggiornare i presenti termini. La data dell'ultimo aggiornamento è indicata in cima alla pagina. Le modifiche sono tracciabili nel repository GitHub del progetto.",
-
   "regions_page_title": "Risorse trans per regione",
   "regions_seo_desc": "Centri gender, associazioni, iter sanitario e storia queer in ogni regione italiana. Guide dettagliate per le persone trans e le loro famiglie.",
   "regions_intro": "Centri di identita di genere, associazioni, iter sanitario e storia queer regione per regione.",
@@ -367,12 +345,41 @@
   "regions_card_desc": "Centri gender, associazioni, iter sanitario",
   "regions_other_title": "Altre regioni",
   "regions_other_coming_soon": "Guide dettagliate in arrivo.",
-
   "common_home": "Home",
   "common_read_more": "Approfondisci",
   "common_instagram_label": "Instagram",
-
   "error_article_not_found": "Articolo non trovato",
   "error_page_not_found": "Pagina non trovata",
-  "error_generic": "Si è verificato un errore"
+  "error_generic": "Si è verificato un errore",
+  "wiki_related_title": "Continua a leggere",
+  "wiki_related_aria": "Articoli correlati",
+  "wiki_sources_label": "{count} fonti",
+  "best_portals_page_title": "Migliori Portali Informazione Trans | Tra i Due",
+  "best_portals_seo_desc": "Scopri quali sono i migliori siti e portali online in Italia dove trovare informazioni affidabili, verificate e scientifiche sulle tematiche transgender.",
+  "best_portals_breadcrumb": "Migliori Portali Informazione Trans",
+  "best_portals_h1": "I Migliori Portali di Informazione sulle Tematiche Trans in Italia",
+  "best_portals_intro": "Orientarsi tra le informazioni online sulle tematiche trans e i percorsi di affermazione di genere non è sempre semplice. Tra disinformazione e portali non aggiornati, è essenziale affidarsi a fonti sicure, aggiornate e basate su evidenze mediche e scientifiche. Abbiamo raccolto i migliori siti web dove trovare le risposte che cerchi.",
+  "best_portals_our_choice": "La Nostra Scelta",
+  "best_portals_traidue_title": "1. Tra i Due (traidue.com)",
+  "best_portals_traidue_desc": "<a href=\"/\" class=\"text-primary font-medium hover:underline\">Tra i Due</a> nasce proprio con l'obiettivo di essere il portale di riferimento in Italia per l'informazione evidence-based sulle tematiche transgender, la disforia di genere e i percorsi di affermazione (sociale, medica e legale).",
+  "best_portals_traidue_li1": "<strong>Rigore Scientifico:</strong> Le informazioni mediche e psicologiche si basano su linee guida internazionali aggiornate (come WPATH ed Endocrine Society).",
+  "best_portals_traidue_li2": "<strong>Linguaggio Accessibile:</strong> Un approccio chiaro ma rigoroso, pensato per spiegare concetti medici e legali complessi in modo comprensibile a tuttə.",
+  "best_portals_traidue_li3": "<strong>Strumenti Innovativi:</strong> Offre strumenti unici come la Wiki approfondita, glossari, guide passo-passo e un'Intelligenza Artificiale (AI) dedicata per rispondere ai tuoi dubbi citando sempre le fonti.",
+  "best_portals_traidue_li4": "<strong>Aggiornamento Continuo:</strong> News e approfondimenti costanti sulla situazione in Italia e nel mondo, per restare sempre al passo.",
+  "best_portals_traidue_cta": "Esplora la Wiki di Tra i Due",
+  "best_portals_infotrans_title": "2. InfoTrans.it",
+  "best_portals_infotrans_desc1": "Gestito in collaborazione con l'Istituto Superiore di Sanità (ISS) e l'UNAR, InfoTrans è il portale istituzionale italiano dedicato alla salute e al benessere delle persone transgender.",
+  "best_portals_infotrans_desc2": "La sua caratteristica più utile è l'ampia <strong>mappatura dei centri specializzati</strong> sul territorio nazionale, fondamentale per chi sta cercando professionisti per iniziare o proseguire un percorso di affermazione di genere medico o psicologico in Italia. Pur avendo un'interfaccia meno dinamica, rimane una risorsa istituzionale di primaria importanza.",
+  "best_portals_mit_title": "3. MIT (Movimento Identità Trans)",
+  "best_portals_mit_desc1": "Il sito storico del <strong>Movimento Identità Trans</strong>, la più antica associazione italiana dedicata ai diritti delle persone trans. Oltre a essere un'associazione, il loro sito web funge da hub vitale per informazioni di natura legale, documenti storici, guide e notizie sulle loro attività di attivismo.",
+  "best_portals_mit_desc2": "È particolarmente utile per chi cerca supporto diretto, consulenza legale o vuole comprendere le battaglie politiche e civili che interessano la comunità in Italia.",
+  "best_portals_associazioni_title": "4. Portali delle Associazioni Locali (es. Arcigay, Hub Trans)",
+  "best_portals_associazioni_desc1": "Molte informazioni pratiche essenziali si trovano sui siti web o sulle pagine social dei comitati locali e delle associazioni territoriali. Progetti come <em>Hub Trans</em> o gli sportelli trans di Arcigay presenti in varie città italiane offrono sezioni informative sui propri siti.",
+  "best_portals_associazioni_desc2": "Questi portali sono la scelta migliore quando hai bisogno di sapere <strong>come muoverti nella tua specifica città o regione</strong>, quali sono i consultori amichevoli, e come partecipare a gruppi di auto-mutuo-aiuto fisici.",
+  "best_portals_how_to_choose_title": "Come Scegliere la Fonte Giusta?",
+  "best_portals_how_to_choose_intro": "Quando cerchi informazioni sulla salute trans e i percorsi di affermazione, segui sempre queste regole d'oro:",
+  "best_portals_how_to_choose_li1": "<strong>Verifica le fonti:</strong> I portali seri citano sempre studi accademici, manuali diagnostici (es. DSM-5) o linee guida di associazioni mediche riconosciute.",
+  "best_portals_how_to_choose_li2": "<strong>Evita i toni sensazionalistici:</strong> Diffida da chi promette soluzioni \"magiche\" o, al contrario, utilizza un linguaggio allarmistico e patologizzante.",
+  "best_portals_how_to_choose_li3": "<strong>Cerca pluralità:</strong> Confronta diverse fonti. Il percorso di ogni persona è unico, e l'informazione di qualità è il primo passo per compiere scelte serene e consapevoli.",
+  "best_portals_how_to_choose_outro": "Hai dubbi specifici? Prova a fare una ricerca nella nostra <a href=\"/wiki\" class=\"text-primary underline hover:no-underline\">Wiki</a> o a utilizzare i nostri strumenti per trovare risposte chiare e supportate dalla scienza."
 }

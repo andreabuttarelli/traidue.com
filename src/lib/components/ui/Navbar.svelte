@@ -3,6 +3,7 @@
 	import { page } from '$app/state';
 	import type { WikiArticle } from '$lib/utils/wiki';
 	import * as m from '$lib/paraglide/messages';
+	import { localizeHref } from '$lib/paraglide/runtime';
 	import Logo from './Logo.svelte';
 	import LanguageSwitcher from './LanguageSwitcher.svelte';
 	import SearchInput from './SearchInput.svelte';
@@ -20,10 +21,10 @@
 	let navSearch = $state('');
 
 	const navLinks = $derived([
-		{ href: '/wiki', label: m.nav_wiki() },
-		{ href: '/editoriali', label: m.nav_opinions() },
-		{ href: '/quiz', label: m.nav_quiz() },
-		{ href: '/chi-siamo', label: m.nav_about() }
+		{ href: localizeHref('/wiki'), label: m.nav_wiki() },
+		{ href: localizeHref('/editoriali'), label: m.nav_opinions() },
+		{ href: localizeHref('/quiz'), label: m.nav_quiz() },
+		{ href: localizeHref('/chi-siamo'), label: m.nav_about() }
 	]);
 
 	function isActive(href: string): boolean {
@@ -35,7 +36,7 @@
 	function handleSearch() {
 		const q = navSearch.trim();
 		if (q) {
-			goto(`/wiki?q=${encodeURIComponent(q)}`);
+			goto(localizeHref('/wiki') + `?q=${encodeURIComponent(q)}`);
 			navSearch = '';
 			closeMenu();
 		}

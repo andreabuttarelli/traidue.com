@@ -3,8 +3,22 @@
 	import StructuredData from '$lib/components/seo/StructuredData.svelte';
 	import TOC from '$lib/components/wiki/TOC.svelte';
 	import ArticleCard from '$lib/components/wiki/ArticleCard.svelte';
+	import * as m from '$lib/paraglide/messages';
+	import { getLocale, localizeHref, locales } from '$lib/paraglide/runtime';
 
 	let { data } = $props();
+
+	const lang = $derived(getLocale());
+	const localeMap: Record<string, string> = { it: 'it-IT', en: 'en-US', es: 'es-ES', pt: 'pt-BR' };
+
+	const alternateUrls = $derived(
+		Object.fromEntries(
+			Object.entries(data.translations).map(([l, article]) => [
+				l,
+				`https://www.traidue.com${localizeHref('/wiki/' + article.slug, { locale: l as 'it' | 'en' | 'es' | 'pt' })}`
+			])
+		)
+	);
 
 	function extractCitations(sources: { title: string; url: string; year?: number }[]) {
 		return sources.filter((s) => s.title.includes(' - ')).map((s) => {
@@ -22,9 +36,9 @@
 		'@type': 'Article',
 		headline: data.metadata.title,
 		description: data.metadata.description,
-		url: `https://www.traidue.com/wiki/${data.metadata.slug}`,
-		image: `https://www.traidue.com/images/wiki/${data.metadata.slug}.webp`,
-		inLanguage: 'it',
+		url: `https://www.traidue.com${localizeHref('/wiki/' + data.metadata.slug)}`,
+		image: `https://www.traidue.com/images/wiki/${data.metadata.translationKey ?? data.metadata.slug}.webp`,
+		inLanguage: localeMap[lang] ?? 'it-IT',
 		datePublished: data.metadata.date,
 		dateModified: data.metadata.updated || data.metadata.date,
 		author: {
@@ -49,7 +63,7 @@
 		},
 		mainEntityOfPage: {
 			'@type': 'WebPage',
-			'@id': `https://www.traidue.com/wiki/${data.metadata.slug}`
+			'@id': `https://www.traidue.com${localizeHref('/wiki/' + data.metadata.slug)}`
 		},
 		speakable: {
 			'@type': 'SpeakableSpecification',
@@ -90,8 +104,8 @@
 <SEO
 	title={data.metadata.seoTitle || data.metadata.title}
 	description={data.metadata.description}
-	url="https://www.traidue.com/wiki/{data.metadata.slug}"
-	image="https://www.traidue.com/images/wiki/{data.metadata.slug}.webp"
+	url="https://www.traidue.com{localizeHref('/wiki/' + data.metadata.slug)}"
+	image="https://www.traidue.com/images/wiki/{data.metadata.translationKey ?? data.metadata.slug}.webp"
 	type="article"
 	article={{
 		publishedTime: data.metadata.date,
@@ -99,6 +113,7 @@
 		section: data.metadata.category,
 		tags: data.metadata.tags
 	}}
+	{alternateUrls}
 />
 
 <StructuredData schema={articleSchema} />
@@ -107,8 +122,8 @@
 	'@context': 'https://schema.org',
 	'@type': 'BreadcrumbList',
 	itemListElement: [
-		{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.traidue.com' },
-		{ '@type': 'ListItem', position: 2, name: 'Wiki', item: 'https://www.traidue.com/wiki' },
+		{ '@type': 'ListItem', position: 1, name: m.common_home(), item: `https://www.traidue.com${localizeHref('/')}` },
+		{ '@type': 'ListItem', position: 2, name: 'Wiki', item: `https://www.traidue.com${localizeHref('/wiki')}` },
 		{ '@type': 'ListItem', position: 3, name: data.metadata.title }
 	]
 }} />
@@ -123,8 +138,8 @@
 		<data.Content />
 
 		{#if data.relatedArticles.length > 0}
-			<nav class="mt-12 pt-8 border-t border-border" aria-label="Articoli correlati">
-				<h2 class="text-xl font-heading font-semibold text-primary mb-6">Continua a leggere</h2>
+			<nav class="mt-12 pt-8 border-t border-border" aria-label={m.wiki_related_aria()}>
+				<h2 class="text-xl font-heading font-semibold text-primary mb-6">{m.wiki_related_title()}</h2>
 				<div class="grid sm:grid-cols-2 gap-x-6 gap-y-10 sm:gap-x-8 sm:gap-y-12">
 					{#each data.relatedArticles as article}
 						<ArticleCard {article} />

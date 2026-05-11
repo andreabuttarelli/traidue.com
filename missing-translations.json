@@ -1,0 +1,653 @@
+{
+  "en": [
+    {
+      "path": "src/content/wiki/it/cultura/donna-trans-lesbica.md",
+      "key": "donna-trans-lesbica",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/donne-trans-sono-donne.md",
+      "key": "donne-trans-sono-donne",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/dove-incontrare-persone-trans.md",
+      "key": "dove-incontrare-persone-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/esplorare-identita-di-genere.md",
+      "key": "esplorare-identita-di-genere",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/sono-trans.md",
+      "key": "sono-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/stare-con-un-ragazzo-trans.md",
+      "key": "stare-con-un-ragazzo-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/stare-con-una-ragazza-trans.md",
+      "key": "stare-con-una-ragazza-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/storia-movimento-trans.md",
+      "key": "storia-movimento-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/successi-persone-trans.md",
+      "key": "successi-persone-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/tangerine.md",
+      "key": "tangerine",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/tdor.md",
+      "key": "tdor",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/tdov.md",
+      "key": "tdov",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/trans-e-scuola.md",
+      "key": "trans-e-scuola",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/transgender-history.md",
+      "key": "transgender-history",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/transparent-serie-tv.md",
+      "key": "transparent-serie-tv",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/una-donna-fantastica.md",
+      "key": "una-donna-fantastica",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/uomini-trans-italiani.md",
+      "key": "uomini-trans-italiani",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/uomo-trans-gay.md",
+      "key": "uomo-trans-gay",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/whipping-girl.md",
+      "key": "whipping-girl",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/percorsi/sterilizzazione-forzata-diritti-riproduttivi-trans.md",
+      "key": "sterilizzazione-forzata-diritti-riproduttivi-trans",
+      "category": "percorsi"
+    },
+    {
+      "path": "src/content/wiki/it/percorsi/trans-e-sanita.md",
+      "key": "trans-e-sanita",
+      "category": "percorsi"
+    },
+    {
+      "path": "src/content/wiki/it/percorsi/transizione-dopo-i-40.md",
+      "key": "transizione-dopo-i-40",
+      "category": "percorsi"
+    },
+    {
+      "path": "src/content/wiki/it/percorsi/transizione-sociale.md",
+      "key": "transizione-sociale",
+      "category": "percorsi"
+    },
+    {
+      "path": "src/content/wiki/it/scienza/prevenzione-oncologica-trans.md",
+      "key": "prevenzione-oncologica-trans",
+      "category": "scienza"
+    },
+    {
+      "path": "src/content/wiki/it/scienza/quante-persone-trans.md",
+      "key": "quante-persone-trans",
+      "category": "scienza"
+    },
+    {
+      "path": "src/content/wiki/it/scienza/rapporti-sessuali-donna-trans.md",
+      "key": "rapporti-sessuali-donna-trans",
+      "category": "scienza"
+    },
+    {
+      "path": "src/content/wiki/it/scienza/terapia-ormonale-guida.md",
+      "key": "terapia-ormonale-guida",
+      "category": "scienza"
+    },
+    {
+      "path": "src/content/wiki/it/scienza/terapia-ormonale-non-binaria.md",
+      "key": "terapia-ormonale-non-binaria",
+      "category": "scienza"
+    },
+    {
+      "path": "src/content/wiki/it/scienza/terapia-psicologica-trans.md",
+      "key": "terapia-psicologica-trans",
+      "category": "scienza"
+    },
+    {
+      "path": "src/content/wiki/it/scienza/vaginoplastica-come-funziona.md",
+      "key": "vaginoplastica-come-funziona",
+      "category": "scienza"
+    },
+    {
+      "path": "src/content/wiki/it/scienza/vaginoplastica-risultati.md",
+      "key": "vaginoplastica-risultati",
+      "category": "scienza"
+    }
+  ],
+  "pt": [
+    {
+      "path": "src/content/wiki/it/cultura/discriminazione-lavoro-trans-italia.md",
+      "key": "discriminazione-lavoro-trans-italia",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/donna-trans-lesbica.md",
+      "key": "donna-trans-lesbica",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/donne-trans-italiane.md",
+      "key": "donne-trans-italiane",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/donne-trans-sono-donne.md",
+      "key": "donne-trans-sono-donne",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/espressione-genere-bambini.md",
+      "key": "espressione-genere-bambini",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/euphoria-serie-tv.md",
+      "key": "euphoria-serie-tv",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/famiglie-e-persone-trans.md",
+      "key": "famiglie-e-persone-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/femminismo-e-donne-trans.md",
+      "key": "femminismo-e-donne-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/festivita-trans.md",
+      "key": "festivita-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/figlio-trans-cosa-fare.md",
+      "key": "figlio-trans-cosa-fare",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/gender-nelle-scuole.md",
+      "key": "gender-nelle-scuole",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/gender-trouble.md",
+      "key": "gender-trouble",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/genitorialita-trans.md",
+      "key": "genitorialita-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/pose-serie-tv.md",
+      "key": "pose-serie-tv",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/religioni-e-persone-trans.md",
+      "key": "religioni-e-persone-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/sex-work-persone-trans.md",
+      "key": "sex-work-persone-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/situazione-trans-italia.md",
+      "key": "situazione-trans-italia",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/sono-trans.md",
+      "key": "sono-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/stare-con-un-ragazzo-trans.md",
+      "key": "stare-con-un-ragazzo-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/stare-con-una-ragazza-trans.md",
+      "key": "stare-con-una-ragazza-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/storia-movimento-trans.md",
+      "key": "storia-movimento-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/successi-persone-trans.md",
+      "key": "successi-persone-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/tangerine.md",
+      "key": "tangerine",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/tecnologia-e-persone-trans.md",
+      "key": "tecnologia-e-persone-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/tennessee-laboratorio-anti-trans.md",
+      "key": "tennessee-laboratorio-anti-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/the-danish-girl.md",
+      "key": "the-danish-girl",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/trans-e-scuola.md",
+      "key": "trans-e-scuola",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/transgender-history.md",
+      "key": "transgender-history",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/transparent-serie-tv.md",
+      "key": "transparent-serie-tv",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/una-donna-fantastica.md",
+      "key": "una-donna-fantastica",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/uomini-trans-italiani.md",
+      "key": "uomini-trans-italiani",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/uomo-trans-gay.md",
+      "key": "uomo-trans-gay",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/whipping-girl.md",
+      "key": "whipping-girl",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/percorsi/sterilizzazione-forzata-diritti-riproduttivi-trans.md",
+      "key": "sterilizzazione-forzata-diritti-riproduttivi-trans",
+      "category": "percorsi"
+    },
+    {
+      "path": "src/content/wiki/it/percorsi/trans-e-sanita.md",
+      "key": "trans-e-sanita",
+      "category": "percorsi"
+    },
+    {
+      "path": "src/content/wiki/it/percorsi/transizione-dopo-i-40.md",
+      "key": "transizione-dopo-i-40",
+      "category": "percorsi"
+    },
+    {
+      "path": "src/content/wiki/it/percorsi/transizione-sociale.md",
+      "key": "transizione-sociale",
+      "category": "percorsi"
+    },
+    {
+      "path": "src/content/wiki/it/scienza/vaginoplastica-come-funziona.md",
+      "key": "vaginoplastica-come-funziona",
+      "category": "scienza"
+    },
+    {
+      "path": "src/content/wiki/it/scienza/vaginoplastica-risultati.md",
+      "key": "vaginoplastica-risultati",
+      "category": "scienza"
+    }
+  ],
+  "es": [
+    {
+      "path": "src/content/wiki/it/cultura/discriminazione-lavoro-trans-italia.md",
+      "key": "discriminazione-lavoro-trans-italia",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/donna-trans-lesbica.md",
+      "key": "donna-trans-lesbica",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/donne-trans-italiane.md",
+      "key": "donne-trans-italiane",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/donne-trans-sono-donne.md",
+      "key": "donne-trans-sono-donne",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/espressione-genere-bambini.md",
+      "key": "espressione-genere-bambini",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/euphoria-serie-tv.md",
+      "key": "euphoria-serie-tv",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/famiglie-e-persone-trans.md",
+      "key": "famiglie-e-persone-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/femminismo-e-donne-trans.md",
+      "key": "femminismo-e-donne-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/festivita-trans.md",
+      "key": "festivita-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/figlio-trans-cosa-fare.md",
+      "key": "figlio-trans-cosa-fare",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/gender-nelle-scuole.md",
+      "key": "gender-nelle-scuole",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/gender-trouble.md",
+      "key": "gender-trouble",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/genitorialita-trans.md",
+      "key": "genitorialita-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/miti-comuni-persone-trans.md",
+      "key": "miti-comuni-persone-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/morte-e-vita-marsha-p-johnson.md",
+      "key": "morte-e-vita-marsha-p-johnson",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/paris-is-burning.md",
+      "key": "paris-is-burning",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/partner-trans.md",
+      "key": "partner-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/persone-trans-anziane.md",
+      "key": "persone-trans-anziane",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/persone-trans-nella-storia.md",
+      "key": "persone-trans-nella-storia",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/politica-italiana-diritti-trans.md",
+      "key": "politica-italiana-diritti-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/pose-serie-tv.md",
+      "key": "pose-serie-tv",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/religioni-e-persone-trans.md",
+      "key": "religioni-e-persone-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/sex-work-persone-trans.md",
+      "key": "sex-work-persone-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/situazione-trans-italia.md",
+      "key": "situazione-trans-italia",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/sono-trans.md",
+      "key": "sono-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/stare-con-un-ragazzo-trans.md",
+      "key": "stare-con-un-ragazzo-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/stare-con-una-ragazza-trans.md",
+      "key": "stare-con-una-ragazza-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/storia-movimento-trans.md",
+      "key": "storia-movimento-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/successi-persone-trans.md",
+      "key": "successi-persone-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/tangerine.md",
+      "key": "tangerine",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/tecnologia-e-persone-trans.md",
+      "key": "tecnologia-e-persone-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/tennessee-laboratorio-anti-trans.md",
+      "key": "tennessee-laboratorio-anti-trans",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/the-danish-girl.md",
+      "key": "the-danish-girl",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/trans-e-scuola.md",
+      "key": "trans-e-scuola",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/transgender-history.md",
+      "key": "transgender-history",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/transparent-serie-tv.md",
+      "key": "transparent-serie-tv",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/una-donna-fantastica.md",
+      "key": "una-donna-fantastica",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/uomini-trans-italiani.md",
+      "key": "uomini-trans-italiani",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/uomo-trans-gay.md",
+      "key": "uomo-trans-gay",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/cultura/whipping-girl.md",
+      "key": "whipping-girl",
+      "category": "cultura"
+    },
+    {
+      "path": "src/content/wiki/it/percorsi/privacy-identita-di-genere.md",
+      "key": "privacy-identita-di-genere",
+      "category": "percorsi"
+    },
+    {
+      "path": "src/content/wiki/it/percorsi/project-2025-trans.md",
+      "key": "project-2025-trans",
+      "category": "percorsi"
+    },
+    {
+      "path": "src/content/wiki/it/percorsi/regno-unito-diritti-trans.md",
+      "key": "regno-unito-diritti-trans",
+      "category": "percorsi"
+    },
+    {
+      "path": "src/content/wiki/it/percorsi/sentenza-skrmetti.md",
+      "key": "sentenza-skrmetti",
+      "category": "percorsi"
+    },
+    {
+      "path": "src/content/wiki/it/percorsi/stati-uniti-diritti-trans.md",
+      "key": "stati-uniti-diritti-trans",
+      "category": "percorsi"
+    },
+    {
+      "path": "src/content/wiki/it/percorsi/sterilizzazione-forzata-diritti-riproduttivi-trans.md",
+      "key": "sterilizzazione-forzata-diritti-riproduttivi-trans",
+      "category": "percorsi"
+    },
+    {
+      "path": "src/content/wiki/it/percorsi/trans-e-sanita.md",
+      "key": "trans-e-sanita",
+      "category": "percorsi"
+    },
+    {
+      "path": "src/content/wiki/it/percorsi/transizione-dopo-i-40.md",
+      "key": "transizione-dopo-i-40",
+      "category": "percorsi"
+    },
+    {
+      "path": "src/content/wiki/it/percorsi/transizione-sociale.md",
+      "key": "transizione-sociale",
+      "category": "percorsi"
+    },
+    {
+      "path": "src/content/wiki/it/scienza/fertilita-persone-trans.md",
+      "key": "fertilita-persone-trans",
+      "category": "scienza"
+    },
+    {
+      "path": "src/content/wiki/it/scienza/genere-solo-cultura.md",
+      "key": "genere-solo-cultura",
+      "category": "scienza"
+    },
+    {
+      "path": "src/content/wiki/it/scienza/genitali-donna-trans.md",
+      "key": "genitali-donna-trans",
+      "category": "scienza"
+    },
+    {
+      "path": "src/content/wiki/it/scienza/prevenzione-oncologica-trans.md",
+      "key": "prevenzione-oncologica-trans",
+      "category": "scienza"
+    },
+    {
+      "path": "src/content/wiki/it/scienza/quante-persone-trans.md",
+      "key": "quante-persone-trans",
+      "category": "scienza"
+    },
+    {
+      "path": "src/content/wiki/it/scienza/rapporti-sessuali-donna-trans.md",
+      "key": "rapporti-sessuali-donna-trans",
+      "category": "scienza"
+    },
+    {
+      "path": "src/content/wiki/it/scienza/rapporti-sessuali-uomo-trans.md",
+      "key": "rapporti-sessuali-uomo-trans",
+      "category": "scienza"
+    },
+    {
+      "path": "src/content/wiki/it/scienza/ricerche-recenti-identita-genere.md",
+      "key": "ricerche-recenti-identita-genere",
+      "category": "scienza"
+    },
+    {
+      "path": "src/content/wiki/it/scienza/salute-mentale-persone-trans.md",
+      "key": "salute-mentale-persone-trans",
+      "category": "scienza"
+    },
+    {
+      "path": "src/content/wiki/it/scienza/sesso-biologico-oltre-il-binarismo.md",
+      "key": "sesso-biologico-oltre-il-binarismo",
+      "category": "scienza"
+    }
+  ]
+}

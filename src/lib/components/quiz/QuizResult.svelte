@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { QuizLevel } from '$lib/utils/quiz';
 	import ShareButtons from '$lib/components/ui/ShareButtons.svelte';
+	import { localizeHref } from '$lib/paraglide/runtime';
 
 	let {
 		score,
@@ -54,7 +55,7 @@
 			Riprova
 		</button>
 		<a
-			href="/wiki"
+			href={localizeHref('/wiki')}
 			class="px-6 py-2.5 rounded-full border border-primary text-sm font-medium text-primary hover:bg-primary hover:text-bg transition"
 		>
 			Esplora la Wiki

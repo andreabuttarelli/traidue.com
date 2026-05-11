@@ -15,7 +15,7 @@
 	function handleSearch() {
 		const q = heroSearch.trim();
 		if (q) {
-			goto(`/wiki?q=${encodeURIComponent(q)}`);
+			goto(localizeHref('/wiki') + `?q=${encodeURIComponent(q)}`);
 		}
 	}
 
@@ -122,8 +122,8 @@
 			/>
 		</div>
 		<div class="flex gap-6 text-sm">
-			<a href="/wiki" class="text-primary font-medium hover:underline transition">{m.home_cta_articles()} &rarr;</a>
-			<a href="/quiz" class="text-muted hover:text-primary transition">{m.home_cta_quiz()} &rarr;</a>
+			<a href={localizeHref('/wiki')} class="text-primary font-medium hover:underline transition">{m.home_cta_articles()} &rarr;</a>
+			<a href={localizeHref('/quiz')} class="text-muted hover:text-primary transition">{m.home_cta_quiz()} &rarr;</a>
 		</div>
 	</div>
 </section>
@@ -133,7 +133,7 @@
 <section>
 	<div class="w-full px-4 sm:px-6 lg:px-12 py-10 sm:py-16">
 		<div class="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-6">
-			<a href="/famiglie" class="group relative rounded-2xl overflow-hidden aspect-[2/1] sm:aspect-[4/3]">
+			<a href={localizeHref('/famiglie')} class="group relative rounded-2xl overflow-hidden aspect-[2/1] sm:aspect-[4/3]">
 				<img
 					src="/images/wiki/mio-figlio-trans-thumb.webp"
 					alt={m.home_persona_family_alt()}
@@ -149,7 +149,7 @@
 					<p class="text-white/80 text-xs sm:text-sm leading-relaxed">{m.home_persona_family_desc()}</p>
 				</div>
 			</a>
-			<a href="/giovani" class="group relative rounded-2xl overflow-hidden aspect-[2/1] sm:aspect-[4/3]">
+			<a href={localizeHref('/giovani')} class="group relative rounded-2xl overflow-hidden aspect-[2/1] sm:aspect-[4/3]">
 				<img
 					src="/images/wiki/bambini-trans-thumb.webp"
 					alt={m.home_persona_youth_alt()}
@@ -165,7 +165,7 @@
 					<p class="text-white/80 text-xs sm:text-sm leading-relaxed">{m.home_persona_youth_desc()}</p>
 				</div>
 			</a>
-			<a href="/wiki?category=scienza" class="group relative rounded-2xl overflow-hidden aspect-[2/1] sm:aspect-[4/3]">
+			<a href={localizeHref('/wiki') + '?category=scienza'} class="group relative rounded-2xl overflow-hidden aspect-[2/1] sm:aspect-[4/3]">
 				<img
 					src="/images/wiki/basi-biologiche-identita-di-genere-thumb.webp"
 					alt={m.home_persona_pro_alt()}
@@ -193,7 +193,7 @@
 				<h2 class="text-xl sm:text-2xl font-heading font-semibold tracking-tight text-primary">{m.home_section_featured()}</h2>
 			</div>
 			<div class="hidden sm:flex gap-4 flex-wrap mb-8 sm:mb-12">
-				<a href="/wiki" class="text-sm text-primary font-medium transition">{m.wiki_filter_all()}</a>
+				<a href={localizeHref('/wiki')} class="text-sm text-primary font-medium transition">{m.wiki_filter_all()}</a>
 				{#each categories as cat}
 					<a href={cat.href} class="text-sm text-muted hover:text-primary capitalize transition">{cat.name}</a>
 				{/each}
@@ -204,7 +204,7 @@
 				{/each}
 			</div>
 			<div class="flex justify-center mt-10 sm:mt-14">
-				<a href="/wiki" class="inline-flex items-center gap-2 px-6 py-2.5 rounded-full text-sm font-medium bg-primary text-bg hover:opacity-90 transition">
+				<a href={localizeHref('/wiki')} class="inline-flex items-center gap-2 px-6 py-2.5 rounded-full text-sm font-medium bg-primary text-bg hover:opacity-90 transition">
 					{m.home_section_all_articles()} &rarr;
 				</a>
 			</div>
@@ -230,7 +230,7 @@
 				{/each}
 			</div>
 			<div class="flex justify-center mt-10 sm:mt-14">
-				<a href="/wiki?category=persone" class="inline-flex items-center gap-2 px-6 py-2.5 rounded-full text-sm font-medium bg-primary text-bg hover:opacity-90 transition">
+				<a href={localizeHref('/wiki') + '?category=persone'} class="inline-flex items-center gap-2 px-6 py-2.5 rounded-full text-sm font-medium bg-primary text-bg hover:opacity-90 transition">
 					{m.home_section_all_stories()} &rarr;
 				</a>
 			</div>

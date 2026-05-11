@@ -76,7 +76,7 @@
 					{m.quiz_cta_desc({ count: data.featuredQuiz.questions.length })}
 				</p>
 				<a
-					href="/quiz/{data.featuredQuiz.slug}"
+					href={localizeHref('/quiz/' + data.featuredQuiz.slug)}
 					class="inline-block px-6 py-2.5 rounded-full bg-primary text-bg text-sm font-medium hover:bg-primary/80 transition"
 				>
 					{m.quiz_cta_start()} &rarr;
@@ -93,7 +93,7 @@
 		<p class="text-muted mb-6 max-w-lg">
 			{m.youth_cta_desc()}
 		</p>
-		<a href="/newsletter" class="inline-block px-6 py-2.5 rounded-full bg-primary text-bg text-sm font-medium hover:bg-primary/80 transition">
+		<a href={localizeHref('/newsletter')} class="inline-block px-6 py-2.5 rounded-full bg-primary text-bg text-sm font-medium hover:bg-primary/80 transition">
 			{m.youth_cta_newsletter()} &rarr;
 		</a>
 	</div>
@@ -103,6 +103,6 @@
 <section>
 	<div class="w-full px-4 sm:px-6 lg:px-12 py-10 sm:py-16 text-center">
 		<p class="text-muted mb-4">{m.youth_explore_all()}</p>
-		<a href="/wiki" class="text-sm text-primary font-medium hover:underline transition">{m.youth_explore_wiki()} &rarr;</a>
+		<a href={localizeHref('/wiki')} class="text-sm text-primary font-medium hover:underline transition">{m.youth_explore_wiki()} &rarr;</a>
 	</div>
 </section>

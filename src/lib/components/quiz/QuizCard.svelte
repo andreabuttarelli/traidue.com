@@ -1,11 +1,12 @@
 <script lang="ts">
 	import type { Quiz } from '$lib/utils/quiz';
+	import { localizeHref } from '$lib/paraglide/runtime';
 
 	let { quiz }: { quiz: Quiz } = $props();
 </script>
 
 <a
-	href="/quiz/{quiz.slug}"
+	href={localizeHref('/quiz/' + quiz.slug)}
 	class="block p-5 rounded-xl border border-border hover:border-primary/30 transition-all"
 >
 	<div class="flex items-center gap-3 mb-1.5">

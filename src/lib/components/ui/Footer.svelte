@@ -1,5 +1,6 @@
 <script lang="ts">
 	import * as m from '$lib/paraglide/messages';
+	import { localizeHref } from '$lib/paraglide/runtime';
 	import Logo from './Logo.svelte';
 </script>
 
@@ -28,12 +29,12 @@
 			<div>
 				<p class="text-sm font-medium text-primary mb-3">{m.footer_navigation()}</p>
 				<nav class="flex flex-col gap-2">
-					<a href="/wiki" class="text-sm text-muted hover:text-primary transition-colors">{m.nav_wiki()}</a>
-					<a href="/quiz" class="text-sm text-muted hover:text-primary transition-colors">{m.nav_quiz()}</a>
-					<a href="/glossario" class="text-sm text-muted hover:text-primary transition-colors">{m.nav_glossary()}</a>
-					<a href="/regioni" class="text-sm text-muted hover:text-primary transition-colors">{m.nav_regions()}</a>
-					<a href="/chi-siamo" class="text-sm text-muted hover:text-primary transition-colors">{m.nav_about()}</a>
-					<a href="/perche-ai" class="text-sm text-muted hover:text-primary transition-colors">{m.nav_why_ai()}</a>
+					<a href={localizeHref('/wiki')} class="text-sm text-muted hover:text-primary transition-colors">{m.nav_wiki()}</a>
+					<a href={localizeHref('/quiz')} class="text-sm text-muted hover:text-primary transition-colors">{m.nav_quiz()}</a>
+					<a href={localizeHref('/glossario')} class="text-sm text-muted hover:text-primary transition-colors">{m.nav_glossary()}</a>
+					<a href={localizeHref('/regioni')} class="text-sm text-muted hover:text-primary transition-colors">{m.nav_regions()}</a>
+					<a href={localizeHref('/chi-siamo')} class="text-sm text-muted hover:text-primary transition-colors">{m.nav_about()}</a>
+					<a href={localizeHref('/perche-ai')} class="text-sm text-muted hover:text-primary transition-colors">{m.nav_why_ai()}</a>
 					<a href="https://github.com/andreabuttarelli/traidue.com" target="_blank" rel="noopener noreferrer" class="text-sm text-muted hover:text-primary transition-colors">GitHub</a>
 				</nav>
 			</div>
@@ -42,9 +43,9 @@
 				<p class="text-sm font-medium text-primary mb-3">{m.footer_legal()}</p>
 				<div class="flex flex-col gap-2">
 					<p class="text-sm text-muted">{m.footer_copyright()}</p>
-					<a href="/privacy" class="text-sm text-muted hover:text-primary transition-colors">{m.footer_privacy()}</a>
-					<a href="/cookie" class="text-sm text-muted hover:text-primary transition-colors">{m.footer_cookie()}</a>
-					<a href="/termini" class="text-sm text-muted hover:text-primary transition-colors">{m.footer_terms()}</a>
+					<a href={localizeHref('/privacy')} class="text-sm text-muted hover:text-primary transition-colors">{m.footer_privacy()}</a>
+					<a href={localizeHref('/cookie')} class="text-sm text-muted hover:text-primary transition-colors">{m.footer_cookie()}</a>
+					<a href={localizeHref('/termini')} class="text-sm text-muted hover:text-primary transition-colors">{m.footer_terms()}</a>
 					<a
 						href="https://www.apache.org/licenses/LICENSE-2.0"
 						target="_blank"
@@ -63,7 +64,7 @@
 				<p class="text-sm text-muted">{m.footer_newsletter_desc()}</p>
 			</div>
 			<a
-				href="/newsletter"
+				href={localizeHref('/newsletter')}
 				class="inline-block px-5 py-2.5 rounded-full text-sm font-medium bg-primary text-bg hover:bg-primary/80 transition self-start sm:self-center"
 			>
 				{m.footer_newsletter_cta()} &rarr;

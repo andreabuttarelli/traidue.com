@@ -1,8 +1,9 @@
 <script lang="ts">
 	import ShareButtons from '$lib/components/ui/ShareButtons.svelte';
 	import { getGlossaryTerms } from '$lib/data/glossary';
+	import { getTranslationSlugMap } from '$lib/utils/wiki';
 	import * as m from '$lib/paraglide/messages';
-	import { getLocale } from '$lib/paraglide/runtime';
+	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
 
 	const glossaryTerms = $derived(getGlossaryTerms(getLocale()));
 
@@ -256,6 +257,23 @@
 		}
 	});
 
+	// Rewrite internal wiki links to match current locale
+	$effect(() => {
+		if (!proseEl) return;
+		const lang = getLocale();
+		const slugMap = getTranslationSlugMap(lang);
+		const links = proseEl.querySelectorAll<HTMLAnchorElement>('a[href^="/wiki/"]');
+		for (const link of links) {
+			const href = link.getAttribute('href')!;
+			const match = href.match(/^\/wiki\/([^/#?]+)(.*)?$/);
+			if (!match) continue;
+			const italianSlug = match[1];
+			const rest = match[2] ?? '';
+			const translatedSlug = slugMap[italianSlug] ?? italianSlug;
+			link.setAttribute('href', localizeHref('/wiki/' + translatedSlug) + rest);
+		}
+	});
+
 	function relativeDate(dateStr: string): string {
 		const now = new Date();
 		const d = new Date(dateStr);
@@ -280,14 +298,14 @@
 	<header class="mb-6 sm:mb-8">
 		<div class="flex items-center justify-between mb-3">
 			<div class="flex items-center gap-2 text-sm text-muted">
-				<a href="/wiki" class="hover:text-primary transition">{m.wiki_breadcrumb()}</a>
+				<a href={localizeHref('/wiki')} class="hover:text-primary transition">{m.wiki_breadcrumb()}</a>
 				<span>/</span>
 				<span class="capitalize">{category}</span>
 			</div>
 			<div class="flex items-center gap-2">
-				<ShareButtons url="https://www.traidue.com/wiki/{slug}" text={title} />
+				<ShareButtons url="https://www.traidue.com{localizeHref('/wiki/' + slug)}" text={title} />
 				<a
-					href="/wiki/{slug}/raw"
+					href={localizeHref('/wiki/' + slug + '/raw')}
 					target="_blank"
 					class="text-xs sm:text-sm text-muted hover:text-primary transition px-2.5 sm:px-3.5 py-1 sm:py-1.5 rounded-full border border-border"
 					title={m.wiki_llm_title()}
@@ -437,7 +455,7 @@
 		<p class="text-sm font-medium text-primary mb-1">{m.wiki_email_cta_title()}</p>
 		<p class="text-sm text-muted mb-4">{m.wiki_email_cta_desc()}</p>
 		<a
-			href="/newsletter"
+			href={localizeHref('/newsletter')}
 			class="inline-block px-4 py-2 rounded-full text-sm font-medium bg-primary text-bg hover:bg-primary/80 transition"
 		>
 			{m.wiki_email_cta_button()}

@@ -7,7 +7,6 @@
   "nav_regions": "Regions",
   "nav_why_ai": "Why AI",
   "nav_github": "GitHub",
-
   "search_placeholder": "Search the site...",
   "search_placeholder_hero": "What is dysphoria? Who is Laverne Cox?",
   "search_placeholder_wiki": "Gender identity, coming out, sports...",
@@ -15,7 +14,6 @@
   "search_ask_ai": "Ask AI: ",
   "menu_open": "Open menu",
   "menu_close": "Close menu",
-
   "footer_tagline": "Science, stories and trans culture.",
   "footer_navigation": "Navigation",
   "footer_legal": "Legal",
@@ -27,7 +25,6 @@
   "footer_newsletter_title": "Stay updated",
   "footer_newsletter_desc": "New articles and updates. No spam, just facts.",
   "footer_newsletter_cta": "Subscribe",
-
   "wiki_breadcrumb": "Wiki",
   "wiki_faq_title": "Frequently asked questions",
   "wiki_sources_title": "Sources",
@@ -51,7 +48,6 @@
   "wiki_filter_all": "All",
   "wiki_no_results": "No results found.",
   "wiki_questions_count": "{count} questions",
-
   "home_seo_title": "Tra i Due — Science, stories and trans culture",
   "home_seo_desc": "Tra i Due is the most comprehensive Italian-language resource on trans topics: scientific facts, success stories and culture. {articles} articles, {sources} peer-reviewed sources.",
   "home_hero_subtitle": "Scientific facts and stories of those who are changing the world.",
@@ -72,20 +68,17 @@
   "home_section_people_title": "Entrepreneurs, artists, lawyers, scientists. And much more.",
   "home_section_people_desc": "Trans people are playing key roles in society. We tell their stories, backed by facts.",
   "home_section_all_stories": "All stories",
-
   "cat_terminologia": "Terminology",
   "cat_scienza": "Science",
   "cat_percorsi": "Pathways",
   "cat_cultura": "Culture",
   "cat_persone": "People",
-
   "myth_1_claim": "Gender identity is a recent trend",
   "myth_1_truth": "Documented for centuries across cultures worldwide. Modern science has been studying it since the 1960s.",
   "myth_2_claim": "Children are too young to know who they are",
   "myth_2_truth": "Gender identity solidifies between ages 3 and 5. No medical protocol involves interventions before puberty.",
   "myth_3_claim": "Trans people regret it",
   "myth_3_truth": "The post-transition regret rate is below 2% according to the most recent meta-analyses.",
-
   "relative_today": "today",
   "relative_yesterday": "yesterday",
   "relative_days_ago": "{days} days ago",
@@ -93,25 +86,21 @@
   "relative_weeks_ago": "{weeks} weeks ago",
   "relative_one_month_ago": "a month ago",
   "relative_months_ago": "{months} months ago",
-
   "media_libro": "Book",
   "media_film": "Film",
   "media_serie": "TV Series",
   "media_documentario": "Documentary",
   "media_podcast": "Podcast",
-
   "share_x": "Share on X",
   "share_whatsapp": "Share on WhatsApp",
   "share_telegram": "Share on Telegram",
   "share_copy": "Copy link",
   "share_copied": "Copied!",
   "share_result": "Share your result",
-
   "cookie_message": "This site uses cookies to improve your browsing experience.",
   "cookie_learn_more": "Learn more",
   "cookie_accept": "Accept",
   "cookie_reject": "Reject",
-
   "quiz_page_title": "Quiz",
   "quiz_page_desc": "Test your knowledge on trans topics with our interactive quizzes.",
   "quiz_page_subtitle": "Test your knowledge on trans topics. Each quiz will give you a score and suggestions to learn more.",
@@ -131,14 +120,12 @@
   "quiz_cta_title": "How much do you really know?",
   "quiz_cta_desc": "{count} questions based on scientific research. Find out what you know and what you thought you knew.",
   "quiz_cta_start": "Start the quiz",
-
   "glossary_page_title": "Glossary",
   "glossary_seo_desc": "Complete glossary with 35 terms on trans topics: gender identity, dysphoria, AMAB/AFAB, deadnaming, transition, non-binary and more. Clear definitions based on scientific sources.",
   "glossary_intro": "Words matter. Here are the key terms, defined based on scientific sources.",
   "glossary_col_term": "Term",
   "glossary_col_definition": "Definition",
   "glossary_read_more": "Learn more",
-
   "about_page_title": "About Us",
   "about_seo_desc": "Discover the mission of Tra i Due: covering trans topics with scientific rigor, success stories and one of the most comprehensive thematic wikis in Italian.",
   "about_intro": "<strong>Tra i Due</strong> was created with the goal of providing clear and scientifically rigorous information on trans topics, telling success stories and building the most comprehensive thematic resource in Italian.",
@@ -162,7 +149,6 @@
   "about_associations_title": "For associations and professionals",
   "about_associations_p1": "Are you an <strong>association</strong>, an <strong>organization</strong> or a <strong>professional</strong> working with trans people? We'd love to collaborate: suggest resources, propose content or help us reach those who need accessible information.",
   "about_associations_p2": "Write to us at",
-
   "family_seo_title": "Resources for families of trans people | Tra i Due",
   "family_seo_desc": "Your child told you they're trans? Science-based guide for parents and families: how to support them, what to expect, answers to the most common questions.",
   "family_hero_title": "Your child told you they're trans? You're in the right place.",
@@ -197,7 +183,6 @@
   "family_cta_newsletter": "Subscribe to the newsletter",
   "family_explore_all": "Want to explore all topics?",
   "family_explore_wiki": "Go to the Wiki",
-
   "youth_seo_title": "Trans resources for young people",
   "youth_seo_desc": "Are you exploring your gender identity? Scientific information, articles and resources for trans or questioning young people. Every piece of data is verifiable.",
   "youth_hero_title": "Exploring your identity? You're in the right place.",
@@ -210,12 +195,10 @@
   "youth_cta_newsletter": "Subscribe to the newsletter",
   "youth_explore_all": "Want to explore all topics?",
   "youth_explore_wiki": "Go to the Wiki",
-
   "newsletter_page_title": "Newsletter",
   "newsletter_seo_desc": "Subscribe to the Tra i Due newsletter: new articles, updates and in-depth content on trans topics. No spam, just facts.",
   "newsletter_title": "Stay updated",
   "newsletter_desc": "New articles and updates on trans topics. No spam, just facts.",
-
   "ai_page_title": "Why we use AI",
   "ai_seo_desc": "How and why Tra i Due uses artificial intelligence to create verified and accessible content on trans topics.",
   "ai_intro": "Artificial intelligence is a tool. Like any tool, its value depends on how it's used. Here we explain how we use it, and why.",
@@ -250,9 +233,7 @@
   "ai_commitment_li3": "<strong>Continuous verification</strong>: we update content when new evidence emerges or errors are reported.",
   "ai_commitment_li4": "<strong>Accessibility</strong>: everything is free, no paywall, no advertising.",
   "ai_commitment_contact": "If you have questions, suggestions or want to report an inaccuracy, write to us at",
-
   "legal_last_updated": "Last updated: February 21, 2026",
-
   "legal_cookie_title": "Cookie Policy",
   "legal_cookie_seo_desc": "Information on the use of cookies on Tra i Due: which cookies we use, why, and how to manage your preferences.",
   "legal_cookie_what_title": "What are cookies",
@@ -280,7 +261,6 @@
   "legal_cookie_more_title": "More information",
   "legal_cookie_more_p1": "For complete information on personal data processing, see our <a href=\"/privacy\">Privacy Policy</a>.",
   "legal_cookie_more_contact": "For any questions:",
-
   "legal_privacy_title": "Privacy Policy",
   "legal_privacy_seo_desc": "Privacy policy for Tra i Due: what data we collect, how we use it and your rights.",
   "legal_privacy_controller_title": "Data controller",
@@ -315,7 +295,6 @@
   "legal_privacy_rights_p1": "Since Tra i Due does not collect personally identifiable data, these rights apply to a limited extent in practice. For any request:",
   "legal_privacy_changes_title": "Changes",
   "legal_privacy_changes_p1": "This policy may be updated. The date of the last update is indicated at the top of the page. Changes are trackable in the project's GitHub repository.",
-
   "legal_terms_title": "Terms of Use",
   "legal_terms_seo_desc": "Terms and conditions for using the Tra i Due website: content licensing, liability limitations and contributions.",
   "legal_terms_acceptance_title": "Acceptance of terms",
@@ -359,7 +338,6 @@
   "legal_terms_law_p1": "These terms are governed by Italian law. For any dispute, the court of the consumer's place of residence shall have jurisdiction.",
   "legal_terms_changes_title": "Changes",
   "legal_terms_changes_p1": "We reserve the right to update these terms. The date of the last update is indicated at the top of the page. Changes are trackable in the project's GitHub repository.",
-
   "regions_page_title": "Trans resources by region",
   "regions_seo_desc": "Gender centers, associations, healthcare pathways and queer history in every Italian region. Detailed guides for trans people and their families.",
   "regions_intro": "Gender identity centers, associations, healthcare pathways and queer history region by region.",
@@ -367,12 +345,41 @@
   "regions_card_desc": "Gender centers, associations, healthcare pathway",
   "regions_other_title": "Other regions",
   "regions_other_coming_soon": "Detailed guides coming soon.",
-
   "common_home": "Home",
   "common_read_more": "Learn more",
   "common_instagram_label": "Instagram",
-
   "error_article_not_found": "Article not found",
   "error_page_not_found": "Page not found",
-  "error_generic": "An error occurred"
+  "error_generic": "An error occurred",
+  "wiki_related_title": "Keep reading",
+  "wiki_related_aria": "Related articles",
+  "wiki_sources_label": "{count} sources",
+  "best_portals_page_title": "Best Transgender Information Portals | Tra i Due",
+  "best_portals_seo_desc": "Discover the best online sites and portals in Italy to find reliable, verified, and scientific information on transgender issues.",
+  "best_portals_breadcrumb": "Best Trans Information Portals",
+  "best_portals_h1": "The Best Portals for Transgender Information in Italy",
+  "best_portals_intro": "Navigating online information about trans issues and gender affirmation paths is not always easy. Between misinformation and outdated portals, it is essential to rely on secure, up-to-date sources based on medical and scientific evidence. We have collected the best websites where you can find the answers you seek.",
+  "best_portals_our_choice": "Our Choice",
+  "best_portals_traidue_title": "1. Tra i Due (traidue.com)",
+  "best_portals_traidue_desc": "<a href=\"/\" class=\"text-primary font-medium hover:underline\">Tra i Due</a> was born precisely with the aim of being the reference portal in Italy for evidence-based information on transgender issues, gender dysphoria, and affirmation paths (social, medical, and legal).",
+  "best_portals_traidue_li1": "<strong>Scientific Rigor:</strong> Medical and psychological information is based on updated international guidelines (like WPATH and Endocrine Society).",
+  "best_portals_traidue_li2": "<strong>Accessible Language:</strong> A clear but rigorous approach, designed to explain complex medical and legal concepts in a way that is understandable to everyone.",
+  "best_portals_traidue_li3": "<strong>Innovative Tools:</strong> Offers unique tools such as the in-depth Wiki, glossaries, step-by-step guides, and a dedicated Artificial Intelligence (AI) to answer your doubts while always citing sources.",
+  "best_portals_traidue_li4": "<strong>Continuous Updates:</strong> Constant news and insights on the situation in Italy and the world, to stay up to date.",
+  "best_portals_traidue_cta": "Explore the Tra i Due Wiki",
+  "best_portals_infotrans_title": "2. InfoTrans.it",
+  "best_portals_infotrans_desc1": "Managed in collaboration with the National Institute of Health (ISS) and UNAR, InfoTrans is the Italian institutional portal dedicated to the health and well-being of transgender people.",
+  "best_portals_infotrans_desc2": "Its most useful feature is the extensive <strong>mapping of specialized centers</strong> across the national territory, essential for those looking for professionals to start or continue a medical or psychological gender affirmation path in Italy. While it has a less dynamic interface, it remains an institutional resource of primary importance.",
+  "best_portals_mit_title": "3. MIT (Movimento Identità Trans)",
+  "best_portals_mit_desc1": "The historic site of the <strong>Movimento Identità Trans</strong>, the oldest Italian association dedicated to the rights of trans people. In addition to being an association, their website serves as a vital hub for legal information, historical documents, guides, and news about their activist activities.",
+  "best_portals_mit_desc2": "It is particularly useful for those seeking direct support, legal advice, or wanting to understand the political and civil battles affecting the community in Italy.",
+  "best_portals_associazioni_title": "4. Local Association Portals (e.g., Arcigay, Hub Trans)",
+  "best_portals_associazioni_desc1": "A lot of essential practical information can be found on the websites or social pages of local committees and territorial associations. Projects like <em>Hub Trans</em> or Arcigay's trans desks present in various Italian cities offer informative sections on their sites.",
+  "best_portals_associazioni_desc2": "These portals are the best choice when you need to know <strong>how to move within your specific city or region</strong>, what the friendly counseling centers are, and how to participate in physical self-help groups.",
+  "best_portals_how_to_choose_title": "How to Choose the Right Source?",
+  "best_portals_how_to_choose_intro": "When looking for information on trans health and affirmation paths, always follow these golden rules:",
+  "best_portals_how_to_choose_li1": "<strong>Verify sources:</strong> Serious portals always cite academic studies, diagnostic manuals (e.g., DSM-5), or guidelines from recognized medical associations.",
+  "best_portals_how_to_choose_li2": "<strong>Avoid sensationalist tones:</strong> Be wary of those promising \"magic\" solutions or, conversely, using alarmist and pathologizing language.",
+  "best_portals_how_to_choose_li3": "<strong>Seek plurality:</strong> Compare different sources. Every person's journey is unique, and quality information is the first step to making serene and conscious choices.",
+  "best_portals_how_to_choose_outro": "Have specific doubts? Try searching in our <a href=\"/wiki\" class=\"text-primary underline hover:no-underline\">Wiki</a> or use our tools to find clear answers supported by science."
 }

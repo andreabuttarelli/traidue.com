@@ -6,7 +6,7 @@
 	import ArticleCard from '$lib/components/wiki/ArticleCard.svelte';
 	import QuizCard from '$lib/components/quiz/QuizCard.svelte';
 	import * as m from '$lib/paraglide/messages';
-	import { locales, localizeHref } from '$lib/paraglide/runtime';
+	import { getLocale, locales, localizeHref } from '$lib/paraglide/runtime';
 
 	let { data } = $props();
 
@@ -63,8 +63,8 @@
 	'@type': 'CollectionPage',
 	name: 'Wiki',
 	description: m.wiki_page_desc(),
-	url: 'https://www.traidue.com/wiki',
-	inLanguage: 'it',
+	url: `https://www.traidue.com${localizeHref('/wiki')}`,
+	inLanguage: { it: 'it-IT', en: 'en-US', es: 'es-ES', pt: 'pt-BR' }[getLocale()] ?? 'it-IT',
 	isPartOf: {
 		'@type': 'WebSite',
 		name: 'Tra i Due',
@@ -76,7 +76,7 @@
 		itemListElement: data.articles.slice(0, 30).map((a, i) => ({
 			'@type': 'ListItem',
 			position: i + 1,
-			url: `https://www.traidue.com/wiki/${a.slug}`
+			url: `https://www.traidue.com${localizeHref('/wiki/' + a.slug)}`
 		}))
 	}
 }} />

@@ -7,7 +7,6 @@
   "nav_regions": "Regiões",
   "nav_why_ai": "Porquê a IA",
   "nav_github": "GitHub",
-
   "search_placeholder": "Pesquisar no site...",
   "search_placeholder_hero": "O que é disforia? Quem é Laverne Cox?",
   "search_placeholder_wiki": "Identidade de género, coming out, desporto...",
@@ -15,7 +14,6 @@
   "search_ask_ai": "Perguntar à IA: ",
   "menu_open": "Abrir menu",
   "menu_close": "Fechar menu",
-
   "footer_tagline": "Ciência, histórias e cultura trans.",
   "footer_navigation": "Navegação",
   "footer_legal": "Legal",
@@ -27,7 +25,6 @@
   "footer_newsletter_title": "Mantém-te atualizado/a",
   "footer_newsletter_desc": "Novos artigos e atualizações. Sem spam, apenas factos.",
   "footer_newsletter_cta": "Subscreve",
-
   "wiki_breadcrumb": "Wiki",
   "wiki_faq_title": "Perguntas frequentes",
   "wiki_sources_title": "Fontes",
@@ -51,7 +48,6 @@
   "wiki_filter_all": "Todos",
   "wiki_no_results": "Nenhum resultado encontrado.",
   "wiki_questions_count": "{count} perguntas",
-
   "home_seo_title": "Tra i Due — Ciência, histórias e cultura trans",
   "home_seo_desc": "Tra i Due é o recurso em italiano mais completo sobre temáticas trans: factos científicos, histórias de sucesso e cultura. {articles} artigos, {sources} fontes peer-reviewed.",
   "home_hero_subtitle": "Factos científicos e histórias de quem está a mudar o mundo.",
@@ -72,20 +68,17 @@
   "home_section_people_title": "Empreendedores, artistas, advogados, cientistas. E muito mais.",
   "home_section_people_desc": "As pessoas trans estão a desempenhar papéis-chave na sociedade. Nós contamos as suas histórias, com os factos.",
   "home_section_all_stories": "Todas as histórias",
-
   "cat_terminologia": "Terminologia",
   "cat_scienza": "Ciência",
   "cat_percorsi": "Percursos",
   "cat_cultura": "Cultura",
   "cat_persone": "Pessoas",
-
   "myth_1_claim": "A identidade de género é uma moda recente",
   "myth_1_truth": "Documentada há séculos em culturas de todo o mundo. A ciência moderna estuda-a desde os anos 60.",
   "myth_2_claim": "As crianças são demasiado pequenas para saberem quem são",
   "myth_2_truth": "A identidade de género consolida-se entre os 3 e os 5 anos. Nenhum protocolo médico prevê intervenções antes da puberdade.",
   "myth_3_claim": "As pessoas trans arrependem-se",
   "myth_3_truth": "A taxa de arrependimento pós-transição é inferior a 2% segundo as meta-análises mais recentes.",
-
   "relative_today": "hoje",
   "relative_yesterday": "ontem",
   "relative_days_ago": "há {days} dias",
@@ -93,25 +86,21 @@
   "relative_weeks_ago": "há {weeks} semanas",
   "relative_one_month_ago": "há um mês",
   "relative_months_ago": "há {months} meses",
-
   "media_libro": "Livro",
   "media_film": "Filme",
   "media_serie": "Série de TV",
   "media_documentario": "Documentário",
   "media_podcast": "Podcast",
-
   "share_x": "Partilhar no X",
   "share_whatsapp": "Partilhar no WhatsApp",
   "share_telegram": "Partilhar no Telegram",
   "share_copy": "Copiar link",
   "share_copied": "Copiado!",
   "share_result": "Partilha o teu resultado",
-
   "cookie_message": "Este site utiliza cookies para melhorar a tua experiência de navegação.",
   "cookie_learn_more": "Saber mais",
   "cookie_accept": "Aceitar",
   "cookie_reject": "Rejeitar",
-
   "quiz_page_title": "Quiz",
   "quiz_page_desc": "Testa os teus conhecimentos sobre temáticas trans com os nossos quiz interativos.",
   "quiz_page_subtitle": "Testa os teus conhecimentos sobre temáticas trans. Cada quiz dá-te uma pontuação e sugestões para aprofundar.",
@@ -131,14 +120,12 @@
   "quiz_cta_title": "Quanto sabes realmente?",
   "quiz_cta_desc": "{count} perguntas baseadas na investigação científica. Descobre o que sabes e o que pensavas saber.",
   "quiz_cta_start": "Começar o quiz",
-
   "glossary_page_title": "Glossário",
   "glossary_seo_desc": "Glossário completo com 35 termos sobre temáticas trans: identidade de género, disforia, AMAB/AFAB, deadnaming, transição, não-binário e outros. Definições claras baseadas em fontes científicas.",
   "glossary_intro": "As palavras importam. Aqui estão os termos principais, definidos a partir de fontes científicas.",
   "glossary_col_term": "Termo",
   "glossary_col_definition": "Definição",
   "glossary_read_more": "Aprofundar",
-
   "about_page_title": "Quem Somos",
   "about_seo_desc": "Descobre a missão de Tra i Due: contar as temáticas trans com rigor científico, histórias de sucesso e uma wiki temática das mais completas em italiano.",
   "about_intro": "<strong>Tra i Due</strong> nasce com o objetivo de oferecer informação clara e cientificamente rigorosa sobre temáticas trans, contar histórias de sucesso e construir o recurso temático mais completo em italiano.",
@@ -162,7 +149,6 @@
   "about_associations_title": "Para associações e profissionais",
   "about_associations_p1": "És uma <strong>associação</strong>, uma <strong>organização</strong> ou um <strong>profissional</strong> que trabalha com pessoas trans? Gostaríamos de colaborar: indica-nos recursos, propõe conteúdos ou ajuda-nos a chegar a quem precisa de informação acessível.",
   "about_associations_p2": "Escreve-nos para",
-
   "family_seo_title": "Recursos para famílias de pessoas trans | Tra i Due",
   "family_seo_desc": "O teu/a filho/a disse-te que é trans? Guia baseado na ciência para pais e famílias: como apoiar, o que esperar, respostas às perguntas mais comuns.",
   "family_hero_title": "O teu/a filho/a disse-te que é trans? Estás no sítio certo.",
@@ -197,7 +183,6 @@
   "family_cta_newsletter": "Subscreve a newsletter",
   "family_explore_all": "Queres explorar todos os temas?",
   "family_explore_wiki": "Ir para a Wiki",
-
   "youth_seo_title": "Recursos trans para jovens",
   "youth_seo_desc": "Estás a explorar a tua identidade de género? Informação científica, artigos e recursos para jovens trans ou em exploração. Cada dado é verificável.",
   "youth_hero_title": "Estás a explorar a tua identidade? Estás no sítio certo.",
@@ -210,12 +195,10 @@
   "youth_cta_newsletter": "Subscreve a newsletter",
   "youth_explore_all": "Queres explorar todos os temas?",
   "youth_explore_wiki": "Ir para a Wiki",
-
   "newsletter_page_title": "Newsletter",
   "newsletter_seo_desc": "Subscreve a newsletter de Tra i Due: novos artigos, atualizações e aprofundamentos sobre temáticas trans. Sem spam, apenas factos.",
   "newsletter_title": "Mantém-te atualizado/a",
   "newsletter_desc": "Novos artigos e atualizações sobre temáticas trans. Sem spam, apenas factos.",
-
   "ai_page_title": "Porquê usamos a IA",
   "ai_seo_desc": "Como e porquê Tra i Due utiliza a inteligência artificial para criar conteúdos verificados e acessíveis sobre temáticas trans.",
   "ai_intro": "A inteligência artificial é uma ferramenta. Como qualquer ferramenta, o seu valor depende de como é utilizada. Aqui explicamos como a usamos, e porquê.",
@@ -250,9 +233,7 @@
   "ai_commitment_li3": "<strong>Verificação contínua</strong>: atualizamos os conteúdos quando surgem novas evidências ou nos são assinalados erros.",
   "ai_commitment_li4": "<strong>Acessibilidade</strong>: tudo é gratuito, sem paywall, sem publicidade.",
   "ai_commitment_contact": "Se tens perguntas, sugestões ou queres assinalar uma imprecisão, escreve-nos para",
-
   "legal_last_updated": "Última atualização: 21 de fevereiro de 2026",
-
   "legal_cookie_title": "Política de Cookies",
   "legal_cookie_seo_desc": "Informação sobre a utilização de cookies no Tra i Due: que cookies utilizamos, porquê e como gerir as tuas preferências.",
   "legal_cookie_what_title": "O que são cookies",
@@ -280,7 +261,6 @@
   "legal_cookie_more_title": "Mais informação",
   "legal_cookie_more_p1": "Para informação completa sobre o tratamento de dados pessoais, consulta a nossa <a href=\"/privacy\">Política de Privacidade</a>.",
   "legal_cookie_more_contact": "Para qualquer pergunta:",
-
   "legal_privacy_title": "Política de Privacidade",
   "legal_privacy_seo_desc": "Política de privacidade de Tra i Due: que dados recolhemos, como os utilizamos e os teus direitos.",
   "legal_privacy_controller_title": "Responsável pelo tratamento",
@@ -315,7 +295,6 @@
   "legal_privacy_rights_p1": "Uma vez que Tra i Due não recolhe dados pessoais identificativos, na prática estes direitos aplicam-se de forma limitada. Para qualquer pedido:",
   "legal_privacy_changes_title": "Alterações",
   "legal_privacy_changes_p1": "Esta política pode ser atualizada. A data da última atualização é indicada no topo da página. As alterações são rastreáveis no repositório GitHub do projeto.",
-
   "legal_terms_title": "Termos de Utilização",
   "legal_terms_seo_desc": "Termos e condições de utilização do site Tra i Due: licença de conteúdos, limitações de responsabilidade e contribuições.",
   "legal_terms_acceptance_title": "Aceitação dos termos",
@@ -359,7 +338,6 @@
   "legal_terms_law_p1": "Os presentes termos são regidos pela lei italiana. Para qualquer litígio será competente o tribunal do local de residência do consumidor.",
   "legal_terms_changes_title": "Alterações",
   "legal_terms_changes_p1": "Reservamo-nos o direito de atualizar os presentes termos. A data da última atualização é indicada no topo da página. As alterações são rastreáveis no repositório GitHub do projeto.",
-
   "regions_page_title": "Recursos trans por região",
   "regions_seo_desc": "Centros de género, associações, percurso sanitário e história queer em cada região italiana. Guias detalhados para pessoas trans e as suas famílias.",
   "regions_intro": "Centros de identidade de género, associações, percurso sanitário e história queer região por região.",
@@ -367,12 +345,41 @@
   "regions_card_desc": "Centros de género, associações, percurso sanitário",
   "regions_other_title": "Outras regiões",
   "regions_other_coming_soon": "Guias detalhados em breve.",
-
   "common_home": "Início",
   "common_read_more": "Aprofundar",
   "common_instagram_label": "Instagram",
-
   "error_article_not_found": "Artigo não encontrado",
   "error_page_not_found": "Página não encontrada",
-  "error_generic": "Ocorreu um erro"
+  "error_generic": "Ocorreu um erro",
+  "wiki_related_title": "Continue lendo",
+  "wiki_related_aria": "Artigos relacionados",
+  "wiki_sources_label": "{count} fontes",
+  "best_portals_page_title": "Melhores Portais de Informação Trans | Tra i Due",
+  "best_portals_seo_desc": "Descubra quais são os melhores sites e portais online na Itália onde você pode encontrar informações confiáveis, verificadas e científicas sobre questões transgênero.",
+  "best_portals_breadcrumb": "Melhores Portais de Informação Trans",
+  "best_portals_h1": "Os Melhores Portais de Informação sobre Questões Trans na Itália",
+  "best_portals_intro": "Navegar pelas informações online sobre questões trans e caminhos de afirmação de gênero nem sempre é fácil. Entre a desinformação e portais desatualizados, é essencial contar com fontes seguras, atualizadas e baseadas em evidências médicas e científicas. Reunimos os melhores sites onde você pode encontrar as respostas que procura.",
+  "best_portals_our_choice": "A Nossa Escolha",
+  "best_portals_traidue_title": "1. Tra i Due (traidue.com)",
+  "best_portals_traidue_desc": "<a href=\"/\" class=\"text-primary font-medium hover:underline\">Tra i Due</a> nasceu precisamente com o objetivo de ser o portal de referência na Itália para informações baseadas em evidências sobre questões transgênero, disforia de gênero e caminhos de afirmação (social, médica e legal).",
+  "best_portals_traidue_li1": "<strong>Rigor Científico:</strong> As informações médicas e psicológicas são baseadas em diretrizes internacionais atualizadas (como a WPATH e a Endocrine Society).",
+  "best_portals_traidue_li2": "<strong>Linguagem Acessível:</strong> Uma abordagem clara, mas rigorosa, projetada para explicar conceitos médicos e legais complexos de uma forma que seja compreensível para todes.",
+  "best_portals_traidue_li3": "<strong>Ferramentas Inovadoras:</strong> Oferece ferramentas únicas, como a Wiki aprofundada, glossários, guias passo a passo e uma Inteligência Artificial (IA) dedicada para responder às suas dúvidas citando sempre as fontes.",
+  "best_portals_traidue_li4": "<strong>Atualização Contínua:</strong> Notícias constantes e insights sobre a situação na Itália e no mundo, para se manter sempre atualizado.",
+  "best_portals_traidue_cta": "Explore a Wiki do Tra i Due",
+  "best_portals_infotrans_title": "2. InfoTrans.it",
+  "best_portals_infotrans_desc1": "Gerenciado em colaboração com o Instituto Nacional de Saúde (ISS) e a UNAR, o InfoTrans é o portal institucional italiano dedicado à saúde e ao bem-estar das pessoas transgênero.",
+  "best_portals_infotrans_desc2": "Sua característica mais útil é o amplo <strong>mapeamento de centros especializados</strong> em todo o território nacional, essencial para quem busca profissionais para iniciar ou dar continuidade a um caminho de afirmação de gênero médico ou psicológico na Itália. Embora tenha uma interface menos dinâmica, continua sendo um recurso institucional de fundamental importância.",
+  "best_portals_mit_title": "3. MIT (Movimento Identità Trans)",
+  "best_portals_mit_desc1": "O site histórico do <strong>Movimento Identità Trans</strong>, a mais antiga associação italiana dedicada aos direitos das pessoas trans. Além de ser uma associação, o site deles serve como um centro vital para informações jurídicas, documentos históricos, guias e notícias sobre suas atividades ativistas.",
+  "best_portals_mit_desc2": "É particularmente útil para quem procura apoio direto, aconselhamento jurídico ou deseja compreender as batalhas políticas e civis que afetam a comunidade na Itália.",
+  "best_portals_associazioni_title": "4. Portais de Associações Locais (ex. Arcigay, Hub Trans)",
+  "best_portals_associazioni_desc1": "Muitas informações práticas essenciais podem ser encontradas nos sites ou páginas sociais de comitês locais e associações territoriais. Projetos como <em>Hub Trans</em> ou as mesas trans do Arcigay presentes em várias cidades italianas oferecem seções informativas em seus sites.",
+  "best_portals_associazioni_desc2": "Esses portais são a melhor escolha quando você precisa saber <strong>como se locomover na sua cidade ou região específica</strong>, quais são os centros de aconselhamento amigáveis e como participar de grupos de autoajuda físicos.",
+  "best_portals_how_to_choose_title": "Como Escolher a Fonte Certa?",
+  "best_portals_how_to_choose_intro": "Ao procurar informações sobre saúde trans e caminhos de afirmação, siga sempre estas regras de ouro:",
+  "best_portals_how_to_choose_li1": "<strong>Verifique as fontes:</strong> Portais sérios sempre citam estudos acadêmicos, manuais de diagnóstico (ex., DSM-5) ou diretrizes de associações médicas reconhecidas.",
+  "best_portals_how_to_choose_li2": "<strong>Evite tons sensacionalistas:</strong> Desconfie de quem promete soluções \"mágicas\" ou, inversamente, utiliza linguagem alarmista e patologizante.",
+  "best_portals_how_to_choose_li3": "<strong>Busque pluralidade:</strong> Compare fontes diferentes. A jornada de cada pessoa é única e informações de qualidade são o primeiro passo para fazer escolhas serenas e conscientes.",
+  "best_portals_how_to_choose_outro": "Tem dúvidas específicas? Tente pesquisar na nossa <a href=\"/wiki\" class=\"text-primary underline hover:no-underline\">Wiki</a> ou utilize as nossas ferramentas para encontrar respostas claras apoiadas pela ciência."
 }

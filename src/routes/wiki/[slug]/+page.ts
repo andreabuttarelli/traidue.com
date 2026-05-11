@@ -24,7 +24,7 @@ export function load({ params }) {
 
 	const allArticles = getAllArticles(lang);
 	const relatedArticles = (article.metadata.related ?? [])
-		.map((slug: string) => allArticles.find((a) => a.slug === slug))
+		.map((key: string) => allArticles.find((a) => a.translationKey === key || a.slug === key))
 		.filter((a): a is NonNullable<typeof a> => a != null)
 		.map(({ slug, title, description, category, image, sources }) => ({ slug, title, description, category, image, sources }));
 

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import * as m from '$lib/paraglide/messages';
+	import { localizeHref } from '$lib/paraglide/runtime';
 	import {
 		PUBLIC_FIREBASE_API_KEY,
 		PUBLIC_FIREBASE_AUTH_DOMAIN,
@@ -77,7 +78,7 @@
 		<div class="max-w-lg bg-card border border-border rounded-xl shadow-lg p-5 sm:p-6">
 			<p class="text-sm text-text leading-relaxed mb-4">
 				{m.cookie_message()}
-				<a href="/cookie" class="text-primary underline hover:no-underline">{m.cookie_learn_more()}</a>
+				<a href={localizeHref('/cookie')} class="text-primary underline hover:no-underline">{m.cookie_learn_more()}</a>
 			</p>
 			<div class="flex gap-3">
 				<button
