@@ -1,0 +1,37 @@
+# Priority URLs to submit to Google Search Console "Request Indexing"
+# Submit 10-15 per day to avoid rate limits
+
+# Homepage + main sections
+https://www.traidue.com/
+https://www.traidue.com/wiki
+https://www.traidue.com/editoriali
+https://www.traidue.com/regioni
+https://www.traidue.com/famiglie
+
+# Top wiki articles (highest traffic potential)
+https://www.traidue.com/wiki/identita-di-genere
+https://www.traidue.com/wiki/disforia-di-genere
+https://www.traidue.com/wiki/cosa-significa-essere-trans
+https://www.traidue.com/wiki/terapia-ormonale-guida
+https://www.traidue.com/wiki/iniziare-transizione
+https://www.traidue.com/wiki/chirurgia-affermazione-di-genere
+https://www.traidue.com/wiki/cambiare-documenti-trans
+https://www.traidue.com/wiki/mio-figlio-trans
+
+# Major cities
+https://www.traidue.com/citta/milano
+https://www.traidue.com/citta/roma
+https://www.traidue.com/citta/torino
+https://www.traidue.com/citta/bologna
+https://www.traidue.com/citta/firenze
+https://www.traidue.com/citta/napoli
+
+# Regions
+https://www.traidue.com/regione/lombardia
+https://www.traidue.com/regione/lazio
+https://www.traidue.com/regione/veneto
+https://www.traidue.com/regione/emilia-romagna
+
+# English versions (if targeting international traffic)
+https://www.traidue.com/en/wiki/gender-identity
+https://www.traidue.com/en/wiki/what-does-it-mean-to-be-trans
