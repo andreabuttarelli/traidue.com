@@ -87,7 +87,7 @@
 					</ul>
 					<div class="mt-6 sm:mt-8">
 						<a
-							href="/wiki"
+							href={localizeHref('/wiki')}
 							class="inline-flex items-center gap-2 px-6 py-2.5 rounded-full text-sm font-medium bg-primary text-bg hover:opacity-90 transition"
 						>
 							{m.best_portals_traidue_cta()}

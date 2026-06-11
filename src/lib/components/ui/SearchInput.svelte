@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
+	import { localizeHref } from '$lib/paraglide/runtime';
 	import type { WikiArticle } from '$lib/utils/wiki';
 
 	let {
@@ -62,9 +63,9 @@
 
 	function navigateTo(item: (typeof suggestions)[0]) {
 		if (item.type === 'quiz') {
-			goto(`/quiz/${item.slug}`);
+			goto(localizeHref(`/quiz/${item.slug}`));
 		} else {
-			goto(`/wiki/${item.slug}`);
+			goto(localizeHref(`/wiki/${item.slug}`));
 		}
 		value = '';
 		focused = false;
