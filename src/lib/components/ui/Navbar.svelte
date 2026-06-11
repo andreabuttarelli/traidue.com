@@ -54,7 +54,7 @@
 	<div class="w-full px-4 sm:px-6 lg:px-12">
 		<!-- Mobile header -->
 		<div class="flex sm:hidden items-center justify-between h-14">
-			<a href="/" class="text-xl text-primary" onclick={closeMenu}>
+			<a href={localizeHref('/')} class="text-xl text-primary" onclick={closeMenu}>
 				<Logo />
 			</a>
 			<button
@@ -77,7 +77,7 @@
 
 		<!-- Desktop header -->
 		<div class="hidden sm:grid sm:grid-cols-3 items-center h-14">
-			<a href="/" class="text-xl text-primary justify-self-start" onclick={closeMenu}>
+			<a href={localizeHref('/')} class="text-xl text-primary justify-self-start" onclick={closeMenu}>
 				<Logo />
 			</a>
 
