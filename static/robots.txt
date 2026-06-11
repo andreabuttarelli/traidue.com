@@ -25,4 +25,3 @@ User-agent: Amazonbot
 Allow: /
 
 Sitemap: https://www.traidue.com/sitemap.xml
-Sitemap: https://www.traidue.com/news-sitemap.xml

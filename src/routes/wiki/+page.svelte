@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { browser } from '$app/environment';
 	import SEO from '$lib/components/seo/SEO.svelte';
 	import StructuredData from '$lib/components/seo/StructuredData.svelte';
 	import SearchInput from '$lib/components/ui/SearchInput.svelte';
@@ -22,8 +23,10 @@
 		persone: m.cat_persone
 	};
 
-	let search = $state($page.url.searchParams.get('q') ?? '');
-	let selectedCategory = $state($page.url.searchParams.get('category') ?? '');
+	// searchParams are not available during prerendering; the query string is
+	// read client-side only (the static HTML shows the unfiltered list).
+	let search = $state(browser ? ($page.url.searchParams.get('q') ?? '') : '');
+	let selectedCategory = $state(browser ? ($page.url.searchParams.get('category') ?? '') : '');
 
 	let filteredArticles = $derived(
 		data.articles.filter((a) => {

@@ -9,8 +9,7 @@
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"generate-embeddings": "bun run scripts/generate-embeddings.ts"
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-vercel": "^6.3.2",
@@ -27,13 +26,10 @@
 	},
 	"dependencies": {
 		"@google/genai": "^1.42.0",
-		"@google/generative-ai": "^0.24.1",
 		"@inlang/paraglide-js": "^2.14.0",
 		"@resvg/resvg-js": "^2.6.2",
-		"@supabase/supabase-js": "^2.97.0",
 		"firebase": "^12.9.0",
 		"marked": "^17.0.3",
-		"resend": "^6.9.2",
 		"sanitize-html": "^2.17.1",
 		"satori": "^0.19.2",
 		"sharp": "^0.34.5"

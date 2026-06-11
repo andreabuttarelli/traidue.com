@@ -1,6 +1,12 @@
-import { getQuizBySlug } from '$lib/utils/quiz';
+import { getAllQuizzes, getQuizBySlug } from '$lib/utils/quiz';
 import { getLocale } from '$lib/paraglide/runtime';
 import { error } from '@sveltejs/kit';
+
+export function entries() {
+	// Unprefixed URLs are Italian; the localized variants (/en/quiz/<slug>, ...)
+	// are enumerated in svelte.config.js (kit.prerender.entries).
+	return getAllQuizzes('it').map((q) => ({ slug: q.slug }));
+}
 
 export function load({ params }) {
 	const lang = getLocale();

@@ -31,7 +31,7 @@ sources:
     year: 2023
 related:
   - marsha-p-johnson
-  - history-of-trans-medicine
+  - history-of-transgender-medicine
   - trans-people-in-history
 media:
   - type: book
@@ -90,7 +90,7 @@ In **February 1952**, Christine received a **penectomy** -- the removal of the p
 
 Throughout the Danish period, Christine also received continuous hormone therapy with estrogens under Hamburger's supervision [2]. The physical changes were pronounced: her voice softened, her body feminized, her breasts developed. Christine described this transformation as an "awakening," the first time in her life when she felt she inhabited a body consistent with her identity [3].
 
-It is important to note that Christine's surgeries were among the first in [modern trans medical history](/wiki/history-of-trans-medicine) to receive extensive documentation and public coverage. Lili Elbe, another Danish trans woman, had been operated on twenty years earlier, but had died from post-operative complications [6]. Christine was the first to survive and thrive after a complete surgical journey.
+It is important to note that Christine's surgeries were among the first in [modern trans medical history](/wiki/history-of-transgender-medicine) to receive extensive documentation and public coverage. Lili Elbe, another Danish trans woman, had been operated on twenty years earlier, but had died from post-operative complications [6]. Christine was the first to survive and thrive after a complete surgical journey.
 
 ## The media scandal of 1952
 

@@ -139,7 +139,7 @@ Italian initiatives for TDoV are diverse and creative:
 
 ### The Italian Context
 
-TDoV in Italy takes on a special meaning within the country's political and social context. In the absence of a comprehensive law against hate crimes based on gender identity, and with [gender-affirming care pathways](/wiki/percorso-transizione) still fragmented and unequal across regions, the visibility of trans people is not just an act of celebration: it is an act of resistance.
+TDoV in Italy takes on a special meaning within the country's political and social context. In the absence of a comprehensive law against hate crimes based on gender identity, and with [gender-affirming care pathways](/wiki/starting-transition-italy) still fragmented and unequal across regions, the visibility of trans people is not just an act of celebration: it is an act of resistance.
 
 The [Italian situation](/wiki/situazione-trans-italia) for trans people has its lights and shadows: Law 164 of 1982 recognized the right to legal gender recognition, but access to medical pathways remains complex and waiting times are long. TDoV becomes an opportunity to remember both the milestones achieved and the battles still ongoing.
 

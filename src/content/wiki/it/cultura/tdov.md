@@ -139,7 +139,7 @@ Le iniziative italiane per il TDoV sono varie e creative:
 
 ### Il contesto italiano
 
-Il TDoV in Italia assume un significato particolare nel contesto politico e sociale del paese. In assenza di una legge organica contro i crimini d'odio basati sull'identità di genere e con [percorsi di affermazione di genere](/wiki/percorso-transizione) ancora frammentati e diseguali tra regioni, la visibilità delle persone trans non è solo un atto di celebrazione: è un atto di resistenza.
+Il TDoV in Italia assume un significato particolare nel contesto politico e sociale del paese. In assenza di una legge organica contro i crimini d'odio basati sull'identità di genere e con [percorsi di affermazione di genere](/wiki/iniziare-transizione) ancora frammentati e diseguali tra regioni, la visibilità delle persone trans non è solo un atto di celebrazione: è un atto di resistenza.
 
 La [situazione italiana](/wiki/situazione-trans-italia) per le persone trans presenta luci e ombre: la legge 164 del 1982 ha riconosciuto il diritto alla rettificazione anagrafica, ma l'accesso ai percorsi medici resta complesso e i tempi lunghi. Il TDoV diventa un'occasione per ricordare sia i traguardi raggiunti sia le battaglie ancora aperte.
 

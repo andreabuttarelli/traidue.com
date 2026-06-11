@@ -139,7 +139,7 @@ Las iniciativas italianas para el TDoV son variadas y creativas:
 
 ### El contexto italiano
 
-El TDoV en Italia asume un significado particular en el contexto politico y social del pais. En ausencia de una ley organica contra los crimenes de odio basados en la identidad de genero y con [itinerarios de afirmacion de genero](/wiki/percorso-transizione) todavia fragmentados y desiguales entre regiones, la visibilidad de las personas trans no es solo un acto de celebracion: es un acto de resistencia.
+El TDoV en Italia asume un significado particular en el contexto politico y social del pais. En ausencia de una ley organica contra los crimenes de odio basados en la identidad de genero y con [itinerarios de afirmacion de genero](/wiki/iniciar-transicion) todavia fragmentados y desiguales entre regiones, la visibilidad de las personas trans no es solo un acto de celebracion: es un acto de resistencia.
 
 La [situacion italiana](/wiki/situazione-trans-italia) para las personas trans presenta luces y sombras: la ley 164 de 1982 reconocio el derecho a la rectificacion de los registros civiles, pero el acceso a los itinerarios medicos sigue siendo complejo y los tiempos son largos. El TDoV se convierte en una oportunidad para recordar tanto los logros alcanzados como las batallas aun abiertas.
 

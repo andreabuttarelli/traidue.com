@@ -68,7 +68,7 @@ faq:
   - question: "Quais outros centros de disforia de genero existem na Italia alem de Careggi?"
     answer: "Os principais centros italianos para disforia de genero em menores incluem o SAIFIP no hospital San Camillo-Forlanini de Roma, o CIDIGem no hospital Molinette de Turim e o centro do hospital San Paolo de Milao. Para um mapa completo, pode-se consultar o portal Infotrans.it do Instituto Superior de Saude."
 related:
-  - bloqueadores-da-puberdade
+  - bloqueadores-puberdade
   - centros-transgenero-italia
   - ddl-disforia
   - cass-review
@@ -94,7 +94,7 @@ Para compreender o caso Careggi, e indispensavel conhecer o quadro normativo. Em
 
 A determinacao estabelece que a prescricao so pode ocorrer apos avaliacao de uma equipe multidisciplinar composta por neuropsiquiatra infantil, psicologo, endocrinologista e bioeticista, e somente quando o percurso de apoio psicologico, psicoterapeutico e psiquiatrico nao tenha sido suficiente. Um ponto-chave, como se vera, diz respeito justamente a interpretacao do termo "apoio psiquiatrico": a determinacao AIFA utiliza formulacoes ambiguas que deixam espaco para interpretacoes diversas sobre o que deve preceder obrigatoriamente a prescricao do farmaco [2][3].
 
-A triptorelina ja era utilizada ha decadas em pediatria para o tratamento da [puberdade precoce](/wiki/bloqueadores-da-puberdade). Seu emprego na disforia de genero visa suspender temporariamente a puberdade para dar ao jovem paciente e a sua familia o tempo de amadurecer uma decisao consciente, reduzindo entretanto o desconforto ligado ao desenvolvimento de caracteres sexuais incongruentes com a identidade de genero percebida.
+A triptorelina ja era utilizada ha decadas em pediatria para o tratamento da [puberdade precoce](/wiki/bloqueadores-puberdade). Seu emprego na disforia de genero visa suspender temporariamente a puberdade para dar ao jovem paciente e a sua familia o tempo de amadurecer uma decisao consciente, reduzindo entretanto o desconforto ligado ao desenvolvimento de caracteres sexuais incongruentes com a identidade de genero percebida.
 
 ## A cronologia dos eventos
 
@@ -184,7 +184,7 @@ As associacoes e grupos de familias de pessoas transgenero criticam a composicao
 
 Em **16 de dezembro de 2024**, o **Comite Nacional de Bioetica** (CNB) publica uma resposta ao quesito formulado pelo Ministerio da Saude sobre o uso da triptorelina no diagnostico de disforia de genero [9][15]. O parecer, aprovado por ampla maioria com apenas um voto contrario e duas abstencoes, evidencia:
 
-- A **insuficiencia dos dados cientificos** sobre o uso dos [bloqueadores da puberdade](/wiki/bloqueadores-da-puberdade) e a necessidade de reforcar a pesquisa por meio de estudos clinicos independentes financiados pelo Ministerio da Saude [9].
+- A **insuficiencia dos dados cientificos** sobre o uso dos [bloqueadores da puberdade](/wiki/bloqueadores-puberdade) e a necessidade de reforcar a pesquisa por meio de estudos clinicos independentes financiados pelo Ministerio da Saude [9].
 
 - A recomendacao de que a prescricao de bloqueadores da puberdade ocorra "somente em ambito experimental", em consonancia com as mudancas de abordagem adotadas por outros paises europeus [9][15].
 

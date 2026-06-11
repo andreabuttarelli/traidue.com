@@ -1,0 +1,167 @@
+{
+	"slug": "legislazione-italiana",
+	"title": "Quanto você conhece os direitos trans na Itália?",
+	"description": "Um quiz técnico sobre a legislação italiana: retificação de registro, privacidade, prisões, saúde e discriminação.",
+	"category": "percorsi",
+	"questions": [
+		{
+			"text": "Desde que ano é possível mudar legalmente de sexo na Itália?",
+			"options": [
+				"1972",
+				"1982",
+				"1996",
+				"2006"
+			],
+			"correct": 1,
+			"explanation": "A Lei 164 de 14 de abril de 1982 é a norma fundamental que permite a retificação da atribuição de sexo nos registros do estado civil."
+		},
+		{
+			"text": "É obrigatório passar por cirurgia para obter a retificação de registro na Itália?",
+			"options": [
+				"Sim, é sempre obrigatório",
+				"Não, desde 2015 o Tribunal Constitucional estabeleceu que não é um pré-requisito",
+				"Apenas para mulheres trans",
+				"Apenas se o juiz exigir"
+			],
+			"correct": 1,
+			"explanation": "A sentença 221/2015 do Tribunal Constitucional estabeleceu que a cirurgia não é um pré-requisito, mas uma escolha possível. A sentença 180/2017 reafirmou o princípio, e a sentença 143/2024 eliminou também a obrigação de autorização judicial para quem escolhe se operar."
+		},
+		{
+			"text": "Após a retificação, o que acontece com a certidão de nascimento?",
+			"options": [
+				"É completamente reescrita sem deixar vestígios",
+				"O extrato resumido mostra apenas os novos dados; o integral (com anotação) é acessível apenas pela pessoa interessada",
+				"Permanece inalterada com o sexo original",
+				"É eliminada e substituída por uma nova"
+			],
+			"correct": 1,
+			"explanation": "O extrato resumido — o documento normalmente usado — mostra apenas o nome e o gênero atualizados. O extrato integral contém a anotação da sentença, mas só pode ser solicitado pela própria pessoa. As forças policiais podem acessar os dados anteriores por motivos de segurança."
+		},
+		{
+			"text": "O que acontece com o código fiscal após a retificação de sexo?",
+			"options": [
+				"Permanece o mesmo",
+				"Muda apenas o nome, mas não o código",
+				"É gerado um código fiscal completamente novo",
+				"É adicionada uma letra ao final"
+			],
+			"correct": 2,
+			"explanation": "O código fiscal italiano codifica o gênero na data de nascimento (o dia é aumentado em 40 para as mulheres). Após a retificação, o município gera automaticamente um novo código fiscal coerente com o novo gênero."
+		},
+		{
+			"text": "Existe na Itália uma lei específica que regule o acesso aos banheiros para pessoas trans?",
+			"options": [
+				"Sim, a Lei 164/1982 também disciplina os banheiros",
+				"Sim, o D.Lgs. 81/2008 estabelece regras precisas",
+				"Não, não existe uma norma nacional específica",
+				"Sim, mas apenas nas escolas"
+			],
+			"correct": 2,
+			"explanation": "Não existe nenhuma lei italiana que regule especificamente o acesso aos banheiros para pessoas transgênero. O D.Lgs. 81/2008 sobre segurança no trabalho exige banheiros separados para homens e mulheres, mas não aborda a questão das pessoas trans. Alguns municípios e universidades introduziram banheiros de gênero neutro de forma voluntária."
+		},
+		{
+			"text": "Com base em qual critério o sistema penitenciário italiano designa as pessoas trans para uma prisão masculina ou feminina?",
+			"options": [
+				"O sexo legal nos documentos de identidade",
+				"A identidade de gênero declarada pela pessoa",
+				"O sexo anatômico/genital, independentemente dos documentos",
+				"A decisão do juiz de execução caso a caso"
+			],
+			"correct": 2,
+			"explanation": "O DAP (Departamento da Administração Penitenciária) usa como único critério o sexo anatômico-genital. Mesmo uma mulher trans com F nos documentos, se não passou por cirurgia genital, é designada para uma prisão masculina em uma seção protegida. Existem apenas 6 instituições com seções trans dedicadas (entre elas Rebibbia, Como, Belluno). Uma decisão do Tribunal de Vigilância de Florença (2020) estabeleceu que deveria prevalecer o sexo legal, mas na prática o DAP continua a se basear na anatomia."
+		},
+		{
+			"text": "A terapia hormonal para a transição de gênero é coberta pelo sistema de saúde nacional (SSN)?",
+			"options": [
+				"Não, é totalmente paga pelo paciente",
+				"Apenas em algumas regiões",
+				"Sim, é gratuita desde 2020 graças a duas resoluções da AIFA",
+				"Apenas com renda abaixo de certo limite"
+			],
+			"correct": 2,
+			"explanation": "Desde 1º de outubro de 2020, as resoluções AIFA 104272 e 104273 tornaram gratuitos os medicamentos hormonais para a transição (testosterona para homens trans, estrogênios e antiandrógenos para mulheres trans), mediante diagnóstico de uma equipe multidisciplinar."
+		},
+		{
+			"text": "O que acontece com um casamento existente quando um dos cônjuges obtém a retificação de sexo?",
+			"options": [
+				"O casamento é automaticamente anulado",
+				"O casamento continua sem alterações",
+				"Se ambos quiserem, o casamento se converte em união civil",
+				"O casamento é convertido em separação consensual"
+			],
+			"correct": 2,
+			"explanation": "A Lei Cirinnà (76/2016) prevê que, se ambos os cônjuges declararem querer manter o vínculo, o casamento se converte automaticamente em união civil. Caso contrário, é dissolvido. O Tribunal Constitucional (sentença 170/2014) havia declarado inconstitucional o divórcio automático sem alternativas."
+		},
+		{
+			"text": "O projeto de lei Zan, que teria protegido as pessoas trans da discriminação, foi:",
+			"options": [
+				"Aprovado em 2021",
+				"Rejeitado na Câmara em 2020",
+				"Bloqueado no Senado com voto secreto em 2021",
+				"Retirado pelo proponente"
+			],
+			"correct": 2,
+			"explanation": "O projeto de lei Zan foi aprovado pela Câmara em novembro de 2020, mas em 27 de outubro de 2021 o Senado o derrubou com a chamada \"tagliola\" (154 votos contra 131), votada em escrutínio secreto. A Itália continua sem uma lei nacional que proteja explicitamente a identidade de gênero como fator protegido."
+		},
+		{
+			"text": "O que é a 'carriera alias'?",
+			"options": [
+				"Uma lei nacional que permite mudar de nome sem tribunal",
+				"Um acordo de confidencialidade entre a pessoa trans e uma instituição para usar o nome escolhido nos documentos internos",
+				"Um percurso médico alternativo à terapia hormonal",
+				"Um programa de reinserção profissional para pessoas trans"
+			],
+			"correct": 1,
+			"explanation": "A carriera alias é um acordo entre a pessoa trans e a instituição (escola, universidade, empregador) que permite usar o nome escolhido nos documentos internos não oficiais: crachás, e-mail, diários de classe. Não se baseia em uma lei nacional específica. Até hoje cerca de 475 escolas italianas a adotaram, e o contrato coletivo escolar de 2024 (art. 21) a prevê para o pessoal escolar."
+		},
+		{
+			"text": "Quem pode acessar os dados relativos ao sexo de nascimento original após a retificação?",
+			"options": [
+				"Qualquer pessoa que solicite ao município",
+				"O empregador e a escola",
+				"Apenas a pessoa interessada e as forças policiais",
+				"Ninguém, os dados são apagados"
+			],
+			"correct": 2,
+			"explanation": "Após a retificação, os documentos públicos mostram apenas os novos dados. O extrato integral da certidão de nascimento (com a anotação) só pode ser solicitado pela pessoa interessada. As forças policiais podem acessar os dados anteriores por motivos de segurança. A identidade de gênero é classificada como dado sensível pelo RGPD (art. 9)."
+		},
+		{
+			"text": "O D.Lgs. 216/2003, a principal norma antidiscriminação no trabalho, protege explicitamente a identidade de gênero?",
+			"options": [
+				"Sim, tanto a orientação sexual quanto a identidade de gênero",
+				"Não, cobre apenas a orientação sexual",
+				"Sim, desde 2021",
+				"Não, não cobre nenhuma das duas"
+			],
+			"correct": 1,
+			"explanation": "O D.Lgs. 216/2003, que transpõe a Diretiva UE 2000/78, proíbe a discriminação no trabalho por orientação sexual, mas não menciona explicitamente a identidade de gênero. Essa lacuna teria sido preenchida pelo projeto de lei Zan, nunca aprovado. Algumas regiões (Toscana, Piemonte, Ligúria) têm leis regionais que incluem a identidade de gênero."
+		},
+		{
+			"text": "Qual sentença do Tribunal Constitucional eliminou a obrigação de autorização judicial para a cirurgia de redesignação?",
+			"options": [
+				"Sentença 221/2015",
+				"Sentença 170/2014",
+				"Sentença 143/2024",
+				"Sentença 180/2017"
+			],
+			"correct": 2,
+			"explanation": "A sentença 143/2024 declarou inconstitucional a obrigação de autorização do tribunal para a cirurgia (art. 31, § 4, D.Lgs. 150/2011), já que a transição pode ocorrer também sem cirurgia, tornando irrazoável subordinar a operação a um aval judicial."
+		},
+		{
+			"text": "A cirurgia de redesignação de sexo é coberta pelo sistema de saúde nacional italiano?",
+			"options": [
+				"Não, é sempre paga",
+				"Sim, está incluída nos LEA (Níveis Essenciais de Assistência)",
+				"Apenas em estruturas privadas conveniadas",
+				"Apenas para adultos de baixa renda"
+			],
+			"correct": 1,
+			"explanation": "A cirurgia de redesignação de sexo está incluída nos LEA, os níveis essenciais de assistência que o SSN deve garantir a todos os cidadãos. No entanto, os centros especializados na Itália são apenas cerca de 7 e as listas de espera podem ser longas."
+		}
+	],
+	"levels": [
+		{ "min": 0, "max": 30, "label": "Iniciante", "message": "A legislação italiana é complexa, mas é importante conhecê-la. Leia nossos artigos na seção Percursos para se aprofundar." },
+		{ "min": 31, "max": 70, "label": "Informado/a", "message": "Bom conhecimento! Ainda há aspectos para aprofundar: dê uma olhada nos nossos artigos sobre direitos e percursos." },
+		{ "min": 71, "max": 100, "label": "Especialista", "message": "Excelente domínio da legislação italiana. Compartilhe o quiz para que mais pessoas conheçam esses direitos!" }
+	]
+}

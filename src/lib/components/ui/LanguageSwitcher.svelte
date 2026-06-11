@@ -38,7 +38,7 @@
 		<div class="absolute right-0 top-full mt-1 z-50 bg-bg border border-border rounded-lg shadow-md py-1 min-w-[80px]">
 			{#each locales as locale}
 				<a
-					href={localizeHref(page.url.pathname, { locale })}
+					href={page.data.alternates?.[locale] ?? localizeHref(page.url.pathname, { locale })}
 					onclick={close}
 					class="block px-3 py-1.5 text-sm transition-colors {locale === getLocale() ? 'text-primary font-medium' : 'text-muted hover:text-primary'}"
 				>

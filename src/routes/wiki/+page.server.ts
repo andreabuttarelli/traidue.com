@@ -1,7 +1,8 @@
 import { getAllArticles } from '$lib/utils/wiki';
 import { getAllQuizzes } from '$lib/utils/quiz';
+import { getLocale } from '$lib/paraglide/runtime';
 
-export const prerender = false;
+export const prerender = true;
 
 function shuffle<T>(array: T[]): T[] {
 	const shuffled = [...array];
@@ -13,9 +14,12 @@ function shuffle<T>(array: T[]): T[] {
 }
 
 export function load() {
-	const articles = getAllArticles();
-	const quizzes = getAllQuizzes();
+	const lang = getLocale();
+	const articles = getAllArticles(lang);
+	const quizzes = getAllQuizzes(lang);
 	const categories = [...new Set(articles.map((a) => a.category))];
 	const tags = [...new Set(articles.flatMap((a) => a.tags))];
+	// Note: with prerendering the shuffle happens at build time, so the order
+	// is fixed per deploy (not per visit).
 	return { articles: shuffle(articles), quizzes, categories, tags };
 }

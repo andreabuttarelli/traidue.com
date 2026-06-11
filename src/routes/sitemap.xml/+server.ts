@@ -1,10 +1,5 @@
 import { getAllArticles, getTranslations } from '$lib/utils/wiki';
 import { getAllQuizzes } from '$lib/utils/quiz';
-import { supabase } from '$lib/server/supabase';
-import regioni from '$lib/data/regioni.json';
-import { regioniDettaglio } from '$lib/data/regioni-dettaglio';
-import comuni from '$lib/data/comuni.json';
-import { cittaDettaglio } from '$lib/data/citta-dettaglio';
 
 export const prerender = false;
 
@@ -100,12 +95,10 @@ export async function GET() {
 	const staticPages: SitemapUrl[] = [
 		{ url: '', priority: '1.0', changefreq: 'weekly', lastmod: today },
 		{ url: '/wiki', priority: '0.9', changefreq: 'weekly', lastmod: today },
-		{ url: '/editoriali', priority: '0.8', changefreq: 'daily', lastmod: today },
 		{ url: '/giovani', priority: '0.8', changefreq: 'monthly', lastmod: today },
 		{ url: '/famiglie', priority: '0.8', changefreq: 'monthly', lastmod: today },
 		{ url: '/quiz', priority: '0.8', changefreq: 'monthly', lastmod: today },
 		{ url: '/glossario', priority: '0.7', changefreq: 'monthly', lastmod: today },
-		{ url: '/regioni', priority: '0.7', changefreq: 'monthly', lastmod: today },
 		{ url: '/chi-siamo', priority: '0.5', changefreq: 'monthly', lastmod: today },
 		{ url: '/perche-ai', priority: '0.5', changefreq: 'monthly', lastmod: today },
 		{ url: '/newsletter', priority: '0.5', changefreq: 'monthly', lastmod: today },
@@ -120,53 +113,11 @@ export async function GET() {
 		changefreq: 'monthly'
 	}));
 
-	// News articles from Supabase (Italian only, no multi-language)
-	const { data: newsArticles } = await supabase
-		.from('news_articles')
-		.select('slug, published_at')
-		.eq('status', 'published')
-		.order('published_at', { ascending: false });
-
-	const newsUrls: SitemapUrl[] = (newsArticles ?? []).map((n) => ({
-		url: `/editoriali/${n.slug}`,
-		priority: '0.6',
-		changefreq: 'daily',
-		lastmod: n.published_at?.split('T')[0]
-	}));
-
-	// Region pages (all 20 regions, with localized versions)
-	const allRegioniUrls = regioni.map((r) => ({
-		url: `/regione/${r.slug}`,
-		priority: regioniDettaglio.has(r.slug) ? '0.7' : '0.5',
-		changefreq: 'monthly' as const,
-		lastmod: regioniDettaglio.get(r.slug)?.ultimoAggiornamento ?? today
-	}));
-
-	// City pages (all 7896 comuni, with localized versions)
-	const allComuniUrls = comuni.map((c) => ({
-		url: `/citta/${c.slug}`,
-		priority: cittaDettaglio.has(c.slug) ? '0.7' : '0.5',
-		changefreq: 'monthly' as const,
-		lastmod: cittaDettaglio.get(c.slug)?.ultimoAggiornamento ?? today
-	}));
-
-	// Italian-only URLs (news editorials) — no language alternates
-	const italianOnlyUrls = [...newsUrls];
-
 	const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-${renderUrlEntries([...staticPages, ...quizUrls, ...allRegioniUrls, ...allComuniUrls])}
+${renderUrlEntries([...staticPages, ...quizUrls])}
 ${renderArticleEntries(articles)}
-${italianOnlyUrls
-	.map(
-		(u) => `  <url>
-    <loc>${BASE}${u.url}</loc>
-    <priority>${u.priority}</priority>
-    <changefreq>${u.changefreq}</changefreq>${u.lastmod ? `\n    <lastmod>${u.lastmod}</lastmod>` : ''}
-  </url>`
-	)
-	.join('\n')}
 </urlset>`;
 
 	return new Response(sitemap, {

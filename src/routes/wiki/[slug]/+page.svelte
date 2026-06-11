@@ -13,9 +13,9 @@
 
 	const alternateUrls = $derived(
 		Object.fromEntries(
-			Object.entries(data.translations).map(([l, article]) => [
+			Object.entries(data.alternates ?? {}).map(([l, path]) => [
 				l,
-				`https://www.traidue.com${localizeHref('/wiki/' + article.slug, { locale: l as 'it' | 'en' | 'es' | 'pt' })}`
+				`https://www.traidue.com${path}`
 			])
 		)
 	);
@@ -31,13 +31,17 @@
 
 	let citations = $derived(extractCitations(data.metadata.sources ?? []));
 
+	let ogImage = $derived(
+		`https://www.traidue.com${data.metadata.image ?? `/images/wiki/${data.metadata.translationKey ?? data.metadata.slug}.webp`}`
+	);
+
 	let articleSchema = $derived({
 		'@context': 'https://schema.org',
 		'@type': 'Article',
 		headline: data.metadata.title,
 		description: data.metadata.description,
 		url: `https://www.traidue.com${localizeHref('/wiki/' + data.metadata.slug)}`,
-		image: `https://www.traidue.com/images/wiki/${data.metadata.translationKey ?? data.metadata.slug}.webp`,
+		image: ogImage,
 		inLanguage: localeMap[lang] ?? 'it-IT',
 		datePublished: data.metadata.date,
 		dateModified: data.metadata.updated || data.metadata.date,
@@ -105,7 +109,7 @@
 	title={data.metadata.seoTitle || data.metadata.title}
 	description={data.metadata.description}
 	url="https://www.traidue.com{localizeHref('/wiki/' + data.metadata.slug)}"
-	image="https://www.traidue.com/images/wiki/{data.metadata.translationKey ?? data.metadata.slug}.webp"
+	image={ogImage}
 	type="article"
 	article={{
 		publishedTime: data.metadata.date,

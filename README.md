@@ -33,7 +33,7 @@ src/
 │   └── persone/
 ├── lib/
 │   ├── components/        # Componenti Svelte (SEO, UI, Wiki, Quiz)
-│   ├── data/              # Quiz JSON, dati regioni/comuni
+│   ├── data/              # Quiz JSON, glossario
 │   └── utils/             # Utility per wiki, quiz, SEO
 └── routes/
     ├── wiki/[slug]/       # Pagine articolo

@@ -188,7 +188,7 @@ Psychological support does not aim to modify gender identity, but to support the
 
 So-called **conversion therapies**, which aim to change a person's gender identity to match the sex assigned at birth, are considered ineffective and harmful by all major scientific and health organizations [5]. The American Psychological Association has explicitly stated that such practices are associated with an increased risk of depression, anxiety, and suicide, and that transgender identities are normal variations of human experience that do not require any attempt at modification [5].
 
-For a complete overview of available pathways, see the article on [how to start transition](/wiki/starting-transition).
+For a complete overview of available pathways, see the article on [how to start transition](/wiki/starting-transition-italy).
 
 ## Dysphoria is not the same for everyone
 
@@ -210,7 +210,7 @@ The Italian National Health Service (SSN) covers gender-affirming pathways, incl
 
 The first step is generally to contact one's general practitioner or directly contact one of the gender identity centers in the area. These centers offer a multidisciplinary pathway involving psychologists, psychiatrists, endocrinologists, and specialized surgeons. The diagnosis of gender dysphoria is made by mental health professionals with specific experience in gender identity, through an assessment process that respects the person's timing and needs [4].
 
-For detailed information about available centers and concrete steps to follow, see the articles on [transgender centers in Italy](/wiki/transgender-centers-italy) and [how to start transition](/wiki/starting-transition).
+For detailed information about available centers and concrete steps to follow, see the articles on [transgender centers in Italy](/wiki/transgender-centers-italy) and [how to start transition](/wiki/starting-transition-italy).
 
 The Italian reference law is **Law 164 of 1982**, which allows for the rectification of sex on civil registry documents. In recent years, case law has progressively recognized the possibility of obtaining legal gender recognition even without surgical procedures, a significant evolution in the landscape of transgender rights in Italy.
 
@@ -236,7 +236,7 @@ The framework used by experts to assess gender incongruence in children is based
 
 If a child or adolescent shows these signs, it is advisable to consult a mental health professional with experience in gender identity, not to "confirm" or "disprove" the dysphoria, but to offer a safe space for exploration and support.
 
-For more on the topic of transgender children and adolescents, see the articles [my child is trans: what to do](/wiki/my-child-is-trans) and [gender expression in children](/wiki/gender-expression-children).
+For more on the topic of transgender children and adolescents, see the articles [my child is trans: what to do](/wiki/my-child-is-trans) and [gender expression in children](/wiki/gender-expression-in-children).
 
 ## The increase in diagnoses
 

@@ -1,0 +1,123 @@
+{
+	"slug": "identita-di-genere",
+	"title": "¿Cuánto sabes sobre identidad de género?",
+	"description": "Pon a prueba tus conocimientos sobre la identidad de género con este quiz.",
+	"category": "terminologia",
+	"questions": [
+		{
+			"text": "¿Cuál es la diferencia entre sexo biológico y género?",
+			"options": [
+				"Son sinónimos",
+				"El sexo es biológico, el género se refiere a la identidad personal y social",
+				"El género está determinado por los cromosomas",
+				"El sexo es una elección, el género no"
+			],
+			"correct": 1,
+			"explanation": "El sexo biológico se refiere a características físicas (cromosomas, hormonas, anatomía), mientras que el género se refiere a la identidad personal y al rol social."
+		},
+		{
+			"text": "La identidad de género está determinada por:",
+			"options": [
+				"Solo los cromosomas",
+				"Solo la educación recibida",
+				"Una combinación de factores biológicos y psicosociales",
+				"La elección personal"
+			],
+			"correct": 2,
+			"explanation": "Las investigaciones muestran que la identidad de género surge de la interacción de factores biológicos (neurológicos, genéticos, hormonales) y psicosociales."
+		},
+		{
+			"text": "¿Qué significa 'no binario'?",
+			"options": [
+				"No identificarse ni como hombre ni como mujer, o identificarse con ambos",
+				"No tener género",
+				"Cambiar de género con frecuencia",
+				"Rechazar el concepto de género"
+			],
+			"correct": 0,
+			"explanation": "No binario designa a quien no se reconoce exclusivamente en el binarismo hombre/mujer. Incluye diversas experiencias de género."
+		},
+		{
+			"text": "¿Qué organización eliminó la transexualidad de la lista de enfermedades mentales?",
+			"options": [
+				"ONU",
+				"FDA",
+				"OMS",
+				"APA"
+			],
+			"correct": 2,
+			"explanation": "La OMS (Organización Mundial de la Salud), en la CIE-11 (2019), reclasificó la condición como 'incongruencia de género', eliminándola del capítulo sobre trastornos mentales."
+		},
+		{
+			"text": "La disforia de género es:",
+			"options": [
+				"Una enfermedad mental",
+				"El malestar que puede derivar de la incongruencia entre la identidad de género y el sexo asignado al nacer",
+				"Sinónimo de ser transgénero",
+				"Una elección consciente"
+			],
+			"correct": 1,
+			"explanation": "La disforia de género es el malestar clínicamente significativo que algunas personas trans pueden experimentar. No todas las personas trans experimentan disforia."
+		},
+		{
+			"text": "En los estudios con gemelos, es más probable que ambos sean trans si son:",
+			"options": [
+				"Dicigóticos (mellizos)",
+				"Monocigóticos (idénticos)",
+				"No hay diferencia",
+				"No existen estudios al respecto"
+			],
+			"correct": 1,
+			"explanation": "Los gemelos monocigóticos muestran una concordancia significativamente mayor para la identidad transgénero, lo que indica un fuerte componente genético y biológico."
+		},
+		{
+			"text": "¿Qué ocurre con los niveles de hemoglobina durante la terapia hormonal en mujeres trans?",
+			"options": [
+				"Aumentan",
+				"Permanecen iguales",
+				"Bajan a los niveles típicos femeninos",
+				"Depende de la edad"
+			],
+			"correct": 2,
+			"explanation": "Los estrógenos reducen la producción de glóbulos rojos. Los niveles de hemoglobina de las mujeres trans en terapia se acercan a los típicos de las mujeres cisgénero."
+		},
+		{
+			"text": "¿Cuál de estos aspectos NO se modifica con la terapia hormonal?",
+			"options": [
+				"La distribución de la grasa corporal",
+				"El cariotipo (cromosomas)",
+				"El perfil hormonal",
+				"La masa muscular"
+			],
+			"correct": 1,
+			"explanation": "Los cromosomas (p. ej. XX, XY) no se modifican con la terapia hormonal. Sin embargo, la mayoría de los demás aspectos biológicos cambian de forma significativa."
+		},
+		{
+			"text": "La variación de género en la historia humana es:",
+			"options": [
+				"Un fenómeno exclusivamente occidental y reciente",
+				"Documentada en numerosas culturas y en todas las épocas históricas",
+				"Aparecida solo después del siglo XX",
+				"Presente solo en las sociedades industrializadas"
+			],
+			"correct": 1,
+			"explanation": "La variación de género ha sido documentada en culturas diversas de todos los continentes: las hijras en India, las personas two-spirit en las culturas nativas americanas, las fa'afafine en Samoa, entre muchas otras."
+		},
+		{
+			"text": "En la CIE-11, la OMS reclasificó la incongruencia de género:",
+			"options": [
+				"Como trastorno de la personalidad",
+				"Como condición relacionada con la salud sexual, no un trastorno mental",
+				"Como trastorno del neurodesarrollo",
+				"No está presente en la CIE-11"
+			],
+			"correct": 1,
+			"explanation": "La CIE-11 (2022) trasladó la incongruencia de género del capítulo sobre trastornos mentales al de condiciones relacionadas con la salud sexual, reconociendo que no se trata de una patología mental."
+		}
+	],
+	"levels": [
+		{ "min": 0, "max": 30, "label": "Principiante", "message": "¡Todavía tienes mucho por descubrir! Echa un vistazo a nuestros artículos en la sección Wiki." },
+		{ "min": 31, "max": 70, "label": "Informado/a", "message": "¡Buena base de conocimientos! Profundiza con nuestros artículos científicos." },
+		{ "min": 71, "max": 100, "label": "Experto/a", "message": "¡Excelente conocimiento! Sigue actualizándote con nosotros." }
+	]
+}

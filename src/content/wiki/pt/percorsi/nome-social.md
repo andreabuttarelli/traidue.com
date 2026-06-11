@@ -285,6 +285,6 @@ Os pais nao sao excluidos do processo: sao parte ativa e necessaria. O nome soci
 
 ## Para aprofundar
 
-O nome social e um instrumento de [transicao social](/wiki/transicao-social) que nao requer nenhum percurso medico. Se voce esta avaliando tambem a alteracao dos documentos oficiais, consulte o guia sobre [mudanca de documentos e retificacao registral](/wiki/mudanca-de-documentos-trans). Para um quadro completo sobre a vida escolar das pessoas transgenero na Italia, leia o artigo sobre [pessoas trans e escola](/wiki/trans-e-escola).
+O nome social e um instrumento de [transicao social](/wiki/transicao-social) que nao requer nenhum percurso medico. Se voce esta avaliando tambem a alteracao dos documentos oficiais, consulte o guia sobre [mudanca de documentos e retificacao registral](/wiki/mudanca-de-documentos-trans). Para um quadro completo sobre a vida escolar das pessoas transgenero na Italia, leia o artigo sobre [pessoas trans e escola](/wiki/pessoas-trans-e-escola).
 
 Se voce precisa de apoio ou nao sabe por onde comecar, conversar com uma associacao como AGEDO ou Rete Lenford pode ser o primeiro passo. Voce nao esta sozinho e nao precisa enfrentar tudo sozinho.

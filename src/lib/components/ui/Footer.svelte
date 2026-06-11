@@ -32,7 +32,6 @@
 					<a href={localizeHref('/wiki')} class="text-sm text-muted hover:text-primary transition-colors">{m.nav_wiki()}</a>
 					<a href={localizeHref('/quiz')} class="text-sm text-muted hover:text-primary transition-colors">{m.nav_quiz()}</a>
 					<a href={localizeHref('/glossario')} class="text-sm text-muted hover:text-primary transition-colors">{m.nav_glossary()}</a>
-					<a href={localizeHref('/regioni')} class="text-sm text-muted hover:text-primary transition-colors">{m.nav_regions()}</a>
 					<a href={localizeHref('/chi-siamo')} class="text-sm text-muted hover:text-primary transition-colors">{m.nav_about()}</a>
 					<a href={localizeHref('/perche-ai')} class="text-sm text-muted hover:text-primary transition-colors">{m.nav_why_ai()}</a>
 					<a href="https://github.com/andreabuttarelli/traidue.com" target="_blank" rel="noopener noreferrer" class="text-sm text-muted hover:text-primary transition-colors">GitHub</a>

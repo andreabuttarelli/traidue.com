@@ -176,7 +176,7 @@ O percurso clinico e **necessariamente envolvente para a familia**. Para menores
 
 ### Os bloqueadores de puberdade
 
-Se o percurso psicologico confirma a presenca de incongruencia de genero e o menor se encontra no limiar da puberdade (estagios Tanner 2-3), o centro pode propor o uso de **analogos do GnRH** (comumente chamados [bloqueadores de puberdade](/wiki/bloqueadores-de-puberdade)). Esses medicamentos suspendem temporariamente o desenvolvimento puberal, dando ao jovem e a familia tempo para explorar as opcoes sem que o corpo mude de forma dificilmente reversivel.
+Se o percurso psicologico confirma a presenca de incongruencia de genero e o menor se encontra no limiar da puberdade (estagios Tanner 2-3), o centro pode propor o uso de **analogos do GnRH** (comumente chamados [bloqueadores de puberdade](/wiki/bloqueadores-puberdade)). Esses medicamentos suspendem temporariamente o desenvolvimento puberal, dando ao jovem e a familia tempo para explorar as opcoes sem que o corpo mude de forma dificilmente reversivel.
 
 Sao medicamentos usados ha mais de 40 anos em pediatria para tratar a puberdade precoce. Ao suspende-los, a puberdade retoma seu curso. As principais sociedades cientificas internacionais -- WPATH, Endocrine Society, American Academy of Pediatrics -- os consideram uma opcao apropriada sob supervisao medica [14].
 

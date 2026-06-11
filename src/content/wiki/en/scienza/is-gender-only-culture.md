@@ -9,7 +9,7 @@ category: "scienza"
 tags: ["gender identity", "nature culture", "social construction", "biology", "David Reimer", "nonbinary genders", "cross-cultural", "epigenetics"]
 date: "2026-03-09"
 updated: "2026-03-09"
-image: "/images/wiki/genere-solo-cultura.webp"
+image: "/images/wiki/che-cose-il-genere.webp"
 sources:
   - title: "Butler J - Gender Trouble: Feminism and the Subversion of Identity (Routledge)"
     url: "https://www.routledge.com/Gender-Trouble/Butler/p/book/9780415389556"

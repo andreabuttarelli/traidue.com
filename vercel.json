@@ -1,23 +1,33 @@
 {
-	"crons": [
-		{
-			"path": "/api/cron",
-			"schedule": "0 4 */3 * *"
-		},
-		{
-			"path": "/api/cron/news",
-			"schedule": "0 7,17 * * *"
-		}
-	],
 	"redirects": [
 		{
 			"source": "/notizie/:path*",
-			"destination": "/editoriali/:path*",
+			"destination": "/",
 			"permanent": true
 		},
 		{
-			"source": "/notizie",
-			"destination": "/editoriali",
+			"source": "/editoriali/:path*",
+			"destination": "/",
+			"permanent": true
+		},
+		{
+			"source": "/editoriali",
+			"destination": "/",
+			"permanent": true
+		},
+		{
+			"source": "/citta/:path*",
+			"destination": "/",
+			"permanent": true
+		},
+		{
+			"source": "/regione/:path*",
+			"destination": "/",
+			"permanent": true
+		},
+		{
+			"source": "/regioni",
+			"destination": "/",
 			"permanent": true
 		}
 	],
@@ -51,7 +61,7 @@
 				},
 				{
 					"key": "Content-Security-Policy",
-					"value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://tally.so https://datafa.st; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://*.supabase.co https://*.google-analytics.com https://*.googletagmanager.com; font-src 'self'; connect-src 'self' https://formspree.io https://*.google-analytics.com https://*.analytics.google.com https://*.googleapis.com https://firebaseinstallations.googleapis.com https://datafa.st; frame-src https://tally.so; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://formspree.io"
+					"value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://tally.so https://datafa.st; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; font-src 'self'; connect-src 'self' https://formspree.io https://*.google-analytics.com https://*.analytics.google.com https://*.googleapis.com https://firebaseinstallations.googleapis.com https://datafa.st; frame-src https://tally.so; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://formspree.io"
 				}
 			]
 		},

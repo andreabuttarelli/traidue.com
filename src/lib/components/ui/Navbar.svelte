@@ -22,7 +22,6 @@
 
 	const navLinks = $derived([
 		{ href: localizeHref('/wiki'), label: m.nav_wiki() },
-		{ href: localizeHref('/editoriali'), label: m.nav_opinions() },
 		{ href: localizeHref('/quiz'), label: m.nav_quiz() },
 		{ href: localizeHref('/chi-siamo'), label: m.nav_about() }
 	]);

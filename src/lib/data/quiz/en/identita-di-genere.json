@@ -1,0 +1,123 @@
+{
+	"slug": "identita-di-genere",
+	"title": "How much do you know about gender identity?",
+	"description": "Test your knowledge of gender identity with this quiz.",
+	"category": "terminologia",
+	"questions": [
+		{
+			"text": "What is the difference between biological sex and gender?",
+			"options": [
+				"They are synonyms",
+				"Sex is biological, gender concerns personal and social identity",
+				"Gender is determined by chromosomes",
+				"Sex is a choice, gender is not"
+			],
+			"correct": 1,
+			"explanation": "Biological sex refers to physical characteristics (chromosomes, hormones, anatomy), while gender concerns personal identity and social role."
+		},
+		{
+			"text": "Gender identity is determined by:",
+			"options": [
+				"Chromosomes only",
+				"Upbringing only",
+				"A combination of biological and psychosocial factors",
+				"Personal choice"
+			],
+			"correct": 2,
+			"explanation": "Research shows that gender identity emerges from the interaction of biological factors (neurological, genetic, hormonal) and psychosocial ones."
+		},
+		{
+			"text": "What does 'non-binary' mean?",
+			"options": [
+				"Not identifying as either a man or a woman, or identifying with both",
+				"Having no gender",
+				"Changing gender frequently",
+				"Rejecting the concept of gender"
+			],
+			"correct": 0,
+			"explanation": "Non-binary describes people who do not identify exclusively within the man/woman binary. It includes a range of gender experiences."
+		},
+		{
+			"text": "Which organization removed transsexuality from the list of mental illnesses?",
+			"options": [
+				"UN",
+				"FDA",
+				"WHO",
+				"APA"
+			],
+			"correct": 2,
+			"explanation": "The WHO (World Health Organization), in the ICD-11 (2019), reclassified the condition as 'gender incongruence', removing it from the chapter on mental disorders."
+		},
+		{
+			"text": "Gender dysphoria is:",
+			"options": [
+				"A mental illness",
+				"The distress that can result from the incongruence between gender identity and sex assigned at birth",
+				"A synonym for being transgender",
+				"A conscious choice"
+			],
+			"correct": 1,
+			"explanation": "Gender dysphoria is the clinically significant distress that some trans people may experience. Not all trans people experience dysphoria."
+		},
+		{
+			"text": "In twin studies, both twins are more likely to be trans if they are:",
+			"options": [
+				"Dizygotic (fraternal)",
+				"Monozygotic (identical)",
+				"There is no difference",
+				"No such studies exist"
+			],
+			"correct": 1,
+			"explanation": "Monozygotic twins show significantly higher concordance for transgender identity, indicating a strong genetic and biological component."
+		},
+		{
+			"text": "What happens to hemoglobin levels during hormone therapy for trans women?",
+			"options": [
+				"They increase",
+				"They remain unchanged",
+				"They drop to typical female levels",
+				"It depends on age"
+			],
+			"correct": 2,
+			"explanation": "Estrogens reduce red blood cell production. The hemoglobin levels of trans women on therapy approach those typical of cisgender women."
+		},
+		{
+			"text": "Which of these aspects is NOT changed by hormone therapy?",
+			"options": [
+				"Body fat distribution",
+				"Karyotype (chromosomes)",
+				"Hormonal profile",
+				"Muscle mass"
+			],
+			"correct": 1,
+			"explanation": "Chromosomes (e.g. XX, XY) are not changed by hormone therapy. However, most other biological aspects change significantly."
+		},
+		{
+			"text": "Gender variance throughout human history is:",
+			"options": [
+				"An exclusively Western and recent phenomenon",
+				"Documented in numerous cultures and in every historical era",
+				"Something that appeared only after the 20th century",
+				"Present only in industrialized societies"
+			],
+			"correct": 1,
+			"explanation": "Gender variance has been documented across cultures on every continent: the hijra in India, two-spirit people in Native American cultures, the fa'afafine in Samoa, among many others."
+		},
+		{
+			"text": "In the ICD-11, the WHO reclassified gender incongruence:",
+			"options": [
+				"As a personality disorder",
+				"As a condition related to sexual health, not a mental disorder",
+				"As a neurodevelopmental disorder",
+				"It is not present in the ICD-11"
+			],
+			"correct": 1,
+			"explanation": "The ICD-11 (2022) moved gender incongruence from the chapter on mental disorders to the one on conditions related to sexual health, recognizing that it is not a mental pathology."
+		}
+	],
+	"levels": [
+		{ "min": 0, "max": 30, "label": "Beginner", "message": "You still have a lot to discover! Take a look at our articles in the Wiki section." },
+		{ "min": 31, "max": 70, "label": "Informed", "message": "Good knowledge base! Go deeper with our scientific articles." },
+		{ "min": 71, "max": 100, "label": "Expert", "message": "Excellent knowledge! Keep up to date with us." }
+	]
+}

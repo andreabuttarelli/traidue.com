@@ -4,6 +4,7 @@
 	import ProgressBar from './ProgressBar.svelte';
 	import QuizQuestion from './QuizQuestion.svelte';
 	import QuizResult from './QuizResult.svelte';
+	import * as m from '$lib/paraglide/messages';
 
 	let { quiz }: { quiz: Quiz } = $props();
 
@@ -47,12 +48,12 @@
 		<div class="py-16">
 			<h1 class="text-3xl font-heading font-semibold tracking-tight text-primary mb-3">{quiz.title}</h1>
 			<p class="text-muted mb-2">{quiz.description}</p>
-			<p class="text-sm text-muted mb-8">{quiz.questions.length} domande</p>
+			<p class="text-sm text-muted mb-8">{m.quiz_questions_count({ count: quiz.questions.length })}</p>
 			<button
 				class="px-8 py-3 rounded-full bg-primary text-bg text-sm font-medium hover:bg-primary/80 transition"
 				onclick={start}
 			>
-				Inizia il quiz
+				{m.quiz_start()}
 			</button>
 		</div>
 	{:else if phase === 'playing'}

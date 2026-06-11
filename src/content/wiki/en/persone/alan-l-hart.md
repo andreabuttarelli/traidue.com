@@ -39,7 +39,7 @@ faq:
   - question: "Why did Alan L. Hart have to relocate multiple times?"
     answer: "Every time his trans identity was discovered, Hart faced discrimination that forced him to change jobs and cities. Despite his extraordinary medical skills, he had to confront prejudice throughout his life."
 related:
-  - history-of-trans-medicine
+  - history-of-transgender-medicine
   - trans-people-in-history
 media:
   - type: book

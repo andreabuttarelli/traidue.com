@@ -7,12 +7,6 @@ slug: "guia-terapia-hormonal"
 description: "Como comenzar la terapia hormonal transgenero (THS): farmacos, dosis, estradiol, testosterona y timeline de los cambios."
 category: "scienza"
 tags: ["terapia hormonal", "TRH", "GAHT", "estrogenos", "testosterona", "antiandrogenos", "dosis", "guia", "THS", "estradiol", "como comenzar", "terapia hormonal peligros", "efectos secundarios hormonas trans", "hormonas trans fertilidad", "terapia hormonal menores"]
-related:
-  - iniziare-transizione
-  - corpo-cambia-dopo-ormoni
-  - terapia-ormonale-a-vita
-  - bloccanti-puberta
-  - fertilita-persone-trans
 date: "2026-02-21"
 updated: "2026-03-02"
 image: "/images/wiki/terapia-ormonale-guida.webp"

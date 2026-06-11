@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { Quiz } from '$lib/utils/quiz';
+	import * as m from '$lib/paraglide/messages';
 	import { localizeHref } from '$lib/paraglide/runtime';
 
 	let { quiz }: { quiz: Quiz } = $props();
@@ -13,7 +14,7 @@
 		<span class="text-xs text-muted uppercase tracking-wide">
 			{quiz.category}
 		</span>
-		<span class="text-xs text-muted">{quiz.questions.length} domande</span>
+		<span class="text-xs text-muted">{m.quiz_questions_count({ count: quiz.questions.length })}</span>
 	</div>
 	<h2 class="text-lg font-heading font-semibold text-primary mb-1">{quiz.title}</h2>
 	<p class="text-muted text-sm line-clamp-2">{quiz.description}</p>

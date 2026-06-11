@@ -1,0 +1,167 @@
+{
+	"slug": "legislazione-italiana",
+	"title": "How well do you know trans rights in Italy?",
+	"description": "A technical quiz on Italian legislation: legal gender recognition, privacy, prisons, healthcare and discrimination.",
+	"category": "percorsi",
+	"questions": [
+		{
+			"text": "Since what year has it been possible to legally change one's sex in Italy?",
+			"options": [
+				"1972",
+				"1982",
+				"1996",
+				"2006"
+			],
+			"correct": 1,
+			"explanation": "Law 164 of 14 April 1982 is the fundamental statute allowing the rectification of sex attribution in civil status records."
+		},
+		{
+			"text": "Is surgery mandatory to obtain legal gender recognition in Italy?",
+			"options": [
+				"Yes, it is always mandatory",
+				"No, since 2015 the Constitutional Court has ruled it is not a prerequisite",
+				"Only for trans women",
+				"Only if the judge requires it"
+			],
+			"correct": 1,
+			"explanation": "Constitutional Court ruling 221/2015 established that surgery is not a prerequisite but a possible choice. Ruling 180/2017 reaffirmed the principle, and ruling 143/2024 also removed the requirement of judicial authorization for those who choose surgery."
+		},
+		{
+			"text": "After legal recognition, what happens to the birth certificate?",
+			"options": [
+				"It is completely rewritten without any trace",
+				"The summary extract shows only the new data; the full one (with annotation) is accessible only by the person concerned",
+				"It remains unchanged with the original sex",
+				"It is deleted and replaced with a new one"
+			],
+			"correct": 1,
+			"explanation": "The summary extract — the document normally used — shows only the updated name and gender. The full extract contains the annotation of the court decision but can only be requested by the person themselves. Law enforcement can access the previous data for security reasons."
+		},
+		{
+			"text": "What happens to the tax code (codice fiscale) after legal gender recognition?",
+			"options": [
+				"It stays the same",
+				"Only the name changes but not the code",
+				"A completely new tax code is generated",
+				"A letter is added at the end"
+			],
+			"correct": 2,
+			"explanation": "The Italian tax code encodes gender in the date of birth (the day is increased by 40 for women). After rectification, the municipality automatically generates a new tax code consistent with the new gender."
+		},
+		{
+			"text": "Is there a specific law in Italy regulating bathroom access for trans people?",
+			"options": [
+				"Yes, Law 164/1982 also covers bathrooms",
+				"Yes, Legislative Decree 81/2008 sets precise rules",
+				"No, there is no specific national rule",
+				"Yes, but only in schools"
+			],
+			"correct": 2,
+			"explanation": "No Italian law specifically regulates bathroom access for transgender people. Legislative Decree 81/2008 on workplace safety requires separate bathrooms for men and women but does not address trans people. Some municipalities and universities have introduced gender-neutral bathrooms on a voluntary basis."
+		},
+		{
+			"text": "On what basis does the Italian prison system assign trans people to a male or female prison?",
+			"options": [
+				"The legal sex on identity documents",
+				"The gender identity declared by the person",
+				"Anatomical/genital sex, regardless of documents",
+				"A case-by-case decision by the supervising magistrate"
+			],
+			"correct": 2,
+			"explanation": "The DAP (Department of Prison Administration) uses anatomical-genital sex as the sole criterion. Even a trans woman with an F on her documents, if she has not undergone genital surgery, is assigned to a male prison in a protected section. Only 6 facilities have dedicated trans sections (including Rebibbia, Como, Belluno). A 2020 order of the Florence Supervisory Court ruled that legal sex should prevail, but in practice the DAP continues to rely on anatomy."
+		},
+		{
+			"text": "Is hormone therapy for gender transition covered by the Italian National Health Service (SSN)?",
+			"options": [
+				"No, it is entirely paid by the patient",
+				"Only in some regions",
+				"Yes, it has been free since 2020 thanks to two AIFA resolutions",
+				"Only below a certain income threshold"
+			],
+			"correct": 2,
+			"explanation": "Since 1 October 2020, AIFA resolutions 104272 and 104273 have made transition hormone medication free of charge (testosterone for trans men, estrogens and antiandrogens for trans women), upon diagnosis by a multidisciplinary team."
+		},
+		{
+			"text": "What happens to an existing marriage when one of the spouses obtains legal gender recognition?",
+			"options": [
+				"The marriage is automatically annulled",
+				"The marriage continues unchanged",
+				"If both wish, the marriage is converted into a civil union",
+				"The marriage is converted into a consensual separation"
+			],
+			"correct": 2,
+			"explanation": "The Cirinnà Law (76/2016) provides that, if both spouses declare they want to maintain the bond, the marriage automatically converts into a civil union. Otherwise it is dissolved. The Constitutional Court (ruling 170/2014) had declared automatic divorce without alternatives unconstitutional."
+		},
+		{
+			"text": "The Zan Bill, which would have protected trans people from discrimination, was:",
+			"options": [
+				"Approved in 2021",
+				"Rejected by the Chamber of Deputies in 2020",
+				"Blocked in the Senate by secret ballot in 2021",
+				"Withdrawn by its sponsor"
+			],
+			"correct": 2,
+			"explanation": "The Zan Bill was approved by the Chamber of Deputies in November 2020, but on 27 October 2021 the Senate killed it with the so-called \"tagliola\" guillotine motion (154 votes to 131), held by secret ballot. Italy remains without a national law explicitly protecting gender identity as a protected ground."
+		},
+		{
+			"text": "What is the 'carriera alias' (alias career)?",
+			"options": [
+				"A national law allowing a name change without a court",
+				"A confidentiality agreement between a trans person and an institution to use their chosen name in internal documents",
+				"An alternative medical pathway to hormone therapy",
+				"A job reintegration program for trans people"
+			],
+			"correct": 1,
+			"explanation": "The alias career is an agreement between a trans person and an institution (school, university, employer) allowing the use of their chosen name in unofficial internal documents: badges, email, class registers. It is not based on a specific national law. To date about 475 Italian schools have adopted it, and the 2024 national school labor contract (art. 21) provides for it for school staff."
+		},
+		{
+			"text": "Who can access data about the original sex at birth after legal recognition?",
+			"options": [
+				"Anyone who requests it from the municipality",
+				"Employers and schools",
+				"Only the person concerned and law enforcement",
+				"No one, the data is deleted"
+			],
+			"correct": 2,
+			"explanation": "After rectification, public documents show only the new data. The full extract of the birth certificate (with the annotation) can only be requested by the person concerned. Law enforcement can access the previous data for security reasons. Gender identity is classified as sensitive data under the GDPR (art. 9)."
+		},
+		{
+			"text": "Does Legislative Decree 216/2003, the main anti-discrimination law in employment, explicitly protect gender identity?",
+			"options": [
+				"Yes, both sexual orientation and gender identity",
+				"No, it covers only sexual orientation",
+				"Yes, since 2021",
+				"No, it covers neither"
+			],
+			"correct": 1,
+			"explanation": "Legislative Decree 216/2003, implementing EU Directive 2000/78, prohibits employment discrimination based on sexual orientation but does not explicitly mention gender identity. This gap would have been filled by the Zan Bill, never approved. Some regions (Tuscany, Piedmont, Liguria) have regional laws that include gender identity."
+		},
+		{
+			"text": "Which Constitutional Court ruling removed the requirement of judicial authorization for gender-affirming surgery?",
+			"options": [
+				"Ruling 221/2015",
+				"Ruling 170/2014",
+				"Ruling 143/2024",
+				"Ruling 180/2017"
+			],
+			"correct": 2,
+			"explanation": "Ruling 143/2024 declared unconstitutional the requirement of court authorization for surgery (art. 31, par. 4, Legislative Decree 150/2011), since transition can also occur without surgery, making it unreasonable to subject the operation to judicial approval."
+		},
+		{
+			"text": "Is gender-affirming surgery covered by the Italian National Health Service?",
+			"options": [
+				"No, it always has to be paid for",
+				"Yes, it is included in the LEA (Essential Levels of Care)",
+				"Only in accredited private facilities",
+				"Only for low-income adults"
+			],
+			"correct": 1,
+			"explanation": "Gender-affirming surgery is included in the LEA, the essential levels of care that the SSN must guarantee to all citizens. However, there are only about 7 specialized centers in Italy and waiting lists can be long."
+		}
+	],
+	"levels": [
+		{ "min": 0, "max": 30, "label": "Beginner", "message": "Italian legislation is complex, but it is important to know it. Read our articles in the Pathways section to learn more." },
+		{ "min": 31, "max": 70, "label": "Informed", "message": "Good knowledge! There are still aspects to explore: take a look at our articles on rights and pathways." },
+		{ "min": 71, "max": 100, "label": "Expert", "message": "Excellent command of Italian legislation. Share the quiz to make these rights known to more people!" }
+	]
+}

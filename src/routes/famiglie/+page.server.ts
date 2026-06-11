@@ -1,5 +1,6 @@
 import { getAllArticles } from '$lib/utils/wiki';
 import { getAllQuizzes } from '$lib/utils/quiz';
+import { getLocale } from '$lib/paraglide/runtime';
 
 const PRIMI_PASSI = [
 	'figlio-trans-cosa-fare',
@@ -18,11 +19,12 @@ const APPROFONDIMENTI = [
 ];
 
 export function load() {
-	const articles = getAllArticles();
-	const quizzes = getAllQuizzes();
+	const lang = getLocale();
+	const articles = getAllArticles(lang);
+	const quizzes = getAllQuizzes(lang);
 
-	const primiPassi = PRIMI_PASSI.map((slug) => articles.find((a) => a.slug === slug)).filter(Boolean);
-	const approfondimenti = APPROFONDIMENTI.map((slug) => articles.find((a) => a.slug === slug)).filter(Boolean);
+	const primiPassi = PRIMI_PASSI.map((slug) => articles.find((a) => a.translationKey === slug || a.slug === slug)).filter((a): a is NonNullable<typeof a> => a != null);
+	const approfondimenti = APPROFONDIMENTI.map((slug) => articles.find((a) => a.translationKey === slug || a.slug === slug)).filter((a): a is NonNullable<typeof a> => a != null);
 
 	return {
 		primiPassi,

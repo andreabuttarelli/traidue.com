@@ -1,18 +1,11 @@
 import { getAllArticles } from '$lib/utils/wiki';
 import { getAllQuizzes } from '$lib/utils/quiz';
-import { supabase } from '$lib/server/supabase';
 
 export const prerender = false;
 
 export async function GET() {
 	const articles = getAllArticles();
 	const quizzes = getAllQuizzes();
-
-	const { data: editorials } = await supabase
-		.from('news_articles')
-		.select('title, slug, summary')
-		.eq('status', 'published')
-		.order('published_at', { ascending: false });
 
 	const categoryLabels: Record<string, string> = {
 		terminologia: 'Terminologia',
@@ -43,17 +36,6 @@ export async function GET() {
 		for (const a of items) {
 			lines.push(
 				`- [${a.title}](https://www.traidue.com/wiki/${a.slug}): ${a.description} [Markdown](https://www.traidue.com/wiki/${a.slug}/raw)`
-			);
-		}
-		lines.push('');
-	}
-
-	if (editorials && editorials.length > 0) {
-		lines.push('## Editoriali');
-		lines.push('');
-		for (const e of editorials) {
-			lines.push(
-				`- [${e.title}](https://www.traidue.com/editoriali/${e.slug}): ${e.summary}`
 			);
 		}
 		lines.push('');
