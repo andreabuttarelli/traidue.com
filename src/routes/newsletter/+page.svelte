@@ -3,10 +3,11 @@
 	import Breadcrumb from '$lib/components/ui/Breadcrumb.svelte';
 	import * as m from '$lib/paraglide/messages';
 	import { locales, localizeHref } from '$lib/paraglide/runtime';
+	import { SITE } from '$lib/site';
 	import { onMount } from 'svelte';
 
 	const alternateUrls = Object.fromEntries(
-		locales.map(l => [l, `https://www.traidue.com${localizeHref('/newsletter', { locale: l })}`])
+		locales.map(l => [l, `${SITE.url}${localizeHref('/newsletter', { locale: l })}`])
 	);
 
 	onMount(() => {
@@ -22,8 +23,8 @@
 
 <SEO
 	title={m.newsletter_page_title()}
-	description={m.newsletter_seo_desc()}
-	url="https://www.traidue.com/newsletter"
+	description={m.newsletter_seo_desc({ brand: SITE.brand })}
+	url={`${SITE.url}/newsletter`}
 	{alternateUrls}
 />
 
@@ -46,7 +47,7 @@
 			frameborder="0"
 			marginheight="0"
 			marginwidth="0"
-			title="Tra i Due"
+			title={SITE.brand}
 		></iframe>
 	</div>
 </div>

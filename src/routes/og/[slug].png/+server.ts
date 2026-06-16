@@ -1,6 +1,7 @@
 import satori from 'satori';
 import { Resvg } from '@resvg/resvg-js';
 import { getAllArticles } from '$lib/utils/wiki';
+import { SITE } from '$lib/site';
 import type { RequestHandler } from './$types';
 
 const categoryColors: Record<string, string> = {
@@ -103,7 +104,7 @@ export const GET: RequestHandler = async ({ params }) => {
 											fontWeight: 600,
 											color: '#111111'
 										},
-										children: 'Tra i Due'
+										children: SITE.brand
 									}
 								},
 								{

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
+	import { SITE } from '$lib/site';
 	import * as m from '$lib/paraglide/messages';
 	import { localizeHref } from '$lib/paraglide/runtime';
 	import {
@@ -59,7 +60,7 @@
 			ds.defer = true;
 			ds.src = 'https://datafa.st/js/script.js';
 			ds.dataset.websiteId = 'dfid_O26clodV7LSwNcqdKgKQL';
-			ds.dataset.domain = 'www.traidue.com';
+			ds.dataset.domain = new URL(SITE.url).host;
 			document.head.appendChild(ds);
 		}
 	}

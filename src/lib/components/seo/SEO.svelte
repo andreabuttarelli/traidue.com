@@ -1,11 +1,12 @@
 <script lang="ts">
 	import { getLocale } from '$lib/paraglide/runtime';
+	import { SITE } from '$lib/site';
 
 	let {
 		title,
 		description,
 		url,
-		image = 'https://www.traidue.com/images/wiki/identita-di-genere.webp',
+		image = SITE.ogImage,
 		type = 'website',
 		noindex = false,
 		article,
@@ -62,7 +63,7 @@
 	<meta property="og:image" content={image} />
 	<meta property="og:type" content={type} />
 	<meta property="og:locale" content={ogLocale} />
-	<meta property="og:site_name" content="Tra i Due" />
+	<meta property="og:site_name" content={SITE.brand} />
 
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content={title} />

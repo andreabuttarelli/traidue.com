@@ -4,11 +4,12 @@
 	import ArticleCard from '$lib/components/wiki/ArticleCard.svelte';
 	import * as m from '$lib/paraglide/messages';
 	import { locales, localizeHref } from '$lib/paraglide/runtime';
+	import { SITE } from '$lib/site';
 
 	let { data } = $props();
 
 	const alternateUrls = Object.fromEntries(
-		locales.map(l => [l, `https://www.traidue.com${localizeHref('/giovani', { locale: l })}`])
+		locales.map(l => [l, `${SITE.url}${localizeHref('/giovani', { locale: l })}`])
 	);
 
 	const pageSchema = {
@@ -16,12 +17,12 @@
 		'@type': 'WebPage',
 		name: m.youth_seo_title(),
 		description: m.youth_seo_desc(),
-		url: 'https://www.traidue.com/giovani',
+		url: `${SITE.url}/giovani`,
 		inLanguage: 'it',
 		isPartOf: {
 			'@type': 'WebSite',
-			name: 'Tra i Due',
-			url: 'https://www.traidue.com'
+			name: SITE.brand,
+			url: SITE.url
 		}
 	};
 </script>
@@ -29,7 +30,7 @@
 <SEO
 	title={m.youth_seo_title()}
 	description={m.youth_seo_desc()}
-	url="https://www.traidue.com/giovani"
+	url={`${SITE.url}/giovani`}
 	{alternateUrls}
 />
 

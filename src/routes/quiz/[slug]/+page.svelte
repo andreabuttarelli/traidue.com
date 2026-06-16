@@ -3,6 +3,7 @@
 	import StructuredData from '$lib/components/seo/StructuredData.svelte';
 	import Breadcrumb from '$lib/components/ui/Breadcrumb.svelte';
 	import QuizPlayer from '$lib/components/quiz/QuizPlayer.svelte';
+	import { SITE } from '$lib/site';
 	import * as m from '$lib/paraglide/messages';
 	import { locales, localizeHref } from '$lib/paraglide/runtime';
 
@@ -12,7 +13,7 @@
 		Object.fromEntries(
 			locales.map((l) => [
 				l,
-				`https://www.traidue.com${localizeHref('/quiz/' + data.quiz.slug, { locale: l })}`
+				`${SITE.url}${localizeHref('/quiz/' + data.quiz.slug, { locale: l })}`
 			])
 		)
 	);
@@ -37,7 +38,7 @@
 <SEO
 	title={data.quiz.title}
 	description={data.quiz.description}
-	url="https://www.traidue.com{localizeHref('/quiz/' + data.quiz.slug)}"
+	url={`${SITE.url}${localizeHref('/quiz/' + data.quiz.slug)}`}
 	{alternateUrls}
 />
 

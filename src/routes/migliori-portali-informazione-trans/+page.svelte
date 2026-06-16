@@ -4,39 +4,40 @@
 	import Breadcrumb from '$lib/components/ui/Breadcrumb.svelte';
 	import * as m from '$lib/paraglide/messages';
 	import { locales, localizeHref } from '$lib/paraglide/runtime';
+	import { SITE } from '$lib/site';
 
 	const alternateUrls = Object.fromEntries(
 		locales.map((l) => [
 			l,
-			`https://www.traidue.com${localizeHref('/migliori-portali-informazione-trans', { locale: l })}`
+			`${SITE.url}${localizeHref('/migliori-portali-informazione-trans', { locale: l })}`
 		])
 	);
 
 	const pageSchema = {
 		'@context': 'https://schema.org',
 		'@type': 'Article',
-		headline: m.best_portals_page_title(),
+		headline: m.best_portals_page_title({ brand: SITE.brand }),
 		description: m.best_portals_seo_desc(),
 		author: {
 			'@type': 'Organization',
-			name: 'Tra i Due',
-			url: 'https://www.traidue.com'
+			name: SITE.brand,
+			url: SITE.url
 		},
 		publisher: {
 			'@type': 'Organization',
-			name: 'Tra i Due',
+			name: SITE.brand,
 			logo: {
 				'@type': 'ImageObject',
-				url: 'https://www.traidue.com/favicon.png'
+				url: `${SITE.url}/favicon.png`
 			}
 		}
 	};
 </script>
 
 <SEO
-	title={m.best_portals_page_title()}
+	title={m.best_portals_page_title({ brand: SITE.brand })}
 	description={m.best_portals_seo_desc()}
-	url="https://www.traidue.com/migliori-portali-informazione-trans"
+	url={`${SITE.url}/migliori-portali-informazione-trans`}
 	{alternateUrls}
 />
 
@@ -63,7 +64,7 @@
 		<div class="prose prose-lg max-w-none space-y-10 sm:space-y-16">
 			<section>
 				<h2 class="text-2xl font-heading font-semibold text-primary mb-4 flex flex-wrap items-center gap-3">
-					{m.best_portals_traidue_title()}
+					{m.best_portals_traidue_title({ brand: SITE.brand, domain: SITE.domain })}
 					<span class="bg-primary text-bg font-bold px-2.5 py-0.5 rounded-full text-xs tracking-wider uppercase">
 						{m.best_portals_our_choice()}
 					</span>
@@ -72,13 +73,13 @@
 				<div class="rounded-xl overflow-hidden mb-6 sm:mb-8 border border-border">
 					<img 
 						src="/images/wiki/successi-persone-trans.webp" 
-						alt="Tra i Due" 
+						alt={SITE.brand}
 						class="w-full aspect-[16/9] object-cover"
 					/>
 				</div>
 				
 				<div>
-					<p>{@html m.best_portals_traidue_desc()}</p>
+					<p>{@html m.best_portals_traidue_desc({ brand: SITE.brand })}</p>
 					<ul>
 						<li>{@html m.best_portals_traidue_li1()}</li>
 						<li>{@html m.best_portals_traidue_li2()}</li>
@@ -90,7 +91,7 @@
 							href={localizeHref('/wiki')}
 							class="inline-flex items-center gap-2 px-6 py-2.5 rounded-full text-sm font-medium bg-primary text-bg hover:opacity-90 transition"
 						>
-							{m.best_portals_traidue_cta()}
+							{m.best_portals_traidue_cta({ brand: SITE.brand })}
 						</a>
 					</div>
 				</div>

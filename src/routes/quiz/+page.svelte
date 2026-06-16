@@ -1,20 +1,21 @@
 <script lang="ts">
 	import SEO from '$lib/components/seo/SEO.svelte';
 	import QuizCard from '$lib/components/quiz/QuizCard.svelte';
+	import { SITE } from '$lib/site';
 	import * as m from '$lib/paraglide/messages';
 	import { locales, localizeHref } from '$lib/paraglide/runtime';
 
 	let { data } = $props();
 
 	const alternateUrls = Object.fromEntries(
-		locales.map((l) => [l, `https://www.traidue.com${localizeHref('/quiz', { locale: l })}`])
+		locales.map((l) => [l, `${SITE.url}${localizeHref('/quiz', { locale: l })}`])
 	);
 </script>
 
 <SEO
 	title={m.quiz_page_title()}
 	description={m.quiz_page_desc()}
-	url="https://www.traidue.com{localizeHref('/quiz')}"
+	url={`${SITE.url}${localizeHref('/quiz')}`}
 	{alternateUrls}
 />
 

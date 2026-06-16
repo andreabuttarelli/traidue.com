@@ -6,13 +6,14 @@
 	import SearchInput from '$lib/components/ui/SearchInput.svelte';
 	import ArticleCard from '$lib/components/wiki/ArticleCard.svelte';
 	import QuizCard from '$lib/components/quiz/QuizCard.svelte';
+	import { SITE } from '$lib/site';
 	import * as m from '$lib/paraglide/messages';
 	import { getLocale, locales, localizeHref } from '$lib/paraglide/runtime';
 
 	let { data } = $props();
 
 	const alternateUrls = Object.fromEntries(
-		locales.map(l => [l, `https://www.traidue.com${localizeHref('/wiki', { locale: l })}`])
+		locales.map(l => [l, `${SITE.url}${localizeHref('/wiki', { locale: l })}`])
 	);
 
 	const categoryLabels: Record<string, () => string> = {
@@ -57,7 +58,7 @@
 <SEO
 	title={m.wiki_page_title({ count: data.articles.length })}
 	description={m.wiki_page_desc()}
-	url="https://www.traidue.com/wiki"
+	url={`${SITE.url}/wiki`}
 	{alternateUrls}
 />
 
@@ -66,12 +67,12 @@
 	'@type': 'CollectionPage',
 	name: 'Wiki',
 	description: m.wiki_page_desc(),
-	url: `https://www.traidue.com${localizeHref('/wiki')}`,
+	url: `${SITE.url}${localizeHref('/wiki')}`,
 	inLanguage: { it: 'it-IT', en: 'en-US', es: 'es-ES', pt: 'pt-BR' }[getLocale()] ?? 'it-IT',
 	isPartOf: {
 		'@type': 'WebSite',
-		name: 'Tra i Due',
-		url: 'https://www.traidue.com'
+		name: SITE.brand,
+		url: SITE.url
 	},
 	mainEntity: {
 		'@type': 'ItemList',
@@ -79,7 +80,7 @@
 		itemListElement: data.articles.slice(0, 30).map((a, i) => ({
 			'@type': 'ListItem',
 			position: i + 1,
-			url: `https://www.traidue.com${localizeHref('/wiki/' + a.slug)}`
+			url: `${SITE.url}${localizeHref('/wiki/' + a.slug)}`
 		}))
 	}
 }} />
@@ -88,7 +89,7 @@
 	'@context': 'https://schema.org',
 	'@type': 'BreadcrumbList',
 	itemListElement: [
-		{ '@type': 'ListItem', position: 1, name: m.common_home(), item: 'https://www.traidue.com' },
+		{ '@type': 'ListItem', position: 1, name: m.common_home(), item: SITE.url },
 		{ '@type': 'ListItem', position: 2, name: 'Wiki' }
 	]
 }} />

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { SITE } from '$lib/site';
 	let { class: className = '', animated = false }: { class?: string; animated?: boolean } = $props();
 </script>
 
@@ -13,7 +14,7 @@
 	></span>
 	<span
 		class:logo-text={animated}
-	>Tra i Due</span>
+	>{SITE.brand}</span>
 	<span
 		class="inline-block w-[0.7em] h-[0.9em] rounded-[0.1em] bg-[#F5A9B8]"
 		class:logo-box-right={animated}

@@ -3,16 +3,17 @@
 	import Breadcrumb from '$lib/components/ui/Breadcrumb.svelte';
 	import * as m from '$lib/paraglide/messages';
 	import { locales, localizeHref } from '$lib/paraglide/runtime';
+	import { SITE } from '$lib/site';
 
 	const alternateUrls = Object.fromEntries(
-		locales.map(l => [l, `https://www.traidue.com${localizeHref('/cookie', { locale: l })}`])
+		locales.map(l => [l, `${SITE.url}${localizeHref('/cookie', { locale: l })}`])
 	);
 </script>
 
 <SEO
 	title={m.legal_cookie_title()}
-	description={m.legal_cookie_seo_desc()}
-	url="https://www.traidue.com/cookie"
+	description={m.legal_cookie_seo_desc({ brand: SITE.brand })}
+	url={`${SITE.url}/cookie`}
 	{alternateUrls}
 />
 
@@ -99,7 +100,7 @@
 				<p>{@html m.legal_cookie_more_p1()}</p>
 				<p>
 					{m.legal_cookie_more_contact()}
-					<a href="mailto:info@traidue.com" class="text-primary underline hover:no-underline">info@traidue.com</a>
+					<a href={`mailto:${SITE.email}`} class="text-primary underline hover:no-underline">{SITE.email}</a>
 				</p>
 			</div>
 		</section>

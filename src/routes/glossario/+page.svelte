@@ -6,13 +6,14 @@
 	import { getTranslationSlugMap } from '$lib/utils/wiki';
 	import * as m from '$lib/paraglide/messages';
 	import { getLocale, locales, localizeHref } from '$lib/paraglide/runtime';
+	import { SITE } from '$lib/site';
 
 	const terms = $derived(getGlossaryTerms(getLocale()));
 
 	const localeMap: Record<string, string> = { it: 'it-IT', en: 'en-US', es: 'es-ES', pt: 'pt-BR' };
 
 	const alternateUrls = Object.fromEntries(
-		locales.map((l) => [l, `https://www.traidue.com${localizeHref('/glossario', { locale: l })}`])
+		locales.map((l) => [l, `${SITE.url}${localizeHref('/glossario', { locale: l })}`])
 	);
 
 	// Glossary links use the Italian wiki slug (= translationKey); resolve it
@@ -42,7 +43,7 @@
 <SEO
 	title={m.glossary_page_title()}
 	description={m.glossary_seo_desc()}
-	url="https://www.traidue.com{localizeHref('/glossario')}"
+	url={`${SITE.url}${localizeHref('/glossario')}`}
 	{alternateUrls}
 />
 

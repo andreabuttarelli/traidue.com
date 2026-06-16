@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { QuizLevel } from '$lib/utils/quiz';
 	import ShareButtons from '$lib/components/ui/ShareButtons.svelte';
+	import { SITE } from '$lib/site';
 	import * as m from '$lib/paraglide/messages';
 	import { localizeHref } from '$lib/paraglide/runtime';
 
@@ -23,7 +24,7 @@
 	} = $props();
 
 	let shareText = $derived(
-		m.quiz_share_text({ correct: correctAnswers, total: totalQuestions, title: quizTitle })
+		m.quiz_share_text({ correct: correctAnswers, total: totalQuestions, title: quizTitle, domain: SITE.domain })
 	);
 </script>
 
@@ -44,7 +45,7 @@
 	<div class="mb-8">
 		<p class="text-sm text-muted mb-3">{m.share_result()}</p>
 		<div class="flex justify-center">
-			<ShareButtons url="https://www.traidue.com/quiz/{quizSlug}" text={shareText} />
+			<ShareButtons url={`${SITE.url}/quiz/${quizSlug}`} text={shareText} />
 		</div>
 	</div>
 

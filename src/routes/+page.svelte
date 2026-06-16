@@ -5,6 +5,7 @@
 	import Logo from '$lib/components/ui/Logo.svelte';
 	import SearchInput from '$lib/components/ui/SearchInput.svelte';
 	import ArticleCard from '$lib/components/wiki/ArticleCard.svelte';
+	import { SITE } from '$lib/site';
 	import * as m from '$lib/paraglide/messages';
 	import { getLocale, locales, localizeHref } from '$lib/paraglide/runtime';
 
@@ -20,7 +21,7 @@
 	}
 
 	const alternateUrls = Object.fromEntries(
-		locales.map(l => [l, `https://www.traidue.com${localizeHref('/', { locale: l })}`])
+		locales.map(l => [l, `${SITE.url}${localizeHref('/', { locale: l })}`])
 	);
 
 	const categories = $derived([
@@ -40,13 +41,13 @@
 	const websiteSchema = $derived({
 		'@context': 'https://schema.org',
 		'@type': 'WebSite',
-		name: 'Tra i Due',
-		url: 'https://www.traidue.com',
-		description: m.home_seo_desc({ articles: data.stats.articles, sources: data.stats.sources }),
+		name: SITE.brand,
+		url: SITE.url,
+		description: m.home_seo_desc({ articles: data.stats.articles, sources: data.stats.sources, brand: SITE.brand }),
 		inLanguage: getLocale(),
 		potentialAction: {
 			'@type': 'SearchAction',
-			target: 'https://www.traidue.com/wiki?q={search_term_string}',
+			target: `${SITE.url}/wiki?q={search_term_string}`,
 			'query-input': 'required name=search_term_string'
 		}
 	});
@@ -54,22 +55,22 @@
 	const organizationSchema = $derived({
 		'@context': 'https://schema.org',
 		'@type': 'Organization',
-		name: 'Tra i Due',
-		url: 'https://www.traidue.com',
+		name: SITE.brand,
+		url: SITE.url,
 		logo: {
 			'@type': 'ImageObject',
-			url: 'https://www.traidue.com/favicon.png'
+			url: `${SITE.url}/favicon.png`
 		},
-		description: m.home_seo_desc({ articles: data.stats.articles, sources: data.stats.sources }),
+		description: m.home_seo_desc({ articles: data.stats.articles, sources: data.stats.sources, brand: SITE.brand }),
 		email: 'andrea@teta.so',
 		founder: {
 			'@type': 'Person',
 			name: 'Andrea Buttarelli',
-			url: 'https://www.traidue.com/chi-siamo'
+			url: `${SITE.url}/chi-siamo`
 		},
 		sameAs: [
-			'https://github.com/andreabuttarelli/traidue.com',
-			'https://www.instagram.com/tra.i.due'
+			SITE.repo,
+			SITE.instagram
 		],
 		inLanguage: getLocale()
 	});
@@ -89,9 +90,9 @@
 </script>
 
 <SEO
-	title={m.home_seo_title()}
-	description={m.home_seo_desc({ articles: data.stats.articles, sources: data.stats.sources })}
-	url="https://www.traidue.com"
+	title={m.home_seo_title({ brand: SITE.brand })}
+	description={m.home_seo_desc({ articles: data.stats.articles, sources: data.stats.sources, brand: SITE.brand })}
+	url={SITE.url}
 	{alternateUrls}
 />
 
