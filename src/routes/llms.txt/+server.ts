@@ -1,3 +1,4 @@
+import { SITE } from '$lib/site';
 import { getAllArticles } from '$lib/utils/wiki';
 import { getAllQuizzes } from '$lib/utils/quiz';
 
@@ -23,7 +24,7 @@ export async function GET() {
 	}
 
 	const lines = [
-		'# Tra i Due',
+		`# ${SITE.brand}`,
 		'',
 		'> Informazione evidence-based sulle tematiche trans: terminologia, scienza, percorsi e cultura.',
 		`> ${articles.length} articoli wiki, curati da Andrea Buttarelli.`,
@@ -35,7 +36,7 @@ export async function GET() {
 		lines.push('');
 		for (const a of items) {
 			lines.push(
-				`- [${a.title}](https://www.traidue.com/wiki/${a.slug}): ${a.description} [Markdown](https://www.traidue.com/wiki/${a.slug}/raw)`
+				`- [${a.title}](${SITE.url}/wiki/${a.slug}): ${a.description} [Markdown](${SITE.url}/wiki/${a.slug}/raw)`
 			);
 		}
 		lines.push('');
@@ -44,7 +45,7 @@ export async function GET() {
 	lines.push('## Quiz');
 	lines.push('');
 	for (const q of quizzes) {
-		lines.push(`- [${q.title}](https://www.traidue.com/quiz/${q.slug}): ${q.description}`);
+		lines.push(`- [${q.title}](${SITE.url}/quiz/${q.slug}): ${q.description}`);
 	}
 	lines.push('');
 

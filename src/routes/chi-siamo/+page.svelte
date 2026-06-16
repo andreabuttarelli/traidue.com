@@ -4,27 +4,28 @@
 	import Breadcrumb from '$lib/components/ui/Breadcrumb.svelte';
 	import * as m from '$lib/paraglide/messages';
 	import { locales, localizeHref } from '$lib/paraglide/runtime';
+	import { SITE } from '$lib/site';
 
 	const alternateUrls = Object.fromEntries(
-		locales.map(l => [l, `https://www.traidue.com${localizeHref('/chi-siamo', { locale: l })}`])
+		locales.map(l => [l, `${SITE.url}${localizeHref('/chi-siamo', { locale: l })}`])
 	);
 
 	const organizationSchema = {
 		'@context': 'https://schema.org',
 		'@type': 'Organization',
-		name: 'Tra i Due',
-		url: 'https://www.traidue.com',
+		name: SITE.brand,
+		url: SITE.url,
 		description:
 			'Informazione evidence-based sulle tematiche trans: identità di genere, scienza, percorsi e cultura.',
-		email: 'info@traidue.com',
+		email: SITE.email,
 		logo: {
 			'@type': 'ImageObject',
-			url: 'https://www.traidue.com/favicon.png'
+			url: `${SITE.url}/favicon.png`
 		},
 		founder: {
 			'@type': 'Person',
 			name: 'Andrea Buttarelli',
-			url: 'https://www.traidue.com/chi-siamo',
+			url: `${SITE.url}/chi-siamo`,
 			jobTitle: 'Founder',
 			sameAs: [
 				'https://www.instagram.com/andrea_buttarelli',
@@ -33,8 +34,8 @@
 			]
 		},
 		sameAs: [
-			'https://github.com/andreabuttarelli/traidue.com',
-			'https://www.instagram.com/tra.i.due'
+			SITE.repo,
+			SITE.instagram
 		]
 	};
 
@@ -44,13 +45,13 @@
 		mainEntity: {
 			'@type': 'Person',
 			name: 'Andrea Buttarelli',
-			url: 'https://www.traidue.com/chi-siamo',
+			url: `${SITE.url}/chi-siamo`,
 			jobTitle: 'Founder',
-			description: 'Docente IED, imprenditrice tech e AI. Founder di Tra i Due.',
+			description: `Docente IED, imprenditrice tech e AI. Founder di ${SITE.brand}.`,
 			worksFor: {
 				'@type': 'Organization',
-				name: 'Tra i Due',
-				url: 'https://www.traidue.com'
+				name: SITE.brand,
+				url: SITE.url
 			},
 			sameAs: [
 				'https://www.instagram.com/andrea_buttarelli',
@@ -63,8 +64,8 @@
 
 <SEO
 	title={m.about_page_title()}
-	description={m.about_seo_desc()}
-	url="https://www.traidue.com/chi-siamo"
+	description={m.about_seo_desc({ brand: SITE.brand })}
+	url={`${SITE.url}/chi-siamo`}
 	{alternateUrls}
 />
 
@@ -77,14 +78,14 @@
 	<header class="mb-10 sm:mb-16">
 		<h1 class="text-2xl sm:text-3xl lg:text-4xl font-heading font-semibold tracking-tight text-primary mb-4">{m.about_page_title()}</h1>
 		<p class="text-lg text-muted leading-relaxed max-w-xl">
-			{@html m.about_intro()}
+			{@html m.about_intro({ brand: SITE.brand })}
 		</p>
 	</header>
 
 	<div class="rounded-xl overflow-hidden mb-10 sm:mb-16">
 		<img
 			src="/images/wiki/successi-persone-trans.webp"
-			alt="{m.about_page_title()} — Tra i Due"
+			alt="{m.about_page_title()} — {SITE.brand}"
 			width="1344"
 			height="768"
 			decoding="async"
@@ -121,16 +122,16 @@
 		<section>
 			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">{m.about_opensource_title()}</h2>
 			<div>
-				<p>{@html m.about_opensource_p1()}</p>
+				<p>{@html m.about_opensource_p1({ brand: SITE.brand })}</p>
 				<p>{@html m.about_opensource_p2()}</p>
 				<p>
 					<a
-						href="https://github.com/andreabuttarelli/traidue.com"
+						href={SITE.repo}
 						target="_blank"
 						rel="noopener noreferrer"
 						class="text-primary underline hover:no-underline"
 					>
-						github.com/andreabuttarelli/traidue.com
+						{SITE.repo.replace(/^https?:\/\//, '')}
 					</a>
 				</p>
 			</div>
@@ -142,9 +143,9 @@
 				<p>{m.about_contacts_intro()}</p>
 				<p class="flex flex-wrap gap-x-4 gap-y-1">
 					<a href="mailto:andrea@teta.so" class="text-primary underline hover:no-underline">andrea@teta.so</a>
-					<a href="https://www.instagram.com/tra.i.due" target="_blank" rel="noopener noreferrer" class="text-primary underline hover:no-underline">Instagram</a>
+					<a href={SITE.instagram} target="_blank" rel="noopener noreferrer" class="text-primary underline hover:no-underline">Instagram</a>
 					<a href="https://www.linkedin.com/in/andreabuttarelli/" target="_blank" rel="noopener noreferrer" class="text-primary underline hover:no-underline">LinkedIn</a>
-					<a href="https://github.com/andreabuttarelli/traidue.com" target="_blank" rel="noopener noreferrer" class="text-primary underline hover:no-underline">GitHub</a>
+					<a href={SITE.repo} target="_blank" rel="noopener noreferrer" class="text-primary underline hover:no-underline">GitHub</a>
 				</p>
 			</div>
 		</section>

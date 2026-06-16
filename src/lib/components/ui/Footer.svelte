@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { SITE } from '$lib/site';
 	import * as m from '$lib/paraglide/messages';
 	import { localizeHref } from '$lib/paraglide/runtime';
 	import Logo from './Logo.svelte';
@@ -12,7 +13,7 @@
 				<p class="text-sm text-muted leading-relaxed mb-4">
 					{m.footer_tagline()}
 				</p>
-				<a href="https://instagram.com/tra.i.due" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="inline-block text-muted hover:text-primary transition-colors mb-8">
+				<a href={SITE.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="inline-block text-muted hover:text-primary transition-colors mb-8">
 					<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
 				</a>
 				<!-- <p class="text-xs text-muted mb-2">Sponsor</p>
@@ -34,14 +35,14 @@
 					<a href={localizeHref('/glossario')} class="text-sm text-muted hover:text-primary transition-colors">{m.nav_glossary()}</a>
 					<a href={localizeHref('/chi-siamo')} class="text-sm text-muted hover:text-primary transition-colors">{m.nav_about()}</a>
 					<a href={localizeHref('/perche-ai')} class="text-sm text-muted hover:text-primary transition-colors">{m.nav_why_ai()}</a>
-					<a href="https://github.com/andreabuttarelli/traidue.com" target="_blank" rel="noopener noreferrer" class="text-sm text-muted hover:text-primary transition-colors">GitHub</a>
+					<a href={SITE.repo} target="_blank" rel="noopener noreferrer" class="text-sm text-muted hover:text-primary transition-colors">GitHub</a>
 				</nav>
 			</div>
 
 			<div>
 				<p class="text-sm font-medium text-primary mb-3">{m.footer_legal()}</p>
 				<div class="flex flex-col gap-2">
-					<p class="text-sm text-muted">{m.footer_copyright()}</p>
+					<p class="text-sm text-muted">{m.footer_copyright({ brand: SITE.brand })}</p>
 					<a href={localizeHref('/privacy')} class="text-sm text-muted hover:text-primary transition-colors">{m.footer_privacy()}</a>
 					<a href={localizeHref('/cookie')} class="text-sm text-muted hover:text-primary transition-colors">{m.footer_cookie()}</a>
 					<a href={localizeHref('/termini')} class="text-sm text-muted hover:text-primary transition-colors">{m.footer_terms()}</a>

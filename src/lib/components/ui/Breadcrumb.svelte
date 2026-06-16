@@ -1,5 +1,6 @@
 <script lang="ts">
 	import StructuredData from '$lib/components/seo/StructuredData.svelte';
+	import { SITE } from '$lib/site';
 	import { localizeHref } from '$lib/paraglide/runtime';
 
 	let { items }: { items: { label: string; href?: string }[] } = $props();
@@ -18,7 +19,7 @@
 			'@type': 'ListItem',
 			position: i + 1,
 			name: item.label,
-			...(item.href ? { item: `https://www.traidue.com${item.href}` } : {})
+			...(item.href ? { item: `${SITE.url}${item.href}` } : {})
 		}))
 	};
 </script>

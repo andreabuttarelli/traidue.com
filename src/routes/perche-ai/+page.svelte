@@ -4,29 +4,30 @@
 	import Breadcrumb from '$lib/components/ui/Breadcrumb.svelte';
 	import * as m from '$lib/paraglide/messages';
 	import { locales, localizeHref } from '$lib/paraglide/runtime';
+	import { SITE } from '$lib/site';
 
 	const alternateUrls = Object.fromEntries(
-		locales.map(l => [l, `https://www.traidue.com${localizeHref('/perche-ai', { locale: l })}`])
+		locales.map(l => [l, `${SITE.url}${localizeHref('/perche-ai', { locale: l })}`])
 	);
 
 	const pageSchema = {
 		'@context': 'https://schema.org',
 		'@type': 'WebPage',
 		name: m.ai_page_title(),
-		url: 'https://www.traidue.com/perche-ai',
-		description: m.ai_seo_desc(),
+		url: `${SITE.url}/perche-ai`,
+		description: m.ai_seo_desc({ brand: SITE.brand }),
 		isPartOf: {
 			'@type': 'WebSite',
-			name: 'Tra i Due',
-			url: 'https://www.traidue.com'
+			name: SITE.brand,
+			url: SITE.url
 		}
 	};
 </script>
 
 <SEO
 	title={m.ai_page_title()}
-	description={m.ai_seo_desc()}
-	url="https://www.traidue.com/perche-ai"
+	description={m.ai_seo_desc({ brand: SITE.brand })}
+	url={`${SITE.url}/perche-ai`}
 	{alternateUrls}
 />
 
@@ -74,7 +75,7 @@
 		<section>
 			<h2 class="text-2xl font-heading font-semibold text-primary mb-4">{m.ai_jobs_title()}</h2>
 			<div class="space-y-4 text-text leading-relaxed">
-				<p>{@html m.ai_jobs_p1()}</p>
+				<p>{@html m.ai_jobs_p1({ brand: SITE.brand })}</p>
 				<p>{@html m.ai_jobs_p2()}</p>
 				<p>{@html m.ai_jobs_p3()}</p>
 			</div>
@@ -106,7 +107,7 @@
 				</ul>
 				<p>
 					{m.ai_commitment_contact()}
-					<a href="mailto:info@traidue.com" class="text-primary underline hover:no-underline">info@traidue.com</a>.
+					<a href={`mailto:${SITE.email}`} class="text-primary underline hover:no-underline">{SITE.email}</a>.
 				</p>
 			</div>
 		</section>

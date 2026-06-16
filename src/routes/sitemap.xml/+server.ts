@@ -1,10 +1,11 @@
 import { getAllArticles, getTranslations } from '$lib/utils/wiki';
 import { getAllQuizzes } from '$lib/utils/quiz';
+import { SITE } from '$lib/site';
 
 export const prerender = false;
 
 const langs = ['it', 'en', 'es', 'pt'] as const;
-const BASE = 'https://www.traidue.com';
+const BASE = SITE.url;
 
 function localizeUrl(path: string, lang: string): string {
 	if (lang === 'it') return `${BASE}${path}`;

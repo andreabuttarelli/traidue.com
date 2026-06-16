@@ -3,6 +3,7 @@
 	import StructuredData from '$lib/components/seo/StructuredData.svelte';
 	import TOC from '$lib/components/wiki/TOC.svelte';
 	import ArticleCard from '$lib/components/wiki/ArticleCard.svelte';
+	import { SITE } from '$lib/site';
 	import * as m from '$lib/paraglide/messages';
 	import { getLocale, localizeHref, locales } from '$lib/paraglide/runtime';
 
@@ -15,7 +16,7 @@
 		Object.fromEntries(
 			Object.entries(data.alternates ?? {}).map(([l, path]) => [
 				l,
-				`https://www.traidue.com${path}`
+				`${SITE.url}${path}`
 			])
 		)
 	);
@@ -32,7 +33,7 @@
 	let citations = $derived(extractCitations(data.metadata.sources ?? []));
 
 	let ogImage = $derived(
-		`https://www.traidue.com${data.metadata.image ?? `/images/wiki/${data.metadata.translationKey ?? data.metadata.slug}.webp`}`
+		`${SITE.url}${data.metadata.image ?? `/images/wiki/${data.metadata.translationKey ?? data.metadata.slug}.webp`}`
 	);
 
 	let articleSchema = $derived({
@@ -40,7 +41,7 @@
 		'@type': 'Article',
 		headline: data.metadata.title,
 		description: data.metadata.description,
-		url: `https://www.traidue.com${localizeHref('/wiki/' + data.metadata.slug)}`,
+		url: `${SITE.url}${localizeHref('/wiki/' + data.metadata.slug)}`,
 		image: ogImage,
 		inLanguage: localeMap[lang] ?? 'it-IT',
 		datePublished: data.metadata.date,
@@ -48,7 +49,7 @@
 		author: {
 			'@type': 'Person',
 			name: 'Andrea Buttarelli',
-			url: 'https://www.traidue.com/chi-siamo',
+			url: `${SITE.url}/chi-siamo`,
 			jobTitle: 'Founder',
 			sameAs: [
 				'https://www.instagram.com/andrea_buttarelli',
@@ -58,16 +59,16 @@
 		},
 		publisher: {
 			'@type': 'Organization',
-			name: 'Tra i Due',
-			url: 'https://www.traidue.com',
+			name: SITE.brand,
+			url: SITE.url,
 			logo: {
 				'@type': 'ImageObject',
-				url: 'https://www.traidue.com/favicon.png'
+				url: `${SITE.url}/favicon.png`
 			}
 		},
 		mainEntityOfPage: {
 			'@type': 'WebPage',
-			'@id': `https://www.traidue.com${localizeHref('/wiki/' + data.metadata.slug)}`
+			'@id': `${SITE.url}${localizeHref('/wiki/' + data.metadata.slug)}`
 		},
 		speakable: {
 			'@type': 'SpeakableSpecification',
@@ -108,7 +109,7 @@
 <SEO
 	title={data.metadata.seoTitle || data.metadata.title}
 	description={data.metadata.description}
-	url="https://www.traidue.com{localizeHref('/wiki/' + data.metadata.slug)}"
+	url={`${SITE.url}${localizeHref('/wiki/' + data.metadata.slug)}`}
 	image={ogImage}
 	type="article"
 	article={{
@@ -126,8 +127,8 @@
 	'@context': 'https://schema.org',
 	'@type': 'BreadcrumbList',
 	itemListElement: [
-		{ '@type': 'ListItem', position: 1, name: m.common_home(), item: `https://www.traidue.com${localizeHref('/')}` },
-		{ '@type': 'ListItem', position: 2, name: 'Wiki', item: `https://www.traidue.com${localizeHref('/wiki')}` },
+		{ '@type': 'ListItem', position: 1, name: m.common_home(), item: `${SITE.url}${localizeHref('/')}` },
+		{ '@type': 'ListItem', position: 2, name: 'Wiki', item: `${SITE.url}${localizeHref('/wiki')}` },
 		{ '@type': 'ListItem', position: 3, name: data.metadata.title }
 	]
 }} />

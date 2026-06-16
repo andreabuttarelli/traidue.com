@@ -1,5 +1,6 @@
 <script lang="ts">
 	import ShareButtons from '$lib/components/ui/ShareButtons.svelte';
+	import { SITE } from '$lib/site';
 	import { getGlossaryTerms } from '$lib/data/glossary';
 	import { getTranslationSlugMap } from '$lib/utils/wiki';
 	import * as m from '$lib/paraglide/messages';
@@ -303,7 +304,7 @@
 				<span class="capitalize">{category}</span>
 			</div>
 			<div class="flex items-center gap-2">
-				<ShareButtons url="https://www.traidue.com{localizeHref('/wiki/' + slug)}" text={title} />
+				<ShareButtons url={`${SITE.url}${localizeHref('/wiki/' + slug)}`} text={title} />
 				<a
 					href={localizeHref('/wiki/' + slug + '/raw')}
 					target="_blank"

@@ -4,24 +4,25 @@
 	import ArticleCard from '$lib/components/wiki/ArticleCard.svelte';
 	import * as m from '$lib/paraglide/messages';
 	import { locales, localizeHref } from '$lib/paraglide/runtime';
+	import { SITE } from '$lib/site';
 
 	let { data } = $props();
 
 	const alternateUrls = Object.fromEntries(
-		locales.map(l => [l, `https://www.traidue.com${localizeHref('/famiglie', { locale: l })}`])
+		locales.map(l => [l, `${SITE.url}${localizeHref('/famiglie', { locale: l })}`])
 	);
 
 	const pageSchema = {
 		'@context': 'https://schema.org',
 		'@type': 'WebPage',
-		name: m.family_seo_title(),
+		name: m.family_seo_title({ brand: SITE.brand }),
 		description: m.family_seo_desc(),
-		url: 'https://www.traidue.com/famiglie',
+		url: `${SITE.url}/famiglie`,
 		inLanguage: 'it',
 		isPartOf: {
 			'@type': 'WebSite',
-			name: 'Tra i Due',
-			url: 'https://www.traidue.com'
+			name: SITE.brand,
+			url: SITE.url
 		}
 	};
 
@@ -79,9 +80,9 @@
 </script>
 
 <SEO
-	title={m.family_seo_title()}
+	title={m.family_seo_title({ brand: SITE.brand })}
 	description={m.family_seo_desc()}
-	url="https://www.traidue.com/famiglie"
+	url={`${SITE.url}/famiglie`}
 	{alternateUrls}
 />
 
