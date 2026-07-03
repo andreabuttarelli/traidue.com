@@ -27,7 +27,7 @@ export const SITE = {
 	/** Source code repository — shared across all deployments (host-independent). */
 	repo: 'https://github.com/andreabuttarelli/traidue.com',
 	/** Social profile linked from structured data. */
-	instagram: env.PUBLIC_INSTAGRAM_URL ?? 'https://www.instagram.com/tra.i.due',
+	instagram: env.PUBLIC_INSTAGRAM_URL ?? 'https://www.instagram.com/transwiki.co',
 	/** Default Open Graph / social share image (absolute URL). */
 	get ogImage() {
 		return `${url}/images/wiki/identita-di-genere.webp`;
