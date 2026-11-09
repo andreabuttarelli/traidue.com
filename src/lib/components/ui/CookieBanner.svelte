@@ -3,15 +3,8 @@
 	import { SITE } from '$lib/site';
 	import * as m from '$lib/paraglide/messages';
 	import { localizeHref } from '$lib/paraglide/runtime';
-	import {
-		PUBLIC_FIREBASE_API_KEY,
-		PUBLIC_FIREBASE_AUTH_DOMAIN,
-		PUBLIC_FIREBASE_PROJECT_ID,
-		PUBLIC_FIREBASE_STORAGE_BUCKET,
-		PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-		PUBLIC_FIREBASE_APP_ID,
-		PUBLIC_FIREBASE_MEASUREMENT_ID
-	} from '$env/static/public';
+	// dynamic, not static: a missing var must skip analytics, not break hydration of every page.
+	import { env } from '$env/dynamic/public';
 
 	const CONSENT_KEY = 'traidue-cookie-consent';
 
@@ -38,21 +31,20 @@
 		if (!browser) return;
 		if (localStorage.getItem(CONSENT_KEY) !== 'accepted') return;
 
-		const { initializeApp } = await import('firebase/app');
-		const { getAnalytics } = await import('firebase/analytics');
-
-		const firebaseConfig = {
-			apiKey: PUBLIC_FIREBASE_API_KEY,
-			authDomain: PUBLIC_FIREBASE_AUTH_DOMAIN,
-			projectId: PUBLIC_FIREBASE_PROJECT_ID,
-			storageBucket: PUBLIC_FIREBASE_STORAGE_BUCKET,
-			messagingSenderId: PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-			appId: PUBLIC_FIREBASE_APP_ID,
-			measurementId: PUBLIC_FIREBASE_MEASUREMENT_ID
-		};
-
-		const app = initializeApp(firebaseConfig);
-		getAnalytics(app);
+		if (env.PUBLIC_FIREBASE_API_KEY) {
+			const { initializeApp } = await import('firebase/app');
+			const { getAnalytics } = await import('firebase/analytics');
+			const app = initializeApp({
+				apiKey: env.PUBLIC_FIREBASE_API_KEY,
+				authDomain: env.PUBLIC_FIREBASE_AUTH_DOMAIN,
+				projectId: env.PUBLIC_FIREBASE_PROJECT_ID,
+				storageBucket: env.PUBLIC_FIREBASE_STORAGE_BUCKET,
+				messagingSenderId: env.PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+				appId: env.PUBLIC_FIREBASE_APP_ID,
+				measurementId: env.PUBLIC_FIREBASE_MEASUREMENT_ID
+			});
+			getAnalytics(app);
+		}
 
 		// Datafast
 		if (!document.querySelector('script[src*="datafa.st"]')) {
