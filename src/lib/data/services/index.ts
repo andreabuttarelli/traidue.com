@@ -12,7 +12,7 @@ export interface Service {
 	address: string | null;
 	lat: number | null;
 	lng: number | null;
-	website: string;
+	website: string | null;
 	phone?: string;
 	email?: string;
 	description: string;

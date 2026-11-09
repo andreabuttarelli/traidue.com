@@ -60,7 +60,7 @@
 				}).bindPopup(
 					`<strong>${escape(s.name)}</strong><br>${escape(typeLabels[s.type]())} · ${escape(s.city)}` +
 						(s.address ? `<br>${escape(s.address)}` : '') +
-						`<br><a href="${escape(s.website)}" target="_blank" rel="noopener">${escape(m.services_website())}</a>`
+						(s.website ? `<br><a href="${escape(s.website)}" target="_blank" rel="noopener">${escape(m.services_website())}</a>` : '')
 				);
 				markers.set(s.id, marker);
 			}
@@ -166,7 +166,9 @@
 								<p class="text-xs sm:text-sm text-muted-text mt-1 leading-relaxed">{s.description}</p>
 							</div>
 							<div class="flex flex-col items-end gap-1 shrink-0 text-xs">
-								<a href={s.website} target="_blank" rel="noopener" class="text-primary hover:underline">{m.services_website()} &rarr;</a>
+								{#if s.website}
+									<a href={s.website} target="_blank" rel="noopener" class="text-primary hover:underline">{m.services_website()} &rarr;</a>
+								{/if}
 								{#if s.phone}
 									<a href={`tel:${s.phone.replace(/\s/g, '')}`} class="text-muted hover:text-primary">{s.phone}</a>
 								{/if}
