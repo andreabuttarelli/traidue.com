@@ -118,15 +118,17 @@ pro, sph, sv = mbox('prostate'), mbox('anal_sphincter'), mbox('seminal_vesicles'
 anus = (0.0, (sph[0][1] + sph[1][1]) / 2, sph[0][2])
 def on_skin(y):  # first skin hit going down from inside the pelvis
     return (0.0, y, pro[0][2] - cast((0.0, y, pro[0][2]), (0, 0, -1)))
-introitus = on_skin(anus[1] - 30)  # centre of the opening, 3 cm in front of the anus, at the front of the perineum
+# landmarks shared with build-anatomy.py (which cuts the silhouette along the vulva): the opening sits 3.8 cm in
+# front of the anus and 1 cm under the perineal skin, so the vulva shows below the outline of the body
+introitus = (0.0, anus[1] - 38, on_skin(anus[1] - 30)[2] - 10)
 # The vulva takes the place of the old genitals: from the opening on the perineum to the front commissure
-# (clitoris), where the penile base and the scrotal root were, just under the pubic symphysis.
+# (clitoris), at the front of the body: 2.5 cm of soft tissue in front of the pubic symphysis, at its lower edge.
 uv, ut = meshes['vulva']
 ut = [t for t in ut if not any(uv[i][2] < 0.1 and uv[i][1] > 0.45 for i in t)]  # lining rising into the body behind the opening
-S = 65 / (max(uv[i][0] for t in ut for i in t) - min(uv[i][0] for t in ut for i in t))  # 6.5 cm wide
+S = 70 / (max(uv[i][0] for t in ut for i in t) - min(uv[i][0] for t in ut for i in t))  # 7 cm wide
 pub = [p for n in ('hip_left', 'hip_right') for p in male[n][0] if abs(p[0]) < 10]
 pubis = min(pub, key=lambda p: p[2])  # lower edge of the symphysis
-commissure = (0.0, pubis[1] - 13, pubis[2] - 13)
+commissure = (0.0, min(p[1] for p in pub) - 25, pubis[2] - 5)
 OUTER = 0.25  # the vulva's outer surface lies this far (vulva units) below its opening
 front = max((uv[i] for t in ut for i in t), key=lambda p: p[2])  # most anterior point of the vulva
 # sagittal similarity (forward, up): outer surface at the opening -> introitus on the skin, front -> commissure
