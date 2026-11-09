@@ -47,7 +47,7 @@
 </script>
 
 <SEO
-	title={`${s.name} – ${s.address ? s.city : m.services_national()} | ${SITE.brand}`}
+	title={`${s.name} – ${s.city ?? m.services_national()} | ${SITE.brand}`}
 	description={s.description}
 	url={`${SITE.url}/servizi/${s.id}`}
 />
@@ -57,7 +57,7 @@
 	<Breadcrumb items={[{ label: m.common_home(), href: '/' }, { label: m.nav_services(), href: '/servizi' }, { label: s.name }]} />
 
 	<article class="max-w-3xl">
-		<p class="text-sm text-muted mb-2">{typeLabels[s.type]()} · {s.address ? `${s.city}, ${s.region}` : m.services_national()}</p>
+		<p class="text-sm text-muted mb-2">{typeLabels[s.type]()} · {[s.city, s.region].filter(Boolean).join(', ') || m.services_national()}</p>
 		<h1 class="text-2xl sm:text-3xl lg:text-4xl font-heading font-semibold tracking-tight text-primary mb-4">{s.name}</h1>
 		<p class="text-base sm:text-lg text-muted-text leading-relaxed mb-8">{s.description}</p>
 

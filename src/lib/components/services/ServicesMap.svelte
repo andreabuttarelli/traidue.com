@@ -225,7 +225,7 @@
 							<div class="min-w-0">
 								<a href={detailHref(s.id)} class="text-sm sm:text-base font-medium text-primary hover:underline">{s.name}</a>
 								<p class="text-xs text-muted mt-0.5">
-									{typeLabels[s.type]()} · {s.address ? s.city : m.services_national()}
+									{typeLabels[s.type]()} · {s.city ?? m.services_national()}
 								</p>
 								<p class="text-xs sm:text-sm text-muted-text mt-1 leading-relaxed">{s.description}</p>
 							</div>

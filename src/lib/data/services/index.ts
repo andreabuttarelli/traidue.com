@@ -10,8 +10,8 @@ export interface Service {
 	id: string;
 	name: string;
 	type: ServiceType;
-	city: string;
-	region: string;
+	city: string | null; // null = national/online
+	region: string | null;
 	address: string | null;
 	lat: number | null;
 	lng: number | null;
