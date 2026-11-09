@@ -1,6 +1,7 @@
 import { getAllArticles } from '$lib/utils/wiki';
 import { getAllQuizzes } from '$lib/utils/quiz';
 import { getLocale } from '$lib/paraglide/runtime';
+import { getServices } from '$lib/data/services';
 
 function shuffle<T>(array: T[]): T[] {
 	const shuffled = [...array];
@@ -19,6 +20,7 @@ export function load() {
 	return {
 		featuredArticles: shuffle(articles).slice(0, 6),
 		personArticles: articles.filter((a) => a.category === 'persone'),
+		services: getServices(lang),
 		stats: {
 			articles: articles.length,
 			sources: totalSources,

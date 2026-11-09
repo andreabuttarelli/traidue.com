@@ -1,0 +1,5 @@
+[
+  {"id":"dev-sample-london","name":"DEV SAMPLE London","type":"association","city":"Milano","region":"England","address":"Trafalgar Square, London WC2N 5DN","lat":51.50809,"lng":-0.12803,"website":"https://example.org","description":"Sample data, to be replaced.","source":"https://example.org","verified":"2026-11-09"},
+  {"id":"dev-sample-manchester","name":"DEV SAMPLE Manchester","type":"clinic","city":"Manchester","region":"England","address":"Albert Square, Manchester M2 5DB","lat":53.47926,"lng":-2.24485,"website":"https://example.org","description":"Sample data, to be replaced.","source":"https://example.org","verified":"2026-11-09"},
+  {"id":"dev-sample-helpline","name":"DEV SAMPLE Helpline","type":"helpline","city":"National","region":"UK","address":null,"lat":null,"lng":null,"website":"https://example.org","phone":"+39 000","description":"Sample data, to be replaced.","source":"https://example.org","verified":"2026-11-09"}
+]

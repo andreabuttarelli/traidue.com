@@ -5,6 +5,7 @@
 	import Logo from '$lib/components/ui/Logo.svelte';
 	import SearchInput from '$lib/components/ui/SearchInput.svelte';
 	import ArticleCard from '$lib/components/wiki/ArticleCard.svelte';
+	import ServicesMap from '$lib/components/services/ServicesMap.svelte';
 	import { SITE } from '$lib/site';
 	import * as m from '$lib/paraglide/messages';
 	import { getLocale, locales, localizeHref } from '$lib/paraglide/runtime';
@@ -100,7 +101,14 @@
 <StructuredData schema={organizationSchema} />
 <StructuredData schema={homeFaqSchema} />
 
-<!-- Hero -->
+<!-- Hero: services map where we have data (it → Italy, en → UK), brand hero elsewhere -->
+{#if data.services}
+<section>
+	<div class="w-full px-4 sm:px-6 lg:px-12 py-10 sm:py-16 lg:py-20">
+		<ServicesMap data={data.services} />
+	</div>
+</section>
+{:else}
 <section>
 	<div class="w-full px-4 sm:px-6 lg:px-12 py-16 sm:py-24 lg:py-32 text-center flex flex-col items-center">
 		<h1 class="text-3xl sm:text-5xl lg:text-7xl text-primary mb-4 sm:mb-6">
@@ -128,6 +136,7 @@
 		</div>
 	</div>
 </section>
+{/if}
 
 
 <!-- Personas -->

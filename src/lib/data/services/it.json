@@ -1,0 +1,5 @@
+[
+  {"id":"dev-sample-milano","name":"DEV SAMPLE Milano","type":"association","city":"Milano","region":"Lombardia","address":"Piazza del Duomo, 20122 Milano","lat":45.46419,"lng":9.18963,"website":"https://example.org","description":"Dato di prova, da sostituire.","source":"https://example.org","verified":"2026-11-09"},
+  {"id":"dev-sample-roma","name":"DEV SAMPLE Roma","type":"clinic","city":"Roma","region":"Lazio","address":"Piazza Venezia, 00186 Roma","lat":41.89587,"lng":12.48245,"website":"https://example.org","description":"Dato di prova, da sostituire.","source":"https://example.org","verified":"2026-11-09"},
+  {"id":"dev-sample-helpline","name":"DEV SAMPLE Helpline","type":"helpline","city":"Nazionale","region":"Italia","address":null,"lat":null,"lng":null,"website":"https://example.org","phone":"+39 000","description":"Dato di prova, da sostituire.","source":"https://example.org","verified":"2026-11-09"}
+]
