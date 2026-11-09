@@ -83,8 +83,32 @@ def cluster(verts, tris, cell):
         a, b, c = vmap[t[0]], vmap[t[1]], vmap[t[2]]
         if a != b and b != c and a != c: out.add((a, b, c))
     return [(x / n, y / n, z / n) for x, y, z, n in acc], sorted(out)
-meshes['body'] = cluster(sv, meshes['body_full'][1], 18)
+bv, bt = cluster(sv, meshes['body_full'][1], 18)
 del meshes['body_full']
+
+# Split the external male genitals off the silhouette, and build the female profile that replaces them:
+# the hole left in the body is closed by a smooth fan towards its centre, set back to the perineum.
+def in_genitals(t):
+    c = [sum(bv[i][k] for i in t) / 3 for k in range(3)]
+    return abs(c[0]) < 48 and c[1] < -112 and 655 < c[2] < 770
+genital = [t for t in bt if in_genitals(t)]
+rest = [t for t in bt if not in_genitals(t)]
+edges = collections.Counter()
+for a_, b_, c_ in rest:
+    for e in ((a_, b_), (b_, c_), (c_, a_)): edges[tuple(sorted(e))] += 1
+gv = {i for t in genital for i in t}
+border = [e for e, n in edges.items() if n == 1 and e[0] in gv and e[1] in gv]
+ring = sorted({i for e in border for i in e})
+if ring:
+    cx = sum(bv[i][0] for i in ring) / len(ring); cy = sum(bv[i][1] for i in ring) / len(ring); cz = sum(bv[i][2] for i in ring) / len(ring)
+    centre = len(bv); bv.append((cx, cy + 18, cz))  # set back towards the body: no protrusion
+    vulva = [(a_, b_, centre) for a_, b_ in border]
+else:
+    vulva = []
+meshes['body'] = (bv, rest)
+meshes['body_genital'] = (bv, genital)
+meshes['body_vulva'] = (bv, vulva)
+print('silhouette genital tris', len(genital), 'border edges', len(border))
 
 def compact(verts, tris):
     used = sorted({i for t in tris for i in t}); remap = {o: n for n, o in enumerate(used)}
