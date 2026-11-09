@@ -203,7 +203,7 @@
 			<div class="hidden sm:flex gap-4 flex-wrap mb-8 sm:mb-12">
 				<a href={localizeHref('/wiki')} class="text-sm text-primary font-medium transition">{m.wiki_filter_all()}</a>
 				{#each categories as cat}
-					<a href={cat.href} class="text-sm text-muted hover:text-primary capitalize transition">{cat.name}</a>
+					<a href={localizeHref(cat.href)} class="text-sm text-muted hover:text-primary capitalize transition">{cat.name}</a>
 				{/each}
 			</div>
 			<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-14 sm:gap-x-8 sm:gap-y-16">
