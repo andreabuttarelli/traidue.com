@@ -212,7 +212,7 @@
 
 {#snippet intro()}
 		<h1 class="text-2xl sm:text-3xl {list ? 'lg:text-4xl' : 'xl:text-[2.75rem] xl:leading-tight'} font-heading font-semibold tracking-tight text-primary mb-3">
-		<span class="relative isolate tabular-nums whitespace-nowrap"><span aria-hidden="true" class="absolute inset-x-0 bottom-[0.12em] h-[0.32em] -z-10 rounded-sm bg-gradient-to-r from-brand-blue to-brand-pink"></span>{shownTotal}</span>
+		<span class="tabular-nums">{shownTotal}</span>
 		{data.country === 'IT' ? m.services_title_it() : m.services_title_uk()}
 	</h1>
 	<p class="text-sm text-muted leading-relaxed mb-5 max-w-xl">{m.services_desc()}</p>
@@ -356,11 +356,12 @@
 		--map-line: color-mix(in srgb, var(--color-primary) 18%, var(--color-bg));
 		background: var(--map-sea);
 	}
+	/* The country's outline in the brand's light pink; markers and clusters stay blue. */
 	.services-map :global(.basemap-land) {
 		fill: var(--map-land);
 		fill-opacity: 1;
-		stroke: var(--map-line);
-		stroke-width: 1;
+		stroke: var(--color-brand-pink);
+		stroke-width: 1.25;
 	}
 	.services-map :global(.basemap-neighbour) {
 		fill: var(--map-neighbour);
@@ -389,9 +390,9 @@
 		align-items: center;
 		justify-content: center;
 		border-radius: 9999px;
-		background: var(--color-brand-pink);
+		background: var(--color-brand-blue);
 		color: var(--color-on-brand);
-		box-shadow: 0 0 0 2px var(--color-bg), 0 0 0 6px color-mix(in srgb, var(--color-brand-pink) 40%, transparent);
+		box-shadow: 0 0 0 2px var(--color-bg), 0 0 0 6px color-mix(in srgb, var(--color-brand-blue) 40%, transparent);
 		font-size: 12px;
 		font-weight: 600;
 		font-variant-numeric: tabular-nums;
