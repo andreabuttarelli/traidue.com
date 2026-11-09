@@ -9,7 +9,7 @@
 
 	type State = 'n' | 'a' | 'g' | 'h' | 'p' | 'pl'; // normal, active, ghost (removed), hidden, pink (new), pink light
 	const PARTS = [
-		'body', 'bladder', 'prostate', 'urethra', 'rectum', 'seminal_vesicles', 'anal_sphincter', 'sacrum', 'hip_left', 'hip_right',
+		'body', 'body_genital', 'body_vulva', 'bladder', 'prostate', 'urethra', 'rectum', 'seminal_vesicles', 'anal_sphincter', 'sacrum', 'hip_left', 'hip_right',
 		'corpora_cavernosa', 'corpus_spongiosum', 'glans', 'testes', 'epididymides', 'dorsal_artery', 'dorsal_vein',
 		'skin', 'skin_penile', 'skin_scrotal', 'canal', 'packing', 'catheter', 'clitoris', 'meatus'
 	] as const;
@@ -19,7 +19,7 @@
 	function stateFor(step: number): Partial<Record<Part, State>> {
 		// The cropped perineal skin is a ragged sheet in section: only penile and scrotal skin are shown.
 		// Removed parts stay as a transparent ghost only in the step right after their removal, then disappear.
-		const s: Partial<Record<Part, State>> = { skin: 'h', canal: 'h', packing: 'h', catheter: 'h', clitoris: 'h', meatus: 'h' };
+		const s: Partial<Record<Part, State>> = { skin: 'h', canal: 'h', packing: 'h', catheter: 'h', clitoris: 'h', meatus: 'h', body_vulva: 'h' };
 		const removed = (part: Part, at: number) => {
 			if (step === at) s[part] = 'a';
 			else if (step === at + 1) s[part] = 'g';
@@ -33,7 +33,8 @@
 		removed('corpora_cavernosa', 5);
 		if (step >= 6) s.canal = step === 6 ? 'pl' : 'p';
 		if (step === 6) s.rectum = 'a';
-		if (step >= 7) s.skin_penile = 'h'; // it became the lining of the canal
+		// it became the lining of the canal; the silhouette switches to the female profile at the same time
+		if (step >= 7) Object.assign(s, { skin_penile: 'h', body_genital: 'h', body_vulva: 'n' });
 		if (step === 7) Object.assign(s, { dorsal_artery: 'g', dorsal_vein: 'g' });
 		if (step >= 8) Object.assign(s, { dorsal_artery: 'h', dorsal_vein: 'h', glans: 'h', clitoris: 'p', meatus: 'p' });
 		removed('corpus_spongiosum', 8);
@@ -45,7 +46,7 @@
 
 	// Muted anatomical colours; the brand blue (being worked on) and pink (new) stay reserved for the steps.
 	const ANATOMY: Partial<Record<Part, string>> = {
-		body: '#d9b99a',
+		body: '#d9b99a', body_genital: '#d9b99a', body_vulva: '#d9b99a',
 		sacrum: '#e8e1cf', hip_left: '#e8e1cf', hip_right: '#e8e1cf',
 		bladder: '#e3c16f', urethra: '#d9b84a', prostate: '#cf9a62', seminal_vesicles: '#c7b07a',
 		rectum: '#a07a5f', anal_sphincter: '#8f6650',
@@ -155,7 +156,8 @@
 			const addItem = (part: Part, mesh: import('three').Mesh) => {
 				const isNew = NEW.includes(part);
 				// the decimated body has mixed face winding and noisy normals: unlit + double-sided keeps it uniform
-				const mat = part === 'body'
+				const isBody = part.startsWith('body');
+				const mat = isBody
 					? new THREE.MeshBasicMaterial({ color: baseOf(part), side: THREE.DoubleSide, transparent: true, depthWrite: false })
 					: new THREE.MeshStandardMaterial({
 					color: baseOf(part),
@@ -167,7 +169,7 @@
 					depthTest: !isNew // new structures are drawn on top, so they are never hidden by organs
 				});
 				mesh.material = mat;
-				mesh.renderOrder = part === 'body' ? -1 : isNew ? 10 : 0;
+				mesh.renderOrder = isBody ? -1 : isNew ? 10 : 0;
 				if (!mesh.geometry.attributes.normal) mesh.geometry.computeVertexNormals();
 				// pivot each part on its own centre, so scaling shrinks it in place (vertices are in body mm)
 				mesh.geometry.computeBoundingBox();
@@ -300,7 +302,7 @@
 					it.opacity =
 						s === 'h' ? 0
 						: s === 'g' ? 0.1
-						: part === 'body' ? 0.045
+						: part.startsWith('body') ? 0.045
 						: part === 'canal' ? (s === 'pl' ? 0.7 : 0.92)
 						: part === 'hip_right' || part === 'sacrum' ? 0.4
 						: part === 'hip_left' ? (section ? 0.4 : 0)
@@ -309,7 +311,7 @@
 					it.scale = 1;
 					const xray = NEW.includes(part) || s === 'p';
 					it.mat.depthTest = !xray;
-					it.mesh.renderOrder = part === 'body' ? -1 : xray ? 10 : 0;
+					it.mesh.renderOrder = part.startsWith('body') ? -1 : xray ? 10 : 0;
 				}
 				if (n >= 2 && n <= 6) items.get('skin_penile')!.offset.set(0, -6, 4); // lifted off the shaft
 				if (n >= 7) items.get('skin_penile')!.offset.copy(skinTravel);
