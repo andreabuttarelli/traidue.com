@@ -74,10 +74,12 @@
 			(window as unknown as { L: typeof L }).L = L;
 			await import('leaflet.markercluster');
 			if (disposed) return;
-			const lmap = L.map(mapEl, { scrollWheelZoom: false, attributionControl: false, minZoom: 2, maxZoom: 10 }).setView(
+			// zoomSnap 0: pinch zooms smoothly instead of jumping a whole level.
+			const lmap = L.map(mapEl, { scrollWheelZoom: false, attributionControl: false, minZoom: 2, maxZoom: 10, zoomSnap: 0 }).setView(
 				data.center,
 				data.zoom
 			);
+			pinchZoom(lmap, mapEl);
 			// Vector basemap, no tiles: colours come from the theme tokens (styles at the bottom).
 			L.geoJSON(basemap.default as GeoJSON.FeatureCollection, {
 				interactive: false,
@@ -127,6 +129,32 @@
 			map.setView(data.center, data.zoom);
 		}
 	});
+
+	// Trackpad pinch zooms the map; a plain two-finger scroll still scrolls the page.
+	// Chrome/Firefox/Edge report a pinch as wheel + ctrlKey, Safari as gesture* events.
+	// Touch pinch on mobile is Leaflet's own touchZoom.
+	function pinchZoom(lmap: LeafletMap, el: HTMLElement) {
+		el.addEventListener(
+			'wheel',
+			(e) => {
+				if (!e.ctrlKey) return;
+				e.preventDefault(); // otherwise the browser zooms the whole page
+				lmap.setZoomAround(lmap.mouseEventToContainerPoint(e), lmap.getZoom() - e.deltaY * 0.02, { animate: false });
+			},
+			{ passive: false }
+		);
+		let startZoom = 0;
+		type GestureEvent = UIEvent & { scale: number; clientX: number; clientY: number };
+		el.addEventListener('gesturestart', (e) => {
+			e.preventDefault();
+			startZoom = lmap.getZoom();
+		});
+		el.addEventListener('gesturechange', (e) => {
+			e.preventDefault();
+			const g = e as GestureEvent;
+			lmap.setZoomAround(lmap.mouseEventToContainerPoint(g as unknown as MouseEvent), startZoom + Math.log2(g.scale), { animate: false });
+		});
+	}
 
 	function focus(id: string) {
 		const mk = markers.get(id);
