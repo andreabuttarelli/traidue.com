@@ -46,6 +46,12 @@ const byLocale: Record<string, Procedure[]> = { it: it as Procedure[] };
 
 export const surgeons = surgeonsData as Surgeon[];
 
+// ponytail: the medical content (costs, recovery, surgeons) is waiting for a human review. Until then the
+// pages work only by direct link: out of the navbar, hero search and sitemap, and noindex. Flip to publish.
+export const PROCEDURES_PUBLIC = false;
+// the 3D vaginoplasty is still being refined: kept off the page until it is approved
+export const VAGINOPLASTY_3D = false;
+
 export function getProcedures(locale: string): Procedure[] | null {
 	return byLocale[locale] ?? null;
 }

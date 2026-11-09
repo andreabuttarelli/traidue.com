@@ -5,7 +5,7 @@
 	import * as m from '$lib/paraglide/messages';
 	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
 	import { getServices } from '$lib/data/services';
-	import { getProcedures } from '$lib/data/procedures';
+	import { getProcedures, PROCEDURES_PUBLIC } from '$lib/data/procedures';
 	import Logo from './Logo.svelte';
 	import LanguageSwitcher from './LanguageSwitcher.svelte';
 	import SearchInput from './SearchInput.svelte';
@@ -26,7 +26,7 @@
 		{ href: localizeHref('/wiki'), label: m.nav_wiki() },
 		{ href: localizeHref('/quiz'), label: m.nav_quiz() },
 		...(getServices(getLocale()) ? [{ href: localizeHref('/servizi'), label: m.nav_services() }] : []),
-		...(getProcedures(getLocale()) ? [{ href: localizeHref('/operazioni'), label: m.nav_procedures() }] : [])
+		...(PROCEDURES_PUBLIC && getProcedures(getLocale()) ? [{ href: localizeHref('/operazioni'), label: m.nav_procedures() }] : [])
 	]);
 
 	function isActive(href: string): boolean {

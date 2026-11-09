@@ -2,7 +2,7 @@ import { getAllArticles, getTranslations } from '$lib/utils/wiki';
 import { getAllQuizzes } from '$lib/utils/quiz';
 import { SITE } from '$lib/site';
 import { getServices } from '$lib/data/services';
-import { getProcedures } from '$lib/data/procedures';
+import { getProcedures, PROCEDURES_PUBLIC } from '$lib/data/procedures';
 
 export const prerender = true;
 
@@ -95,7 +95,7 @@ function renderServiceEntries(): string {
 		.flatMap((lang) => {
 			const country = getServices(lang);
 			if (!country) return [];
-			const procedures = getProcedures(lang) ?? [];
+			const procedures = (PROCEDURES_PUBLIC && getProcedures(lang)) || [];
 			const paths = [
 				'/servizi',
 				...country.services.map((s) => `/servizi/${s.id}`),

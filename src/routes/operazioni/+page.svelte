@@ -5,7 +5,7 @@
 	import { SITE } from '$lib/site';
 	import * as m from '$lib/paraglide/messages';
 	import { localizeHref } from '$lib/paraglide/runtime';
-	import type { Procedure } from '$lib/data/procedures';
+	import { PROCEDURES_PUBLIC, type Procedure } from '$lib/data/procedures';
 
 	let { data } = $props();
 
@@ -18,7 +18,7 @@
 	const nameOf = (slug: string) => data.procedures.find((p) => p.slug === slug)?.name ?? slug;
 </script>
 
-<SEO title={m.procedures_seo_title({ brand: SITE.brand })} description={m.procedures_seo_desc({ count: data.procedures.length })} url={`${SITE.url}/operazioni`} />
+<SEO title={m.procedures_seo_title({ brand: SITE.brand })} description={m.procedures_seo_desc({ count: data.procedures.length })} url={`${SITE.url}/operazioni`} noindex={!PROCEDURES_PUBLIC} />
 <StructuredData
 	schema={{
 		'@context': 'https://schema.org',
