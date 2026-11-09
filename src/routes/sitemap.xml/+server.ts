@@ -2,6 +2,7 @@ import { getAllArticles, getTranslations } from '$lib/utils/wiki';
 import { getAllQuizzes } from '$lib/utils/quiz';
 import { SITE } from '$lib/site';
 import { getServices } from '$lib/data/services';
+import { getProcedures } from '$lib/data/procedures';
 
 export const prerender = true;
 
@@ -94,11 +95,16 @@ function renderServiceEntries(): string {
 		.flatMap((lang) => {
 			const country = getServices(lang);
 			if (!country) return [];
-			const paths = ['/servizi', ...country.services.map((s) => `/servizi/${s.id}`)];
+			const procedures = getProcedures(lang) ?? [];
+			const paths = [
+				'/servizi',
+				...country.services.map((s) => `/servizi/${s.id}`),
+				...(procedures.length ? ['/operazioni', ...procedures.map((p) => `/operazioni/${p.slug}`)] : [])
+			];
 			return paths.map(
 				(p) => `  <url>
     <loc>${localizeUrl(p, lang)}</loc>
-    <priority>${p === '/servizi' ? '0.8' : '0.6'}</priority>
+    <priority>${p === '/servizi' || p === '/operazioni' ? '0.8' : '0.6'}</priority>
     <changefreq>monthly</changefreq>
   </url>`
 			);
