@@ -40,28 +40,48 @@
 	let layer: LayerGroup | undefined;
 	const markers = new Map<string, CircleMarker>();
 
+	// Natural Earth (public domain), simplified: land, region borders, neighbouring countries.
+	const basemaps = {
+		IT: () => import('$lib/data/services/basemap-it.json'),
+		UK: () => import('$lib/data/services/basemap-uk.json')
+	};
+
 	const escape = (s: string) =>
 		s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!);
 
+	// Count-up on the title; SSR keeps the real number for crawlers and no-JS.
+	let shownTotal = $state(data.services.length);
+	onMount(() => {
+		const total = data.services.length;
+		if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+		const start = performance.now();
+		let raf = 0;
+		const tick = (now: number) => {
+			const t = Math.min((now - start) / 1200, 1);
+			shownTotal = Math.round(total * (1 - Math.pow(1 - t, 3)));
+			if (t < 1) raf = requestAnimationFrame(tick);
+		};
+		raf = requestAnimationFrame(tick);
+		return () => cancelAnimationFrame(raf);
+	});
+
 	onMount(() => {
 		let disposed = false;
-		import('leaflet').then((L) => {
+		Promise.all([import('leaflet'), basemaps[data.country]()]).then(([L, basemap]) => {
 			if (disposed) return;
-			const lmap = L.map(mapEl, { scrollWheelZoom: false }).setView(data.center, data.zoom);
-			L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-				maxZoom: 18,
-				attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+			const lmap = L.map(mapEl, { scrollWheelZoom: false, attributionControl: false, minZoom: 4, maxZoom: 10 }).setView(
+				data.center,
+				data.zoom
+			);
+			// Vector basemap, no tiles: colours come from the theme tokens (styles at the bottom).
+			L.geoJSON(basemap.default as GeoJSON.FeatureCollection, {
+				interactive: false,
+				style: (f) => ({ className: `basemap-${f?.properties.k}` })
 			}).addTo(lmap);
 			layer = L.layerGroup().addTo(lmap);
 			for (const s of data.services) {
 				if (s.lat == null || s.lng == null) continue;
-				const marker = L.circleMarker([s.lat, s.lng], {
-					radius: 7,
-					color: '#fff',
-					weight: 2,
-					fillColor: '#d6457a', // trans-flag pink, readable on light and inverted dark tiles
-					fillOpacity: 0.9
-				}).bindPopup(
+				const marker = L.circleMarker([s.lat, s.lng], { radius: 6, className: 'service-marker' }).bindPopup(
 					`<strong>${escape(s.name)}</strong><br>${escape(typeLabels[s.type]())} · ${escape(s.city)}` +
 						(s.address ? `<br>${escape(s.address)}` : '') +
 						(s.website ? `<br><a href="${escape(s.website)}" target="_blank" rel="noopener">${escape(m.services_website())}</a>` : '') +
@@ -86,7 +106,7 @@
 		if (visible.length > 0 && (query || activeType)) {
 			map.fitBounds(
 				visible.map((mk) => mk.getLatLng()),
-				{ padding: [32, 32], maxZoom: 12 }
+				{ padding: [32, 32], maxZoom: 8 }
 			);
 		} else {
 			map.setView(data.center, data.zoom);
@@ -96,7 +116,7 @@
 	function focus(id: string) {
 		const mk = markers.get(id);
 		if (!map || !mk) return;
-		map.flyTo(mk.getLatLng(), 13, { duration: 0.6 });
+		map.flyTo(mk.getLatLng(), 8, { duration: 0.6 });
 		mk.openPopup();
 		if (window.matchMedia('(max-width: 1023px)').matches) mapEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
 	}
@@ -105,6 +125,7 @@
 <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12">
 	<div class="flex flex-col">
 		<h1 class="text-3xl sm:text-4xl lg:text-5xl font-heading font-semibold tracking-tight text-primary mb-3 sm:mb-4">
+			<span class="tabular-nums">{shownTotal}</span>
 			{data.country === 'IT' ? m.services_title_it() : m.services_title_uk()}
 		</h1>
 		<p class="text-sm sm:text-base text-muted leading-relaxed mb-5 sm:mb-6 max-w-xl">{m.services_desc()}</p>
@@ -187,8 +208,55 @@
 </div>
 
 <style>
-	/* OSM tiles are light-only: invert them in dark mode, keep markers/popups untouched. */
-	:global(.dark) .services-map :global(.leaflet-tile-pane) {
-		filter: invert(1) hue-rotate(180deg) brightness(0.9) contrast(0.9);
+	/* Minimal monochrome basemap derived from the theme tokens, so it follows light/dark. */
+	.services-map {
+		--map-sea: var(--color-bg);
+		--map-land: color-mix(in srgb, var(--color-primary) 7%, var(--color-bg));
+		--map-neighbour: color-mix(in srgb, var(--color-primary) 3%, var(--color-bg));
+		--map-line: color-mix(in srgb, var(--color-primary) 18%, var(--color-bg));
+		background: var(--map-sea);
+	}
+	.services-map :global(.basemap-land) {
+		fill: var(--map-land);
+		fill-opacity: 1;
+		stroke: var(--map-line);
+		stroke-width: 1;
+	}
+	.services-map :global(.basemap-neighbour) {
+		fill: var(--map-neighbour);
+		fill-opacity: 1;
+		stroke: var(--map-line);
+		stroke-opacity: 0.5;
+		stroke-width: 0.75;
+	}
+	.services-map :global(.basemap-border) {
+		fill: none;
+		stroke: var(--map-line);
+		stroke-width: 0.75;
+		stroke-dasharray: 2 3;
+	}
+	.services-map :global(.service-marker) {
+		fill: var(--color-primary);
+		fill-opacity: 1;
+		stroke: var(--color-bg);
+		stroke-width: 2;
+	}
+	.services-map :global(.service-marker:hover) {
+		fill-opacity: 0.75;
+	}
+	.services-map :global(.leaflet-popup-content-wrapper),
+	.services-map :global(.leaflet-popup-tip) {
+		background: var(--color-bg);
+		color: var(--color-text);
+		box-shadow: 0 0 0 1px var(--color-border), 0 8px 24px rgb(0 0 0 / 0.15);
+	}
+	.services-map :global(.leaflet-popup-content a) {
+		color: var(--color-primary);
+		text-decoration: underline;
+	}
+	.services-map :global(.leaflet-bar a) {
+		background: var(--color-bg);
+		color: var(--color-primary);
+		border-color: var(--color-border);
 	}
 </style>
