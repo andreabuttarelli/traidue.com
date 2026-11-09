@@ -19,6 +19,7 @@
 		"@types/leaflet": "^1.9.12",
 		"@types/leaflet.markercluster": "^1.5.4",
 		"@types/sanitize-html": "^2.16.0",
+		"@types/three": "^0.170.0",
 		"mdsvex": "^0.12.6",
 		"svelte": "^5.43.8",
 		"svelte-check": "^4.3.4",
@@ -37,6 +38,7 @@
 		"marked": "^17.0.3",
 		"sanitize-html": "^2.17.1",
 		"satori": "^0.19.2",
-		"sharp": "^0.34.5"
+		"sharp": "^0.34.5",
+		"three": "^0.170.0"
 	}
 }

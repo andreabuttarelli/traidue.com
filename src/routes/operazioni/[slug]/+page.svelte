@@ -5,7 +5,7 @@
 	import { SITE } from '$lib/site';
 	import * as m from '$lib/paraglide/messages';
 	import { localizeHref } from '$lib/paraglide/runtime';
-	import VaginoplastyDiagram from '$lib/components/procedures/VaginoplastyDiagram.svelte';
+	import Vaginoplasty3D from '$lib/components/procedures/Vaginoplasty3D.svelte';
 
 	let { data } = $props();
 	const p = $derived(data.procedure);
@@ -42,7 +42,7 @@
 
 		{#if p.slug === 'vaginoplastica'}
 			<!-- wider than the text column on desktop: the diagram has a step list beside it -->
-			<div class="mb-10 xl:w-[64rem] xl:max-w-[calc(100vw-6rem)]"><VaginoplastyDiagram /></div>
+			<div class="mb-10 xl:w-[64rem] xl:max-w-[calc(100vw-6rem)]"><Vaginoplasty3D /></div>
 		{/if}
 
 		{#if p.techniques?.length}
