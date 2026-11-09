@@ -24,8 +24,7 @@
 	const navLinks = $derived([
 		{ href: localizeHref('/wiki'), label: m.nav_wiki() },
 		{ href: localizeHref('/quiz'), label: m.nav_quiz() },
-		...(getServices(getLocale()) ? [{ href: localizeHref('/servizi'), label: m.nav_services() }] : []),
-		{ href: localizeHref('/chi-siamo'), label: m.nav_about() }
+		...(getServices(getLocale()) ? [{ href: localizeHref('/servizi'), label: m.nav_services() }] : [])
 	]);
 
 	function isActive(href: string): boolean {
