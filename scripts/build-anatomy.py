@@ -91,8 +91,12 @@ del meshes['body_full']
 def in_genitals(t):
     c = [sum(bv[i][k] for i in t) / 3 for k in range(3)]
     return abs(c[0]) < 48 and c[1] < -112 and 655 < c[2] < 770
+# like an anatomical pelvis model, the legs are cut just under the perineum: from the side the outline then
+# ends at the perineum (and later at the vulva) instead of the thighs, which would hide them
+leg_cut = min(p[2] for p in meshes['anal_sphincter'][0]) - 25
+below = lambda t: sum(bv[i][2] for i in t) / 3 < leg_cut
 genital = [t for t in bt if in_genitals(t)]
-rest = [t for t in bt if not in_genitals(t)]
+rest = [t for t in bt if not in_genitals(t) and not below(t)]
 edges = collections.Counter()
 for a_, b_, c_ in rest:
     for e in ((a_, b_), (b_, c_), (c_, a_)): edges[tuple(sorted(e))] += 1
