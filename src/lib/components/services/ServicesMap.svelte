@@ -283,6 +283,8 @@
 		</div>
 	</div>
 {:else}
+	<!-- `relative` on the map is required: otherwise Leaflet, started on a narrow screen, inlines
+	     position:relative and that beats xl:absolute after a resize (map collapses to 0×0). -->
 	<!-- Full-bleed hero (desktop): the map fills the section, the text floats over a fade on the left.
 	     Mobile keeps the map in a box under the text so it doesn't trap page scrolling. -->
 	<div class="relative flex flex-col xl:flex-row xl:items-center xl:min-h-[calc(100svh-3.5rem)]">
@@ -297,7 +299,7 @@
 		<div aria-hidden="true" class="hidden xl:block absolute inset-y-0 left-0 w-[52rem] max-w-[70%] z-[1] pointer-events-none bg-gradient-to-r from-bg via-bg/90 to-transparent"></div>
 		<div
 			bind:this={mapEl}
-			class="services-map mt-6 mx-4 sm:mx-6 lg:mx-12 h-[360px] sm:h-[440px] rounded-2xl border border-border overflow-hidden z-0 xl:m-0 xl:absolute xl:inset-0 xl:h-auto xl:rounded-none xl:border-0"
+			class="services-map relative mt-6 mx-4 sm:mx-6 lg:mx-12 h-[360px] sm:h-[440px] rounded-2xl border border-border overflow-hidden z-0 xl:m-0 xl:absolute xl:inset-0 xl:h-auto xl:rounded-none xl:border-0"
 			role="region"
 			aria-label={m.services_map_label()}
 		></div>
