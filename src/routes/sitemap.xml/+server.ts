@@ -2,7 +2,7 @@ import { getAllArticles, getTranslations } from '$lib/utils/wiki';
 import { getAllQuizzes } from '$lib/utils/quiz';
 import { SITE } from '$lib/site';
 
-export const prerender = false;
+export const prerender = true;
 
 const langs = ['it', 'en', 'es', 'pt'] as const;
 const BASE = SITE.url;

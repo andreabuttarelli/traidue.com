@@ -121,6 +121,10 @@
 	{alternateUrls}
 />
 
+<svelte:head>
+	<link rel="alternate" type="text/markdown" href={`${SITE.url}${localizeHref('/wiki/' + data.metadata.slug)}/raw`} />
+</svelte:head>
+
 <StructuredData schema={articleSchema} />
 
 <StructuredData schema={{

@@ -126,7 +126,7 @@ const config = {
 			// Needed so that the absolute hreflang URLs emitted by SEO.svelte are
 			// treated as internal links and crawled. Must match SITE.url, which is
 			// derived from the same env var (PUBLIC_SITE_URL) at build time.
-			origin: (process.env.PUBLIC_SITE_URL || 'https://www.traidue.com').replace(/\/+$/, ''),
+			origin: (process.env.PUBLIC_SITE_URL || 'https://www.transwiki.co').replace(/\/+$/, ''),
 			// Fail the build on broken internal links/pages so regressions like
 			// untranslated slugs or dead wiki links can't slip through silently.
 			handleHttpError: 'fail'
