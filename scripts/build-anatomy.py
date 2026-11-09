@@ -86,33 +86,32 @@ def cluster(verts, tris, cell):
 bv, bt = cluster(sv, meshes['body_full'][1], 18)
 del meshes['body_full']
 
-# Split the external male genitals off the silhouette, and build the female profile that replaces them:
-# the hole left in the body is closed by a smooth fan towards its centre, set back to the perineum.
+# Split the external male genitals off the silhouette. The legs are cut like an anatomical pelvis model: just
+# under the perineum, and in front of it along the underside of the vulva that replaces the genitals (from the
+# opening on the perineum to the commissure under the pubis, as in build-female-anatomy.py). From step 7 the
+# outline of the body then ends on the vulva; before that, the part between the two cuts stays with the genitals.
 def in_genitals(t):
     c = [sum(bv[i][k] for i in t) / 3 for k in range(3)]
     return abs(c[0]) < 48 and c[1] < -112 and 655 < c[2] < 770
-# like an anatomical pelvis model, the legs are cut just under the perineum: from the side the outline then
-# ends at the perineum (and later at the vulva) instead of the thighs, which would hide them
-leg_cut = min(p[2] for p in meshes['anal_sphincter'][0]) - 25
-below = lambda t: sum(bv[i][2] for i in t) / 3 < leg_cut
-genital = [t for t in bt if in_genitals(t)]
-rest = [t for t in bt if not in_genitals(t) and not below(t)]
-edges = collections.Counter()
-for a_, b_, c_ in rest:
-    for e in ((a_, b_), (b_, c_), (c_, a_)): edges[tuple(sorted(e))] += 1
-gv = {i for t in genital for i in t}
-border = [e for e, n in edges.items() if n == 1 and e[0] in gv and e[1] in gv]
-ring = sorted({i for e in border for i in e})
-if ring:
-    cx = sum(bv[i][0] for i in ring) / len(ring); cy = sum(bv[i][1] for i in ring) / len(ring); cz = sum(bv[i][2] for i in ring) / len(ring)
-    centre = len(bv); bv.append((cx, cy + 18, cz))  # set back towards the body: no protrusion
-    vulva = [(a_, b_, centre) for a_, b_ in border]
-else:
-    vulva = []
+sph = meshes['anal_sphincter'][0]
+leg_cut = min(p[2] for p in sph) - 25
+y_open = (min(p[1] for p in sph) + max(p[1] for p in sph)) / 2 - 30  # vaginal opening, 3 cm in front of the anus
+z_open = max(p[2] for p in sv if abs(p[0]) < 4 and abs(p[1] - y_open) < 4 and p[2] < min(q[2] for q in meshes['prostate'][0]))
+pubis = min((p for n in ('hip_left', 'hip_right') for p in meshes[n][0] if abs(p[0]) < 10), key=lambda p: p[2])
+y_com, z_com = pubis[1] - 13, pubis[2] - 13  # front commissure, just under the symphysis
+def cut(y):  # height of the female outline at y (3 mm under the vulva, so it stays outside)
+    if y >= y_open: return leg_cut
+    return max(leg_cut, z_open - 3 + (y - y_open) * (z_com - z_open) / (y_com - y_open))
+genital, rest = [], []
+for t in bt:
+    c = [sum(bv[i][k] for i in t) / 3 for k in range(3)]
+    if c[2] < leg_cut and not in_genitals(t): continue
+    # by corner, not centre: the 18 mm triangles would otherwise leave teeth hanging under the vulva
+    hangs = any(bv[i][2] < cut(bv[i][1]) - 4 for i in t)
+    (genital if in_genitals(t) or hangs else rest).append(t)
 meshes['body'] = (bv, rest)
 meshes['body_genital'] = (bv, genital)
-meshes['body_vulva'] = (bv, vulva)
-print('silhouette genital tris', len(genital), 'border edges', len(border))
+print('silhouette genital tris', len(genital), 'opening', round(y_open), round(z_open), 'commissure', round(y_com), round(z_com))
 
 def compact(verts, tris):
     used = sorted({i for t in tris for i in t}); remap = {o: n for n, o in enumerate(used)}
