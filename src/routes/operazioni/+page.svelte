@@ -14,6 +14,7 @@
 		{ key: 'mascolinizzante', label: m.procedures_cat_masc },
 		{ key: 'altro', label: m.procedures_cat_other }
 	];
+	const dot: Record<Procedure['category'], string> = { femminilizzante: 'bg-brand-pink', mascolinizzante: 'bg-brand-blue', altro: 'bg-border' };
 	const nameOf = (slug: string) => data.procedures.find((p) => p.slug === slug)?.name ?? slug;
 </script>
 
@@ -39,12 +40,12 @@
 		{@const items = data.procedures.filter((p) => p.category === g.key)}
 		{#if items.length}
 			<section class="mb-12">
-				<h2 class="text-lg sm:text-xl font-heading font-semibold text-primary mb-4">{g.label()}</h2>
+				<h2 class="flex items-center gap-2 text-lg sm:text-xl font-heading font-semibold text-primary mb-4"><span class="inline-block size-2.5 rounded-full {dot[g.key]}" aria-hidden="true"></span>{g.label()}</h2>
 				<ul class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3 sm:gap-4">
 					{#each items as p}
 						<li>
-							<a href={localizeHref(`/operazioni/${p.slug}`)} class="block h-full rounded-2xl border border-border p-5 hover:border-primary transition">
-								<p class="text-xs text-muted mb-1 capitalize">{p.area}</p>
+							<a href={localizeHref(`/operazioni/${p.slug}`)} class="block h-full rounded-2xl border border-border p-5 hover:border-brand-blue transition">
+								<p class="flex items-center gap-1.5 text-xs text-muted mb-1 capitalize"><span class="inline-block size-1.5 rounded-full {dot[p.category]}" aria-hidden="true"></span>{p.area}</p>
 								<p class="text-base font-semibold text-primary mb-1.5">{p.name}</p>
 								<p class="text-sm text-muted leading-relaxed line-clamp-3">{p.summary}</p>
 							</a>

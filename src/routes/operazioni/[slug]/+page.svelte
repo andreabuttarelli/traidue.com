@@ -34,7 +34,7 @@
 	<Breadcrumb items={[{ label: m.common_home(), href: '/' }, { label: m.nav_procedures(), href: '/operazioni' }, { label: p.name }]} />
 
 	<article class="max-w-3xl">
-		<p class="text-sm text-muted mb-2">{categoryLabel} · <span class="capitalize">{p.area}</span></p>
+		<p class="flex items-center gap-1.5 text-sm text-muted mb-2"><span class="inline-block size-2 rounded-full {p.category === 'femminilizzante' ? 'bg-brand-pink' : p.category === 'mascolinizzante' ? 'bg-brand-blue' : 'bg-border'}" aria-hidden="true"></span>{categoryLabel} · <span class="capitalize">{p.area}</span></p>
 		<h1 class="text-2xl sm:text-3xl lg:text-4xl font-heading font-semibold tracking-tight text-primary mb-2">{p.name}</h1>
 		{#if p.aka?.length}<p class="text-sm text-muted mb-4">{m.procedures_aka()}: {p.aka.join(', ')}</p>{/if}
 		<p class="text-base sm:text-lg text-muted-text leading-relaxed mb-10">{p.summary}</p>
@@ -81,7 +81,7 @@
 				<h2 class="text-lg font-semibold text-primary mb-3">{m.procedures_evidence()}</h2>
 				<ul class="space-y-3">
 					{#each p.evidence as e}
-						<li class="text-sm text-muted-text leading-relaxed border-l-2 border-border pl-4">
+						<li class="text-sm text-muted-text leading-relaxed border-l-2 border-brand-blue pl-4">
 							{e.claim}
 							<a href={e.url} target="_blank" rel="noopener" class="ml-1 text-xs text-muted hover:text-primary underline whitespace-nowrap">PubMed{e.year ? `, ${e.year}` : ''}</a>
 						</li>
