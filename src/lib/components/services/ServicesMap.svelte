@@ -5,7 +5,10 @@
 	import type { Map as LeafletMap, MarkerClusterGroup, CircleMarker, LatLngExpression, LatLngBoundsLiteral } from 'leaflet';
 	import type { ServicesCountry, ServiceType } from '$lib/data/services';
 	import * as m from '$lib/paraglide/messages';
-	import { localizeHref } from '$lib/paraglide/runtime';
+	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
+	import { page } from '$app/state';
+	import { getProcedures, surgeons } from '$lib/data/procedures';
+	import type { WikiArticle } from '$lib/utils/wiki';
 
 	// list=false: compact hero (map + filters), the full list lives on /servizi.
 	let { data, list = true }: { data: ServicesCountry; list?: boolean } = $props();
@@ -34,6 +37,23 @@
 				(!activeType || s.type === activeType) &&
 				(!q || normalize(`${s.name} ${s.city} ${s.region} ${s.description}`).includes(q))
 		);
+	});
+
+	// Hero only: the field also searches procedures, surgeons and wiki articles (layout data).
+	const procedures = getProcedures(getLocale()) ?? [];
+	let resultsOpen = $state(false);
+	const results = $derived.by(() => {
+		const q = normalize(query.trim());
+		if (list || q.length < 2) return null;
+		const has = (...fields: (string | null | undefined)[]) => normalize(fields.filter(Boolean).join(' ')).includes(q);
+		const articles = (page.data.allArticles ?? []) as WikiArticle[];
+		const groups = [
+			{ label: m.search_group_services(), items: filtered.slice(0, 4).map((s) => ({ href: detailHref(s.id), title: s.name, meta: s.city ?? m.services_national() })) },
+			{ label: m.nav_procedures(), items: procedures.filter((p) => has(p.name, ...(p.aka ?? []), p.summary)).slice(0, 4).map((p) => ({ href: localizeHref(`/operazioni/${p.slug}`), title: p.name, meta: p.area })) },
+			{ label: m.procedures_surgeons(), items: surgeons.filter((s) => has(s.name, s.city, s.institution)).slice(0, 3).map((s) => ({ href: `${localizeHref('/operazioni')}#chirurghi`, title: s.name, meta: s.city })) },
+			{ label: m.search_group_articles(), items: articles.filter((a) => has(a.title, a.description, ...(a.tags ?? []))).slice(0, 4).map((a) => ({ href: localizeHref(`/wiki/${a.slug}`), title: a.title, meta: a.category })) }
+		].filter((g) => g.items.length);
+		return groups;
 	});
 
 	let mapEl: HTMLDivElement;
@@ -197,15 +217,36 @@
 	</h1>
 	<p class="text-sm text-muted leading-relaxed mb-5 max-w-xl">{m.services_desc()}</p>
 
-	<label class="sr-only" for="services-search">{m.services_search_placeholder()}</label>
-	<input
-		id="services-search"
-		type="search"
-		bind:value={query}
-		placeholder={m.services_search_placeholder()}
-		autocomplete="off"
-		class="w-full rounded-full border border-border bg-surface px-5 py-2.5 text-sm text-primary placeholder:text-muted focus:outline-none focus:border-primary transition"
-	/>
+	<div class="relative">
+		<label class="sr-only" for="services-search">{list ? m.services_search_placeholder() : m.search_all_placeholder()}</label>
+		<input
+			id="services-search"
+			type="search"
+			bind:value={query}
+			placeholder={list ? m.services_search_placeholder() : m.search_all_placeholder()}
+			autocomplete="off"
+			onfocus={() => (resultsOpen = true)}
+			onblur={() => setTimeout(() => (resultsOpen = false), 150)}
+			onkeydown={(e) => e.key === 'Escape' && (resultsOpen = false)}
+			oninput={() => (resultsOpen = true)}
+			class="w-full rounded-full border border-border bg-surface px-5 py-2.5 text-sm text-primary placeholder:text-muted focus:outline-none focus:border-primary transition"
+		/>
+		{#if results && resultsOpen}
+			<div class="absolute left-0 right-0 top-full mt-2 z-[600] rounded-2xl border border-border bg-bg shadow-lg max-h-[60vh] overflow-y-auto p-2" role="listbox">
+				{#each results as g}
+					<p class="px-3 pt-2 pb-1 text-[11px] uppercase tracking-wide text-muted">{g.label}</p>
+					{#each g.items as it}
+						<a href={it.href} class="flex items-baseline justify-between gap-3 rounded-xl px-3 py-2 hover:bg-surface" role="option" aria-selected="false">
+							<span class="text-sm text-primary truncate">{it.title}</span>
+							<span class="text-xs text-muted shrink-0 capitalize">{it.meta}</span>
+						</a>
+					{/each}
+				{:else}
+					<p class="px-3 py-3 text-sm text-muted">{m.search_no_results()}</p>
+				{/each}
+			</div>
+		{/if}
+	</div>
 
 	<div class="flex flex-wrap gap-2 mt-3" role="group" aria-label={m.services_filter_label()}>
 		<button

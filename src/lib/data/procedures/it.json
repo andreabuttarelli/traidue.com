@@ -1,0 +1,1749 @@
+[
+  {
+    "slug": "vaginoplastica",
+    "name": "Vaginoplastica",
+    "aka": [
+      "Vaginoplastica con lembo peno-scrotale",
+      "Vaginoplastica con inversione peniena",
+      "Colonvaginoplastica"
+    ],
+    "category": "femminilizzante",
+    "area": "genitale",
+    "summary": "Intervento che rimuove testicoli e corpi del pene e crea una neovagina e una vulva (clitoride, labbra, nuovo sbocco dell'uretra), usando principalmente la cute del pene e dello scroto.",
+    "techniques": [
+      {
+        "name": "Lembo peno-scrotale (inversione peniena)",
+        "description": "La cute del pene e dello scroto riveste la cavità creata tra retto e vescica; una parte del glande diventa il clitoride. È la tecnica di prima scelta a livello internazionale; richiede una depilazione definitiva preventiva delle zone di cute che finiranno nel canale."
+      },
+      {
+        "name": "Colonvaginoplastica (vaginoplastica intestinale)",
+        "description": "Un segmento di intestino viene usato per costruire il canale. Le fonti ISS la riservano ai casi in cui la cute disponibile non basta o a un secondo intervento dopo accorciamento della neovagina, perché comporta rischi maggiori (chirurgia addominale, ricovero più lungo)."
+      },
+      {
+        "name": "Vulvoplastica senza canale (zero-depth)",
+        "description": "Variante che crea solo i genitali esterni senza neovagina: non richiede dilatazioni ma non consente rapporti penetrativi vaginali. Vedi la voce dedicata."
+      },
+      {
+        "name": "Tecnica combinata (in due tempi)",
+        "description": "Variante descritta da un gruppo tedesco su 40 pazienti operate in due fasi; in 23 pazienti visitate la profondità misurata era tra 11,77 e 14,99 cm, a seconda del dilatatore usato, e le complicanze sono state per lo più minori e temporanee. Gli autori stessi chiedono conferme da altri centri."
+      },
+      {
+        "name": "Vaginoplastica peritoneale (lembo peritoneale peduncolato)",
+        "description": "Il canale viene rivestito con il peritoneo, la membrana che riveste l'addome, prelevato per via laparoscopica. In ambito trans è usata soprattutto quando la pelle genitale non basta o dopo un'inversione peniena non riuscita; il lavoro citato è un singolo caso clinico e non permette stime di efficacia."
+      }
+    ],
+    "eligibility": "Requisiti clinici (WPATH SOC8, ripresi dalle schede ISS): incongruenza di genere marcata e stabile, capacità di dare il consenso informato, informazione sugli effetti sulla fertilità e sulle possibilità di preservarla, valutazione delle condizioni di salute fisica e mentale che potrebbero influire sull'esito; se si assumono ormoni, una terapia stabile che può includere almeno 6 mesi (o più se serve al risultato chirurgico), salvo che non sia desiderata o sia controindicata. Requisiti legali: la legge 164/1982 (oggi art. 31 del d.lgs. 150/2011) prevede l'autorizzazione del tribunale al trattamento chirurgico. Dal 2015 (Cassazione 15138/2015 e Corte costituzionale 221/2015, poi 180/2017) l'intervento non è più condizione necessaria per la rettifica anagrafica. Con la sentenza 143/2024 la Corte costituzionale ha eliminato l'obbligo di autorizzazione quando il tribunale ritiene già sufficienti le modifiche avvenute: chi ha ottenuto la sentenza di rettifica di nome e genere può accedere all'intervento senza un'ulteriore autorizzazione; in assenza di rettifica serve una sentenza del tribunale di residenza che autorizzi l'intervento. Le schede ISS indicano inoltre la maggiore età oppure, per i minori, il consenso di entrambi i genitori o di chi ne fa le veci. La scheda ISS prevede inoltre la sospensione degli estrogeni da circa un mese prima a 15 giorni dopo l'intervento e una valutazione per la depilazione definitiva delle aree indicate dal chirurgo.",
+    "hospitalStay": "5–8 giorni (lembo peno-scrotale); 7–14 giorni (colonvaginoplastica).",
+    "recovery": "Alcuni giorni a letto, poi rimozione di zaffo, catetere e bendaggio. Le dilatazioni con tutori iniziano in ospedale: due volte al giorno nei primi mesi e poi per tutta la vita secondo le indicazioni del chirurgo. I rapporti sessuali possono essere ripresi dopo circa 2 mesi (2–3 mesi dopo colonvaginoplastica).",
+    "risks": [
+      "Stenosi o restringimenti (introito, uretra o canale): circa 11% nelle casistiche aggregate (meta-analisi Bustos 2021, 57 studi, 4.680 casi)",
+      "Fistole (retto-vaginali o vescico/uretro-vaginali): circa 1%",
+      "Necrosi parziale dei tessuti: circa 4%; prolasso della neovagina: circa 3%",
+      "Lesioni intraoperatorie di retto o vescica, emorragia, infezioni, compressione nervosa da posizionamento",
+      "Disfunzioni del pavimento pelvico: incontinenza urinaria fino al 15% e prolasso 1–7,5% nelle casistiche analizzate (studi eterogenei)",
+      "Possibile necessità di ulteriori interventi (es. revisione estetica o ampliamento del canale)",
+      "Colonvaginoplastica: rischi aggiuntivi legati all'intestino (peritonite, problemi di transito); la scheda ISS riporta in letteratura una mortalità fino al 3–4%, dato da considerare con cautela"
+    ],
+    "costs": {
+      "ssn": "A carico del SSN (nessun costo per l'intervento) nei centri pubblici. Attese dichiarate all'ISS per il biennio 2021/2022: Torino 22–24 mesi, Careggi 18–24 mesi, Pisa circa 2 anni, Bari e Palermo circa 1 anno; a Foggia è indicato il pagamento del ticket, con attesa di 6–8 mesi. I volumi dichiarati sono bassi (es. Pisa 50, Torino 20, Careggi 16, Bari 5 interventi nel biennio).",
+      "private": null
+    },
+    "providers": [
+      "AOU Città della Salute e della Scienza di Torino (CIDIGEM, Ospedale Molinette)",
+      "AOU Careggi, Firenze",
+      "AOU Pisana (Ospedale di Cisanello), Pisa",
+      "AOU Policlinico di Bari",
+      "AOU Policlinico Riuniti di Foggia",
+      "AOU Policlinico Paolo Giaccone, Palermo",
+      "AO San Camillo-Forlanini, Roma (secondo SICPRE)",
+      "ASU Giuliano Isontina, Ospedale di Cattinara, Trieste – Urologia (secondo SICPRE)"
+    ],
+    "sources": [
+      {
+        "title": "Infotrans (ISS) – Vaginoplastica con lembo peno-scrotale",
+        "url": "https://www.infotrans.it/it-schede-20-chirurgia_vaginoplastica_lembo_peno_scrotale_transgender",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS) – Colonvaginoplastica",
+        "url": "https://www.infotrans.it/it-schede-21-chirurgia_colonvaginoplastica_transgender",
+        "year": null
+      },
+      {
+        "title": "WPATH, Standards of Care for the Health of Transgender and Gender Diverse People, Version 8 (Int J Transgend Health)",
+        "url": "https://doi.org/10.1080/26895269.2022.2100644",
+        "year": 2022
+      },
+      {
+        "title": "Legge 14 aprile 1982, n. 164 – Norme in materia di rettificazione di attribuzione di sesso (Normattiva)",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1982-04-14;164",
+        "year": 1982
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 221/2015",
+        "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2015/221",
+        "year": 2015
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 180/2017",
+        "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2017/180",
+        "year": 2017
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 143/2024 (Gazzetta Ufficiale, 1ª Serie speciale n. 30 del 24-7-2024)",
+        "url": "https://www.gazzettaufficiale.it/eli/id/2024/07/24/T-240143/s1",
+        "year": 2024
+      },
+      {
+        "title": "Infotrans (ISS) – Tutela dell'identità di genere: rassegna legislativa (cita Cass. 15138/2015, C. cost. 221/2015 e 143/2024)",
+        "url": "https://www.infotrans.it/it-schede-25-transgender_rassegna_legislativa",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS) – Il procedimento di rettifica del genere in Italia",
+        "url": "https://www.infotrans.it/it-schede-39-rettifica_genere_italia",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS) – Il percorso di affermazione di genere in pillole (trattamento chirurgico e sentenza 143/2024)",
+        "url": "https://www.infotrans.it/it-schede-7-percorso_affermazione_genere_transgender",
+        "year": null
+      },
+      {
+        "title": "Bustos SS et al. Complications and Patient-reported Outcomes in Transfemale Vaginoplasty: An Updated Systematic Review and Meta-analysis. Plast Reconstr Surg Glob Open (PMID 33767943)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33767943/",
+        "year": 2021
+      },
+      {
+        "title": "Dominoni M et al. Pelvic floor and sexual dysfunctions after genital gender-affirming surgery: a systematic review and meta-analysis. J Sex Med (PMID 39545366)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39545366/",
+        "year": 2025
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – CIDIGEM, AOU Città della Salute e della Scienza di Torino",
+        "url": "https://www.infotrans.it/it-sedi-78-centro_interdipartimentale_disforia_di_genere_molinette_cidigem_aou_citta_della_salute_e_della_scienza_di_torino",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – SOD Andrologia, Endocrinologia femminile e Incongruenza di genere, AOU Careggi",
+        "url": "https://www.infotrans.it/it-sedi-73-sod_andrologia_endocrinologia_femminile_incongruenza_di_genere_aou_careggi",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – AOU Pisana (Cisanello)",
+        "url": "https://www.infotrans.it/it-sedi-119-azienda_ospedaliero_universitaria_pisana_cisanello",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Centro regionale di riferimento per la disforia di genere, AOU Policlinico di Bari",
+        "url": "https://www.infotrans.it/it-sedi-87-centro_regionale_di_riferimento_per_la_disforia_di_genere_aou_policlinico_bari",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Ambulatorio disforia di genere, Ospedali Riuniti di Foggia",
+        "url": "https://www.infotrans.it/it-sedi-102-ambulatorio_disforia_di_genere_psichiatria_ospedali_riuniti_foggia",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – AOU Policlinico Paolo Giaccone, Palermo",
+        "url": "https://www.infotrans.it/it-sedi-88-aou_policlinico_paolo_giaccone",
+        "year": null
+      },
+      {
+        "title": "SICPRE – Disforia di genere, i centri italiani (pubblicato 2018, aggiornato 23/12/2024)",
+        "url": "https://www.sicpre.it/disforia-di-genere-i-centri-italiani/",
+        "year": 2024
+      },
+      {
+        "title": "Complications of the neovagina in male-to-female transgender surgery: A systematic review and meta-analysis with discussion of management",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29057562/",
+        "year": 2018
+      },
+      {
+        "title": "Surgical Outcome after Penile Inversion Vaginoplasty: A Retrospective Study of 475 Transgender Women",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27782992/",
+        "year": 2016
+      },
+      {
+        "title": "Postoperative complications of male to female sex reassignment surgery: A 10-year French retrospective study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30269882/",
+        "year": 2019
+      },
+      {
+        "title": "Outcome of Vaginoplasty in Male-to-Female Transgenders: A Systematic Review of Surgical Techniques",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25817066/",
+        "year": 2015
+      },
+      {
+        "title": "Combined vaginoplasty technique for male-to-female sex reassignment surgery: Operative approach and outcomes",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28641936/",
+        "year": 2017
+      },
+      {
+        "title": "Clinical Characteristics and Management of Neovaginal Fistulas After Vaginoplasty in Transgender Women",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27159746/",
+        "year": 2016
+      },
+      {
+        "title": "Urethral complications after gender reassignment surgery: a systematic review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32488213/",
+        "year": 2020
+      },
+      {
+        "title": "Gender-Affirming Penile Inversion Vaginoplasty",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29908622/",
+        "year": 2018
+      },
+      {
+        "title": "Outcomes and Predictors of Revision Labiaplasty and Clitoroplasty after Gender-Affirming Genital Surgery",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31764668/",
+        "year": 2019
+      },
+      {
+        "title": "No Venous Thromboembolism Increase Among Transgender Female Patients Remaining on Estrogen for Gender-Affirming Surgery",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33417686/",
+        "year": 2021
+      },
+      {
+        "title": "Association of Surgical Risk With Exogenous Hormone Use in Transgender Patients: A Systematic Review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30516808/",
+        "year": 2019
+      },
+      {
+        "title": "Pedicled Peritoneal Flap Vaginoplasty in Male-to-Female Gender Affirmation Surgery: A Case Report",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32604197/",
+        "year": 2020
+      },
+      {
+        "title": "Regret after Gender-affirmation Surgery: A Systematic Review and Meta-analysis of Prevalence",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33968550/",
+        "year": 2021
+      },
+      {
+        "title": "Factors associated with satisfaction or regret following male-to-female sex reassignment surgery",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12856892/",
+        "year": 2003
+      }
+    ],
+    "evidence": [
+      {
+        "claim": "In una revisione sistematica con meta-analisi di 13 studi (1.684 pazienti), il tasso complessivo di complicanze della neovagina è stato del 32,5% e quello di reintervento per motivi non estetici del 21,7%; la complicanza più frequente è stata la stenosi del neo-meato (14,4%). Gli autori sottolineano che tecniche e criteri di registrazione delle complicanze variano molto tra gli studi.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29057562/",
+        "year": 2018
+      },
+      {
+        "claim": "In uno studio retrospettivo olandese su 475 donne trans operate con inversione peniena (follow-up mediano 7,8 anni), la lesione rettale intraoperatoria si è verificata nel 2,3% dei casi, la fistola retto-neovaginale nello 0,6% (tutte trattate con successo) e una vaginoplastica di revisione è stata eseguita nel 2,9%. Il sanguinamento post-operatorio ha richiesto una trasfusione nel 4,8% dei casi.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27782992/",
+        "year": 2016
+      },
+      {
+        "claim": "Nello stesso studio su 475 pazienti, il diabete è risultato associato a un rischio più alto di infezione locale e l'uso di farmaci psicotropi a un rischio più alto di ritenzione urinaria dopo l'intervento.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27782992/",
+        "year": 2016
+      },
+      {
+        "claim": "In una casistica francese di 189 pazienti operate con inversione peniena in 10 anni, il 21% ha sviluppato nel tempo una neovagina di profondità ridotta, trattata con dilatazione aggiuntiva con successo nel 95,5% dei casi; il 18% ha avuto un ematoma, il 27% complicanze infettive precoci e il 6,3% ha avuto bisogno di una seconda vaginoplastica. La meatoplastica funzionale secondaria è stata necessaria nell'1% dei casi.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30269882/",
+        "year": 2019
+      },
+      {
+        "claim": "Una revisione sistematica di 26 studi (1.461 pazienti con inversione peniena, 102 con vaginoplastica intestinale) ha indicato la stenosi neovaginale come complicanza più frequente in entrambe le tecniche; la soddisfazione e la funzione sessuale sono risultate nel complesso accettabili, ma la qualità degli studi era da bassa a intermedia.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25817066/",
+        "year": 2015
+      },
+      {
+        "claim": "In una casistica di 1.082 donne trans operate in un centro olandese tra il 1990 e il 2015, il 2,3% è stato trattato per una fistola neovaginale (13 retto-neovaginali, 11 uretro-neovaginali, 1 di altro tipo). Il rischio di fistola retto-neovaginale era più alto dopo una vaginoplastica di revisione (6,3%) rispetto a quella primaria (0,8%), e nella maggior parte dei casi la riparazione chirurgica locale è bastata.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27159746/",
+        "year": 2016
+      },
+      {
+        "claim": "Una revisione sistematica sulle complicanze uretrali dopo chirurgia di affermazione di genere (32 studi, 3.463 pazienti) riporta per gli interventi femminilizzanti una stenosi del meato uretrale con frequenze tra il 4% e il 40% a seconda dello studio, di solito corretta con una meatotomia.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32488213/",
+        "year": 2020
+      },
+      {
+        "claim": "In una casistica statunitense di 117 vaginoplastiche con inversione peniena, il 23,9% delle pazienti ha poi avuto una revisione di labioplastica e/o clitoridoplastica (7,7% entrambe). Tra chi ha avuto la revisione, l'82,4% si è detta soddisfatta del risultato finale e il 76,5% ha riferito la risoluzione della disforia legata ai genitali.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31764668/",
+        "year": 2019
+      },
+      {
+        "claim": "In uno studio monocentrico su 407 vaginoplastiche primarie, 212 interventi sono stati eseguiti senza sospendere gli estrogeni e 190 con estrogeni sospesi una settimana prima: l'unico caso di tromboembolismo venoso si è verificato nel gruppo che aveva sospeso gli estrogeni, nessuno in quello che li aveva continuati.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33417686/",
+        "year": 2021
+      },
+      {
+        "claim": "Una revisione sistematica sugli ormoni e il rischio chirurgico (18 articoli) conclude che i dati che collegano estrogeni e trombosi nel periodo perioperatorio sono incoerenti e si basano soprattutto su estrogeni orali poco usati nelle terapie di affermazione di genere; secondo gli autori le prove attuali non giustificano la sospensione sistematica degli ormoni prima dell'intervento.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30516808/",
+        "year": 2019
+      },
+      {
+        "claim": "Una meta-analisi di 27 studi (7.928 persone sottoposte a qualunque chirurgia di affermazione di genere) ha stimato una prevalenza di rimpianto di circa l'1% complessivamente e dell'1% per gli interventi femminilizzanti; gli autori segnalano però che il rimpianto è misurato in modo eterogeneo e senza questionari standardizzati.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33968550/",
+        "year": 2021
+      },
+      {
+        "claim": "In un questionario a 232 donne trans operate dallo stesso chirurgo tra il 1994 e il 2000, nessuna ha riferito un rimpianto netto e solo poche un rimpianto occasionale; l'insoddisfazione era legata soprattutto a risultati fisici e funzionali non soddisfacenti, più che a fattori precedenti all'intervento.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12856892/",
+        "year": 2003
+      }
+    ]
+  },
+  {
+    "slug": "vulvoplastica",
+    "name": "Vulvoplastica (zero-depth)",
+    "aka": [
+      "Vaginoplastica senza canale",
+      "Zero-depth vaginoplasty",
+      "Vulvoplastica"
+    ],
+    "category": "femminilizzante",
+    "area": "genitale",
+    "summary": "Creazione dei genitali esterni femminili (vulva, clitoride, labbra, sbocco uretrale) senza costruire un canale vaginale.",
+    "techniques": [
+      {
+        "name": "Vulvoplastica senza canale",
+        "description": "Si eseguono orchiectomia, rimozione dei corpi del pene e ricostruzione vulvare, senza la dissezione tra retto e vescica. Evita le dilatazioni permanenti e alcuni rischi legati al canale, ma non permette rapporti penetrativi vaginali."
+      },
+      {
+        "name": "Vulvoplastica (a profondità zero)",
+        "description": "Crea l'aspetto esterno dei genitali femminili (vulva) senza costruire un canale vaginale. Può essere una scelta personale o una raccomandazione del chirurgo quando ci sono fattori di rischio per la creazione del canale."
+      }
+    ],
+    "eligibility": "Requisiti clinici (WPATH SOC8, ripresi dalle schede ISS): incongruenza di genere marcata e stabile, capacità di dare il consenso informato, informazione sugli effetti sulla fertilità e sulle possibilità di preservarla, valutazione delle condizioni di salute fisica e mentale che potrebbero influire sull'esito; se si assumono ormoni, una terapia stabile che può includere almeno 6 mesi (o più se serve al risultato chirurgico), salvo che non sia desiderata o sia controindicata. Requisiti legali: la legge 164/1982 (oggi art. 31 del d.lgs. 150/2011) prevede l'autorizzazione del tribunale al trattamento chirurgico. Dal 2015 (Cassazione 15138/2015 e Corte costituzionale 221/2015, poi 180/2017) l'intervento non è più condizione necessaria per la rettifica anagrafica. Con la sentenza 143/2024 la Corte costituzionale ha eliminato l'obbligo di autorizzazione quando il tribunale ritiene già sufficienti le modifiche avvenute: chi ha ottenuto la sentenza di rettifica di nome e genere può accedere all'intervento senza un'ulteriore autorizzazione; in assenza di rettifica serve una sentenza del tribunale di residenza che autorizzi l'intervento. Le schede ISS indicano inoltre la maggiore età oppure, per i minori, il consenso di entrambi i genitori o di chi ne fa le veci.",
+    "hospitalStay": null,
+    "recovery": "Nessuna dilatazione richiesta, perché non c'è canale. Le fonti consultate non riportano tempi di recupero specifici per l'Italia.",
+    "risks": [
+      "Rischi generali della chirurgia genitale (emorragia, infezione, problemi di cicatrizzazione, stenosi del meato uretrale); mancano dati aggregati specifici per questa variante"
+    ],
+    "costs": {
+      "ssn": "Non risulta censita come procedura distinta nella mappa dei servizi ISS: non è documentato quali centri pubblici la offrano né con quali attese.",
+      "private": null
+    },
+    "providers": [],
+    "sources": [
+      {
+        "title": "WPATH, Standards of Care for the Health of Transgender and Gender Diverse People, Version 8 (Int J Transgend Health)",
+        "url": "https://doi.org/10.1080/26895269.2022.2100644",
+        "year": 2022
+      },
+      {
+        "title": "Infotrans (ISS) – Vaginoplastica con lembo peno-scrotale",
+        "url": "https://www.infotrans.it/it-schede-20-chirurgia_vaginoplastica_lembo_peno_scrotale_transgender",
+        "year": null
+      },
+      {
+        "title": "Legge 14 aprile 1982, n. 164 – Norme in materia di rettificazione di attribuzione di sesso (Normattiva)",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1982-04-14;164",
+        "year": 1982
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 221/2015",
+        "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2015/221",
+        "year": 2015
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 180/2017",
+        "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2017/180",
+        "year": 2017
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 143/2024 (Gazzetta Ufficiale, 1ª Serie speciale n. 30 del 24-7-2024)",
+        "url": "https://www.gazzettaufficiale.it/eli/id/2024/07/24/T-240143/s1",
+        "year": 2024
+      },
+      {
+        "title": "Infotrans (ISS) – Tutela dell'identità di genere: rassegna legislativa (cita Cass. 15138/2015, C. cost. 221/2015 e 143/2024)",
+        "url": "https://www.infotrans.it/it-schede-25-transgender_rassegna_legislativa",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS) – Il procedimento di rettifica del genere in Italia",
+        "url": "https://www.infotrans.it/it-schede-39-rettifica_genere_italia",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS) – Il percorso di affermazione di genere in pillole (trattamento chirurgico e sentenza 143/2024)",
+        "url": "https://www.infotrans.it/it-schede-7-percorso_affermazione_genere_transgender",
+        "year": null
+      },
+      {
+        "title": "Does Depth Matter? Factors Affecting Choice of Vulvoplasty Over Vaginoplasty as Gender-Affirming Genital Surgery for Transgender Women",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29706578/",
+        "year": 2018
+      },
+      {
+        "title": "Recommending or Rejecting \"the Dimple\": WPATH-Affiliated Medical Professionals' Experiences and Attitudes Toward Gender-Confirming Vulvoplasty in Transgender Women",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30833148/",
+        "year": 2019
+      }
+    ],
+    "evidence": [
+      {
+        "claim": "In un centro statunitense, su 486 consulenze per chirurgia genitale femminilizzante, 396 persone hanno chiesto una vaginoplastica e 39 una vulvoplastica (senza canale vaginale); 30 l'hanno completata o programmata. Chi sceglieva la vulvoplastica era in media più anziana e con un indice di massa corporea più alto.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29706578/",
+        "year": 2018
+      },
+      {
+        "claim": "Nello stesso studio, il 63% di chi ha scelto la vulvoplastica lo ha fatto pur non avendo controindicazioni alla vaginoplastica; per le altre persone è stato il chirurgo a raccomandarla per la presenza di fattori di rischio.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29706578/",
+        "year": 2018
+      },
+      {
+        "claim": "Tra chi aveva completato la vulvoplastica, il 93% si è detto soddisfatto dell'intervento e della propria scelta. Gli autori avvertono che lo studio è retrospettivo, con domande non validate e un follow-up breve.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29706578/",
+        "year": 2018
+      },
+      {
+        "claim": "In un sondaggio tra professionisti affiliati alla WPATH (198 risposte su 956 invitati), il 41,7% dei chirurghi rispondenti aveva eseguito almeno una vulvoplastica e la richiesta della persona era il motivo più comune per consigliarla o eseguirla. Lo studio segnala anche la mancanza di terminologia e tecniche standardizzate.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30833148/",
+        "year": 2019
+      },
+      {
+        "claim": "Nello stesso sondaggio i chirurghi erano più netti degli altri professionisti, divisi tra favorevoli e contrari, sulla vulvoplastica in persone tra i 18 e i 21 anni, mentre la maggior parte degli altri professionisti (68,5%) si diceva incerta.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30833148/",
+        "year": 2019
+      }
+    ]
+  },
+  {
+    "slug": "orchiectomia",
+    "name": "Orchiectomia bilaterale",
+    "aka": [
+      "Gonadectomia",
+      "Asportazione dei testicoli"
+    ],
+    "category": "femminilizzante",
+    "area": "genitale",
+    "summary": "Asportazione di entrambi i testicoli, che arresta la produzione di androgeni e rende impossibile procreare con i propri gameti. Può essere un intervento a sé o la prima fase della vaginoplastica.",
+    "techniques": [
+      {
+        "name": "Orchiectomia per via scrotale",
+        "description": "Ciascun testicolo viene asportato insieme a epididimo e funicolo; il tessuto viene analizzato in laboratorio. Dura circa un'ora in anestesia generale o spinale."
+      }
+    ],
+    "eligibility": "Requisiti clinici (WPATH SOC8, ripresi dalle schede ISS): incongruenza di genere marcata e stabile, capacità di dare il consenso informato, informazione sugli effetti sulla fertilità e sulle possibilità di preservarla, valutazione delle condizioni di salute fisica e mentale che potrebbero influire sull'esito; se si assumono ormoni, una terapia stabile che può includere almeno 6 mesi (o più se serve al risultato chirurgico), salvo che non sia desiderata o sia controindicata. Requisiti legali: la legge 164/1982 (oggi art. 31 del d.lgs. 150/2011) prevede l'autorizzazione del tribunale al trattamento chirurgico. Dal 2015 (Cassazione 15138/2015 e Corte costituzionale 221/2015, poi 180/2017) l'intervento non è più condizione necessaria per la rettifica anagrafica. Con la sentenza 143/2024 la Corte costituzionale ha eliminato l'obbligo di autorizzazione quando il tribunale ritiene già sufficienti le modifiche avvenute: chi ha ottenuto la sentenza di rettifica di nome e genere può accedere all'intervento senza un'ulteriore autorizzazione; in assenza di rettifica serve una sentenza del tribunale di residenza che autorizzi l'intervento. Le schede ISS indicano inoltre la maggiore età oppure, per i minori, il consenso di entrambi i genitori o di chi ne fa le veci. La scheda ISS indica che non è necessario sospendere la terapia ormonale.",
+    "hospitalStay": "Day hospital o breve ricovero.",
+    "recovery": "Per 2–3 settimane si sconsigliano sollevamento di pesi, bagni caldi e sauna. Dopo l'intervento cambia la terapia ormonale necessaria, da concordare con l'endocrinologo.",
+    "risks": [
+      "Emorragia, infezione, reazioni all'anestesia",
+      "Perdita definitiva della fertilità (valutare prima la crioconservazione del seme)"
+    ],
+    "costs": {
+      "ssn": "Nessun costo nel SSN secondo la scheda ISS. Attese dichiarate 2021/2022: Napoli Federico II 6–9 mesi, Padova 4–6 mesi, Niguarda 6–12 mesi, Foggia 3–6 mesi (con ticket).",
+      "private": null
+    },
+    "providers": [
+      "AOU Federico II, Napoli",
+      "AOU Padova (Centro regionale per l'incongruenza di genere)",
+      "ASST Grande Ospedale Metropolitano Niguarda, Milano",
+      "AOU Policlinico Riuniti di Foggia"
+    ],
+    "sources": [
+      {
+        "title": "Infotrans (ISS) – Orchiectomia bilaterale",
+        "url": "https://www.infotrans.it/it-schede-15-chirurgia_orchiectomia_bilaterale_transgender",
+        "year": null
+      },
+      {
+        "title": "WPATH, Standards of Care for the Health of Transgender and Gender Diverse People, Version 8 (Int J Transgend Health)",
+        "url": "https://doi.org/10.1080/26895269.2022.2100644",
+        "year": 2022
+      },
+      {
+        "title": "Legge 14 aprile 1982, n. 164 – Norme in materia di rettificazione di attribuzione di sesso (Normattiva)",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1982-04-14;164",
+        "year": 1982
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 221/2015",
+        "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2015/221",
+        "year": 2015
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 180/2017",
+        "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2017/180",
+        "year": 2017
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 143/2024 (Gazzetta Ufficiale, 1ª Serie speciale n. 30 del 24-7-2024)",
+        "url": "https://www.gazzettaufficiale.it/eli/id/2024/07/24/T-240143/s1",
+        "year": 2024
+      },
+      {
+        "title": "Infotrans (ISS) – Tutela dell'identità di genere: rassegna legislativa (cita Cass. 15138/2015, C. cost. 221/2015 e 143/2024)",
+        "url": "https://www.infotrans.it/it-schede-25-transgender_rassegna_legislativa",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS) – Il procedimento di rettifica del genere in Italia",
+        "url": "https://www.infotrans.it/it-schede-39-rettifica_genere_italia",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS) – Il percorso di affermazione di genere in pillole (trattamento chirurgico e sentenza 143/2024)",
+        "url": "https://www.infotrans.it/it-schede-7-percorso_affermazione_genere_transgender",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Centro di Andrologia, AOU Federico II, Napoli",
+        "url": "https://www.infotrans.it/it-sedi-84-centro_di_andrologia_e_medicina_della_riproduzione_e_delle_sessualita_maschile_e_femminile_dipartimento_di_medicina_clinica_e_chirurgia_aou_federico_ii",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Centro regionale per l'incongruenza di genere, AOU Padova",
+        "url": "https://www.infotrans.it/it-sedi-82-centro_di_riferimento_regionale_per_l_incongruenza_di_genere_uoc_andrologia_e_medicina_della_riproduzione_aou_padova",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – ASST Grande Ospedale Metropolitano Niguarda, Milano",
+        "url": "https://www.infotrans.it/it-sedi-137-asst_grande_ospedale_metropolitano_niguarda",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Ambulatorio disforia di genere, Ospedali Riuniti di Foggia",
+        "url": "https://www.infotrans.it/it-sedi-102-ambulatorio_disforia_di_genere_psichiatria_ospedali_riuniti_foggia",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS) – Preservazione della fertilità e percorso di affermazione di genere",
+        "url": "https://www.infotrans.it/it-schede-43-preservazione_fertilita_transgender",
+        "year": null
+      },
+      {
+        "title": "Sparing a testis during vaginoplasty in male-to-female transsexuals: does it benefit our patients?",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11391198/",
+        "year": 2001
+      }
+    ],
+    "evidence": [
+      {
+        "claim": "Un breve lavoro olandese del 2001, basato su 4 persone a cui è stato rimosso in un secondo tempo il testicolo conservato, indica il timore di perdere libido e orgasmo come motivo principale per conservarne uno durante la vaginoplastica; gli autori, sulla base della loro esperienza, sostengono l'orchiectomia bilaterale. Si tratta di una casistica molto piccola e di un'opinione degli autori, non di uno studio comparativo.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11391198/",
+        "year": 2001
+      }
+    ]
+  },
+  {
+    "slug": "mastoplastica-additiva",
+    "name": "Mastoplastica additiva",
+    "aka": [
+      "Aumento del seno",
+      "Protesi mammarie"
+    ],
+    "category": "femminilizzante",
+    "area": "torace",
+    "summary": "Aumento del volume del seno con protesi in silicone, spesso dopo che la terapia con estrogeni ha già prodotto lo sviluppo mammario.",
+    "techniques": [
+      {
+        "name": "Protesi sottoghiandolare",
+        "description": "La protesi è posta sotto la ghiandola mammaria."
+      },
+      {
+        "name": "Protesi sottomuscolare o dual plane",
+        "description": "La protesi è in tutto o in parte dietro il muscolo grande pettorale. La scelta dipende da torace, tessuti e aspettative; anche la sede della cicatrice (areola, ascella, solco) varia."
+      }
+    ],
+    "eligibility": "La scheda ISS indica come requisiti la capacità di dare il consenso informato e la maggiore età (per i minori, consenso di entrambi i genitori o di chi ne fa le veci). Si raccomanda, senza che sia obbligatorio, almeno 6 mesi di terapia estrogenica prima dell'intervento per sfruttare la crescita del seno. Secondo l'ISS, la mastoplastica additiva nelle persone AMAB fa eccezione alla regola dell'autorizzazione del tribunale prevista per gli altri interventi.",
+    "hospitalStay": "Day hospital o breve ricovero.",
+    "recovery": "Reggiseno contenitivo per circa 4 settimane; nei primi giorni evitare sforzi con le braccia; primo controllo entro una settimana; ritorno alle attività abituali di norma dopo circa 4 settimane.",
+    "risks": [
+      "Contrattura capsulare: circa 3,6% (meta-analisi su 1.864 persone transfemminili)",
+      "Asimmetria o malposizionamento della protesi: circa 3,9%, più frequente che nelle donne cisgender",
+      "Ematoma o sieroma: circa 0,6%; infezione: rara",
+      "Rottura o spostamento delle protesi, alterazioni della sensibilità, possibili reinterventi"
+    ],
+    "costs": {
+      "ssn": "Secondo l'ISS è eseguibile a carico del SSN in strutture pubbliche solo in alcune regioni. Nella mappa ISS figura come gratuita a Torino (attesa circa 2 anni), Bari (circa 1 anno), Padova (6–12 mesi) e Napoli Federico II (6 mesi), con volumi molto bassi nel 2021/2022; Palermo la elenca con attesa di 6 mesi senza indicare il costo.",
+      "private": null
+    },
+    "providers": [
+      "AOU Città della Salute e della Scienza di Torino (CIDIGEM)",
+      "AOU Policlinico di Bari",
+      "AOU Padova",
+      "AOU Federico II, Napoli",
+      "AOU Policlinico Paolo Giaccone, Palermo",
+      "AO San Camillo-Forlanini, Roma (secondo SICPRE)"
+    ],
+    "sources": [
+      {
+        "title": "Infotrans (ISS) – Mastoplastica additiva",
+        "url": "https://www.infotrans.it/it-schede-19-chirurgia_mastoplastica_additiva_transgender",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS) – Il percorso di affermazione di genere in pillole (trattamento chirurgico e sentenza 143/2024)",
+        "url": "https://www.infotrans.it/it-schede-7-percorso_affermazione_genere_transgender",
+        "year": null
+      },
+      {
+        "title": "Liu C et al. Complications following Breast Augmentation in Transfeminine Individuals: A Systematic Review and Meta-Analysis. Plast Reconstr Surg (PMID 37189242)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37189242/",
+        "year": 2024
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – CIDIGEM, AOU Città della Salute e della Scienza di Torino",
+        "url": "https://www.infotrans.it/it-sedi-78-centro_interdipartimentale_disforia_di_genere_molinette_cidigem_aou_citta_della_salute_e_della_scienza_di_torino",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Centro regionale di riferimento per la disforia di genere, AOU Policlinico di Bari",
+        "url": "https://www.infotrans.it/it-sedi-87-centro_regionale_di_riferimento_per_la_disforia_di_genere_aou_policlinico_bari",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Centro regionale per l'incongruenza di genere, AOU Padova",
+        "url": "https://www.infotrans.it/it-sedi-82-centro_di_riferimento_regionale_per_l_incongruenza_di_genere_uoc_andrologia_e_medicina_della_riproduzione_aou_padova",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Centro di Andrologia, AOU Federico II, Napoli",
+        "url": "https://www.infotrans.it/it-sedi-84-centro_di_andrologia_e_medicina_della_riproduzione_e_delle_sessualita_maschile_e_femminile_dipartimento_di_medicina_clinica_e_chirurgia_aou_federico_ii",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – AOU Policlinico Paolo Giaccone, Palermo",
+        "url": "https://www.infotrans.it/it-sedi-88-aou_policlinico_paolo_giaccone",
+        "year": null
+      },
+      {
+        "title": "SICPRE – Disforia di genere, i centri italiani (pubblicato 2018, aggiornato 23/12/2024)",
+        "url": "https://www.sicpre.it/disforia-di-genere-i-centri-italiani/",
+        "year": 2024
+      },
+      {
+        "title": "WPATH, Standards of Care for the Health of Transgender and Gender Diverse People, Version 8 (Int J Transgend Health)",
+        "url": "https://doi.org/10.1080/26895269.2022.2100644",
+        "year": 2022
+      }
+    ]
+  },
+  {
+    "slug": "femminilizzazione-viso",
+    "name": "Chirurgia di femminilizzazione del viso (FFS)",
+    "aka": [
+      "FFS",
+      "Facial feminization surgery"
+    ],
+    "category": "femminilizzante",
+    "area": "viso",
+    "summary": "Insieme di interventi su ossa e tessuti molli del viso (fronte, naso, mandibola, mento, attaccatura dei capelli) per renderne i tratti più tipicamente femminili.",
+    "techniques": [
+      {
+        "name": "Rimodellamento della fronte",
+        "description": "Riduzione della prominenza delle arcate sopraccigliari, a volte con arretramento della parete anteriore del seno frontale e correzione dell'attaccatura dei capelli."
+      },
+      {
+        "name": "Rinoplastica",
+        "description": "Modifica di dimensioni e profilo del naso; spesso combinata con la chirurgia della fronte."
+      },
+      {
+        "name": "Mandibola e mento",
+        "description": "Riduzione degli angoli mandibolari e rimodellamento del mento (mentoplastica) per un contorno più affusolato."
+      }
+    ],
+    "eligibility": "Le fonti consultate non indicano requisiti legali specifici (la normativa sull'autorizzazione riguarda la modifica dei caratteri sessuali). WPATH SOC8 considera la chirurgia facciale tra gli interventi di affermazione di genere. Requisiti pratici da verificare con la struttura.",
+    "hospitalStay": null,
+    "recovery": "Le fonti italiane consultate non riportano tempi di recupero. Variano molto in base al numero di interventi combinati.",
+    "risks": [
+      "La revisione sistematica Morrison 2016 (15 studi, 1.121 persone, tutti retrospettivi o serie di casi) riporta solo 7 complicanze, ma molti studi non le descrivevano: il dato va letto come scarsamente informativo",
+      "Rischi generali: sanguinamento, infezione, lesioni nervose, cicatrici, asimmetrie"
+    ],
+    "costs": {
+      "ssn": "Non figura tra gli interventi censiti nella mappa dei servizi ISS. La SICPRE indica che l'AOU Pisana include la chirurgia del viso nel percorso, ma non sono documentate copertura SSN uniforme né tempi d'attesa.",
+      "private": "Solo prezzi per singolo intervento pubblicati da studi privati di Firenze: rinoplastica circa 3.800–8.000 € o 5.500–16.000 € a seconda della fonte; mentoplastica da circa 3.000–4.000 €; rimodellamento della fronte da circa 6.000 €. Il costo complessivo dipende da quanti interventi si combinano."
+    },
+    "providers": [
+      "AOU Pisana, Pisa (chirurgia facciale nel percorso, secondo SICPRE)"
+    ],
+    "sources": [
+      {
+        "title": "Morrison SD et al. Facial Feminization: Systematic Review of the Literature. Plast Reconstr Surg (PMID 27219232)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27219232/",
+        "year": 2016
+      },
+      {
+        "title": "WPATH, Standards of Care for the Health of Transgender and Gender Diverse People, Version 8 (Int J Transgend Health)",
+        "url": "https://doi.org/10.1080/26895269.2022.2100644",
+        "year": 2022
+      },
+      {
+        "title": "SICPRE – Disforia di genere, i centri italiani (pubblicato 2018, aggiornato 23/12/2024)",
+        "url": "https://www.sicpre.it/disforia-di-genere-i-centri-italiani/",
+        "year": 2024
+      },
+      {
+        "title": "Studio privato di chirurgia maxillo-facciale, Firenze – Femminilizzazione del viso: come funziona e quanto costa (30/12/2024)",
+        "url": "https://domenicovalente.com/femminilizzazione-del-viso-come-funziona-e-quanto-costa/",
+        "year": 2024
+      },
+      {
+        "title": "Clinica privata, Firenze – Femminilizzazione viso: interventi e costi medi in Italia",
+        "url": "https://www.clinicaireos.com/femminilizzazione-viso-gli-interventi-di-chirurgia-del-transessualismo/",
+        "year": 2022
+      }
+    ]
+  },
+  {
+    "slug": "condrolaringoplastica",
+    "name": "Condrolaringoplastica (riduzione del pomo d'Adamo)",
+    "aka": [
+      "Tracheal shave",
+      "Riduzione della cartilagine tiroidea"
+    ],
+    "category": "femminilizzante",
+    "area": "voce",
+    "summary": "Riduzione della sporgenza della cartilagine tiroidea (pomo d'Adamo) attraverso una piccola incisione sul collo.",
+    "techniques": [
+      {
+        "name": "Condrolaringoplastica",
+        "description": "La parte sporgente della cartilagine viene asportata, talvolta controllando le corde vocali in endoscopia per non danneggiarne l'inserzione. Secondo l'ISS può essere associata all'approssimazione cricotiroidea per la voce."
+      }
+    ],
+    "eligibility": "Le fonti consultate non indicano requisiti legali specifici; per la chirurgia della voce l'ISS precisa che non serve l'autorizzazione del tribunale.",
+    "hospitalStay": null,
+    "recovery": "Non documentata nelle fonti italiane.",
+    "risks": [
+      "In una serie di 35 interventi non sono state misurate variazioni della voce; circa metà dei pazienti ha riferito alterazioni transitorie",
+      "In una serie di 32 casi: nessuna infezione o complicanza della ferita, un caso di raucedine transitoria (risolta in 6 settimane)",
+      "Evidenza limitata a piccole casistiche retrospettive"
+    ],
+    "costs": {
+      "ssn": "Non censita come procedura distinta nella mappa ISS; copertura SSN non documentata.",
+      "private": null
+    },
+    "providers": [],
+    "sources": [
+      {
+        "title": "Infotrans (ISS) – Femminilizzazione della voce",
+        "url": "https://www.infotrans.it/it-schede-47-chirurgia_femminilizzazione_voce_transgender",
+        "year": null
+      },
+      {
+        "title": "Chondrolaryngoplasty: Vocal Considerations, Outcomes, and Effects on Acoustic Measures of Voice. Laryngoscope (PMID 41963097)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41963097/",
+        "year": 2026
+      },
+      {
+        "title": "Optimizing Safety and Aesthetics in Facial Feminization: Laryngoscopic-Assisted Chondrolaryngoplasty (2019-2023). J Craniofac Surg (PMID 38856196)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38856196/",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "slug": "femminilizzazione-voce",
+    "name": "Femminilizzazione della voce (chirurgia e logopedia)",
+    "aka": [
+      "Fonochirurgia",
+      "Glottoplastica",
+      "Tiroplastica tipo IV",
+      "Approssimazione cricotiroidea",
+      "Logopedia"
+    ],
+    "category": "femminilizzante",
+    "area": "voce",
+    "summary": "Interventi e percorsi riabilitativi per alzare la tonalità e rendere più femminile la percezione della voce, che la terapia con estrogeni non modifica.",
+    "techniques": [
+      {
+        "name": "Logopedia (voice training)",
+        "description": "Lavoro con logopedista su tonalità, risonanza e intonazione; non invasiva e utile anche prima e dopo la chirurgia. In alcune sedi è a carico della persona."
+      },
+      {
+        "name": "Approssimazione cricotiroidea (tiroplastica tipo IV)",
+        "description": "Attraverso un'incisione sul collo si avvicinano le cartilagini tiroidea e cricoidea, tendendo le corde vocali. Nella meta-analisi del 2017 l'aumento di frequenza è risultato inferiore a quello delle tecniche che accorciano le corde vocali."
+      },
+      {
+        "name": "Glottoplastica (es. di Wendler)",
+        "description": "Per via endoscopica dalla bocca si accorcia la parte vibrante delle corde vocali suturandone il tratto anteriore. Le procedure di accorciamento hanno mostrato gli aumenti di frequenza maggiori nella meta-analisi del 2017."
+      },
+      {
+        "name": "Iniezione intracordale e fonochirurgia endoscopica",
+        "description": "Procedure endoscopiche offerte in day surgery da alcuni centri italiani; descritte nelle schede dei servizi ISS senza dati di esito propri."
+      }
+    ],
+    "eligibility": "Secondo l'ISS per la chirurgia della voce non è richiesta l'autorizzazione del tribunale. Non è necessario sospendere la terapia ormonale.",
+    "hospitalStay": "1–2 notti per l'intervento chirurgico; day surgery per le procedure endoscopiche minori.",
+    "recovery": "Dopo approssimazione cricotiroidea: silenzio assoluto per 7–10 giorni. Dopo glottoplastica: voce sussurrata e niente colpi di tosse finché i punti si riassorbono (circa 3 settimane). Controllo foniatrico a 7–10 giorni, poi logopedia da circa 3 settimane e controlli trimestrali nel primo anno.",
+    "risks": [
+      "Insuccesso funzionale (tonalità o qualità vocale non raggiunte) o alterazioni transitorie della voce",
+      "Glottoplastica: cedimento della sutura con disfonia, che può richiedere revisione",
+      "Dolore al collo, lieve difficoltà a deglutire, piccole emorragie delle corde vocali, cicatrici o cheloidi",
+      "Le meta-analisi disponibili si basano su studi piccoli e per lo più retrospettivi"
+    ],
+    "costs": {
+      "ssn": "Visite ed esami con ticket; intervento senza costi se eseguito in convenzione con il SSN, mentre in libera professione è a pagamento. La logopedia è a carico della persona in alcune sedi. Attese dichiarate all'ISS: Moncalieri 18 mesi per la tiroplastica e 6 mesi per la fonochirurgia endoscopica, Cesena 2–3 anni, Salerno 4–6 mesi per la glottoplastica.",
+      "private": null
+    },
+    "providers": [
+      "Ospedale Santa Croce, Moncalieri (ASL TO5) – ORL",
+      "Ospedale Maurizio Bufalini, Cesena (AUSL Romagna) – Voice Center ORL",
+      "AOU San Giovanni di Dio e Ruggi d'Aragona, Salerno – Clinica ORL",
+      "AOU Città della Salute e della Scienza di Torino (correzione delle corde vocali, secondo SICPRE)"
+    ],
+    "sources": [
+      {
+        "title": "Infotrans (ISS) – Femminilizzazione della voce",
+        "url": "https://www.infotrans.it/it-schede-47-chirurgia_femminilizzazione_voce_transgender",
+        "year": null
+      },
+      {
+        "title": "Transgender Phonosurgery: A Systematic Review and Meta-analysis. Otolaryngol Head Neck Surg (PMID 28349733)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28349733/",
+        "year": 2017
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Ospedale Santa Croce, Moncalieri (ASL TO5)",
+        "url": "https://www.infotrans.it/it-sedi-43-ospedale_santa_croce",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Voice Center, UO ORL Ospedale M. Bufalini, Cesena",
+        "url": "https://www.infotrans.it/it-sedi-11-voice_center_uo_orl_ospedale_maurizio_bufalini_cesena",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Clinica ORL, AOU San Giovanni di Dio e Ruggi d'Aragona, Salerno",
+        "url": "https://www.infotrans.it/it-sedi-116-clinica_otorinolaringoiatrica_ospedale_ruggi_d_aragona",
+        "year": null
+      },
+      {
+        "title": "SICPRE – Disforia di genere, i centri italiani (pubblicato 2018, aggiornato 23/12/2024)",
+        "url": "https://www.sicpre.it/disforia-di-genere-i-centri-italiani/",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "slug": "depilazione-definitiva",
+    "name": "Depilazione definitiva (laser ed elettrolisi)",
+    "aka": [
+      "Epilazione laser",
+      "Elettrocoagulazione",
+      "Elettrolisi"
+    ],
+    "category": "femminilizzante",
+    "area": "altro",
+    "summary": "Rimozione permanente dei peli del viso o del corpo; è richiesta anche prima della vaginoplastica (e di alcune falloplastiche) per evitare peli nella neovagina o nella neouretra.",
+    "techniques": [
+      {
+        "name": "Laser",
+        "description": "Colpisce il pigmento del follicolo: più rapido ed economico, efficace su peli scuri; è meno adatto a peli chiari e richiede cautela sulle pelli scure."
+      },
+      {
+        "name": "Elettrolisi (elettrocoagulazione)",
+        "description": "Tratta un follicolo alla volta con corrente elettrica: funziona su qualsiasi colore di pelo, ma richiede più sedute ed è più dolorosa e costosa (in uno studio statunitense pre-vaginoplastica il costo totale era circa 5 volte quello del laser)."
+      }
+    ],
+    "eligibility": "Non risultano requisiti legali. Prima della vaginoplastica la scheda ISS prevede una valutazione per la depilazione definitiva delle aree indicate dal chirurgo.",
+    "hospitalStay": "Nessuno (ambulatoriale).",
+    "recovery": "Sedute ripetute nell'arco di mesi; nessun periodo di convalescenza.",
+    "risks": [
+      "Le fonti consultate non forniscono frequenze di complicanze per questa popolazione"
+    ],
+    "costs": {
+      "ssn": "Non è stata trovata alcuna fonte che documenti una copertura SSN della depilazione definitiva per persone trans, né prima della chirurgia genitale né per il viso.",
+      "private": null
+    },
+    "providers": [],
+    "sources": [
+      {
+        "title": "Infotrans (ISS) – Vaginoplastica con lembo peno-scrotale",
+        "url": "https://www.infotrans.it/it-schede-20-chirurgia_vaginoplastica_lembo_peno_scrotale_transgender",
+        "year": null
+      },
+      {
+        "title": "A Review of Best Practices for Gender-Affirming Laser Hair Removal. Dermatologic Surgery",
+        "url": "https://hsrc.himmelfarb.gwu.edu/gwhpubs/6235",
+        "year": 2024
+      },
+      {
+        "title": "Studio su 52 pazienti: laser vs elettrolisi prima della vaginoplastica (PMC9537259)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9537259",
+        "year": 2022
+      },
+      {
+        "title": "WPATH, Standards of Care for the Health of Transgender and Gender Diverse People, Version 8 (Int J Transgend Health)",
+        "url": "https://doi.org/10.1080/26895269.2022.2100644",
+        "year": 2022
+      }
+    ]
+  },
+  {
+    "slug": "mastectomia",
+    "name": "Mascolinizzazione del torace",
+    "aka": [
+      "Mastectomia sottocutanea",
+      "Top surgery"
+    ],
+    "category": "mascolinizzante",
+    "area": "torace",
+    "summary": "Rimozione della ghiandola mammaria con rimodellamento del torace e, se serve, riduzione e riposizionamento di areola e capezzolo.",
+    "techniques": [
+      {
+        "name": "Doppia incisione con innesto libero di areola e capezzolo",
+        "description": "Adatta a seni medi o grandi e cute poco elastica: cicatrici sotto i pettorali e areole ricollocate come innesti."
+      },
+      {
+        "name": "Periareolare o semicircolare",
+        "description": "Per seni piccoli con buona elasticità cutanea: cicatrici limitate intorno all'areola. Le incisioni limitate sono risultate il fattore più associato agli ematomi."
+      }
+    ],
+    "eligibility": "Requisiti clinici (WPATH SOC8, ripresi dalle schede ISS): incongruenza di genere marcata e stabile, capacità di dare il consenso informato, informazione sugli effetti sulla fertilità e sulle possibilità di preservarla, valutazione delle condizioni di salute fisica e mentale che potrebbero influire sull'esito; se si assumono ormoni, una terapia stabile che può includere almeno 6 mesi (o più se serve al risultato chirurgico), salvo che non sia desiderata o sia controindicata. Requisiti legali: la legge 164/1982 (oggi art. 31 del d.lgs. 150/2011) prevede l'autorizzazione del tribunale al trattamento chirurgico. Dal 2015 (Cassazione 15138/2015 e Corte costituzionale 221/2015, poi 180/2017) l'intervento non è più condizione necessaria per la rettifica anagrafica. Con la sentenza 143/2024 la Corte costituzionale ha eliminato l'obbligo di autorizzazione quando il tribunale ritiene già sufficienti le modifiche avvenute: chi ha ottenuto la sentenza di rettifica di nome e genere può accedere all'intervento senza un'ulteriore autorizzazione; in assenza di rettifica serve una sentenza del tribunale di residenza che autorizzi l'intervento. Le schede ISS indicano inoltre la maggiore età oppure, per i minori, il consenso di entrambi i genitori o di chi ne fa le veci.",
+    "hospitalStay": "Circa 2 giorni; 3–4 giorni se combinata con l'istero-annessiectomia. In un centro privato fiorentino è indicata una notte.",
+    "recovery": "Fascia elastica per circa 4 settimane; evitare di alzare le braccia e sollevare pesi nei primi giorni; primo controllo entro una settimana; ritorno alle attività abituali di norma dopo circa 4 settimane; evitare il sole sulle cicatrici per almeno un anno. Può restare un po' di tessuto mammario: le linee guida di prevenzione del tumore al seno restano rilevanti.",
+    "risks": [
+      "Ematoma: tra 0% e 31% nei diversi studi (revisione sistematica 2022), più frequente con le incisioni limitate",
+      "Sieroma, necrosi di areola o capezzolo, alterazioni della sensibilità",
+      "Ritocchi estetici talvolta necessari"
+    ],
+    "costs": {
+      "ssn": "Gratuita nel SSN. Attese dichiarate all'ISS (2021/2022): Napoli 3–6 mesi, Torino 9–12 mesi, Bari 1 anno, Bologna 1 anno, Padova 6–12 mesi, Niguarda 6–12 mesi, Roma San Camillo 6 mesi, Careggi 18 mesi, Verona 2 anni. È offerta anche da due cliniche private accreditate (Vinci, FI, 157 interventi nel biennio con attesa di 1 anno; Ragusa, attesa di 2 anni).",
+      "private": "Circa 8.000–8.400 € per l'intervento (più 200 € per la prima visita) secondo il listino pubblicato da uno studio privato di Firenze (2024)."
+    },
+    "providers": [
+      "AOU Federico II, Napoli",
+      "AOU Città della Salute e della Scienza di Torino (CIDIGEM)",
+      "AOU Policlinico di Bari",
+      "AOU Policlinico Paolo Giaccone, Palermo",
+      "IRCCS AOU di Bologna – Policlinico S. Orsola-Malpighi",
+      "AOU Integrata di Verona",
+      "AOU Padova",
+      "AOU Careggi, Firenze",
+      "ASST Grande Ospedale Metropolitano Niguarda, Milano",
+      "AO San Camillo-Forlanini, Roma",
+      "Casa di Cura Leonardo, Vinci (FI) – privata accreditata SSN",
+      "Clinica del Mediterraneo, Ragusa – privata accreditata SSN"
+    ],
+    "sources": [
+      {
+        "title": "Infotrans (ISS) – Mascolinizzazione del torace",
+        "url": "https://www.infotrans.it/it-schede-22-chirurgia_mascolinizzazione_torace_transgender",
+        "year": null
+      },
+      {
+        "title": "WPATH, Standards of Care for the Health of Transgender and Gender Diverse People, Version 8 (Int J Transgend Health)",
+        "url": "https://doi.org/10.1080/26895269.2022.2100644",
+        "year": 2022
+      },
+      {
+        "title": "Legge 14 aprile 1982, n. 164 – Norme in materia di rettificazione di attribuzione di sesso (Normattiva)",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1982-04-14;164",
+        "year": 1982
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 221/2015",
+        "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2015/221",
+        "year": 2015
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 180/2017",
+        "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2017/180",
+        "year": 2017
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 143/2024 (Gazzetta Ufficiale, 1ª Serie speciale n. 30 del 24-7-2024)",
+        "url": "https://www.gazzettaufficiale.it/eli/id/2024/07/24/T-240143/s1",
+        "year": 2024
+      },
+      {
+        "title": "Infotrans (ISS) – Tutela dell'identità di genere: rassegna legislativa (cita Cass. 15138/2015, C. cost. 221/2015 e 143/2024)",
+        "url": "https://www.infotrans.it/it-schede-25-transgender_rassegna_legislativa",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS) – Il procedimento di rettifica del genere in Italia",
+        "url": "https://www.infotrans.it/it-schede-39-rettifica_genere_italia",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS) – Il percorso di affermazione di genere in pillole (trattamento chirurgico e sentenza 143/2024)",
+        "url": "https://www.infotrans.it/it-schede-7-percorso_affermazione_genere_transgender",
+        "year": null
+      },
+      {
+        "title": "Hematoma following gender-affirming mastectomy: A systematic review of the evidence. J Plast Reconstr Aesthet Surg (PMID 35725957)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35725957/",
+        "year": 2022
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Centro di Andrologia, AOU Federico II, Napoli",
+        "url": "https://www.infotrans.it/it-sedi-84-centro_di_andrologia_e_medicina_della_riproduzione_e_delle_sessualita_maschile_e_femminile_dipartimento_di_medicina_clinica_e_chirurgia_aou_federico_ii",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – CIDIGEM, AOU Città della Salute e della Scienza di Torino",
+        "url": "https://www.infotrans.it/it-sedi-78-centro_interdipartimentale_disforia_di_genere_molinette_cidigem_aou_citta_della_salute_e_della_scienza_di_torino",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Centro regionale di riferimento per la disforia di genere, AOU Policlinico di Bari",
+        "url": "https://www.infotrans.it/it-sedi-87-centro_regionale_di_riferimento_per_la_disforia_di_genere_aou_policlinico_bari",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – AOU Policlinico Paolo Giaccone, Palermo",
+        "url": "https://www.infotrans.it/it-sedi-88-aou_policlinico_paolo_giaccone",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – IRCCS AOU di Bologna – Policlinico S. Orsola-Malpighi",
+        "url": "https://www.infotrans.it/it-sedi-22-irccs_azienda_ospedaliero_universitaria_di_bologna_policlinico_s_orsola_malpighi",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – AOU Integrata di Verona",
+        "url": "https://www.infotrans.it/it-sedi-30-azienda_ospedaliera_universitaria_integrata_uoc_medicina_generale_a_verona",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Centro regionale per l'incongruenza di genere, AOU Padova",
+        "url": "https://www.infotrans.it/it-sedi-82-centro_di_riferimento_regionale_per_l_incongruenza_di_genere_uoc_andrologia_e_medicina_della_riproduzione_aou_padova",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – SOD Andrologia, Endocrinologia femminile e Incongruenza di genere, AOU Careggi",
+        "url": "https://www.infotrans.it/it-sedi-73-sod_andrologia_endocrinologia_femminile_incongruenza_di_genere_aou_careggi",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – ASST Grande Ospedale Metropolitano Niguarda, Milano",
+        "url": "https://www.infotrans.it/it-sedi-137-asst_grande_ospedale_metropolitano_niguarda",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – SAIFIP, AO San Camillo-Forlanini, Roma",
+        "url": "https://www.infotrans.it/it-sedi-29-servizio_per_l_adeguamento_tra_identita_fisica_e_identita_psichica_saifip_azienda_ospedaliera_san_camillo_forlanini",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Casa di Cura Leonardo, Vinci (FI)",
+        "url": "https://www.infotrans.it/it-sedi-10-casa_di_cura_leonardo",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Clinica del Mediterraneo, Ragusa",
+        "url": "https://www.infotrans.it/it-sedi-40-clinica_del_mediterraneo",
+        "year": null
+      },
+      {
+        "title": "Studio privato di chirurgia plastica, Firenze – Creazione del torace maschile: istruzioni (pagina del professionista, 25/11/2024)",
+        "url": "https://giulialorusso.com/creazione-del-torace-maschile-istruzioni-per-sottoporsi-allintervento/",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "slug": "isterectomia",
+    "name": "Istero-annessiectomia",
+    "aka": [
+      "Isterectomia con annessiectomia",
+      "Isterectomia e ovariectomia"
+    ],
+    "category": "mascolinizzante",
+    "area": "riproduttiva",
+    "summary": "Asportazione di utero, tube e ovaie, che rende impossibile la gravidanza e la produzione di ovociti propri.",
+    "techniques": [
+      {
+        "name": "Laparoscopica",
+        "description": "La più usata: piccole incisioni addominali e organi estratti per via vaginale; decorso più breve e meno doloroso. Può essere eseguita nella stessa seduta della mascolinizzazione del torace."
+      },
+      {
+        "name": "Laparotomica",
+        "description": "Incisione addominale ampia, riservata a masse voluminose o controindicazioni alla laparoscopia."
+      },
+      {
+        "name": "Robotica o vNOTES",
+        "description": "Approcci mini-invasivi più recenti; una revisione sistematica del 2024 ne riporta potenziali vantaggi su dolore e degenza, con evidenza ancora limitata."
+      }
+    ],
+    "eligibility": "Requisiti clinici (WPATH SOC8, ripresi dalle schede ISS): incongruenza di genere marcata e stabile, capacità di dare il consenso informato, informazione sugli effetti sulla fertilità e sulle possibilità di preservarla, valutazione delle condizioni di salute fisica e mentale che potrebbero influire sull'esito; se si assumono ormoni, una terapia stabile che può includere almeno 6 mesi (o più se serve al risultato chirurgico), salvo che non sia desiderata o sia controindicata. Requisiti legali: la legge 164/1982 (oggi art. 31 del d.lgs. 150/2011) prevede l'autorizzazione del tribunale al trattamento chirurgico. Dal 2015 (Cassazione 15138/2015 e Corte costituzionale 221/2015, poi 180/2017) l'intervento non è più condizione necessaria per la rettifica anagrafica. Con la sentenza 143/2024 la Corte costituzionale ha eliminato l'obbligo di autorizzazione quando il tribunale ritiene già sufficienti le modifiche avvenute: chi ha ottenuto la sentenza di rettifica di nome e genere può accedere all'intervento senza un'ulteriore autorizzazione; in assenza di rettifica serve una sentenza del tribunale di residenza che autorizzi l'intervento. Le schede ISS indicano inoltre la maggiore età oppure, per i minori, il consenso di entrambi i genitori o di chi ne fa le veci.",
+    "hospitalStay": "Circa 2 giorni; 3–4 giorni se combinata con la mascolinizzazione del torace.",
+    "recovery": "Se combinata con la chirurgia del torace si consiglia in genere almeno un mese di astensione dal lavoro. I dettagli dipendono dalla tecnica.",
+    "risks": [
+      "Ematomi o infezioni, guarigione imperfetta delle ferite, alterazioni della sensibilità nelle sedi di incisione",
+      "Tromboembolismo (rischio aumentato dalla terapia ormonale)",
+      "Lesioni di intestino o vie urinarie con possibili fistole; perdite ematiche che richiedono trasfusione (rare)",
+      "Perdita definitiva della fertilità"
+    ],
+    "costs": {
+      "ssn": "Nessun costo nel SSN. Attese dichiarate all'ISS (2021/2022): Ariccia 2–3 mesi, Verona 2–3 mesi, Bologna 6 mesi, Padova 6 mesi, Torino 6–9 mesi, Napoli 6–9 mesi, Niguarda 6–12 mesi, Careggi 18 mesi.",
+      "private": null
+    },
+    "providers": [
+      "Nuovo Ospedale dei Castelli, Ariccia (ASL Roma 6)",
+      "AOU Integrata di Verona",
+      "IRCCS AOU di Bologna – Policlinico S. Orsola-Malpighi",
+      "AOU Padova",
+      "AOU Città della Salute e della Scienza di Torino (CIDIGEM)",
+      "AOU Federico II, Napoli",
+      "ASST Grande Ospedale Metropolitano Niguarda, Milano",
+      "AOU Careggi, Firenze",
+      "AO San Camillo-Forlanini, Roma (secondo SICPRE)",
+      "IRCCS Burlo Garofolo, Trieste (in collaborazione con Cattinara, secondo SICPRE)"
+    ],
+    "sources": [
+      {
+        "title": "Infotrans (ISS) – Istero-annessiectomia",
+        "url": "https://www.infotrans.it/it-schede-23-chirurgia_istero_annessiectomia_transgender",
+        "year": null
+      },
+      {
+        "title": "WPATH, Standards of Care for the Health of Transgender and Gender Diverse People, Version 8 (Int J Transgend Health)",
+        "url": "https://doi.org/10.1080/26895269.2022.2100644",
+        "year": 2022
+      },
+      {
+        "title": "Legge 14 aprile 1982, n. 164 – Norme in materia di rettificazione di attribuzione di sesso (Normattiva)",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1982-04-14;164",
+        "year": 1982
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 221/2015",
+        "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2015/221",
+        "year": 2015
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 180/2017",
+        "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2017/180",
+        "year": 2017
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 143/2024 (Gazzetta Ufficiale, 1ª Serie speciale n. 30 del 24-7-2024)",
+        "url": "https://www.gazzettaufficiale.it/eli/id/2024/07/24/T-240143/s1",
+        "year": 2024
+      },
+      {
+        "title": "Infotrans (ISS) – Tutela dell'identità di genere: rassegna legislativa (cita Cass. 15138/2015, C. cost. 221/2015 e 143/2024)",
+        "url": "https://www.infotrans.it/it-schede-25-transgender_rassegna_legislativa",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS) – Il procedimento di rettifica del genere in Italia",
+        "url": "https://www.infotrans.it/it-schede-39-rettifica_genere_italia",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS) – Il percorso di affermazione di genere in pillole (trattamento chirurgico e sentenza 143/2024)",
+        "url": "https://www.infotrans.it/it-schede-7-percorso_affermazione_genere_transgender",
+        "year": null
+      },
+      {
+        "title": "Dominoni M et al. Which Is the Best Surgical Approach for Female-to-Male Sexual Reassignment? A Systematic Review of Hysterectomy and Salpingo-Oophorectomy Options. Medicina (PMID 39064524)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39064524/",
+        "year": 2024
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Nuovo Ospedale dei Castelli, Ariccia (RM)",
+        "url": "https://www.infotrans.it/it-sedi-113-nuovo_ospedale_dei_castelli",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – AOU Integrata di Verona",
+        "url": "https://www.infotrans.it/it-sedi-30-azienda_ospedaliera_universitaria_integrata_uoc_medicina_generale_a_verona",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – IRCCS AOU di Bologna – Policlinico S. Orsola-Malpighi",
+        "url": "https://www.infotrans.it/it-sedi-22-irccs_azienda_ospedaliero_universitaria_di_bologna_policlinico_s_orsola_malpighi",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Centro regionale per l'incongruenza di genere, AOU Padova",
+        "url": "https://www.infotrans.it/it-sedi-82-centro_di_riferimento_regionale_per_l_incongruenza_di_genere_uoc_andrologia_e_medicina_della_riproduzione_aou_padova",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – CIDIGEM, AOU Città della Salute e della Scienza di Torino",
+        "url": "https://www.infotrans.it/it-sedi-78-centro_interdipartimentale_disforia_di_genere_molinette_cidigem_aou_citta_della_salute_e_della_scienza_di_torino",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Centro di Andrologia, AOU Federico II, Napoli",
+        "url": "https://www.infotrans.it/it-sedi-84-centro_di_andrologia_e_medicina_della_riproduzione_e_delle_sessualita_maschile_e_femminile_dipartimento_di_medicina_clinica_e_chirurgia_aou_federico_ii",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – ASST Grande Ospedale Metropolitano Niguarda, Milano",
+        "url": "https://www.infotrans.it/it-sedi-137-asst_grande_ospedale_metropolitano_niguarda",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – SOD Andrologia, Endocrinologia femminile e Incongruenza di genere, AOU Careggi",
+        "url": "https://www.infotrans.it/it-sedi-73-sod_andrologia_endocrinologia_femminile_incongruenza_di_genere_aou_careggi",
+        "year": null
+      },
+      {
+        "title": "SICPRE – Disforia di genere, i centri italiani (pubblicato 2018, aggiornato 23/12/2024)",
+        "url": "https://www.sicpre.it/disforia-di-genere-i-centri-italiani/",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "slug": "metoidioplastica",
+    "name": "Metoidioplastica",
+    "aka": [
+      "Metoidioplasty"
+    ],
+    "category": "mascolinizzante",
+    "area": "genitale",
+    "summary": "Creazione di un piccolo fallo sfruttando la crescita del clitoride indotta dal testosterone, di solito con allungamento dell'uretra per urinare in piedi.",
+    "techniques": [
+      {
+        "name": "Metoidioplastica con allungamento uretrale",
+        "description": "In un'unica fase si rilascia il clitoride, si costruisce la neouretra con tessuti locali o mucosa della bocca e si chiudono le grandi labbra a formare lo scroto; spesso associata a vaginectomia. Il fallo misura in media 4–5 cm: permette di urinare in piedi ma di solito non la penetrazione."
+      }
+    ],
+    "eligibility": "Requisiti clinici (WPATH SOC8, ripresi dalle schede ISS): incongruenza di genere marcata e stabile, capacità di dare il consenso informato, informazione sugli effetti sulla fertilità e sulle possibilità di preservarla, valutazione delle condizioni di salute fisica e mentale che potrebbero influire sull'esito; se si assumono ormoni, una terapia stabile che può includere almeno 6 mesi (o più se serve al risultato chirurgico), salvo che non sia desiderata o sia controindicata. Requisiti legali: la legge 164/1982 (oggi art. 31 del d.lgs. 150/2011) prevede l'autorizzazione del tribunale al trattamento chirurgico. Dal 2015 (Cassazione 15138/2015 e Corte costituzionale 221/2015, poi 180/2017) l'intervento non è più condizione necessaria per la rettifica anagrafica. Con la sentenza 143/2024 la Corte costituzionale ha eliminato l'obbligo di autorizzazione quando il tribunale ritiene già sufficienti le modifiche avvenute: chi ha ottenuto la sentenza di rettifica di nome e genere può accedere all'intervento senza un'ulteriore autorizzazione; in assenza di rettifica serve una sentenza del tribunale di residenza che autorizzi l'intervento. Le schede ISS indicano inoltre la maggiore età oppure, per i minori, il consenso di entrambi i genitori o di chi ne fa le veci. Il testosterone è parte integrante del risultato, perché determina la crescita del clitoride.",
+    "hospitalStay": "Circa 4–5 giorni.",
+    "recovery": "Catetere vescicale per circa 28 giorni; medicazioni della ferita con disinfettante. Possono servire medicazioni settimanali in ospedale per 2–3 settimane; controllo di solito a 30–40 giorni.",
+    "risks": [
+      "Complicanze dell'uretra (fistole, stenosi) fino al 30% dei casi, con possibili revisioni",
+      "Penetrazione possibile solo in una minoranza (0–24% nella maggior parte degli studi); sensibilità erogena e soddisfazione sessuale generalmente buone",
+      "Infezioni, emorragie, problemi di cicatrizzazione"
+    ],
+    "costs": {
+      "ssn": "Gratuita nel SSN. Attese dichiarate all'ISS (2021/2022): Torino 9–12 mesi, Pisa circa 2 anni, Careggi 18–24 mesi, Palermo 1 anno, Foggia 3–6 mesi (dove la chirurgia per persone AFAB è svolta in convenzione con professionisti esterni).",
+      "private": null
+    },
+    "providers": [
+      "AOU Città della Salute e della Scienza di Torino (CIDIGEM)",
+      "AOU Pisana, Pisa",
+      "AOU Careggi, Firenze",
+      "AOU Policlinico Paolo Giaccone, Palermo",
+      "AOU Policlinico Riuniti di Foggia"
+    ],
+    "sources": [
+      {
+        "title": "Infotrans (ISS) – Falloplastica (incl. metoidioplastica)",
+        "url": "https://www.infotrans.it/it-schede-24-chirurgia_falloplastica_transgender",
+        "year": null
+      },
+      {
+        "title": "WPATH, Standards of Care for the Health of Transgender and Gender Diverse People, Version 8 (Int J Transgend Health)",
+        "url": "https://doi.org/10.1080/26895269.2022.2100644",
+        "year": 2022
+      },
+      {
+        "title": "Legge 14 aprile 1982, n. 164 – Norme in materia di rettificazione di attribuzione di sesso (Normattiva)",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1982-04-14;164",
+        "year": 1982
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 221/2015",
+        "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2015/221",
+        "year": 2015
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 180/2017",
+        "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2017/180",
+        "year": 2017
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 143/2024 (Gazzetta Ufficiale, 1ª Serie speciale n. 30 del 24-7-2024)",
+        "url": "https://www.gazzettaufficiale.it/eli/id/2024/07/24/T-240143/s1",
+        "year": 2024
+      },
+      {
+        "title": "Infotrans (ISS) – Tutela dell'identità di genere: rassegna legislativa (cita Cass. 15138/2015, C. cost. 221/2015 e 143/2024)",
+        "url": "https://www.infotrans.it/it-schede-25-transgender_rassegna_legislativa",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS) – Il procedimento di rettifica del genere in Italia",
+        "url": "https://www.infotrans.it/it-schede-39-rettifica_genere_italia",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS) – Il percorso di affermazione di genere in pillole (trattamento chirurgico e sentenza 143/2024)",
+        "url": "https://www.infotrans.it/it-schede-7-percorso_affermazione_genere_transgender",
+        "year": null
+      },
+      {
+        "title": "Sexual health outcomes following gender affirming metoidioplasty: a systematic review. Sex Med Rev (PMID 41104681)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41104681/",
+        "year": 2026
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – CIDIGEM, AOU Città della Salute e della Scienza di Torino",
+        "url": "https://www.infotrans.it/it-sedi-78-centro_interdipartimentale_disforia_di_genere_molinette_cidigem_aou_citta_della_salute_e_della_scienza_di_torino",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – AOU Pisana (Cisanello)",
+        "url": "https://www.infotrans.it/it-sedi-119-azienda_ospedaliero_universitaria_pisana_cisanello",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – SOD Andrologia, Endocrinologia femminile e Incongruenza di genere, AOU Careggi",
+        "url": "https://www.infotrans.it/it-sedi-73-sod_andrologia_endocrinologia_femminile_incongruenza_di_genere_aou_careggi",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – AOU Policlinico Paolo Giaccone, Palermo",
+        "url": "https://www.infotrans.it/it-sedi-88-aou_policlinico_paolo_giaccone",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Ambulatorio disforia di genere, Ospedali Riuniti di Foggia",
+        "url": "https://www.infotrans.it/it-sedi-102-ambulatorio_disforia_di_genere_psichiatria_ospedali_riuniti_foggia",
+        "year": null
+      }
+    ]
+  },
+  {
+    "slug": "falloplastica",
+    "name": "Falloplastica",
+    "aka": [
+      "Phalloplasty",
+      "Neofalloplastica"
+    ],
+    "category": "mascolinizzante",
+    "area": "genitale",
+    "summary": "Costruzione di un pene (neofallo) con tessuti prelevati da altre parti del corpo, in più interventi, con possibile neouretra e successivo impianto di protesi erettile.",
+    "techniques": [
+      {
+        "name": "Lembo addominale sovrapubico peduncolato (Pryor)",
+        "description": "Usa la cute sopra il pube: intervento più rapido (circa 2 ore) con buon risultato estetico, fallo di circa 12–14 cm ma sensibilità ridotta e, inizialmente, senza uretra; la neouretra può essere aggiunta in seguito con un lembo radiale."
+      },
+      {
+        "name": "Lembo libero radiale di avambraccio",
+        "description": "Lembo microchirurgico che include uretra e nervi: considerato dall'ISS la migliore soluzione disponibile per sensibilità e minzione in piedi, ma lascia una cicatrice visibile sull'avambraccio e ha rischi vascolari."
+      },
+      {
+        "name": "Lembo anterolaterale di coscia (ALT)",
+        "description": "Alternativa al radiale con cicatrice sulla coscia; adatto a persone con poco tessuto adiposo alla coscia. Rischio di perdita totale del lembo intorno al 5% (come per gli altri lembi microchirurgici). Nessun centro pubblico italiano lo dichiara nella mappa ISS."
+      }
+    ],
+    "eligibility": "Requisiti clinici (WPATH SOC8, ripresi dalle schede ISS): incongruenza di genere marcata e stabile, capacità di dare il consenso informato, informazione sugli effetti sulla fertilità e sulle possibilità di preservarla, valutazione delle condizioni di salute fisica e mentale che potrebbero influire sull'esito; se si assumono ormoni, una terapia stabile che può includere almeno 6 mesi (o più se serve al risultato chirurgico), salvo che non sia desiderata o sia controindicata. Requisiti legali: la legge 164/1982 (oggi art. 31 del d.lgs. 150/2011) prevede l'autorizzazione del tribunale al trattamento chirurgico. Dal 2015 (Cassazione 15138/2015 e Corte costituzionale 221/2015, poi 180/2017) l'intervento non è più condizione necessaria per la rettifica anagrafica. Con la sentenza 143/2024 la Corte costituzionale ha eliminato l'obbligo di autorizzazione quando il tribunale ritiene già sufficienti le modifiche avvenute: chi ha ottenuto la sentenza di rettifica di nome e genere può accedere all'intervento senza un'ulteriore autorizzazione; in assenza di rettifica serve una sentenza del tribunale di residenza che autorizzi l'intervento. Le schede ISS indicano inoltre la maggiore età oppure, per i minori, il consenso di entrambi i genitori o di chi ne fa le veci. Prima dell'intervento sono previsti studio vascolare dei lembi (ecodoppler, angio-TC o RM) e visita ginecologica con Pap test; può servire la depilazione definitiva della zona donatrice.",
+    "hospitalStay": "Circa 4–5 giorni (lembo addominale); fino a 10 giorni (radiale o ALT).",
+    "recovery": "Catetere per almeno 4 settimane quando si ricostruisce l'uretra. Seguono almeno altri due interventi (scroto, glande, vaginectomia, poi protesi). Possono servire medicazioni settimanali per 2–3 settimane; controllo a 30–40 giorni.",
+    "risks": [
+      "Complicanze complessive molto frequenti: 76,5% nella meta-analisi Wang 2022 (1.731 pazienti, soprattutto lembo radiale)",
+      "Fistola uretrale circa 34% e stenosi uretrale circa 25%; nella meta-analisi Hu 2022 fistola o stenosi nel 48,9% complessivo",
+      "Perdita parziale o totale del neofallo per sofferenza vascolare (circa 5% per i lembi microchirurgici secondo l'ISS)",
+      "Esiti funzionali riportati: minzione in piedi circa 92%, sensibilità tattile circa 94% (dati riportati solo per una parte dei pazienti)",
+      "Incontinenza urinaria riportata fino al 50% in alcune casistiche dopo isterectomia e falloplastica (studi piccoli ed eterogenei)"
+    ],
+    "costs": {
+      "ssn": "Gratuita nel SSN; gli interventi di sola finalità estetica (es. tatuaggi sulle cicatrici) sono a carico della persona. Attese dichiarate all'ISS (2021/2022): Roma San Camillo 6 mesi, Napoli 6–9 mesi, Torino 9–12 mesi, Palermo 1 anno, Careggi 18–24 mesi, Pisa 2 anni. Volumi bassi: Torino 35 (15 addominali, 20 radiali), Pisa 10, Napoli 4.",
+      "private": null
+    },
+    "providers": [
+      "AOU Città della Salute e della Scienza di Torino (CIDIGEM) – addominale e radiale",
+      "AOU Pisana, Pisa – addominale",
+      "AOU Federico II, Napoli – addominale e radiale",
+      "AO San Camillo-Forlanini, Roma – addominale",
+      "AOU Policlinico Paolo Giaccone, Palermo – radiale",
+      "AOU Careggi, Firenze – addominale",
+      "ASU Giuliano Isontina, Ospedale di Cattinara, Trieste – Chirurgia plastica (secondo SICPRE)"
+    ],
+    "sources": [
+      {
+        "title": "Infotrans (ISS) – Falloplastica (incl. metoidioplastica)",
+        "url": "https://www.infotrans.it/it-schede-24-chirurgia_falloplastica_transgender",
+        "year": null
+      },
+      {
+        "title": "WPATH, Standards of Care for the Health of Transgender and Gender Diverse People, Version 8 (Int J Transgend Health)",
+        "url": "https://doi.org/10.1080/26895269.2022.2100644",
+        "year": 2022
+      },
+      {
+        "title": "Legge 14 aprile 1982, n. 164 – Norme in materia di rettificazione di attribuzione di sesso (Normattiva)",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1982-04-14;164",
+        "year": 1982
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 221/2015",
+        "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2015/221",
+        "year": 2015
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 180/2017",
+        "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2017/180",
+        "year": 2017
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 143/2024 (Gazzetta Ufficiale, 1ª Serie speciale n. 30 del 24-7-2024)",
+        "url": "https://www.gazzettaufficiale.it/eli/id/2024/07/24/T-240143/s1",
+        "year": 2024
+      },
+      {
+        "title": "Infotrans (ISS) – Tutela dell'identità di genere: rassegna legislativa (cita Cass. 15138/2015, C. cost. 221/2015 e 143/2024)",
+        "url": "https://www.infotrans.it/it-schede-25-transgender_rassegna_legislativa",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS) – Il procedimento di rettifica del genere in Italia",
+        "url": "https://www.infotrans.it/it-schede-39-rettifica_genere_italia",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS) – Il percorso di affermazione di genere in pillole (trattamento chirurgico e sentenza 143/2024)",
+        "url": "https://www.infotrans.it/it-schede-7-percorso_affermazione_genere_transgender",
+        "year": null
+      },
+      {
+        "title": "Wang AMQ et al. Outcomes Following Gender Affirming Phalloplasty: A Systematic Review and Meta-Analysis. Sex Med Rev (PMID 36031521)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36031521/",
+        "year": 2022
+      },
+      {
+        "title": "Hu CH et al. A systematic review and meta-analysis of urethral complications and outcomes in transgender men. J Plast Reconstr Aesthet Surg (PMID 34607781)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34607781/",
+        "year": 2022
+      },
+      {
+        "title": "Dominoni M et al. Pelvic floor and sexual dysfunctions after genital gender-affirming surgery: a systematic review and meta-analysis. J Sex Med (PMID 39545366)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39545366/",
+        "year": 2025
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – CIDIGEM, AOU Città della Salute e della Scienza di Torino",
+        "url": "https://www.infotrans.it/it-sedi-78-centro_interdipartimentale_disforia_di_genere_molinette_cidigem_aou_citta_della_salute_e_della_scienza_di_torino",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – AOU Pisana (Cisanello)",
+        "url": "https://www.infotrans.it/it-sedi-119-azienda_ospedaliero_universitaria_pisana_cisanello",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Centro di Andrologia, AOU Federico II, Napoli",
+        "url": "https://www.infotrans.it/it-sedi-84-centro_di_andrologia_e_medicina_della_riproduzione_e_delle_sessualita_maschile_e_femminile_dipartimento_di_medicina_clinica_e_chirurgia_aou_federico_ii",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – SAIFIP, AO San Camillo-Forlanini, Roma",
+        "url": "https://www.infotrans.it/it-sedi-29-servizio_per_l_adeguamento_tra_identita_fisica_e_identita_psichica_saifip_azienda_ospedaliera_san_camillo_forlanini",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – AOU Policlinico Paolo Giaccone, Palermo",
+        "url": "https://www.infotrans.it/it-sedi-88-aou_policlinico_paolo_giaccone",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – SOD Andrologia, Endocrinologia femminile e Incongruenza di genere, AOU Careggi",
+        "url": "https://www.infotrans.it/it-sedi-73-sod_andrologia_endocrinologia_femminile_incongruenza_di_genere_aou_careggi",
+        "year": null
+      },
+      {
+        "title": "SICPRE – Disforia di genere, i centri italiani (pubblicato 2018, aggiornato 23/12/2024)",
+        "url": "https://www.sicpre.it/disforia-di-genere-i-centri-italiani/",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "slug": "scrotoplastica-protesi",
+    "name": "Scrotoplastica e protesi testicolari ed erettili",
+    "aka": [
+      "Scrotoplastica",
+      "Protesi peniena",
+      "Impianto di protesi testicolari",
+      "Plastica del glande"
+    ],
+    "category": "mascolinizzante",
+    "area": "genitale",
+    "summary": "Interventi che completano falloplastica o metoidioplastica: creazione dello scroto dalle grandi labbra, inserimento di protesi testicolari e, a distanza, di una protesi che rende il neofallo rigido.",
+    "techniques": [
+      {
+        "name": "Scrotoplastica con protesi testicolari",
+        "description": "Le grandi labbra vengono unite e trasformate in scroto, con eventuali protesi in silicone."
+      },
+      {
+        "name": "Protesi erettile idraulica (gonfiabile)",
+        "description": "Permette di alternare stato flaccido ed eretto."
+      },
+      {
+        "name": "Protesi semirigida (malleabile)",
+        "description": "Sempre rigida ma orientabile."
+      },
+      {
+        "name": "Plastica del glande",
+        "description": "Modellamento della punta del neofallo per un aspetto più naturale."
+      }
+    ],
+    "eligibility": "Requisiti clinici (WPATH SOC8, ripresi dalle schede ISS): incongruenza di genere marcata e stabile, capacità di dare il consenso informato, informazione sugli effetti sulla fertilità e sulle possibilità di preservarla, valutazione delle condizioni di salute fisica e mentale che potrebbero influire sull'esito; se si assumono ormoni, una terapia stabile che può includere almeno 6 mesi (o più se serve al risultato chirurgico), salvo che non sia desiderata o sia controindicata. Requisiti legali: la legge 164/1982 (oggi art. 31 del d.lgs. 150/2011) prevede l'autorizzazione del tribunale al trattamento chirurgico. Dal 2015 (Cassazione 15138/2015 e Corte costituzionale 221/2015, poi 180/2017) l'intervento non è più condizione necessaria per la rettifica anagrafica. Con la sentenza 143/2024 la Corte costituzionale ha eliminato l'obbligo di autorizzazione quando il tribunale ritiene già sufficienti le modifiche avvenute: chi ha ottenuto la sentenza di rettifica di nome e genere può accedere all'intervento senza un'ulteriore autorizzazione; in assenza di rettifica serve una sentenza del tribunale di residenza che autorizzi l'intervento. Le schede ISS indicano inoltre la maggiore età oppure, per i minori, il consenso di entrambi i genitori o di chi ne fa le veci. Secondo l'ISS la protesi peniena si inserisce in un secondo momento, dopo le altre fasi della falloplastica.",
+    "hospitalStay": null,
+    "recovery": "Non documentata nelle fonti italiane consultate.",
+    "risks": [
+      "Protesi erettili nel neofallo: infezione dal 4% al 50% (per lo più sotto il 30%), rimozione dal 3% al 42%, revisione o sostituzione dal 6% al 70% (revisione sistematica 2023, 1.106 impianti)",
+      "Spostamento o espulsione delle protesi testicolari, con necessità di reintervento"
+    ],
+    "costs": {
+      "ssn": "Gratuiti nel SSN nei centri pubblici; a Foggia per scrotoplastica e plastica del glande è indicato il ticket. Attese dichiarate all'ISS: Roma San Camillo 6 mesi (protesi peniena), Napoli 6–9 mesi, Foggia 3–6 mesi, Careggi 18–24 mesi, Pisa 2 anni.",
+      "private": null
+    },
+    "providers": [
+      "AO San Camillo-Forlanini, Roma – protesi peniena",
+      "AOU Federico II, Napoli – protesi peniena",
+      "AOU Pisana, Pisa – protesi peniena",
+      "AOU Careggi, Firenze – scrotoplastica, plastica del glande",
+      "AOU Policlinico Riuniti di Foggia – protesi peniena, scrotoplastica, plastica del glande",
+      "AOU Policlinico Paolo Giaccone, Palermo – protesi peniena (secondo SICPRE)"
+    ],
+    "sources": [
+      {
+        "title": "Infotrans (ISS) – Falloplastica (incl. metoidioplastica)",
+        "url": "https://www.infotrans.it/it-schede-24-chirurgia_falloplastica_transgender",
+        "year": null
+      },
+      {
+        "title": "WPATH, Standards of Care for the Health of Transgender and Gender Diverse People, Version 8 (Int J Transgend Health)",
+        "url": "https://doi.org/10.1080/26895269.2022.2100644",
+        "year": 2022
+      },
+      {
+        "title": "Legge 14 aprile 1982, n. 164 – Norme in materia di rettificazione di attribuzione di sesso (Normattiva)",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1982-04-14;164",
+        "year": 1982
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 221/2015",
+        "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2015/221",
+        "year": 2015
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 180/2017",
+        "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2017/180",
+        "year": 2017
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 143/2024 (Gazzetta Ufficiale, 1ª Serie speciale n. 30 del 24-7-2024)",
+        "url": "https://www.gazzettaufficiale.it/eli/id/2024/07/24/T-240143/s1",
+        "year": 2024
+      },
+      {
+        "title": "Infotrans (ISS) – Tutela dell'identità di genere: rassegna legislativa (cita Cass. 15138/2015, C. cost. 221/2015 e 143/2024)",
+        "url": "https://www.infotrans.it/it-schede-25-transgender_rassegna_legislativa",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS) – Il procedimento di rettifica del genere in Italia",
+        "url": "https://www.infotrans.it/it-schede-39-rettifica_genere_italia",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS) – Il percorso di affermazione di genere in pillole (trattamento chirurgico e sentenza 143/2024)",
+        "url": "https://www.infotrans.it/it-schede-7-percorso_affermazione_genere_transgender",
+        "year": null
+      },
+      {
+        "title": "Pang KH et al. Insertion of inflatable penile prosthesis in the neophallus of assigned female at birth individuals: a systematic review. Ther Adv Urol (PMID 37719136)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37719136/",
+        "year": 2023
+      },
+      {
+        "title": "Hu CH et al. A systematic review and meta-analysis of urethral complications and outcomes in transgender men. J Plast Reconstr Aesthet Surg (PMID 34607781)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34607781/",
+        "year": 2022
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – SAIFIP, AO San Camillo-Forlanini, Roma",
+        "url": "https://www.infotrans.it/it-sedi-29-servizio_per_l_adeguamento_tra_identita_fisica_e_identita_psichica_saifip_azienda_ospedaliera_san_camillo_forlanini",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Centro di Andrologia, AOU Federico II, Napoli",
+        "url": "https://www.infotrans.it/it-sedi-84-centro_di_andrologia_e_medicina_della_riproduzione_e_delle_sessualita_maschile_e_femminile_dipartimento_di_medicina_clinica_e_chirurgia_aou_federico_ii",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – AOU Pisana (Cisanello)",
+        "url": "https://www.infotrans.it/it-sedi-119-azienda_ospedaliero_universitaria_pisana_cisanello",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – SOD Andrologia, Endocrinologia femminile e Incongruenza di genere, AOU Careggi",
+        "url": "https://www.infotrans.it/it-sedi-73-sod_andrologia_endocrinologia_femminile_incongruenza_di_genere_aou_careggi",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Ambulatorio disforia di genere, Ospedali Riuniti di Foggia",
+        "url": "https://www.infotrans.it/it-sedi-102-ambulatorio_disforia_di_genere_psichiatria_ospedali_riuniti_foggia",
+        "year": null
+      },
+      {
+        "title": "SICPRE – Disforia di genere, i centri italiani (pubblicato 2018, aggiornato 23/12/2024)",
+        "url": "https://www.sicpre.it/disforia-di-genere-i-centri-italiani/",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "slug": "vaginectomia",
+    "name": "Vaginectomia",
+    "aka": [
+      "Colpectomia",
+      "Chiusura del canale vaginale"
+    ],
+    "category": "mascolinizzante",
+    "area": "genitale",
+    "summary": "Asportazione o chiusura del canale vaginale, di solito eseguita insieme o in preparazione a metoidioplastica o falloplastica con allungamento dell'uretra.",
+    "techniques": [
+      {
+        "name": "Vaginectomia contestuale alla chirurgia genitale",
+        "description": "Secondo l'ISS è parte della metoidioplastica (in un unico tempo) o di uno degli interventi successivi della falloplastica."
+      }
+    ],
+    "eligibility": "Requisiti clinici (WPATH SOC8, ripresi dalle schede ISS): incongruenza di genere marcata e stabile, capacità di dare il consenso informato, informazione sugli effetti sulla fertilità e sulle possibilità di preservarla, valutazione delle condizioni di salute fisica e mentale che potrebbero influire sull'esito; se si assumono ormoni, una terapia stabile che può includere almeno 6 mesi (o più se serve al risultato chirurgico), salvo che non sia desiderata o sia controindicata. Requisiti legali: la legge 164/1982 (oggi art. 31 del d.lgs. 150/2011) prevede l'autorizzazione del tribunale al trattamento chirurgico. Dal 2015 (Cassazione 15138/2015 e Corte costituzionale 221/2015, poi 180/2017) l'intervento non è più condizione necessaria per la rettifica anagrafica. Con la sentenza 143/2024 la Corte costituzionale ha eliminato l'obbligo di autorizzazione quando il tribunale ritiene già sufficienti le modifiche avvenute: chi ha ottenuto la sentenza di rettifica di nome e genere può accedere all'intervento senza un'ulteriore autorizzazione; in assenza di rettifica serve una sentenza del tribunale di residenza che autorizzi l'intervento. Le schede ISS indicano inoltre la maggiore età oppure, per i minori, il consenso di entrambi i genitori o di chi ne fa le veci.",
+    "hospitalStay": null,
+    "recovery": "Segue i tempi dell'intervento genitale a cui è associata.",
+    "risks": [
+      "Emorragia, lesioni di vescica o retto, fistole; le fonti consultate non riportano frequenze specifiche per la vaginectomia isolata"
+    ],
+    "costs": {
+      "ssn": "Gratuita nel SSN. Attese dichiarate all'ISS: Pisa 2 anni (15 interventi nel 2021/2022), Careggi 18–24 mesi (nessun intervento nel biennio).",
+      "private": null
+    },
+    "providers": [
+      "AOU Pisana, Pisa",
+      "AOU Careggi, Firenze"
+    ],
+    "sources": [
+      {
+        "title": "Infotrans (ISS) – Falloplastica (incl. metoidioplastica)",
+        "url": "https://www.infotrans.it/it-schede-24-chirurgia_falloplastica_transgender",
+        "year": null
+      },
+      {
+        "title": "WPATH, Standards of Care for the Health of Transgender and Gender Diverse People, Version 8 (Int J Transgend Health)",
+        "url": "https://doi.org/10.1080/26895269.2022.2100644",
+        "year": 2022
+      },
+      {
+        "title": "Legge 14 aprile 1982, n. 164 – Norme in materia di rettificazione di attribuzione di sesso (Normattiva)",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1982-04-14;164",
+        "year": 1982
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 221/2015",
+        "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2015/221",
+        "year": 2015
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 180/2017",
+        "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2017/180",
+        "year": 2017
+      },
+      {
+        "title": "Corte costituzionale, sentenza n. 143/2024 (Gazzetta Ufficiale, 1ª Serie speciale n. 30 del 24-7-2024)",
+        "url": "https://www.gazzettaufficiale.it/eli/id/2024/07/24/T-240143/s1",
+        "year": 2024
+      },
+      {
+        "title": "Infotrans (ISS) – Tutela dell'identità di genere: rassegna legislativa (cita Cass. 15138/2015, C. cost. 221/2015 e 143/2024)",
+        "url": "https://www.infotrans.it/it-schede-25-transgender_rassegna_legislativa",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS) – Il procedimento di rettifica del genere in Italia",
+        "url": "https://www.infotrans.it/it-schede-39-rettifica_genere_italia",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS) – Il percorso di affermazione di genere in pillole (trattamento chirurgico e sentenza 143/2024)",
+        "url": "https://www.infotrans.it/it-schede-7-percorso_affermazione_genere_transgender",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – AOU Pisana (Cisanello)",
+        "url": "https://www.infotrans.it/it-sedi-119-azienda_ospedaliero_universitaria_pisana_cisanello",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – SOD Andrologia, Endocrinologia femminile e Incongruenza di genere, AOU Careggi",
+        "url": "https://www.infotrans.it/it-sedi-73-sod_andrologia_endocrinologia_femminile_incongruenza_di_genere_aou_careggi",
+        "year": null
+      }
+    ]
+  },
+  {
+    "slug": "crioconservazione-gameti",
+    "name": "Crioconservazione di gameti (ovociti e spermatozoi)",
+    "aka": [
+      "Preservazione della fertilità",
+      "Banca del seme",
+      "Congelamento degli ovociti"
+    ],
+    "category": "altro",
+    "area": "riproduttiva",
+    "summary": "Congelamento di spermatozoi, ovociti o tessuto gonadico prima che terapia ormonale o chirurgia riducano o eliminino la fertilità, per un possibile uso futuro con la procreazione assistita.",
+    "techniques": [
+      {
+        "name": "Crioconservazione del seme",
+        "description": "Raccolta per masturbazione, vibrostimolazione o prelievo dal testicolo. È preferibile prima di estrogeni o antiandrogeni; se la terapia è già iniziata, l'ISS indica una sospensione di almeno 3 mesi, con possibile riduzione della qualità del campione."
+      },
+      {
+        "name": "Crioconservazione degli ovociti",
+        "description": "Richiede stimolazione ormonale, controlli ecografici ripetuti e prelievo per via transvaginale in sedazione: può essere fonte di disagio per alcune persone. Studi preliminari suggeriscono risultati soddisfacenti anche dopo l'inizio del testosterone."
+      },
+      {
+        "name": "Tessuto ovarico o testicolare",
+        "description": "Prelievo chirurgico, anche durante istero-annessiectomia o orchiectomia; tecnica ancora in parte sperimentale."
+      }
+    ],
+    "eligibility": "Nessun requisito legale per la crioconservazione. Va però considerato che la legge 40/2004, come riportato dall'ISS, consente la procreazione medicalmente assistita solo a coppie di sesso diverso coniugate o conviventi: questo limita in Italia l'uso futuro dei gameti conservati.",
+    "hospitalStay": "Nessuno per il seme; il prelievo di ovociti è una procedura in giornata in sedazione.",
+    "recovery": "Raccolta del seme: nessuna convalescenza. Stimolazione ovarica: richiede controlli ripetuti prima del prelievo; i tempi vanno chiesti al centro.",
+    "risks": [
+      "Stimolazione ovarica e prelievo: rischi medici della procedura (incluso il disagio legato agli estrogeni prodotti)",
+      "Nessuna garanzia di gravidanza futura; la qualità dei gameti può essere ridotta se la terapia ormonale è già in corso"
+    ],
+    "costs": {
+      "ssn": "Alcuni centri pubblici censiti dall'ISS offrono la crioconservazione dei gameti a persone trans con ticket: Centro di Sterilità della Federico II (attesa circa 2 giorni), Policlinico Umberto I di Roma, Endocrinologia pediatrica della Federico II; a L'Aquila la prima visita costa 100 €. In Toscana la rete regionale coordinata da Careggi dispone di una banca del seme maschile e si appoggia alle ginecologie regionali per gli ovociti. Al di fuori di questi percorsi il SSN copre la crioconservazione degli ovociti soprattutto per motivi oncologici.",
+      "private": "Per gli ovociti, circa 2.000–4.000 € per l'intero percorso più circa 400–500 € l'anno di conservazione secondo una stima giornalistica del 2026; i listini delle singole cliniche variano e spesso escludono i farmaci. Nessuna cifra privata documentata per il seme."
+    },
+    "providers": [
+      "AOU Federico II, Napoli – Centro di Sterilità",
+      "AOU Policlinico Umberto I, Roma – Endocrinologia e Andrologia",
+      "Ospedale San Salvatore, L'Aquila (ASL 1 Abruzzo) – Banca del seme",
+      "AOU Careggi, Firenze – rete regionale toscana (CRIG)"
+    ],
+    "sources": [
+      {
+        "title": "Infotrans (ISS) – Preservazione della fertilità e percorso di affermazione di genere",
+        "url": "https://www.infotrans.it/it-schede-43-preservazione_fertilita_transgender",
+        "year": null
+      },
+      {
+        "title": "Yan M et al. Systematic review of fertility preservation options in transgender patients. Ann Transl Med (PMID 33987311)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33987311/",
+        "year": 2021
+      },
+      {
+        "title": "WPATH, Standards of Care for the Health of Transgender and Gender Diverse People, Version 8 (Int J Transgend Health)",
+        "url": "https://doi.org/10.1080/26895269.2022.2100644",
+        "year": 2022
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Centro di Sterilità, AOU Federico II, Napoli",
+        "url": "https://www.infotrans.it/it-sedi-95-centro_di_sterilita_aou_federico_ii",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – Ambulatorio di Endocrinologia e Andrologia, AOU Policlinico Umberto I, Roma",
+        "url": "https://www.infotrans.it/it-sedi-65-ambulatorio_di_endocrinologia_e_andrologia_smid_04_aou_policlinico_umberto_i",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – UOC Andrologia medica e Banca del seme, Ospedale San Salvatore, L'Aquila",
+        "url": "https://www.infotrans.it/it-sedi-12-uoc_andrologia_medica_e_banca_del_seme_ospedale_san_salvatore_l_aquila",
+        "year": null
+      },
+      {
+        "title": "Infotrans (ISS), mappa dei servizi – SOD Andrologia, Endocrinologia femminile e Incongruenza di genere, AOU Careggi",
+        "url": "https://www.infotrans.it/it-sedi-73-sod_andrologia_endocrinologia_femminile_incongruenza_di_genere_aou_careggi",
+        "year": null
+      },
+      {
+        "title": "Dequo – Congelare gli ovuli in Italia: costi e copertura SSN",
+        "url": "https://www.dequo.it/articoli/congelare-ovuli",
+        "year": 2026
+      }
+    ]
+  }
+]

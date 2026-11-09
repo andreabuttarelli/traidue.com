@@ -1,0 +1,174 @@
+[
+  {
+    "id": "giulia-lo-russo",
+    "name": "Dott.ssa Giulia Lo Russo",
+    "institution": "Day Surgery Center Maurizio Bufalini (privato); in convenzione SSN presso Casa di Cura Leonardo, Vinci (FI) e una struttura di Bologna",
+    "city": "Firenze",
+    "country": "IT",
+    "sector": "entrambi",
+    "procedures": [
+      "mastectomia"
+    ],
+    "url": "https://giulialorusso.com/interventi/creazione-torace-maschile/",
+    "source": "https://giulialorusso.com/creazione-del-torace-maschile-istruzioni-per-sottoporsi-allintervento/",
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "patrizio-vicini",
+    "name": "Prof. Patrizio Vicini",
+    "institution": "Roma Gender Team (poliambulatorio privato)",
+    "city": "Roma",
+    "country": "IT",
+    "sector": "privato",
+    "procedures": [
+      "vaginoplastica",
+      "falloplastica",
+      "scrotoplastica-protesi"
+    ],
+    "url": "https://www.patriziovicini.it/roma-gender-team/",
+    "source": "https://www.patriziovicini.it/roma-gender-team/",
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "andrea-luigi-cavalot",
+    "name": "Prof. Andrea Luigi Cavalot",
+    "institution": "Ospedale Santa Croce, Moncalieri (ASL TO5) – Otorinolaringoiatria",
+    "city": "Moncalieri (TO)",
+    "country": "IT",
+    "sector": "pubblico",
+    "procedures": [
+      "femminilizzazione-voce"
+    ],
+    "url": "https://www.infotrans.it/it-sedi-43-ospedale_santa_croce",
+    "source": "https://www.infotrans.it/it-sedi-43-ospedale_santa_croce",
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "andrea-ricci-maccarini",
+    "name": "Dott. Andrea Ricci Maccarini",
+    "institution": "Ospedale Maurizio Bufalini (AUSL Romagna) – Voice Center, UO ORL",
+    "city": "Cesena",
+    "country": "IT",
+    "sector": "pubblico",
+    "procedures": [
+      "femminilizzazione-voce"
+    ],
+    "url": "https://www.infotrans.it/it-sedi-11-voice_center_uo_orl_ospedale_maurizio_bufalini_cesena",
+    "source": "https://www.infotrans.it/it-sedi-11-voice_center_uo_orl_ospedale_maurizio_bufalini_cesena",
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "ciro-imbimbo",
+    "name": "Prof. Ciro Imbimbo",
+    "institution": "AOU Federico II – UOC di Urologia Andrologica",
+    "city": "Napoli",
+    "country": "IT",
+    "sector": "pubblico",
+    "procedures": [
+      "orchiectomia"
+    ],
+    "url": "https://www.infotrans.it/it-sedi-84-centro_di_andrologia_e_medicina_della_riproduzione_e_delle_sessualita_maschile_e_femminile_dipartimento_di_medicina_clinica_e_chirurgia_aou_federico_ii",
+    "source": "https://www.infotrans.it/it-sedi-84-centro_di_andrologia_e_medicina_della_riproduzione_e_delle_sessualita_maschile_e_femminile_dipartimento_di_medicina_clinica_e_chirurgia_aou_federico_ii",
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "simone-la-padula",
+    "name": "Dott. Simone La Padula",
+    "institution": "AOU Federico II – Chirurgia Plastica",
+    "city": "Napoli",
+    "country": "IT",
+    "sector": "pubblico",
+    "procedures": [
+      "mastectomia",
+      "mastoplastica-additiva",
+      "falloplastica"
+    ],
+    "url": "https://www.infotrans.it/it-sedi-84-centro_di_andrologia_e_medicina_della_riproduzione_e_delle_sessualita_maschile_e_femminile_dipartimento_di_medicina_clinica_e_chirurgia_aou_federico_ii",
+    "source": "https://www.infotrans.it/it-sedi-84-centro_di_andrologia_e_medicina_della_riproduzione_e_delle_sessualita_maschile_e_femminile_dipartimento_di_medicina_clinica_e_chirurgia_aou_federico_ii",
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "giovanni-zabbia",
+    "name": "Dott. Giovanni Zabbia",
+    "institution": "AOU Policlinico Paolo Giaccone – Chirurgia Plastica e Ricostruttiva",
+    "city": "Palermo",
+    "country": "IT",
+    "sector": "pubblico",
+    "procedures": [
+      "vaginoplastica",
+      "falloplastica",
+      "metoidioplastica",
+      "mastectomia",
+      "mastoplastica-additiva"
+    ],
+    "url": "https://www.infotrans.it/it-sedi-88-aou_policlinico_paolo_giaccone",
+    "source": "https://www.infotrans.it/it-sedi-88-aou_policlinico_paolo_giaccone",
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "felice-garofalo",
+    "name": "Dott. Felice Garofalo",
+    "institution": "Clinica del Mediterraneo (privata accreditata SSN)",
+    "city": "Ragusa",
+    "country": "IT",
+    "sector": "entrambi",
+    "procedures": [
+      "mastectomia"
+    ],
+    "url": "https://www.infotrans.it/it-sedi-40-clinica_del_mediterraneo",
+    "source": "https://www.infotrans.it/it-sedi-40-clinica_del_mediterraneo",
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "francesco-barletta",
+    "name": "Dott. Francesco Barletta",
+    "institution": "Nuovo Ospedale dei Castelli (ASL Roma 6)",
+    "city": "Ariccia (RM)",
+    "country": "IT",
+    "sector": "pubblico",
+    "procedures": [
+      "isterectomia"
+    ],
+    "url": "https://www.infotrans.it/it-sedi-113-nuovo_ospedale_dei_castelli",
+    "source": "https://www.infotrans.it/it-sedi-113-nuovo_ospedale_dei_castelli",
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "miroslav-djordjevic",
+    "name": "Prof. Miroslav Djordjevic",
+    "institution": "Belgrade Center for Genital Reconstructive Surgery",
+    "city": "Belgrado",
+    "country": "RS",
+    "sector": "privato",
+    "procedures": [
+      "vaginoplastica",
+      "metoidioplastica",
+      "falloplastica",
+      "mastectomia",
+      "isterectomia"
+    ],
+    "url": "https://belgradegenitalsurgery.com/",
+    "source": "https://belgradegenitalsurgery.com/",
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "ivan-manero",
+    "name": "Dr. Iván Mañero",
+    "institution": "IM Gender – IM Clinic",
+    "city": "Sant Cugat del Vallès (Barcellona)",
+    "country": "ES",
+    "sector": "privato",
+    "procedures": [
+      "vaginoplastica",
+      "femminilizzazione-viso",
+      "mastoplastica-additiva",
+      "falloplastica",
+      "metoidioplastica",
+      "mastectomia",
+      "isterectomia"
+    ],
+    "url": "https://imgender.com/en",
+    "source": "https://imgender.com/en",
+    "verified": "2026-11-09"
+  }
+]
