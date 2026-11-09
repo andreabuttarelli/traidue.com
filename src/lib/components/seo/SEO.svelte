@@ -1,6 +1,7 @@
 <script lang="ts">
+	import { page } from '$app/state';
 	import { getLocale } from '$lib/paraglide/runtime';
-	import { SITE } from '$lib/site';
+	import { SITE, siteUrl } from '$lib/site';
 
 	let {
 		title,
@@ -28,6 +29,11 @@
 	} = $props();
 
 	const locale = getLocale();
+	// Callers pass the de-localized path (e.g. /giovani) even on /en/giovani: derive the
+	// canonical from the URL actually served so every locale self-canonicalizes.
+	const canonical = siteUrl(page.url.pathname === '/' ? '' : page.url.pathname);
+	// localizeHref('/') yields "/en/", which 308-redirects to "/en": strip the trailing slash.
+	const stripSlash = (href: string) => href.replace(/(?<=[^/])\/$/, '');
 	const ogLocaleMap: Record<string, string> = {
 		it: 'it_IT',
 		en: 'en_US',
@@ -45,21 +51,21 @@
 	{:else}
 		<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 	{/if}
-	<link rel="canonical" href={url} />
+	<link rel="canonical" href={canonical} />
 
 	{#if Object.keys(alternateUrls).length > 0}
 		{#each Object.entries(alternateUrls) as [lang, href]}
-			<link rel="alternate" hreflang={lang} href={href} />
+			<link rel="alternate" hreflang={lang} href={stripSlash(href)} />
 		{/each}
-		<link rel="alternate" hreflang="x-default" href={alternateUrls['it'] ?? url} />
+		<link rel="alternate" hreflang="x-default" href={stripSlash(alternateUrls['it'] ?? canonical)} />
 	{:else}
-		<link rel="alternate" hreflang={locale} href={url} />
-		<link rel="alternate" hreflang="x-default" href={url} />
+		<link rel="alternate" hreflang={locale} href={canonical} />
+		<link rel="alternate" hreflang="x-default" href={canonical} />
 	{/if}
 
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
-	<meta property="og:url" content={url} />
+	<meta property="og:url" content={canonical} />
 	<meta property="og:image" content={image} />
 	<meta property="og:type" content={type} />
 	<meta property="og:locale" content={ogLocale} />
