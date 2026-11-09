@@ -1,0 +1,48 @@
+# Builds on GitHub runners (free for public repos) and uploads the prebuilt output,
+# so Vercel never runs a build. Git-triggered Vercel builds are off in vercel.json.
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  VERCEL_ORG_ID: team_wWk9EtwETritPiiIdh0CHqua
+  VERCEL_PROJECT_ID: prj_6y1nPWnxJqEKdw4rkDwOQ0cJ2mRp # transwiki.co
+  TARGET: ${{ github.event_name == 'push' && 'production' || 'preview' }}
+  # Vercel env vars are "sensitive" and `vercel pull` returns them empty, so the public
+  # build values live here (site) and in repo variables (Firebase web config, public by design).
+  PUBLIC_SITE_URL: https://www.transwiki.co
+  PUBLIC_SITE_DOMAIN: transwiki.co
+  PUBLIC_SITE_BRAND: TransWiki
+  PUBLIC_FIREBASE_API_KEY: ${{ vars.PUBLIC_FIREBASE_API_KEY }}
+  PUBLIC_FIREBASE_AUTH_DOMAIN: ${{ vars.PUBLIC_FIREBASE_AUTH_DOMAIN }}
+  PUBLIC_FIREBASE_PROJECT_ID: ${{ vars.PUBLIC_FIREBASE_PROJECT_ID }}
+  PUBLIC_FIREBASE_STORAGE_BUCKET: ${{ vars.PUBLIC_FIREBASE_STORAGE_BUCKET }}
+  PUBLIC_FIREBASE_MESSAGING_SENDER_ID: ${{ vars.PUBLIC_FIREBASE_MESSAGING_SENDER_ID }}
+  PUBLIC_FIREBASE_APP_ID: ${{ vars.PUBLIC_FIREBASE_APP_ID }}
+  PUBLIC_FIREBASE_MEASUREMENT_ID: ${{ vars.PUBLIC_FIREBASE_MEASUREMENT_ID }}
+
+jobs:
+  deploy:
+    # Fork PRs get no secrets: skip instead of failing.
+    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm i -g vercel@latest
+      - run: vercel pull --yes --environment=$TARGET --token=${{ secrets.VERCEL_TOKEN }}
+      # Drop the pulled (empty) values so the env above is what the build sees.
+      - run: rm -f .vercel/.env.*.local
+      - run: vercel build ${{ env.TARGET == 'production' && '--prod' || '' }} --token=${{ secrets.VERCEL_TOKEN }}
+      - id: deploy
+        run: echo "url=$(vercel deploy --prebuilt ${{ env.TARGET == 'production' && '--prod' || '' }} --token=${{ secrets.VERCEL_TOKEN }})" >> "$GITHUB_OUTPUT"
+      - run: echo "Deployed ${{ steps.deploy.outputs.url }}" >> "$GITHUB_STEP_SUMMARY"
