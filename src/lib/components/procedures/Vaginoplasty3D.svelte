@@ -128,7 +128,7 @@
 
 			// keep x <= 0.5 mm: the right half is cut away and the camera looks at the cut face
 			const cut = [new THREE.Plane(new THREE.Vector3(-1, 0, 0), 0.5)];
-			const CLIPPED: Part[] = ['skin_penile', 'skin_scrotal', 'bladder', 'prostate', 'urethra', 'rectum', 'anal_sphincter', 'sacrum', 'corpora_cavernosa', 'corpus_spongiosum', 'glans', 'hip_left'];
+			const CLIPPED: Part[] = ['skin_penile', 'skin_scrotal', 'bladder', 'prostate', 'urethra', 'rectum', 'anal_sphincter', 'sacrum', 'corpora_cavernosa', 'corpus_spongiosum', 'glans', 'hip_left', 'canal', 'packing', 'f_vulva', 'f_vagina'];
 
 			const css = (v: string) => getComputedStyle(wrapEl).getPropertyValue(v).trim();
 			const palette = () => {
@@ -346,7 +346,7 @@
 				}
 				const ure = items.get('urethra')!.mat;
 				ure.clippingPlanes = [...(section ? cut : []), ...(n >= 8 ? [urethraEnd] : [])];
-				for (const p of CLIPPED) if (p !== 'urethra') items.get(p)!.mat.clippingPlanes = section ? cut : [];
+				for (const p of CLIPPED) if (p !== 'urethra' && items.has(p)) items.get(p)!.mat.clippingPlanes = section ? cut : [];
 				if (reduced) for (const it of items.values()) snap(it);
 			};
 			applyStep(step);
