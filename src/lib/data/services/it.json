@@ -83,7 +83,7 @@
     "lat": 43.8083,
     "lng": 11.24839,
     "website": "https://www.aou-careggi.toscana.it/internet/diagnosi-e-cura/dipartimenti/strutture-organizzative-dipartimentali-sod/andrologia-ed-endocrinologia-di-genere/",
-    "phone": "+39 055 794 8000",
+    "phone": "+39 055 794 9960",
     "description": "Struttura che coordina la rete toscana per l'incongruenza di genere in età adulta ed evolutiva. Si accede con richiesta del medico di base o del pediatra, prenotando al servizio telefonico aziendale.",
     "source": "https://www.aou-careggi.toscana.it/internet/diagnosi-e-cura/dipartimenti/strutture-organizzative-dipartimentali-sod/andrologia-ed-endocrinologia-di-genere/",
     "verified": "2026-11-09",
@@ -195,7 +195,8 @@
       "09:00–15:00",
       null,
       null
-    ]
+    ],
+    "phone": "+39 080 559 2160"
   },
   {
     "id": "policlinico-giaccone-palermo",
@@ -350,9 +351,9 @@
     "address": "Viale Verona, Centro Servizi Sanitari (Palazzina B), Trento",
     "lat": 46.05597,
     "lng": 11.1288,
-    "website": "https://www.apss.tn.it/",
+    "website": "https://www.asuit.tn.it/",
     "description": "Ambulatorio endocrinologico pubblico per la terapia ormonale nei percorsi di affermazione di genere.",
-    "source": "https://www.infotrans.it/it-sedi-133-ambulatorio_endocrinologico_per_la_disforia_di_genere_azienda_provinciale_per_i_servizi_sanitari_trento",
+    "source": "https://www.asuit.tn.it/",
     "verified": "2026-11-09",
     "infotrans": "https://www.infotrans.it/it-sedi-133-ambulatorio_endocrinologico_per_la_disforia_di_genere_azienda_provinciale_per_i_servizi_sanitari_trento",
     "hours": [
@@ -1956,9 +1957,8 @@
     "lng": 11.3354,
     "website": null,
     "description": "Associazione o collettivo a Bologna. Alcuni servizi richiedono la tessera associativa. Linee guida: WPATH.",
-    "source": "https://www.infotrans.it/it-sedi-62-arcigay_aps",
+    "source": "https://www.cassero.it/",
     "verified": "2026-11-09",
-    "origin": "infotrans",
     "hours": [
       "09:30–17:00",
       "09:30–17:00",
@@ -1967,7 +1967,8 @@
       "09:30–17:00",
       null,
       null
-    ]
+    ],
+    "infotrans": "https://www.infotrans.it/it-sedi-62-arcigay_aps"
   },
   {
     "id": "centro-clinico-e-di-ricerca-6-come-sei-facolta-di-medicina-e-psicologi",
@@ -1978,11 +1979,10 @@
     "address": "Via Dei Marsi, 78, Roma (RM)",
     "lat": 41.89652,
     "lng": 12.51617,
-    "website": null,
-    "description": "Servizio del Servizio Sanitario Nazionale a Roma. Rilascia la valutazione psicologica per il percorso di affermazione di genere. Linee guida: ONIG, WPATH.",
-    "source": "https://www.infotrans.it/it-sedi-63-centro_clinico_e_di_ricerca_6_come_sei_facolta_di_medicina_e_psicologia_sapienza_universita_di_roma",
+    "website": "https://www.uniroma1.it/it/pagina/iga-identita-genere-e-affermazione",
+    "description": "Servizio clinico e di ricerca della Sapienza (Facoltà di Medicina e Psicologia) che offre accoglienza, sostegno psicologico a persone trans e di genere diverso e relazione psicodiagnostica per l'accesso ai percorsi medici e legali. Si accede solo su prenotazione (seicomesei@uniroma1.it). La terapia ormonale si svolge in un servizio separato del Policlinico Umberto I.",
+    "source": "https://www.uniroma1.it/it/pagina/iga-identita-genere-e-affermazione",
     "verified": "2026-11-09",
-    "origin": "infotrans",
     "phone": "+39 3336633590",
     "hours": [
       "09:00–20:00",
@@ -1992,7 +1992,8 @@
       "09:00–20:00",
       null,
       null
-    ]
+    ],
+    "infotrans": "https://www.infotrans.it/it-sedi-63-centro_clinico_e_di_ricerca_6_come_sei_facolta_di_medicina_e_psicologia_sapienza_universita_di_roma"
   },
   {
     "id": "ambulatorio-di-endocrinologia-e-andrologia-smid-04-aou-policlinico-umb",
@@ -2840,9 +2841,8 @@
     "lng": 12.45702,
     "website": null,
     "description": "Associazione o collettivo a Roma.",
-    "source": "https://www.infotrans.it/it-sedi-126-spazio_plus_arcobaleno_croce_rossa_italiana_comitato_area_metropolitana_di_roma_capitale",
+    "source": "https://www.uniroma1.it/it/pagina/croce-rossa-italiana-comitato-area-metropolitana-di-roma-capitale-odv",
     "verified": "2026-11-09",
-    "origin": "infotrans",
     "hours": [
       "08:00–16:00",
       "08:00–16:00",
@@ -2851,7 +2851,8 @@
       "08:00–16:00",
       null,
       null
-    ]
+    ],
+    "infotrans": "https://www.infotrans.it/it-sedi-126-spazio_plus_arcobaleno_croce_rossa_italiana_comitato_area_metropolitana_di_roma_capitale"
   },
   {
     "id": "fondazione-policlinico-universitario-agostino-gemelli-irccs-roma",
@@ -2863,11 +2864,10 @@
     "lat": 41.92701,
     "lng": 12.42998,
     "website": null,
-    "description": "Servizio del Servizio Sanitario Nazionale a Roma.",
-    "source": "https://www.infotrans.it/it-sedi-127-fondazione_policlinico_universitario_agostino_gemelli_irccs",
+    "description": "Dal marzo 2024 il Gemelli ha un ambulatorio multidisciplinare (psichiatria, neuropsichiatria, psicologia clinica) per giovani con difficoltà legate all'identità di genere e per le loro famiglie. Prima consulenza su prenotazione.",
+    "source": "https://www.policlinicogemelli.it/news-eventi/al-gemelli-apre-lambulatorio-multidisciplinare-per-la-disforia-di-genere",
     "verified": "2026-11-09",
-    "origin": "infotrans",
-    "phone": "+39 3287314720",
+    "phone": "+39 06 3015 4122",
     "hours": [
       "8:00–19:00",
       "8:00–19:00",
@@ -2876,7 +2876,8 @@
       "8:00–19:00",
       "8:00–12:30",
       null
-    ]
+    ],
+    "infotrans": "https://www.infotrans.it/it-sedi-127-fondazione_policlinico_universitario_agostino_gemelli_irccs"
   },
   {
     "id": "arcigay-valle-d-aosta-queer-vda-aosta",
@@ -3038,9 +3039,8 @@
     "lng": 15.64846,
     "website": null,
     "description": "Associazione o collettivo a Reggio Calabria. Offre sostegno e accompagnamento. Rilascia la valutazione psicologica per il percorso di affermazione di genere. Percorso psicologico: 180,00 €. Linee guida: WPATH.",
-    "source": "https://www.infotrans.it/it-sedi-138-arcigay_reggio_calabria_i_due_mari",
+    "source": "https://www.arcigay.it/en/?p=70418",
     "verified": "2026-11-09",
-    "origin": "infotrans",
     "hours": [
       "10:00–12:00",
       "15:00–17:00",
@@ -3049,7 +3049,8 @@
       "17:00–20:00",
       null,
       null
-    ]
+    ],
+    "infotrans": "https://www.infotrans.it/it-sedi-138-arcigay_reggio_calabria_i_due_mari"
   },
   {
     "id": "centro-di-arci-valdera-voice-dai-voce-ai-tuoi-diritti-pontedera",
@@ -3647,6 +3648,34 @@
     "email": "mailamica@arcigaymilano.org",
     "description": "Telefono amico (lunedì, mercoledì e venerdì sera), chat social e accoglienza in sede la domenica pomeriggio per persone LGBT+, con orientamento verso sportello psicologico e consulenza legale.",
     "source": "https://www.arcigaymilano.org/servizi-e-attivita/",
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "spad-comune-bologna-sportello-antidiscriminazioni",
+    "name": "Sportello Antidiscriminazioni SPAD – Comune di Bologna",
+    "type": "legal",
+    "city": "Bologna",
+    "region": "Emilia-Romagna",
+    "address": "Via don Minzoni 18, 40121 Bologna",
+    "lat": 44.50294,
+    "lng": 11.33515,
+    "website": null,
+    "description": "Sportello municipale che raccoglie segnalazioni di discriminazione, anche basate sull'identità di genere e sull'orientamento sessuale, e le indirizza alla rete dei servizi. Non è riservato in modo esclusivo alle persone trans.",
+    "source": "https://www.cittametropolitana.bo.it/immigrazione/Antidiscriminazione/rete_antidiscriminazione (indirizzo e gestione); https://www.cospe.org/wp-content/uploads/2026/03/Quarto-Rapporto-dellOsservatorio-dello-Sportello-Antidiscriminazioni-del-Comune-di-Bologna-2025.pdf (attività 2025)",
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "arcigay-viterbo-gruppo-trans-self-help",
+    "name": "Transgender Self-Help Group & Enby – Arcigay Viterbo (Sportello Arcobaleno)",
+    "type": "support-group",
+    "city": "Viterbo",
+    "region": "Lazio",
+    "address": "Via Vicenza 13, Viterbo",
+    "lat": 42.41919,
+    "lng": 12.11418,
+    "website": "https://www.arcigay.it/en/?p=85781",
+    "description": "Gruppo di auto-mutuo aiuto per persone trans e non binarie promosso da Arcigay Viterbo nell'ambito dello Sportello Arcobaleno. Si riunisce un venerdì al mese (ogni secondo venerdì) nella sede di Via Vicenza 13, con l'obiettivo di contrastare transfobia e isolamento sociale.",
+    "source": "https://www.arcigay.it/en/?p=85781",
     "verified": "2026-11-09"
   }
 ]
