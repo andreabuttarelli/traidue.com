@@ -1,6 +1,8 @@
 import { getAllArticles, getTranslations } from '$lib/utils/wiki';
 import { getAllQuizzes } from '$lib/utils/quiz';
 import { SITE } from '$lib/site';
+import { getServices } from '$lib/data/services';
+import { getProcedures, PROCEDURES_PUBLIC } from '$lib/data/procedures';
 
 export const prerender = true;
 
@@ -87,6 +89,29 @@ ${altLinks}
 	return entries.join('\n');
 }
 
+// Services exist only in it (Italy) and en (UK), with different entries: no hreflang alternates.
+function renderServiceEntries(): string {
+	return (['it', 'en'] as const)
+		.flatMap((lang) => {
+			const country = getServices(lang);
+			if (!country) return [];
+			const procedures = (PROCEDURES_PUBLIC && getProcedures(lang)) || [];
+			const paths = [
+				'/servizi',
+				...country.services.map((s) => `/servizi/${s.id}`),
+				...(procedures.length ? ['/operazioni', ...procedures.map((p) => `/operazioni/${p.slug}`)] : [])
+			];
+			return paths.map(
+				(p) => `  <url>
+    <loc>${localizeUrl(p, lang)}</loc>
+    <priority>${p === '/servizi' || p === '/operazioni' ? '0.8' : '0.6'}</priority>
+    <changefreq>monthly</changefreq>
+  </url>`
+			);
+		})
+		.join('\n');
+}
+
 export async function GET() {
 	const articles = getAllArticles();
 	const quizzes = getAllQuizzes();
@@ -119,6 +144,7 @@ export async function GET() {
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${renderUrlEntries([...staticPages, ...quizUrls])}
 ${renderArticleEntries(articles)}
+${renderServiceEntries()}
 </urlset>`;
 
 	return new Response(sitemap, {

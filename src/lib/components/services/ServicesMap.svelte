@@ -1,0 +1,424 @@
+<script lang="ts">
+	import 'leaflet/dist/leaflet.css';
+	import 'leaflet.markercluster/dist/MarkerCluster.css';
+	import { onMount } from 'svelte';
+	import type { Map as LeafletMap, MarkerClusterGroup, CircleMarker, LatLngExpression, LatLngBoundsLiteral } from 'leaflet';
+	import type { ServicesCountry, ServiceType } from '$lib/data/services';
+	import * as m from '$lib/paraglide/messages';
+	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
+	import { page } from '$app/state';
+	import { getProcedures, PROCEDURES_PUBLIC, surgeons } from '$lib/data/procedures';
+	import type { WikiArticle } from '$lib/utils/wiki';
+
+	// list=false: compact hero (map + filters), the full list lives on /servizi.
+	let { data, list = true }: { data: ServicesCountry; list?: boolean } = $props();
+
+	const detailHref = (id: string) => localizeHref(`/servizi/${id}`);
+
+	const typeLabels: Record<ServiceType, () => string> = {
+		clinic: m.services_type_clinic,
+		consultorio: m.services_type_consultorio,
+		association: m.services_type_association,
+		legal: m.services_type_legal,
+		helpline: m.services_type_helpline,
+		'support-group': m.services_type_support_group
+	};
+	const types = $derived([...new Set(data.services.map((s) => s.type))]);
+
+	let query = $state('');
+	let activeType = $state<ServiceType | null>(null);
+
+	const normalize = (s: string) => s.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase();
+
+	const filtered = $derived.by(() => {
+		const q = normalize(query.trim());
+		return data.services.filter(
+			(s) =>
+				(!activeType || s.type === activeType) &&
+				(!q || normalize(`${s.name} ${s.city} ${s.region} ${s.description}`).includes(q))
+		);
+	});
+
+	// Hero only: the field also searches procedures, surgeons and wiki articles (layout data).
+	const procedures = getProcedures(getLocale()) ?? [];
+	let resultsOpen = $state(false);
+	const results = $derived.by(() => {
+		const q = normalize(query.trim());
+		if (list || q.length < 2) return null;
+		const has = (...fields: (string | null | undefined)[]) => normalize(fields.filter(Boolean).join(' ')).includes(q);
+		const articles = (page.data.allArticles ?? []) as WikiArticle[];
+		const groups = [
+			{ label: m.search_group_services(), items: filtered.slice(0, 4).map((s) => ({ href: detailHref(s.id), title: s.name, meta: s.city ?? m.services_national() })) },
+			{ label: m.nav_procedures(), items: (PROCEDURES_PUBLIC ? procedures : []).filter((p) => has(p.name, ...(p.aka ?? []), p.summary)).slice(0, 4).map((p) => ({ href: localizeHref(`/operazioni/${p.slug}`), title: p.name, meta: p.area })) },
+			{ label: m.procedures_surgeons(), items: (PROCEDURES_PUBLIC ? surgeons : []).filter((s) => has(s.name, s.city, s.institution)).slice(0, 3).map((s) => ({ href: `${localizeHref('/operazioni')}#chirurghi`, title: s.name, meta: s.city })) },
+			{ label: m.search_group_articles(), items: articles.filter((a) => has(a.title, a.description, ...(a.tags ?? []))).slice(0, 4).map((a) => ({ href: localizeHref(`/wiki/${a.slug}`), title: a.title, meta: a.category })) }
+		].filter((g) => g.items.length);
+		return groups;
+	});
+
+	let mapEl: HTMLDivElement;
+	let overlayEl: HTMLDivElement | undefined = $state();
+	let map: LeafletMap | undefined = $state();
+	let layer: MarkerClusterGroup | undefined;
+	const markers = new Map<string, CircleMarker>();
+
+	// Natural Earth (public domain), simplified: land, region borders, neighbouring countries.
+	const basemaps = {
+		IT: () => import('$lib/data/services/basemap-it.json'),
+		UK: () => import('$lib/data/services/basemap-uk.json')
+	};
+
+	const escape = (s: string) =>
+		s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!);
+
+	// Count-up on the title; SSR keeps the real number for crawlers and no-JS.
+	let shownTotal = $state(data.services.length);
+	onMount(() => {
+		const total = data.services.length;
+		if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+		const start = performance.now();
+		let raf = 0;
+		const tick = (now: number) => {
+			const t = Math.min((now - start) / 1200, 1);
+			shownTotal = Math.round(total * (1 - Math.pow(1 - t, 3)));
+			if (t < 1) raf = requestAnimationFrame(tick);
+		};
+		raf = requestAnimationFrame(tick);
+		return () => cancelAnimationFrame(raf);
+	});
+
+	onMount(() => {
+		let disposed = false;
+		Promise.all([import('leaflet'), basemaps[data.country]()]).then(async ([leaflet, basemap]) => {
+			const L = leaflet.default;
+			// markercluster is a UMD plugin: it patches the global L.
+			(window as unknown as { L: typeof L }).L = L;
+			await import('leaflet.markercluster');
+			if (disposed) return;
+			// zoomSnap 0: pinch zooms smoothly instead of jumping a whole level.
+			const lmap = L.map(mapEl, {
+				scrollWheelZoom: false,
+				attributionControl: false,
+				zoomControl: list,
+				minZoom: 2,
+				maxZoom: 10,
+				zoomSnap: 0,
+				// Draw the vector map a full viewport beyond each edge, so dragging doesn't reveal
+				// an empty band until Leaflet redraws on moveend.
+				renderer: L.svg({ padding: 1 }),
+				// A fast flick could throw the map into empty ocean: cap inertia, stay inside the world.
+				inertiaMaxSpeed: 1500,
+				maxBounds: [
+					[-85, -180],
+					[85, 180]
+				],
+				maxBoundsViscosity: 1
+			}).setView(data.center, data.zoom);
+			// Hero: the top-left corner sits under the text, so the buttons go bottom-right.
+			if (!list) L.control.zoom({ position: 'bottomright' }).addTo(lmap);
+			pinchZoom(lmap, mapEl);
+			// Vector basemap, no tiles: colours come from the theme tokens (styles at the bottom).
+			L.geoJSON(basemap.default as GeoJSON.FeatureCollection, {
+				interactive: false,
+				style: (f) => ({ className: `basemap-${f?.properties.k}` })
+			}).addTo(lmap);
+			// Airbnb-style: nearby points merge into a counter; click zooms in, same-spot points fan out at max zoom.
+			layer = L.markerClusterGroup({
+				maxClusterRadius: 40,
+				showCoverageOnHover: false,
+				spiderLegPolylineOptions: { className: 'cluster-leg' },
+				iconCreateFunction: (c) => {
+					const n = c.getChildCount();
+					const size = n < 10 ? 30 : n < 100 ? 36 : 44;
+					return L.divIcon({ html: `<span>${n > 99 ? '99+' : n}</span>`, className: 'service-cluster', iconSize: L.point(size, size) });
+				}
+			}).addTo(lmap);
+			for (const s of data.services) {
+				if (s.lat == null || s.lng == null) continue;
+				const marker = L.circleMarker([s.lat, s.lng], { radius: 6, className: 'service-marker' }).bindPopup(
+					`<strong>${escape(s.name)}</strong><br>${escape(typeLabels[s.type]())} · ${escape(s.city)}` +
+						(s.address ? `<br>${escape(s.address)}` : '') +
+						(s.website ? `<br><a href="${escape(s.website)}" target="_blank" rel="noopener">${escape(m.services_website())}</a>` : '') +
+						`<br><a href="${escape(detailHref(s.id))}">${escape(m.services_details())} &rarr;</a>`
+				);
+				markers.set(s.id, marker);
+			}
+			let resizeTimer = 0;
+			lmap.on('resize', () => {
+				clearTimeout(resizeTimer);
+				resizeTimer = window.setTimeout(() => frame(lmap, ...framed), 150);
+			});
+						map = lmap; // last: the filter effect below needs layer and markers ready
+		});
+		return () => {
+			disposed = true;
+			map?.remove();
+		};
+	});
+
+	// Show only the markers that match the filters, and frame them.
+	$effect(() => {
+		if (!map || !layer) return;
+		layer.clearLayers();
+		const visible = filtered.map((s) => markers.get(s.id)).filter((mk) => mk != null);
+		layer.addLayers(visible);
+		const filtering = visible.length > 0 && (query || activeType);
+		framed = [(filtering ? visible : [...markers.values()]).map((mk) => mk.getLatLng()), filtering ? 8 : 6];
+		frame(map, ...framed);
+	});
+
+	let framed: [LatLngExpression[], number] = [[], 6];
+
+	// Fit the points into the part of the map that isn't covered by the hero text.
+	function frame(lmap: LeafletMap, points: LatLngExpression[], maxZoom: number) {
+		if (points.length === 0) return lmap.setView(data.center, data.zoom);
+		const covered = !list && overlayEl && matchMedia('(min-width: 1280px)').matches ? overlayEl.offsetWidth : 0;
+		lmap.fitBounds(points as LatLngBoundsLiteral, { paddingTopLeft: [covered + 32, 32], paddingBottomRight: [32, 32], maxZoom });
+	}
+
+	// Trackpad pinch zooms the map; a plain two-finger scroll still scrolls the page.
+	// Chrome/Firefox/Edge report a pinch as wheel + ctrlKey, Safari as gesture* events.
+	// Touch pinch on mobile is Leaflet's own touchZoom.
+	function pinchZoom(lmap: LeafletMap, el: HTMLElement) {
+		el.addEventListener(
+			'wheel',
+			(e) => {
+				if (!e.ctrlKey) return;
+				e.preventDefault(); // otherwise the browser zooms the whole page
+				lmap.setZoomAround(lmap.mouseEventToContainerPoint(e), lmap.getZoom() - e.deltaY * 0.02, { animate: false });
+			},
+			{ passive: false }
+		);
+		let startZoom = 0;
+		type GestureEvent = UIEvent & { scale: number; clientX: number; clientY: number };
+		el.addEventListener('gesturestart', (e) => {
+			e.preventDefault();
+			startZoom = lmap.getZoom();
+		});
+		el.addEventListener('gesturechange', (e) => {
+			e.preventDefault();
+			const g = e as GestureEvent;
+			lmap.setZoomAround(lmap.mouseEventToContainerPoint(g as unknown as MouseEvent), startZoom + Math.log2(g.scale), { animate: false });
+		});
+	}
+
+	function focus(id: string) {
+		const mk = markers.get(id);
+		if (!map || !layer || !mk) return;
+		layer.zoomToShowLayer(mk, () => mk.openPopup()); // opens its cluster if it's inside one
+		if (window.matchMedia('(max-width: 1023px)').matches) mapEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+	}
+</script>
+
+{#snippet intro()}
+		<h1 class="text-2xl sm:text-3xl {list ? 'lg:text-4xl' : 'xl:text-[2.75rem] xl:leading-tight'} font-heading font-semibold tracking-tight text-primary mb-3">
+		<span class="tabular-nums">{shownTotal}</span>
+		{data.country === 'IT' ? m.services_title_it() : m.services_title_uk()}
+	</h1>
+	<p class="text-sm text-muted leading-relaxed mb-5 max-w-xl">{m.services_desc()}</p>
+
+	<div class="relative">
+		<label class="sr-only" for="services-search">{list ? m.services_search_placeholder() : m.search_all_placeholder()}</label>
+		<input
+			id="services-search"
+			type="search"
+			bind:value={query}
+			placeholder={list ? m.services_search_placeholder() : m.search_all_placeholder()}
+			autocomplete="off"
+			onfocus={() => (resultsOpen = true)}
+			onblur={() => setTimeout(() => (resultsOpen = false), 150)}
+			onkeydown={(e) => e.key === 'Escape' && (resultsOpen = false)}
+			oninput={() => (resultsOpen = true)}
+			class="w-full rounded-full border border-border bg-surface px-5 py-2.5 text-sm text-primary placeholder:text-muted focus:outline-none focus:border-brand-blue transition"
+		/>
+		{#if results && resultsOpen}
+			<div class="absolute left-0 right-0 top-full mt-2 z-[600] rounded-2xl border border-border bg-bg shadow-lg max-h-[60vh] overflow-y-auto p-2" role="listbox">
+				{#each results as g}
+					<p class="px-3 pt-2 pb-1 text-[11px] uppercase tracking-wide text-muted">{g.label}</p>
+					{#each g.items as it}
+						<a href={it.href} class="flex items-baseline justify-between gap-3 rounded-xl px-3 py-2 hover:bg-surface" role="option" aria-selected="false">
+							<span class="text-sm text-primary truncate">{it.title}</span>
+							<span class="text-xs text-muted shrink-0 capitalize">{it.meta}</span>
+						</a>
+					{/each}
+				{:else}
+					<p class="px-3 py-3 text-sm text-muted">{m.search_no_results()}</p>
+				{/each}
+			</div>
+		{/if}
+	</div>
+
+	<div class="flex flex-wrap gap-2 mt-3" role="group" aria-label={m.services_filter_label()}>
+		<button
+			type="button"
+			aria-pressed={activeType === null}
+			onclick={() => (activeType = null)}
+			class="text-xs sm:text-sm px-3 py-1.5 rounded-full border transition {activeType === null ? 'bg-brand-blue text-on-brand border-brand-blue' : 'border-border text-muted hover:text-primary'}"
+		>
+			{m.services_all()}
+		</button>
+		{#each types as t}
+			<button
+				type="button"
+				aria-pressed={activeType === t}
+				onclick={() => (activeType = activeType === t ? null : t)}
+				class="text-xs sm:text-sm px-3 py-1.5 rounded-full border transition {activeType === t ? 'bg-brand-blue text-on-brand border-brand-blue' : 'border-border text-muted hover:text-primary'}"
+			>
+				{typeLabels[t]()}
+			</button>
+		{/each}
+	</div>
+{/snippet}
+
+{#if list}
+	<div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12">
+		<div class="flex flex-col">
+			{@render intro()}
+		</div>
+
+		<div
+			bind:this={mapEl}
+			class="services-map lg:col-start-2 lg:row-start-1 lg:row-span-2 h-[320px] sm:h-[420px] lg:h-full lg:min-h-[560px] rounded-2xl overflow-hidden border border-border z-0"
+			role="region"
+			aria-label={m.services_map_label()}
+		></div>
+
+		<div class="flex flex-col min-h-0">
+			<p class="text-xs text-muted mb-2" aria-live="polite">{m.services_count({ count: filtered.length })}</p>
+			{#if filtered.length === 0}
+				<p class="text-sm text-muted py-6">{m.services_empty()}</p>
+			{:else}
+				<ul class="divide-y divide-border border-y border-border lg:max-h-[440px] lg:overflow-y-auto">
+					{#each filtered as s (s.id)}
+						<li class="py-3">
+							<div class="flex items-start justify-between gap-3">
+								<div class="min-w-0">
+									<a href={detailHref(s.id)} class="text-sm sm:text-base font-medium text-primary hover:underline">{s.name}</a>
+									<p class="text-xs text-muted mt-0.5">
+										{typeLabels[s.type]()} · {s.city ?? m.services_national()}
+									</p>
+									<p class="text-xs sm:text-sm text-muted-text mt-1 leading-relaxed">{s.description}</p>
+								</div>
+								<div class="flex flex-col items-end gap-1 shrink-0 text-xs">
+									{#if s.website}
+										<a href={s.website} target="_blank" rel="noopener" class="text-primary hover:underline">{m.services_website()} &rarr;</a>
+									{/if}
+									{#if s.phone}
+										<a href={`tel:${s.phone.replace(/\s/g, '')}`} class="text-muted hover:text-primary">{s.phone}</a>
+									{/if}
+									{#if s.lat != null}
+										<button type="button" onclick={() => focus(s.id)} class="text-muted hover:text-primary">{m.services_show_on_map()}</button>
+									{/if}
+								</div>
+							</div>
+						</li>
+					{/each}
+				</ul>
+			{/if}
+			<p class="text-xs text-muted mt-3 leading-relaxed">{m.services_disclaimer()}</p>
+			{#if data.country === 'IT'}
+				<p class="text-xs text-muted mt-1 leading-relaxed">
+					{m.services_attribution()} <a href="https://www.infotrans.it" target="_blank" rel="noopener" class="underline hover:text-primary">InfoTrans (ISS/UNAR)</a>.
+				</p>
+			{/if}
+		</div>
+	</div>
+{:else}
+	<!-- `relative` on the map is required: otherwise Leaflet, started on a narrow screen, inlines
+	     position:relative and that beats xl:absolute after a resize (map collapses to 0×0). -->
+	<!-- Full-bleed hero (desktop): the map fills the section, the text floats over a fade on the left.
+	     Mobile keeps the map in a box under the text so it doesn't trap page scrolling. -->
+	<div class="relative flex flex-col xl:flex-row xl:items-center xl:min-h-[calc(100svh-3.5rem)]">
+		<div
+			bind:this={overlayEl}
+			class="relative z-[2] flex flex-col px-4 sm:px-6 lg:px-12 pt-10 sm:pt-16 xl:py-16 xl:w-[36rem] xl:shrink-0 pointer-events-none [&>*]:pointer-events-auto"
+		>
+			{@render intro()}
+			<p class="text-xs text-muted mt-4 mb-1" aria-live="polite">{m.services_count({ count: filtered.length })}</p>
+			<a href={localizeHref('/servizi')} class="self-start text-sm text-primary font-medium hover:underline">{m.services_view_all()} &rarr;</a>
+		</div>
+		<div aria-hidden="true" class="hidden xl:block absolute inset-y-0 left-0 w-[52rem] max-w-[70%] z-[1] pointer-events-none bg-gradient-to-r from-bg via-bg/90 to-transparent"></div>
+		<div
+			bind:this={mapEl}
+			class="services-map relative mt-6 mx-4 sm:mx-6 lg:mx-12 h-[360px] sm:h-[440px] rounded-2xl border border-border overflow-hidden z-0 xl:m-0 xl:absolute xl:inset-0 xl:h-auto xl:rounded-none xl:border-0"
+			role="region"
+			aria-label={m.services_map_label()}
+		></div>
+	</div>
+{/if}
+
+<style>
+	/* Minimal monochrome basemap derived from the theme tokens, so it follows light/dark. */
+	.services-map {
+		--map-sea: var(--color-bg);
+		--map-land: color-mix(in srgb, var(--color-primary) 7%, var(--color-bg));
+		--map-neighbour: color-mix(in srgb, var(--color-primary) 3%, var(--color-bg));
+		--map-line: color-mix(in srgb, var(--color-primary) 18%, var(--color-bg));
+		background: var(--map-sea);
+	}
+	/* The country's outline in the brand's light pink; markers and clusters stay blue. */
+	.services-map :global(.basemap-land) {
+		fill: var(--map-land);
+		fill-opacity: 1;
+		stroke: var(--color-brand-pink);
+		stroke-width: 1.25;
+	}
+	.services-map :global(.basemap-neighbour) {
+		fill: var(--map-neighbour);
+		fill-opacity: 1;
+		stroke: var(--map-line);
+		stroke-opacity: 0.5;
+		stroke-width: 0.75;
+	}
+	.services-map :global(.basemap-border) {
+		fill: none;
+		stroke: var(--map-line);
+		stroke-width: 0.75;
+		stroke-dasharray: 2 3;
+	}
+	.services-map :global(.service-marker) {
+		fill: var(--color-brand-blue);
+		fill-opacity: 1;
+		stroke: color-mix(in srgb, var(--color-primary) 55%, var(--color-bg));
+		stroke-width: 1.5;
+	}
+	.services-map :global(.service-marker:hover) {
+		fill-opacity: 0.75;
+	}
+	.services-map :global(.service-cluster) {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 9999px;
+		background: var(--color-brand-blue);
+		color: var(--color-on-brand);
+		box-shadow: 0 0 0 2px var(--color-bg), 0 0 0 6px color-mix(in srgb, var(--color-brand-blue) 40%, transparent);
+		font-size: 12px;
+		font-weight: 600;
+		font-variant-numeric: tabular-nums;
+		cursor: pointer;
+		transition: transform 0.15s;
+	}
+	.services-map :global(.service-cluster:hover) {
+		transform: scale(1.08);
+	}
+	.services-map :global(.cluster-leg) {
+		stroke: var(--map-line);
+		stroke-width: 1.5;
+	}
+	.services-map :global(.leaflet-popup-content-wrapper),
+	.services-map :global(.leaflet-popup-tip) {
+		background: var(--color-bg);
+		color: var(--color-text);
+		box-shadow: 0 0 0 1px var(--color-border), 0 8px 24px rgb(0 0 0 / 0.15);
+	}
+	.services-map :global(.leaflet-popup-content a) {
+		color: var(--color-primary);
+		text-decoration: underline;
+	}
+	.services-map :global(.leaflet-bar a) {
+		background: var(--color-bg);
+		color: var(--color-primary);
+		border-color: var(--color-border);
+	}
+</style>

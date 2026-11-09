@@ -5,6 +5,7 @@
 	import Logo from '$lib/components/ui/Logo.svelte';
 	import SearchInput from '$lib/components/ui/SearchInput.svelte';
 	import ArticleCard from '$lib/components/wiki/ArticleCard.svelte';
+	import ServicesMap from '$lib/components/services/ServicesMap.svelte';
 	import { SITE } from '$lib/site';
 	import * as m from '$lib/paraglide/messages';
 	import { getLocale, locales, localizeHref } from '$lib/paraglide/runtime';
@@ -100,7 +101,12 @@
 <StructuredData schema={organizationSchema} />
 <StructuredData schema={homeFaqSchema} />
 
-<!-- Hero -->
+<!-- Hero: services map where we have data (it → Italy, en → UK), brand hero elsewhere -->
+{#if data.services}
+<section>
+	<ServicesMap data={data.services} list={false} />
+</section>
+{:else}
 <section>
 	<div class="w-full px-4 sm:px-6 lg:px-12 py-16 sm:py-24 lg:py-32 text-center flex flex-col items-center">
 		<h1 class="text-3xl sm:text-5xl lg:text-7xl text-primary mb-4 sm:mb-6">
@@ -128,6 +134,7 @@
 		</div>
 	</div>
 </section>
+{/if}
 
 
 <!-- Personas -->
@@ -196,7 +203,7 @@
 			<div class="hidden sm:flex gap-4 flex-wrap mb-8 sm:mb-12">
 				<a href={localizeHref('/wiki')} class="text-sm text-primary font-medium transition">{m.wiki_filter_all()}</a>
 				{#each categories as cat}
-					<a href={cat.href} class="text-sm text-muted hover:text-primary capitalize transition">{cat.name}</a>
+					<a href={localizeHref(cat.href)} class="text-sm text-muted hover:text-primary capitalize transition">{cat.name}</a>
 				{/each}
 			</div>
 			<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-14 sm:gap-x-8 sm:gap-y-16">
