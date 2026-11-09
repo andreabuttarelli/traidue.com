@@ -53,7 +53,7 @@
 <nav class="sticky top-0 z-50 bg-bg">
 	<div class="w-full px-4 sm:px-6 lg:px-12">
 		<!-- Mobile header -->
-		<div class="flex sm:hidden items-center justify-between h-14">
+		<div class="flex xl:hidden items-center justify-between h-14">
 			<a href={localizeHref('/')} class="text-xl text-primary" onclick={closeMenu}>
 				<Logo />
 			</a>
@@ -76,7 +76,7 @@
 		</div>
 
 		<!-- Desktop header -->
-		<div class="hidden sm:grid sm:grid-cols-3 items-center h-14">
+		<div class="hidden xl:grid xl:grid-cols-3 items-center h-14">
 			<a href={localizeHref('/')} class="text-xl text-primary justify-self-start" onclick={closeMenu}>
 				<Logo />
 			</a>
@@ -114,11 +114,11 @@
 	{#if mobileMenuOpen}
 		<!-- svelte-ignore a11y_no_static_element_interactions -->
 		<div
-			class="sm:hidden fixed inset-0 top-14 z-40 bg-black/20"
+			class="xl:hidden fixed inset-0 top-14 z-40 bg-black/20"
 			onclick={closeMenu}
 			onkeydown={(e) => e.key === 'Escape' && closeMenu()}
 		></div>
-		<div class="sm:hidden absolute left-0 right-0 top-14 z-50 bg-bg border-b border-border shadow-md">
+		<div class="xl:hidden absolute left-0 right-0 top-14 z-50 bg-bg border-b border-border shadow-md">
 			<div class="flex flex-col gap-1 px-4 py-4">
 				<div class="py-2">
 					<SearchInput
