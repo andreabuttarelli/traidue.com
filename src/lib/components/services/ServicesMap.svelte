@@ -2,7 +2,7 @@
 	import 'leaflet/dist/leaflet.css';
 	import 'leaflet.markercluster/dist/MarkerCluster.css';
 	import { onMount } from 'svelte';
-	import type { Map as LeafletMap, MarkerClusterGroup, CircleMarker } from 'leaflet';
+	import type { Map as LeafletMap, MarkerClusterGroup, CircleMarker, LatLngExpression, LatLngBoundsLiteral } from 'leaflet';
 	import type { ServicesCountry, ServiceType } from '$lib/data/services';
 	import * as m from '$lib/paraglide/messages';
 	import { localizeHref } from '$lib/paraglide/runtime';
@@ -37,6 +37,7 @@
 	});
 
 	let mapEl: HTMLDivElement;
+	let overlayEl: HTMLDivElement | undefined = $state();
 	let map: LeafletMap | undefined = $state();
 	let layer: MarkerClusterGroup | undefined;
 	const markers = new Map<string, CircleMarker>();
@@ -75,10 +76,26 @@
 			await import('leaflet.markercluster');
 			if (disposed) return;
 			// zoomSnap 0: pinch zooms smoothly instead of jumping a whole level.
-			const lmap = L.map(mapEl, { scrollWheelZoom: false, attributionControl: false, minZoom: 2, maxZoom: 10, zoomSnap: 0 }).setView(
-				data.center,
-				data.zoom
-			);
+			const lmap = L.map(mapEl, {
+				scrollWheelZoom: false,
+				attributionControl: false,
+				zoomControl: list,
+				minZoom: 2,
+				maxZoom: 10,
+				zoomSnap: 0,
+				// Draw the vector map a full viewport beyond each edge, so dragging doesn't reveal
+				// an empty band until Leaflet redraws on moveend.
+				renderer: L.svg({ padding: 1 }),
+				// A fast flick could throw the map into empty ocean: cap inertia, stay inside the world.
+				inertiaMaxSpeed: 1500,
+				maxBounds: [
+					[-85, -180],
+					[85, 180]
+				],
+				maxBoundsViscosity: 1
+			}).setView(data.center, data.zoom);
+			// Hero: the top-left corner sits under the text, so the buttons go bottom-right.
+			if (!list) L.control.zoom({ position: 'bottomright' }).addTo(lmap);
 			pinchZoom(lmap, mapEl);
 			// Vector basemap, no tiles: colours come from the theme tokens (styles at the bottom).
 			L.geoJSON(basemap.default as GeoJSON.FeatureCollection, {
@@ -120,15 +137,16 @@
 		layer.clearLayers();
 		const visible = filtered.map((s) => markers.get(s.id)).filter((mk) => mk != null);
 		layer.addLayers(visible);
-		if (visible.length > 0 && (query || activeType)) {
-			map.fitBounds(
-				visible.map((mk) => mk.getLatLng()),
-				{ padding: [32, 32], maxZoom: 8 }
-			);
-		} else {
-			map.setView(data.center, data.zoom);
-		}
+		const filtering = visible.length > 0 && (query || activeType);
+		frame(map, (filtering ? visible : [...markers.values()]).map((mk) => mk.getLatLng()), filtering ? 8 : 6);
 	});
+
+	// Fit the points into the part of the map that isn't covered by the hero text.
+	function frame(lmap: LeafletMap, points: LatLngExpression[], maxZoom: number) {
+		if (points.length === 0) return lmap.setView(data.center, data.zoom);
+		const covered = !list && overlayEl && matchMedia('(min-width: 1024px)').matches ? overlayEl.offsetWidth : 0;
+		lmap.fitBounds(points as LatLngBoundsLiteral, { paddingTopLeft: [covered + 32, 32], paddingBottomRight: [32, 32], maxZoom });
+	}
 
 	// Trackpad pinch zooms the map; a plain two-finger scroll still scrolls the page.
 	// Chrome/Firefox/Edge report a pinch as wheel + ctrlKey, Safari as gesture* events.
@@ -164,95 +182,119 @@
 	}
 </script>
 
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12">
-	<div class="flex flex-col">
-		<h1 class="text-3xl sm:text-4xl lg:text-5xl font-heading font-semibold tracking-tight text-primary mb-3 sm:mb-4">
-			<span class="tabular-nums">{shownTotal}</span>
-			{data.country === 'IT' ? m.services_title_it() : m.services_title_uk()}
-		</h1>
-		<p class="text-sm sm:text-base text-muted leading-relaxed mb-5 sm:mb-6 max-w-xl">{m.services_desc()}</p>
+{#snippet intro()}
+		<h1 class="text-3xl sm:text-4xl {list ? 'lg:text-5xl' : 'lg:text-6xl'} font-heading font-semibold tracking-tight text-primary mb-3 sm:mb-4">
+		<span class="tabular-nums">{shownTotal}</span>
+		{data.country === 'IT' ? m.services_title_it() : m.services_title_uk()}
+	</h1>
+	<p class="text-sm sm:text-base text-muted leading-relaxed mb-5 sm:mb-6 max-w-xl">{m.services_desc()}</p>
 
-		<label class="sr-only" for="services-search">{m.services_search_placeholder()}</label>
-		<input
-			id="services-search"
-			type="search"
-			bind:value={query}
-			placeholder={m.services_search_placeholder()}
-			autocomplete="off"
-			class="w-full rounded-full border border-border bg-surface px-5 py-3 text-sm sm:text-base text-primary placeholder:text-muted focus:outline-none focus:border-primary transition"
-		/>
+	<label class="sr-only" for="services-search">{m.services_search_placeholder()}</label>
+	<input
+		id="services-search"
+		type="search"
+		bind:value={query}
+		placeholder={m.services_search_placeholder()}
+		autocomplete="off"
+		class="w-full rounded-full border border-border bg-surface px-5 py-3 text-sm sm:text-base text-primary placeholder:text-muted focus:outline-none focus:border-primary transition"
+	/>
 
-		<div class="flex flex-wrap gap-2 mt-3" role="group" aria-label={m.services_filter_label()}>
+	<div class="flex flex-wrap gap-2 mt-3" role="group" aria-label={m.services_filter_label()}>
+		<button
+			type="button"
+			aria-pressed={activeType === null}
+			onclick={() => (activeType = null)}
+			class="text-xs sm:text-sm px-3 py-1.5 rounded-full border transition {activeType === null ? 'bg-primary text-bg border-primary' : 'border-border text-muted hover:text-primary'}"
+		>
+			{m.services_all()}
+		</button>
+		{#each types as t}
 			<button
 				type="button"
-				aria-pressed={activeType === null}
-				onclick={() => (activeType = null)}
-				class="text-xs sm:text-sm px-3 py-1.5 rounded-full border transition {activeType === null ? 'bg-primary text-bg border-primary' : 'border-border text-muted hover:text-primary'}"
+				aria-pressed={activeType === t}
+				onclick={() => (activeType = activeType === t ? null : t)}
+				class="text-xs sm:text-sm px-3 py-1.5 rounded-full border transition {activeType === t ? 'bg-primary text-bg border-primary' : 'border-border text-muted hover:text-primary'}"
 			>
-				{m.services_all()}
+				{typeLabels[t]()}
 			</button>
-			{#each types as t}
-				<button
-					type="button"
-					aria-pressed={activeType === t}
-					onclick={() => (activeType = activeType === t ? null : t)}
-					class="text-xs sm:text-sm px-3 py-1.5 rounded-full border transition {activeType === t ? 'bg-primary text-bg border-primary' : 'border-border text-muted hover:text-primary'}"
-				>
-					{typeLabels[t]()}
-				</button>
-			{/each}
+		{/each}
+	</div>
+{/snippet}
+
+{#if list}
+	<div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12">
+		<div class="flex flex-col">
+			{@render intro()}
+		</div>
+
+		<div
+			bind:this={mapEl}
+			class="services-map lg:col-start-2 lg:row-start-1 lg:row-span-2 h-[320px] sm:h-[420px] lg:h-full lg:min-h-[560px] rounded-2xl overflow-hidden border border-border z-0"
+			role="region"
+			aria-label={m.services_map_label()}
+		></div>
+
+		<div class="flex flex-col min-h-0">
+			<p class="text-xs text-muted mb-2" aria-live="polite">{m.services_count({ count: filtered.length })}</p>
+			{#if filtered.length === 0}
+				<p class="text-sm text-muted py-6">{m.services_empty()}</p>
+			{:else}
+				<ul class="divide-y divide-border border-y border-border lg:max-h-[440px] lg:overflow-y-auto">
+					{#each filtered as s (s.id)}
+						<li class="py-3">
+							<div class="flex items-start justify-between gap-3">
+								<div class="min-w-0">
+									<a href={detailHref(s.id)} class="text-sm sm:text-base font-medium text-primary hover:underline">{s.name}</a>
+									<p class="text-xs text-muted mt-0.5">
+										{typeLabels[s.type]()} · {s.city ?? m.services_national()}
+									</p>
+									<p class="text-xs sm:text-sm text-muted-text mt-1 leading-relaxed">{s.description}</p>
+								</div>
+								<div class="flex flex-col items-end gap-1 shrink-0 text-xs">
+									{#if s.website}
+										<a href={s.website} target="_blank" rel="noopener" class="text-primary hover:underline">{m.services_website()} &rarr;</a>
+									{/if}
+									{#if s.phone}
+										<a href={`tel:${s.phone.replace(/\s/g, '')}`} class="text-muted hover:text-primary">{s.phone}</a>
+									{/if}
+									{#if s.lat != null}
+										<button type="button" onclick={() => focus(s.id)} class="text-muted hover:text-primary">{m.services_show_on_map()}</button>
+									{/if}
+								</div>
+							</div>
+						</li>
+					{/each}
+				</ul>
+			{/if}
+			<p class="text-xs text-muted mt-3 leading-relaxed">{m.services_disclaimer()}</p>
+			{#if data.country === 'IT'}
+				<p class="text-xs text-muted mt-1 leading-relaxed">
+					{m.services_attribution()} <a href="https://www.infotrans.it" target="_blank" rel="noopener" class="underline hover:text-primary">InfoTrans (ISS/UNAR)</a>.
+				</p>
+			{/if}
 		</div>
 	</div>
-
-	<div
-		bind:this={mapEl}
-		class="services-map lg:col-start-2 lg:row-start-1 lg:row-span-2 h-[320px] sm:h-[420px] lg:h-full lg:min-h-[560px] rounded-2xl overflow-hidden border border-border z-0"
-		role="region"
-		aria-label={m.services_map_label()}
-	></div>
-
-	<div class="flex flex-col min-h-0">
-		<p class="text-xs text-muted mb-2" aria-live="polite">{m.services_count({ count: filtered.length })}</p>
-		{#if !list}
-			<a href={localizeHref('/servizi')} class="text-sm text-primary font-medium hover:underline">{m.services_view_all()} &rarr;</a>
-		{:else if filtered.length === 0}
-			<p class="text-sm text-muted py-6">{m.services_empty()}</p>
-		{:else}
-			<ul class="divide-y divide-border border-y border-border lg:max-h-[440px] lg:overflow-y-auto">
-				{#each filtered as s (s.id)}
-					<li class="py-3">
-						<div class="flex items-start justify-between gap-3">
-							<div class="min-w-0">
-								<a href={detailHref(s.id)} class="text-sm sm:text-base font-medium text-primary hover:underline">{s.name}</a>
-								<p class="text-xs text-muted mt-0.5">
-									{typeLabels[s.type]()} · {s.city ?? m.services_national()}
-								</p>
-								<p class="text-xs sm:text-sm text-muted-text mt-1 leading-relaxed">{s.description}</p>
-							</div>
-							<div class="flex flex-col items-end gap-1 shrink-0 text-xs">
-								{#if s.website}
-									<a href={s.website} target="_blank" rel="noopener" class="text-primary hover:underline">{m.services_website()} &rarr;</a>
-								{/if}
-								{#if s.phone}
-									<a href={`tel:${s.phone.replace(/\s/g, '')}`} class="text-muted hover:text-primary">{s.phone}</a>
-								{/if}
-								{#if s.lat != null}
-									<button type="button" onclick={() => focus(s.id)} class="text-muted hover:text-primary">{m.services_show_on_map()}</button>
-								{/if}
-							</div>
-						</div>
-					</li>
-				{/each}
-			</ul>
-		{/if}
-		<p class="text-xs text-muted mt-3 leading-relaxed">{m.services_disclaimer()}</p>
-		{#if data.country === 'IT'}
-			<p class="text-xs text-muted mt-1 leading-relaxed">
-				{m.services_attribution()} <a href="https://www.infotrans.it" target="_blank" rel="noopener" class="underline hover:text-primary">InfoTrans (ISS/UNAR)</a>.
-			</p>
-		{/if}
+{:else}
+	<!-- Full-bleed hero (desktop): the map fills the section, the text floats over a fade on the left.
+	     Mobile keeps the map in a box under the text so it doesn't trap page scrolling. -->
+	<div class="relative flex flex-col lg:block lg:h-[calc(100svh-3.5rem)] lg:min-h-[620px]">
+		<div
+			bind:this={overlayEl}
+			class="relative z-[2] px-4 sm:px-6 lg:px-12 pt-10 sm:pt-16 lg:pt-0 lg:absolute lg:inset-y-0 lg:left-0 lg:w-[min(44rem,46%)] lg:flex lg:flex-col lg:justify-center pointer-events-none [&>*]:pointer-events-auto"
+		>
+			{@render intro()}
+			<p class="text-xs text-muted mt-4 mb-1" aria-live="polite">{m.services_count({ count: filtered.length })}</p>
+			<a href={localizeHref('/servizi')} class="self-start text-sm text-primary font-medium hover:underline">{m.services_view_all()} &rarr;</a>
+		</div>
+		<div aria-hidden="true" class="hidden lg:block absolute inset-y-0 left-0 w-[62%] z-[1] pointer-events-none bg-gradient-to-r from-bg via-bg/90 to-transparent"></div>
+		<div
+			bind:this={mapEl}
+			class="services-map mt-6 mx-4 sm:mx-6 h-[360px] sm:h-[440px] rounded-2xl border border-border overflow-hidden z-0 lg:m-0 lg:absolute lg:inset-0 lg:h-auto lg:rounded-none lg:border-0"
+			role="region"
+			aria-label={m.services_map_label()}
+		></div>
 	</div>
-</div>
+{/if}
 
 <style>
 	/* Minimal monochrome basemap derived from the theme tokens, so it follows light/dark. */

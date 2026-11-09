@@ -104,9 +104,7 @@
 <!-- Hero: services map where we have data (it → Italy, en → UK), brand hero elsewhere -->
 {#if data.services}
 <section>
-	<div class="w-full px-4 sm:px-6 lg:px-12 py-10 sm:py-16 lg:py-20">
-		<ServicesMap data={data.services} list={false} />
-	</div>
+	<ServicesMap data={data.services} list={false} />
 </section>
 {:else}
 <section>

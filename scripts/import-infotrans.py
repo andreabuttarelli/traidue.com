@@ -25,11 +25,25 @@ toks = lambda s: {t for t in norm(s).split() if len(t) > 3}
 clean = lambda s: re.sub(r'\s+', ' ', s or '').strip()
 slug = lambda s: re.sub(r'-+', '-', re.sub(r'[^a-z0-9]+', '-', norm(s))).strip('-')[:70].rstrip('-')
 
+ITALY = (35.2, 47.2, 6.5, 18.6)  # lat min/max, lng min/max
+
+def coords(e):
+    """InfoTrans has decimal-point typos (e.g. lng 134.8 for 13.48): fix a 10x slip, else drop."""
+    lat, lng = float(e['CORDX']), float(e['CORDY'])
+    inside = lambda la, lo: ITALY[0] <= la <= ITALY[1] and ITALY[2] <= lo <= ITALY[3]
+    for la, lo in ((lat, lng), (lat, lng / 10), (lat / 10, lng)):
+        if inside(la, lo): return round(la, 5), round(lo, 5)
+    return None, None
+
 def km(a, b, c, d):
     return 6371 * 2 * math.asin(math.sqrt(math.sin(math.radians(c - a) / 2) ** 2 + math.cos(math.radians(a)) * math.cos(math.radians(c)) * math.sin(math.radians(d - b) / 2) ** 2))
 
 def match(e):
-    lat, lng = float(e['CORDX']), float(e['CORDY'])
+    page = f"it-sedi-{e['ID']}-"
+    for o in ours:  # already imported or already linked: exact InfoTrans page match
+        if page in o['source'] or page in o.get('infotrans', ''): return o
+    lat, lng = coords(e)
+    if lat is None: return None
     best = None
     for o in ours:
         j = len(toks(e['NOME']) & toks(o['name'])) / max(1, len(toks(e['NOME']) | toks(o['name'])))
@@ -90,9 +104,9 @@ for e in sorted(src, key=lambda e: e['ID']):
     url = f"https://www.infotrans.it/{e['HREF']}"
     dup = match(e)
     if dup:
-        dup['infotrans'] = url
+        if dup['source'] != url: dup['infotrans'] = url
         if dup['address'] is None:  # we had no visiting address; InfoTrans has one
-            dup.update(address=f"{clean(e['INDIRIZZO'])}, {city(e)} ({e['PROVINCIA']})", lat=round(float(e['CORDX']), 5), lng=round(float(e['CORDY']), 5))
+            dup.update(address=f"{clean(e['INDIRIZZO'])}, {city(e)} ({e['PROVINCIA']})", lat=coords(e)[0], lng=coords(e)[1])
         if hours(e) and 'hours' not in dup: dup['hours'] = hours(e)
         enriched += 1
         continue
@@ -107,8 +121,8 @@ for e in sorted(src, key=lambda e: e['ID']):
         'city': city(e),
         'region': REGIONS.get(e['REGIONE'], e['REGIONE']),
         'address': f"{clean(e['INDIRIZZO'])}, {city(e)} ({e['PROVINCIA']})",
-        'lat': round(float(e['CORDX']), 5),
-        'lng': round(float(e['CORDY']), 5),
+        'lat': coords(e)[0],
+        'lng': coords(e)[1],
         'website': None,
         'description': description(e),
         'source': url,
