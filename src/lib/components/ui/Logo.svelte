@@ -9,14 +9,14 @@
 	class:gap-[0.3em]={!animated}
 >
 	<span
-		class="inline-block w-[0.7em] h-[0.9em] rounded-[0.1em] bg-[#5BCEFA]"
+		class="inline-block w-[0.7em] h-[0.9em] rounded-[0.1em] bg-brand-blue"
 		class:logo-box-left={animated}
 	></span>
 	<span
 		class:logo-text={animated}
 	>{SITE.brand}</span>
 	<span
-		class="inline-block w-[0.7em] h-[0.9em] rounded-[0.1em] bg-[#F5A9B8]"
+		class="inline-block w-[0.7em] h-[0.9em] rounded-[0.1em] bg-brand-pink"
 		class:logo-box-right={animated}
 	></span>
 </span>

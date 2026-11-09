@@ -212,7 +212,7 @@
 
 {#snippet intro()}
 		<h1 class="text-2xl sm:text-3xl {list ? 'lg:text-4xl' : 'xl:text-[2.75rem] xl:leading-tight'} font-heading font-semibold tracking-tight text-primary mb-3">
-		<span class="tabular-nums">{shownTotal}</span>
+		<span class="relative isolate tabular-nums whitespace-nowrap"><span aria-hidden="true" class="absolute inset-x-0 bottom-[0.12em] h-[0.32em] -z-10 rounded-sm bg-gradient-to-r from-brand-blue to-brand-pink"></span>{shownTotal}</span>
 		{data.country === 'IT' ? m.services_title_it() : m.services_title_uk()}
 	</h1>
 	<p class="text-sm text-muted leading-relaxed mb-5 max-w-xl">{m.services_desc()}</p>
@@ -229,7 +229,7 @@
 			onblur={() => setTimeout(() => (resultsOpen = false), 150)}
 			onkeydown={(e) => e.key === 'Escape' && (resultsOpen = false)}
 			oninput={() => (resultsOpen = true)}
-			class="w-full rounded-full border border-border bg-surface px-5 py-2.5 text-sm text-primary placeholder:text-muted focus:outline-none focus:border-primary transition"
+			class="w-full rounded-full border border-border bg-surface px-5 py-2.5 text-sm text-primary placeholder:text-muted focus:outline-none focus:border-brand-blue transition"
 		/>
 		{#if results && resultsOpen}
 			<div class="absolute left-0 right-0 top-full mt-2 z-[600] rounded-2xl border border-border bg-bg shadow-lg max-h-[60vh] overflow-y-auto p-2" role="listbox">
@@ -253,7 +253,7 @@
 			type="button"
 			aria-pressed={activeType === null}
 			onclick={() => (activeType = null)}
-			class="text-xs sm:text-sm px-3 py-1.5 rounded-full border transition {activeType === null ? 'bg-primary text-bg border-primary' : 'border-border text-muted hover:text-primary'}"
+			class="text-xs sm:text-sm px-3 py-1.5 rounded-full border transition {activeType === null ? 'bg-brand-blue text-on-brand border-brand-blue' : 'border-border text-muted hover:text-primary'}"
 		>
 			{m.services_all()}
 		</button>
@@ -262,7 +262,7 @@
 				type="button"
 				aria-pressed={activeType === t}
 				onclick={() => (activeType = activeType === t ? null : t)}
-				class="text-xs sm:text-sm px-3 py-1.5 rounded-full border transition {activeType === t ? 'bg-primary text-bg border-primary' : 'border-border text-muted hover:text-primary'}"
+				class="text-xs sm:text-sm px-3 py-1.5 rounded-full border transition {activeType === t ? 'bg-brand-blue text-on-brand border-brand-blue' : 'border-border text-muted hover:text-primary'}"
 			>
 				{typeLabels[t]()}
 			</button>
@@ -376,10 +376,10 @@
 		stroke-dasharray: 2 3;
 	}
 	.services-map :global(.service-marker) {
-		fill: var(--color-primary);
+		fill: var(--color-brand-blue);
 		fill-opacity: 1;
-		stroke: var(--color-bg);
-		stroke-width: 2;
+		stroke: color-mix(in srgb, var(--color-primary) 55%, var(--color-bg));
+		stroke-width: 1.5;
 	}
 	.services-map :global(.service-marker:hover) {
 		fill-opacity: 0.75;
@@ -389,9 +389,9 @@
 		align-items: center;
 		justify-content: center;
 		border-radius: 9999px;
-		background: var(--color-primary);
-		color: var(--color-bg);
-		box-shadow: 0 0 0 2px var(--color-bg), 0 0 0 6px color-mix(in srgb, var(--color-primary) 15%, transparent);
+		background: var(--color-brand-pink);
+		color: var(--color-on-brand);
+		box-shadow: 0 0 0 2px var(--color-bg), 0 0 0 6px color-mix(in srgb, var(--color-brand-pink) 40%, transparent);
 		font-size: 12px;
 		font-weight: 600;
 		font-variant-numeric: tabular-nums;

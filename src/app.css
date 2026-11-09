@@ -32,6 +32,10 @@
 	--color-error: #111111;
 	--color-info: #111111;
 	--color-warning: #111111;
+	/* Brand (logo, trans flag). Pastels: use as fills/accents with --color-on-brand text, never as body text. */
+	--color-brand-blue: #5bcefa;
+	--color-brand-pink: #f5a9b8;
+	--color-on-brand: #111111;
 
 	--font-sans: 'Inter', system-ui, -apple-system, sans-serif;
 	--font-heading: 'Inter', system-ui, -apple-system, sans-serif;
