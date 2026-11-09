@@ -275,11 +275,11 @@
 			controls.minDistance = radius * 1.2;
 			controls.maxDistance = radius * 14;
 			controls.zoomSpeed = 0.6;
-			// result: vulva and neovagina from the side, slightly from the front and below
+			// result: vulva and neovagina from the side and slightly from the front, so the vulva shows on the outline
 			const fBox = new THREE.Box3().setFromPoints(canalCurve.getPoints(8));
 			if (items.has('f_vulva')) fBox.union(bb('f_vulva'));
 			const perinealTarget = centre(fBox);
-			const perinealView = perinealTarget.clone().add(new THREE.Vector3(radius * 1.9, -radius * 0.9, -radius * 0.45));
+			const perinealView = perinealTarget.clone().add(new THREE.Vector3(radius * 2.6, -radius * 0.8, -radius * 0.05));
 			const goal = { target: target.clone(), position: home.clone() };
 			let follow = true; // eased camera moves until the user takes over; reset on each step
 			controls.addEventListener('start', () => (follow = false));
