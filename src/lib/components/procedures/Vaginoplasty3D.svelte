@@ -11,15 +11,15 @@
 	const PARTS = [
 		'body', 'body_genital', 'body_vulva', 'bladder', 'prostate', 'urethra', 'rectum', 'seminal_vesicles', 'anal_sphincter', 'sacrum', 'hip_left', 'hip_right',
 		'corpora_cavernosa', 'corpus_spongiosum', 'glans', 'testes', 'epididymides', 'dorsal_artery', 'dorsal_vein',
-		'skin', 'skin_penile', 'skin_scrotal', 'canal', 'packing', 'catheter', 'clitoris', 'meatus'
+		'skin', 'skin_penile', 'skin_scrotal', 'canal', 'packing', 'catheter', 'clitoris', 'meatus', 'labia'
 	] as const;
 	type Part = (typeof PARTS)[number];
-	const NEW: Part[] = ['canal', 'clitoris', 'meatus', 'packing', 'catheter'];
+	const NEW: Part[] = ['canal', 'clitoris', 'meatus', 'labia', 'packing', 'catheter'];
 
 	function stateFor(step: number): Partial<Record<Part, State>> {
 		// The cropped perineal skin is a ragged sheet in section: only penile and scrotal skin are shown.
 		// Removed parts stay as a transparent ghost only in the step right after their removal, then disappear.
-		const s: Partial<Record<Part, State>> = { skin: 'h', canal: 'h', packing: 'h', catheter: 'h', clitoris: 'h', meatus: 'h', body_vulva: 'h' };
+		const s: Partial<Record<Part, State>> = { skin: 'h', canal: 'h', packing: 'h', catheter: 'h', clitoris: 'h', meatus: 'h', labia: 'h', body_vulva: 'h' };
 		const removed = (part: Part, at: number) => {
 			if (step === at) s[part] = 'a';
 			else if (step === at + 1) s[part] = 'g';
@@ -39,7 +39,7 @@
 		if (step >= 8) Object.assign(s, { dorsal_artery: 'h', dorsal_vein: 'h', glans: 'h', clitoris: 'p', meatus: 'p' });
 		removed('corpus_spongiosum', 8);
 		if (step === 8) s.corpus_spongiosum = 'g';
-		if (step >= 9) s.skin_scrotal = 'p';
+		if (step >= 9) Object.assign(s, { skin_scrotal: 'h', labia: 'p' }); // the scrotal skin became the labia
 		if (step === 9) Object.assign(s, { packing: 'n', catheter: 'n' });
 		return s;
 	}
@@ -78,7 +78,7 @@
 		{ text: 'canale vaginale', anchor: 'canal', from: 7, to: 10, accent: true },
 		{ text: 'clitoride', anchor: 'clitoris', from: 8, to: 10, accent: true },
 		{ text: 'meato uretrale', anchor: 'meatus', from: 8, to: 10, accent: true },
-		{ text: 'labbra', anchor: 'skin_scrotal', from: 9, to: 10, accent: true },
+		{ text: 'labbra', anchor: 'labia', from: 9, to: 10, accent: true },
 		{ text: 'zaffo e catetere', anchor: 'packing', from: 9, to: 9 }
 	];
 
@@ -114,6 +114,7 @@
 			const THREE = await import('three');
 			const { GLTFLoader } = await import('three/examples/jsm/loaders/GLTFLoader.js');
 			const { OrbitControls } = await import('three/examples/jsm/controls/OrbitControls.js');
+			const { mergeGeometries } = await import('three/examples/jsm/utils/BufferGeometryUtils.js');
 			if (disposed) return;
 
 			const renderer = new THREE.WebGLRenderer({ canvas: canvasEl, antialias: true, alpha: true });
@@ -197,12 +198,22 @@
 			// boxes of real structures, used to place the new ones
 			const bb = (p: Part) => new THREE.Box3().setFromObject(items.get(p)!.mesh);
 			const centre = (b: import('three').Box3) => b.getCenter(new THREE.Vector3());
-			const pro = bb('prostate'), sph = bb('anal_sphincter'), scr = bb('skin_scrotal'), bla = bb('bladder'), sv = bb('seminal_vesicles');
-			// Vulva on the perineum, front to back: clitoris, urethral meatus, introitus, then the anus.
-			const anus = new THREE.Vector3(0, centre(sph).y, sph.min.z);
-			const introitus = anus.clone().add(new THREE.Vector3(0, -24, 4)); // ~2.5 cm in front of the anus
-			const meatusPos = introitus.clone().add(new THREE.Vector3(0, -22, 2));
-			const clitPos = introitus.clone().add(new THREE.Vector3(0, -46, 6));
+			const pro = bb('prostate'), sph = bb('anal_sphincter'), bla = bb('bladder'), sv = bb('seminal_vesicles');
+			// Vulva on the skin of the perineum, front to back: clitoris, urethral meatus, introitus, then the anus.
+			// The skin surface is the visible silhouette (female profile): a ray cast downwards from inside the pelvis.
+			scene.updateMatrixWorld(true);
+			const surfaceMeshes = (['body_vulva', 'body'] as Part[]).map((p) => items.get(p)?.mesh).filter((m) => m != null);
+			const ray = new THREE.Raycaster();
+			const down = new THREE.Vector3(0, 0, -1);
+			const onSkin = (y: number, inset: number) => {
+				ray.set(new THREE.Vector3(0, y, pro.min.z), down);
+				const hit = ray.intersectObjects(surfaceMeshes, false)[0];
+				return hit ? new THREE.Vector3(0, y, hit.point.z + inset) : new THREE.Vector3(0, y, sph.min.z - 10);
+			};
+			const anusY = centre(sph).y;
+			const introitus = onSkin(anusY - 24, 3); // ~2.5 cm in front of the anus
+			const meatusPos = onSkin(anusY - 46, 2);
+			const clitPos = onSkin(anusY - 70, 2);
 			// The canal rises from the introitus behind the prostate to the level of the seminal vesicles.
 			const behindProstate = pro.max.y + 2;
 			const canalCurve = new THREE.CatmullRomCurve3([
@@ -222,12 +233,24 @@
 				return m;
 			};
 			addItem('clitoris', ball(4.5, clitPos));
+			// labia along the skin from the clitoris to behind the introitus: majora outside, minora inside
+			const fold = (side: number, spread: number, r: number) =>
+				new THREE.TubeGeometry(
+					new THREE.CatmullRomCurve3(
+						[0, 0.33, 0.66, 1].map((t, i) => {
+							const y = clitPos.y + 2 + (introitus.y + 10 - clitPos.y) * t;
+							const bulge = Math.sin(Math.PI * Math.min(1, t * 1.15)) * spread;
+							return onSkin(y, 1).add(new THREE.Vector3(side * (3 + bulge + (i === 0 ? 0 : 1)), 0, 0));
+						})
+					),
+					32, r, 14, false
+				);
+			addItem('labia', new THREE.Mesh(mergeGeometries([fold(-1, 9, 5), fold(1, 9, 5), fold(-1, 4, 1.8), fold(1, 4, 1.8)])));
 			addItem('meatus', ball(2.5, meatusPos));
 
-			// the penile skin travels into the canal at step 7; the scrotal skin is brought up around the vulva
+			// the penile skin travels into the canal at step 7; the camera centres on the vulva in the last steps
 			const skinTravel = new THREE.Vector3().subVectors(canalCurve.getPoint(0.5), centre(bb('skin_penile')));
-			const vulva = new THREE.Vector3(0, (clitPos.y + introitus.y) / 2, introitus.z - 6);
-			const labiaLift = new THREE.Vector3().subVectors(vulva, centre(scr));
+			const vulva = onSkin((clitPos.y + introitus.y) / 2, 0);
 			// the new canal takes room: prostate and bladder move forward, the rectum slightly back
 			const pushForward = new THREE.Vector3(0, -7, 0), pushBack = new THREE.Vector3(0, 5, 0);
 			// after step 8 the penile urethra is gone: keep only what lies behind the new meatus
@@ -320,10 +343,6 @@
 					for (const p of ['prostate', 'bladder', 'seminal_vesicles', 'urethra'] as Part[]) items.get(p)!.offset.copy(pushForward);
 					items.get('rectum')!.offset.copy(pushBack);
 				}
-				if (n >= 9) {
-					items.get('skin_scrotal')!.offset.copy(labiaLift);
-					items.get('skin_scrotal')!.scale = 0.7;
-				}
 				const ure = items.get('urethra')!.mat;
 				ure.clippingPlanes = [...(section ? cut : []), ...(n >= 8 ? [urethraEnd] : [])];
 				for (const p of CLIPPED) if (p !== 'urethra') items.get(p)!.mat.clippingPlanes = section ? cut : [];
@@ -336,7 +355,6 @@
 			const anchorOf = (p: Part) => {
 				const it = items.get(p)!;
 				if (p === 'canal') return canalCurve.getPoint(0.55);
-				if (p === 'skin_scrotal' && step >= 9) return vulva;
 				return centre(new THREE.Box3().setFromObject(it.mesh));
 			};
 			const v = new THREE.Vector3();
