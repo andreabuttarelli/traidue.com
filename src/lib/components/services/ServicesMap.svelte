@@ -218,6 +218,11 @@
 			</ul>
 		{/if}
 		<p class="text-xs text-muted mt-3 leading-relaxed">{m.services_disclaimer()}</p>
+		{#if data.country === 'IT'}
+			<p class="text-xs text-muted mt-1 leading-relaxed">
+				{m.services_attribution()} <a href="https://www.infotrans.it" target="_blank" rel="noopener" class="underline hover:text-primary">InfoTrans (ISS/UNAR)</a>.
+			</p>
+		{/if}
 	</div>
 </div>
 

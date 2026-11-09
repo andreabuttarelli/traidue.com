@@ -405,5 +405,10 @@
   "services_edit_title": "Informazioni sbagliate o non aggiornate?",
   "services_edit_desc": "I dati di ogni servizio sono pubblici e modificabili su GitHub: puoi proporre una correzione direttamente sul file.",
   "services_edit_cta": "Modifica su GitHub",
-  "services_back": "Tutti i servizi"
+  "services_back": "Tutti i servizi",
+  "services_hours": "Orari",
+  "services_closed": "Chiuso",
+  "services_consulted": "Dati consultati il {date}",
+  "services_infotrans_page": "Scheda su InfoTrans",
+  "services_attribution": "Include dati aperti pubblicati da"
 }

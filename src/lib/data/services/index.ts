@@ -21,6 +21,12 @@ export interface Service {
 	description: string;
 	source: string;
 	verified: string;
+	/** Imported from InfoTrans (ISS/UNAR) as-is: shown as "consulted on", not "verified on". */
+	origin?: 'infotrans';
+	/** InfoTrans page for an entry we verified ourselves. */
+	infotrans?: string;
+	/** Monday → Sunday, null = closed. */
+	hours?: (string | null)[];
 }
 
 export interface ServicesCountry {
