@@ -1,7 +1,8 @@
 <script lang="ts">
 	import 'leaflet/dist/leaflet.css';
+	import 'leaflet.markercluster/dist/MarkerCluster.css';
 	import { onMount } from 'svelte';
-	import type { Map as LeafletMap, LayerGroup, CircleMarker } from 'leaflet';
+	import type { Map as LeafletMap, MarkerClusterGroup, CircleMarker } from 'leaflet';
 	import type { ServicesCountry, ServiceType } from '$lib/data/services';
 	import * as m from '$lib/paraglide/messages';
 	import { localizeHref } from '$lib/paraglide/runtime';
@@ -37,7 +38,7 @@
 
 	let mapEl: HTMLDivElement;
 	let map: LeafletMap | undefined = $state();
-	let layer: LayerGroup | undefined;
+	let layer: MarkerClusterGroup | undefined;
 	const markers = new Map<string, CircleMarker>();
 
 	// Natural Earth (public domain), simplified: land, region borders, neighbouring countries.
@@ -67,9 +68,13 @@
 
 	onMount(() => {
 		let disposed = false;
-		Promise.all([import('leaflet'), basemaps[data.country]()]).then(([L, basemap]) => {
+		Promise.all([import('leaflet'), basemaps[data.country]()]).then(async ([leaflet, basemap]) => {
+			const L = leaflet.default;
+			// markercluster is a UMD plugin: it patches the global L.
+			(window as unknown as { L: typeof L }).L = L;
+			await import('leaflet.markercluster');
 			if (disposed) return;
-			const lmap = L.map(mapEl, { scrollWheelZoom: false, attributionControl: false, minZoom: 4, maxZoom: 10 }).setView(
+			const lmap = L.map(mapEl, { scrollWheelZoom: false, attributionControl: false, minZoom: 2, maxZoom: 10 }).setView(
 				data.center,
 				data.zoom
 			);
@@ -78,7 +83,17 @@
 				interactive: false,
 				style: (f) => ({ className: `basemap-${f?.properties.k}` })
 			}).addTo(lmap);
-			layer = L.layerGroup().addTo(lmap);
+			// Airbnb-style: nearby points merge into a counter; click zooms in, same-spot points fan out at max zoom.
+			layer = L.markerClusterGroup({
+				maxClusterRadius: 40,
+				showCoverageOnHover: false,
+				spiderLegPolylineOptions: { className: 'cluster-leg' },
+				iconCreateFunction: (c) => {
+					const n = c.getChildCount();
+					const size = n < 10 ? 30 : n < 100 ? 36 : 44;
+					return L.divIcon({ html: `<span>${n > 99 ? '99+' : n}</span>`, className: 'service-cluster', iconSize: L.point(size, size) });
+				}
+			}).addTo(lmap);
 			for (const s of data.services) {
 				if (s.lat == null || s.lng == null) continue;
 				const marker = L.circleMarker([s.lat, s.lng], { radius: 6, className: 'service-marker' }).bindPopup(
@@ -102,7 +117,7 @@
 		if (!map || !layer) return;
 		layer.clearLayers();
 		const visible = filtered.map((s) => markers.get(s.id)).filter((mk) => mk != null);
-		for (const mk of visible) layer.addLayer(mk);
+		layer.addLayers(visible);
 		if (visible.length > 0 && (query || activeType)) {
 			map.fitBounds(
 				visible.map((mk) => mk.getLatLng()),
@@ -115,9 +130,8 @@
 
 	function focus(id: string) {
 		const mk = markers.get(id);
-		if (!map || !mk) return;
-		map.flyTo(mk.getLatLng(), 8, { duration: 0.6 });
-		mk.openPopup();
+		if (!map || !layer || !mk) return;
+		layer.zoomToShowLayer(mk, () => mk.openPopup()); // opens its cluster if it's inside one
 		if (window.matchMedia('(max-width: 1023px)').matches) mapEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
 	}
 </script>
@@ -243,6 +257,27 @@
 	}
 	.services-map :global(.service-marker:hover) {
 		fill-opacity: 0.75;
+	}
+	.services-map :global(.service-cluster) {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 9999px;
+		background: var(--color-primary);
+		color: var(--color-bg);
+		box-shadow: 0 0 0 2px var(--color-bg), 0 0 0 6px color-mix(in srgb, var(--color-primary) 15%, transparent);
+		font-size: 12px;
+		font-weight: 600;
+		font-variant-numeric: tabular-nums;
+		cursor: pointer;
+		transition: transform 0.15s;
+	}
+	.services-map :global(.service-cluster:hover) {
+		transform: scale(1.08);
+	}
+	.services-map :global(.cluster-leg) {
+		stroke: var(--map-line);
+		stroke-width: 1.5;
 	}
 	.services-map :global(.leaflet-popup-content-wrapper),
 	.services-map :global(.leaflet-popup-tip) {

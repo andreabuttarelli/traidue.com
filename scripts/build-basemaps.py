@@ -1,6 +1,6 @@
 """Build minimal basemaps (land, region borders, neighbours) from Natural Earth (public domain).
 
-Usage: python3 scripts/build-basemaps.py <dir with ne_10m_admin_0_countries, ne_50m_admin_0_countries,
+Usage: python3 scripts/build-basemaps.py <dir with ne_10m_admin_0_countries, ne_50m_admin_0_countries, ne_110m_admin_0_countries,
        ne_10m_admin_1_states_provinces .geojson from github.com/nvkelso/natural-earth-vector v5.1.2> src/lib/data/services
 """
 import json, sys, collections
@@ -70,11 +70,17 @@ def internal_borders(features, group_key):
 
 countries10 = json.load(open(f'{NE}/ne_10m_admin_0_countries.geojson'))['features']
 countries50 = json.load(open(f'{NE}/ne_50m_admin_0_countries.geojson'))['features']
+countries110 = json.load(open(f'{NE}/ne_110m_admin_0_countries.geojson'))['features']
 admin1 = json.load(open(f'{NE}/ne_10m_admin_1_states_provinces.geojson'))['features']
 
 for code, a3, group, bb in (('it', 'ITA', 'region', [3, 34.5, 21.5, 48.5]), ('uk', 'GBR', 'geonunit', [-13, 48.5, 5, 61.5])):
     land = simplify_polys([f['geometry'] for f in countries10 if f['properties']['ADM0_A3'] == a3], TOL, 0.0005)
-    neigh = simplify_polys([f['geometry'] for f in countries50 if f['properties']['ADM0_A3'] != a3 and bbox_overlap(f['geometry'], bb)], TOL * 3, 0.05)
+    near = [f for f in countries50 if f['properties']['ADM0_A3'] != a3 and bbox_overlap(f['geometry'], bb)]
+    near_codes = {f['properties']['ADM0_A3'] for f in near}
+    # Nearby countries at 50m, the rest of the world at 110m: the whole globe stays visible when zoomed out.
+    world = [f for f in countries110 if f['properties']['ADM0_A3'] not in near_codes | {a3}]
+    neigh = simplify_polys([f['geometry'] for f in near], TOL * 3, 0.05)
+    neigh['coordinates'] += simplify_polys([f['geometry'] for f in world], TOL * 10, 0.05)['coordinates']
     borders = internal_borders([f for f in admin1 if f['properties']['adm0_a3'] == a3], group)
     fc = {'type': 'FeatureCollection', 'features': [
         {'type': 'Feature', 'properties': {'k': 'neighbour'}, 'geometry': neigh},
