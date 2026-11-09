@@ -41,7 +41,8 @@
 		<p class="text-base sm:text-lg text-muted-text leading-relaxed mb-10">{p.summary}</p>
 
 		{#if p.slug === 'vaginoplastica'}
-			<div class="mb-10"><VaginoplastyDiagram /></div>
+			<!-- wider than the text column on desktop: the diagram has a step list beside it -->
+			<div class="mb-10 xl:w-[64rem] xl:max-w-[calc(100vw-6rem)]"><VaginoplastyDiagram /></div>
 		{/if}
 
 		{#if p.techniques?.length}
