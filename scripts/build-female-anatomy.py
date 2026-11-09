@@ -1,13 +1,13 @@
-"""Build static/anatomy/vulva-female.glb (vulva + vagina) from "Pelvic Organs from MRI".
+"""Build static/anatomy/vulva-female.glb (vulva, vagina, bladder, rectum) from "Pelvic Organs from MRI".
 
 "Pelvic Organs from MRI" (https://sketchfab.com/3d-models/pelvic-organs-from-mri-2610b30793ed47a5baa18b2994bdee6b)
 by audreybyrd, licensed under CC BY 4.0: MRI of a 25-year-old woman, Oklahoma State University, 2022.
 Download it from Sketchfab as glTF and pass the folder holding scene.gltf + scene.bin.
 
-The output keeps the source's anatomical axes (+Y up, +Z anterior, +X lateral) with the origin at the
-centre of the vaginal opening and the anus-to-opening distance as the unit, so the viewer can place it with
-two landmarks it also has on the male model (anus, introitus) without rotating it. The vagina's centreline
-is stored in scene extras ("centerline") so the viewer can route the surgical canal along it.
+The viewer shows these organs as the reference anatomy of the result, in their own proportions (all from
+the same person). The output keeps the source's anatomical axes (+Y up, +Z anterior, +X lateral), with the
+origin at the centre of the vaginal opening and the anus-to-opening distance as unit; the vagina's centreline
+is stored in scene extras ("centerline") for the packing, and the bladder is kept for the catheter.
 Uterus, cervix, tubes and ovaries are left out (a neovagina has none of them), and so is the skin behind
 the perineal body (around the anus and the gluteal cleft), which is not vulva.
 
@@ -74,7 +74,9 @@ def cluster(verts, tris, cell):
     return [(x / n, y / n, z / n) for x, y, z, n in acc_], sorted(out)
 
 meshes = {}
-for name, (v, t) in (('vulva', vulva), ('vagina', vagina)):
+bladder = groups['bladder']
+rectum = (groups['rectum'][0], [t for t in groups['rectum'][1] if all(groups['rectum'][0][i][1] < 0 for i in t)])  # low rectum only
+for name, (v, t) in (('vulva', vulva), ('vagina', vagina), ('bladder', bladder), ('rectum', rectum)):
     fv = [to_frame(p) for p in v]
     meshes[name] = cluster(fv, t, 0.1)  # ~10% of the anus-opening distance (~3 mm)
 
