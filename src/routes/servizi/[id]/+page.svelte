@@ -22,6 +22,9 @@
 	const verified = $derived(
 		new Date(s.verified).toLocaleDateString(getLocale() === 'it' ? 'it-IT' : 'en-GB', { day: 'numeric', month: 'long', year: 'numeric' })
 	);
+	const days = Array.from({ length: 7 }, (_, i) =>
+		new Date(2024, 0, 1 + i).toLocaleDateString(getLocale() === 'it' ? 'it-IT' : 'en-GB', { weekday: 'long' })
+	);
 	const osmUrl = $derived(
 		s.lat != null ? `https://www.openstreetmap.org/?mlat=${s.lat}&mlon=${s.lng}#map=17/${s.lat}/${s.lng}` : null
 	);
@@ -74,10 +77,21 @@
 					{#if s.email}<a href={`mailto:${s.email}`} class="text-primary hover:underline break-all">{s.email}</a>{/if}
 				</dd>
 			{/if}
+			{#if s.hours}
+				<dt class="text-muted">{m.services_hours()}</dt>
+				<dd>
+					<ul class="grid grid-cols-[7rem_1fr] gap-y-0.5 text-sm">
+						{#each s.hours as h, i}
+							<li class="contents"><span class="capitalize text-muted">{days[i]}</span><span class={h ? 'text-primary' : 'text-muted'}>{h ?? m.services_closed()}</span></li>
+						{/each}
+					</ul>
+				</dd>
+			{/if}
 			<dt class="text-muted">{m.services_source()}</dt>
 			<dd>
-				<a href={s.source} target="_blank" rel="noopener" class="text-primary hover:underline break-all">{new URL(s.source).host}</a>
-				<span class="block text-sm text-muted">{m.services_verified({ date: verified })}</span>
+				<a href={s.source} target="_blank" rel="noopener" class="text-primary hover:underline break-all">{s.origin === 'infotrans' ? 'InfoTrans (ISS/UNAR)' : new URL(s.source).host}</a>
+				<span class="block text-sm text-muted">{s.origin === 'infotrans' ? m.services_consulted({ date: verified }) : m.services_verified({ date: verified })}</span>
+				{#if s.infotrans}<a href={s.infotrans} target="_blank" rel="noopener" class="block text-sm text-muted hover:text-primary underline">{m.services_infotrans_page()}</a>{/if}
 			</dd>
 		</dl>
 
