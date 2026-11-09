@@ -7,7 +7,7 @@
 	import * as m from '$lib/paraglide/messages';
 	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
 	import { page } from '$app/state';
-	import { getProcedures, surgeons } from '$lib/data/procedures';
+	import { getProcedures, PROCEDURES_PUBLIC, surgeons } from '$lib/data/procedures';
 	import type { WikiArticle } from '$lib/utils/wiki';
 
 	// list=false: compact hero (map + filters), the full list lives on /servizi.
@@ -49,8 +49,8 @@
 		const articles = (page.data.allArticles ?? []) as WikiArticle[];
 		const groups = [
 			{ label: m.search_group_services(), items: filtered.slice(0, 4).map((s) => ({ href: detailHref(s.id), title: s.name, meta: s.city ?? m.services_national() })) },
-			{ label: m.nav_procedures(), items: procedures.filter((p) => has(p.name, ...(p.aka ?? []), p.summary)).slice(0, 4).map((p) => ({ href: localizeHref(`/operazioni/${p.slug}`), title: p.name, meta: p.area })) },
-			{ label: m.procedures_surgeons(), items: surgeons.filter((s) => has(s.name, s.city, s.institution)).slice(0, 3).map((s) => ({ href: `${localizeHref('/operazioni')}#chirurghi`, title: s.name, meta: s.city })) },
+			{ label: m.nav_procedures(), items: (PROCEDURES_PUBLIC ? procedures : []).filter((p) => has(p.name, ...(p.aka ?? []), p.summary)).slice(0, 4).map((p) => ({ href: localizeHref(`/operazioni/${p.slug}`), title: p.name, meta: p.area })) },
+			{ label: m.procedures_surgeons(), items: (PROCEDURES_PUBLIC ? surgeons : []).filter((s) => has(s.name, s.city, s.institution)).slice(0, 3).map((s) => ({ href: `${localizeHref('/operazioni')}#chirurghi`, title: s.name, meta: s.city })) },
 			{ label: m.search_group_articles(), items: articles.filter((a) => has(a.title, a.description, ...(a.tags ?? []))).slice(0, 4).map((a) => ({ href: localizeHref(`/wiki/${a.slug}`), title: a.title, meta: a.category })) }
 		].filter((g) => g.items.length);
 		return groups;

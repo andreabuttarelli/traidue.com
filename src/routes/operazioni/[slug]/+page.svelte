@@ -6,6 +6,7 @@
 	import * as m from '$lib/paraglide/messages';
 	import { localizeHref } from '$lib/paraglide/runtime';
 	import Vaginoplasty3D from '$lib/components/procedures/Vaginoplasty3D.svelte';
+	import { PROCEDURES_PUBLIC, VAGINOPLASTY_3D } from '$lib/data/procedures';
 
 	let { data } = $props();
 	const p = $derived(data.procedure);
@@ -15,7 +16,7 @@
 	const host = (u: string) => new URL(u).host.replace(/^www\./, '');
 </script>
 
-<SEO title={`${p.name}: tecniche, requisiti, recupero e costi | ${SITE.brand}`} description={p.summary} url={`${SITE.url}/operazioni/${p.slug}`} />
+<SEO title={`${p.name}: tecniche, requisiti, recupero e costi | ${SITE.brand}`} description={p.summary} url={`${SITE.url}/operazioni/${p.slug}`} noindex={!PROCEDURES_PUBLIC} />
 <StructuredData
 	schema={{
 		'@context': 'https://schema.org',
@@ -40,7 +41,7 @@
 		{#if p.aka?.length}<p class="text-sm text-muted mb-4">{m.procedures_aka()}: {p.aka.join(', ')}</p>{/if}
 		<p class="text-base sm:text-lg text-muted-text leading-relaxed mb-10">{p.summary}</p>
 
-		{#if p.slug === 'vaginoplastica'}
+		{#if VAGINOPLASTY_3D && p.slug === 'vaginoplastica'}
 			<!-- wider than the text column on desktop: the diagram has a step list beside it -->
 			<div class="mb-10 xl:w-[64rem] xl:max-w-[calc(100vw-6rem)]"><Vaginoplasty3D /></div>
 		{/if}
