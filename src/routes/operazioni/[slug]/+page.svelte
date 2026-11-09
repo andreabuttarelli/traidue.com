@@ -5,6 +5,7 @@
 	import { SITE } from '$lib/site';
 	import * as m from '$lib/paraglide/messages';
 	import { localizeHref } from '$lib/paraglide/runtime';
+	import VaginoplastyDiagram from '$lib/components/procedures/VaginoplastyDiagram.svelte';
 
 	let { data } = $props();
 	const p = $derived(data.procedure);
@@ -38,6 +39,10 @@
 		<h1 class="text-2xl sm:text-3xl lg:text-4xl font-heading font-semibold tracking-tight text-primary mb-2">{p.name}</h1>
 		{#if p.aka?.length}<p class="text-sm text-muted mb-4">{m.procedures_aka()}: {p.aka.join(', ')}</p>{/if}
 		<p class="text-base sm:text-lg text-muted-text leading-relaxed mb-10">{p.summary}</p>
+
+		{#if p.slug === 'vaginoplastica'}
+			<div class="mb-10"><VaginoplastyDiagram /></div>
+		{/if}
 
 		{#if p.techniques?.length}
 			<section class="mb-10">
