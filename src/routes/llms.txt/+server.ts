@@ -1,8 +1,9 @@
 import { SITE } from '$lib/site';
 import { getAllArticles } from '$lib/utils/wiki';
 import { getAllQuizzes } from '$lib/utils/quiz';
+import { localizeHref } from '$lib/paraglide/runtime';
 
-export const prerender = false;
+export const prerender = true;
 
 export async function GET() {
 	const articles = getAllArticles();
@@ -48,6 +49,17 @@ export async function GET() {
 		lines.push(`- [${q.title}](${SITE.url}/quiz/${q.slug}): ${q.description}`);
 	}
 	lines.push('');
+
+	const otherLocales = { en: 'English', es: 'Español', pt: 'Português' } as const;
+	for (const [locale, label] of Object.entries(otherLocales)) {
+		lines.push(`## ${label}`);
+		lines.push('');
+		for (const a of getAllArticles(locale)) {
+			const href = `${SITE.url}${localizeHref(`/wiki/${a.slug}`, { locale })}`;
+			lines.push(`- [${a.title}](${href}): ${a.description} [Markdown](${href}/raw)`);
+		}
+		lines.push('');
+	}
 
 	return new Response(lines.join('\n'), {
 		headers: {

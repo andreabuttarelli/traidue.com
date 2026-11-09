@@ -13,15 +13,15 @@
  */
 import { env } from '$env/dynamic/public';
 
-const url = (env.PUBLIC_SITE_URL ?? 'https://www.traidue.com').replace(/\/+$/, '');
+const url = (env.PUBLIC_SITE_URL || 'https://www.transwiki.co').replace(/\/+$/, '');
 
 export const SITE = {
-	/** Full canonical origin, no trailing slash. e.g. https://www.traidue.com */
+	/** Full canonical origin, no trailing slash. e.g. https://www.transwiki.co */
 	url,
-	/** Bare domain for display inside copy. e.g. traidue.com */
-	domain: env.PUBLIC_SITE_DOMAIN ?? 'traidue.com',
-	/** Brand name shown in UI, SEO and structured data. e.g. Tra i Due */
-	brand: env.PUBLIC_SITE_BRAND ?? 'Tra i Due',
+	/** Bare domain for display inside copy. e.g. transwiki.co */
+	domain: env.PUBLIC_SITE_DOMAIN || 'transwiki.co',
+	/** Brand name shown in UI, SEO and structured data. e.g. TransWiki */
+	brand: env.PUBLIC_SITE_BRAND || 'TransWiki',
 	/** Public contact email. */
 	email: env.PUBLIC_CONTACT_EMAIL ?? 'info@traidue.com',
 	/** Source code repository — shared across all deployments (host-independent). */
