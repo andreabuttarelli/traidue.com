@@ -9,8 +9,8 @@ scale. Instead, in the coordinates of static/anatomy/pelvis-male.glb (mm, +z up,
 - the neovaginal canal is traced where the surgeon dissects it, midway between the rectum and the
   prostate / seminal vesicles, from the introitus on the skin up to the rectovesical pouch;
 - the real vagina is laid along that canal (its own shape, resized to a neovagina: ~3.5 cm wide);
-- the real vulva (6 cm wide) lies on the perineum with its outer surface on the skin, tilted up at the front
-  so the clitoris sits ~2.5 cm below the pubic symphysis.
+- the real vulva (6.5 cm wide) takes the place of the old genitals: its outer surface runs from the opening
+  on the perineal skin to the front commissure just under the pubic symphysis (penile base / scrotal root).
 The canal, introitus and meatus are stored in scene extras for the viewer.
 Uterus, cervix, tubes and ovaries are left out (a neovagina has none of them), and so is the skin behind
 the perineal body (around the anus and the gluteal cleft), which is not vulva.
@@ -119,9 +119,25 @@ anus = (0.0, (sph[0][1] + sph[1][1]) / 2, sph[0][2])
 def on_skin(y):  # first skin hit going down from inside the pelvis
     return (0.0, y, pro[0][2] - cast((0.0, y, pro[0][2]), (0, 0, -1)))
 introitus = on_skin(anus[1] - 30)  # centre of the opening, 3 cm in front of the anus, at the front of the perineum
-S = 60 / (max(p[0] for p in meshes['vulva'][0]) - min(p[0] for p in meshes['vulva'][0]))  # vulva 6 cm wide
+# The vulva takes the place of the old genitals: from the opening on the perineum to the front commissure
+# (clitoris), where the penile base and the scrotal root were, just under the pubic symphysis.
+uv, ut = meshes['vulva']
+ut = [t for t in ut if not any(uv[i][2] < 0.1 and uv[i][1] > 0.45 for i in t)]  # lining rising into the body behind the opening
+S = 65 / (max(uv[i][0] for t in ut for i in t) - min(uv[i][0] for t in ut for i in t))  # 6.5 cm wide
+pub = [p for n in ('hip_left', 'hip_right') for p in male[n][0] if abs(p[0]) < 10]
+pubis = min(pub, key=lambda p: p[2])  # lower edge of the symphysis
+commissure = (0.0, pubis[1] - 13, pubis[2] - 13)
 OUTER = 0.25  # the vulva's outer surface lies this far (vulva units) below its opening
-opening = (0.0, introitus[1], introitus[2] + OUTER * S)
+front = max((uv[i] for t in ut for i in t), key=lambda p: p[2])  # most anterior point of the vulva
+# sagittal similarity (forward, up): outer surface at the opening -> introitus on the skin, front -> commissure
+fv = (front[2], front[1] + OUTER); mv = (introitus[1] - commissure[1], commissure[2] - introitus[2])
+SS = math.hypot(*mv) / math.hypot(*fv)
+TILT = math.atan2(mv[1], mv[0]) - math.atan2(fv[1], fv[0])
+def place(p):
+    a, u = p[2], p[1] + OUTER
+    fwd = (a * math.cos(TILT) - u * math.sin(TILT)) * SS; up = (a * math.sin(TILT) + u * math.cos(TILT)) * SS
+    return (p[0] * S, introitus[1] - fwd, introitus[2] + up)
+opening = place((0, 0, 0))
 
 # canal: midway between the rectum's front wall and the prostate / vesicles' back wall, up to the rectovesical pouch
 def wall(names, z, front):
@@ -172,12 +188,7 @@ def vag(l):
     return (pt[0] + lat * 35 / wl, pt[1] + n[1] * ant * 25 / wa, pt[2] + n[2] * ant * 25 / wa)
 meshes['vagina'] = ([vag(l) for l in loc], vt)
 
-# vulva: rigid, outer surface on the skin, front tilted up by TILT (female up/ant -> male +z / -y)
-TILT = math.radians(27)
-def place(p):
-    ant = p[2] * math.cos(TILT) - p[1] * math.sin(TILT); up = p[1] * math.cos(TILT) + p[2] * math.sin(TILT)
-    return (opening[0] + p[0] * S, opening[1] - ant * S, opening[2] + up * S)
-meshes['vulva'] = ([place(p) for p in meshes['vulva'][0]], meshes['vulva'][1])
+meshes['vulva'] = ([place(p) for p in uv], ut)
 meatus = place((0, 0.1, 0.55))
 
 # minimal glTF 2.0 binary writer (same layout as build-anatomy.py)
@@ -199,4 +210,4 @@ gltf = {'asset': {'version': '2.0', 'generator': 'build-female-anatomy.py', 'cop
 js = json.dumps(gltf, separators=(',', ':')).encode(); js += b' ' * (-len(js) % 4); bin_ += b'\0' * (-len(bin_) % 4)
 glb = struct.pack('<III', 0x46546C67, 2, 28 + len(js) + len(bin_)) + struct.pack('<II', len(js), 0x4E4F534A) + js + struct.pack('<II', len(bin_), 0x004E4942) + bytes(bin_)
 os.makedirs(os.path.dirname(OUT), exist_ok=True); open(OUT, 'wb').write(glb)
-print(f'{OUT}: {len(glb) // 1024} KB, triangles {stats}, canal {L:.0f} mm {[[round(c) for c in p] for p in canal]}, slope {slope:.2f}, vulva {S:.1f} mm/unit, opening {[round(c) for c in opening]}, meatus {[round(c) for c in meatus]}')
+print(f'{OUT}: {len(glb) // 1024} KB, triangles {stats}, canal {L:.0f} mm {[[round(c) for c in p] for p in canal]}, slope {slope:.2f}, vulva {S:.1f}/{SS:.1f} mm/unit tilt {math.degrees(TILT):.0f}, commissure {[round(c) for c in commissure]}, opening {[round(c) for c in opening]}, meatus {[round(c) for c in meatus]}')

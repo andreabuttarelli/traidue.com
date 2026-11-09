@@ -40,7 +40,7 @@
 		if (step >= 8) Object.assign(s, { dorsal_artery: 'h', dorsal_vein: 'h', glans: 'h', f_vulva: 'pl', f_vagina: 'p' });
 		removed('corpus_spongiosum', 8);
 		if (step === 8) s.corpus_spongiosum = 'g';
-		if (step >= 9) s.skin_scrotal = 'h'; // the scrotal skin became the labia
+		if (step >= 8) s.skin_scrotal = 'h'; // the scrotal skin becomes the labia of the vulva
 		if (step === 9) Object.assign(s, { packing: 'n', catheter: 'n' });
 		return s;
 	}
