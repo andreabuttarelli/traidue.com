@@ -95,10 +95,11 @@ def in_genitals(t):
     return abs(c[0]) < 48 and c[1] < -112 and 655 < c[2] < 770
 sph = meshes['anal_sphincter'][0]
 leg_cut = min(p[2] for p in sph) - 25
-y_open = (min(p[1] for p in sph) + max(p[1] for p in sph)) / 2 - 30  # vaginal opening, 3 cm in front of the anus
-z_open = max(p[2] for p in sv if abs(p[0]) < 4 and abs(p[1] - y_open) < 4 and p[2] < min(q[2] for q in meshes['prostate'][0]))
-pubis = min((p for n in ('hip_left', 'hip_right') for p in meshes[n][0] if abs(p[0]) < 10), key=lambda p: p[2])
-y_com, z_com = pubis[1] - 13, pubis[2] - 13  # front commissure, just under the symphysis
+anus_y = (min(p[1] for p in sph) + max(p[1] for p in sph)) / 2
+y_open = anus_y - 38  # vaginal opening, 3.8 cm in front of the anus and 1 cm under the perineal skin
+z_open = max(p[2] for p in sv if abs(p[0]) < 4 and abs(p[1] - (anus_y - 30)) < 4 and p[2] < min(q[2] for q in meshes['prostate'][0])) - 10
+pub = [p for n in ('hip_left', 'hip_right') for p in meshes[n][0] if abs(p[0]) < 10]
+y_com, z_com = min(p[1] for p in pub) - 25, min(p[2] for p in pub) - 5  # front commissure, 2.5 cm in front of the symphysis
 def cut(y):  # height of the female outline at y (3 mm under the vulva, so it stays outside)
     if y >= y_open: return leg_cut
     return max(leg_cut, z_open - 3 + (y - y_open) * (z_com - z_open) / (y_com - y_open))
