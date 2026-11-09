@@ -4,22 +4,22 @@
 
 	// 3D anatomy from BodyParts3D (CC BY 4.0) inside a translucent whole body, optionally cut along
 	// the midline (sagittal section). Each step assigns a state to every part; the render loop eases
-	// colour, opacity, position and scale towards it. New structures (canal, clitoris, meatus, packing,
+	// colour, opacity, position and scale towards it. New structures (canal, packing,
 	// catheter) are built in the real space between prostate and rectum and drawn on top ("x-ray").
 
 	type State = 'n' | 'a' | 'g' | 'h' | 'p' | 'pl'; // normal, active, ghost (removed), hidden, pink (new), pink light
 	const PARTS = [
 		'body', 'body_genital', 'body_vulva', 'bladder', 'prostate', 'urethra', 'rectum', 'seminal_vesicles', 'anal_sphincter', 'sacrum', 'hip_left', 'hip_right',
 		'corpora_cavernosa', 'corpus_spongiosum', 'glans', 'testes', 'epididymides', 'dorsal_artery', 'dorsal_vein',
-		'skin', 'skin_penile', 'skin_scrotal', 'canal', 'packing', 'catheter', 'clitoris', 'meatus', 'labia'
+		'skin', 'skin_penile', 'skin_scrotal', 'canal', 'packing', 'catheter', 'f_vulva', 'f_vagina'
 	] as const;
 	type Part = (typeof PARTS)[number];
-	const NEW: Part[] = ['canal', 'clitoris', 'meatus', 'labia', 'packing', 'catheter'];
+	const NEW: Part[] = ['canal', 'f_vulva', 'f_vagina', 'packing', 'catheter'];
 
 	function stateFor(step: number): Partial<Record<Part, State>> {
 		// The cropped perineal skin is a ragged sheet in section: only penile and scrotal skin are shown.
 		// Removed parts stay as a transparent ghost only in the step right after their removal, then disappear.
-		const s: Partial<Record<Part, State>> = { skin: 'h', canal: 'h', packing: 'h', catheter: 'h', clitoris: 'h', meatus: 'h', labia: 'h', body_vulva: 'h' };
+		const s: Partial<Record<Part, State>> = { skin: 'h', canal: 'h', packing: 'h', catheter: 'h', f_vulva: 'h', f_vagina: 'h', body_vulva: 'h' };
 		const removed = (part: Part, at: number) => {
 			if (step === at) s[part] = 'a';
 			else if (step === at + 1) s[part] = 'g';
@@ -31,15 +31,16 @@
 		if (step === 3) Object.assign(s, { corpus_spongiosum: 'a', urethra: 'a' });
 		if (step === 4) Object.assign(s, { dorsal_artery: 'a', dorsal_vein: 'a', glans: 'a' });
 		removed('corpora_cavernosa', 5);
-		if (step >= 6) s.canal = step === 6 ? 'pl' : 'p';
+		if (step === 6 || step === 7) s.canal = step === 6 ? 'pl' : 'p';
 		if (step === 6) s.rectum = 'a';
 		// it became the lining of the canal; the silhouette switches to the female profile at the same time
 		if (step >= 7) Object.assign(s, { skin_penile: 'h', body_genital: 'h', body_vulva: 'n' });
 		if (step === 7) Object.assign(s, { dorsal_artery: 'g', dorsal_vein: 'g' });
-		if (step >= 8) Object.assign(s, { dorsal_artery: 'h', dorsal_vein: 'h', glans: 'h', clitoris: 'p', meatus: 'p' });
+		// from step 8 the result is shown with a real female vulva and vagina (MRI), fitted to the new canal
+		if (step >= 8) Object.assign(s, { dorsal_artery: 'h', dorsal_vein: 'h', glans: 'h', f_vulva: 'pl', f_vagina: 'p' });
 		removed('corpus_spongiosum', 8);
 		if (step === 8) s.corpus_spongiosum = 'g';
-		if (step >= 9) Object.assign(s, { skin_scrotal: 'h', labia: 'p' }); // the scrotal skin became the labia
+		if (step >= 9) s.skin_scrotal = 'h'; // the scrotal skin became the labia
 		if (step === 9) Object.assign(s, { packing: 'n', catheter: 'n' });
 		return s;
 	}
@@ -75,10 +76,9 @@
 		{ text: 'vasi e nervi dorsali', anchor: 'dorsal_artery', from: 4, to: 4, accent: true },
 		{ text: 'corpi cavernosi', anchor: 'corpora_cavernosa', from: 5, to: 5, accent: true },
 		{ text: 'nuovo spazio', anchor: 'canal', from: 6, to: 6, accent: true },
-		{ text: 'canale vaginale', anchor: 'canal', from: 7, to: 10, accent: true },
-		{ text: 'clitoride', anchor: 'clitoris', from: 8, to: 10, accent: true },
-		{ text: 'meato uretrale', anchor: 'meatus', from: 8, to: 10, accent: true },
-		{ text: 'labbra', anchor: 'labia', from: 9, to: 10, accent: true },
+		{ text: 'canale vaginale', anchor: 'canal', from: 7, to: 7, accent: true },
+		{ text: 'canale vaginale', anchor: 'f_vagina', from: 8, to: 10, accent: true },
+		{ text: 'vulva: clitoride, meato, labbra', anchor: 'f_vulva', from: 8, to: 10, accent: true },
 		{ text: 'zaffo e catetere', anchor: 'packing', from: 9, to: 9 }
 	];
 
@@ -114,7 +114,6 @@
 			const THREE = await import('three');
 			const { GLTFLoader } = await import('three/examples/jsm/loaders/GLTFLoader.js');
 			const { OrbitControls } = await import('three/examples/jsm/controls/OrbitControls.js');
-			const { mergeGeometries } = await import('three/examples/jsm/utils/BufferGeometryUtils.js');
 			if (disposed) return;
 
 			const renderer = new THREE.WebGLRenderer({ canvas: canvasEl, antialias: true, alpha: true });
@@ -210,49 +209,76 @@
 				const hit = ray.intersectObjects(surfaceMeshes, false)[0];
 				return hit ? new THREE.Vector3(0, y, hit.point.z + inset) : new THREE.Vector3(0, y, sph.min.z - 10);
 			};
-			const anusY = centre(sph).y;
-			const introitus = onSkin(anusY - 24, 3); // ~2.5 cm in front of the anus
-			const meatusPos = onSkin(anusY - 46, 2);
-			const clitPos = onSkin(anusY - 70, 2);
-			// The canal rises from the introitus behind the prostate to the level of the seminal vesicles.
-			const behindProstate = pro.max.y + 2;
-			const canalCurve = new THREE.CatmullRomCurve3([
-				introitus,
-				new THREE.Vector3(0, behindProstate - 4, pro.min.z + 2),
-				new THREE.Vector3(0, behindProstate, (pro.min.z + pro.max.z) / 2 + 6),
-				new THREE.Vector3(0, centre(sv).y, sv.min.z + 10)
-			]);
+			const anus = new THREE.Vector3(0, centre(sph).y, sph.min.z);
+			const introitus = onSkin(anus.y - 24, 3); // ~2.5 cm in front of the anus
+			const meatusPos = onSkin(anus.y - 46, 2);
+			const clitPos = onSkin(anus.y - 70, 2); // front end of the vulva, used to centre the camera
+
+			// Real female vulva + vagina (MRI). The file keeps its anatomical axes (+Y up, +Z anterior) with the
+			// vaginal opening at the origin and the anus-to-opening distance as unit: placing it needs only the
+			// same two landmarks here, and no rotation (source +Y -> +z up, +Z -> -y anterior, +X -> +x).
+			let female: Awaited<ReturnType<InstanceType<typeof GLTFLoader>['loadAsync']>> | undefined;
+			try {
+				female = await new GLTFLoader().loadAsync('/anatomy/vulva-female.glb');
+			} catch {
+				// without it the result steps keep the pink canal along the fallback path below
+			}
+			const s = introitus.distanceTo(anus);
+			const toBody = new THREE.Matrix4().set(s, 0, 0, 0, 0, 0, -s, 0, 0, s, 0, 0, 0, 0, 0, 1).setPosition(introitus);
+			const centerline = (female?.scene.userData.centerline as number[][] | undefined)?.map((p) =>
+				new THREE.Vector3(p[0], p[1], p[2]).applyMatrix4(toBody).setX(0)
+			);
+			// The surgical canal follows the real vagina's centreline (fallback: behind the prostate up to the vesicles).
+			const canalCurve = new THREE.CatmullRomCurve3(
+				centerline ?? [
+					introitus,
+					new THREE.Vector3(0, pro.max.y - 2, pro.min.z + 2),
+					new THREE.Vector3(0, pro.max.y + 2, (pro.min.z + pro.max.z) / 2 + 6),
+					new THREE.Vector3(0, centre(sv).y, sv.min.z + 10)
+				]
+			);
 			const tube = (curve: import('three').Curve<import('three').Vector3>, r: number) =>
 				new THREE.Mesh(new THREE.TubeGeometry(curve, 64, r, 24, false));
-			addItem('canal', tube(canalCurve, 10));
+			const CANAL_R = 10;
+			addItem('canal', tube(canalCurve, CANAL_R));
 			addItem('packing', tube(canalCurve, 4));
 			addItem('catheter', tube(new THREE.CatmullRomCurve3([centre(bla), new THREE.Vector3(0, centre(pro).y, centre(pro).z), meatusPos]), 1.6));
-			const ball = (r: number, at: import('three').Vector3) => {
-				const m = new THREE.Mesh(new THREE.SphereGeometry(r, 24, 16));
-				m.position.copy(at);
-				return m;
-			};
-			addItem('clitoris', ball(4.5, clitPos));
-			// labia along the skin from the clitoris to behind the introitus: majora outside, minora inside
-			const fold = (side: number, spread: number, r: number) =>
-				new THREE.TubeGeometry(
-					new THREE.CatmullRomCurve3(
-						[0, 0.33, 0.66, 1].map((t, i) => {
-							const y = clitPos.y + 2 + (introitus.y + 10 - clitPos.y) * t;
-							const bulge = Math.sin(Math.PI * Math.min(1, t * 1.15)) * spread;
-							return onSkin(y, 1).add(new THREE.Vector3(side * (3 + bulge + (i === 0 ? 0 : 1)), 0, 0));
-						})
-					),
-					32, r, 14, false
-				);
-			addItem('labia', new THREE.Mesh(mergeGeometries([fold(-1, 9, 5), fold(1, 9, 5), fold(-1, 4, 1.8), fold(1, 4, 1.8)])));
-			addItem('meatus', ball(2.5, meatusPos));
+			if (female) {
+				const parts: import('three').Mesh[] = [];
+				female.scene.traverse((o) => {
+					if ((o as import('three').Mesh).isMesh) parts.push(o as import('three').Mesh);
+				});
+				for (const m of parts) {
+					m.geometry.applyMatrix4(toBody);
+					m.position.set(0, 0, 0);
+					addItem(('f_' + m.name) as Part, m);
+				}
+			}
 
 			// the penile skin travels into the canal at step 7; the camera centres on the vulva in the last steps
 			const skinTravel = new THREE.Vector3().subVectors(canalCurve.getPoint(0.5), centre(bb('skin_penile')));
 			const vulva = onSkin((clitPos.y + introitus.y) / 2, 0);
-			// the new canal takes room: prostate and bladder move forward, the rectum slightly back
-			const pushForward = new THREE.Vector3(0, -7, 0), pushBack = new THREE.Vector3(0, 5, 0);
+			// The new canal takes room: measure how far the rectum (behind) and the prostate (in front) reach into
+			// it, plus 2 mm of tissue, and push them just that far (capped), along the antero-posterior axis.
+			const samples = canalCurve.getSpacedPoints(80);
+			const canalYAt = (z: number) => samples.reduce((a, b) => (Math.abs(b.z - z) < Math.abs(a.z - z) ? b : a)).y;
+			const [zLo, zHi] = [Math.min(...samples.map((p) => p.z)), Math.max(...samples.map((p) => p.z))];
+			const overlap = (part: Part, behind: boolean) => {
+				const m = items.get(part)!.mesh;
+				m.updateMatrixWorld(true);
+				const pos = m.geometry.attributes.position;
+				const v = new THREE.Vector3();
+				let need = 0;
+				for (let i = 0; i < pos.count; i++) {
+					v.fromBufferAttribute(pos, i).applyMatrix4(m.matrixWorld);
+					if (Math.abs(v.x) > CANAL_R || v.z < zLo || v.z > zHi) continue;
+					const y = canalYAt(v.z);
+					need = Math.max(need, behind ? y + CANAL_R + 2 - v.y : v.y - (y - CANAL_R - 2));
+				}
+				return Math.min(need, 25);
+			};
+			const pushForward = new THREE.Vector3(0, -Math.max(overlap('prostate', false), overlap('bladder', false)), 0);
+			const pushBack = new THREE.Vector3(0, overlap('rectum', true), 0);
 			// after step 8 the penile urethra is gone: keep only what lies behind the new meatus
 			const urethraEnd = new THREE.Plane(new THREE.Vector3(0, 1, 0), -meatusPos.y);
 
@@ -475,7 +501,7 @@
 		</ol>
 	</div>
 	<p class="text-[11px] text-muted mt-4 leading-relaxed">
-		Modello anatomico 3D (BodyParts3D, © The Database Center for Life Science, CC BY 4.0). Canale, clitoride, meato, zaffo e catetere sono ricostruzioni schematiche nella loro posizione reale. Le tecniche variano tra chirurghi e centri: non sostituisce la spiegazione del chirurgo.
+		Modello anatomico 3D (BodyParts3D, © The Database Center for Life Science, CC BY 4.0). Vulva e vagina del risultato: «Pelvic Organs from MRI» di audreybyrd (Sketchfab, CC BY 4.0), adattate al nuovo canale. Canale nelle fasi intermedie, zaffo e catetere sono ricostruzioni schematiche. Le tecniche variano tra chirurghi e centri: non sostituisce la spiegazione del chirurgo.
 	</p>
 </figure>
 
