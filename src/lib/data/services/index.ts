@@ -1,5 +1,8 @@
+import { SITE } from '$lib/site';
 import it from './it.json';
 import uk from './uk.json';
+import itRaw from './it.json?raw';
+import ukRaw from './uk.json?raw';
 
 export type ServiceType = 'clinic' | 'consultorio' | 'association' | 'legal' | 'helpline' | 'support-group';
 
@@ -25,14 +28,29 @@ export interface ServicesCountry {
 	center: [number, number];
 	zoom: number;
 	services: Service[];
+	file: string;
+	raw: string;
 }
 
 // ponytail: country follows the site language (it → Italy, en → UK); geo-IP would need a function per request.
 const byLocale: Record<string, ServicesCountry> = {
-	it: { country: 'IT', center: [42.5, 12.5], zoom: 5, services: it as Service[] },
-	en: { country: 'UK', center: [54.5, -3], zoom: 5, services: uk as Service[] }
+	it: { country: 'IT', center: [42.5, 12.5], zoom: 5, services: it as Service[], file: 'it.json', raw: itRaw },
+	en: { country: 'UK', center: [54.5, -3], zoom: 5, services: uk as Service[], file: 'uk.json', raw: ukRaw }
 };
 
 export function getServices(locale: string): ServicesCountry | null {
 	return byLocale[locale] ?? null;
+}
+
+export function getService(locale: string, id: string): Service | null {
+	return getServices(locale)?.services.find((s) => s.id === id) ?? null;
+}
+
+/** The entry's line in the public JSON on GitHub, where anyone can propose a correction. */
+export function serviceSourceUrl(locale: string, id: string): string | null {
+	const country = getServices(locale);
+	const at = country?.raw.indexOf(`"id": "${id}"`) ?? -1;
+	if (!country || at < 0) return null;
+	const line = country.raw.slice(0, at).split('\n').length;
+	return `${SITE.repo}/blob/main/src/lib/data/services/${country.file}#L${line}`;
 }

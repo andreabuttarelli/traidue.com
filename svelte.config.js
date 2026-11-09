@@ -48,6 +48,11 @@ function localizedEntries() {
 		}
 	}
 
+	// Services (UK data lives under the en locale): src/lib/data/services/uk.json
+	entries.push('/en/servizi');
+	const uk = JSON.parse(readFileSync(join(__dirname, 'src/lib/data/services/uk.json'), 'utf8'));
+	for (const s of uk) entries.push(`/en/servizi/${s.id}`);
+
 	return entries;
 }
 

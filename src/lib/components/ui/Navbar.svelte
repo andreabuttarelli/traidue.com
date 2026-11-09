@@ -3,7 +3,8 @@
 	import { page } from '$app/state';
 	import type { WikiArticle } from '$lib/utils/wiki';
 	import * as m from '$lib/paraglide/messages';
-	import { localizeHref } from '$lib/paraglide/runtime';
+	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
+	import { getServices } from '$lib/data/services';
 	import Logo from './Logo.svelte';
 	import LanguageSwitcher from './LanguageSwitcher.svelte';
 	import SearchInput from './SearchInput.svelte';
@@ -23,6 +24,7 @@
 	const navLinks = $derived([
 		{ href: localizeHref('/wiki'), label: m.nav_wiki() },
 		{ href: localizeHref('/quiz'), label: m.nav_quiz() },
+		...(getServices(getLocale()) ? [{ href: localizeHref('/servizi'), label: m.nav_services() }] : []),
 		{ href: localizeHref('/chi-siamo'), label: m.nav_about() }
 	]);
 

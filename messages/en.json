@@ -390,5 +390,20 @@
   "services_empty": "No services found. Try another city or clear the filter.",
   "services_website": "Website",
   "services_national": "National / online",
-  "services_disclaimer": "Details verified against each service's official sources. Opening times and access rules change: always contact the service before going."
+  "services_disclaimer": "Details verified against each service's official sources. Opening times and access rules change: always contact the service before going.",
+  "nav_services": "Services",
+  "services_view_all": "See all services",
+  "services_details": "Details",
+  "services_show_on_map": "On the map",
+  "services_page_seo_title": "Trans services in the UK: gender clinics, organisations, helplines | {brand}",
+  "services_page_seo_desc": "Map and list of {count} services for trans people in the UK: NHS gender clinics, organisations, support groups, legal support and helplines, with verified sources.",
+  "services_address": "Address",
+  "services_open_map": "Open in OpenStreetMap",
+  "services_contacts": "Contacts",
+  "services_source": "Source",
+  "services_verified": "Verified on {date}",
+  "services_edit_title": "Wrong or outdated details?",
+  "services_edit_desc": "Every service's data is public and editable on GitHub: you can propose a correction directly on the file.",
+  "services_edit_cta": "Edit on GitHub",
+  "services_back": "All services"
 }

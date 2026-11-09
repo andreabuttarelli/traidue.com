@@ -4,8 +4,12 @@
 	import type { Map as LeafletMap, LayerGroup, CircleMarker } from 'leaflet';
 	import type { ServicesCountry, ServiceType } from '$lib/data/services';
 	import * as m from '$lib/paraglide/messages';
+	import { localizeHref } from '$lib/paraglide/runtime';
 
-	let { data }: { data: ServicesCountry } = $props();
+	// list=false: compact hero (map + filters), the full list lives on /servizi.
+	let { data, list = true }: { data: ServicesCountry; list?: boolean } = $props();
+
+	const detailHref = (id: string) => localizeHref(`/servizi/${id}`);
 
 	const typeLabels: Record<ServiceType, () => string> = {
 		clinic: m.services_type_clinic,
@@ -60,7 +64,8 @@
 				}).bindPopup(
 					`<strong>${escape(s.name)}</strong><br>${escape(typeLabels[s.type]())} · ${escape(s.city)}` +
 						(s.address ? `<br>${escape(s.address)}` : '') +
-						(s.website ? `<br><a href="${escape(s.website)}" target="_blank" rel="noopener">${escape(m.services_website())}</a>` : '')
+						(s.website ? `<br><a href="${escape(s.website)}" target="_blank" rel="noopener">${escape(m.services_website())}</a>` : '') +
+						`<br><a href="${escape(detailHref(s.id))}">${escape(m.services_details())} &rarr;</a>`
 				);
 				markers.set(s.id, marker);
 			}
@@ -145,21 +150,17 @@
 
 	<div class="flex flex-col min-h-0">
 		<p class="text-xs text-muted mb-2" aria-live="polite">{m.services_count({ count: filtered.length })}</p>
-		{#if filtered.length === 0}
+		{#if !list}
+			<a href={localizeHref('/servizi')} class="text-sm text-primary font-medium hover:underline">{m.services_view_all()} &rarr;</a>
+		{:else if filtered.length === 0}
 			<p class="text-sm text-muted py-6">{m.services_empty()}</p>
 		{:else}
-			<ul class="divide-y divide-border border-y border-border lg:max-h-[320px] lg:overflow-y-auto">
+			<ul class="divide-y divide-border border-y border-border lg:max-h-[440px] lg:overflow-y-auto">
 				{#each filtered as s (s.id)}
 					<li class="py-3">
 						<div class="flex items-start justify-between gap-3">
 							<div class="min-w-0">
-								{#if s.lat != null}
-									<button type="button" onclick={() => focus(s.id)} class="text-left text-sm sm:text-base font-medium text-primary hover:underline">
-										{s.name}
-									</button>
-								{:else}
-									<span class="text-sm sm:text-base font-medium text-primary">{s.name}</span>
-								{/if}
+								<a href={detailHref(s.id)} class="text-sm sm:text-base font-medium text-primary hover:underline">{s.name}</a>
 								<p class="text-xs text-muted mt-0.5">
 									{typeLabels[s.type]()} · {s.address ? s.city : m.services_national()}
 								</p>
@@ -171,6 +172,9 @@
 								{/if}
 								{#if s.phone}
 									<a href={`tel:${s.phone.replace(/\s/g, '')}`} class="text-muted hover:text-primary">{s.phone}</a>
+								{/if}
+								{#if s.lat != null}
+									<button type="button" onclick={() => focus(s.id)} class="text-muted hover:text-primary">{m.services_show_on_map()}</button>
 								{/if}
 							</div>
 						</div>
