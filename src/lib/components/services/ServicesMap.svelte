@@ -123,7 +123,12 @@
 				);
 				markers.set(s.id, marker);
 			}
-			map = lmap; // last: the filter effect below needs layer and markers ready
+			let resizeTimer = 0;
+			lmap.on('resize', () => {
+				clearTimeout(resizeTimer);
+				resizeTimer = window.setTimeout(() => frame(lmap, ...framed), 150);
+			});
+						map = lmap; // last: the filter effect below needs layer and markers ready
 		});
 		return () => {
 			disposed = true;
@@ -138,13 +143,16 @@
 		const visible = filtered.map((s) => markers.get(s.id)).filter((mk) => mk != null);
 		layer.addLayers(visible);
 		const filtering = visible.length > 0 && (query || activeType);
-		frame(map, (filtering ? visible : [...markers.values()]).map((mk) => mk.getLatLng()), filtering ? 8 : 6);
+		framed = [(filtering ? visible : [...markers.values()]).map((mk) => mk.getLatLng()), filtering ? 8 : 6];
+		frame(map, ...framed);
 	});
+
+	let framed: [LatLngExpression[], number] = [[], 6];
 
 	// Fit the points into the part of the map that isn't covered by the hero text.
 	function frame(lmap: LeafletMap, points: LatLngExpression[], maxZoom: number) {
 		if (points.length === 0) return lmap.setView(data.center, data.zoom);
-		const covered = !list && overlayEl && matchMedia('(min-width: 1024px)').matches ? overlayEl.offsetWidth : 0;
+		const covered = !list && overlayEl && matchMedia('(min-width: 1280px)').matches ? overlayEl.offsetWidth : 0;
 		lmap.fitBounds(points as LatLngBoundsLiteral, { paddingTopLeft: [covered + 32, 32], paddingBottomRight: [32, 32], maxZoom });
 	}
 
@@ -183,11 +191,11 @@
 </script>
 
 {#snippet intro()}
-		<h1 class="text-3xl sm:text-4xl {list ? 'lg:text-5xl' : 'lg:text-6xl'} font-heading font-semibold tracking-tight text-primary mb-3 sm:mb-4">
+		<h1 class="text-2xl sm:text-3xl {list ? 'lg:text-4xl' : 'xl:text-[2.75rem] xl:leading-tight'} font-heading font-semibold tracking-tight text-primary mb-3">
 		<span class="tabular-nums">{shownTotal}</span>
 		{data.country === 'IT' ? m.services_title_it() : m.services_title_uk()}
 	</h1>
-	<p class="text-sm sm:text-base text-muted leading-relaxed mb-5 sm:mb-6 max-w-xl">{m.services_desc()}</p>
+	<p class="text-sm text-muted leading-relaxed mb-5 max-w-xl">{m.services_desc()}</p>
 
 	<label class="sr-only" for="services-search">{m.services_search_placeholder()}</label>
 	<input
@@ -196,7 +204,7 @@
 		bind:value={query}
 		placeholder={m.services_search_placeholder()}
 		autocomplete="off"
-		class="w-full rounded-full border border-border bg-surface px-5 py-3 text-sm sm:text-base text-primary placeholder:text-muted focus:outline-none focus:border-primary transition"
+		class="w-full rounded-full border border-border bg-surface px-5 py-2.5 text-sm text-primary placeholder:text-muted focus:outline-none focus:border-primary transition"
 	/>
 
 	<div class="flex flex-wrap gap-2 mt-3" role="group" aria-label={m.services_filter_label()}>
@@ -277,19 +285,19 @@
 {:else}
 	<!-- Full-bleed hero (desktop): the map fills the section, the text floats over a fade on the left.
 	     Mobile keeps the map in a box under the text so it doesn't trap page scrolling. -->
-	<div class="relative flex flex-col lg:block lg:h-[calc(100svh-3.5rem)] lg:min-h-[620px]">
+	<div class="relative flex flex-col xl:flex-row xl:items-center xl:min-h-[calc(100svh-3.5rem)]">
 		<div
 			bind:this={overlayEl}
-			class="relative z-[2] px-4 sm:px-6 lg:px-12 pt-10 sm:pt-16 lg:pt-0 lg:absolute lg:inset-y-0 lg:left-0 lg:w-[min(44rem,46%)] lg:flex lg:flex-col lg:justify-center pointer-events-none [&>*]:pointer-events-auto"
+			class="relative z-[2] flex flex-col px-4 sm:px-6 lg:px-12 pt-10 sm:pt-16 xl:py-16 xl:w-[36rem] xl:shrink-0 pointer-events-none [&>*]:pointer-events-auto"
 		>
 			{@render intro()}
 			<p class="text-xs text-muted mt-4 mb-1" aria-live="polite">{m.services_count({ count: filtered.length })}</p>
 			<a href={localizeHref('/servizi')} class="self-start text-sm text-primary font-medium hover:underline">{m.services_view_all()} &rarr;</a>
 		</div>
-		<div aria-hidden="true" class="hidden lg:block absolute inset-y-0 left-0 w-[62%] z-[1] pointer-events-none bg-gradient-to-r from-bg via-bg/90 to-transparent"></div>
+		<div aria-hidden="true" class="hidden xl:block absolute inset-y-0 left-0 w-[52rem] max-w-[70%] z-[1] pointer-events-none bg-gradient-to-r from-bg via-bg/90 to-transparent"></div>
 		<div
 			bind:this={mapEl}
-			class="services-map mt-6 mx-4 sm:mx-6 h-[360px] sm:h-[440px] rounded-2xl border border-border overflow-hidden z-0 lg:m-0 lg:absolute lg:inset-0 lg:h-auto lg:rounded-none lg:border-0"
+			class="services-map mt-6 mx-4 sm:mx-6 lg:mx-12 h-[360px] sm:h-[440px] rounded-2xl border border-border overflow-hidden z-0 xl:m-0 xl:absolute xl:inset-0 xl:h-auto xl:rounded-none xl:border-0"
 			role="region"
 			aria-label={m.services_map_label()}
 		></div>
