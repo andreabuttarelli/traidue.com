@@ -443,5 +443,7 @@
   "search_group_articles": "Wiki articles",
   "search_no_results": "No results.",
   "procedures_sources": "Sources",
-  "search_all_placeholder": "Search cities, services, procedures, articles"
+  "search_all_placeholder": "Search cities, services, procedures, articles",
+  "services_title_es": "trans services in Spain",
+  "services_title_pt": "trans services in Portugal"
 }

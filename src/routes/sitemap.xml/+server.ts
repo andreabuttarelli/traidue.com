@@ -89,9 +89,9 @@ ${altLinks}
 	return entries.join('\n');
 }
 
-// Services exist only in it (Italy) and en (UK), with different entries: no hreflang alternates.
+// Each locale has its own country's services (it → Italy, en → UK, es → Spain, pt → Portugal): no hreflang alternates.
 function renderServiceEntries(): string {
-	return (['it', 'en'] as const)
+	return langs
 		.flatMap((lang) => {
 			const country = getServices(lang);
 			if (!country) return [];
