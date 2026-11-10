@@ -1,4 +1,3 @@
-import { dev } from '$app/environment';
 import { SITE } from '$lib/site';
 import it from './it.json';
 import itRaw from './it.json?raw';
@@ -59,12 +58,11 @@ const byLocale: Record<string, Procedure[]> = { it: it as Procedure[] };
 
 export const surgeons = surgeonsData as Surgeon[];
 
-// ponytail: the medical content (costs, recovery, surgeons) is waiting for a human review. Until then, in
-// production builds the pages work only by direct link: out of the navbar, hero search and sitemap, and noindex.
-// The local dev server shows them in full for the review. Set to true to publish.
-export const PROCEDURES_PUBLIC = dev;
-// the 3D procedures are still being reviewed: shown by the local dev server only, off in production builds
-export const PROCEDURES_3D = dev;
+// Public: navbar, hero search, sitemap, indexed. Set to false to keep the pages by direct link only (noindex),
+// e.g. while a new batch of medical content waits for review.
+export const PROCEDURES_PUBLIC = true;
+// the animated 3D procedures (set to dev to show them on the local dev server only)
+export const PROCEDURES_3D = true;
 
 export function getProcedures(locale: string): Procedure[] | null {
 	return byLocale[locale] ?? null;
