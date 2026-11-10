@@ -1,3 +1,4 @@
+import { dev } from '$app/environment';
 import { SITE } from '$lib/site';
 import it from './it.json';
 import itRaw from './it.json?raw';
@@ -26,6 +27,18 @@ export interface Procedure {
 	costs: { ssn: string | null; private: string | null };
 	providers?: string[];
 	sources: Source[];
+	/** Common fears, as people ask them on Reddit, with a balanced answer and its medical sources. */
+	fears?: Fear[];
+	/** English search terms for more first-hand experiences on Reddit */
+	redditQuery?: string;
+}
+
+export interface Fear {
+	q: string;
+	a: string;
+	/** checked: false = found through search (via mirrors), not yet opened on reddit.com */
+	reddit: { title: string; subreddit: string; url: string; checked: boolean }[];
+	sources: Source[];
 }
 
 export interface Surgeon {
@@ -49,8 +62,8 @@ export const surgeons = surgeonsData as Surgeon[];
 // ponytail: the medical content (costs, recovery, surgeons) is waiting for a human review. Until then the
 // pages work only by direct link: out of the navbar, hero search and sitemap, and noindex. Flip to publish.
 export const PROCEDURES_PUBLIC = false;
-// the 3D vaginoplasty is still being refined: kept off the page until it is approved
-export const VAGINOPLASTY_3D = false;
+// the 3D procedures are still being reviewed: shown by the local dev server only, off in production builds
+export const PROCEDURES_3D = dev;
 
 export function getProcedures(locale: string): Procedure[] | null {
 	return byLocale[locale] ?? null;

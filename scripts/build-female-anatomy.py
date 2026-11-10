@@ -15,11 +15,16 @@ The canal, introitus and meatus are stored in scene extras for the viewer.
 Uterus, cervix, tubes and ovaries are left out (a neovagina has none of them), and so is the skin behind
 the perineal body (around the anus and the gluteal cleft), which is not vulva.
 
-Usage: python3 scripts/build-female-anatomy.py <dir with scene.gltf> static/anatomy/pelvis-male.glb static/anatomy/vulva-female.glb
+Usage: python3 scripts/build-female-anatomy.py <dir with scene.gltf> static/anatomy/pelvis-male.glb static/anatomy/vulva-female.glb [static/anatomy/female-pelvis.glb]
+
+With the optional last path it also writes the whole female pelvis in its own proportions (one person: uterus,
+tubes, ovaries, vagina, bladder, rectum, vulva), for hysterectomy and vaginectomy: mm (the anus-to-opening
+distance taken as 28 mm), +z up, -y anterior, origin at the vaginal opening.
 """
 import json, math, os, struct, sys
 
 SRC, MALE, OUT = sys.argv[1], sys.argv[2], sys.argv[3]
+PELVIS = sys.argv[4] if len(sys.argv) > 4 else None
 VAGINA_TOP = -0.160  # source units, Y: above this the uterus group widens into cervix/uterus/tubes
 
 g = json.load(open(os.path.join(SRC, 'scene.gltf'))); buf = open(os.path.join(SRC, 'scene.bin'), 'rb').read()
@@ -213,3 +218,17 @@ js = json.dumps(gltf, separators=(',', ':')).encode(); js += b' ' * (-len(js) % 
 glb = struct.pack('<III', 0x46546C67, 2, 28 + len(js) + len(bin_)) + struct.pack('<II', len(js), 0x4E4F534A) + js + struct.pack('<II', len(bin_), 0x004E4942) + bytes(bin_)
 os.makedirs(os.path.dirname(OUT), exist_ok=True); open(OUT, 'wb').write(glb)
 print(f'{OUT}: {len(glb) // 1024} KB, triangles {stats}, canal {L:.0f} mm {[[round(c) for c in p] for p in canal]}, slope {slope:.2f}, vulva {S:.1f}/{SS:.1f} mm/unit tilt {math.degrees(TILT):.0f}, commissure {[round(c) for c in commissure]}, opening {[round(c) for c in opening]}, meatus {[round(c) for c in meatus]}')
+
+if PELVIS:
+    sys.path.insert(0, os.path.dirname(__file__))
+    from anatomy_glb import cluster as cluster_mm, write_glb
+    mm = 28 / unit
+    to_mm = lambda p: ((p[0] - O[0]) * mm, -(p[2] - O[2]) * mm, (p[1] - O[1]) * mm)
+    uv, ut = groups['uterus-and-tubes']; mid = O[0]
+    above = [t for t in ut if not all(uv[i][1] < VAGINA_TOP for i in t)]
+    # the tubes leave the uterus sideways: beyond ~2.5 cm from the midline of the vagina
+    side = lambda t: abs(sum(uv[i][0] for i in t) / 3 - mid) * mm > 25
+    parts = {'uterus': (uv, [t for t in above if not side(t)]), 'tubes': (uv, [t for t in above if side(t)]), 'vagina': vagina,
+             'ovaries': groups['ovaries'], 'bladder': groups['bladder'], 'rectum': groups['rectum'], 'vulva': vulva}
+    write_glb(PELVIS, {k: cluster_mm([to_mm(p) for p in v], t, 2.5) for k, (v, t) in parts.items()}, 'build-female-anatomy.py',
+              '"Pelvic Organs from MRI" by audreybyrd (Sketchfab), CC BY 4.0')
