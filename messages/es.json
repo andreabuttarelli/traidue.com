@@ -416,5 +416,6 @@
   "search_group_services": "Servicios",
   "search_group_articles": "Artículos de la wiki",
   "search_no_results": "Sin resultados.",
-  "search_all_placeholder": "Busca ciudades, servicios, artículos"
+  "search_all_placeholder": "Busca ciudades, servicios, artículos",
+  "services_title_br": "servicios trans en Brasil"
 }

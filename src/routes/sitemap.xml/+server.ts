@@ -1,7 +1,7 @@
 import { getAllArticles, getTranslations } from '$lib/utils/wiki';
 import { getAllQuizzes } from '$lib/utils/quiz';
 import { SITE } from '$lib/site';
-import { getServices } from '$lib/data/services';
+import { getCountries } from '$lib/data/services';
 import { getProcedures, PROCEDURES_PUBLIC } from '$lib/data/procedures';
 
 export const prerender = true;
@@ -89,16 +89,16 @@ ${altLinks}
 	return entries.join('\n');
 }
 
-// Each locale has its own country's services (it → Italy, en → UK, es → Spain, pt → Portugal): no hreflang alternates.
+// Each locale has its own countries' services (it → Italy, en → UK, es → Spain, pt → Portugal and Brazil): no hreflang alternates.
 function renderServiceEntries(): string {
 	return langs
 		.flatMap((lang) => {
-			const country = getServices(lang);
-			if (!country) return [];
+			const countries = getCountries(lang);
+			if (!countries.length) return [];
 			const procedures = (PROCEDURES_PUBLIC && getProcedures(lang)) || [];
 			const paths = [
 				'/servizi',
-				...country.services.map((s) => `/servizi/${s.id}`),
+				...countries.flatMap((c) => c.services.map((s) => `/servizi/${s.id}`)),
 				...(procedures.length ? ['/operazioni', ...procedures.map((p) => `/operazioni/${p.slug}`)] : [])
 			];
 			return paths.map(
