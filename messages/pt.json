@@ -397,8 +397,8 @@
   "services_view_all": "Ver todos os serviços",
   "services_details": "Detalhes",
   "services_show_on_map": "No mapa",
-  "services_page_seo_title": "Serviços trans em Portugal: consultas, associações, linhas de apoio | {brand}",
-  "services_page_seo_desc": "Mapa e lista de {count} serviços para pessoas trans em Portugal: consultas do SNS, associações, grupos de apoio, apoio jurídico e linhas de apoio, com fontes verificadas.",
+  "services_page_seo_title": "Serviços trans em Portugal e no Brasil: consultas, associações, linhas de apoio | {brand}",
+  "services_page_seo_desc": "Mapa e lista de {count} serviços para pessoas trans em Portugal e no Brasil: consultas do SNS e do SUS, associações, grupos de apoio, apoio jurídico e linhas de apoio, com fontes verificadas.",
   "services_address": "Morada",
   "services_open_map": "Abrir no OpenStreetMap",
   "services_contacts": "Contactos",
@@ -416,5 +416,6 @@
   "search_group_services": "Serviços",
   "search_group_articles": "Artigos da wiki",
   "search_no_results": "Sem resultados.",
-  "search_all_placeholder": "Pesquisa cidades, serviços, artigos"
+  "search_all_placeholder": "Pesquisa cidades, serviços, artigos",
+  "services_title_br": "serviços para pessoas trans no Brasil"
 }

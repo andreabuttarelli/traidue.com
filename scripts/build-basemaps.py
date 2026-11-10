@@ -77,6 +77,7 @@ COUNTRIES = (  # code, ISO A3, admin-1 field for the inner borders, bbox of the 
     ('it', 'ITA', 'region', [3, 34.5, 21.5, 48.5]), ('uk', 'GBR', 'geonunit', [-13, 48.5, 5, 61.5]),
     ('es', 'ESP', 'region', [-19, 26.5, 6, 45]),  # with the Canary Islands
     ('pt', 'PRT', 'region', [-32, 32, -5, 43]),  # with the Azores and Madeira
+    ('br', 'BRA', 'name', [-75, -35, -28, 6.5]),  # states as inner borders
 )
 for code, a3, group, bb in COUNTRIES:
     land = simplify_polys([f['geometry'] for f in countries10 if f['properties']['ADM0_A3'] == a3], TOL, 0.0005)

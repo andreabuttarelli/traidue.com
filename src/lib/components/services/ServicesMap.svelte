@@ -1,7 +1,7 @@
 <script lang="ts">
 	import 'leaflet/dist/leaflet.css';
 	import 'leaflet.markercluster/dist/MarkerCluster.css';
-	import { onMount } from 'svelte';
+	import { onMount, type Snippet } from 'svelte';
 	import type { Map as LeafletMap, MarkerClusterGroup, CircleMarker, LatLngExpression, LatLngBoundsLiteral } from 'leaflet';
 	import type { ServicesCountry, ServiceType } from '$lib/data/services';
 	import * as m from '$lib/paraglide/messages';
@@ -11,7 +11,8 @@
 	import type { WikiArticle } from '$lib/utils/wiki';
 
 	// list=false: compact hero (map + filters), the full list lives on /servizi.
-	let { data, list = true }: { data: ServicesCountry; list?: boolean } = $props();
+	// switcher: the country switch, shown above the title when the language has more than one country.
+	let { data, list = true, switcher }: { data: ServicesCountry; list?: boolean; switcher?: Snippet } = $props();
 
 	const detailHref = (id: string) => localizeHref(`/servizi/${id}`);
 
@@ -67,9 +68,10 @@
 		IT: () => import('$lib/data/services/basemap-it.json'),
 		UK: () => import('$lib/data/services/basemap-uk.json'),
 		ES: () => import('$lib/data/services/basemap-es.json'),
-		PT: () => import('$lib/data/services/basemap-pt.json')
+		PT: () => import('$lib/data/services/basemap-pt.json'),
+		BR: () => import('$lib/data/services/basemap-br.json')
 	};
-	const titles = { IT: m.services_title_it, UK: m.services_title_uk, ES: m.services_title_es, PT: m.services_title_pt };
+	const titles = { IT: m.services_title_it, UK: m.services_title_uk, ES: m.services_title_es, PT: m.services_title_pt, BR: m.services_title_br };
 
 	const escape = (s: string) =>
 		s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!);
@@ -219,6 +221,7 @@
 </script>
 
 {#snippet intro()}
+	{@render switcher?.()}
 		<h1 class="text-2xl sm:text-3xl {list ? 'lg:text-4xl' : 'xl:text-[2.75rem] xl:leading-tight'} font-heading font-semibold tracking-tight text-primary mb-3">
 		<span class="tabular-nums">{shownTotal}</span>
 		{titles[data.country]()}

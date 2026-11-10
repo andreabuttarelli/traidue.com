@@ -48,9 +48,9 @@ function localizedEntries() {
 		}
 	}
 
-	// Services of the other countries live under their locale (en → UK, es → Spain, pt → Portugal)
-	for (const [locale, file] of [['en', 'uk'], ['es', 'es'], ['pt', 'pt']]) {
-		entries.push(`/${locale}/servizi`);
+	// Services of the other countries live under their locale (en → UK, es → Spain, pt → Portugal and Brazil)
+	for (const [locale, file] of [['en', 'uk'], ['es', 'es'], ['pt', 'pt'], ['pt', 'br']]) {
+		if (!entries.includes(`/${locale}/servizi`)) entries.push(`/${locale}/servizi`);
 		const services = JSON.parse(readFileSync(join(__dirname, `src/lib/data/services/${file}.json`), 'utf8'));
 		for (const s of services) entries.push(`/${locale}/servizi/${s.id}`);
 	}
