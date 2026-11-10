@@ -48,10 +48,12 @@ function localizedEntries() {
 		}
 	}
 
-	// Services (UK data lives under the en locale): src/lib/data/services/uk.json
-	entries.push('/en/servizi');
-	const uk = JSON.parse(readFileSync(join(__dirname, 'src/lib/data/services/uk.json'), 'utf8'));
-	for (const s of uk) entries.push(`/en/servizi/${s.id}`);
+	// Services of the other countries live under their locale (en → UK, es → Spain, pt → Portugal)
+	for (const [locale, file] of [['en', 'uk'], ['es', 'es'], ['pt', 'pt']]) {
+		entries.push(`/${locale}/servizi`);
+		const services = JSON.parse(readFileSync(join(__dirname, `src/lib/data/services/${file}.json`), 'utf8'));
+		for (const s of services) entries.push(`/${locale}/servizi/${s.id}`);
+	}
 
 	return entries;
 }

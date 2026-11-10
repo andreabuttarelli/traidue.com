@@ -1,8 +1,12 @@
 import { SITE } from '$lib/site';
 import it from './it.json';
 import uk from './uk.json';
+import es from './es.json';
+import pt from './pt.json';
 import itRaw from './it.json?raw';
 import ukRaw from './uk.json?raw';
+import esRaw from './es.json?raw';
+import ptRaw from './pt.json?raw';
 
 export type ServiceType = 'clinic' | 'consultorio' | 'association' | 'legal' | 'helpline' | 'support-group';
 
@@ -30,7 +34,7 @@ export interface Service {
 }
 
 export interface ServicesCountry {
-	country: 'IT' | 'UK';
+	country: 'IT' | 'UK' | 'ES' | 'PT';
 	center: [number, number];
 	zoom: number;
 	services: Service[];
@@ -38,10 +42,12 @@ export interface ServicesCountry {
 	raw: string;
 }
 
-// ponytail: country follows the site language (it → Italy, en → UK); geo-IP would need a function per request.
+// ponytail: country follows the site language (it → Italy, en → UK, es → Spain, pt → Portugal); geo-IP would need a function per request.
 const byLocale: Record<string, ServicesCountry> = {
 	it: { country: 'IT', center: [42.5, 12.5], zoom: 5, services: it as Service[], file: 'it.json', raw: itRaw },
-	en: { country: 'UK', center: [54.5, -3], zoom: 5, services: uk as Service[], file: 'uk.json', raw: ukRaw }
+	en: { country: 'UK', center: [54.5, -3], zoom: 5, services: uk as Service[], file: 'uk.json', raw: ukRaw },
+	es: { country: 'ES', center: [40.2, -3.7], zoom: 5, services: es as Service[], file: 'es.json', raw: esRaw },
+	pt: { country: 'PT', center: [39.6, -8], zoom: 6, services: pt as Service[], file: 'pt.json', raw: ptRaw }
 };
 
 export function getServices(locale: string): ServicesCountry | null {

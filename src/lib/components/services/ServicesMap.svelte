@@ -65,8 +65,11 @@
 	// Natural Earth (public domain), simplified: land, region borders, neighbouring countries.
 	const basemaps = {
 		IT: () => import('$lib/data/services/basemap-it.json'),
-		UK: () => import('$lib/data/services/basemap-uk.json')
+		UK: () => import('$lib/data/services/basemap-uk.json'),
+		ES: () => import('$lib/data/services/basemap-es.json'),
+		PT: () => import('$lib/data/services/basemap-pt.json')
 	};
+	const titles = { IT: m.services_title_it, UK: m.services_title_uk, ES: m.services_title_es, PT: m.services_title_pt };
 
 	const escape = (s: string) =>
 		s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!);
@@ -213,7 +216,7 @@
 {#snippet intro()}
 		<h1 class="text-2xl sm:text-3xl {list ? 'lg:text-4xl' : 'xl:text-[2.75rem] xl:leading-tight'} font-heading font-semibold tracking-tight text-primary mb-3">
 		<span class="tabular-nums">{shownTotal}</span>
-		{data.country === 'IT' ? m.services_title_it() : m.services_title_uk()}
+		{titles[data.country]()}
 	</h1>
 	<p class="text-sm text-muted leading-relaxed mb-5 max-w-xl">{m.services_desc()}</p>
 
