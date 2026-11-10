@@ -131,6 +131,7 @@
 			layer = L.markerClusterGroup({
 				maxClusterRadius: 40,
 				showCoverageOnHover: false,
+				zoomToBoundsOnClick: false, // zoomed below with the hero padding, so the points don't end up under the text
 				spiderLegPolylineOptions: { className: 'cluster-leg' },
 				iconCreateFunction: (c) => {
 					const n = c.getChildCount();
@@ -138,6 +139,14 @@
 					return L.divIcon({ html: `<span>${n > 99 ? '99+' : n}</span>`, className: 'service-cluster', iconSize: L.point(size, size) });
 				}
 			}).addTo(lmap);
+			layer.on('clusterclick', (e) => {
+				const cluster = e.propagatedFrom as import('leaflet').MarkerCluster;
+				const b = cluster.getBounds();
+				const { tl, br } = padding();
+				// same spot, or no closer zoom possible: fan the points out instead
+				if (b.getNorthEast().equals(b.getSouthWest()) || lmap.getZoom() >= lmap.getMaxZoom()) cluster.spiderfy();
+				else lmap.fitBounds(b, { paddingTopLeft: tl, paddingBottomRight: br });
+			});
 			for (const s of data.services) {
 				if (s.lat == null || s.lng == null) continue;
 				const marker = L.circleMarker([s.lat, s.lng], { radius: 6, className: 'service-marker' }).bindPopup(
@@ -146,6 +155,15 @@
 						(s.website ? `<br><a href="${escape(s.website)}" target="_blank" rel="noopener">${escape(m.services_website())}</a>` : '') +
 						`<br><a href="${escape(detailHref(s.id))}">${escape(m.services_details())} &rarr;</a>`
 				);
+				// the popup pans into the uncovered part of the map, not under the hero text
+				marker.on('popupopen', () => {
+					const { tl, br } = padding();
+					Object.assign(marker.getPopup()!.options, { autoPanPaddingTopLeft: tl, autoPanPaddingBottomRight: br });
+				});
+				marker.on('click', () => {
+					const { tl, br } = padding();
+					lmap.panInside(marker.getLatLng(), { paddingTopLeft: tl, paddingBottomRight: br });
+				});
 				markers.set(s.id, marker);
 			}
 			let resizeTimer = 0;
@@ -179,11 +197,17 @@
 
 	let framed: [LatLngExpression[], number] = [[], 6];
 
-	// Fit the points into the part of the map that isn't covered by the hero text.
+	// The part of the map that isn't covered by the hero text (desktop full-bleed hero), plus some breathing room.
+	function padding(): { tl: [number, number]; br: [number, number] } {
+		const covered = !list && overlayEl && matchMedia('(min-width: 1280px)').matches ? overlayEl.offsetWidth : 0;
+		return { tl: [covered + 48, 48], br: [48, 48] };
+	}
+
+	// Fit the points into that part.
 	function frame(lmap: LeafletMap, points: LatLngExpression[], maxZoom: number) {
 		if (points.length === 0) return lmap.setView(data.center, data.zoom);
-		const covered = !list && overlayEl && matchMedia('(min-width: 1280px)').matches ? overlayEl.offsetWidth : 0;
-		lmap.fitBounds(points as LatLngBoundsLiteral, { paddingTopLeft: [covered + 32, 32], paddingBottomRight: [32, 32], maxZoom });
+		const { tl, br } = padding();
+		lmap.fitBounds(points as LatLngBoundsLiteral, { paddingTopLeft: tl, paddingBottomRight: br, maxZoom });
 	}
 
 	// Trackpad pinch zooms the map; a plain two-finger scroll still scrolls the page.
