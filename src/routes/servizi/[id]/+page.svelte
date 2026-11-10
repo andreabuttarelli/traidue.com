@@ -20,10 +20,10 @@
 	};
 
 	const verified = $derived(
-		new Date(s.verified).toLocaleDateString(getLocale() === 'it' ? 'it-IT' : 'en-GB', { day: 'numeric', month: 'long', year: 'numeric' })
+		new Date(s.verified).toLocaleDateString(getLocale() === 'en' ? 'en-GB' : getLocale(), { day: 'numeric', month: 'long', year: 'numeric' })
 	);
 	const days = Array.from({ length: 7 }, (_, i) =>
-		new Date(2024, 0, 1 + i).toLocaleDateString(getLocale() === 'it' ? 'it-IT' : 'en-GB', { weekday: 'long' })
+		new Date(2024, 0, 1 + i).toLocaleDateString(getLocale() === 'en' ? 'en-GB' : getLocale(), { weekday: 'long' })
 	);
 	const osmUrl = $derived(
 		s.lat != null ? `https://www.openstreetmap.org/?mlat=${s.lat}&mlon=${s.lng}#map=17/${s.lat}/${s.lng}` : null
@@ -39,7 +39,7 @@
 		...(s.email ? { email: s.email } : {}),
 		...(s.address
 			? {
-					address: { '@type': 'PostalAddress', streetAddress: s.address, addressLocality: s.city, addressRegion: s.region, addressCountry: data.country === 'IT' ? 'IT' : 'GB' },
+					address: { '@type': 'PostalAddress', streetAddress: s.address, addressLocality: s.city, addressRegion: s.region, addressCountry: data.country === 'UK' ? 'GB' : data.country },
 					geo: { '@type': 'GeoCoordinates', latitude: s.lat, longitude: s.lng }
 				}
 			: {})

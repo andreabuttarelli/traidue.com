@@ -26,6 +26,18 @@ export interface Procedure {
 	costs: { ssn: string | null; private: string | null };
 	providers?: string[];
 	sources: Source[];
+	/** Common fears, as people ask them on Reddit, with a balanced answer and its medical sources. */
+	fears?: Fear[];
+	/** English search terms for more first-hand experiences on Reddit */
+	redditQuery?: string;
+}
+
+export interface Fear {
+	q: string;
+	a: string;
+	/** checked: false = found through search (via mirrors), not yet opened on reddit.com */
+	reddit: { title: string; subreddit: string; url: string; checked: boolean }[];
+	sources: Source[];
 }
 
 export interface Surgeon {
@@ -46,11 +58,11 @@ const byLocale: Record<string, Procedure[]> = { it: it as Procedure[] };
 
 export const surgeons = surgeonsData as Surgeon[];
 
-// ponytail: the medical content (costs, recovery, surgeons) is waiting for a human review. Until then the
-// pages work only by direct link: out of the navbar, hero search and sitemap, and noindex. Flip to publish.
-export const PROCEDURES_PUBLIC = false;
-// the 3D vaginoplasty is still being refined: kept off the page until it is approved
-export const VAGINOPLASTY_3D = false;
+// Public: navbar, hero search, sitemap, indexed. Set to false to keep the pages by direct link only (noindex),
+// e.g. while a new batch of medical content waits for review.
+export const PROCEDURES_PUBLIC = true;
+// the animated 3D procedures (set to dev to show them on the local dev server only)
+export const PROCEDURES_3D = true;
 
 export function getProcedures(locale: string): Procedure[] | null {
 	return byLocale[locale] ?? null;

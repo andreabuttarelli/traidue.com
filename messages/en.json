@@ -443,5 +443,10 @@
   "search_group_articles": "Wiki articles",
   "search_no_results": "No results.",
   "procedures_sources": "Sources",
-  "search_all_placeholder": "Search cities, services, procedures, articles"
+  "search_all_placeholder": "Search cities, services, procedures, articles",
+  "services_title_es": "trans services in Spain",
+  "services_title_pt": "trans services in Portugal",
+  "procedures_fears": "Common fears",
+  "procedures_fears_intro": "The questions that come up most often in online communities, with an answer based on the medical literature. Reddit threads are personal stories: they help you know what to expect, but every path is different and they don't replace your surgeon's advice.",
+  "procedures_fears_search": "Search more experiences on Reddit"
 }
