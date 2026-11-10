@@ -7,7 +7,7 @@
 
 <footer class="pb-24">
 	<div class="w-full px-4 sm:px-6 lg:px-12 py-8 sm:py-12">
-		<div class="grid grid-cols-1 sm:grid-cols-[1fr_auto_auto] gap-8 sm:gap-12">
+		<div class="grid grid-cols-1 sm:grid-cols-[1fr_auto_auto] gap-8 sm:gap-12" style="gap: 200px">
 			<div class="max-w-sm">
 				<p class="text-lg text-primary mb-2"><Logo /></p>
 				<p class="text-sm text-muted leading-relaxed mb-4">
