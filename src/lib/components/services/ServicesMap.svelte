@@ -159,15 +159,20 @@
 		};
 	});
 
-	// Show only the markers that match the filters, and frame them.
+	// Show only the markers that match the filters, and frame them. The framing waits for typing to pause:
+	// a fitBounds issued while the previous zoom animation runs is dropped by Leaflet, so with fast typing the
+	// map stayed zoomed on the last partial match (e.g. "vag") even when nothing matched any more.
+	let frameTimer = 0;
 	$effect(() => {
 		if (!map || !layer) return;
+		const lmap = map;
 		layer.clearLayers();
 		const visible = filtered.map((s) => markers.get(s.id)).filter((mk) => mk != null);
 		layer.addLayers(visible);
 		const filtering = visible.length > 0 && (query || activeType);
 		framed = [(filtering ? visible : [...markers.values()]).map((mk) => mk.getLatLng()), filtering ? 8 : 6];
-		frame(map, ...framed);
+		clearTimeout(frameTimer);
+		frameTimer = window.setTimeout(() => frame(lmap, ...framed), 200);
 	});
 
 	let framed: [LatLngExpression[], number] = [[], 6];
