@@ -17,6 +17,7 @@ PARTS = {  # node name -> BodyParts3D (isa) organ name
     'corpora_cavernosa': 'corpus cavernosum of penis', 'corpus_spongiosum': 'corpus spongiosum of penis',
     'glans': 'glans penis', 'testes': 'testis', 'epididymides': 'epididymis',
     'dorsal_artery': 'dorsal artery of penis', 'dorsal_vein': 'deep dorsal vein of penis', 'skin': 'skin',
+    'testicular_artery': 'testicular artery',
 }
 
 def table(name, key, val):

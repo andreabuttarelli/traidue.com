@@ -6,7 +6,9 @@
 	import * as m from '$lib/paraglide/messages';
 	import { localizeHref } from '$lib/paraglide/runtime';
 	import Vaginoplasty3D from '$lib/components/procedures/Vaginoplasty3D.svelte';
-	import { PROCEDURES_PUBLIC, VAGINOPLASTY_3D } from '$lib/data/procedures';
+	import Procedure3D from '$lib/components/procedures/Procedure3D.svelte';
+	import { procedures3d } from '$lib/components/procedures/procedures-3d';
+	import { PROCEDURES_PUBLIC, PROCEDURES_3D } from '$lib/data/procedures';
 
 	let { data } = $props();
 	const p = $derived(data.procedure);
@@ -32,6 +34,16 @@
 	}}
 />
 
+{#if p.fears?.length}
+	<StructuredData
+		schema={{
+			'@context': 'https://schema.org',
+			'@type': 'FAQPage',
+			mainEntity: p.fears.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } }))
+		}}
+	/>
+{/if}
+
 <div class="w-full px-4 sm:px-6 lg:px-12 py-8 sm:py-12">
 	<Breadcrumb items={[{ label: m.common_home(), href: '/' }, { label: m.nav_procedures(), href: '/operazioni' }, { label: p.name }]} />
 
@@ -41,9 +53,11 @@
 		{#if p.aka?.length}<p class="text-sm text-muted mb-4">{m.procedures_aka()}: {p.aka.join(', ')}</p>{/if}
 		<p class="text-base sm:text-lg text-muted-text leading-relaxed mb-10">{p.summary}</p>
 
-		{#if VAGINOPLASTY_3D && p.slug === 'vaginoplastica'}
+		{#if PROCEDURES_3D && (p.slug === 'vaginoplastica' || procedures3d[p.slug])}
 			<!-- wider than the text column on desktop: the diagram has a step list beside it -->
-			<div class="mb-10 xl:w-[64rem] xl:max-w-[calc(100vw-6rem)]"><Vaginoplasty3D /></div>
+			<div class="mb-10 xl:w-[64rem] xl:max-w-[calc(100vw-6rem)]">
+				{#if p.slug === 'vaginoplastica'}<Vaginoplasty3D />{:else}<Procedure3D config={procedures3d[p.slug]} />{/if}
+			</div>
 		{/if}
 
 		{#if p.techniques?.length}
@@ -80,6 +94,30 @@
 				<ul class="list-disc pl-5 space-y-1.5 text-sm text-muted-text leading-relaxed">
 					{#each p.risks as r}<li>{r}</li>{/each}
 				</ul>
+			</section>
+		{/if}
+
+		{#if p.fears?.length}
+			<section class="mb-10" id="paure">
+				<h2 class="text-lg font-semibold text-primary mb-1">{m.procedures_fears()}</h2>
+				<p class="text-sm text-muted mb-5 leading-relaxed">{m.procedures_fears_intro()}</p>
+				<div class="space-y-6">
+					{#each p.fears as f}
+						<div>
+							<h3 class="text-base font-semibold text-primary mb-1.5">{f.q}</h3>
+							<p class="text-sm text-muted-text leading-relaxed">{f.a}</p>
+							{#if f.reddit.length || f.sources.length}
+								<p class="text-xs text-muted mt-2 leading-relaxed">
+									{#each f.reddit as r, i}<a href={r.url} target="_blank" rel="noopener nofollow" class="hover:text-primary underline">{r.subreddit}: {r.title}</a>{i < f.reddit.length - 1 || f.sources.length ? ' · ' : ''}{/each}
+									{#each f.sources as s, i}<a href={s.url} target="_blank" rel="noopener" class="hover:text-primary underline">{m.procedures_sources()}{s.year ? ` ${s.year}` : ''}</a>{i < f.sources.length - 1 ? ' · ' : ''}{/each}
+								</p>
+							{/if}
+						</div>
+					{/each}
+				</div>
+				{#if p.redditQuery}
+					<a href={`https://www.reddit.com/search/?q=${encodeURIComponent(`${p.redditQuery} trans`)}`} target="_blank" rel="noopener nofollow" class="inline-block mt-5 text-sm text-primary underline hover:text-brand-blue">{m.procedures_fears_search()} →</a>
+				{/if}
 			</section>
 		{/if}
 
