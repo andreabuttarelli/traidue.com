@@ -59,9 +59,10 @@ const byLocale: Record<string, Procedure[]> = { it: it as Procedure[] };
 
 export const surgeons = surgeonsData as Surgeon[];
 
-// ponytail: the medical content (costs, recovery, surgeons) is waiting for a human review. Until then the
-// pages work only by direct link: out of the navbar, hero search and sitemap, and noindex. Flip to publish.
-export const PROCEDURES_PUBLIC = false;
+// ponytail: the medical content (costs, recovery, surgeons) is waiting for a human review. Until then, in
+// production builds the pages work only by direct link: out of the navbar, hero search and sitemap, and noindex.
+// The local dev server shows them in full for the review. Set to true to publish.
+export const PROCEDURES_PUBLIC = dev;
 // the 3D procedures are still being reviewed: shown by the local dev server only, off in production builds
 export const PROCEDURES_3D = dev;
 
