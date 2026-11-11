@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import ProcedureSteps from './ProcedureSteps.svelte';
 	import type { Procedure3DConfig, State } from './procedure-3d';
 
 	// Generic animated 3D procedure: real anatomy from GLB files, one state per part and step (see procedure-3d.ts).
@@ -10,6 +11,11 @@
 
 	let step = $state(0);
 	let playing = $state(false);
+	// the colour legend starts open on desktop, folded on phones
+	let legendOpen = $state(false);
+	$effect(() => {
+		legendOpen = matchMedia('(min-width: 1024px)').matches;
+	});
 	let loaded = $state(false);
 	let failed = $state(false);
 	let section = $state(true);
@@ -221,10 +227,10 @@
 	});
 </script>
 
-<figure class="procedure-3d rounded-2xl border border-border p-4 sm:p-6">
-	<div class="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_15rem] gap-6">
+<figure class="procedure-3d border-y sm:border sm:rounded-2xl border-border p-4 sm:p-6">
+	<div class="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_19rem] gap-5 lg:gap-8">
 		<div>
-			<div bind:this={wrapEl} class="relative w-full rounded-xl overflow-hidden bg-surface cursor-grab active:cursor-grabbing touch-none" style="aspect-ratio: 1 / 0.66">
+			<div bind:this={wrapEl} class="relative w-full rounded-xl overflow-hidden bg-surface cursor-grab active:cursor-grabbing touch-none aspect-[1/0.9] sm:aspect-[1/0.66]">
 				<canvas bind:this={canvasEl} class="block w-full h-full" aria-label="{config.label}, passo {step}: {steps[step].title}"></canvas>
 				{#each config.labels as l, i}
 					<span
@@ -240,70 +246,27 @@
 					<button type="button" class="pill" aria-pressed={section} onclick={() => (section = !section)}>{section ? 'Sezione: sì' : 'Sezione: no'}</button>
 					<button type="button" class="pill" onclick={() => resetView?.()}>Ripristina vista</button>
 				</div>
-				<p class="absolute right-3 bottom-3 text-[11px] text-muted pointer-events-none">trascina per ruotare · pizzica per zoomare</p>
 			</div>
 
-			<div class="flex flex-wrap gap-x-3 gap-y-1 mt-3 text-[11px] text-muted">
-				{#each config.legend as [name, color]}<span class="inline-flex items-center gap-1.5"><span class="size-2.5 rounded-full" style="background:{color}"></span>{name}</span>{/each}
-			</div>
-			<div class="flex flex-wrap gap-x-4 gap-y-1 mt-1.5 text-[11px] text-muted">
-				<span class="inline-flex items-center gap-1.5"><span class="size-2.5 rounded-sm bg-brand-blue"></span>in lavorazione in questo passo</span>
-				<span class="inline-flex items-center gap-1.5"><span class="size-2.5 rounded-sm bg-brand-pink"></span>nuove strutture (sempre in primo piano)</span>
-				<span class="inline-flex items-center gap-1.5"><span class="size-2.5 rounded-sm border border-border opacity-50"></span>rimosso (trasparente)</span>
-			</div>
-
-			<figcaption class="mt-4">
-				<p class="text-xs text-muted">Passo {step} di {steps.length - 1}</p>
-				<p class="text-base font-semibold text-primary">{steps[step].title}</p>
-				<p class="text-sm text-muted-text leading-relaxed mt-1 min-h-[4.5rem]" aria-live="polite">{steps[step].text}</p>
-				{#if steps[step].keep.length || steps[step].remove.length}
-					<div class="flex flex-wrap gap-1.5 mt-2">
-						{#each steps[step].keep as k}<span class="text-[11px] rounded-full px-2 py-0.5 bg-brand-pink/40 text-on-brand">conservato: {k}</span>{/each}
-						{#each steps[step].remove as r}<span class="text-[11px] rounded-full px-2 py-0.5 border border-dashed border-border text-muted">rimosso: {r}</span>{/each}
-					</div>
-				{/if}
-				<div class="flex items-center gap-2 mt-4">
-					<button type="button" class="ctrl" onclick={() => (step = Math.max(0, step - 1))} disabled={step === 0} aria-label="Passo precedente">&larr;</button>
-					<button type="button" class="ctrl" onclick={() => (step = Math.min(steps.length - 1, step + 1))} disabled={step === steps.length - 1} aria-label="Passo successivo">&rarr;</button>
-					<button type="button" class="ctrl ml-auto text-xs px-3" onclick={() => (playing = !playing)}>{playing ? 'Pausa' : 'Riproduci'}</button>
+			<details class="legend mt-3 text-[11px] text-muted" bind:open={legendOpen}>
+				<summary class="cursor-pointer select-none inline-flex items-center gap-2">Legenda colori <span class="text-muted/70">· trascina per ruotare, pizzica per zoomare</span></summary>
+				<div class="flex flex-wrap gap-x-3 gap-y-1 mt-2">
+					{#each config.legend as [name, color]}<span class="inline-flex items-center gap-1.5"><span class="size-2.5 rounded-full" style="background:{color}"></span>{name}</span>{/each}
 				</div>
-			</figcaption>
+				<div class="flex flex-wrap gap-x-4 gap-y-1 mt-1.5">
+					<span class="inline-flex items-center gap-1.5"><span class="size-2.5 rounded-sm bg-brand-blue"></span>in lavorazione in questo passo</span>
+					<span class="inline-flex items-center gap-1.5"><span class="size-2.5 rounded-sm bg-brand-pink"></span>nuove strutture (sempre in primo piano)</span>
+					<span class="inline-flex items-center gap-1.5"><span class="size-2.5 rounded-sm border border-border opacity-50"></span>rimosso (trasparente)</span>
+				</div>
+			</details>
 		</div>
 
-		<ol class="text-sm self-start space-y-0.5" aria-label="Passi dell'intervento">
-			{#each steps as s, i}
-				<li>
-					<button
-						type="button"
-						aria-current={i === step ? 'step' : undefined}
-						class="w-full text-left rounded-lg px-2.5 py-1.5 transition flex gap-2 {i === step ? 'bg-brand-blue text-on-brand' : 'text-muted hover:text-primary hover:bg-surface'}"
-						onclick={() => (step = i)}
-					>
-						<span class="tabular-nums w-4 shrink-0 text-right">{i}</span><span>{s.title}</span>
-					</button>
-				</li>
-			{/each}
-		</ol>
+		<ProcedureSteps {steps} bind:step bind:playing />
 	</div>
-	<p class="text-[11px] text-muted mt-4 leading-relaxed">{config.credits}</p>
+	<figcaption class="text-[11px] text-muted mt-5 pt-4 border-t border-border leading-relaxed">{config.credits}</figcaption>
 </figure>
 
 <style>
-	.ctrl {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		min-width: 2rem;
-		height: 2rem;
-		border-radius: 9999px;
-		border: 1px solid var(--color-border);
-		color: var(--color-primary);
-		font-size: 0.875rem;
-	}
-	.ctrl:disabled {
-		opacity: 0.35;
-	}
-	.ctrl:not(:disabled):hover,
 	.pill:hover {
 		border-color: var(--color-brand-blue);
 	}
@@ -312,12 +275,25 @@
 		border: 1px solid var(--color-border);
 		background: var(--color-bg);
 		color: var(--color-primary);
-		font-size: 11px;
-		padding: 0.25rem 0.65rem;
+		font-size: 12px;
+		padding: 0.4rem 0.8rem;
 	}
 	.pill[aria-pressed='true'] {
 		background: var(--color-brand-blue);
 		border-color: var(--color-brand-blue);
 		color: var(--color-on-brand);
+	}
+	.legend > summary {
+		list-style: none;
+	}
+	.legend > summary::-webkit-details-marker {
+		display: none;
+	}
+	.legend > summary::before {
+		content: '▸';
+		transition: transform 0.2s;
+	}
+	.legend[open] > summary::before {
+		transform: rotate(90deg);
 	}
 </style>
